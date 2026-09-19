@@ -1,0 +1,3871 @@
+{
+  "metadata": {
+    "total": 1995,
+    "page": 31,
+    "limit": 50
+  },
+  "hits": [
+    {
+      "uid": "WOS:000354921400111",
+      "title": "Origin and Population Dynamics of a Novel HIV-1 Subtype G Clade Circulating in Cape Verde and Portugal",
+      "types": [
+        "Article"
+      ],
+      "sourceTypes": [
+        "Article"
+      ],
+      "source": {
+        "sourceTitle": "PLOS ONE",
+        "publishYear": 2015,
+        "publishMonth": "MAY 20",
+        "volume": "10",
+        "issue": "5",
+        "articleNumber": "e0127384",
+        "pages": {
+          "count": 16
+        }
+      },
+      "names": {
+        "authors": [
+          {
+            "displayName": "de Pina-Araujo, Isabel Ines M.",
+            "wosStandard": "de Pina-Araujo, IIM",
+            "researcherId": "CMC-5783-2022"
+          },
+          {
+            "displayName": "Delatorre, Edson",
+            "wosStandard": "Delatorre, E",
+            "researcherId": "J-8330-2015"
+          },
+          {
+            "displayName": "Guimaraes, Monick L.",
+            "wosStandard": "Guimaraes, ML",
+            "researcherId": "MVQ-0803-2025"
+          },
+          {
+            "displayName": "Morgado, Mariza G.",
+            "wosStandard": "Morgado, MG",
+            "researcherId": "B-4795-2017"
+          },
+          {
+            "displayName": "Bello, Gonzalo",
+            "wosStandard": "Bello, G",
+            "researcherId": "E-6842-2013"
+          }
+        ]
+      },
+      "links": {
+        "record": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000354921400111&DestLinkType=FullRecord&DestApp=WOS_CPL",
+        "references": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000354921400111&DestLinkType=CitedReferences&DestApp=WOS",
+        "related": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000354921400111&DestLinkType=RelatedRecords&DestApp=WOS_CPL"
+      },
+      "citations": [],
+      "identifiers": {
+        "doi": "10.1371/journal.pone.0127384",
+        "issn": "1932-6203",
+        "pmid": "25993094"
+      },
+      "keywords": {
+        "authorKeywords": []
+      }
+    },
+    {
+      "uid": "WOS:000354388500012",
+      "title": "Molecular characterization of group A rotavirus strains detected in children with diarrhea admitted to Nigerian hospitals in 2013",
+      "types": [
+        "Article"
+      ],
+      "sourceTypes": [
+        "Article"
+      ],
+      "source": {
+        "sourceTitle": "ARCHIVES OF VIROLOGY",
+        "publishYear": 2015,
+        "publishMonth": "JUN",
+        "volume": "160",
+        "issue": "6",
+        "pages": {
+          "range": "1511-1517",
+          "begin": "1511",
+          "end": "1517",
+          "count": 7
+        }
+      },
+      "names": {
+        "authors": [
+          {
+            "displayName": "Ianiro, Giovanni",
+            "wosStandard": "Ianiro, G",
+            "researcherId": "H-9259-2016"
+          },
+          {
+            "displayName": "Delogu, Roberto",
+            "wosStandard": "Delogu, R",
+            "researcherId": "DWH-3861-2022"
+          },
+          {
+            "displayName": "Baba, Marycelin",
+            "wosStandard": "Baba, M",
+            "researcherId": "GCH-5430-2022"
+          },
+          {
+            "displayName": "Oderinde, Bamidele S.",
+            "wosStandard": "Oderinde, BS",
+            "researcherId": "FQE-3928-2022"
+          },
+          {
+            "displayName": "Dawurung, Joshua",
+            "wosStandard": "Dawurung, J",
+            "researcherId": "EQS-0583-2022"
+          },
+          {
+            "displayName": "Ruggeri, Franco Maria",
+            "wosStandard": "Ruggeri, FM",
+            "researcherId": "B-5707-2013"
+          },
+          {
+            "displayName": "Fiore, Lucia",
+            "wosStandard": "Fiore, L",
+            "researcherId": "ETF-2737-2022"
+          }
+        ]
+      },
+      "links": {
+        "record": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000354388500012&DestLinkType=FullRecord&DestApp=WOS_CPL",
+        "references": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000354388500012&DestLinkType=CitedReferences&DestApp=WOS",
+        "related": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000354388500012&DestLinkType=RelatedRecords&DestApp=WOS_CPL"
+      },
+      "citations": [],
+      "identifiers": {
+        "doi": "10.1007/s00705-015-2389-z",
+        "issn": "0304-8608",
+        "eissn": "1432-8798",
+        "pmid": "25772575"
+      },
+      "keywords": {
+        "authorKeywords": [
+          "Group A rotavirus",
+          "Sequence",
+          "Nigeria",
+          "Diarrhea",
+          "Human",
+          "VP7",
+          "VP4"
+        ]
+      }
+    },
+    {
+      "uid": "WOS:000354389300006",
+      "title": "Prevalence of Rotaviruses Groups A and C in Egyptian Children and Aquatic Environment",
+      "types": [
+        "Article"
+      ],
+      "sourceTypes": [
+        "Article"
+      ],
+      "source": {
+        "sourceTitle": "FOOD AND ENVIRONMENTAL VIROLOGY",
+        "publishYear": 2015,
+        "publishMonth": "JUN",
+        "volume": "7",
+        "issue": "2",
+        "specialIssue": "SI",
+        "pages": {
+          "range": "132-141",
+          "begin": "132",
+          "end": "141",
+          "count": 10
+        }
+      },
+      "names": {
+        "authors": [
+          {
+            "displayName": "El-Senousy, Waled Morsy",
+            "wosStandard": "El-Senousy, WM",
+            "researcherId": "AAH-1402-2021"
+          },
+          {
+            "displayName": "Ragab, Ahmed Mohammed El-Sayed",
+            "wosStandard": "Ragab, AME",
+            "researcherId": "MTQ-2080-2025"
+          },
+          {
+            "displayName": "Handak, Eman Mohammed Abd El Hamed",
+            "wosStandard": "Handak, EMA",
+            "researcherId": "MVY-3506-2025"
+          }
+        ]
+      },
+      "links": {
+        "record": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000354389300006&DestLinkType=FullRecord&DestApp=WOS_CPL",
+        "references": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000354389300006&DestLinkType=CitedReferences&DestApp=WOS",
+        "related": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000354389300006&DestLinkType=RelatedRecords&DestApp=WOS_CPL"
+      },
+      "citations": [],
+      "identifiers": {
+        "doi": "10.1007/s12560-015-9184-6",
+        "issn": "1867-0334",
+        "eissn": "1867-0342"
+      },
+      "keywords": {
+        "authorKeywords": [
+          "Rotavirus group A",
+          "Rotavirus group C",
+          "Wastewater treatment plant",
+          "Water treatment plant",
+          "Diarrhea",
+          "Real-time RT-PCR"
+        ]
+      }
+    },
+    {
+      "uid": "WOS:000353695000017",
+      "title": "Viral Genetic Diversity and Polymorphisms in a Cohort of HIV-1-Infected Patients Eligible for Initiation of Antiretroviral Therapy in Abuja, Nigeria",
+      "types": [
+        "Article"
+      ],
+      "sourceTypes": [
+        "Article"
+      ],
+      "source": {
+        "sourceTitle": "AIDS RESEARCH AND HUMAN RETROVIRUSES",
+        "publishYear": 2015,
+        "publishMonth": "MAY 1",
+        "volume": "31",
+        "issue": "5",
+        "pages": {
+          "range": "564-575",
+          "begin": "564",
+          "end": "575",
+          "count": 12
+        }
+      },
+      "names": {
+        "authors": [
+          {
+            "displayName": "Diallo, Karidia",
+            "wosStandard": "Diallo, K",
+            "researcherId": "CMJ-7461-2022"
+          },
+          {
+            "displayName": "Zheng, Du-Ping",
+            "wosStandard": "Zheng, DP",
+            "researcherId": "CKL-1229-2022"
+          },
+          {
+            "displayName": "Rottinghaus, Erin K.",
+            "wosStandard": "Rottinghaus, EK",
+            "researcherId": "FTX-0149-2022"
+          },
+          {
+            "displayName": "Bassey, Orji",
+            "wosStandard": "Bassey, O",
+            "researcherId": "EPZ-4280-2022"
+          },
+          {
+            "displayName": "Yang, Chunfu",
+            "wosStandard": "Yang, CF",
+            "researcherId": "ITG-9378-2023"
+          }
+        ]
+      },
+      "links": {
+        "record": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000353695000017&DestLinkType=FullRecord&DestApp=WOS_CPL",
+        "references": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000353695000017&DestLinkType=CitedReferences&DestApp=WOS",
+        "related": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000353695000017&DestLinkType=RelatedRecords&DestApp=WOS_CPL"
+      },
+      "citations": [],
+      "identifiers": {
+        "doi": "10.1089/aid.2014.0168",
+        "issn": "0889-2229",
+        "eissn": "1931-8405",
+        "pmid": "25582324"
+      },
+      "keywords": {
+        "authorKeywords": []
+      }
+    },
+    {
+      "uid": "WOS:000353534000003",
+      "title": "Persistence of chloroquine-resistant haplotypes of <i>Plasmodium falciparum</i> in children with uncomplicated Malaria in Lagos, Nigeria, four years after change of chloroquine as first-line antimalarial medicine",
+      "types": [
+        "Article"
+      ],
+      "sourceTypes": [
+        "Article"
+      ],
+      "source": {
+        "sourceTitle": "Diagnostic Pathology",
+        "publishYear": 2015,
+        "publishMonth": "APR 28",
+        "volume": "10",
+        "articleNumber": "41",
+        "pages": {
+          "count": 8
+        }
+      },
+      "names": {
+        "authors": [
+          {
+            "displayName": "Oladipo, Oladosu O.",
+            "wosStandard": "Oladipo, OO",
+            "researcherId": "DKG-4416-2022"
+          },
+          {
+            "displayName": "Wellington, Oyibo A.",
+            "wosStandard": "Wellington, OA",
+            "researcherId": "DYC-8404-2022"
+          },
+          {
+            "displayName": "Sutherland, Colin J.",
+            "wosStandard": "Sutherland, CJ",
+            "researcherId": "AAN-3939-2020"
+          }
+        ]
+      },
+      "links": {
+        "record": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000353534000003&DestLinkType=FullRecord&DestApp=WOS_CPL",
+        "references": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000353534000003&DestLinkType=CitedReferences&DestApp=WOS",
+        "related": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000353534000003&DestLinkType=RelatedRecords&DestApp=WOS_CPL"
+      },
+      "citations": [],
+      "identifiers": {
+        "doi": "10.1186/s13000-015-0276-2",
+        "issn": "1746-1596",
+        "pmid": "25928117"
+      },
+      "keywords": {
+        "authorKeywords": []
+      }
+    },
+    {
+      "uid": "WOS:000352723200041",
+      "title": "Absence of detectable benzimidazole-resistance associated alleles in <i>Haemonchus placei</i> in cattle in Nigeria revealed by pyrosequencing of β-tubulin isotype 1",
+      "types": [
+        "Article"
+      ],
+      "sourceTypes": [
+        "Article"
+      ],
+      "source": {
+        "sourceTitle": "PARASITOLOGY RESEARCH",
+        "publishYear": 2015,
+        "publishMonth": "MAY",
+        "volume": "114",
+        "issue": "5",
+        "pages": {
+          "range": "1997-2001",
+          "begin": "1997",
+          "end": "2001",
+          "count": 5
+        }
+      },
+      "names": {
+        "authors": [
+          {
+            "displayName": "Ademola, Isaiah O.",
+            "wosStandard": "Ademola, IO",
+            "researcherId": "EJL-9634-2022"
+          },
+          {
+            "displayName": "Kruecken, Juergen",
+            "wosStandard": "Krücken, J",
+            "researcherId": "CAF-6903-2022"
+          },
+          {
+            "displayName": "Ramuenke, Sabrina",
+            "wosStandard": "Ramünke, S",
+            "researcherId": "GCK-4213-2022"
+          },
+          {
+            "displayName": "Demeler, Janina",
+            "wosStandard": "Demeler, J",
+            "researcherId": "AAO-4336-2020"
+          },
+          {
+            "displayName": "von Samson-Himmelstjerna, Georg",
+            "wosStandard": "von Samson-Himmelstjerna, G",
+            "researcherId": "R-1123-2016"
+          }
+        ]
+      },
+      "links": {
+        "record": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000352723200041&DestLinkType=FullRecord&DestApp=WOS_CPL",
+        "references": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000352723200041&DestLinkType=CitedReferences&DestApp=WOS",
+        "related": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000352723200041&DestLinkType=RelatedRecords&DestApp=WOS_CPL"
+      },
+      "citations": [],
+      "identifiers": {
+        "doi": "10.1007/s00436-015-4406-2",
+        "issn": "0932-0113",
+        "eissn": "1432-1955",
+        "pmid": "25782679"
+      },
+      "keywords": {
+        "authorKeywords": [
+          "Haemonchus placei",
+          "Anthelmintic resistance",
+          "Benzimidazole",
+          "beta-Tubulin",
+          "Single-nucleotide polymorphism (SNP)",
+          "Pyrosequencing"
+        ]
+      }
+    },
+    {
+      "uid": "WOS:000353607800023",
+      "title": "Influenza A(H1N1)pdm09 virus in pigs, Togo, 2013",
+      "types": [
+        "Article"
+      ],
+      "sourceTypes": [
+        "Article"
+      ],
+      "source": {
+        "sourceTitle": "VETERINARY MICROBIOLOGY",
+        "publishYear": 2015,
+        "publishMonth": "MAY 15",
+        "volume": "177",
+        "issue": "1-2",
+        "pages": {
+          "range": "201-205",
+          "begin": "201",
+          "end": "205",
+          "count": 5
+        }
+      },
+      "names": {
+        "authors": [
+          {
+            "displayName": "Ducatez, Mariette F.",
+            "wosStandard": "Ducatez, MF",
+            "researcherId": "EXS-7104-2022"
+          },
+          {
+            "displayName": "Awoume, Felix",
+            "wosStandard": "Awoume, F",
+            "researcherId": "ENU-8128-2022"
+          },
+          {
+            "displayName": "Webby, Richard J.",
+            "wosStandard": "Webby, RJ",
+            "researcherId": "N-5657-2018"
+          }
+        ]
+      },
+      "links": {
+        "record": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000353607800023&DestLinkType=FullRecord&DestApp=WOS_CPL",
+        "references": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000353607800023&DestLinkType=CitedReferences&DestApp=WOS",
+        "related": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000353607800023&DestLinkType=RelatedRecords&DestApp=WOS_CPL"
+      },
+      "citations": [],
+      "identifiers": {
+        "doi": "10.1016/j.vetmic.2015.02.028",
+        "issn": "0378-1135",
+        "eissn": "1873-2542",
+        "pmid": "25778544"
+      },
+      "keywords": {
+        "authorKeywords": [
+          "Influenza virus",
+          "H1N1",
+          "Pandemic",
+          "Togo",
+          "Swine",
+          "Interspecies transmission"
+        ]
+      }
+    },
+    {
+      "uid": "WOS:000352713200001",
+      "title": "Circulation of the low pathogenic avian influenza subtype H5N2 virus in ducks at a live bird market in Ibadan, Nigeria",
+      "types": [
+        "Article"
+      ],
+      "sourceTypes": [
+        "Article"
+      ],
+      "source": {
+        "sourceTitle": "INFECTIOUS DISEASES OF POVERTY",
+        "publishYear": 2014,
+        "publishMonth": "NOV 3",
+        "volume": "3",
+        "articleNumber": "38",
+        "pages": {
+          "count": 6
+        }
+      },
+      "names": {
+        "authors": [
+          {
+            "displayName": "Coker, Temitope",
+            "wosStandard": "Coker, T",
+            "researcherId": "MNZ-6872-2025"
+          },
+          {
+            "displayName": "Meseko, Clement",
+            "wosStandard": "Meseko, C",
+            "researcherId": "GDI-3496-2022"
+          },
+          {
+            "displayName": "Odaibo, Georgina",
+            "wosStandard": "Odaibo, G",
+            "researcherId": "FOW-1504-2022"
+          },
+          {
+            "displayName": "Olaleye, David",
+            "wosStandard": "Olaleye, D",
+            "researcherId": "DKP-5898-2022"
+          }
+        ]
+      },
+      "links": {
+        "record": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000352713200001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+        "references": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000352713200001&DestLinkType=CitedReferences&DestApp=WOS",
+        "related": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000352713200001&DestLinkType=RelatedRecords&DestApp=WOS_CPL"
+      },
+      "citations": [],
+      "identifiers": {
+        "doi": "10.1186/2049-9957-3-38",
+        "issn": "2095-5162",
+        "eissn": "2049-9957"
+      },
+      "keywords": {
+        "authorKeywords": [
+          "LPAI H5N2",
+          "Domestic ducks",
+          "Live bird market",
+          "Circulation",
+          "Nigeria"
+        ]
+      }
+    },
+    {
+      "uid": "WOS:000352789200001",
+      "title": "Amino Acid Mutations in Ebola Virus Glycoprotein of the 2014 Epidemic",
+      "types": [
+        "Article"
+      ],
+      "sourceTypes": [
+        "Article"
+      ],
+      "source": {
+        "sourceTitle": "JOURNAL OF MEDICAL VIROLOGY",
+        "publishYear": 2015,
+        "publishMonth": "JUN",
+        "volume": "87",
+        "issue": "6",
+        "pages": {
+          "range": "893-898",
+          "begin": "893",
+          "end": "898",
+          "count": 6
+        }
+      },
+      "names": {
+        "authors": [
+          {
+            "displayName": "Giovanetti, Marta",
+            "wosStandard": "Giovanetti, M",
+            "researcherId": "AAK-7408-2020"
+          },
+          {
+            "displayName": "Grifoni, Alba",
+            "wosStandard": "Grifoni, A",
+            "researcherId": "AAS-7620-2021"
+          },
+          {
+            "displayName": "Lo Presti, Alessandra",
+            "wosStandard": "Lo Presti, A",
+            "researcherId": "K-1451-2016"
+          },
+          {
+            "displayName": "Cella, Eleonora",
+            "wosStandard": "Cella, E",
+            "researcherId": "HPF-3741-2023"
+          },
+          {
+            "displayName": "Montesano, Carla",
+            "wosStandard": "Montesano, C",
+            "researcherId": "DXX-4599-2022"
+          },
+          {
+            "displayName": "Zehender, Gianguglielmo",
+            "wosStandard": "Zehender, G",
+            "researcherId": "CJS-6007-2022"
+          },
+          {
+            "displayName": "Colizzi, Vittorio",
+            "wosStandard": "Colizzi, V",
+            "researcherId": "EQK-5458-2022"
+          },
+          {
+            "displayName": "Amicosante, Massimo",
+            "wosStandard": "Amicosante, M",
+            "researcherId": "DUU-3137-2022"
+          },
+          {
+            "displayName": "Ciccozzi, Massimo",
+            "wosStandard": "Ciccozzi, M",
+            "researcherId": "C-6484-2016"
+          }
+        ]
+      },
+      "links": {
+        "record": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000352789200001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+        "references": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000352789200001&DestLinkType=CitedReferences&DestApp=WOS",
+        "related": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000352789200001&DestLinkType=RelatedRecords&DestApp=WOS_CPL"
+      },
+      "citations": [],
+      "identifiers": {
+        "doi": "10.1002/jmv.24133",
+        "issn": "0146-6615",
+        "eissn": "1096-9071",
+        "pmid": "25783989"
+      },
+      "keywords": {
+        "authorKeywords": [
+          "Ebola virus",
+          "glycoprotein",
+          "evolutionary analysis"
+        ]
+      }
+    },
+    {
+      "uid": "WOS:000352199400111",
+      "title": "Whole Genome Comparisons Suggest Random Distribution of <i>Mycobacterium ulcerans</i> Genotypes in a Buruli Ulcer Endemic Region of Ghana",
+      "types": [
+        "Article"
+      ],
+      "sourceTypes": [
+        "Article"
+      ],
+      "source": {
+        "sourceTitle": "PLOS NEGLECTED TROPICAL DISEASES",
+        "publishYear": 2015,
+        "publishMonth": "MAR",
+        "volume": "9",
+        "issue": "3",
+        "articleNumber": "e0003681",
+        "pages": {
+          "count": 14
+        }
+      },
+      "names": {
+        "authors": [
+          {
+            "displayName": "Ablordey, Anthony S.",
+            "wosStandard": "Ablordey, AS",
+            "researcherId": "AAY-4016-2021"
+          },
+          {
+            "displayName": "Vandelannoote, Koen",
+            "wosStandard": "Vandelannoote, K",
+            "researcherId": "AGK-5719-2022"
+          },
+          {
+            "displayName": "Frimpong, Isaac A.",
+            "wosStandard": "Frimpong, IA",
+            "researcherId": "GOJ-7575-2022"
+          },
+          {
+            "displayName": "Ahortor, Evans K.",
+            "wosStandard": "Ahortor, EK",
+            "researcherId": "FXA-5984-2022"
+          },
+          {
+            "displayName": "Amissah, Nana Ama",
+            "wosStandard": "Amissah, NA",
+            "researcherId": "DTY-9653-2022"
+          },
+          {
+            "displayName": "Eddyani, Miriam",
+            "wosStandard": "Eddyani, M",
+            "researcherId": "CNJ-1783-2022"
+          },
+          {
+            "displayName": "Durnez, Lies",
+            "wosStandard": "Durnez, L",
+            "researcherId": "KCJ-7034-2024"
+          },
+          {
+            "displayName": "Portaels, Francoise",
+            "wosStandard": "Portaels, F",
+            "researcherId": "JGU-5414-2023"
+          },
+          {
+            "displayName": "de Jong, Bouke C.",
+            "wosStandard": "de Jong, BC",
+            "researcherId": "A-3636-2013"
+          },
+          {
+            "displayName": "Leirs, Herwig",
+            "wosStandard": "Leirs, H",
+            "researcherId": "B-8197-2008"
+          },
+          {
+            "displayName": "Porter, Jessica L.",
+            "wosStandard": "Porter, JL",
+            "researcherId": "DML-0520-2022"
+          },
+          {
+            "displayName": "Mangas, Kirstie M.",
+            "wosStandard": "Mangas, KM",
+            "researcherId": "DXK-2374-2022"
+          },
+          {
+            "displayName": "Lam, Margaret M. C.",
+            "wosStandard": "Lam, MMC",
+            "researcherId": "DUS-8844-2022"
+          },
+          {
+            "displayName": "Buultjens, Andrew",
+            "wosStandard": "Buultjens, A",
+            "researcherId": "GVU-2221-2022"
+          },
+          {
+            "displayName": "Seemann, Torsten",
+            "wosStandard": "Seemann, T",
+            "researcherId": "B-2318-2010"
+          },
+          {
+            "displayName": "Tobias, Nicholas J.",
+            "wosStandard": "Tobias, NJ",
+            "researcherId": "GBT-2230-2022"
+          },
+          {
+            "displayName": "Stinear, Timothy P.",
+            "wosStandard": "Stinear, TP",
+            "researcherId": "DWG-9460-2022"
+          }
+        ]
+      },
+      "links": {
+        "record": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000352199400111&DestLinkType=FullRecord&DestApp=WOS_CPL",
+        "references": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000352199400111&DestLinkType=CitedReferences&DestApp=WOS",
+        "related": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000352199400111&DestLinkType=RelatedRecords&DestApp=WOS_CPL"
+      },
+      "citations": [],
+      "identifiers": {
+        "doi": "10.1371/journal.pntd.0003681",
+        "issn": "1935-2735",
+        "pmid": "25826332"
+      },
+      "keywords": {
+        "authorKeywords": []
+      }
+    },
+    {
+      "uid": "WOS:000354917900001",
+      "title": "Prevalence and genetic diversity of endosymbiotic bacteria infecting cassava whiteflies in Africa",
+      "types": [
+        "Article"
+      ],
+      "sourceTypes": [
+        "Article"
+      ],
+      "source": {
+        "sourceTitle": "BMC MICROBIOLOGY",
+        "publishYear": 2015,
+        "publishMonth": "MAY 2",
+        "volume": "15",
+        "articleNumber": "93",
+        "pages": {
+          "count": 17
+        }
+      },
+      "names": {
+        "authors": [
+          {
+            "displayName": "Ghosh, Saptarshi",
+            "wosStandard": "Ghosh, S",
+            "researcherId": "AAL-8653-2020"
+          },
+          {
+            "displayName": "Bouvaine, Sophie",
+            "wosStandard": "Bouvaine, S",
+            "researcherId": "DVN-0518-2022"
+          },
+          {
+            "displayName": "Maruthi, M. N.",
+            "wosStandard": "Maruthi, MN",
+            "researcherId": "A-3507-2008"
+          }
+        ]
+      },
+      "links": {
+        "record": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000354917900001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+        "references": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000354917900001&DestLinkType=CitedReferences&DestApp=WOS",
+        "related": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000354917900001&DestLinkType=RelatedRecords&DestApp=WOS_CPL"
+      },
+      "citations": [],
+      "identifiers": {
+        "doi": "10.1186/s12866-015-0425-5",
+        "issn": "1471-2180",
+        "pmid": "25933928"
+      },
+      "keywords": {
+        "authorKeywords": [
+          "Cassava",
+          "Whitefly",
+          "mtCOI",
+          "Wolbachia",
+          "Rickettsia",
+          "Arsenophonus"
+        ]
+      }
+    },
+    {
+      "uid": "WOS:000351503800001",
+      "title": "Recurrent camouflaged invasions and dispersal of an Asian freshwater gastropod in tropical Africa",
+      "types": [
+        "Article"
+      ],
+      "sourceTypes": [
+        "Article"
+      ],
+      "source": {
+        "sourceTitle": "BMC EVOLUTIONARY BIOLOGY",
+        "publishYear": 2015,
+        "publishMonth": "MAR 7",
+        "volume": "15",
+        "articleNumber": "33",
+        "pages": {
+          "count": 18
+        }
+      },
+      "names": {
+        "authors": [
+          {
+            "displayName": "Van Bocxlaer, Bert",
+            "wosStandard": "Van Bocxlaer, B",
+            "researcherId": "N-1965-2016"
+          },
+          {
+            "displayName": "Clewing, Catharina",
+            "wosStandard": "Clewing, C",
+            "researcherId": "CJZ-3252-2022"
+          },
+          {
+            "displayName": "Etimosundja, Jean-Papy Mongindo",
+            "wosStandard": "Etimosundja, JPM",
+            "researcherId": "COJ-7664-2022"
+          },
+          {
+            "displayName": "Kankonda, Alidor",
+            "wosStandard": "Kankonda, A",
+            "researcherId": "FZU-0418-2022"
+          },
+          {
+            "displayName": "Ndeo, Oscar Wembo",
+            "wosStandard": "Ndeo, OW",
+            "researcherId": "FNX-5835-2022"
+          },
+          {
+            "displayName": "Albrecht, Christian",
+            "wosStandard": "Albrecht, C",
+            "researcherId": "AFV-5313-2022"
+          }
+        ]
+      },
+      "links": {
+        "record": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000351503800001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+        "references": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000351503800001&DestLinkType=CitedReferences&DestApp=WOS",
+        "related": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000351503800001&DestLinkType=RelatedRecords&DestApp=WOS_CPL"
+      },
+      "citations": [],
+      "identifiers": {
+        "doi": "10.1186/s12862-015-0296-2",
+        "issn": "1471-2148",
+        "pmid": "25886047"
+      },
+      "keywords": {
+        "authorKeywords": [
+          "Phylogeny",
+          "Morphology",
+          "Ancient Lakes Malawi and Tanganyika",
+          "Congo River",
+          "Melanoides tuberculata",
+          "Biogeography",
+          "Ecosystem change",
+          "Anthropogenic stressor",
+          "Feedback mechanisms"
+        ]
+      }
+    },
+    {
+      "uid": "WOS:000350932900036",
+      "title": "Molecular diversity in castor (<i>Ricinus communis</i> L.)",
+      "types": [
+        "Article"
+      ],
+      "sourceTypes": [
+        "Article"
+      ],
+      "source": {
+        "sourceTitle": "INDUSTRIAL CROPS AND PRODUCTS",
+        "publishYear": 2015,
+        "publishMonth": "APR",
+        "volume": "66",
+        "pages": {
+          "range": "271-281",
+          "begin": "271",
+          "end": "281",
+          "count": 11
+        }
+      },
+      "names": {
+        "authors": [
+          {
+            "displayName": "Kallamadi, Prathap Reddy",
+            "wosStandard": "Kallamadi, PR",
+            "researcherId": "DWK-6793-2022"
+          },
+          {
+            "displayName": "Nadigatla, V. P. R. Ganga Rao",
+            "wosStandard": "Nadigatla, VPRGR",
+            "researcherId": "DIY-7497-2022"
+          },
+          {
+            "displayName": "Mulpuri, Sujatha",
+            "wosStandard": "Mulpuri, S",
+            "researcherId": "IXX-2540-2023"
+          }
+        ]
+      },
+      "links": {
+        "record": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000350932900036&DestLinkType=FullRecord&DestApp=WOS_CPL",
+        "references": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000350932900036&DestLinkType=CitedReferences&DestApp=WOS",
+        "related": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000350932900036&DestLinkType=RelatedRecords&DestApp=WOS_CPL"
+      },
+      "citations": [],
+      "identifiers": {
+        "doi": "10.1016/j.indcrop.2014.12.061",
+        "issn": "0926-6690",
+        "eissn": "1872-633X"
+      },
+      "keywords": {
+        "authorKeywords": [
+          "Castor",
+          "Genetic diversity",
+          "ISSR",
+          "Molecular markers",
+          "RAPD",
+          "SCoT"
+        ]
+      }
+    },
+    {
+      "uid": "WOS:000350295300005",
+      "title": "Enterovirus C strains circulating in Nigeria and their contribution to the emergence of recombinant circulating vaccine-derived polioviruses",
+      "types": [
+        "Article"
+      ],
+      "sourceTypes": [
+        "Article"
+      ],
+      "source": {
+        "sourceTitle": "ARCHIVES OF VIROLOGY",
+        "publishYear": 2015,
+        "publishMonth": "MAR",
+        "volume": "160",
+        "issue": "3",
+        "pages": {
+          "range": "675-683",
+          "begin": "675",
+          "end": "683",
+          "count": 9
+        }
+      },
+      "names": {
+        "authors": [
+          {
+            "displayName": "Adeniji, Johnson Adekunle",
+            "wosStandard": "Adeniji, JA",
+            "researcherId": "DTO-8317-2022"
+          },
+          {
+            "displayName": "Faleye, Temitope Oluwasegun Cephas",
+            "wosStandard": "Faleye, TOC",
+            "researcherId": "K-3143-2015"
+          }
+        ]
+      },
+      "links": {
+        "record": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000350295300005&DestLinkType=FullRecord&DestApp=WOS_CPL",
+        "references": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000350295300005&DestLinkType=CitedReferences&DestApp=WOS",
+        "related": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000350295300005&DestLinkType=RelatedRecords&DestApp=WOS_CPL"
+      },
+      "citations": [],
+      "identifiers": {
+        "doi": "10.1007/s00705-014-2322-x",
+        "issn": "0304-8608",
+        "eissn": "1432-8798",
+        "pmid": "25559670"
+      },
+      "keywords": {
+        "authorKeywords": []
+      }
+    },
+    {
+      "uid": "WOS:000350286800006",
+      "title": "Genetic association studies of obesity in Africa: a systematic review",
+      "types": [
+        "Review"
+      ],
+      "sourceTypes": [
+        "Review"
+      ],
+      "source": {
+        "sourceTitle": "OBESITY REVIEWS",
+        "publishYear": 2015,
+        "publishMonth": "MAR",
+        "volume": "16",
+        "issue": "3",
+        "pages": {
+          "range": "259-272",
+          "begin": "259",
+          "end": "272",
+          "count": 14
+        }
+      },
+      "names": {
+        "authors": [
+          {
+            "displayName": "Yako, Y. Y.",
+            "wosStandard": "Yako, YY",
+            "researcherId": "EEO-2284-2022"
+          },
+          {
+            "displayName": "Echouffo-Tcheugui, J. B.",
+            "wosStandard": "Echouffo-Tcheugui, JB",
+            "researcherId": "AGD-6195-2022"
+          },
+          {
+            "displayName": "Balti, E. V.",
+            "wosStandard": "Balti, EV",
+            "researcherId": "H-5630-2019"
+          },
+          {
+            "displayName": "Matsha, T. E.",
+            "wosStandard": "Matsha, TE",
+            "researcherId": "DWZ-5106-2022"
+          },
+          {
+            "displayName": "Sobngwi, E.",
+            "wosStandard": "Sobngwi, E",
+            "researcherId": "KUJ-8654-2024"
+          },
+          {
+            "displayName": "Erasmus, R. T.",
+            "wosStandard": "Erasmus, RT",
+            "researcherId": "IRT-2984-2023"
+          },
+          {
+            "displayName": "Kengne, A. P.",
+            "wosStandard": "Kengne, AP",
+            "researcherId": "ABB-3696-2020"
+          }
+        ]
+      },
+      "links": {
+        "record": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000350286800006&DestLinkType=FullRecord&DestApp=WOS_CPL",
+        "references": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000350286800006&DestLinkType=CitedReferences&DestApp=WOS",
+        "related": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000350286800006&DestLinkType=RelatedRecords&DestApp=WOS_CPL"
+      },
+      "citations": [],
+      "identifiers": {
+        "doi": "10.1111/obr.12260",
+        "issn": "1467-7881",
+        "eissn": "1467-789X",
+        "pmid": "25641693"
+      },
+      "keywords": {
+        "authorKeywords": [
+          "Africa",
+          "body mass index",
+          "genetics",
+          "obesity"
+        ]
+      }
+    },
+    {
+      "uid": "WOS:000351869400009",
+      "title": "Sequencing and Phylogenetic Analysis of Near Full-Length HIV-1 Subtypes A, B, G and Unique Recombinant AC and AD Viral Strains Identified in South Africa",
+      "types": [
+        "Article"
+      ],
+      "sourceTypes": [
+        "Article"
+      ],
+      "source": {
+        "sourceTitle": "AIDS RESEARCH AND HUMAN RETROVIRUSES",
+        "publishYear": 2015,
+        "publishMonth": "APR 1",
+        "volume": "31",
+        "issue": "4",
+        "pages": {
+          "range": "412-420",
+          "begin": "412",
+          "end": "420",
+          "count": 9
+        }
+      },
+      "names": {
+        "authors": [
+          {
+            "displayName": "Wilkinson, Eduan",
+            "wosStandard": "Wilkinson, E",
+            "researcherId": "DYW-2840-2022"
+          },
+          {
+            "displayName": "Holzmayer, Vera",
+            "wosStandard": "Holzmayer, V",
+            "researcherId": "EYT-0047-2022"
+          },
+          {
+            "displayName": "Jacobs, Graeme B.",
+            "wosStandard": "Jacobs, GB",
+            "researcherId": "GFQ-0462-2022"
+          },
+          {
+            "displayName": "de Oliveira, Tulio",
+            "wosStandard": "de Oliveira, T",
+            "researcherId": "ESB-0360-2022"
+          },
+          {
+            "displayName": "Brennan, Catherine A.",
+            "wosStandard": "Brennan, CA",
+            "researcherId": "DSZ-2267-2022"
+          },
+          {
+            "displayName": "Hackett, John, Jr.",
+            "wosStandard": "Hackett, J",
+            "researcherId": "J-3871-2019"
+          },
+          {
+            "displayName": "van Rensburg, Estrelita Janse",
+            "wosStandard": "van Rensburg, EJ",
+            "researcherId": "ECL-4881-2022"
+          },
+          {
+            "displayName": "Engelbrecht, Susan",
+            "wosStandard": "Engelbrecht, S",
+            "researcherId": "G-7286-2011"
+          }
+        ]
+      },
+      "links": {
+        "record": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000351869400009&DestLinkType=FullRecord&DestApp=WOS_CPL",
+        "references": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000351869400009&DestLinkType=CitedReferences&DestApp=WOS",
+        "related": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000351869400009&DestLinkType=RelatedRecords&DestApp=WOS_CPL"
+      },
+      "citations": [],
+      "identifiers": {
+        "doi": "10.1089/aid.2014.0230",
+        "issn": "0889-2229",
+        "eissn": "1931-8405",
+        "pmid": "25492033"
+      },
+      "keywords": {
+        "authorKeywords": []
+      }
+    },
+    {
+      "uid": "WOS:000361046400003",
+      "title": "SCAN database: facilitating integrative analyses of cytosine modification and expression QTL",
+      "types": [
+        "Article"
+      ],
+      "sourceTypes": [
+        "Article"
+      ],
+      "source": {
+        "sourceTitle": "DATABASE-THE JOURNAL OF BIOLOGICAL DATABASES AND CURATION",
+        "publishYear": 2015,
+        "publishMonth": "MAR 27",
+        "articleNumber": "bav025",
+        "pages": {
+          "count": 7
+        }
+      },
+      "names": {
+        "authors": [
+          {
+            "displayName": "Zhang, Wei",
+            "wosStandard": "Zhang, W",
+            "researcherId": "KBK-4541-2024"
+          },
+          {
+            "displayName": "Gamazon, Eric R.",
+            "wosStandard": "Gamazon, ER",
+            "researcherId": "I-6873-2018"
+          },
+          {
+            "displayName": "Zhang, Xu",
+            "wosStandard": "Zhang, X",
+            "researcherId": "GLK-2775-2022"
+          },
+          {
+            "displayName": "Konkashbaev, Anuar",
+            "wosStandard": "Konkashbaev, A",
+            "researcherId": "FFF-1876-2022"
+          },
+          {
+            "displayName": "Liu, Cong",
+            "wosStandard": "Liu, C",
+            "researcherId": "G-7561-2012"
+          },
+          {
+            "displayName": "Szilagyi, Keely L.",
+            "wosStandard": "Szilágyi, KL",
+            "researcherId": "DYA-9460-2022"
+          },
+          {
+            "displayName": "Dolan, M. Eileen",
+            "wosStandard": "Dolan, ME",
+            "researcherId": "GAU-8126-2022"
+          },
+          {
+            "displayName": "Cox, Nancy J.",
+            "wosStandard": "Cox, NJ",
+            "researcherId": "JZN-8568-2024"
+          }
+        ]
+      },
+      "links": {
+        "record": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000361046400003&DestLinkType=FullRecord&DestApp=WOS_CPL",
+        "references": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000361046400003&DestLinkType=CitedReferences&DestApp=WOS",
+        "related": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000361046400003&DestLinkType=RelatedRecords&DestApp=WOS_CPL"
+      },
+      "citations": [],
+      "identifiers": {
+        "doi": "10.1093/database/bav025",
+        "issn": "1758-0463",
+        "pmid": "25818895"
+      },
+      "keywords": {
+        "authorKeywords": []
+      }
+    },
+    {
+      "uid": "WOS:000349874100008",
+      "title": "Mitochondrial Haplotype-Based Identification of Ethanol-Preserved Root-Knot Nematodes from Africa",
+      "types": [
+        "Article"
+      ],
+      "sourceTypes": [
+        "Article"
+      ],
+      "source": {
+        "sourceTitle": "PHYTOPATHOLOGY",
+        "publishYear": 2015,
+        "publishMonth": "MAR",
+        "volume": "105",
+        "issue": "3",
+        "pages": {
+          "range": "350-357",
+          "begin": "350",
+          "end": "357",
+          "count": 8
+        }
+      },
+      "names": {
+        "authors": [
+          {
+            "displayName": "Pagan, Chris",
+            "wosStandard": "Pagan, C",
+            "researcherId": "FQO-0368-2022"
+          },
+          {
+            "displayName": "Coyne, Danny",
+            "wosStandard": "Coyne, D",
+            "researcherId": "GBK-6720-2022"
+          },
+          {
+            "displayName": "Carneiro, Regina",
+            "wosStandard": "Carneiro, R",
+            "researcherId": "ENW-1644-2022"
+          },
+          {
+            "displayName": "Kariuki, George",
+            "wosStandard": "Kariuki, G",
+            "researcherId": "FCN-1025-2022"
+          },
+          {
+            "displayName": "Luambano, Nessie",
+            "wosStandard": "Luambano, N",
+            "researcherId": "GAF-8205-2022"
+          },
+          {
+            "displayName": "Affokpon, Antoine",
+            "wosStandard": "Affokpon, A",
+            "researcherId": "ADR-6327-2022"
+          },
+          {
+            "displayName": "Williamson, Valerie M.",
+            "wosStandard": "Williamson, VM",
+            "researcherId": "CHF-9222-2022"
+          }
+        ]
+      },
+      "links": {
+        "record": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000349874100008&DestLinkType=FullRecord&DestApp=WOS_CPL",
+        "references": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000349874100008&DestLinkType=CitedReferences&DestApp=WOS",
+        "related": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000349874100008&DestLinkType=RelatedRecords&DestApp=WOS_CPL"
+      },
+      "citations": [],
+      "identifiers": {
+        "doi": "10.1094/PHYTO-08-14-0225-R",
+        "issn": "0031-949X",
+        "eissn": "1943-7684",
+        "pmid": "25271352"
+      },
+      "keywords": {
+        "authorKeywords": []
+      }
+    },
+    {
+      "uid": "WOS:000350089200010",
+      "title": "Molecular epidemiology of dengue fever cases imported into Romania between 2008 and 2013",
+      "types": [
+        "Article"
+      ],
+      "sourceTypes": [
+        "Article"
+      ],
+      "source": {
+        "sourceTitle": "TRAVEL MEDICINE AND INFECTIOUS DISEASE",
+        "publishYear": 2015,
+        "publishMonth": "JAN-FEB",
+        "volume": "13",
+        "issue": "1",
+        "pages": {
+          "range": "69-73",
+          "begin": "69",
+          "end": "73",
+          "count": 5
+        }
+      },
+      "names": {
+        "authors": [
+          {
+            "displayName": "Dinu, Sorin",
+            "wosStandard": "Dinu, S",
+            "researcherId": "ABC-4001-2020"
+          },
+          {
+            "displayName": "Panculescu-Gatej, Loana R.",
+            "wosStandard": "Panculescu-Gatej, LR",
+            "researcherId": "DLO-6594-2022"
+          },
+          {
+            "displayName": "Florescu, Simin A.",
+            "wosStandard": "Florescu, SA",
+            "researcherId": "LRT-6259-2024"
+          },
+          {
+            "displayName": "Popescu, Corneliu P.",
+            "wosStandard": "Popescu, CP",
+            "researcherId": "I-1026-2014"
+          },
+          {
+            "displayName": "Sirbu, Anca",
+            "wosStandard": "Sîrbu, A",
+            "researcherId": "DSV-0672-2022"
+          },
+          {
+            "displayName": "Oprisan, Gabriela",
+            "wosStandard": "Oprisan, G",
+            "researcherId": "AAF-6216-2019"
+          },
+          {
+            "displayName": "Baclescu, Daniela",
+            "wosStandard": "Baclescu, D",
+            "researcherId": "EKJ-8250-2022"
+          },
+          {
+            "displayName": "Franco, Leticia",
+            "wosStandard": "Franco, L",
+            "researcherId": "KOC-1813-2024"
+          },
+          {
+            "displayName": "Ceianu, Cornelia S.",
+            "wosStandard": "Ceianu, CS",
+            "researcherId": "A-7423-2018"
+          }
+        ]
+      },
+      "links": {
+        "record": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000350089200010&DestLinkType=FullRecord&DestApp=WOS_CPL",
+        "references": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000350089200010&DestLinkType=CitedReferences&DestApp=WOS",
+        "related": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000350089200010&DestLinkType=RelatedRecords&DestApp=WOS_CPL"
+      },
+      "citations": [],
+      "identifiers": {
+        "doi": "10.1016/j.tmaid.2014.11.001",
+        "issn": "1477-8939",
+        "eissn": "1873-0442",
+        "pmid": "25468524"
+      },
+      "keywords": {
+        "authorKeywords": [
+          "Mosquito-borne infection",
+          "Dengue viruses",
+          "RT-PCR",
+          "DNA sequencing",
+          "Phylogenetic analysis"
+        ]
+      }
+    },
+    {
+      "uid": "WOS:000351477000038",
+      "title": "Genome-wide ancestry of 17th-century enslaved Africans from the Caribbean",
+      "types": [
+        "Article"
+      ],
+      "sourceTypes": [
+        "Article"
+      ],
+      "source": {
+        "sourceTitle": "PROCEEDINGS OF THE NATIONAL ACADEMY OF SCIENCES OF THE UNITED STATES OF AMERICA",
+        "publishYear": 2015,
+        "publishMonth": "MAR 24",
+        "volume": "112",
+        "issue": "12",
+        "pages": {
+          "range": "3669-3673",
+          "begin": "3669",
+          "end": "3673",
+          "count": 5
+        }
+      },
+      "names": {
+        "authors": [
+          {
+            "displayName": "Schroeder, Hannes",
+            "wosStandard": "Schroeder, H",
+            "researcherId": "MZQ-3627-2025"
+          },
+          {
+            "displayName": "Avila-Arcos, Maria C.",
+            "wosStandard": "Avila-Arcos, MC",
+            "researcherId": "AGZ-3897-2022"
+          },
+          {
+            "displayName": "Malaspinas, Anna-Sapfo",
+            "wosStandard": "Malaspinas, AS",
+            "researcherId": "DVL-4135-2022"
+          },
+          {
+            "displayName": "Poznik, G. David",
+            "wosStandard": "Poznik, GD",
+            "researcherId": "DMW-6193-2022"
+          },
+          {
+            "displayName": "Sandoval-Velasco, Marcela",
+            "wosStandard": "Sandoval-Velasco, M",
+            "researcherId": "AAS-6478-2021"
+          },
+          {
+            "displayName": "Carpenter, Meredith L.",
+            "wosStandard": "Carpenter, ML",
+            "researcherId": "B-4290-2011"
+          },
+          {
+            "displayName": "Moreno-Mayar, Jose Victor",
+            "wosStandard": "Moreno-Mayar, JV",
+            "researcherId": "AAB-3732-2022"
+          },
+          {
+            "displayName": "Sikora, Martin",
+            "wosStandard": "Sikora, M",
+            "researcherId": "C-8609-2015"
+          },
+          {
+            "displayName": "Johnson, Philip L. F.",
+            "wosStandard": "Johnson, PLF",
+            "researcherId": "IRN-4224-2023"
+          },
+          {
+            "displayName": "Allentoft, Morten Erik",
+            "wosStandard": "Allentoft, ME",
+            "researcherId": "DTP-0908-2022"
+          },
+          {
+            "displayName": "Samaniego, Jose Alfredo",
+            "wosStandard": "Samaniego, JA",
+            "researcherId": "OTK-1710-2025"
+          },
+          {
+            "displayName": "Haviser, Jay B.",
+            "wosStandard": "Haviser, JB",
+            "researcherId": "CUW-0951-2022"
+          },
+          {
+            "displayName": "Dee, Michael W.",
+            "wosStandard": "Dee, MW",
+            "researcherId": "AAU-3258-2020"
+          },
+          {
+            "displayName": "Stafford, Thomas W., Jr.",
+            "wosStandard": "Stafford, TW",
+            "researcherId": "KMN-9793-2024"
+          },
+          {
+            "displayName": "Salas, Antonio",
+            "wosStandard": "Salas, A",
+            "researcherId": "E-3977-2012"
+          },
+          {
+            "displayName": "Orlando, Ludovic",
+            "wosStandard": "Orlando, L",
+            "researcherId": "A-8932-2013"
+          },
+          {
+            "displayName": "Willerslev, Eske",
+            "wosStandard": "Willerslev, E",
+            "researcherId": "A-9619-2011"
+          },
+          {
+            "displayName": "Bustamante, Carlos D.",
+            "wosStandard": "Bustamante, CD",
+            "researcherId": "DWS-6751-2022"
+          },
+          {
+            "displayName": "Gilbert, M. Thomas P.",
+            "wosStandard": "Gilbert, MTP",
+            "researcherId": "A-8936-2013"
+          }
+        ]
+      },
+      "links": {
+        "record": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000351477000038&DestLinkType=FullRecord&DestApp=WOS_CPL",
+        "references": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000351477000038&DestLinkType=CitedReferences&DestApp=WOS",
+        "related": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000351477000038&DestLinkType=RelatedRecords&DestApp=WOS_CPL"
+      },
+      "citations": [],
+      "identifiers": {
+        "doi": "10.1073/pnas.1421784112",
+        "issn": "0027-8424",
+        "pmid": "25755263"
+      },
+      "keywords": {
+        "authorKeywords": [
+          "ancient DNA",
+          "genomics",
+          "slave trade"
+        ]
+      }
+    },
+    {
+      "uid": "WOS:000349392300006",
+      "title": "Insecticide susceptibility of <i>Anopheles coluzzii</i> and <i>Anopheles gambiae</i> mosquitoes in Ibadan, Southwest Nigeria",
+      "types": [
+        "Article"
+      ],
+      "sourceTypes": [
+        "Article"
+      ],
+      "source": {
+        "sourceTitle": "MEDICAL AND VETERINARY ENTOMOLOGY",
+        "publishYear": 2015,
+        "publishMonth": "MAR",
+        "volume": "29",
+        "issue": "1",
+        "pages": {
+          "range": "44-50",
+          "begin": "44",
+          "end": "50",
+          "count": 7
+        }
+      },
+      "names": {
+        "authors": [
+          {
+            "displayName": "Okorie, P. N.",
+            "wosStandard": "Okorie, PN",
+            "researcherId": "FQR-9538-2022"
+          },
+          {
+            "displayName": "Ademowo, O. G.",
+            "wosStandard": "Ademowo, OG",
+            "researcherId": "DUL-0304-2022"
+          },
+          {
+            "displayName": "Irving, H.",
+            "wosStandard": "Irving, H",
+            "researcherId": "IEU-0231-2023"
+          },
+          {
+            "displayName": "Kelly-Hope, L. A.",
+            "wosStandard": "Kelly-Hope, LA",
+            "researcherId": "KVZ-2001-2024"
+          },
+          {
+            "displayName": "Wondji, C. S.",
+            "wosStandard": "Wondji, CS",
+            "researcherId": "DWS-5407-2022"
+          }
+        ]
+      },
+      "links": {
+        "record": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000349392300006&DestLinkType=FullRecord&DestApp=WOS_CPL",
+        "references": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000349392300006&DestLinkType=CitedReferences&DestApp=WOS",
+        "related": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000349392300006&DestLinkType=RelatedRecords&DestApp=WOS_CPL"
+      },
+      "citations": [],
+      "identifiers": {
+        "doi": "10.1111/mve.12089",
+        "issn": "0269-283X",
+        "eissn": "1365-2915",
+        "pmid": "25417803"
+      },
+      "keywords": {
+        "authorKeywords": [
+          "Anopheles coluzzii",
+          "Insecticide susceptibility",
+          "Anopheles gambiae",
+          "Nigeria"
+        ]
+      }
+    },
+    {
+      "uid": "WOS:000349628900003",
+      "title": "Mitochondrial DNA Sequence Analyses and Phylogenetic Relationships Among Two Nigerian Goat Breeds and the South African Kalahari Red",
+      "types": [
+        "Article"
+      ],
+      "sourceTypes": [
+        "Article"
+      ],
+      "source": {
+        "sourceTitle": "ANIMAL BIOTECHNOLOGY",
+        "publishYear": 2015,
+        "publishMonth": "JUL 3",
+        "volume": "26",
+        "issue": "3",
+        "pages": {
+          "range": "180-187",
+          "begin": "180",
+          "end": "187",
+          "count": 8
+        }
+      },
+      "names": {
+        "authors": [
+          {
+            "displayName": "Awotunde, Esther O.",
+            "wosStandard": "Awotunde, EO",
+            "researcherId": "CEC-9708-2022"
+          },
+          {
+            "displayName": "Bemji, Martha N.",
+            "wosStandard": "Bemji, MN",
+            "researcherId": "EKT-3502-2022"
+          },
+          {
+            "displayName": "Olowofeso, Olajide",
+            "wosStandard": "Olowofeso, O",
+            "researcherId": "DMX-5302-2022"
+          },
+          {
+            "displayName": "James, Ikechukwu J.",
+            "wosStandard": "James, IJ",
+            "researcherId": "GCT-8611-2022"
+          },
+          {
+            "displayName": "Ajayi, O. O.",
+            "wosStandard": "Ajayi, OO",
+            "researcherId": "EJO-8164-2022"
+          },
+          {
+            "displayName": "Adebambo, Ayotunde O.",
+            "wosStandard": "Adebambo, AO",
+            "researcherId": "EJL-9703-2022"
+          }
+        ]
+      },
+      "links": {
+        "record": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000349628900003&DestLinkType=FullRecord&DestApp=WOS_CPL",
+        "references": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000349628900003&DestLinkType=CitedReferences&DestApp=WOS",
+        "related": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000349628900003&DestLinkType=RelatedRecords&DestApp=WOS_CPL"
+      },
+      "citations": [],
+      "identifiers": {
+        "doi": "10.1080/10495398.2014.977907",
+        "issn": "1049-5398",
+        "eissn": "1532-2378",
+        "pmid": "25695640"
+      },
+      "keywords": {
+        "authorKeywords": [
+          "Population expansions",
+          "Genetic diversity",
+          "Population structure",
+          "Goats",
+          "Mitochondrial DNA"
+        ]
+      }
+    },
+    {
+      "uid": "WOS:000348216000034",
+      "title": "Oculoleptomeningeal Amyloidosis associated with transthyretin Leu12Pro in an African patient",
+      "types": [
+        "Article"
+      ],
+      "sourceTypes": [
+        "Article"
+      ],
+      "source": {
+        "sourceTitle": "JOURNAL OF NEUROLOGY",
+        "publishYear": 2015,
+        "publishMonth": "JAN",
+        "volume": "262",
+        "issue": "1",
+        "pages": {
+          "range": "228-234",
+          "begin": "228",
+          "end": "234",
+          "count": 7
+        }
+      },
+      "names": {
+        "authors": [
+          {
+            "displayName": "McColgan, P.",
+            "wosStandard": "McColgan, P",
+            "researcherId": "FKI-8243-2022"
+          },
+          {
+            "displayName": "Viegas, S.",
+            "wosStandard": "Viegas, S",
+            "researcherId": "EFB-7552-2022"
+          },
+          {
+            "displayName": "Gandhi, S.",
+            "wosStandard": "Gandhi, S",
+            "researcherId": "GRT-6183-2022"
+          },
+          {
+            "displayName": "Bull, K.",
+            "wosStandard": "Bull, K",
+            "researcherId": "EMW-2304-2022"
+          },
+          {
+            "displayName": "Tudor, R.",
+            "wosStandard": "Tudor, R",
+            "researcherId": "EDD-0462-2022"
+          },
+          {
+            "displayName": "Sheikh, F.",
+            "wosStandard": "Sheikh, F",
+            "researcherId": "MUA-6257-2025"
+          },
+          {
+            "displayName": "Pinney, J.",
+            "wosStandard": "Pinney, J",
+            "researcherId": "FRT-9021-2022"
+          },
+          {
+            "displayName": "Fontana, M.",
+            "wosStandard": "Fontana, M",
+            "researcherId": "ETQ-6467-2022"
+          },
+          {
+            "displayName": "Rowczenio, D.",
+            "wosStandard": "Rowczenio, D",
+            "researcherId": "GCV-3283-2022"
+          },
+          {
+            "displayName": "Gillmore, J. D.",
+            "wosStandard": "Gillmore, JD",
+            "researcherId": "OPK-5503-2025"
+          },
+          {
+            "displayName": "Gilbertson, J. A.",
+            "wosStandard": "Gilbertson, JA",
+            "researcherId": "CST-1612-2022"
+          },
+          {
+            "displayName": "Whelan, C. J.",
+            "wosStandard": "Whelan, CJ",
+            "researcherId": "IQL-8652-2023"
+          },
+          {
+            "displayName": "Shah, S.",
+            "wosStandard": "Shah, S",
+            "researcherId": "DRJ-9563-2022"
+          },
+          {
+            "displayName": "Jaunmuktane, Z.",
+            "wosStandard": "Jaunmuktane, Z",
+            "researcherId": "ABC-9039-2020"
+          },
+          {
+            "displayName": "Holton, J. L.",
+            "wosStandard": "Holton, JL",
+            "researcherId": "F-6831-2011"
+          },
+          {
+            "displayName": "Schott, J. M.",
+            "wosStandard": "Schott, JM",
+            "researcherId": "A-9065-2011"
+          },
+          {
+            "displayName": "Werring, D. J.",
+            "wosStandard": "Werring, DJ",
+            "researcherId": "Q-8435-2019"
+          },
+          {
+            "displayName": "Hawkins, P. N.",
+            "wosStandard": "Hawkins, PN",
+            "researcherId": "C-5573-2008"
+          },
+          {
+            "displayName": "Reilly, M. M.",
+            "wosStandard": "Reilly, MM",
+            "researcherId": "INY-5024-2023"
+          }
+        ]
+      },
+      "links": {
+        "record": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000348216000034&DestLinkType=FullRecord&DestApp=WOS_CPL",
+        "references": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000348216000034&DestLinkType=CitedReferences&DestApp=WOS",
+        "related": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000348216000034&DestLinkType=RelatedRecords&DestApp=WOS_CPL"
+      },
+      "citations": [],
+      "identifiers": {
+        "doi": "10.1007/s00415-014-7594-2",
+        "issn": "0340-5354",
+        "eissn": "1432-1459",
+        "pmid": "25488473"
+      },
+      "keywords": {
+        "authorKeywords": [
+          "Genetics",
+          "Amyloid",
+          "Transthyretin",
+          "Leu12Pro"
+        ]
+      }
+    },
+    {
+      "uid": "WOS:000352199400100",
+      "title": "Lectin Complement Protein Collectin 11 (CL-K1) and Susceptibility to Urinary Schistosomiasis",
+      "types": [
+        "Article"
+      ],
+      "sourceTypes": [
+        "Article"
+      ],
+      "source": {
+        "sourceTitle": "PLOS NEGLECTED TROPICAL DISEASES",
+        "publishYear": 2015,
+        "publishMonth": "MAR",
+        "volume": "9",
+        "issue": "3",
+        "articleNumber": "e0003647",
+        "pages": {
+          "count": 16
+        }
+      },
+      "names": {
+        "authors": [
+          {
+            "displayName": "Antony, Justin S.",
+            "wosStandard": "Antony, JS",
+            "researcherId": "F-3994-2010"
+          },
+          {
+            "displayName": "Ojurongbe, Olusola",
+            "wosStandard": "Ojurongbe, O",
+            "researcherId": "AGS-2115-2022"
+          },
+          {
+            "displayName": "Kremsner, Peter G.",
+            "wosStandard": "Kremsner, PG",
+            "researcherId": "FGI-7003-2022"
+          },
+          {
+            "displayName": "Velavan, Thirumalaisamy P.",
+            "wosStandard": "Velavan, TP",
+            "researcherId": "OZE-6629-2025"
+          }
+        ]
+      },
+      "links": {
+        "record": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000352199400100&DestLinkType=FullRecord&DestApp=WOS_CPL",
+        "references": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000352199400100&DestLinkType=CitedReferences&DestApp=WOS",
+        "related": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000352199400100&DestLinkType=RelatedRecords&DestApp=WOS_CPL"
+      },
+      "citations": [],
+      "identifiers": {
+        "doi": "10.1371/journal.pntd.0003647",
+        "issn": "1935-2735",
+        "pmid": "25807310"
+      },
+      "keywords": {
+        "authorKeywords": []
+      }
+    },
+    {
+      "uid": "WOS:000350632200010",
+      "title": "Extracting transmission networks from phylogeographic data for epidemic and endemic diseases: Ebola virus in Sierra Leone, 2009 H1N1 pandemic influenza and polio in Nigeria",
+      "types": [
+        "Article"
+      ],
+      "sourceTypes": [
+        "Article"
+      ],
+      "source": {
+        "sourceTitle": "INTERNATIONAL HEALTH",
+        "publishYear": 2015,
+        "publishMonth": "MAR",
+        "volume": "7",
+        "issue": "2",
+        "specialIssue": "SI",
+        "pages": {
+          "range": "130-138",
+          "begin": "130",
+          "end": "138",
+          "count": 9
+        }
+      },
+      "names": {
+        "authors": [
+          {
+            "displayName": "Famulare, Michael",
+            "wosStandard": "Famulare, M",
+            "researcherId": "DWB-1516-2022"
+          },
+          {
+            "displayName": "Hu, Hao",
+            "wosStandard": "Hu, H",
+            "researcherId": "CVY-8189-2022"
+          }
+        ]
+      },
+      "links": {
+        "record": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000350632200010&DestLinkType=FullRecord&DestApp=WOS_CPL",
+        "references": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000350632200010&DestLinkType=CitedReferences&DestApp=WOS",
+        "related": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000350632200010&DestLinkType=RelatedRecords&DestApp=WOS_CPL"
+      },
+      "citations": [],
+      "identifiers": {
+        "doi": "10.1093/inthealth/ihv012",
+        "issn": "1876-3413",
+        "eissn": "1876-3405",
+        "pmid": "25733563"
+      },
+      "keywords": {
+        "authorKeywords": [
+          "Computational biology",
+          "Ebola virus",
+          "Epidemiology",
+          "Influenza",
+          "Phylogeography",
+          "Polio"
+        ]
+      }
+    },
+    {
+      "uid": "WOS:000348608200025",
+      "title": "MOLECULAR ANALYSIS OF SOLUTE CARRIER FAMILY 11 MEMBER A1 (SLC11A1) GENE IN RUMINANTS AND NON-RUMINANTS USING COMPUTATIONAL METHOD",
+      "types": [
+        "Article"
+      ],
+      "sourceTypes": [
+        "Article"
+      ],
+      "source": {
+        "sourceTitle": "GENETIKA-BELGRADE",
+        "publishYear": 2014,
+        "volume": "46",
+        "issue": "3",
+        "pages": {
+          "range": "925-934",
+          "begin": "925",
+          "end": "934",
+          "count": 10
+        }
+      },
+      "names": {
+        "authors": [
+          {
+            "displayName": "Yakubu, Abdulmojeed",
+            "wosStandard": "Yakubu, A",
+            "researcherId": "AAC-5047-2019"
+          },
+          {
+            "displayName": "Alade, Daniels Ewaoche",
+            "wosStandard": "Alade, DE",
+            "researcherId": "CAX-3520-2022"
+          },
+          {
+            "displayName": "Dim, Ndubuisi I.",
+            "wosStandard": "Dim, NI",
+            "researcherId": "CNO-9161-2022"
+          }
+        ]
+      },
+      "links": {
+        "record": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000348608200025&DestLinkType=FullRecord&DestApp=WOS_CPL",
+        "references": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000348608200025&DestLinkType=CitedReferences&DestApp=WOS",
+        "related": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000348608200025&DestLinkType=RelatedRecords&DestApp=WOS_CPL"
+      },
+      "citations": [],
+      "identifiers": {
+        "doi": "10.2298/GENSR1403925Y",
+        "issn": "0534-0012",
+        "eissn": "1820-6069"
+      },
+      "keywords": {
+        "authorKeywords": [
+          "functional analysis",
+          "mammals",
+          "polymorphism",
+          "phylogenetic trees.Slc11a1 gene"
+        ]
+      }
+    },
+    {
+      "uid": "WOS:000348155500001",
+      "title": "The population genetics of wild chimpanzees in Cameroon and Nigeria suggests a positive role for selection in the evolution of chimpanzee subspecies",
+      "types": [
+        "Article"
+      ],
+      "sourceTypes": [
+        "Article"
+      ],
+      "source": {
+        "sourceTitle": "BMC EVOLUTIONARY BIOLOGY",
+        "publishYear": 2015,
+        "publishMonth": "JAN 21",
+        "volume": "15",
+        "articleNumber": "3",
+        "pages": {
+          "count": 15
+        }
+      },
+      "names": {
+        "authors": [
+          {
+            "displayName": "Mitchell, Matthew W.",
+            "wosStandard": "Mitchell, MW",
+            "researcherId": "IGI-4806-2023"
+          },
+          {
+            "displayName": "Locatelli, Sabrina",
+            "wosStandard": "Locatelli, S",
+            "researcherId": "I-5777-2019"
+          },
+          {
+            "displayName": "Ghobrial, Lora",
+            "wosStandard": "Ghobrial, L",
+            "researcherId": "EXN-2765-2022"
+          },
+          {
+            "displayName": "Pokempner, Amy A.",
+            "wosStandard": "Pokempner, AA",
+            "researcherId": "DMM-5874-2022"
+          },
+          {
+            "displayName": "Clee, Paul R. Sesink",
+            "wosStandard": "Clee, PRS",
+            "researcherId": "DXM-5614-2022"
+          },
+          {
+            "displayName": "Abwe, Ekwoge E.",
+            "wosStandard": "Abwe, EE",
+            "researcherId": "CAS-2264-2022"
+          },
+          {
+            "displayName": "Nicholas, Aaron",
+            "wosStandard": "Nicholas, A",
+            "researcherId": "MRC-1423-2025"
+          },
+          {
+            "displayName": "Nkembi, Louis",
+            "wosStandard": "Nkembi, L",
+            "researcherId": "FPC-9169-2022"
+          },
+          {
+            "displayName": "Anthony, Nicola M.",
+            "wosStandard": "Anthony, NM",
+            "researcherId": "AAI-7280-2021"
+          },
+          {
+            "displayName": "Morgan, Bethan J.",
+            "wosStandard": "Morgan, BJ",
+            "researcherId": "IGK-8039-2023"
+          },
+          {
+            "displayName": "Fotso, Roger",
+            "wosStandard": "Fotso, R",
+            "researcherId": "CQM-9708-2022"
+          },
+          {
+            "displayName": "Peeters, Martine",
+            "wosStandard": "Peeters, M",
+            "researcherId": "DKW-4863-2022"
+          },
+          {
+            "displayName": "Hahn, Beatrice H.",
+            "wosStandard": "Hahn, BH",
+            "researcherId": "GEU-6217-2022"
+          },
+          {
+            "displayName": "Gonder, Mary Katherine",
+            "wosStandard": "Gonder, MK",
+            "researcherId": "FBI-7150-2022"
+          }
+        ]
+      },
+      "links": {
+        "record": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000348155500001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+        "references": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000348155500001&DestLinkType=CitedReferences&DestApp=WOS",
+        "related": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000348155500001&DestLinkType=RelatedRecords&DestApp=WOS_CPL"
+      },
+      "citations": [],
+      "identifiers": {
+        "doi": "10.1186/s12862-014-0276-y",
+        "issn": "1471-2148",
+        "pmid": "25608610"
+      },
+      "keywords": {
+        "authorKeywords": []
+      }
+    },
+    {
+      "uid": "WOS:000347601900032",
+      "title": "Koolpinyah and Yata viruses: Two newly recognised ephemeroviruses from tropical regions of Australia and Africa",
+      "types": [
+        "Article"
+      ],
+      "sourceTypes": [
+        "Article"
+      ],
+      "source": {
+        "sourceTitle": "VETERINARY MICROBIOLOGY",
+        "publishYear": 2014,
+        "publishMonth": "DEC 5",
+        "volume": "174",
+        "issue": "3-4",
+        "pages": {
+          "range": "547-553",
+          "begin": "547",
+          "end": "553",
+          "count": 7
+        }
+      },
+      "names": {
+        "authors": [
+          {
+            "displayName": "Blasdell, Kim R.",
+            "wosStandard": "Blasdell, KR",
+            "researcherId": "G-9346-2013"
+          },
+          {
+            "displayName": "Widen, Steven G.",
+            "wosStandard": "Widen, SG",
+            "researcherId": "DXK-5504-2022"
+          },
+          {
+            "displayName": "Diviney, Sinead M.",
+            "wosStandard": "Diviney, SM",
+            "researcherId": "H-8903-2013"
+          },
+          {
+            "displayName": "Firth, Cadhla",
+            "wosStandard": "Firth, C",
+            "researcherId": "DXZ-0910-2022"
+          },
+          {
+            "displayName": "Wood, Thomas G.",
+            "wosStandard": "Wood, TG",
+            "researcherId": "OHQ-8628-2025"
+          },
+          {
+            "displayName": "Guzman, Hilda",
+            "wosStandard": "Guzman, H",
+            "researcherId": "CTZ-0352-2022"
+          },
+          {
+            "displayName": "Holmes, Edward C.",
+            "wosStandard": "Holmes, EC",
+            "researcherId": "Y-2789-2019"
+          },
+          {
+            "displayName": "Tesh, Robert B.",
+            "wosStandard": "Tesh, RB",
+            "researcherId": "EAW-1301-2022"
+          },
+          {
+            "displayName": "Vasilakis, Nikos",
+            "wosStandard": "Vasilakis, N",
+            "researcherId": "ABE-7318-2020"
+          },
+          {
+            "displayName": "Walker, Peter J.",
+            "wosStandard": "Walker, PJ",
+            "researcherId": "H-6059-2013"
+          }
+        ]
+      },
+      "links": {
+        "record": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000347601900032&DestLinkType=FullRecord&DestApp=WOS_CPL",
+        "references": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000347601900032&DestLinkType=CitedReferences&DestApp=WOS",
+        "related": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000347601900032&DestLinkType=RelatedRecords&DestApp=WOS_CPL"
+      },
+      "citations": [],
+      "identifiers": {
+        "doi": "10.1016/j.vetmic.2014.09.031",
+        "issn": "0378-1135",
+        "eissn": "1873-2542",
+        "pmid": "25457369"
+      },
+      "keywords": {
+        "authorKeywords": [
+          "Koolpinyah virus",
+          "Yata virus",
+          "Rhabdovirus",
+          "Ephemerovirus",
+          "Genome sequence",
+          "Phylogeny"
+        ]
+      }
+    },
+    {
+      "uid": "WOS:000376558400005",
+      "title": "PTCH-1 and MDM2 expression in ameloblastoma from a West African sub-population: implication for chemotherapeutics",
+      "types": [
+        "Article"
+      ],
+      "sourceTypes": [
+        "Article"
+      ],
+      "source": {
+        "sourceTitle": "PAN AFRICAN MEDICAL JOURNAL",
+        "publishYear": 2015,
+        "publishMonth": "FEB 17",
+        "volume": "20",
+        "articleNumber": "140",
+        "pages": {
+          "count": 8
+        }
+      },
+      "names": {
+        "authors": [
+          {
+            "displayName": "Udeabor, Samuel Ebele",
+            "wosStandard": "Udeabor, SE",
+            "researcherId": "ACC-0104-2022"
+          },
+          {
+            "displayName": "Adisa, Akinyele Olumuyiwa",
+            "wosStandard": "Adisa, AO",
+            "researcherId": "AAG-6701-2020"
+          },
+          {
+            "displayName": "Lawal, Ahmed Oluwatoyin",
+            "wosStandard": "Lawal, AO",
+            "researcherId": "FIA-1864-2022"
+          },
+          {
+            "displayName": "Barbeck, Mike",
+            "wosStandard": "Barbeck, M",
+            "researcherId": "U-4340-2018"
+          },
+          {
+            "displayName": "Booms, Patrick",
+            "wosStandard": "Booms, P",
+            "researcherId": "AAN-8717-2020"
+          },
+          {
+            "displayName": "Sader, Robert Alexander",
+            "wosStandard": "Sader, RA",
+            "researcherId": "DQU-7552-2022"
+          },
+          {
+            "displayName": "Ghanaati, Shahram",
+            "wosStandard": "Ghanaati, S",
+            "researcherId": "I-6936-2019"
+          }
+        ]
+      },
+      "links": {
+        "record": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000376558400005&DestLinkType=FullRecord&DestApp=WOS_CPL",
+        "references": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000376558400005&DestLinkType=CitedReferences&DestApp=WOS",
+        "related": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000376558400005&DestLinkType=RelatedRecords&DestApp=WOS_CPL"
+      },
+      "citations": [],
+      "identifiers": {
+        "doi": "10.11604/pamj.2015.20.140.5869",
+        "issn": "1937-8688",
+        "pmid": "27386018"
+      },
+      "keywords": {
+        "authorKeywords": [
+          "PTCH-1",
+          "MdM2",
+          "ameloblastoma",
+          "chemotherapeutics"
+        ]
+      }
+    },
+    {
+      "uid": "WOS:000359156200006",
+      "title": "Detection of hepatitis B virus isolates with mutations associated with immune escape mutants among pregnant women in Ibadan, southwestern Nigeria",
+      "types": [
+        "Article"
+      ],
+      "sourceTypes": [
+        "Article"
+      ],
+      "source": {
+        "sourceTitle": "SPRINGERPLUS",
+        "publishYear": 2015,
+        "publishMonth": "FEB 1",
+        "volume": "4",
+        "articleNumber": "43",
+        "pages": {
+          "count": 8
+        }
+      },
+      "names": {
+        "authors": [
+          {
+            "displayName": "Faleye, Temitope Oluwasegun Cephas",
+            "wosStandard": "Faleye, TOC",
+            "researcherId": "K-3143-2015"
+          },
+          {
+            "displayName": "Adewumi, Moses Olubusuyi",
+            "wosStandard": "Adewumi, MO",
+            "researcherId": "AAD-5138-2019"
+          },
+          {
+            "displayName": "Ifeorah, Ijeoma Maryjoy",
+            "wosStandard": "Ifeorah, IM",
+            "researcherId": "KSM-3932-2024"
+          },
+          {
+            "displayName": "Omoruyi, Ewean Chukwuma",
+            "wosStandard": "Omoruyi, EC",
+            "researcherId": "DMC-3021-2022"
+          },
+          {
+            "displayName": "Bakarey, Solomon Adeleye",
+            "wosStandard": "Bakarey, SA",
+            "researcherId": "EMN-8055-2022"
+          },
+          {
+            "displayName": "Akere, Adegboyega",
+            "wosStandard": "Akere, A",
+            "researcherId": "AHD-0744-2022"
+          },
+          {
+            "displayName": "Awokunle, Funmilola",
+            "wosStandard": "Awokunle, F",
+            "researcherId": "CCU-5811-2022"
+          },
+          {
+            "displayName": "Ajibola, Hannah Opeyemi",
+            "wosStandard": "Ajibola, HO",
+            "researcherId": "IBO-1883-2023"
+          },
+          {
+            "displayName": "Makanjuola, Deborah Oluwaseyi",
+            "wosStandard": "Makanjuola, DO",
+            "researcherId": "FKA-8908-2022"
+          },
+          {
+            "displayName": "Adeniji, Johnson Adekunle",
+            "wosStandard": "Adeniji, JA",
+            "researcherId": "DTO-8317-2022"
+          }
+        ]
+      },
+      "links": {
+        "record": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000359156200006&DestLinkType=FullRecord&DestApp=WOS_CPL",
+        "references": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000359156200006&DestLinkType=CitedReferences&DestApp=WOS",
+        "related": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000359156200006&DestLinkType=RelatedRecords&DestApp=WOS_CPL"
+      },
+      "citations": [],
+      "identifiers": {
+        "doi": "10.1186/s40064-015-0813-1",
+        "issn": "2193-1801"
+      },
+      "keywords": {
+        "authorKeywords": [
+          "HBV",
+          "Immune escape mutant",
+          "Nigeria",
+          "Pregnant women",
+          "Vaccine escape mutant"
+        ]
+      }
+    },
+    {
+      "uid": "WOS:000347950200024",
+      "title": "Machado-Joseph disease in a Nigerian family: mutational origin and review of the literature",
+      "types": [
+        "Article"
+      ],
+      "sourceTypes": [
+        "Article"
+      ],
+      "source": {
+        "sourceTitle": "EUROPEAN JOURNAL OF HUMAN GENETICS",
+        "publishYear": 2015,
+        "publishMonth": "FEB",
+        "volume": "23",
+        "issue": "2",
+        "pages": {
+          "range": "271-273",
+          "begin": "271",
+          "end": "273",
+          "count": 3
+        }
+      },
+      "names": {
+        "authors": [
+          {
+            "displayName": "Ogun, Shamsideen Abayomi",
+            "wosStandard": "Ogun, SA",
+            "researcherId": "GLT-4628-2022"
+          },
+          {
+            "displayName": "Martins, Sandra",
+            "wosStandard": "Martins, S",
+            "researcherId": "AAG-2601-2020"
+          },
+          {
+            "displayName": "Adebayo, Philip B.",
+            "wosStandard": "Adebayo, PB",
+            "researcherId": "ABE-1191-2020"
+          },
+          {
+            "displayName": "Dawodu, Clara O.",
+            "wosStandard": "Dawodu, CO",
+            "researcherId": "EQZ-3993-2022"
+          },
+          {
+            "displayName": "Sequeiros, Jorge",
+            "wosStandard": "Sequeiros, J",
+            "researcherId": "GEI-5348-2022"
+          },
+          {
+            "displayName": "Finkel, Michael F.",
+            "wosStandard": "Finkel, MF",
+            "researcherId": "GDG-7549-2022"
+          }
+        ]
+      },
+      "links": {
+        "record": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000347950200024&DestLinkType=FullRecord&DestApp=WOS_CPL",
+        "references": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000347950200024&DestLinkType=CitedReferences&DestApp=WOS",
+        "related": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000347950200024&DestLinkType=RelatedRecords&DestApp=WOS_CPL"
+      },
+      "citations": [],
+      "identifiers": {
+        "doi": "10.1038/ejhg.2014.77",
+        "issn": "1018-4813",
+        "eissn": "1476-5438",
+        "pmid": "24781759"
+      },
+      "keywords": {
+        "authorKeywords": []
+      }
+    },
+    {
+      "uid": "WOS:000348268600012",
+      "title": "Rescue of a vaccine strain of peste des petits ruminants virus: <i>In vivo</i> evaluation and comparison with standard vaccine",
+      "types": [
+        "Article"
+      ],
+      "sourceTypes": [
+        "Article"
+      ],
+      "source": {
+        "sourceTitle": "VACCINE",
+        "publishYear": 2015,
+        "publishMonth": "JAN 9",
+        "volume": "33",
+        "issue": "3",
+        "pages": {
+          "range": "465-471",
+          "begin": "465",
+          "end": "471",
+          "count": 7
+        }
+      },
+      "names": {
+        "authors": [
+          {
+            "displayName": "Muniraju, Murali",
+            "wosStandard": "Muniraju, M",
+            "researcherId": "AAZ-1397-2021"
+          },
+          {
+            "displayName": "Mahapatra, Mana",
+            "wosStandard": "Mahapatra, M",
+            "researcherId": "BBD-2944-2021"
+          },
+          {
+            "displayName": "Buczkowski, Hubert",
+            "wosStandard": "Buczkowski, H",
+            "researcherId": "E-1786-2011"
+          },
+          {
+            "displayName": "Batten, Carrie",
+            "wosStandard": "Batten, C",
+            "researcherId": "HSE-3074-2023"
+          },
+          {
+            "displayName": "Banyard, Ashley C.",
+            "wosStandard": "Banyard, AC",
+            "researcherId": "C-7998-2011"
+          },
+          {
+            "displayName": "Parida, Satya",
+            "wosStandard": "Parida, S",
+            "researcherId": "E-5463-2015"
+          }
+        ]
+      },
+      "links": {
+        "record": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000348268600012&DestLinkType=FullRecord&DestApp=WOS_CPL",
+        "references": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000348268600012&DestLinkType=CitedReferences&DestApp=WOS",
+        "related": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000348268600012&DestLinkType=RelatedRecords&DestApp=WOS_CPL"
+      },
+      "citations": [],
+      "identifiers": {
+        "doi": "10.1016/j.vaccine.2014.10.050",
+        "issn": "0264-410X",
+        "eissn": "1873-2518",
+        "pmid": "25444790"
+      },
+      "keywords": {
+        "authorKeywords": [
+          "Rescue",
+          "Reverse genetics",
+          "PPRV Nigeria 75/1",
+          "DIVA vaccine",
+          "Complete genome",
+          "In vivo evaluation"
+        ]
+      }
+    },
+    {
+      "uid": "WOS:000349318100055",
+      "title": "Classification of <i>Bartonella</i> Strains Associated with Straw-Colored Fruit Bats (<i>Eidolon helvum</i>) across Africa Using a Multi-locus Sequence Typing Platform",
+      "types": [
+        "Article"
+      ],
+      "sourceTypes": [
+        "Article"
+      ],
+      "source": {
+        "sourceTitle": "PLOS NEGLECTED TROPICAL DISEASES",
+        "publishYear": 2015,
+        "publishMonth": "JAN",
+        "volume": "9",
+        "issue": "1",
+        "articleNumber": "e0003478",
+        "pages": {
+          "count": 16
+        }
+      },
+      "names": {
+        "authors": [
+          {
+            "displayName": "Bai, Ying",
+            "wosStandard": "Bai, Y",
+            "researcherId": "GYR-4301-2022"
+          },
+          {
+            "displayName": "Hayman, David T. S.",
+            "wosStandard": "Hayman, DTS",
+            "researcherId": "FZL-3925-2022"
+          },
+          {
+            "displayName": "Mckee, Clifton D.",
+            "wosStandard": "Mckee, CD",
+            "researcherId": "I-4603-2019"
+          },
+          {
+            "displayName": "Kosoy, Michael Y.",
+            "wosStandard": "Kosoy, MY",
+            "researcherId": "CYR-9980-2022"
+          }
+        ]
+      },
+      "links": {
+        "record": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000349318100055&DestLinkType=FullRecord&DestApp=WOS_CPL",
+        "references": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000349318100055&DestLinkType=CitedReferences&DestApp=WOS",
+        "related": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000349318100055&DestLinkType=RelatedRecords&DestApp=WOS_CPL"
+      },
+      "citations": [],
+      "identifiers": {
+        "doi": "10.1371/journal.pntd.0003478",
+        "issn": "1935-2735",
+        "pmid": "25635826"
+      },
+      "keywords": {
+        "authorKeywords": []
+      }
+    },
+    {
+      "uid": "WOS:000360209800001",
+      "title": "Motor Neuron Diseases in Sub-Saharan Africa: The Need for More Population-Based Studies",
+      "types": [
+        "Review"
+      ],
+      "sourceTypes": [
+        "Review"
+      ],
+      "source": {
+        "sourceTitle": "BIOMED RESEARCH INTERNATIONAL",
+        "publishYear": 2015,
+        "volume": "2015",
+        "articleNumber": "298409",
+        "pages": {
+          "count": 9
+        }
+      },
+      "names": {
+        "authors": [
+          {
+            "displayName": "Quansah, Emmanuel",
+            "wosStandard": "Quansah, E",
+            "researcherId": "DZU-5331-2022"
+          },
+          {
+            "displayName": "Karikari, Thomas K.",
+            "wosStandard": "Karikari, TK",
+            "researcherId": "ABC-3367-2020"
+          }
+        ]
+      },
+      "links": {
+        "record": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000360209800001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+        "references": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000360209800001&DestLinkType=CitedReferences&DestApp=WOS",
+        "related": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000360209800001&DestLinkType=RelatedRecords&DestApp=WOS_CPL"
+      },
+      "citations": [],
+      "identifiers": {
+        "doi": "10.1155/2015/298409",
+        "issn": "2314-6133",
+        "eissn": "2314-6141",
+        "pmid": "26347879"
+      },
+      "keywords": {
+        "authorKeywords": []
+      }
+    },
+    {
+      "uid": "WOS:000345897800001",
+      "title": "Evidence of multiple mechanisms providing carbamate and organophosphate resistance in field <i>An</i>. <i>gambiae</i> population from Atacora in Benin",
+      "types": [
+        "Article"
+      ],
+      "sourceTypes": [
+        "Article"
+      ],
+      "source": {
+        "sourceTitle": "PARASITES & VECTORS",
+        "publishYear": 2014,
+        "publishMonth": "DEC 2",
+        "volume": "7",
+        "articleNumber": "568",
+        "pages": {
+          "count": 7
+        }
+      },
+      "names": {
+        "authors": [
+          {
+            "displayName": "Aikpon, Rock",
+            "wosStandard": "Aïkpon, R",
+            "researcherId": "JGV-6724-2023"
+          },
+          {
+            "displayName": "Sezonlin, Michel",
+            "wosStandard": "Sèzonlin, M",
+            "researcherId": "FWI-4172-2022"
+          },
+          {
+            "displayName": "Osse, Razaki",
+            "wosStandard": "Ossè, R",
+            "researcherId": "DME-7964-2022"
+          },
+          {
+            "displayName": "Akogbeto, Martin",
+            "wosStandard": "Akogbéto, M",
+            "researcherId": "CCJ-9672-2022"
+          }
+        ]
+      },
+      "links": {
+        "record": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000345897800001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+        "references": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000345897800001&DestLinkType=CitedReferences&DestApp=WOS",
+        "related": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000345897800001&DestLinkType=RelatedRecords&DestApp=WOS_CPL"
+      },
+      "citations": [],
+      "identifiers": {
+        "doi": "10.1186/s13071-014-0568-5",
+        "issn": "1756-3305",
+        "pmid": "25443399"
+      },
+      "keywords": {
+        "authorKeywords": [
+          "Resistance mechanisms",
+          "Carbamate",
+          "Organophosphate",
+          "Anopheles gambiae",
+          "Benin"
+        ]
+      }
+    },
+    {
+      "uid": "WOS:000345811000006",
+      "title": "Cytogenotoxic Effects and Reproductive Abnormalities Induced by e-Waste Contaminated Underground Water in Mice",
+      "types": [
+        "Article"
+      ],
+      "sourceTypes": [
+        "Article"
+      ],
+      "source": {
+        "sourceTitle": "CYTOLOGIA",
+        "publishYear": 2014,
+        "publishMonth": "SEP",
+        "volume": "79",
+        "issue": "3",
+        "pages": {
+          "range": "331-340",
+          "begin": "331",
+          "end": "340",
+          "count": 10
+        }
+      },
+      "names": {
+        "authors": [
+          {
+            "displayName": "Alabi, Okunola Adenrele",
+            "wosStandard": "Alabi, OA",
+            "researcherId": "AAM-2210-2020"
+          },
+          {
+            "displayName": "Bakare, Adekunle A.",
+            "wosStandard": "Bakare, AA",
+            "researcherId": "AAI-8164-2020"
+          }
+        ]
+      },
+      "links": {
+        "record": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000345811000006&DestLinkType=FullRecord&DestApp=WOS_CPL",
+        "references": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000345811000006&DestLinkType=CitedReferences&DestApp=WOS",
+        "related": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000345811000006&DestLinkType=RelatedRecords&DestApp=WOS_CPL"
+      },
+      "citations": [],
+      "identifiers": {
+        "doi": "10.1508/cytologia.79.331",
+        "issn": "0011-4545"
+      },
+      "keywords": {
+        "authorKeywords": [
+          "E-Waste",
+          "Genotoxicity",
+          "Well water",
+          "Micronucleus",
+          "Sperm abnormality",
+          "Mouse"
+        ]
+      }
+    },
+    {
+      "uid": "WOS:000345745400113",
+      "title": "Worldwide Occurrence of Integrative Conjugative Element Encoding Multidrug Resistance Determinants in Epidemic <i>Vibrio cholerae</i> O1",
+      "types": [
+        "Article"
+      ],
+      "sourceTypes": [
+        "Article"
+      ],
+      "source": {
+        "sourceTitle": "PLOS ONE",
+        "publishYear": 2014,
+        "publishMonth": "SEP 29",
+        "volume": "9",
+        "issue": "9",
+        "articleNumber": "e108728",
+        "pages": {
+          "count": 6
+        }
+      },
+      "names": {
+        "authors": [
+          {
+            "displayName": "Marin, Michel A.",
+            "wosStandard": "Marin, MA",
+            "researcherId": "AAH-3245-2019"
+          },
+          {
+            "displayName": "Fonseca, Erica L.",
+            "wosStandard": "Fonseca, EL",
+            "researcherId": "GAO-4952-2022"
+          },
+          {
+            "displayName": "Andrade, Bruno N.",
+            "wosStandard": "Andrade, BN",
+            "researcherId": "K-8158-2016"
+          },
+          {
+            "displayName": "Cabral, Adriana C.",
+            "wosStandard": "Cabral, AC",
+            "researcherId": "AAX-3284-2021"
+          },
+          {
+            "displayName": "Vicente, Ana Carolina P.",
+            "wosStandard": "Vicente, ACP",
+            "researcherId": "JMI-7825-2023"
+          }
+        ]
+      },
+      "links": {
+        "record": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000345745400113&DestLinkType=FullRecord&DestApp=WOS_CPL",
+        "references": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000345745400113&DestLinkType=CitedReferences&DestApp=WOS",
+        "related": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000345745400113&DestLinkType=RelatedRecords&DestApp=WOS_CPL"
+      },
+      "citations": [],
+      "identifiers": {
+        "doi": "10.1371/journal.pone.0108728",
+        "issn": "1932-6203",
+        "pmid": "25265418"
+      },
+      "keywords": {
+        "authorKeywords": []
+      }
+    },
+    {
+      "uid": "WOS:000345811400017",
+      "title": "Hepatitis B Virus Genotype E Infection in Turkey: The Detection of the First Case",
+      "types": [
+        "Article"
+      ],
+      "sourceTypes": [
+        "Article"
+      ],
+      "source": {
+        "sourceTitle": "MIKROBIYOLOJI BULTENI",
+        "publishYear": 2014,
+        "publishMonth": "OCT",
+        "volume": "48",
+        "issue": "4",
+        "pages": {
+          "range": "683-688",
+          "begin": "683",
+          "end": "688",
+          "count": 6
+        }
+      },
+      "names": {
+        "authors": [
+          {
+            "displayName": "Sayan, Murat",
+            "wosStandard": "Sayan, M",
+            "researcherId": "QVT-3551-2026"
+          },
+          {
+            "displayName": "Sanlidag, Tamer",
+            "wosStandard": "Sanlidag, T",
+            "researcherId": "GZM-2963-2022"
+          },
+          {
+            "displayName": "Akcali, Sinem",
+            "wosStandard": "Akçali, S",
+            "researcherId": "PDY-1524-2025"
+          },
+          {
+            "displayName": "Arikan, Ayse",
+            "wosStandard": "Arikan, A",
+            "researcherId": "DWV-9552-2022"
+          }
+        ]
+      },
+      "links": {
+        "record": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000345811400017&DestLinkType=FullRecord&DestApp=WOS_CPL",
+        "references": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000345811400017&DestLinkType=CitedReferences&DestApp=WOS",
+        "related": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000345811400017&DestLinkType=RelatedRecords&DestApp=WOS_CPL"
+      },
+      "citations": [],
+      "identifiers": {
+        "doi": "10.5578/mb.4769",
+        "issn": "0374-9096",
+        "pmid": "25492664"
+      },
+      "keywords": {
+        "authorKeywords": [
+          "Hepatitis B virus",
+          "genotype E",
+          "Turkey"
+        ]
+      }
+    },
+    {
+      "uid": "WOS:000345093600017",
+      "title": "Full genome sequence of a peste des petits ruminants virus (PPRV) from Ghana",
+      "types": [
+        "Article"
+      ],
+      "sourceTypes": [
+        "Article"
+      ],
+      "source": {
+        "sourceTitle": "VIRUS GENES",
+        "publishYear": 2014,
+        "publishMonth": "DEC",
+        "volume": "49",
+        "issue": "3",
+        "pages": {
+          "range": "497-501",
+          "begin": "497",
+          "end": "501",
+          "count": 5
+        }
+      },
+      "names": {
+        "authors": [
+          {
+            "displayName": "Dundon, W. G.",
+            "wosStandard": "Dundon, WG",
+            "researcherId": "DWU-9296-2022"
+          },
+          {
+            "displayName": "Adombi, C.",
+            "wosStandard": "Adombi, C",
+            "researcherId": "HTT-5031-2023"
+          },
+          {
+            "displayName": "Waqas, A.",
+            "wosStandard": "Waqas, A",
+            "researcherId": "GJH-3377-2022"
+          },
+          {
+            "displayName": "Otsyina, H. R.",
+            "wosStandard": "Otsyina, HR",
+            "researcherId": "FOQ-7296-2022"
+          },
+          {
+            "displayName": "Arthur, C. T.",
+            "wosStandard": "Arthur, CT",
+            "researcherId": "ELU-1657-2022"
+          },
+          {
+            "displayName": "Silber, R.",
+            "wosStandard": "Silber, R",
+            "researcherId": "FXO-6351-2022"
+          },
+          {
+            "displayName": "Loitsch, A.",
+            "wosStandard": "Loitsch, A",
+            "researcherId": "FLE-5677-2022"
+          },
+          {
+            "displayName": "Diallo, A.",
+            "wosStandard": "Diallo, A",
+            "researcherId": "GWB-4320-2022"
+          }
+        ]
+      },
+      "links": {
+        "record": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000345093600017&DestLinkType=FullRecord&DestApp=WOS_CPL",
+        "references": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000345093600017&DestLinkType=CitedReferences&DestApp=WOS",
+        "related": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000345093600017&DestLinkType=RelatedRecords&DestApp=WOS_CPL"
+      },
+      "citations": [],
+      "identifiers": {
+        "doi": "10.1007/s11262-014-1109-1",
+        "issn": "0920-8569",
+        "eissn": "1572-994X",
+        "pmid": "25150987"
+      },
+      "keywords": {
+        "authorKeywords": [
+          "Peste des petits ruminants",
+          "Ghana",
+          "Full genome"
+        ]
+      }
+    },
+    {
+      "uid": "WOS:000344745500003",
+      "title": "The rediscovery of Perret's toad, <i>Amietophrynus perreti</i> (Schiotz, 1963) after more than 40 years, with comments on the species' phylogenetic placement and conservation status",
+      "types": [
+        "Article"
+      ],
+      "sourceTypes": [
+        "Article"
+      ],
+      "source": {
+        "sourceTitle": "ZOOSYSTEMATICS AND EVOLUTION",
+        "publishYear": 2014,
+        "volume": "90",
+        "issue": "2",
+        "pages": {
+          "range": "113-119",
+          "begin": "113",
+          "end": "119",
+          "count": 7
+        }
+      },
+      "names": {
+        "authors": [
+          {
+            "displayName": "Onadeko, Abiodun B.",
+            "wosStandard": "Onadeko, AB",
+            "researcherId": "DZC-0478-2022"
+          },
+          {
+            "displayName": "Roedel, Mark-Oliver",
+            "wosStandard": "Rödel, MO",
+            "researcherId": "OZT-3649-2025"
+          },
+          {
+            "displayName": "Liedtke, H. Christoph",
+            "wosStandard": "Liedtke, HC",
+            "researcherId": "K-2253-2015"
+          },
+          {
+            "displayName": "Barej, Michael F.",
+            "wosStandard": "Barej, MF",
+            "researcherId": "ELW-1365-2022"
+          }
+        ]
+      },
+      "links": {
+        "record": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000344745500003&DestLinkType=FullRecord&DestApp=WOS_CPL",
+        "references": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000344745500003&DestLinkType=CitedReferences&DestApp=WOS",
+        "related": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000344745500003&DestLinkType=RelatedRecords&DestApp=WOS_CPL"
+      },
+      "citations": [],
+      "identifiers": {
+        "doi": "10.3897/zse.90.8234",
+        "issn": "1860-0743"
+      },
+      "keywords": {
+        "authorKeywords": [
+          "Amphibia",
+          "Anura",
+          "Bufonidae",
+          "conservation",
+          "ecology",
+          "inselberg",
+          "morphology",
+          "Nigeria",
+          "phylogeny",
+          "systematics",
+          "West Africa"
+        ]
+      }
+    },
+    {
+      "uid": "WOS:000344426000004",
+      "title": "Revision of the <i>Pelvicachromis taeniatus</i>-group (Perciformes), with revalidation of the taxon <i>Pelvicachromis kribensis</i> (Boulenger, 1911) and description of a new species",
+      "types": [
+        "Article"
+      ],
+      "sourceTypes": [
+        "Article"
+      ],
+      "source": {
+        "sourceTitle": "CYBIUM",
+        "publishYear": 2014,
+        "publishMonth": "SEP 30",
+        "volume": "38",
+        "issue": "3",
+        "pages": {
+          "range": "205-222",
+          "begin": "205",
+          "end": "222",
+          "count": 18
+        }
+      },
+      "names": {
+        "authors": [
+          {
+            "displayName": "Lamboj, Anton",
+            "wosStandard": "Lamboj, A",
+            "researcherId": "CZR-1659-2022"
+          },
+          {
+            "displayName": "Bartel, Daniela",
+            "wosStandard": "Bartel, D",
+            "researcherId": "CFE-4386-2022"
+          },
+          {
+            "displayName": "Dell'Ampio, Emiliano",
+            "wosStandard": "Dell'Ampio, E",
+            "researcherId": "CMH-4700-2022"
+          }
+        ]
+      },
+      "links": {
+        "record": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000344426000004&DestLinkType=FullRecord&DestApp=WOS_CPL",
+        "references": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000344426000004&DestLinkType=CitedReferences&DestApp=WOS",
+        "related": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000344426000004&DestLinkType=RelatedRecords&DestApp=WOS_CPL"
+      },
+      "citations": [],
+      "identifiers": {
+        "issn": "0399-0974"
+      },
+      "keywords": {
+        "authorKeywords": [
+          "Cichlidae",
+          "Pelvicachromis taeniatus",
+          "Cameroon",
+          "Nigeria",
+          "Chromidotilapiines",
+          "Taxonomy"
+        ]
+      }
+    },
+    {
+      "uid": "WOS:000345615800004",
+      "title": "Worldwide emergence of colistin resistance in <i>Klebsiella pneumoniae</i> from healthy humans and patients in Lao PDR, Thailand, Israel, Nigeria and France owing to inactivation of the PhoP/PhoQ regulator <i>mgrB</i>: an epidemiological and molecular study",
+      "types": [
+        "Article"
+      ],
+      "sourceTypes": [
+        "Article"
+      ],
+      "source": {
+        "sourceTitle": "INTERNATIONAL JOURNAL OF ANTIMICROBIAL AGENTS",
+        "publishYear": 2014,
+        "publishMonth": "DEC",
+        "volume": "44",
+        "issue": "6",
+        "pages": {
+          "range": "500-507",
+          "begin": "500",
+          "end": "507",
+          "count": 8
+        }
+      },
+      "names": {
+        "authors": [
+          {
+            "displayName": "Olaitan, Abiola Olumuyiwa",
+            "wosStandard": "Olaitan, AO",
+            "researcherId": "C-3306-2016"
+          },
+          {
+            "displayName": "Diene, Seydina M.",
+            "wosStandard": "Diene, SM",
+            "researcherId": "AAC-3576-2019"
+          },
+          {
+            "displayName": "Kempf, Marie",
+            "wosStandard": "Kempf, M",
+            "researcherId": "ABI-6566-2022"
+          },
+          {
+            "displayName": "Berrazeg, Meryem",
+            "wosStandard": "Berrazeg, M",
+            "researcherId": "KFS-0207-2024"
+          },
+          {
+            "displayName": "Bakour, Sofiane",
+            "wosStandard": "Bakour, S",
+            "researcherId": "I-3528-2019"
+          },
+          {
+            "displayName": "Gupta, Sushim Kumar",
+            "wosStandard": "Gupta, SK",
+            "researcherId": "L-5082-2019"
+          },
+          {
+            "displayName": "Thongmalayvong, Boupha",
+            "wosStandard": "Thongmalayvong, B",
+            "researcherId": "GHC-2030-2022"
+          },
+          {
+            "displayName": "Akkhavong, Kongsap",
+            "wosStandard": "Akkhavong, K",
+            "researcherId": "EJK-8612-2022"
+          },
+          {
+            "displayName": "Somphavong, Silaphet",
+            "wosStandard": "Somphavong, S",
+            "researcherId": "FYO-2507-2022"
+          },
+          {
+            "displayName": "Paboriboune, Phimpha",
+            "wosStandard": "Paboriboune, P",
+            "researcherId": "FPX-8790-2022"
+          },
+          {
+            "displayName": "Chaisiri, Kittipong",
+            "wosStandard": "Chaisiri, K",
+            "researcherId": "S-8166-2016"
+          },
+          {
+            "displayName": "Komalamisra, Chalit",
+            "wosStandard": "Komalamisra, C",
+            "researcherId": "FEK-1351-2022"
+          },
+          {
+            "displayName": "Adelowo, Olawale Olufemi",
+            "wosStandard": "Adelowo, OO",
+            "researcherId": "ABC-5821-2020"
+          },
+          {
+            "displayName": "Fagade, Obasola Ezekiel",
+            "wosStandard": "Fagade, OE",
+            "researcherId": "CPX-1369-2022"
+          },
+          {
+            "displayName": "Banjo, Omowunmi Abosede",
+            "wosStandard": "Banjo, OA",
+            "researcherId": "EMO-9575-2022"
+          },
+          {
+            "displayName": "Oke, Adeyeye James",
+            "wosStandard": "Oke, AJ",
+            "researcherId": "DLX-6894-2022"
+          },
+          {
+            "displayName": "Adler, Amos",
+            "wosStandard": "Adler, A",
+            "researcherId": "EJM-3905-2022"
+          },
+          {
+            "displayName": "Assous, Marc Victor",
+            "wosStandard": "Assous, MV",
+            "researcherId": "CAH-0946-2022"
+          },
+          {
+            "displayName": "Morand, Serge",
+            "wosStandard": "Morand, S",
+            "researcherId": "M-5433-2018"
+          },
+          {
+            "displayName": "Raoult, Didier",
+            "wosStandard": "Raoult, D",
+            "researcherId": "A-8434-2008"
+          },
+          {
+            "displayName": "Rolain, Jean-Marc",
+            "wosStandard": "Rolain, JM",
+            "researcherId": "Y-3788-2019"
+          }
+        ]
+      },
+      "links": {
+        "record": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000345615800004&DestLinkType=FullRecord&DestApp=WOS_CPL",
+        "references": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000345615800004&DestLinkType=CitedReferences&DestApp=WOS",
+        "related": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000345615800004&DestLinkType=RelatedRecords&DestApp=WOS_CPL"
+      },
+      "citations": [],
+      "identifiers": {
+        "doi": "10.1016/j.ijantimicag.2014.07.020",
+        "issn": "0924-8579",
+        "eissn": "1872-7913",
+        "pmid": "25264127"
+      },
+      "keywords": {
+        "authorKeywords": [
+          "Antibiotic resistance",
+          "Transposon",
+          "Genome analysis",
+          "Colistin resistance",
+          "mgrB gene",
+          "Two-component systems"
+        ]
+      }
+    },
+    {
+      "uid": "WOS:000344830300001",
+      "title": "Chikungunya virus, epidemiology, clinics and phylogenesis: A review",
+      "types": [
+        "Article"
+      ],
+      "sourceTypes": [
+        "Article"
+      ],
+      "source": {
+        "sourceTitle": "ASIAN PACIFIC JOURNAL OF TROPICAL MEDICINE",
+        "publishYear": 2014,
+        "publishMonth": "DEC",
+        "volume": "7",
+        "issue": "12",
+        "pages": {
+          "range": "925-932",
+          "begin": "925",
+          "end": "932",
+          "count": 8
+        }
+      },
+      "names": {
+        "authors": [
+          {
+            "displayName": "Lo Presti, Alessandra",
+            "wosStandard": "Lo Presti, A",
+            "researcherId": "K-1451-2016"
+          },
+          {
+            "displayName": "Lai, Alessia",
+            "wosStandard": "Lai, A",
+            "researcherId": "AAR-1300-2021"
+          },
+          {
+            "displayName": "Cella, Eleonora",
+            "wosStandard": "Cella, E",
+            "researcherId": "HPF-3741-2023"
+          },
+          {
+            "displayName": "Zehender, Gianguglielmo",
+            "wosStandard": "Zehender, G",
+            "researcherId": "CJS-6007-2022"
+          },
+          {
+            "displayName": "Ciccozzi, Massimo",
+            "wosStandard": "Ciccozzi, M",
+            "researcherId": "C-6484-2016"
+          }
+        ]
+      },
+      "links": {
+        "record": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000344830300001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+        "references": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000344830300001&DestLinkType=CitedReferences&DestApp=WOS",
+        "related": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000344830300001&DestLinkType=RelatedRecords&DestApp=WOS_CPL"
+      },
+      "citations": [],
+      "identifiers": {
+        "doi": "10.1016/S1995-7645(14)60164-4",
+        "issn": "1995-7645",
+        "eissn": "2352-4146"
+      },
+      "keywords": {
+        "authorKeywords": [
+          "CHIKV",
+          "Epidemiology",
+          "Phylogeny"
+        ]
+      }
+    },
+    {
+      "uid": "WOS:000345729900007",
+      "title": "Molecular Evolution of Peste des Petits Ruminants Virus",
+      "types": [
+        "Article"
+      ],
+      "sourceTypes": [
+        "Article"
+      ],
+      "source": {
+        "sourceTitle": "EMERGING INFECTIOUS DISEASES",
+        "publishYear": 2014,
+        "publishMonth": "DEC",
+        "volume": "20",
+        "issue": "12",
+        "pages": {
+          "range": "2023-2033",
+          "begin": "2023",
+          "end": "2033",
+          "count": 11
+        }
+      },
+      "names": {
+        "authors": [
+          {
+            "displayName": "Muniraju, Murali",
+            "wosStandard": "Muniraju, M",
+            "researcherId": "AAZ-1397-2021"
+          },
+          {
+            "displayName": "Munir, Muhammad",
+            "wosStandard": "Munir, M",
+            "researcherId": "T-4965-2019"
+          },
+          {
+            "displayName": "Parthiban, AravindhBabu R.",
+            "wosStandard": "Parthiban, AR",
+            "researcherId": "J-6966-2019"
+          },
+          {
+            "displayName": "Banyard, Ashley C.",
+            "wosStandard": "Banyard, AC",
+            "researcherId": "C-7998-2011"
+          },
+          {
+            "displayName": "Bao, Jingyue",
+            "wosStandard": "Bao, JY",
+            "researcherId": "GWA-3564-2022"
+          },
+          {
+            "displayName": "Wang, Zhiliang",
+            "wosStandard": "Wang, ZL",
+            "researcherId": "OOB-8075-2025"
+          },
+          {
+            "displayName": "Ayebazibwe, Chrisostom",
+            "wosStandard": "Ayebazibwe, C",
+            "researcherId": "CEH-0228-2022"
+          },
+          {
+            "displayName": "Ayelet, Gelagay",
+            "wosStandard": "Ayelet, G",
+            "researcherId": "CDR-2132-2022"
+          },
+          {
+            "displayName": "El Harrak, Mehdi",
+            "wosStandard": "El Harrak, M",
+            "researcherId": "CPI-5400-2022"
+          },
+          {
+            "displayName": "Mahapatra, Mana",
+            "wosStandard": "Mahapatra, M",
+            "researcherId": "BBD-2944-2021"
+          },
+          {
+            "displayName": "Libeau, Genevieve",
+            "wosStandard": "Libeau, G",
+            "researcherId": "FHE-7936-2022"
+          },
+          {
+            "displayName": "Batten, Carrie",
+            "wosStandard": "Batten, C",
+            "researcherId": "HSE-3074-2023"
+          },
+          {
+            "displayName": "Parida, Satya",
+            "wosStandard": "Parida, S",
+            "researcherId": "E-5463-2015"
+          }
+        ]
+      },
+      "links": {
+        "record": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000345729900007&DestLinkType=FullRecord&DestApp=WOS_CPL",
+        "references": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000345729900007&DestLinkType=CitedReferences&DestApp=WOS",
+        "related": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000345729900007&DestLinkType=RelatedRecords&DestApp=WOS_CPL"
+      },
+      "citations": [],
+      "identifiers": {
+        "doi": "10.3201/eid2012.140684",
+        "issn": "1080-6040",
+        "eissn": "1080-6059",
+        "pmid": "25418782"
+      },
+      "keywords": {
+        "authorKeywords": []
+      }
+    },
+    {
+      "uid": "WOS:000343840600012",
+      "title": "Common genes for non-syndromic deafness are uncommon in sub-Saharan Africa: A report from Nigeria",
+      "types": [
+        "Article"
+      ],
+      "sourceTypes": [
+        "Article"
+      ],
+      "source": {
+        "sourceTitle": "INTERNATIONAL JOURNAL OF PEDIATRIC OTORHINOLARYNGOLOGY",
+        "publishYear": 2014,
+        "publishMonth": "NOV",
+        "volume": "78",
+        "issue": "11",
+        "pages": {
+          "range": "1870-1873",
+          "begin": "1870",
+          "end": "1873",
+          "count": 4
+        }
+      },
+      "names": {
+        "authors": [
+          {
+            "displayName": "Lasisi, Akeem O.",
+            "wosStandard": "Lasisi, AO",
+            "researcherId": "DBQ-5038-2022"
+          },
+          {
+            "displayName": "Bademci, Guney",
+            "wosStandard": "Bademci, G",
+            "researcherId": "GDS-7366-2022"
+          },
+          {
+            "displayName": "Foster, Joseph, II",
+            "wosStandard": "Foster, J",
+            "researcherId": "QCX-6640-2026"
+          },
+          {
+            "displayName": "Blanton, Susan",
+            "wosStandard": "Blanton, S",
+            "researcherId": "ABF-1323-2021"
+          },
+          {
+            "displayName": "Tekin, Mustafa",
+            "wosStandard": "Tekin, M",
+            "researcherId": "ABG-7627-2020"
+          }
+        ]
+      },
+      "links": {
+        "record": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000343840600012&DestLinkType=FullRecord&DestApp=WOS_CPL",
+        "references": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000343840600012&DestLinkType=CitedReferences&DestApp=WOS",
+        "related": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000343840600012&DestLinkType=RelatedRecords&DestApp=WOS_CPL"
+      },
+      "citations": [],
+      "identifiers": {
+        "doi": "10.1016/j.ijporl.2014.08.014",
+        "issn": "0165-5876",
+        "eissn": "1872-8464",
+        "pmid": "25218342"
+      },
+      "keywords": {
+        "authorKeywords": [
+          "Non-syndromic deafness",
+          "Molecular diagnosis",
+          "GJB2",
+          "GJB6 deletion",
+          "mtDNA mutation",
+          "Nigeria"
+        ]
+      }
+    },
+    {
+      "uid": "WOS:000346406900006",
+      "title": "Detection and phylogenetic characterization of Columbid circoviruses in Chaharmahal va Bakhtiari province, Iran",
+      "types": [
+        "Article"
+      ],
+      "sourceTypes": [
+        "Article"
+      ],
+      "source": {
+        "sourceTitle": "AVIAN PATHOLOGY",
+        "publishYear": 2014,
+        "publishMonth": "NOV 2",
+        "volume": "43",
+        "issue": "6",
+        "pages": {
+          "range": "524-528",
+          "begin": "524",
+          "end": "528",
+          "count": 5
+        }
+      },
+      "names": {
+        "authors": [
+          {
+            "displayName": "Mahzounieh, Mohammadreza",
+            "wosStandard": "Mahzounieh, M",
+            "researcherId": "U-2655-2017"
+          },
+          {
+            "displayName": "Khoei, Heidar Heidari",
+            "wosStandard": "Khoei, HH",
+            "researcherId": "ABD-3054-2020"
+          },
+          {
+            "displayName": "Shamsabadi, Mohammad Ghasemi",
+            "wosStandard": "Shamsabadi, MG",
+            "researcherId": "FVI-9244-2022"
+          },
+          {
+            "displayName": "Dastjerdi, Akbar",
+            "wosStandard": "Dastjerdi, A",
+            "researcherId": "E-1803-2011"
+          }
+        ]
+      },
+      "links": {
+        "record": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000346406900006&DestLinkType=FullRecord&DestApp=WOS_CPL",
+        "references": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000346406900006&DestLinkType=CitedReferences&DestApp=WOS",
+        "related": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000346406900006&DestLinkType=RelatedRecords&DestApp=WOS_CPL"
+      },
+      "citations": [],
+      "identifiers": {
+        "doi": "10.1080/03079457.2014.966648",
+        "issn": "0307-9457",
+        "eissn": "1465-3338",
+        "pmid": "25248026"
+      },
+      "keywords": {
+        "authorKeywords": []
+      }
+    },
+    {
+      "uid": "WOS:000343662800026",
+      "title": "Dissemination of the Transmissible Quinolone-Resistance Gene <i>qnrS1</i> by IncX Plasmids in Nigeria",
+      "types": [
+        "Article"
+      ],
+      "sourceTypes": [
+        "Article"
+      ],
+      "source": {
+        "sourceTitle": "PLOS ONE",
+        "publishYear": 2014,
+        "publishMonth": "OCT 23",
+        "volume": "9",
+        "issue": "10",
+        "articleNumber": "e110279",
+        "pages": {
+          "count": 10
+        }
+      },
+      "names": {
+        "authors": [
+          {
+            "displayName": "Sumrall, Eric T.",
+            "wosStandard": "Sumrall, ET",
+            "researcherId": "DXU-1339-2022"
+          },
+          {
+            "displayName": "Gallo, Elizabeth B.",
+            "wosStandard": "Gallo, EB",
+            "researcherId": "IKQ-0612-2023"
+          },
+          {
+            "displayName": "Aboderin, Aaron Oladipo",
+            "wosStandard": "Aboderin, AO",
+            "researcherId": "V-8025-2019"
+          },
+          {
+            "displayName": "Lamikanra, Adebayo",
+            "wosStandard": "Lamikanra, A",
+            "researcherId": "CZZ-7146-2022"
+          },
+          {
+            "displayName": "Okeke, Iruka N.",
+            "wosStandard": "Okeke, IN",
+            "researcherId": "N-1595-2019"
+          }
+        ]
+      },
+      "links": {
+        "record": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000343662800026&DestLinkType=FullRecord&DestApp=WOS_CPL",
+        "references": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000343662800026&DestLinkType=CitedReferences&DestApp=WOS",
+        "related": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000343662800026&DestLinkType=RelatedRecords&DestApp=WOS_CPL"
+      },
+      "citations": [],
+      "identifiers": {
+        "doi": "10.1371/journal.pone.0110279",
+        "eissn": "1932-6203",
+        "pmid": "25340787"
+      },
+      "keywords": {
+        "authorKeywords": []
+      }
+    },
+    {
+      "uid": "WOS:000342413500038",
+      "title": "First report of a complete genome sequence for a begomovirus infecting <i>Jatropha gossypifolia</i> in the Americas",
+      "types": [
+        "Article"
+      ],
+      "sourceTypes": [
+        "Article"
+      ],
+      "source": {
+        "sourceTitle": "ARCHIVES OF VIROLOGY",
+        "publishYear": 2014,
+        "publishMonth": "OCT",
+        "volume": "159",
+        "issue": "10",
+        "pages": {
+          "range": "2815-2818",
+          "begin": "2815",
+          "end": "2818",
+          "count": 4
+        }
+      },
+      "names": {
+        "authors": [
+          {
+            "displayName": "Simmonds-Gordon, R. N.",
+            "wosStandard": "Simmonds-Gordon, RN",
+            "researcherId": "DUR-0280-2022"
+          },
+          {
+            "displayName": "Collins-Fairclough, A. M.",
+            "wosStandard": "Collins-Fairclough, AM",
+            "researcherId": "HWS-8790-2023"
+          },
+          {
+            "displayName": "Stewart, C. S.",
+            "wosStandard": "Stewart, CS",
+            "researcherId": "GAH-9522-2022"
+          },
+          {
+            "displayName": "Roye, M. E.",
+            "wosStandard": "Roye, ME",
+            "researcherId": "FTV-0062-2022"
+          }
+        ]
+      },
+      "links": {
+        "record": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000342413500038&DestLinkType=FullRecord&DestApp=WOS_CPL",
+        "references": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000342413500038&DestLinkType=CitedReferences&DestApp=WOS",
+        "related": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000342413500038&DestLinkType=RelatedRecords&DestApp=WOS_CPL"
+      },
+      "citations": [],
+      "identifiers": {
+        "doi": "10.1007/s00705-014-2112-5",
+        "issn": "0304-8608",
+        "eissn": "1432-8798",
+        "pmid": "24872185"
+      },
+      "keywords": {
+        "authorKeywords": []
+      }
+    },
+    {
+      "uid": "WOS:000341523900016",
+      "title": "Phylogenetic analysis of peste des petits ruminants virus from outbreaks in Turkey during 2008-2012",
+      "types": [
+        "Article"
+      ],
+      "sourceTypes": [
+        "Article"
+      ],
+      "source": {
+        "sourceTitle": "TURKISH JOURNAL OF BIOLOGY",
+        "publishYear": 2014,
+        "volume": "38",
+        "issue": "5",
+        "pages": {
+          "range": "671-678",
+          "begin": "671",
+          "end": "678",
+          "count": 8
+        }
+      },
+      "names": {
+        "authors": [
+          {
+            "displayName": "Guler, Leyla",
+            "wosStandard": "Güler, L",
+            "researcherId": "JHQ-5019-2023"
+          },
+          {
+            "displayName": "Sevik, Murat",
+            "wosStandard": "Sevik, M",
+            "researcherId": "J-8900-2013"
+          },
+          {
+            "displayName": "Hasoksuz, Mustafa",
+            "wosStandard": "Hasöksüz, M",
+            "researcherId": "AAS-6669-2020"
+          }
+        ]
+      },
+      "links": {
+        "record": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000341523900016&DestLinkType=FullRecord&DestApp=WOS_CPL",
+        "references": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000341523900016&DestLinkType=CitedReferences&DestApp=WOS",
+        "related": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000341523900016&DestLinkType=RelatedRecords&DestApp=WOS_CPL"
+      },
+      "citations": [],
+      "identifiers": {
+        "doi": "10.3906/biy-1401-28",
+        "issn": "1300-0152",
+        "eissn": "1303-6092"
+      },
+      "keywords": {
+        "authorKeywords": [
+          "Peste des petits ruminants virus",
+          "RT-PCR",
+          "sheep",
+          "goat",
+          "phylogenetic analysis",
+          "abortion",
+          "Turkey"
+        ]
+      }
+    },
+    {
+      "uid": "WOS:000348315500014",
+      "title": "Cross-neutralization of antibodies induced by vaccination with Purified Chick Embryo Cell Vaccine (PCECV) against different <i>Lyssavirus</i> species",
+      "types": [
+        "Article"
+      ],
+      "sourceTypes": [
+        "Article"
+      ],
+      "source": {
+        "sourceTitle": "HUMAN VACCINES & IMMUNOTHERAPEUTICS",
+        "publishYear": 2014,
+        "publishMonth": "OCT",
+        "volume": "10",
+        "issue": "10",
+        "pages": {
+          "range": "2799-2804",
+          "begin": "2799",
+          "end": "2804",
+          "count": 6
+        }
+      },
+      "names": {
+        "authors": [
+          {
+            "displayName": "Malerczyk, Claudius",
+            "wosStandard": "Malerczyk, C",
+            "researcherId": "DGG-0958-2022"
+          },
+          {
+            "displayName": "Freuling, Conrad",
+            "wosStandard": "Freuling, C",
+            "researcherId": "GBO-9123-2022"
+          },
+          {
+            "displayName": "Gniel, Dieter",
+            "wosStandard": "Gniel, D",
+            "researcherId": "CQT-5357-2022"
+          },
+          {
+            "displayName": "Giesen, Alexandra",
+            "wosStandard": "Giesen, A",
+            "researcherId": "MRJ-6670-2025"
+          },
+          {
+            "displayName": "Selhorst, Thomas",
+            "wosStandard": "Selhorst, T",
+            "researcherId": "GFL-1287-2022"
+          },
+          {
+            "displayName": "Mueller, Thomas",
+            "wosStandard": "Müller, T",
+            "researcherId": "DJM-7031-2022"
+          }
+        ]
+      },
+      "links": {
+        "record": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000348315500014&DestLinkType=FullRecord&DestApp=WOS_CPL",
+        "references": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000348315500014&DestLinkType=CitedReferences&DestApp=WOS",
+        "related": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=avian-influenza-nigeria-sysrev-jb2026&SrcAuth=WosAPI&KeyUT=WOS:000348315500014&DestLinkType=RelatedRecords&DestApp=WOS_CPL"
+      },
+      "citations": [],
+      "identifiers": {
+        "doi": "10.4161/21645515.2014.972741",
+        "issn": "2164-5515",
+        "eissn": "2164-554X",
+        "pmid": "25483634"
+      },
+      "keywords": {
+        "authorKeywords": [
+          "cross-neutralization",
+          "lyssavirus",
+          "PCECV",
+          "rabies",
+          "vaccine"
+        ]
+      }
+    }
+  ]
+}

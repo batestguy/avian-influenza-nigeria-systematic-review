@@ -1,0 +1,21 @@
+# Secrets and credentials — never commit these.
+woskey.txt
+**/woskey.txt
+.env
+.env.*
+*.key
+*.pem
+
+# Browser sessions, snapshots, cookies, and downloaded API responses.
+.playwright-cli/
+.playwright-mcp/
+
+# Local Python environments and generated caches.
+tmp/pdfs/.venv/
+**/__pycache__/
+*.pyc
+
+# Local editor metadata.
+.vscode/
+.idea/
+
