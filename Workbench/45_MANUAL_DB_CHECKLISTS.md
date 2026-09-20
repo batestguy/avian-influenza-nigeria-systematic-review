@@ -1,6 +1,11 @@
-# 45 — Manual database checklists (human with library access) — v1 frozen 2026-09-16
+# 45 — Database execution checklists and completed-run record — v1 frozen 2026-09-16
 
-Scope: Scopus / WoS / ScienceDirect / Google Scholar / AJOL manual runs only.
+**Status update (2026-09-20):** this file now preserves both the historical manual instructions
+and the completed-run status. AJOL was completed through normal browser interaction; Web of
+Science base and facet counts were completed in an authenticated Core Collection browser, but
+Free View prevented a reliable full export. Exact executed strings and counts are in file 19.
+
+Scope: Scopus / WoS / ScienceDirect / Google Scholar / AJOL execution and audit.
 Out of scope: PubMed v3 140 (done) and supplement API pull (built separately) — do NOT re-run PubMed here.
 Source strings: v1 verbatim from `19_SEARCH_run_sheets.md`. Do not amend strings mid-run; amendments get new version + date.
 Standard: PRISMA-S loggable. Language of this sheet: British English (search strings themselves remain as frozen).
@@ -137,7 +142,9 @@ Scholar Q4 poultry Nigeria wild birds | Date: ____ | Years filter 2006–2026 Y/
 
 ## 5. AJOL (African Journals Online) — 6 free-text queries + Google fallback
 
-Where: https://www.ajol.info advanced/site search, manual browser. AJOL blocks bots (HTTP 403 to automation); all AJOL runs are manual by design with this sheet as the PRISMA-S record.
+Where: https://www.ajol.info on-site search through normal browser interaction. Direct HTTP
+automation had previously returned 403, but browser-driven use of the public interface succeeded
+on 2026-09-20. The exact nine-query executed set replaces the six-query planning set for reporting.
 
 Copy-paste queries (run one at a time, free-text/All fields):
 
@@ -179,7 +186,14 @@ Per-query log table (paste back):
 Export files: ____
 ```
 
-PRISMA-S wording (paste into manuscript methods supplement): "AJOL was searched manually (on-site free-text, six queries, [dates]) because automated retrieval returns HTTP 403 bot-block responses; Google site:ajol.info variants served as fallback only where stated. Per-query hits, screening counts, and exports are logged in Workbench file 45."
+PRISMA-S draft wording (hold until Gate C): "AJOL was searched on 20 September 2026 through its
+on-site interface using nine mandatory-term free-text queries. Displayed query totals summed to
+144; URL-level deduplication produced 79 unique article pages, including 73 dated 2006–2026
+after recovery and validation of 12 initially missed pages.
+Exact queries and per-query counts are reported in the search appendix."
+
+Completed-run note: the 79 records are retrieval candidates only. They are preserved in file 55
+and linked into file 53, but have not been substantively screened.
 
 ---
 
@@ -192,7 +206,7 @@ Scopus 2026-09-__ v1 verbatim, hits ___, file Scopus_202609___.ris
 WoS SCIE+ESCI 2006-01-01–2026-09-30 v1 verbatim, hits ___, file WoS_202609___.bib
 ScienceDirect single/split, hits ___, file ScienceDirect_202609___.ris
 Scholar Q1–Q4 screened/kept + 4 export files
-AJOL A1–A6 table + export files
+AJOL completed nine-query table from file 19 + `55_AJOL_CANDIDATES.json` and canonical links
 ```
 
 Assistant dedupes against PubMed v3 140 by DOI first, then PMID, then normalised title + year; reports new uniques vs duplicates with match key per record. Human does not need to remove duplicates before sending.

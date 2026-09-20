@@ -1,6 +1,13 @@
 # Systematic-review workflow — Nigeria AIV 2006–2026 (operational phase map)
 
-Status: unregistered systematic review, SWiM default. Re-audited 2026-09-19. The 2026-09-16 search library remains the locked historical layer; a Web of Science API update on 2026-09-19 added 175 raw records but has not been canonicalised or screened. Preliminary title/abstract screening exists for the earlier layer, while canonical reconciliation, full-text assessment, extraction and RoB are not complete. The master end-to-end plan is `50_END_TO_END_WORKPLAN.md`. Original manuscript frozen until paste-approved. See `17_SKIPPED_PROSPERO_note.md` for the registration decision.
+Status: unregistered systematic review, SWiM default. Re-audited 2026-09-20. The imported
+historical layers comprise the 2026-09-16 library and the 175-record Web of Science API update
+from 2026-09-19. On 2026-09-20, AJOL yielded 79 unique article pages and Web of Science browser
+searches yielded count-only totals of 206 base / 77 molecular / 154 epidemiology / 70 wild-bird.
+AJOL's 79 source rows are now canonicalised; the broader WoS browser results remain unexported.
+Preliminary title/abstract screening exists for earlier layers, while final screening
+reconciliation, full-text assessment, extraction and RoB are incomplete. The master plan is file 50. The
+manuscript remains frozen. See file 17 for the registration decision.
 
 ## Gate rule (hard)
 
@@ -13,10 +20,11 @@ Status: unregistered systematic review, SWiM default. Re-audited 2026-09-19. The
 - [x] Review roles operationalised for this unregistered review: R1 = primary reviewer; R2 = independent Reviewer-2 Codex agent (Epicurus); Arbiter = main Codex agent. All actions remain logged.
 - **Gate 0 exit:** freeze files 10 + 11 approved and dated. Paste into Methods when ready.
 
-**Re-audit status:** Gate 0 was re-frozen on 2026-09-19 after the cutoff and reviewer-role amendment.
-Gate 1/source audit is conditionally closed with explicit Scholar/AJOL/WoS limitations. Gate 2
-identity reconciliation is complete in `53_CANONICAL_REGISTER.json`, but screening reconciliation
-and final candidate-queue adjudication remain open. The 2026-09-19 WoS retrieval does not itself
+**Re-audit status:** Gate 0 was re-frozen on 2026-09-19 and amended on 2026-09-20 for the final
+search-update date. Gate 1/search execution is complete with explicit Scholar/AJOL/WoS export
+limitations. Gate 2 identity reconciliation now includes AJOL, but no 20 September WoS
+record export exists. Screening reconciliation and final candidate adjudication remain open.
+The 2026-09-19 WoS retrieval does not itself
 establish final eligibility.
 
 ## Stage 1 — Skip registration (logged)

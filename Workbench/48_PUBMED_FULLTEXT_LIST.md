@@ -1,5 +1,9 @@
 # 48 — PubMed 73 full-text retrieval list (mains, locked 2026-09-16)
 
+**Status (2026-09-20):** this is a provisional PubMed candidate list, not 73 included studies.
+Do not begin or report final full-text eligibility from it until cross-database canonical and
+screening reconciliation produces the frozen Gate C queue.
+
 Order: molecular/clade core → spatiotemporal → LBM/wild-bird → surveillance/KAP/control. British English.
 
 | # | PMID | Year | Title | DOI/URL |

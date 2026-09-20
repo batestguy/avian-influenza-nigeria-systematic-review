@@ -1,5 +1,9 @@
 # PRISMA-P scoring — protocol freeze (17 items / 26 sub-items)
 
+**Status (2026-09-20):** retained as the protocol-freeze audit. The unregistered protocol was
+amended to a 20 September search-update date; no retrospective registration claim is permitted.
+Gate A is controlled by files 10, 15, and 17.
+
 Source: Shamseer et al., Syst Rev 2015 (PRISMA-P). Use BEFORE screening starts.
 Score `Yes / Partial / No`. All Methods items must be `Yes` before Phase 2.
 

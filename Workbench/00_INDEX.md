@@ -2,6 +2,15 @@
 
 Original manuscript `Avian_review_paper_fellow.docx` is frozen until paste-approved. All audit and drafting aids live here.
 
+**Operational status (2026-09-20):** planned database searches have been executed, including
+AJOL and browser-based Web of Science updates. AJOL yielded 79 unique article pages from 144
+query rows; corrected metadata show 73 in-window and six outside-window records. Web of Science
+yielded count-only totals of 206 base / 77 molecular / 154 epidemiology / 70 wild-bird because
+Free View prevented a complete export. The canonical register now contains 1,877 identities from
+2,367 source rows. Reconciled screening is the next gate. The controlled screening register is now
+file 56, with 1,877 queue records and a 40-record dual-review pilot; no substantive screening
+decisions have been recorded. See files 15, 19, 45, 53, 54, 55, and 56.
+
 ## Files
 
 | File | What to check with it |

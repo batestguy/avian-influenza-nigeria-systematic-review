@@ -1,8 +1,22 @@
 # File inventory
 
 Inventory of the local systematic-review workspace at the initial Git commit,
-19 September 2026. Files containing credentials or browser session state are intentionally
-excluded from Git and are listed below for transparency.
+19 September 2026, with a documentation status update on 20 September 2026. Files containing
+credentials or browser session state are intentionally excluded from Git and are listed below
+for transparency.
+
+## 20 September search evidence not stored in Git
+
+- AJOL was searched through its normal on-site interface using nine exact queries. The corrected
+  run produced 144 query rows and 79 unique article URLs. Source-level metadata and query lineage
+  are now tracked in `Workbench/55_AJOL_CANDIDATES.json`; all 79 rows are linked into
+  `Workbench/53_CANONICAL_REGISTER.json`.
+- Web of Science Core Collection browser searches returned 206 base, 77 molecular, 154
+  epidemiology/spatial/temporal, and 70 wild-bird/host results. Free View did not expose a
+  reliable complete export, so no new WoS record file was added. The existing 175-record API
+  layer remains the only imported WoS dataset.
+- Exact strings, dates, counts, and limitations are preserved in `Workbench/15_RUN_LOG.md`,
+  `Workbench/19_SEARCH_run_sheets.md`, and `Workbench/45_MANUAL_DB_CHECKLISTS.md`.
 
 ## Tracked root files
 
@@ -38,7 +52,8 @@ excluded from Git and are listed below for transparency.
 - `33_SEARCH_execution_log.md`, `36_PUBMED_improvement_log.md`
 - `38_SCREEN_ROUND2.md`, `39_SCREEN_ROUND3.md`, `44_SUPPLEMENT_pull_log.md`
 - `45_MANUAL_DB_CHECKLISTS.md`, `48_PUBMED_FULLTEXT_LIST.md`
-- `49_NEXT_SESSION_HANDOFF.md`, `50_END_TO_END_WORKPLAN.md`
+- `49_NEXT_SESSION_HANDOFF.md`, `50_END_TO_END_WORKPLAN.md`,
+  `54_NEXT_SESSION_HANDOFF_20260919.md`
 
 ### Search inputs and candidate data
 
@@ -52,6 +67,8 @@ excluded from Git and are listed below for transparency.
 - `51_PUBMED_v3_metadata_repair.json`
 - `52_WOS_PROVISIONAL_NEW.json`
 - `53_CANONICAL_REGISTER.json` — canonical identity register and provisional decisions
+- `55_AJOL_CANDIDATES.json` — corrected AJOL source records, query lineage, date flags, and
+  canonical links
 
 ### Web of Science retrieval artifacts
 
@@ -90,4 +107,3 @@ manager, test suite, build system, or CI pipeline.
 - `.playwright-mcp/` — browser/session state.
 - `tmp/pdfs/.venv/` — generated environment.
 - Python caches, editor metadata, and environment files matched by `.gitignore`.
-

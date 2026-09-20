@@ -1,5 +1,8 @@
 # Calibration run SEED1 — adjudicated (2026-09-16)
 
+**Status (2026-09-20):** calibration evidence remains valid for form interpretation only. Its
+decisions do not replace canonical-record screening or full-text eligibility assessment.
+
 Two `general` subagents screened 5 papers each, blinded, JSON-only. Main-session adjudication below. This validates file 18 forms before database screening.
 
 ## Adjudicated votes

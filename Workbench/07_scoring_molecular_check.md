@@ -1,5 +1,8 @@
 # Custom molecular transparency check — 7 items
 
+**Status (2026-09-20):** tool unchanged and not yet applied. Use alongside the appropriate JBI
+tool only for finally eligible molecular studies after full-text retrieval.
+
 Why: JBI tools do not cover sequencing/phylogeny quality. Apply alongside JBI for every molecular paper.
 Score `Yes / No / Unclear` + quote. A `No` on 4 or 5 caps molecular claims at "suggestive".
 

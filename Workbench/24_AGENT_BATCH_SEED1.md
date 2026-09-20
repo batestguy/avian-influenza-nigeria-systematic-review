@@ -1,5 +1,8 @@
 # Seed calibration batch — 10 known papers from manuscript reference list
 
+**Status (2026-09-20):** historical calibration seed retained unchanged. It does not constitute
+database screening or contribute records to PRISMA counts.
+
 Purpose: calibrate agents + humans on eligibility BEFORE database screening. Expected: mostly Includes (Nigeria-linked) with 1–2 deliberate edge cases.
 Agent A → papers 1–5. Agent B → papers 6–10. Each returns JSON; main session compares + adjudicates.
 

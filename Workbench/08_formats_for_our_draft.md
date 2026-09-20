@@ -1,5 +1,9 @@
 # Formats we will use when drafting ours
 
+**Status (2026-09-20):** table formats remain frozen, but no final rows may be populated yet.
+AJOL identity import is complete; WoS export limitation resolution, screening reconciliation,
+full-text eligibility, and extraction precede drafting.
+
 All tables/appendices live INSIDE the `.docx` at draft stage (user rule). British English throughout.
 
 ## Table shells (column order frozen)

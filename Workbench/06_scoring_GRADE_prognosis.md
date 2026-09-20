@@ -1,5 +1,8 @@
 # GRADE certainty — prognosis logic (narrative, no fake grades)
 
+**Status (2026-09-20):** certainty framework unchanged and inactive. No certainty grade is
+claimable before study grouping, extraction, JBI appraisal, and the molecular transparency check.
+
 Sources: Iorio et al., BMJ 2015;h870 (GRADE prognosis); JBI GRADE mapping (no formal GRADE-prevalence rule — prognosis/baseline-risk logic is acceptable, optional for prevalence).
 Assess per synthesis grouping, not per paper. Two reviewers; document reasons.
 

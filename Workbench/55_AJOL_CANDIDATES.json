@@ -1,0 +1,3672 @@
+{
+  "metadata": {
+    "created": "2026-09-20",
+    "source": "African Journals Online (AJOL) on-site public search",
+    "purpose": "Source-level retrieval, query-lineage, and canonical-identity audit",
+    "date_window": "2006-01-01 to 2026-09-20",
+    "query_rows": 144,
+    "unique_article_urls": 79,
+    "within_date_window": 73,
+    "outside_date_window": 6,
+    "doi_present": 50,
+    "doi_missing": 29,
+    "initial_capture_unique_urls": 67,
+    "recovered_urls": 12,
+    "existing_canonical_matches": 47,
+    "doi_matches": 34,
+    "title_year_matches": 13,
+    "new_canonical_identities": 32,
+    "screening_status": "not started",
+    "limitations": [
+      "Citation metadata only; abstracts/full text were not copied.",
+      "Twelve missing pages caused by repeated browser navigation captures were re-opened and validated through the normal AJOL interface.",
+      "Canonical matching used compact DOI first, then exact normalised title plus year; no bridge conflicts were found.",
+      "Outside-window flags are deterministic date checks, not substantive eligibility decisions."
+    ],
+    "field_missingness": {
+      "title": 0,
+      "year": 0,
+      "authors": 0,
+      "journal": 0,
+      "language": 0,
+      "doi": 29,
+      "pages": 17,
+      "volume": 0,
+      "issue": 2,
+      "pdf_url": 4
+    },
+    "qa_trust_level": "High for URL/query lineage and canonical identity linkage; insufficient for substantive eligibility screening because abstracts were not captured."
+  },
+  "queries": [
+    {
+      "query_id": "A1",
+      "query": "+Nigeria +\"avian influenza\"",
+      "displayed_hits": 66,
+      "captured_rows": 66
+    },
+    {
+      "query_id": "A2",
+      "query": "+Nigeria +\"influenza A virus\"",
+      "displayed_hits": 13,
+      "captured_rows": 13
+    },
+    {
+      "query_id": "A3",
+      "query": "+Nigeria +\"H5N1\"",
+      "displayed_hits": 23,
+      "captured_rows": 23
+    },
+    {
+      "query_id": "A4",
+      "query": "+Nigeria +\"H5N8\"",
+      "displayed_hits": 2,
+      "captured_rows": 2
+    },
+    {
+      "query_id": "A5",
+      "query": "+Nigeria +\"H9N2\"",
+      "displayed_hits": 6,
+      "captured_rows": 6
+    },
+    {
+      "query_id": "A6",
+      "query": "+Nigeria +\"H7N7\"",
+      "displayed_hits": 4,
+      "captured_rows": 4
+    },
+    {
+      "query_id": "A7",
+      "query": "+Nigeria +\"avian influenza\" +molecular",
+      "displayed_hits": 8,
+      "captured_rows": 8
+    },
+    {
+      "query_id": "A8",
+      "query": "+Nigeria +\"avian influenza\" +epidemiology",
+      "displayed_hits": 10,
+      "captured_rows": 10
+    },
+    {
+      "query_id": "A9",
+      "query": "+Nigeria +\"avian influenza\" +\"wild bird\"",
+      "displayed_hits": 12,
+      "captured_rows": 12
+    }
+  ],
+  "records": [
+    {
+      "ajol_id": "AJOL:ahs:180302",
+      "url": "https://www.ajol.info/index.php/ahs/article/view/180302",
+      "title": "Influenza virus A (H1 and H3) and B co-circulation among patient presenting with acute respiratory tract infection in Ibadan, Nigeria",
+      "authors": [
+        "Frederick Odun-Ayo",
+        "Georgina Odaibo",
+        "David Olaleye"
+      ],
+      "journal": "African Health Sciences",
+      "journal_abbreviation": "Afr H. Sci.",
+      "issn": "1729-0503",
+      "publication_date": "2018/11/29",
+      "year": "2018",
+      "volume": "18",
+      "issue": "4",
+      "pages": "1134-1143",
+      "doi": "10.4314/ahs.v18i4.34",
+      "doi_key": "104314ahsv18i434",
+      "language": "en",
+      "keywords": [
+        "Influenza A",
+        "haemagglutination",
+        "isolation",
+        "Nigeria."
+      ],
+      "pdf_url": "https://www.ajol.info/index.php/ahs/article/download/180302/169649",
+      "query_membership": [
+        {
+          "query_id": "A2",
+          "query": "+Nigeria +\"influenza A virus\"",
+          "rank": 7
+        }
+      ],
+      "within_date_window": true,
+      "pre_screen_flag": "none",
+      "metadata_capture": "initial",
+      "canonical_id": "CAN-1695",
+      "canonical_match_rule": "doi",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:ajbr:95226",
+      "url": "https://www.ajol.info/index.php/ajbr/article/view/95226",
+      "title": "Prevalence of Avian Origin H5 and H7 Influenza Virus Antibodies in Dogs in Ibadan and Sagamu, Southwestern Nigeria",
+      "authors": [
+        "DO Oluwayelu",
+        "CO Aiki-Raji",
+        "C Neba",
+        "O Ahmadu"
+      ],
+      "journal": "African Journal of Biomedical Research",
+      "journal_abbreviation": "Afr. J. Biomed. Res.",
+      "issn": "1119-5096",
+      "publication_date": "2011",
+      "year": "2011",
+      "volume": "14",
+      "issue": "1",
+      "pages": "23-26",
+      "doi": null,
+      "doi_key": null,
+      "language": "en",
+      "keywords": [],
+      "pdf_url": "https://www.ajol.info/index.php/ajbr/article/download/95226/84573",
+      "query_membership": [
+        {
+          "query_id": "A1",
+          "query": "+Nigeria +\"avian influenza\"",
+          "rank": 21
+        },
+        {
+          "query_id": "A3",
+          "query": "+Nigeria +\"H5N1\"",
+          "rank": 15
+        },
+        {
+          "query_id": "A8",
+          "query": "+Nigeria +\"avian influenza\" +epidemiology",
+          "rank": 5
+        }
+      ],
+      "within_date_window": true,
+      "pre_screen_flag": "none",
+      "metadata_capture": "initial",
+      "canonical_id": "CAN-0054",
+      "canonical_match_rule": "title_year",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:ajcem:307312",
+      "url": "https://www.ajol.info/index.php/ajcem/article/view/307312",
+      "title": "Detection of influenza virus by real-time polymerase chain reaction (RT-PCR) on archived COVID-19 respiratory specimens in Ibadan, Nigeria: Détection du virus de la grippe par réaction en chaîne par polymérase en temps réel (RT-PCR) sur des échantillons respiratoires COVID-19 archivés à Ibadan, Nigéria",
+      "authors": [
+        "J. O. Ogunbode ",
+        "O. A. Olatunji",
+        "A. Fowotade"
+      ],
+      "journal": "African Journal of Clinical and Experimental Microbiology",
+      "journal_abbreviation": "Af J Clin Exp Micro",
+      "issn": "1595-689X",
+      "publication_date": "2025/10/01",
+      "year": "2025",
+      "volume": "26",
+      "issue": "4",
+      "pages": "363-368",
+      "doi": "10.4314/ajcem.v26i4.6",
+      "doi_key": "104314ajcemv26i46",
+      "language": "en",
+      "keywords": [
+        "Influenza viruses, SARS-CoV-2, COVID-19, Real-Time PCR, Archived samples"
+      ],
+      "pdf_url": "https://www.ajol.info/index.php/ajcem/article/download/307312/288933",
+      "query_membership": [
+        {
+          "query_id": "A2",
+          "query": "+Nigeria +\"influenza A virus\"",
+          "rank": 6
+        }
+      ],
+      "within_date_window": true,
+      "pre_screen_flag": "none",
+      "metadata_capture": "initial",
+      "canonical_id": "CAN-1851",
+      "canonical_match_rule": "new",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:ajcem:68876",
+      "url": "https://www.ajol.info/index.php/ajcem/article/view/68876",
+      "title": "Detection of Influenza A Virus in Pigs in Lagos, Nigeria",
+      "authors": [
+        "AA Anjorin",
+        "SA Omilabu",
+        "OB Salu",
+        "BO Oke"
+      ],
+      "journal": "African Journal of Clinical and Experimental Microbiology",
+      "journal_abbreviation": "Af J Clin Exp Micro",
+      "issn": "1595-689X",
+      "publication_date": "2012",
+      "year": "2012",
+      "volume": "13",
+      "issue": "1",
+      "pages": "41-45",
+      "doi": "10.4314/ajcem.v13i1.4",
+      "doi_key": "104314ajcemv13i14",
+      "language": "en",
+      "keywords": [
+        "Subtype",
+        "Influenza A",
+        "Pig",
+        "Lagos"
+      ],
+      "pdf_url": "https://www.ajol.info/index.php/ajcem/article/download/68876/61127",
+      "query_membership": [
+        {
+          "query_id": "A2",
+          "query": "+Nigeria +\"influenza A virus\"",
+          "rank": 2
+        }
+      ],
+      "within_date_window": true,
+      "pre_screen_flag": "none",
+      "metadata_capture": "initial",
+      "canonical_id": "CAN-1698",
+      "canonical_match_rule": "doi",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:ajcem:7391",
+      "url": "https://www.ajol.info/index.php/ajcem/article/view/7391",
+      "title": "Detection Of Haemagglutination–Inhibition Antibodies Against Human H1n1 Strains Of Influenza A Viruses In Swine In Ibadan, Nigeria",
+      "authors": [
+        "CO Aiki-Raji",
+        "IO Oyedele",
+        "GO Ayoade",
+        "OA Fagbohun",
+        "TA Oderinu"
+      ],
+      "journal": "African Journal of Clinical and Experimental Microbiology",
+      "journal_abbreviation": "Af J Clin Exp Micro",
+      "issn": "1595-689X",
+      "publication_date": "2004/09/20",
+      "year": "2004",
+      "volume": "5",
+      "issue": "3",
+      "pages": "278-279",
+      "doi": "10.4314/ajcem.v5i3.7391",
+      "doi_key": "104314ajcemv5i37391",
+      "language": "en",
+      "keywords": [],
+      "pdf_url": "https://www.ajol.info/index.php/ajcem/article/download/7391/13769",
+      "query_membership": [
+        {
+          "query_id": "A2",
+          "query": "+Nigeria +\"influenza A virus\"",
+          "rank": 8
+        }
+      ],
+      "within_date_window": false,
+      "pre_screen_flag": "outside_2006_2026",
+      "metadata_capture": "initial",
+      "canonical_id": "CAN-1850",
+      "canonical_match_rule": "new",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:ajcem:7512",
+      "url": "https://www.ajol.info/index.php/ajcem/article/view/7512",
+      "title": "Risk Factors, Threats And Prevention Of Highly Pathogenic Avian Influenza (HPAI) In African Countries",
+      "authors": [
+        "OI Musa",
+        "AG Salaudeen",
+        "AA Akanbi",
+        "OA Bolarinwa"
+      ],
+      "journal": "African Journal of Clinical and Experimental Microbiology",
+      "journal_abbreviation": "Af J Clin Exp Micro",
+      "issn": "1595-689X",
+      "publication_date": "2009/03/27",
+      "year": "2009",
+      "volume": "10",
+      "issue": "2",
+      "pages": "99-116",
+      "doi": "10.4314/ajcem.v10i2.7512",
+      "doi_key": "104314ajcemv10i27512",
+      "language": "en",
+      "keywords": [],
+      "pdf_url": "https://www.ajol.info/index.php/ajcem/article/download/7512/29822",
+      "query_membership": [
+        {
+          "query_id": "A1",
+          "query": "+Nigeria +\"avian influenza\"",
+          "rank": 35
+        },
+        {
+          "query_id": "A8",
+          "query": "+Nigeria +\"avian influenza\" +epidemiology",
+          "rank": 7
+        },
+        {
+          "query_id": "A9",
+          "query": "+Nigeria +\"avian influenza\" +\"wild bird\"",
+          "rank": 9
+        }
+      ],
+      "within_date_window": true,
+      "pre_screen_flag": "none",
+      "metadata_capture": "initial",
+      "canonical_id": "CAN-1697",
+      "canonical_match_rule": "doi",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:ajid:156808",
+      "url": "https://www.ajol.info/index.php/ajid/article/view/156808",
+      "title": "Flock-based surveillance for lowpathogenic avian influenza virus in commercial breeders and layers, southwest Nigeria",
+      "authors": [
+        "Daniel Oladimeji Oluwayelu",
+        "Ayoyimika Omolanwa",
+        "Adebowale Idris Adebiyi",
+        "Comfort Oluladun Aiki-Raji"
+      ],
+      "journal": "African Journal of Infectious Diseases",
+      "journal_abbreviation": "AJID",
+      "issn": "2006-0165",
+      "publication_date": "2017",
+      "year": "2017",
+      "volume": "11",
+      "issue": "1",
+      "pages": "44-49",
+      "doi": "10.21010/ajid.v11i1.5",
+      "doi_key": "1021010ajidv11i15",
+      "language": "en",
+      "keywords": [],
+      "pdf_url": "https://www.ajol.info/index.php/ajid/article/download/156808/146416",
+      "query_membership": [
+        {
+          "query_id": "A1",
+          "query": "+Nigeria +\"avian influenza\"",
+          "rank": 34
+        },
+        {
+          "query_id": "A2",
+          "query": "+Nigeria +\"influenza A virus\"",
+          "rank": 4
+        },
+        {
+          "query_id": "A5",
+          "query": "+Nigeria +\"H9N2\"",
+          "rank": 6
+        },
+        {
+          "query_id": "A6",
+          "query": "+Nigeria +\"H7N7\"",
+          "rank": 1
+        }
+      ],
+      "within_date_window": true,
+      "pre_screen_flag": "none",
+      "metadata_capture": "initial",
+      "canonical_id": "CAN-1293",
+      "canonical_match_rule": "doi",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:ajrh:221402",
+      "url": "https://www.ajol.info/index.php/ajrh/article/view/221402",
+      "title": "Megamalls and lifestyles of urban dwellers in selected cities in southwest, Nigeria",
+      "authors": [
+        "Olawale Yinusa Olonade",
+        "Dauda Aderemi Busari",
+        "Egharevba Matthew E.",
+        "David Imhonopi",
+        "Alo Olubunmi Akinsanya",
+        "Tayo Ola George",
+        "Asamu Festus Femi",
+        "Christiana Olufunke Adetunde"
+      ],
+      "journal": "African Journal of Reproductive Health",
+      "journal_abbreviation": "Afr. J. Repro. Health",
+      "issn": "1118-4841",
+      "publication_date": "2021",
+      "year": "2021",
+      "volume": "25",
+      "issue": "5s",
+      "pages": "55-67",
+      "doi": null,
+      "doi_key": null,
+      "language": "en",
+      "keywords": [
+        "Cities, lifestyles, megamalls, urban dwellers, Nigeria"
+      ],
+      "pdf_url": "https://www.ajol.info/index.php/ajrh/article/download/221402/208923",
+      "query_membership": [
+        {
+          "query_id": "A1",
+          "query": "+Nigeria +\"avian influenza\"",
+          "rank": 38
+        }
+      ],
+      "within_date_window": true,
+      "pre_screen_flag": "none",
+      "metadata_capture": "initial",
+      "canonical_id": "CAN-1864",
+      "canonical_match_rule": "new",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:ajtcam:92371",
+      "url": "https://www.ajol.info/index.php/ajtcam/article/view/92371",
+      "title": "Anti-ulcerogenic activity of the methanol root bark extract of Cochlospermum Planchonii (Hook f).",
+      "authors": [
+        "MI Ezeja",
+        "AO Anaga"
+      ],
+      "journal": "African Journal of Traditional, Complementary and Alternative Medicines",
+      "journal_abbreviation": "Afr. J. Trad. Compl. Alt. Med.",
+      "issn": "0189-6016",
+      "publication_date": "2013/08/14",
+      "year": "2013",
+      "volume": "10",
+      "issue": "5",
+      "pages": "394-400",
+      "doi": "10.4314/ajtcam.v10i5.29",
+      "doi_key": "104314ajtcamv10i529",
+      "language": "en",
+      "keywords": [
+        "Anti-ulcerogenic",
+        "Cochlospermum planchonii",
+        "Cimetidine",
+        "Cytoprotective",
+        "antisecretory",
+        "Flavonoids"
+      ],
+      "pdf_url": "https://www.ajol.info/index.php/ajtcam/article/download/92371/81824",
+      "query_membership": [
+        {
+          "query_id": "A3",
+          "query": "+Nigeria +\"H5N1\"",
+          "rank": 3
+        }
+      ],
+      "within_date_window": true,
+      "pre_screen_flag": "none",
+      "metadata_capture": "initial",
+      "canonical_id": "CAN-1847",
+      "canonical_match_rule": "new",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:ari:296631",
+      "url": "https://www.ajol.info/index.php/ari/article/view/296631",
+      "title": "Serological survey of avian influenza virus among indigenous chicken in Ibarapa region of Oyo State, Nigeria",
+      "authors": [
+        "Olubukola Deborah Adelakun",
+        "Adetolase Azizat Bakre",
+        "Omodolapo Morohunranti Obisesan",
+        "Foluke Adedayo Akande"
+      ],
+      "journal": "Animal Research International",
+      "journal_abbreviation": "Anim. Res. Int.",
+      "issn": "1597-3115",
+      "publication_date": "2025/05/28",
+      "year": "2025",
+      "volume": "22",
+      "issue": "1",
+      "pages": "5908 – 5914-5908 – 5914",
+      "doi": null,
+      "doi_key": null,
+      "language": "en",
+      "keywords": [
+        "Avian Influenza, Seroprevalence, Indigenous chickens, Ibarapa, Oyo State"
+      ],
+      "pdf_url": "https://www.ajol.info/index.php/ari/article/download/296631/278997",
+      "query_membership": [
+        {
+          "query_id": "A1",
+          "query": "+Nigeria +\"avian influenza\"",
+          "rank": 18
+        },
+        {
+          "query_id": "A7",
+          "query": "+Nigeria +\"avian influenza\" +molecular",
+          "rank": 4
+        },
+        {
+          "query_id": "A8",
+          "query": "+Nigeria +\"avian influenza\" +epidemiology",
+          "rank": 3
+        }
+      ],
+      "within_date_window": true,
+      "pre_screen_flag": "none",
+      "metadata_capture": "initial",
+      "canonical_id": "CAN-1870",
+      "canonical_match_rule": "new",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:as:187179",
+      "url": "https://www.ajol.info/index.php/as/article/view/187179",
+      "title": "Effects of avian flu on the consumption of chicken and egg among University of Ilorin staff, Ilorin, Nigeria",
+      "authors": [
+        "K.Y. Belewu"
+      ],
+      "journal": "Agro-Science",
+      "journal_abbreviation": "Agro-Sci.",
+      "issn": "1119-7455",
+      "publication_date": "2019/06/04",
+      "year": "2019",
+      "volume": "18",
+      "issue": "2",
+      "pages": "32-36",
+      "doi": "10.4314/as.v18i2.6",
+      "doi_key": "104314asv18i26",
+      "language": "en",
+      "keywords": [
+        "avian virus",
+        "wild birds",
+        "domestic poultry",
+        "egg",
+        "chicken"
+      ],
+      "pdf_url": "https://www.ajol.info/index.php/as/article/download/187179/176456",
+      "query_membership": [
+        {
+          "query_id": "A1",
+          "query": "+Nigeria +\"avian influenza\"",
+          "rank": 50
+        },
+        {
+          "query_id": "A9",
+          "query": "+Nigeria +\"avian influenza\" +\"wild bird\"",
+          "rank": 8
+        }
+      ],
+      "within_date_window": true,
+      "pre_screen_flag": "none",
+      "metadata_capture": "initial",
+      "canonical_id": "CAN-1853",
+      "canonical_match_rule": "new",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:csj:314885",
+      "url": "https://www.ajol.info/index.php/csj/article/view/314885",
+      "title": "In vitro Cytotoxicity, Antioxidant Capacity, Total Phenolic and Flavonoid Contents of Trianthema pentandra from Northwestern Region in Nigeria",
+      "authors": [
+        "Usman Dauda",
+        "Nazifi S.  Ibrahim",
+        "Habiba Isa  Rasheed"
+      ],
+      "journal": "ChemSearch Journal",
+      "journal_abbreviation": "ChemSearch J.",
+      "issn": "2384-6208",
+      "publication_date": "2025",
+      "year": "2025",
+      "volume": "16",
+      "issue": "2",
+      "pages": "160-169",
+      "doi": null,
+      "doi_key": null,
+      "language": "en",
+      "keywords": [
+        "Antioxidant, Cytotoxicity, Flavonoids, Phenolics, Trianthema pentandra"
+      ],
+      "pdf_url": "https://www.ajol.info/index.php/csj/article/download/314885/296200",
+      "query_membership": [
+        {
+          "query_id": "A1",
+          "query": "+Nigeria +\"avian influenza\"",
+          "rank": 66
+        }
+      ],
+      "within_date_window": true,
+      "pre_screen_flag": "none",
+      "metadata_capture": "initial",
+      "canonical_id": "CAN-1859",
+      "canonical_match_rule": "new",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:dujopas:291623",
+      "url": "https://www.ajol.info/index.php/dujopas/article/view/291623",
+      "title": "Comparative Phytochemical, Physicochemical and Proximate Analysis of Oils from Garlic (Allium sativum) and Black Cumin (Nigella sativa) ",
+      "authors": [
+        "Hajara Momoh",
+        "Ismail Shina  Sadiq",
+        "Shafiu Muhammad  Bello",
+        "Ibraheem Wasiu  Aderemi",
+        "Ahmad Abdussamad  Ismail"
+      ],
+      "journal": "Dutse Journal of Pure and Applied Sciences",
+      "journal_abbreviation": "Dut. Jnl. Pure. Appl. Sci.",
+      "issn": "2635-3490",
+      "publication_date": "2025/03/24",
+      "year": "2025",
+      "volume": "11",
+      "issue": "1b",
+      "pages": "26-34",
+      "doi": "10.4314/dujopas.v11i1b.4",
+      "doi_key": "104314dujopasv11i1b4",
+      "language": "en",
+      "keywords": [
+        "black cumin oil, garlic oil, phytochemicals, physicochemical analysis, proximate analysis"
+      ],
+      "pdf_url": "https://www.ajol.info/index.php/dujopas/article/download/291623/274523",
+      "query_membership": [
+        {
+          "query_id": "A1",
+          "query": "+Nigeria +\"avian influenza\"",
+          "rank": 55
+        },
+        {
+          "query_id": "A5",
+          "query": "+Nigeria +\"H9N2\"",
+          "rank": 4
+        }
+      ],
+      "within_date_window": true,
+      "pre_screen_flag": "none",
+      "metadata_capture": "initial",
+      "canonical_id": "CAN-1849",
+      "canonical_match_rule": "new",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:ejhd:216588",
+      "url": "https://www.ajol.info/index.php/ejhd/article/view/216588",
+      "title": "SOCIO-DEMOGRAPHIC FACTORS INFLUENCING THE USE  OF MODERN CONTRACEPTION IN AN URBAN POPULATION  IN SOUTH-WESTERN ETHIOPIA",
+      "authors": [
+        "Messert Shiferaw",
+        "Samuel Gebrehiwot",
+        "Samuel Gebrehiwot"
+      ],
+      "journal": "Ethiopian Journal of Health Development",
+      "journal_abbreviation": "ejhd",
+      "issn": "1021-6790",
+      "publication_date": "1993",
+      "year": "1993",
+      "volume": "7",
+      "issue": "1",
+      "pages": null,
+      "doi": null,
+      "doi_key": null,
+      "language": "en",
+      "keywords": [],
+      "pdf_url": "https://www.ajol.info/index.php/ejhd/article/download/216588/204279",
+      "query_membership": [
+        {
+          "query_id": "A1",
+          "query": "+Nigeria +\"avian influenza\"",
+          "rank": 47
+        },
+        {
+          "query_id": "A9",
+          "query": "+Nigeria +\"avian influenza\" +\"wild bird\"",
+          "rank": 11
+        }
+      ],
+      "within_date_window": false,
+      "pre_screen_flag": "outside_2006_2026",
+      "metadata_capture": "initial",
+      "canonical_id": "CAN-1874",
+      "canonical_match_rule": "new",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:ejhd:216591",
+      "url": "https://www.ajol.info/index.php/ejhd/article/view/216591",
+      "title": "THE INCIDENCE OF SCHSTOSOMIASIS IN BAHIR-DAR, ETHIOPIA",
+      "authors": [
+        "Berhanu Erko",
+        "Shibru Tedela"
+      ],
+      "journal": "Ethiopian Journal of Health Development",
+      "journal_abbreviation": "ejhd",
+      "issn": "1021-6790",
+      "publication_date": "1993",
+      "year": "1993",
+      "volume": "7",
+      "issue": "1",
+      "pages": null,
+      "doi": null,
+      "doi_key": null,
+      "language": "en",
+      "keywords": [],
+      "pdf_url": "https://www.ajol.info/index.php/ejhd/article/download/216591/204281",
+      "query_membership": [
+        {
+          "query_id": "A1",
+          "query": "+Nigeria +\"avian influenza\"",
+          "rank": 54
+        }
+      ],
+      "within_date_window": false,
+      "pre_screen_flag": "outside_2006_2026",
+      "metadata_capture": "initial",
+      "canonical_id": "CAN-1877",
+      "canonical_match_rule": "new",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:gjass:2302",
+      "url": "https://www.ajol.info/index.php/gjass/article/view/2302",
+      "title": "Avian influenza (bird flu) outbreak news scare and its economic implication on poultry enterprises in Adamawa state, Nigeria",
+      "authors": [
+        "MR Ja'afar-Furo",
+        "HG Balla",
+        "B Yakubu"
+      ],
+      "journal": "Global Journal of Agricultural Sciences",
+      "journal_abbreviation": "gjass",
+      "issn": "2992-4499",
+      "publication_date": "2007/08/27",
+      "year": "2007",
+      "volume": "6",
+      "issue": "1",
+      "pages": null,
+      "doi": "10.4314/gjass.v6i1.2302",
+      "doi_key": "104314gjassv6i12302",
+      "language": "en",
+      "keywords": [],
+      "pdf_url": null,
+      "query_membership": [
+        {
+          "query_id": "A1",
+          "query": "+Nigeria +\"avian influenza\"",
+          "rank": 58
+        }
+      ],
+      "within_date_window": true,
+      "pre_screen_flag": "none",
+      "metadata_capture": "recovered_2026-09-20",
+      "canonical_id": "CAN-1702",
+      "canonical_match_rule": "doi",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:gjass:62783",
+      "url": "https://www.ajol.info/index.php/gjass/article/view/62783",
+      "title": "Assessment of the economic and social implications of the avian flu outbreak on the Nigerian poultry industry",
+      "authors": [
+        "P.U Owai"
+      ],
+      "journal": "Global Journal of Agricultural Sciences",
+      "journal_abbreviation": "gjass",
+      "issn": "2992-4499",
+      "publication_date": "2010",
+      "year": "2010",
+      "volume": "9",
+      "issue": "1",
+      "pages": null,
+      "doi": "10.4314/gjass.v9i1.62783",
+      "doi_key": "104314gjassv9i162783",
+      "language": "en",
+      "keywords": [
+        "Assessment",
+        "Economic",
+        "Social Implications",
+        "Avian Flu",
+        "Nigerian Poultry."
+      ],
+      "pdf_url": "https://www.ajol.info/index.php/gjass/article/download/62783/50693",
+      "query_membership": [
+        {
+          "query_id": "A1",
+          "query": "+Nigeria +\"avian influenza\"",
+          "rank": 27
+        }
+      ],
+      "within_date_window": true,
+      "pre_screen_flag": "none",
+      "metadata_capture": "recovered_2026-09-20",
+      "canonical_id": "CAN-1703",
+      "canonical_match_rule": "doi",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:ijest:229408",
+      "url": "https://www.ajol.info/index.php/ijest/article/view/229408",
+      "title": "Evaluating capability of a bivariate zero-inflated poisson process",
+      "authors": [
+        "Surajit  Pal",
+        "Susanta Kumar  Gauri"
+      ],
+      "journal": "International Journal of Engineering, Science and Technology",
+      "journal_abbreviation": "Int. J. Eng. Sci. Tech",
+      "issn": "2141-2839",
+      "publication_date": "2022/08/08",
+      "year": "2022",
+      "volume": "14",
+      "issue": "1",
+      "pages": "10-20",
+      "doi": "10.4314/ijest.v14i1.2",
+      "doi_key": "104314ijestv14i12",
+      "language": "en",
+      "keywords": [
+        "Count data; process capability index; zero-inflated process; bivariate zero-inflated count data; bivariate zero-inflated poisson (BZIP) distribution."
+      ],
+      "pdf_url": "https://www.ajol.info/index.php/ijest/article/download/229408/216574",
+      "query_membership": [
+        {
+          "query_id": "A1",
+          "query": "+Nigeria +\"avian influenza\"",
+          "rank": 48
+        }
+      ],
+      "within_date_window": true,
+      "pre_screen_flag": "none",
+      "metadata_capture": "initial",
+      "canonical_id": "CAN-1854",
+      "canonical_match_rule": "new",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:jae:192814",
+      "url": "https://www.ajol.info/index.php/jae/article/view/192814",
+      "title": "Adoption of bio-security measures against avian-influenza outbreaks among poultry farmers in Jigawa State, Nigeria",
+      "authors": [
+        "Felix Olayinka Oladipo",
+        "Oladele Gafaru Bello",
+        "Abdulrasaq Kamal Daudu",
+        "Ajoke Oluwatoyin Kayode",
+        "Oyedola Waheed Kareem",
+        "Oluwasogo David Olorunfemi",
+        "Abigail Oluwatunmise Iyilade"
+      ],
+      "journal": "Journal of Agricultural Extension",
+      "journal_abbreviation": "jae",
+      "issn": "2408-6851",
+      "publication_date": "2020/02/04",
+      "year": "2020",
+      "volume": "24",
+      "issue": "1",
+      "pages": "85-94",
+      "doi": "10.4314/jae.v24i1.9",
+      "doi_key": "104314jaev24i19",
+      "language": "en",
+      "keywords": [
+        "Adoption of bio-security",
+        "avian-influenza",
+        "outbreak",
+        "poultry farmers"
+      ],
+      "pdf_url": "https://www.ajol.info/index.php/jae/article/download/192814/181938",
+      "query_membership": [
+        {
+          "query_id": "A1",
+          "query": "+Nigeria +\"avian influenza\"",
+          "rank": 30
+        },
+        {
+          "query_id": "A3",
+          "query": "+Nigeria +\"H5N1\"",
+          "rank": 19
+        }
+      ],
+      "within_date_window": true,
+      "pre_screen_flag": "none",
+      "metadata_capture": "initial",
+      "canonical_id": "CAN-1706",
+      "canonical_match_rule": "doi",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:jasem:270931",
+      "url": "https://www.ajol.info/index.php/jasem/article/view/270931",
+      "title": "Review Assessment of Current Status, Challenges, Opportunities, and Implications of Liquified Natural Gas Supply Infrastructure Development in the Nigerian Maritime Sector",
+      "authors": [
+        "J. N. Osuji",
+        "J. Agbakwuru"
+      ],
+      "journal": "Journal of Applied Sciences and Environmental Management",
+      "journal_abbreviation": "jasem",
+      "issn": "2659-1499",
+      "publication_date": "2024/05/24",
+      "year": "2024",
+      "volume": "28",
+      "issue": "5",
+      "pages": "1527-1532",
+      "doi": "10.4314/jasem.v28i5.25",
+      "doi_key": "104314jasemv28i525",
+      "language": "en",
+      "keywords": [
+        "Liquified Natural Gas; Supply Infrastructure Development; Ocean-going Vessels; Coastal Service Vessels"
+      ],
+      "pdf_url": "https://www.ajol.info/index.php/jasem/article/download/270931/255757",
+      "query_membership": [
+        {
+          "query_id": "A5",
+          "query": "+Nigeria +\"H9N2\"",
+          "rank": 2
+        }
+      ],
+      "within_date_window": true,
+      "pre_screen_flag": "none",
+      "metadata_capture": "initial",
+      "canonical_id": "CAN-1867",
+      "canonical_match_rule": "new",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:jasr:112522",
+      "url": "https://www.ajol.info/index.php/jasr/article/view/112522",
+      "title": "Farmers’ compliance with the use of approved cocoa pesticides in cocoa producing states of Nigeria",
+      "authors": [
+        "IU Mokwunye",
+        "FD Babalola",
+        "I Ndagi",
+        "M Idrisu",
+        "FC Mokwunye",
+        "EU Asogwa"
+      ],
+      "journal": "Journal of Agriculture and Social Research (JASR)",
+      "journal_abbreviation": "jasr",
+      "issn": "1595-7470",
+      "publication_date": "2012",
+      "year": "2012",
+      "volume": "12",
+      "issue": "2",
+      "pages": "44-60",
+      "doi": null,
+      "doi_key": null,
+      "language": "en",
+      "keywords": [
+        "Cocoa pesticides",
+        "pesticide registration",
+        "radio and television",
+        "Cocoa Research Institute of Nigeria (CRIN)"
+      ],
+      "pdf_url": "https://www.ajol.info/index.php/jasr/article/download/112522/102276",
+      "query_membership": [
+        {
+          "query_id": "A1",
+          "query": "+Nigeria +\"avian influenza\"",
+          "rank": 63
+        },
+        {
+          "query_id": "A9",
+          "query": "+Nigeria +\"avian influenza\" +\"wild bird\"",
+          "rank": 10
+        }
+      ],
+      "within_date_window": true,
+      "pre_screen_flag": "none",
+      "metadata_capture": "recovered_2026-09-20",
+      "canonical_id": "CAN-1855",
+      "canonical_match_rule": "new",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:jpats:239111",
+      "url": "https://www.ajol.info/index.php/jpats/article/view/239111",
+      "title": "Influenza, malaria parasitemia, and typhoid fever coinfection in children: Seroepidemiological investigation in four Health-care Centers in Lagos, Nigeria",
+      "authors": [
+        "Abdul-Azeez Adeyemi Anjorin",
+        "Shola Rachael Babalola",
+        "Oluwaseun Paul Iyiade"
+      ],
+      "journal": "Journal of the Pan African Thoracic Society",
+      "journal_abbreviation": "jpats",
+      "issn": "2694-4561",
+      "publication_date": "2020",
+      "year": "2020",
+      "volume": "1",
+      "issue": "1",
+      "pages": "26-34",
+      "doi": null,
+      "doi_key": null,
+      "language": "en",
+      "keywords": [
+        "Influenza virus, Malaria parasitemia, Typhoid fever, Seroepidemiology, Nigeria"
+      ],
+      "pdf_url": "https://www.ajol.info/index.php/jpats/article/download/239111/225986",
+      "query_membership": [
+        {
+          "query_id": "A2",
+          "query": "+Nigeria +\"influenza A virus\"",
+          "rank": 13
+        }
+      ],
+      "within_date_window": true,
+      "pre_screen_flag": "none",
+      "metadata_capture": "recovered_2026-09-20",
+      "canonical_id": "CAN-1861",
+      "canonical_match_rule": "new",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:mid:228772",
+      "url": "https://www.ajol.info/index.php/mid/article/view/228772",
+      "title": "Impact of dose and route of administration on antibody responses of chickens inoculated with inactivated Avian Influenza H5 vaccine.",
+      "authors": [
+        "Abubakar Woziri",
+        "Clement Meseko",
+        "Faridah Nasir",
+        "Khadijat Abdulkarim",
+        "Folorunso Fasina",
+        "Jibril Adamu",
+        "Paul Abdu"
+      ],
+      "journal": "Microbes and Infectious Diseases",
+      "journal_abbreviation": "mid",
+      "issn": "2682-4140",
+      "publication_date": "2022/08/01",
+      "year": "2022",
+      "volume": "3",
+      "issue": "3",
+      "pages": "733-743",
+      "doi": null,
+      "doi_key": null,
+      "language": "en",
+      "keywords": [
+        "Avian Influenza; Inactivated H5 Vaccine; Intramuscular; Subcutaneous; Chickens"
+      ],
+      "pdf_url": "https://www.ajol.info/index.php/mid/article/download/228772/215963",
+      "query_membership": [
+        {
+          "query_id": "A1",
+          "query": "+Nigeria +\"avian influenza\"",
+          "rank": 57
+        }
+      ],
+      "within_date_window": true,
+      "pre_screen_flag": "none",
+      "metadata_capture": "recovered_2026-09-20",
+      "canonical_id": "CAN-1303",
+      "canonical_match_rule": "title_year",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:mjas:117873",
+      "url": "https://www.ajol.info/index.php/mjas/article/view/117873",
+      "title": "The bird flu campaign in Kwara state of Nigeria: a critical examination of its graphics communication development",
+      "authors": [
+        "SZ Ebigbagha"
+      ],
+      "journal": "Mgbakoigba: Journal of African Studies",
+      "journal_abbreviation": "Mgbakoigba: J. Afr Stud",
+      "issn": "2346-7126",
+      "publication_date": "2013",
+      "year": "2013",
+      "volume": "2",
+      "issue": null,
+      "pages": "40-51",
+      "doi": null,
+      "doi_key": null,
+      "language": "en",
+      "keywords": [
+        "Graphic Communication",
+        "Media Production Process",
+        "IEC Materials",
+        "Graphic Encoder's Intervention",
+        "Communication Practices."
+      ],
+      "pdf_url": "https://www.ajol.info/index.php/mjas/article/download/117873/107517",
+      "query_membership": [
+        {
+          "query_id": "A1",
+          "query": "+Nigeria +\"avian influenza\"",
+          "rank": 56
+        }
+      ],
+      "within_date_window": true,
+      "pre_screen_flag": "none",
+      "metadata_capture": "recovered_2026-09-20",
+      "canonical_id": "CAN-1876",
+      "canonical_match_rule": "new",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:njbot:235713",
+      "url": "https://www.ajol.info/index.php/njbot/article/view/235713",
+      "title": "Intraspecific reproductive variabilities in capsicum frutescens (L.) in Nigeria",
+      "authors": [
+        "A. S. Oyelakin",
+        "D. O. Olabiyi",
+        "B. R. Adediran",
+        "C. C. Amaogu"
+      ],
+      "journal": "Nigerian Journal of Botany",
+      "journal_abbreviation": "njbot",
+      "issn": "1115-7569",
+      "publication_date": "2019",
+      "year": "2019",
+      "volume": "32",
+      "issue": "1",
+      "pages": null,
+      "doi": null,
+      "doi_key": null,
+      "language": "en",
+      "keywords": [
+        "C. frutescens; accessions; reproductive characters; new species"
+      ],
+      "pdf_url": "https://www.ajol.info/index.php/njbot/article/download/235713/222689",
+      "query_membership": [
+        {
+          "query_id": "A1",
+          "query": "+Nigeria +\"avian influenza\"",
+          "rank": 36
+        }
+      ],
+      "within_date_window": true,
+      "pre_screen_flag": "none",
+      "metadata_capture": "initial",
+      "canonical_id": "CAN-1862",
+      "canonical_match_rule": "new",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:njm:185274",
+      "url": "https://www.ajol.info/index.php/njm/article/view/185274",
+      "title": "Patients' knowledge of health rights and satisfaction with outpatient services at the tertiary hospitals in Enugu State, Nigeria",
+      "authors": [
+        "Osaeloka C. Ekwueme",
+        "Agatha C. Ekwueme",
+        "O.G. Ochonma"
+      ],
+      "journal": "Nigerian Journal of Medicine",
+      "journal_abbreviation": "Nig. J. Med.",
+      "issn": "2667-0526",
+      "publication_date": "2019/04/03",
+      "year": "2019",
+      "volume": "28",
+      "issue": "1",
+      "pages": "31-40",
+      "doi": "10.4103/1115-2613.278727",
+      "doi_key": "10410311152613278727",
+      "language": "en",
+      "keywords": [],
+      "pdf_url": "https://www.ajol.info/index.php/njm/article/download/185274/174595",
+      "query_membership": [
+        {
+          "query_id": "A1",
+          "query": "+Nigeria +\"avian influenza\"",
+          "rank": 42
+        },
+        {
+          "query_id": "A5",
+          "query": "+Nigeria +\"H9N2\"",
+          "rank": 1
+        }
+      ],
+      "within_date_window": true,
+      "pre_screen_flag": "none",
+      "metadata_capture": "initial",
+      "canonical_id": "CAN-1866",
+      "canonical_match_rule": "new",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:nvj:111677",
+      "url": "https://www.ajol.info/index.php/nvj/article/view/111677",
+      "title": "Studies of some risk factors for re-introduction and spread of highly-pathogenic avian influenza in two states of Nigeria",
+      "authors": [
+        "LW Musa",
+        "PA Abdu",
+        "AKB Sackey",
+        "SB Oladele"
+      ],
+      "journal": "Nigerian Veterinary Journal",
+      "journal_abbreviation": "Nig. Vet. J.",
+      "issn": "0331-3026",
+      "publication_date": "2013",
+      "year": "2013",
+      "volume": "34",
+      "issue": "4",
+      "pages": null,
+      "doi": null,
+      "doi_key": null,
+      "language": "en",
+      "keywords": [
+        "Risk factors",
+        "avian influenza",
+        "spread",
+        "Nigeria"
+      ],
+      "pdf_url": "https://www.ajol.info/index.php/nvj/article/download/111677/101446",
+      "query_membership": [
+        {
+          "query_id": "A1",
+          "query": "+Nigeria +\"avian influenza\"",
+          "rank": 20
+        }
+      ],
+      "within_date_window": true,
+      "pre_screen_flag": "none",
+      "metadata_capture": "recovered_2026-09-20",
+      "canonical_id": "CAN-0071",
+      "canonical_match_rule": "title_year",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:nvj:147399",
+      "url": "https://www.ajol.info/index.php/nvj/article/view/147399",
+      "title": "Epidemiology and clinicopathological manifestation of resurgent highly Pathogenic Avian Influenza (H5N1) virus in Nigeria, 2015",
+      "authors": [
+        "O. B. Akanbi",
+        "C. A. Meseko",
+        "C. I. Odita",
+        "I. Shittu",
+        "A.G. Rimfa",
+        "D. Ugbe",
+        "L. Pam",
+        "D.A. Gado",
+        "K.A. Olawuyi",
+        "S.B. Mohammed",
+        "I.I. Kyauta",
+        "N. O. Bankole",
+        "W. Ndahi",
+        "T.M. Joannis",
+        "M.S. Ahmed",
+        "P.A. Okewole",
+        "D. Shamaki"
+      ],
+      "journal": "Nigerian Veterinary Journal",
+      "journal_abbreviation": "Nig. Vet. J.",
+      "issn": "0331-3026",
+      "publication_date": "2016/11/08",
+      "year": "2016",
+      "volume": "37",
+      "issue": "3",
+      "pages": "175-186",
+      "doi": null,
+      "doi_key": null,
+      "language": "en",
+      "keywords": [
+        "Epidemiology",
+        "Resurgent HPAI H5N1",
+        "Pathology",
+        "Nigeria."
+      ],
+      "pdf_url": "https://www.ajol.info/index.php/nvj/article/download/147399/136905",
+      "query_membership": [
+        {
+          "query_id": "A1",
+          "query": "+Nigeria +\"avian influenza\"",
+          "rank": 49
+        },
+        {
+          "query_id": "A3",
+          "query": "+Nigeria +\"H5N1\"",
+          "rank": 6
+        },
+        {
+          "query_id": "A8",
+          "query": "+Nigeria +\"avian influenza\" +epidemiology",
+          "rank": 9
+        }
+      ],
+      "within_date_window": true,
+      "pre_screen_flag": "none",
+      "metadata_capture": "recovered_2026-09-20",
+      "canonical_id": "CAN-0025",
+      "canonical_match_rule": "title_year",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:nvj:163887",
+      "url": "https://www.ajol.info/index.php/nvj/article/view/163887",
+      "title": "Avian influenza, Gumboro and Newcastle disease antibodies and antigens in apparently healthy wild birds in Kano Metropolis, Nigeria",
+      "authors": [
+        "H.U. Adamu",
+        "A.G. Balami",
+        "P.A. Abdu"
+      ],
+      "journal": "Nigerian Veterinary Journal",
+      "journal_abbreviation": "Nig. Vet. J.",
+      "issn": "0331-3026",
+      "publication_date": "2017/12/08",
+      "year": "2017",
+      "volume": "38",
+      "issue": "1",
+      "pages": "69-77",
+      "doi": null,
+      "doi_key": null,
+      "language": "en",
+      "keywords": [
+        "avian influenza",
+        "infectious bursal disease",
+        "Newcastle disease",
+        "wild birds",
+        "live wild bird market"
+      ],
+      "pdf_url": "https://www.ajol.info/index.php/nvj/article/download/163887/153352",
+      "query_membership": [
+        {
+          "query_id": "A1",
+          "query": "+Nigeria +\"avian influenza\"",
+          "rank": 15
+        },
+        {
+          "query_id": "A9",
+          "query": "+Nigeria +\"avian influenza\" +\"wild bird\"",
+          "rank": 2
+        }
+      ],
+      "within_date_window": true,
+      "pre_screen_flag": "none",
+      "metadata_capture": "initial",
+      "canonical_id": "CAN-0006",
+      "canonical_match_rule": "title_year",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:nvj:164125",
+      "url": "https://www.ajol.info/index.php/nvj/article/view/164125",
+      "title": "Formalin-fixed and paraffin-embedded tissues of chickens are useful for retrospective studies on pathology of H5N1 Highly Pathogenic Avian Influenza Virus (HPAI) outbreaks in Nigeria",
+      "authors": [
+        "B.O. Akanbi",
+        "S Fereidouni",
+        "V.O. Taiwo",
+        "E Starick",
+        "P.A. Okewole",
+        "A Binder",
+        "K Heenemann",
+        "J.P. Teifke"
+      ],
+      "journal": "Nigerian Veterinary Journal",
+      "journal_abbreviation": "Nig. Vet. J.",
+      "issn": "0331-3026",
+      "publication_date": "2017/12/20",
+      "year": "2017",
+      "volume": "38",
+      "issue": "3",
+      "pages": "183-192",
+      "doi": null,
+      "doi_key": null,
+      "language": "en",
+      "keywords": [
+        "Avian influenza",
+        "FFPE",
+        "H5N1",
+        "Nigeria",
+        "Immunohistochemistry",
+        "real-time RT-PCR"
+      ],
+      "pdf_url": "https://www.ajol.info/index.php/nvj/article/download/164125/153648",
+      "query_membership": [
+        {
+          "query_id": "A1",
+          "query": "+Nigeria +\"avian influenza\"",
+          "rank": 26
+        },
+        {
+          "query_id": "A3",
+          "query": "+Nigeria +\"H5N1\"",
+          "rank": 11
+        },
+        {
+          "query_id": "A7",
+          "query": "+Nigeria +\"avian influenza\" +molecular",
+          "rank": 5
+        }
+      ],
+      "within_date_window": true,
+      "pre_screen_flag": "none",
+      "metadata_capture": "initial",
+      "canonical_id": "CAN-0031",
+      "canonical_match_rule": "title_year",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:nvj:178945",
+      "url": "https://www.ajol.info/index.php/nvj/article/view/178945",
+      "title": "Migratory waterfowls from Europe as potential source of highly pathogenic avian influenza infection to Nigeria poultry",
+      "authors": [
+        "C.A. Meseko",
+        "D.O. Ehizibolo",
+        "C Vakuru"
+      ],
+      "journal": "Nigerian Veterinary Journal",
+      "journal_abbreviation": "Nig. Vet. J.",
+      "issn": "0331-3026",
+      "publication_date": "2018/10/23",
+      "year": "2018",
+      "volume": "39",
+      "issue": "1",
+      "pages": "1-15",
+      "doi": "10.4314/nvj.v39i1.1",
+      "doi_key": "104314nvjv39i11",
+      "language": "en",
+      "keywords": [
+        "Avian influenza",
+        "Migratory waterfowls",
+        "Nigeria",
+        "Poultry"
+      ],
+      "pdf_url": "https://www.ajol.info/index.php/nvj/article/download/178945/168309",
+      "query_membership": [
+        {
+          "query_id": "A1",
+          "query": "+Nigeria +\"avian influenza\"",
+          "rank": 1
+        },
+        {
+          "query_id": "A3",
+          "query": "+Nigeria +\"H5N1\"",
+          "rank": 13
+        },
+        {
+          "query_id": "A7",
+          "query": "+Nigeria +\"avian influenza\" +molecular",
+          "rank": 1
+        },
+        {
+          "query_id": "A9",
+          "query": "+Nigeria +\"avian influenza\" +\"wild bird\"",
+          "rank": 4
+        }
+      ],
+      "within_date_window": true,
+      "pre_screen_flag": "none",
+      "metadata_capture": "initial",
+      "canonical_id": "CAN-1714",
+      "canonical_match_rule": "doi",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:nvj:206029",
+      "url": "https://www.ajol.info/index.php/nvj/article/view/206029",
+      "title": "Re-current Epizootics of Highly Pathogenic Avian Influenza in Nigeria: Status of Vaccination as Alternate control ",
+      "authors": [
+        "C.A. Meseko",
+        "B. Olorunsola",
+        "C.A. Chinyere",
+        "K. Olawuyi"
+      ],
+      "journal": "Nigerian Veterinary Journal",
+      "journal_abbreviation": "Nig. Vet. J.",
+      "issn": "0331-3026",
+      "publication_date": "2020",
+      "year": "2020",
+      "volume": "41",
+      "issue": "1",
+      "pages": "7-17",
+      "doi": "10.4314/nvj.v41i1.2",
+      "doi_key": "104314nvjv41i12",
+      "language": "en",
+      "keywords": [
+        "Avian influenza; Control measures; Recurrent outbreaks; Vaccination status."
+      ],
+      "pdf_url": "https://www.ajol.info/index.php/nvj/article/download/206029/194277",
+      "query_membership": [
+        {
+          "query_id": "A1",
+          "query": "+Nigeria +\"avian influenza\"",
+          "rank": 9
+        },
+        {
+          "query_id": "A3",
+          "query": "+Nigeria +\"H5N1\"",
+          "rank": 14
+        }
+      ],
+      "within_date_window": true,
+      "pre_screen_flag": "none",
+      "metadata_capture": "initial",
+      "canonical_id": "CAN-1715",
+      "canonical_match_rule": "doi",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:nvj:206060",
+      "url": "https://www.ajol.info/index.php/nvj/article/view/206060",
+      "title": "Sero-Detection of Avian Influenza A/H7 in Nigerian Live-Bird Markets in Plateau State",
+      "authors": [
+        "C.N. Chinyere",
+        "E.C. Okwor",
+        "C.A. Meseko",
+        "W.S.  Ezema",
+        "N.D. Choji",
+        "D.I. Amos",
+        "L.K.  Sulaiman",
+        "I. Shittu",
+        "C. Nwosuh"
+      ],
+      "journal": "Nigerian Veterinary Journal",
+      "journal_abbreviation": "Nig. Vet. J.",
+      "issn": "0331-3026",
+      "publication_date": "2020",
+      "year": "2020",
+      "volume": "41",
+      "issue": "2",
+      "pages": "161-174",
+      "doi": "10.4314/nvj.v41i2.7",
+      "doi_key": "104314nvjv41i27",
+      "language": "en",
+      "keywords": [
+        "Influenza A, subtype H7, serological detection, live bird market, Nigeria."
+      ],
+      "pdf_url": "https://www.ajol.info/index.php/nvj/article/download/206060/194305",
+      "query_membership": [
+        {
+          "query_id": "A1",
+          "query": "+Nigeria +\"avian influenza\"",
+          "rank": 13
+        },
+        {
+          "query_id": "A6",
+          "query": "+Nigeria +\"H7N7\"",
+          "rank": 2
+        },
+        {
+          "query_id": "A8",
+          "query": "+Nigeria +\"avian influenza\" +epidemiology",
+          "rank": 4
+        }
+      ],
+      "within_date_window": true,
+      "pre_screen_flag": "none",
+      "metadata_capture": "initial",
+      "canonical_id": "CAN-1716",
+      "canonical_match_rule": "doi",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:nvj:256017",
+      "url": "https://www.ajol.info/index.php/nvj/article/view/256017",
+      "title": "Cluster poultry farming, the bane of highly pathogenic avian influenza spread in Lagos State Nigeria.",
+      "authors": [
+        "C. I. Odita",
+        "M. A. Hambolu",
+        "T. I. Olasoju",
+        "O. A. Makanjuola",
+        "O. Sito",
+        "C. A. Meseko"
+      ],
+      "journal": "Nigerian Veterinary Journal",
+      "journal_abbreviation": "Nig. Vet. J.",
+      "issn": "0331-3026",
+      "publication_date": "2022",
+      "year": "2022",
+      "volume": "43",
+      "issue": "4",
+      "pages": "1-9",
+      "doi": "10.4314/nvj.v43i4.1",
+      "doi_key": "104314nvjv43i41",
+      "language": "en",
+      "keywords": [],
+      "pdf_url": "https://www.ajol.info/index.php/nvj/article/download/256017/241869",
+      "query_membership": [
+        {
+          "query_id": "A1",
+          "query": "+Nigeria +\"avian influenza\"",
+          "rank": 46
+        },
+        {
+          "query_id": "A3",
+          "query": "+Nigeria +\"H5N1\"",
+          "rank": 20
+        }
+      ],
+      "within_date_window": true,
+      "pre_screen_flag": "none",
+      "metadata_capture": "initial",
+      "canonical_id": "CAN-1717",
+      "canonical_match_rule": "doi",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:nvj:272713",
+      "url": "https://www.ajol.info/index.php/nvj/article/view/272713",
+      "title": "Serological Investigation of Equine Influenza Virus in Polo Horses at the 2021 Jos Polo Tournament, Plateau State",
+      "authors": [
+        "David Oludare Omoniwa",
+        "Emmanuel Richard  Edeh",
+        "Jolly Amoche  Adola",
+        "Joshua  Oyetunde",
+        "Bukola  Alaba",
+        "Oluwamuyiwa  Oyekan",
+        "Clement Adebajo  Meseko"
+      ],
+      "journal": "Nigerian Veterinary Journal",
+      "journal_abbreviation": "Nig. Vet. J.",
+      "issn": "0331-3026",
+      "publication_date": "2023",
+      "year": "2023",
+      "volume": "44",
+      "issue": "4",
+      "pages": "53-61",
+      "doi": "10.4314/nvj.v44i4.5",
+      "doi_key": "104314nvjv44i45",
+      "language": "en",
+      "keywords": [
+        "Equine, Influenza, Seroprevalence, Nigeria, Polo."
+      ],
+      "pdf_url": "https://www.ajol.info/index.php/nvj/article/download/272713/257509",
+      "query_membership": [
+        {
+          "query_id": "A2",
+          "query": "+Nigeria +\"influenza A virus\"",
+          "rank": 10
+        },
+        {
+          "query_id": "A6",
+          "query": "+Nigeria +\"H7N7\"",
+          "rank": 3
+        }
+      ],
+      "within_date_window": true,
+      "pre_screen_flag": "none",
+      "metadata_capture": "initial",
+      "canonical_id": "CAN-1869",
+      "canonical_match_rule": "new",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:nvj:279540",
+      "url": "https://www.ajol.info/index.php/nvj/article/view/279540",
+      "title": "Serological and Molecular Detection of Low Pathogenic Avian Influenza Subtype H9N2 in Commercial Poultry Flock in Kaduna and Kano State Nigeria",
+      "authors": [
+        "Nicodemus Mkpuma",
+        "Lukman Muftahu  Oyedeji",
+        "Alexander Oluyinka  Akintule",
+        "Chinonyerem N.  Chinyere",
+        "Adeyinka Olamide  Agbato ",
+        "Inuwa  Bitrus",
+        "Shamsuddeen  Shehu ",
+        "Kayode A.  Olawuyi",
+        "Donna Bala  Tige",
+        "Dorcas A.  Gado",
+        "Clement A.  Meseko"
+      ],
+      "journal": "Nigerian Veterinary Journal",
+      "journal_abbreviation": "Nig. Vet. J.",
+      "issn": "0331-3026",
+      "publication_date": "2024/09/30",
+      "year": "2024",
+      "volume": "45",
+      "issue": "2",
+      "pages": "26-38",
+      "doi": "10.4314/nvj.v45i2.3",
+      "doi_key": "104314nvjv45i23",
+      "language": "en",
+      "keywords": [
+        "Avian influenza, H9N2 ELISA, Nigeria, RT-qPCR, virus isolation."
+      ],
+      "pdf_url": "https://www.ajol.info/index.php/nvj/article/download/279540/263704",
+      "query_membership": [
+        {
+          "query_id": "A1",
+          "query": "+Nigeria +\"avian influenza\"",
+          "rank": 19
+        },
+        {
+          "query_id": "A5",
+          "query": "+Nigeria +\"H9N2\"",
+          "rank": 5
+        },
+        {
+          "query_id": "A7",
+          "query": "+Nigeria +\"avian influenza\" +molecular",
+          "rank": 3
+        }
+      ],
+      "within_date_window": true,
+      "pre_screen_flag": "none",
+      "metadata_capture": "initial",
+      "canonical_id": "CAN-1868",
+      "canonical_match_rule": "new",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:nvj:281576",
+      "url": "https://www.ajol.info/index.php/nvj/article/view/281576",
+      "title": "Vaccine Quality Challenges in Secretly Traded H5 and H9 Avian Influenza Vaccines in Nigeria ",
+      "authors": [
+        "Franklyn Ayomide Oluwadare",
+        "Nicodemus  Mkpuma",
+        "Ally Omary  Killo",
+        "Bitrus  Inuwa",
+        "Olusegun  Fagbohun ",
+        "Clement Adebajo  Meseko"
+      ],
+      "journal": "Nigerian Veterinary Journal",
+      "journal_abbreviation": "Nig. Vet. J.",
+      "issn": "0331-3026",
+      "publication_date": "2024/10/28",
+      "year": "2024",
+      "volume": "45",
+      "issue": "3",
+      "pages": "33-42",
+      "doi": "10.4314/nvj.v45i3.3",
+      "doi_key": "104314nvjv45i33",
+      "language": "en",
+      "keywords": [
+        "Vaccine quality, handling, antigen, Avian influenza, HA, RT-PCR, Nigeria"
+      ],
+      "pdf_url": "https://www.ajol.info/index.php/nvj/article/download/281576/265368",
+      "query_membership": [
+        {
+          "query_id": "A1",
+          "query": "+Nigeria +\"avian influenza\"",
+          "rank": 31
+        }
+      ],
+      "within_date_window": true,
+      "pre_screen_flag": "none",
+      "metadata_capture": "initial",
+      "canonical_id": "CAN-1718",
+      "canonical_match_rule": "doi",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:nvj:296130",
+      "url": "https://www.ajol.info/index.php/nvj/article/view/296130",
+      "title": "Retrospective study of Highly Pathogenic Avian Influenza outbreaks from 2017 to 2021 in Plateau State, Nigeria",
+      "authors": [
+        "Amy Morayo Adidu-Omoniwa",
+        "Asabe Adamu Dzikwi-Emennaa",
+        "Istifanus Shuaibu",
+        "Nuwa Kura  Philip",
+        "Rita Kanneng Duwong",
+        "David Oludare Omoniwa",
+        "Haruna Musa  Ayuba",
+        "Abosede Adeola Shoola"
+      ],
+      "journal": "Nigerian Veterinary Journal",
+      "journal_abbreviation": "Nig. Vet. J.",
+      "issn": "0331-3026",
+      "publication_date": "2025/05/19",
+      "year": "2025",
+      "volume": "45",
+      "issue": "4",
+      "pages": "37-50",
+      "doi": "10.4314/nvj.v45i4.4",
+      "doi_key": "104314nvjv45i44",
+      "language": "en",
+      "keywords": [
+        "Avian influenza, HPAI, Surveillance, Zoonosis, Nigeria."
+      ],
+      "pdf_url": "https://www.ajol.info/index.php/nvj/article/download/296130/278557",
+      "query_membership": [
+        {
+          "query_id": "A1",
+          "query": "+Nigeria +\"avian influenza\"",
+          "rank": 12
+        }
+      ],
+      "within_date_window": true,
+      "pre_screen_flag": "none",
+      "metadata_capture": "initial",
+      "canonical_id": "CAN-1719",
+      "canonical_match_rule": "doi",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:nvj:302759",
+      "url": "https://www.ajol.info/index.php/nvj/article/view/302759",
+      "title": "Serological Survey of Equine and Avian Influenza Viruses in Horses in Zaria, Kaduna State",
+      "authors": [
+        "Oluwasheun Agnes  Abioje",
+        "Olatunde Hamza  Olabode",
+        "James Agbo  Ameh",
+        "Ikoojo Charity  Ikwe-agada"
+      ],
+      "journal": "Nigerian Veterinary Journal",
+      "journal_abbreviation": "Nig. Vet. J.",
+      "issn": "0331-3026",
+      "publication_date": "2025/08/08",
+      "year": "2025",
+      "volume": "46",
+      "issue": "2",
+      "pages": "1-9",
+      "doi": "10.4314/nvj.v46i2.1",
+      "doi_key": "104314nvjv46i21",
+      "language": "en",
+      "keywords": [
+        "EIV – Equine Influenza Virus, HPAI – Highly Pathogenic Avian Influenza, ELISA – Enzyme linked Immunosorbent Assay, HI – Hemagglutinin Inhibition"
+      ],
+      "pdf_url": "https://www.ajol.info/index.php/nvj/article/download/302759/284649",
+      "query_membership": [
+        {
+          "query_id": "A1",
+          "query": "+Nigeria +\"avian influenza\"",
+          "rank": 4
+        },
+        {
+          "query_id": "A8",
+          "query": "+Nigeria +\"avian influenza\" +epidemiology",
+          "rank": 2
+        }
+      ],
+      "within_date_window": true,
+      "pre_screen_flag": "none",
+      "metadata_capture": "initial",
+      "canonical_id": "CAN-1871",
+      "canonical_match_rule": "new",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:nvj:3502",
+      "url": "https://www.ajol.info/index.php/nvj/article/view/3502",
+      "title": "Clinico-pathological and susbandry features associated with the maiden diagnosis of avian influenza in Nigeria",
+      "authors": [
+        "DF Adene",
+        "AM Wakawa",
+        "PA Abdu",
+        "LH Lombin",
+        "HM Kazeem",
+        "MY Fatihu",
+        "L Sa’idu",
+        "T Joannis",
+        "CAO Adeyefa",
+        " Obi"
+      ],
+      "journal": "Nigerian Veterinary Journal",
+      "journal_abbreviation": "Nig. Vet. J.",
+      "issn": "0331-3026",
+      "publication_date": "2005",
+      "year": "2005",
+      "volume": "27",
+      "issue": "1",
+      "pages": "32-38",
+      "doi": null,
+      "doi_key": null,
+      "language": "en",
+      "keywords": [],
+      "pdf_url": "https://www.ajol.info/index.php/nvj/article/download/3502/919",
+      "query_membership": [
+        {
+          "query_id": "A1",
+          "query": "+Nigeria +\"avian influenza\"",
+          "rank": 41
+        }
+      ],
+      "within_date_window": false,
+      "pre_screen_flag": "outside_2006_2026",
+      "metadata_capture": "initial",
+      "canonical_id": "CAN-1848",
+      "canonical_match_rule": "new",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:nvj:3571",
+      "url": "https://www.ajol.info/index.php/nvj/article/view/3571",
+      "title": "An Outbreak Of Highly Pathogenic Avian Influenza (Hpai) In A Mixed Farm By The Introduction Of A Water Fowl",
+      "authors": [
+        "C A Meseko",
+        "A T Oladokun",
+        "B Shehu"
+      ],
+      "journal": "Nigerian Veterinary Journal",
+      "journal_abbreviation": "Nig. Vet. J.",
+      "issn": "0331-3026",
+      "publication_date": "2007",
+      "year": "2007",
+      "volume": "28",
+      "issue": "3",
+      "pages": "67-69",
+      "doi": "10.4314/nvj.v28i3.3571",
+      "doi_key": "104314nvjv28i33571",
+      "language": "en",
+      "keywords": [
+        "HPAI",
+        "Mixed farming",
+        "Waterfowl"
+      ],
+      "pdf_url": "https://www.ajol.info/index.php/nvj/article/download/3571/986",
+      "query_membership": [
+        {
+          "query_id": "A1",
+          "query": "+Nigeria +\"avian influenza\"",
+          "rank": 23
+        },
+        {
+          "query_id": "A2",
+          "query": "+Nigeria +\"influenza A virus\"",
+          "rank": 11
+        },
+        {
+          "query_id": "A3",
+          "query": "+Nigeria +\"H5N1\"",
+          "rank": 23
+        }
+      ],
+      "within_date_window": true,
+      "pre_screen_flag": "none",
+      "metadata_capture": "initial",
+      "canonical_id": "CAN-1710",
+      "canonical_match_rule": "doi",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:nvj:3594",
+      "url": "https://www.ajol.info/index.php/nvj/article/view/3594",
+      "title": "Highly pathogenic avian influenza I water fowls in Zaria, Nigeria",
+      "authors": [
+        "AM Wakawa",
+        "L Sa'idu",
+        "HM Kazeem",
+        "MY Fatihu",
+        "J Adamu",
+        "PH Mamman",
+        "PA Abdu",
+        "M Bello",
+        "CN Kwanahie"
+      ],
+      "journal": "Nigerian Veterinary Journal",
+      "journal_abbreviation": "Nig. Vet. J.",
+      "issn": "0331-3026",
+      "publication_date": "2008",
+      "year": "2008",
+      "volume": "29",
+      "issue": "2",
+      "pages": "55-58",
+      "doi": "10.4314/nvj.v29i2.3594",
+      "doi_key": "104314nvjv29i23594",
+      "language": "en",
+      "keywords": [],
+      "pdf_url": "https://www.ajol.info/index.php/nvj/article/download/3594/38130",
+      "query_membership": [
+        {
+          "query_id": "A1",
+          "query": "+Nigeria +\"avian influenza\"",
+          "rank": 39
+        }
+      ],
+      "within_date_window": true,
+      "pre_screen_flag": "none",
+      "metadata_capture": "recovered_2026-09-20",
+      "canonical_id": "CAN-1711",
+      "canonical_match_rule": "doi",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:nvj:68949",
+      "url": "https://www.ajol.info/index.php/nvj/article/view/68949",
+      "title": "Detection of highly pathogenic avian influenza (H5N1) in apparently healthy ducks (Anas sparsa sparsa) in live bird markets, Nigeria",
+      "authors": [
+        "CA Meseko",
+        "AT Oladokun",
+        "P Solomon",
+        "B Yakubu"
+      ],
+      "journal": "Nigerian Veterinary Journal",
+      "journal_abbreviation": "Nig. Vet. J.",
+      "issn": "0331-3026",
+      "publication_date": "2010",
+      "year": "2010",
+      "volume": "31",
+      "issue": "2",
+      "pages": null,
+      "doi": "10.4314/nvj.v31i2.68949",
+      "doi_key": "104314nvjv31i268949",
+      "language": "en",
+      "keywords": [
+        "Waterfowls",
+        "Live bird markets",
+        "HPAI Detection"
+      ],
+      "pdf_url": "https://www.ajol.info/index.php/nvj/article/download/68949/57007",
+      "query_membership": [
+        {
+          "query_id": "A1",
+          "query": "+Nigeria +\"avian influenza\"",
+          "rank": 45
+        },
+        {
+          "query_id": "A3",
+          "query": "+Nigeria +\"H5N1\"",
+          "rank": 12
+        }
+      ],
+      "within_date_window": true,
+      "pre_screen_flag": "none",
+      "metadata_capture": "initial",
+      "canonical_id": "CAN-1712",
+      "canonical_match_rule": "doi",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:nvj:68961",
+      "url": "https://www.ajol.info/index.php/nvj/article/view/68961",
+      "title": "Salmonella Gallinarum Infection in Poultry Affected by Highly Pathogenic Avian Influenza Virus H5N1 in Nigeria",
+      "authors": [
+        "YG Dashe",
+        "HM Kazeem",
+        "PA Abdu",
+        "M Bello",
+        "SJ Dalis"
+      ],
+      "journal": "Nigerian Veterinary Journal",
+      "journal_abbreviation": "Nig. Vet. J.",
+      "issn": "0331-3026",
+      "publication_date": "2010",
+      "year": "2010",
+      "volume": "31",
+      "issue": "3",
+      "pages": null,
+      "doi": "10.4314/nvj.v31i3.68961",
+      "doi_key": "104314nvjv31i368961",
+      "language": "en",
+      "keywords": [
+        "Avian influenza",
+        "Salmonella gallinarum",
+        "poultry",
+        "Nigeria"
+      ],
+      "pdf_url": "https://www.ajol.info/index.php/nvj/article/download/68961/57020",
+      "query_membership": [
+        {
+          "query_id": "A1",
+          "query": "+Nigeria +\"avian influenza\"",
+          "rank": 3
+        },
+        {
+          "query_id": "A3",
+          "query": "+Nigeria +\"H5N1\"",
+          "rank": 8
+        },
+        {
+          "query_id": "A9",
+          "query": "+Nigeria +\"avian influenza\" +\"wild bird\"",
+          "rank": 7
+        }
+      ],
+      "within_date_window": true,
+      "pre_screen_flag": "none",
+      "metadata_capture": "initial",
+      "canonical_id": "CAN-1713",
+      "canonical_match_rule": "doi",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:ovj:176404",
+      "url": "https://www.ajol.info/index.php/ovj/article/view/176404",
+      "title": "In vivo fluoroscopic kinematography of cranio-caudal stifle stability after tibial tuberosity advancement (TTA): a retrospective case series of 10 stifles",
+      "authors": [
+        "Maartje Schwede",
+        "Janna Rey",
+        "Peter Böttcher"
+      ],
+      "journal": "Open Veterinary Journal",
+      "journal_abbreviation": "Open Vet J.",
+      "issn": "2218-6050",
+      "publication_date": "2018/08/08",
+      "year": "2018",
+      "volume": "8",
+      "issue": "3",
+      "pages": "295-304",
+      "doi": "10.4314/ovj.v8i3.8",
+      "doi_key": "104314ovjv8i38",
+      "language": "en",
+      "keywords": [
+        "Cruciate ligament rupture",
+        "Dog",
+        "Fluoroscopy",
+        "Joint stability",
+        "Kinematics"
+      ],
+      "pdf_url": "https://www.ajol.info/index.php/ovj/article/download/176404/165794",
+      "query_membership": [
+        {
+          "query_id": "A1",
+          "query": "+Nigeria +\"avian influenza\"",
+          "rank": 24
+        }
+      ],
+      "within_date_window": true,
+      "pre_screen_flag": "none",
+      "metadata_capture": "initial",
+      "canonical_id": "CAN-1860",
+      "canonical_match_rule": "new",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:ovj:178032",
+      "url": "https://www.ajol.info/index.php/ovj/article/view/178032",
+      "title": "Intravenous pathogenicity of influenza virus A/H5N1/2014 isolated from pig in Ogbomoso, Nigeria",
+      "authors": [
+        "E. Kolawole Oladipo",
+        "J. Kola Oloke",
+        "J. Adekunle Adeniji"
+      ],
+      "journal": "Open Veterinary Journal",
+      "journal_abbreviation": "Open Vet J.",
+      "issn": "2218-6050",
+      "publication_date": "2018/09/30",
+      "year": "2018",
+      "volume": "8",
+      "issue": "3",
+      "pages": "347-350",
+      "doi": "10.4314/ovj.v8i3.16",
+      "doi_key": "104314ovjv8i316",
+      "language": "en",
+      "keywords": [
+        "H5N1",
+        "Influenza",
+        "Intravenous pathogenicity",
+        "Nigeria",
+        "Ogbomoso"
+      ],
+      "pdf_url": "https://www.ajol.info/index.php/ovj/article/download/178032/167401",
+      "query_membership": [
+        {
+          "query_id": "A1",
+          "query": "+Nigeria +\"avian influenza\"",
+          "rank": 16
+        },
+        {
+          "query_id": "A3",
+          "query": "+Nigeria +\"H5N1\"",
+          "rank": 7
+        }
+      ],
+      "within_date_window": true,
+      "pre_screen_flag": "none",
+      "metadata_capture": "initial",
+      "canonical_id": "CAN-1720",
+      "canonical_match_rule": "doi",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:ovj:185250",
+      "url": "https://www.ajol.info/index.php/ovj/article/view/185250",
+      "title": "Occurrence of infectious bronchitis in layer birds in Plateau state, north central Nigeria",
+      "authors": [
+        "Ismaila Shittu",
+        "Dorcas A. Gado",
+        "Clement A. Meseko",
+        "Davou C. Nyam",
+        "Kayode A. Olawuyi",
+        "Gyang D. Moses",
+        "Chinonoyerem N. Chinyere",
+        "Tony M. Joannis"
+      ],
+      "journal": "Open Veterinary Journal",
+      "journal_abbreviation": "Open Vet J.",
+      "issn": "2218-6050",
+      "publication_date": "2019/03/16",
+      "year": "2019",
+      "volume": "9",
+      "issue": "1",
+      "pages": "76-80",
+      "doi": "10.4314/ovj.v9i1.13",
+      "doi_key": "104314ovjv9i113",
+      "language": "en",
+      "keywords": [
+        "Drop in egg production",
+        "Infectious bronchitis",
+        "Respiratory distress",
+        "Serotypes",
+        "Virus isolation."
+      ],
+      "pdf_url": "https://www.ajol.info/index.php/ovj/article/download/185250/174570",
+      "query_membership": [
+        {
+          "query_id": "A1",
+          "query": "+Nigeria +\"avian influenza\"",
+          "rank": 59
+        },
+        {
+          "query_id": "A7",
+          "query": "+Nigeria +\"avian influenza\" +molecular",
+          "rank": 8
+        },
+        {
+          "query_id": "A8",
+          "query": "+Nigeria +\"avian influenza\" +epidemiology",
+          "rank": 10
+        }
+      ],
+      "within_date_window": true,
+      "pre_screen_flag": "none",
+      "metadata_capture": "recovered_2026-09-20",
+      "canonical_id": "CAN-1721",
+      "canonical_match_rule": "doi",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:ovj:187878",
+      "url": "https://www.ajol.info/index.php/ovj/article/view/187878",
+      "title": "Genetic and antigenic characterization of avian influenza H9N2 viruses during 2016 in Iraq",
+      "authors": [
+        "Nadira S. Mohamed",
+        "Ahmed Kandeil",
+        "Ibrahim A.H. AL-Zubaidy",
+        "Ghazi Kayali",
+        "Mohamed A. Ali"
+      ],
+      "journal": "Open Veterinary Journal",
+      "journal_abbreviation": "Open Vet J.",
+      "issn": "2218-6050",
+      "publication_date": "2019/06/12",
+      "year": "2019",
+      "volume": "9",
+      "issue": "2",
+      "pages": "164-171",
+      "doi": "10.4314/ovj.v9i2.12",
+      "doi_key": "104314ovjv9i212",
+      "language": "en",
+      "keywords": [
+        "Avian influenza virus",
+        "H9N2",
+        "Iraq"
+      ],
+      "pdf_url": "https://www.ajol.info/index.php/ovj/article/download/187878/177155",
+      "query_membership": [
+        {
+          "query_id": "A1",
+          "query": "+Nigeria +\"avian influenza\"",
+          "rank": 17
+        },
+        {
+          "query_id": "A5",
+          "query": "+Nigeria +\"H9N2\"",
+          "rank": 3
+        },
+        {
+          "query_id": "A6",
+          "query": "+Nigeria +\"H7N7\"",
+          "rank": 4
+        }
+      ],
+      "within_date_window": true,
+      "pre_screen_flag": "none",
+      "metadata_capture": "initial",
+      "canonical_id": "CAN-1858",
+      "canonical_match_rule": "new",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:ovj:190206",
+      "url": "https://www.ajol.info/index.php/ovj/article/view/190206",
+      "title": "Effect of inbreeding on the “Club Foot” disorder in Arabian Pureblood horses reared in Italy",
+      "authors": [
+        "Lisa Comparini",
+        "Adriano Podestà",
+        "Claudia Russo",
+        "Francesca Cecchi"
+      ],
+      "journal": "Open Veterinary Journal",
+      "journal_abbreviation": "Open Vet J.",
+      "issn": "2218-6050",
+      "publication_date": "2019/09/29",
+      "year": "2019",
+      "volume": "9",
+      "issue": "3",
+      "pages": "273–280-273–280",
+      "doi": "10.4314/ovj.v9i3.14",
+      "doi_key": "104314ovjv9i314",
+      "language": "en",
+      "keywords": [
+        "Arabian Pureblood horses",
+        "Club Foot disorder",
+        "Inbreeding",
+        "Incidence."
+      ],
+      "pdf_url": "https://www.ajol.info/index.php/ovj/article/download/190206/179426",
+      "query_membership": [
+        {
+          "query_id": "A1",
+          "query": "+Nigeria +\"avian influenza\"",
+          "rank": 60
+        },
+        {
+          "query_id": "A4",
+          "query": "+Nigeria +\"H5N8\"",
+          "rank": 1
+        }
+      ],
+      "within_date_window": true,
+      "pre_screen_flag": "none",
+      "metadata_capture": "initial",
+      "canonical_id": "CAN-1852",
+      "canonical_match_rule": "new",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:pamj:293663",
+      "url": "https://www.ajol.info/index.php/pamj/article/view/293663",
+      "title": "Next generation sequencing and genomic mapping: towards precision molecular diagnosis of lung cancer in Morocco",
+      "authors": [
+        "Ouafaa Morjani",
+        "Noura Mounaji",
+        "Meriem Ghaouti",
+        "Hassan Errihani",
+        "Elmostafa El Fahime",
+        "Hamid Lakhiari"
+      ],
+      "journal": "Pan African Medical Journal",
+      "journal_abbreviation": "Pan Afr Med Jrnl",
+      "issn": "1937-8688",
+      "publication_date": "2024",
+      "year": "2024",
+      "volume": "49",
+      "issue": "1",
+      "pages": null,
+      "doi": null,
+      "doi_key": null,
+      "language": "en",
+      "keywords": [
+        "Next-generation sequencing",
+        "lung cancer",
+        "genetic alterations",
+        "personalized therapy",
+        "driver genes"
+      ],
+      "pdf_url": "https://www.ajol.info/index.php/pamj/article/download/293663/276377",
+      "query_membership": [
+        {
+          "query_id": "A1",
+          "query": "+Nigeria +\"avian influenza\"",
+          "rank": 44
+        },
+        {
+          "query_id": "A7",
+          "query": "+Nigeria +\"avian influenza\" +molecular",
+          "rank": 6
+        },
+        {
+          "query_id": "A8",
+          "query": "+Nigeria +\"avian influenza\" +epidemiology",
+          "rank": 8
+        }
+      ],
+      "within_date_window": true,
+      "pre_screen_flag": "none",
+      "metadata_capture": "initial",
+      "canonical_id": "CAN-1865",
+      "canonical_match_rule": "new",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:pamj:85775",
+      "url": "https://www.ajol.info/index.php/pamj/article/view/85775",
+      "title": "Effect of intervention on the control of Highly Pathogenic Avian Influenza in Nigeria",
+      "authors": [
+        "Agnes Tinuke Oladokun",
+        "Clement Adebajo Meseko",
+        "Edelokun Ighodalo",
+        "Benshak John",
+        "Pius Stephen Ekong"
+      ],
+      "journal": "Pan African Medical Journal",
+      "journal_abbreviation": "Pan Afr Med Jrnl",
+      "issn": "1937-8688",
+      "publication_date": "2012",
+      "year": "2012",
+      "volume": "13",
+      "issue": "1",
+      "pages": null,
+      "doi": null,
+      "doi_key": null,
+      "language": "en",
+      "keywords": [],
+      "pdf_url": "https://www.ajol.info/index.php/pamj/article/download/85775/75666",
+      "query_membership": [
+        {
+          "query_id": "A1",
+          "query": "+Nigeria +\"avian influenza\"",
+          "rank": 28
+        }
+      ],
+      "within_date_window": true,
+      "pre_screen_flag": "none",
+      "metadata_capture": "initial",
+      "canonical_id": "CAN-0087",
+      "canonical_match_rule": "title_year",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:pamjoh:276905",
+      "url": "https://www.ajol.info/index.php/pamjoh/article/view/276905",
+      "title": "Cross-sectional assessment of compliance with the  requirements of the animal disease control act for  avian influenza control in Nigeria",
+      "authors": [
+        "Okoli Solomon Chieloka",
+        "Onaga  Awele"
+      ],
+      "journal": "PAMJ One Health",
+      "journal_abbreviation": "PAMJ - One Health ",
+      "issn": "2707-2800",
+      "publication_date": "2023",
+      "year": "2023",
+      "volume": "11",
+      "issue": "1",
+      "pages": "1-4",
+      "doi": null,
+      "doi_key": null,
+      "language": "en",
+      "keywords": [],
+      "pdf_url": "https://www.ajol.info/index.php/pamjoh/article/download/276905/261260",
+      "query_membership": [
+        {
+          "query_id": "A1",
+          "query": "+Nigeria +\"avian influenza\"",
+          "rank": 53
+        }
+      ],
+      "within_date_window": true,
+      "pre_screen_flag": "none",
+      "metadata_capture": "initial",
+      "canonical_id": "CAN-0747",
+      "canonical_match_rule": "title_year",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:pngas:259901",
+      "url": "https://www.ajol.info/index.php/pngas/article/view/259901",
+      "title": "The Battle Against Transboundary Animal Diseases In Nigeria And Some West African Countries",
+      "authors": [
+        "Timothy Obi"
+      ],
+      "journal": "Proceedings of the Nigerian Academy of Science",
+      "journal_abbreviation": "Proc. Nig. Acad. Sci.",
+      "issn": "2705-327X",
+      "publication_date": "2015",
+      "year": "2015",
+      "volume": "8",
+      "issue": "1",
+      "pages": null,
+      "doi": null,
+      "doi_key": null,
+      "language": "en",
+      "keywords": [
+        "Animal Diseases, Livestock, Nigeria"
+      ],
+      "pdf_url": null,
+      "query_membership": [
+        {
+          "query_id": "A1",
+          "query": "+Nigeria +\"avian influenza\"",
+          "rank": 62
+        }
+      ],
+      "within_date_window": true,
+      "pre_screen_flag": "none",
+      "metadata_capture": "initial",
+      "canonical_id": "CAN-1875",
+      "canonical_match_rule": "new",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:pngas:260800",
+      "url": "https://www.ajol.info/index.php/pngas/article/view/260800",
+      "title": "Zoonotic Diseases Situation in Nigeria; Control Measures and Challenges",
+      "authors": [
+        "Clement Meseko",
+        "Wilson Bertu",
+        "Ishaya Tekki",
+        "Amyel Gusi",
+        "Sunday Hambolu",
+        "Tony Joannis",
+        "David Shamaki",
+        "Reuben Ocholi"
+      ],
+      "journal": "Proceedings of the Nigerian Academy of Science",
+      "journal_abbreviation": "Proc. Nig. Acad. Sci.",
+      "issn": "2705-327X",
+      "publication_date": "2021",
+      "year": "2021",
+      "volume": "14",
+      "issue": "1s",
+      "pages": null,
+      "doi": null,
+      "doi_key": null,
+      "language": "en",
+      "keywords": [
+        "Zoonoses, Animals and human health, Nigeria situation"
+      ],
+      "pdf_url": null,
+      "query_membership": [
+        {
+          "query_id": "A1",
+          "query": "+Nigeria +\"avian influenza\"",
+          "rank": 52
+        }
+      ],
+      "within_date_window": true,
+      "pre_screen_flag": "none",
+      "metadata_capture": "recovered_2026-09-20",
+      "canonical_id": "CAN-1797",
+      "canonical_match_rule": "title_year",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:pngas:332176",
+      "url": "https://www.ajol.info/index.php/pngas/article/view/332176",
+      "title": "Descriptive epidemiology and economic impact of highly pathogenic avian influenza in Plateau State, Nigeria: a retrospect from 2015 to 2022",
+      "authors": [
+        "Innocent Gosomji",
+        "Idowu Fagbamila",
+        "Clement Meseko",
+        "Ayuba Haruna",
+        "Oludotun Oladele",
+        "Solomon Dakwal",
+        "Musa Dango",
+        "Ayok Iliya",
+        "Jimmy Balami",
+        "Asinamai Bitrusa",
+        "Ayodele Majekodunmi",
+        "Asabe Dzikwi-Emennaa",
+        "Lami Lombin"
+      ],
+      "journal": "Proceedings of the Nigerian Academy of Science",
+      "journal_abbreviation": "Proc. Nig. Acad. Sci.",
+      "issn": "2705-327X",
+      "publication_date": "2026/08/12",
+      "year": "2026",
+      "volume": "19",
+      "issue": "1",
+      "pages": null,
+      "doi": null,
+      "doi_key": null,
+      "language": "en",
+      "keywords": [
+        "Economics",
+        "HPAI",
+        "retrospect",
+        "poultry",
+        "Nigeria"
+      ],
+      "pdf_url": null,
+      "query_membership": [
+        {
+          "query_id": "A1",
+          "query": "+Nigeria +\"avian influenza\"",
+          "rank": 29
+        },
+        {
+          "query_id": "A8",
+          "query": "+Nigeria +\"avian influenza\" +epidemiology",
+          "rank": 6
+        }
+      ],
+      "within_date_window": true,
+      "pre_screen_flag": "none",
+      "metadata_capture": "initial",
+      "canonical_id": "CAN-1796",
+      "canonical_match_rule": "title_year",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:sa:175500",
+      "url": "https://www.ajol.info/index.php/sa/article/view/175500",
+      "title": "2D electrical resistivity imaging of the effect of tide on groundwater quality in Ogulagha Estuary, western Niger Delta, Nigeria",
+      "authors": [
+        "O Ohwoghere-Asuma"
+      ],
+      "journal": "Scientia Africana",
+      "journal_abbreviation": "sa",
+      "issn": "1118-1931",
+      "publication_date": "2017",
+      "year": "2017",
+      "volume": "16",
+      "issue": "2",
+      "pages": null,
+      "doi": null,
+      "doi_key": null,
+      "language": "en",
+      "keywords": [
+        "Saltwater",
+        "high tide mark",
+        "2D ERI",
+        "groundwater quality",
+        "Ogulagha"
+      ],
+      "pdf_url": "https://www.ajol.info/index.php/sa/article/download/175500/164903",
+      "query_membership": [
+        {
+          "query_id": "A3",
+          "query": "+Nigeria +\"H5N1\"",
+          "rank": 2
+        }
+      ],
+      "within_date_window": true,
+      "pre_screen_flag": "none",
+      "metadata_capture": "initial",
+      "canonical_id": "CAN-1846",
+      "canonical_match_rule": "new",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:sjvs:206411",
+      "url": "https://www.ajol.info/index.php/sjvs/article/view/206411",
+      "title": "Serological and Molecular Detection of Avian Influenza Virus Hemagglutinin (H5) in Wild Birds in and Around Zaria, Nigeria",
+      "authors": [
+        "P.I. Alonge",
+        "S.B. Oladele",
+        "F.B. Hassan",
+        "O. Orakpoghenor",
+        "J. Samuel"
+      ],
+      "journal": "Sahel Journal of Veterinary Sciences",
+      "journal_abbreviation": "SJVS",
+      "issn": "3122-0487",
+      "publication_date": "2021/04/26",
+      "year": "2021",
+      "volume": "18",
+      "issue": "1",
+      "pages": "27-31",
+      "doi": null,
+      "doi_key": null,
+      "language": "en",
+      "keywords": [
+        "Avian influenza; Antibody; Antigen; Wild birds; Zaria"
+      ],
+      "pdf_url": "https://www.ajol.info/index.php/sjvs/article/download/206411/194632",
+      "query_membership": [
+        {
+          "query_id": "A1",
+          "query": "+Nigeria +\"avian influenza\"",
+          "rank": 7
+        },
+        {
+          "query_id": "A7",
+          "query": "+Nigeria +\"avian influenza\" +molecular",
+          "rank": 2
+        },
+        {
+          "query_id": "A9",
+          "query": "+Nigeria +\"avian influenza\" +\"wild bird\"",
+          "rank": 1
+        }
+      ],
+      "within_date_window": true,
+      "pre_screen_flag": "none",
+      "metadata_capture": "initial",
+      "canonical_id": "CAN-1778",
+      "canonical_match_rule": "title_year",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:smsajms:81072",
+      "url": "https://www.ajol.info/index.php/smsajms/article/view/81072",
+      "title": "Iraq 2003 (Part 1): The road to war",
+      "authors": [
+        "L Scholtz"
+      ],
+      "journal": "Scientia Militaria: South African Journal of Military Studies",
+      "journal_abbreviation": "Sci Mil",
+      "issn": "2224-0020",
+      "publication_date": "2004",
+      "year": "2004",
+      "volume": "32",
+      "issue": "1",
+      "pages": "1-31",
+      "doi": null,
+      "doi_key": null,
+      "language": "en",
+      "keywords": [],
+      "pdf_url": "https://www.ajol.info/index.php/smsajms/article/download/81072/71296",
+      "query_membership": [
+        {
+          "query_id": "A3",
+          "query": "+Nigeria +\"H5N1\"",
+          "rank": 4
+        }
+      ],
+      "within_date_window": false,
+      "pre_screen_flag": "outside_2006_2026",
+      "metadata_capture": "initial",
+      "canonical_id": "CAN-1863",
+      "canonical_match_rule": "new",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:smsajms:81073",
+      "url": "https://www.ajol.info/index.php/smsajms/article/view/81073",
+      "title": "From warfare to welfare – Human security in a Southern African context",
+      "authors": [
+        "M Muller",
+        "B Fortman"
+      ],
+      "journal": "Scientia Militaria: South African Journal of Military Studies",
+      "journal_abbreviation": "Sci Mil",
+      "issn": "2224-0020",
+      "publication_date": "2004",
+      "year": "2004",
+      "volume": "32",
+      "issue": "2",
+      "pages": null,
+      "doi": null,
+      "doi_key": null,
+      "language": "en",
+      "keywords": [],
+      "pdf_url": "https://www.ajol.info/index.php/smsajms/article/download/81073/71295",
+      "query_membership": [
+        {
+          "query_id": "A1",
+          "query": "+Nigeria +\"avian influenza\"",
+          "rank": 40
+        },
+        {
+          "query_id": "A3",
+          "query": "+Nigeria +\"H5N1\"",
+          "rank": 1
+        }
+      ],
+      "within_date_window": false,
+      "pre_screen_flag": "outside_2006_2026",
+      "metadata_capture": "initial",
+      "canonical_id": "CAN-1857",
+      "canonical_match_rule": "new",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:sokjvs:157721",
+      "url": "https://www.ajol.info/index.php/sokjvs/article/view/157721",
+      "title": "The economic impact of some important viral diseases affecting the poultry industry in Abuja, Nigeria",
+      "authors": [
+        "M.B. Sadiq",
+        "B.R. Mohammed"
+      ],
+      "journal": "Sokoto Journal of Veterinary Sciences",
+      "journal_abbreviation": "Sokoto J. Vet. Sc.",
+      "issn": "2315-6201",
+      "publication_date": "2017/06/19",
+      "year": "2017",
+      "volume": "15",
+      "issue": "2",
+      "pages": "7-17",
+      "doi": "10.4314/sokjvs.v15i2.2",
+      "doi_key": "104314sokjvsv15i22",
+      "language": "en",
+      "keywords": [
+        "Avian influenza",
+        "Economic loss",
+        "Infectious bursal disease",
+        "Newcastle disease",
+        "Poultry"
+      ],
+      "pdf_url": "https://www.ajol.info/index.php/sokjvs/article/download/157721/147319",
+      "query_membership": [
+        {
+          "query_id": "A1",
+          "query": "+Nigeria +\"avian influenza\"",
+          "rank": 37
+        }
+      ],
+      "within_date_window": true,
+      "pre_screen_flag": "none",
+      "metadata_capture": "initial",
+      "canonical_id": "CAN-1727",
+      "canonical_match_rule": "doi",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:sokjvs:161325",
+      "url": "https://www.ajol.info/index.php/sokjvs/article/view/161325",
+      "title": "Detection of antibodies to avian influenza, infectious bronchitis and Newcastle disease viruses in wild birds in three states of Nigeria",
+      "authors": [
+        "W.I. Musa",
+        "B.Y. Abdullahi",
+        "S Lawal",
+        "M Bello",
+        "P.A. Abdu"
+      ],
+      "journal": "Sokoto Journal of Veterinary Sciences",
+      "journal_abbreviation": "Sokoto J. Vet. Sc.",
+      "issn": "2315-6201",
+      "publication_date": "2017/09/19",
+      "year": "2017",
+      "volume": "15",
+      "issue": null,
+      "pages": "28-35",
+      "doi": "10.4314/sokjvs.v15i4.5",
+      "doi_key": "104314sokjvsv15i45",
+      "language": "en",
+      "keywords": [
+        "Avian influenza",
+        "Infectious bronchitis",
+        "Newcastle disease",
+        "Nigeria",
+        "Wild birds"
+      ],
+      "pdf_url": "https://www.ajol.info/index.php/sokjvs/article/download/161325/150894",
+      "query_membership": [
+        {
+          "query_id": "A1",
+          "query": "+Nigeria +\"avian influenza\"",
+          "rank": 33
+        },
+        {
+          "query_id": "A9",
+          "query": "+Nigeria +\"avian influenza\" +\"wild bird\"",
+          "rank": 6
+        }
+      ],
+      "within_date_window": true,
+      "pre_screen_flag": "none",
+      "metadata_capture": "initial",
+      "canonical_id": "CAN-1730",
+      "canonical_match_rule": "doi",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:sokjvs:162317",
+      "url": "https://www.ajol.info/index.php/sokjvs/article/view/162317",
+      "title": "Detection of avian influenza antibodies and antigens in poultry and some wild birds in Kogi state, Nigeria",
+      "authors": [
+        "NO Ameji",
+        "L Sa'idu",
+        "PA Abdu"
+      ],
+      "journal": "Sokoto Journal of Veterinary Sciences",
+      "journal_abbreviation": "Sokoto J. Vet. Sc.",
+      "issn": "2315-6201",
+      "publication_date": "2017",
+      "year": "2017",
+      "volume": "15",
+      "issue": "3",
+      "pages": "62-68",
+      "doi": "10.4314/sokjvs.v15i3.9",
+      "doi_key": "104314sokjvsv15i39",
+      "language": "en",
+      "keywords": [
+        "Avian influenza",
+        "Black stork",
+        "ELISA",
+        "HI",
+        "RT-PCR"
+      ],
+      "pdf_url": "https://www.ajol.info/index.php/sokjvs/article/download/162317/151823",
+      "query_membership": [
+        {
+          "query_id": "A1",
+          "query": "+Nigeria +\"avian influenza\"",
+          "rank": 25
+        },
+        {
+          "query_id": "A3",
+          "query": "+Nigeria +\"H5N1\"",
+          "rank": 17
+        },
+        {
+          "query_id": "A9",
+          "query": "+Nigeria +\"avian influenza\" +\"wild bird\"",
+          "rank": 5
+        }
+      ],
+      "within_date_window": true,
+      "pre_screen_flag": "none",
+      "metadata_capture": "initial",
+      "canonical_id": "CAN-1729",
+      "canonical_match_rule": "doi",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:sokjvs:192864",
+      "url": "https://www.ajol.info/index.php/sokjvs/article/view/192864",
+      "title": "Outbreak of highly pathogenic avian influenza subtype H5N8 in two multi-age chicken farms in Jos, Plateau State, Nigeria",
+      "authors": [
+        "N.O. Ameji",
+        "O.O. Oladele",
+        "C.A. Meseko",
+        "G.D. Mshelia",
+        "L.H. Lombin"
+      ],
+      "journal": "Sokoto Journal of Veterinary Sciences",
+      "journal_abbreviation": "Sokoto J. Vet. Sc.",
+      "issn": "2315-6201",
+      "publication_date": "2019",
+      "year": "2019",
+      "volume": "17",
+      "issue": "3",
+      "pages": "60-65",
+      "doi": "10.4314/sokjvs.v17i3.11",
+      "doi_key": "104314sokjvsv17i311",
+      "language": "en",
+      "keywords": [
+        "Broilers",
+        "Highly pathogenic avian influenza (HPAI H5N8)",
+        "Jos",
+        "Nigeria",
+        "Outbreaks",
+        "Pullets"
+      ],
+      "pdf_url": "https://www.ajol.info/index.php/sokjvs/article/download/192864/181988",
+      "query_membership": [
+        {
+          "query_id": "A1",
+          "query": "+Nigeria +\"avian influenza\"",
+          "rank": 32
+        },
+        {
+          "query_id": "A3",
+          "query": "+Nigeria +\"H5N1\"",
+          "rank": 18
+        },
+        {
+          "query_id": "A4",
+          "query": "+Nigeria +\"H5N8\"",
+          "rank": 2
+        }
+      ],
+      "within_date_window": true,
+      "pre_screen_flag": "none",
+      "metadata_capture": "initial",
+      "canonical_id": "CAN-1731",
+      "canonical_match_rule": "doi",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:sokjvs:201079",
+      "url": "https://www.ajol.info/index.php/sokjvs/article/view/201079",
+      "title": "Biosecurity challenges in the control of avian influenza in Nigeria",
+      "authors": [
+        "S.I.  Ijoma",
+        " E.R.  Agusi",
+        " V.I.  Ifende",
+        "O.H.  Osemeke",
+        "V.T.  Columba"
+      ],
+      "journal": "Sokoto Journal of Veterinary Sciences",
+      "journal_abbreviation": "Sokoto J. Vet. Sc.",
+      "issn": "2315-6201",
+      "publication_date": "2020/10/30",
+      "year": "2020",
+      "volume": "18",
+      "issue": "3",
+      "pages": "150-157",
+      "doi": "10.4314/sokjvs.v18i3.5",
+      "doi_key": "104314sokjvsv18i35",
+      "language": "en",
+      "keywords": [
+        "Avian influenza, biosecurity, one health, poultry farms, Nigeria"
+      ],
+      "pdf_url": "https://www.ajol.info/index.php/sokjvs/article/download/201079/189602",
+      "query_membership": [
+        {
+          "query_id": "A1",
+          "query": "+Nigeria +\"avian influenza\"",
+          "rank": 6
+        }
+      ],
+      "within_date_window": true,
+      "pre_screen_flag": "none",
+      "metadata_capture": "initial",
+      "canonical_id": "CAN-1732",
+      "canonical_match_rule": "doi",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:sokjvs:219961",
+      "url": "https://www.ajol.info/index.php/sokjvs/article/view/219961",
+      "title": "Detection of antibodies to H5 and H9 subtypes of influenza viruses in wild birds in Zaria, Nigeria",
+      "authors": [
+        "Y.S.  Wungak",
+        "O.  Orakpoghenor",
+        "I.  Bitrus",
+        "K.A. Olawuyi",
+        "O.H.  Osemeke",
+        "H.G.  Ularamu",
+        "I. Shittu",
+        "C.A.  Meseko"
+      ],
+      "journal": "Sokoto Journal of Veterinary Sciences",
+      "journal_abbreviation": "Sokoto J. Vet. Sc.",
+      "issn": "2315-6201",
+      "publication_date": "2021",
+      "year": "2021",
+      "volume": "19",
+      "issue": "4",
+      "pages": "160 – 165-160 – 165",
+      "doi": "10.4314/sokjvs.v19i4.2",
+      "doi_key": "104314sokjvsv19i42",
+      "language": "en",
+      "keywords": [
+        "Avian Influenza, Antibodies, H5, H9, Nigeria, Seroprevalence, Wild birds"
+      ],
+      "pdf_url": "https://www.ajol.info/index.php/sokjvs/article/download/219961/207860",
+      "query_membership": [
+        {
+          "query_id": "A1",
+          "query": "+Nigeria +\"avian influenza\"",
+          "rank": 11
+        },
+        {
+          "query_id": "A9",
+          "query": "+Nigeria +\"avian influenza\" +\"wild bird\"",
+          "rank": 3
+        }
+      ],
+      "within_date_window": true,
+      "pre_screen_flag": "none",
+      "metadata_capture": "initial",
+      "canonical_id": "CAN-1734",
+      "canonical_match_rule": "doi",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:sokjvs:219964",
+      "url": "https://www.ajol.info/index.php/sokjvs/article/view/219964",
+      "title": "Serological evidence of influenza A/H9 in indigenous birds and level of awareness at live bird markets, Plateau State",
+      "authors": [
+        "D.C.  Abiayi",
+        "G.R.  Otolorin",
+        "A.A.  Dzikwi-Emennaa",
+        "C.A.  Meseko"
+      ],
+      "journal": "Sokoto Journal of Veterinary Sciences",
+      "journal_abbreviation": "Sokoto J. Vet. Sc.",
+      "issn": "2315-6201",
+      "publication_date": "2021",
+      "year": "2021",
+      "volume": "19",
+      "issue": "4",
+      "pages": "175-182",
+      "doi": "10.4314/sokjvs.v19i4.4",
+      "doi_key": "104314sokjvsv19i44",
+      "language": "en",
+      "keywords": [
+        "Avian influenza; Jos Nigeria; Live bird market; Serological evidence; Serotype H9"
+      ],
+      "pdf_url": "https://www.ajol.info/index.php/sokjvs/article/download/219964/207863",
+      "query_membership": [
+        {
+          "query_id": "A1",
+          "query": "+Nigeria +\"avian influenza\"",
+          "rank": 2
+        },
+        {
+          "query_id": "A2",
+          "query": "+Nigeria +\"influenza A virus\"",
+          "rank": 3
+        },
+        {
+          "query_id": "A3",
+          "query": "+Nigeria +\"H5N1\"",
+          "rank": 21
+        },
+        {
+          "query_id": "A8",
+          "query": "+Nigeria +\"avian influenza\" +epidemiology",
+          "rank": 1
+        }
+      ],
+      "within_date_window": true,
+      "pre_screen_flag": "none",
+      "metadata_capture": "initial",
+      "canonical_id": "CAN-1735",
+      "canonical_match_rule": "doi",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:sokjvs:220268",
+      "url": "https://www.ajol.info/index.php/sokjvs/article/view/220268",
+      "title": "Footprints of swine influenza H1N1 and H3N2 in pigs from southern Kaduna, Nigeria",
+      "authors": [
+        "D. Kabantiyok",
+        "B. Inuwa",
+        "J.K. Gyallak",
+        "A.J. Dadah",
+        "J, Abraham-Oyiguh",
+        "I. Shittu",
+        "C.A. Meseko"
+      ],
+      "journal": "Sokoto Journal of Veterinary Sciences",
+      "journal_abbreviation": "Sokoto J. Vet. Sc.",
+      "issn": "2315-6201",
+      "publication_date": "2021",
+      "year": "2021",
+      "volume": "19",
+      "issue": "4",
+      "pages": "192-197",
+      "doi": "10.4314/sokjvs.v19i4.6",
+      "doi_key": "104314sokjvsv19i46",
+      "language": "en",
+      "keywords": [
+        "Co-seroprevalence, H1N1, H3N2, Serotypes, Swine Influenza, Kaduna"
+      ],
+      "pdf_url": "https://www.ajol.info/index.php/sokjvs/article/download/220268/207894",
+      "query_membership": [
+        {
+          "query_id": "A2",
+          "query": "+Nigeria +\"influenza A virus\"",
+          "rank": 9
+        }
+      ],
+      "within_date_window": true,
+      "pre_screen_flag": "none",
+      "metadata_capture": "initial",
+      "canonical_id": "CAN-1856",
+      "canonical_match_rule": "new",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:sokjvs:234180",
+      "url": "https://www.ajol.info/index.php/sokjvs/article/view/234180",
+      "title": "Serological and molecular investigation of canine influenza virus in Plateau State, Nigeria",
+      "authors": [
+        "D.O.  Omoniwa",
+        "C.N.  Chinyere",
+        "E.R.  Agusi",
+        "N.  Mkpuma2",
+        "J.S.  Oyetunde",
+        "O.E.  Igah",
+        "J.  Adole",
+        "A.M.  Adidu-Omoniwa",
+        "C.A.  Meseko"
+      ],
+      "journal": "Sokoto Journal of Veterinary Sciences",
+      "journal_abbreviation": "Sokoto J. Vet. Sc.",
+      "issn": "2315-6201",
+      "publication_date": "2022/10/17",
+      "year": "2022",
+      "volume": "20",
+      "issue": "3",
+      "pages": "212-215",
+      "doi": "10.4314/sokjvs.v20i3.8",
+      "doi_key": "104314sokjvsv20i38",
+      "language": "en",
+      "keywords": [],
+      "pdf_url": "https://www.ajol.info/index.php/sokjvs/article/download/234180/221194",
+      "query_membership": [
+        {
+          "query_id": "A1",
+          "query": "+Nigeria +\"avian influenza\"",
+          "rank": 65
+        },
+        {
+          "query_id": "A2",
+          "query": "+Nigeria +\"influenza A virus\"",
+          "rank": 12
+        },
+        {
+          "query_id": "A7",
+          "query": "+Nigeria +\"avian influenza\" +molecular",
+          "rank": 7
+        }
+      ],
+      "within_date_window": true,
+      "pre_screen_flag": "none",
+      "metadata_capture": "initial",
+      "canonical_id": "CAN-1736",
+      "canonical_match_rule": "doi",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:sokjvs:239492",
+      "url": "https://www.ajol.info/index.php/sokjvs/article/view/239492",
+      "title": "Seroprevalence of avian influenza in free-range domestic ducks in some selected households in Oyo State, southwestern Nigeria",
+      "authors": [
+        "AA  Bakre",
+        "OD  Adelakun",
+        "U  Dauda",
+        "RO  Adesola",
+        "OA  Oladele"
+      ],
+      "journal": "Sokoto Journal of Veterinary Sciences",
+      "journal_abbreviation": "Sokoto J. Vet. Sc.",
+      "issn": "2315-6201",
+      "publication_date": "2022",
+      "year": "2022",
+      "volume": "20",
+      "issue": "4",
+      "pages": "268-271",
+      "doi": "10.4314/sokjvs.v20i4.7",
+      "doi_key": "104314sokjvsv20i47",
+      "language": "en",
+      "keywords": [
+        "Avian influenza, Ducks, ELISA, Oyo State, Seroprevalence"
+      ],
+      "pdf_url": "https://www.ajol.info/index.php/sokjvs/article/download/239492/226352",
+      "query_membership": [
+        {
+          "query_id": "A1",
+          "query": "+Nigeria +\"avian influenza\"",
+          "rank": 10
+        }
+      ],
+      "within_date_window": true,
+      "pre_screen_flag": "none",
+      "metadata_capture": "initial",
+      "canonical_id": "CAN-1737",
+      "canonical_match_rule": "doi",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:sokjvs:259180",
+      "url": "https://www.ajol.info/index.php/sokjvs/article/view/259180",
+      "title": "Serosurvey for H5, H7 and H9 avian influenza viruses in local chickens in live bird markets within Kaduna metropolis, Nigeria",
+      "authors": [
+        "J.D. Bakam",
+        "B.  Inuwa",
+        "W. Yiltawe",
+        "I.  Shittu",
+        "C.  Meseko",
+        "G.  Kia"
+      ],
+      "journal": "Sokoto Journal of Veterinary Sciences",
+      "journal_abbreviation": "Sokoto J. Vet. Sc.",
+      "issn": "2315-6201",
+      "publication_date": "2023/11/14",
+      "year": "2023",
+      "volume": "21",
+      "issue": "3",
+      "pages": "119-125",
+      "doi": "10.4314/sokjvs.v21i3.3",
+      "doi_key": "104314sokjvsv21i33",
+      "language": "en",
+      "keywords": [
+        "Biosecurity, Highly pathogenic avian influenza, Live bird markets, Local chickens, Serosurvey, Surveillance"
+      ],
+      "pdf_url": "https://www.ajol.info/index.php/sokjvs/article/download/259180/244752",
+      "query_membership": [
+        {
+          "query_id": "A1",
+          "query": "+Nigeria +\"avian influenza\"",
+          "rank": 22
+        },
+        {
+          "query_id": "A3",
+          "query": "+Nigeria +\"H5N1\"",
+          "rank": 16
+        }
+      ],
+      "within_date_window": true,
+      "pre_screen_flag": "none",
+      "metadata_capture": "initial",
+      "canonical_id": "CAN-1738",
+      "canonical_match_rule": "doi",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:sokjvs:272887",
+      "url": "https://www.ajol.info/index.php/sokjvs/article/view/272887",
+      "title": "Seroprevalence of equine influenza in three southwestern states of Nigeria",
+      "authors": [
+        "BA Alaba",
+        "IY Likita",
+        "OI Azeez",
+        "AM Mayaki",
+        "JO Abiola",
+        "SC Olaogun",
+        "DO Omoniwa",
+        "TO Oyagbemi",
+        "SA Koleosho",
+        "AA Oyagbemi",
+        "TO Omobowale"
+      ],
+      "journal": "Sokoto Journal of Veterinary Sciences",
+      "journal_abbreviation": "Sokoto J. Vet. Sc.",
+      "issn": "2315-6201",
+      "publication_date": "2024/06/28",
+      "year": "2024",
+      "volume": "22",
+      "issue": "2",
+      "pages": "138-141",
+      "doi": "10.4314/sokjvs.v22i2.8",
+      "doi_key": "104314sokjvsv22i28",
+      "language": "en",
+      "keywords": [
+        "ELISA",
+        "Influenza A",
+        "Horses",
+        "Haemagglutination inhibition",
+        "Nigeria"
+      ],
+      "pdf_url": "https://www.ajol.info/index.php/sokjvs/article/download/272887/257669",
+      "query_membership": [
+        {
+          "query_id": "A2",
+          "query": "+Nigeria +\"influenza A virus\"",
+          "rank": 1
+        }
+      ],
+      "within_date_window": true,
+      "pre_screen_flag": "none",
+      "metadata_capture": "initial",
+      "canonical_id": "CAN-1872",
+      "canonical_match_rule": "new",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:sokjvs:307865",
+      "url": "https://www.ajol.info/index.php/sokjvs/article/view/307865",
+      "title": "Evaluation of knowledge, attitudes and practices on avian influenza among live bird market workers in Kaduna Metropolis, Nigeria",
+      "authors": [
+        "JD Bakam",
+        "B Inuwa",
+        "R Akintola",
+        "IJ Barde",
+        "I Shittu",
+        "C Meseko"
+      ],
+      "journal": "Sokoto Journal of Veterinary Sciences",
+      "journal_abbreviation": "Sokoto J. Vet. Sc.",
+      "issn": "2315-6201",
+      "publication_date": "2025/10/11",
+      "year": "2025",
+      "volume": "23",
+      "issue": "3",
+      "pages": "146-155",
+      "doi": "10.4314/sokjvs.v23i3.2",
+      "doi_key": "104314sokjvsv23i32",
+      "language": "en",
+      "keywords": [
+        "Attitudes",
+        "Avian influenza",
+        "Biosecurity",
+        "Knowledge",
+        "Pandemic",
+        "Practices"
+      ],
+      "pdf_url": "https://www.ajol.info/index.php/sokjvs/article/download/307865/289476",
+      "query_membership": [
+        {
+          "query_id": "A1",
+          "query": "+Nigeria +\"avian influenza\"",
+          "rank": 14
+        }
+      ],
+      "within_date_window": true,
+      "pre_screen_flag": "none",
+      "metadata_capture": "initial",
+      "canonical_id": "CAN-1739",
+      "canonical_match_rule": "doi",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:sokjvs:72694",
+      "url": "https://www.ajol.info/index.php/sokjvs/article/view/72694",
+      "title": "Review of highly pathogenic avian influenza outbreaks in poultry in Zaria, Nigeria",
+      "authors": [
+        "AM Wakawa",
+        "L Sa'idu",
+        "PA Abdu",
+        "TM Joannis"
+      ],
+      "journal": "Sokoto Journal of Veterinary Sciences",
+      "journal_abbreviation": "Sokoto J. Vet. Sc.",
+      "issn": "2315-6201",
+      "publication_date": "2008",
+      "year": "2008",
+      "volume": "7",
+      "issue": "1",
+      "pages": null,
+      "doi": null,
+      "doi_key": null,
+      "language": "en",
+      "keywords": [
+        "Highly Pathogenic Avian Influenza",
+        "Biosecurity",
+        "Zaria"
+      ],
+      "pdf_url": "https://www.ajol.info/index.php/sokjvs/article/download/72694/61612",
+      "query_membership": [
+        {
+          "query_id": "A1",
+          "query": "+Nigeria +\"avian influenza\"",
+          "rank": 8
+        }
+      ],
+      "within_date_window": true,
+      "pre_screen_flag": "none",
+      "metadata_capture": "initial",
+      "canonical_id": "CAN-0060",
+      "canonical_match_rule": "title_year",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:sokjvs:72755",
+      "url": "https://www.ajol.info/index.php/sokjvs/article/view/72755",
+      "title": "Klebsiella pneumoniae isolated from birds affected by natural outbreaks of highly pathogenic avian influenza (H5N1) in Nigeria",
+      "authors": [
+        "YG Dashe",
+        "HM Kazeem",
+        "PA Abdu",
+        "M Bello",
+        "M Odugbo"
+      ],
+      "journal": "Sokoto Journal of Veterinary Sciences",
+      "journal_abbreviation": "Sokoto J. Vet. Sc.",
+      "issn": "2315-6201",
+      "publication_date": "2008",
+      "year": "2008",
+      "volume": "7",
+      "issue": "2",
+      "pages": null,
+      "doi": null,
+      "doi_key": null,
+      "language": "en",
+      "keywords": [
+        "Highly pathogenic",
+        "Avian influenza",
+        "H5N1",
+        "Klebsiella pneumonia."
+      ],
+      "pdf_url": "https://www.ajol.info/index.php/sokjvs/article/download/72755/61671",
+      "query_membership": [
+        {
+          "query_id": "A1",
+          "query": "+Nigeria +\"avian influenza\"",
+          "rank": 51
+        },
+        {
+          "query_id": "A3",
+          "query": "+Nigeria +\"H5N1\"",
+          "rank": 9
+        }
+      ],
+      "within_date_window": true,
+      "pre_screen_flag": "none",
+      "metadata_capture": "initial",
+      "canonical_id": "CAN-0043",
+      "canonical_match_rule": "title_year",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:sokjvs:78937",
+      "url": "https://www.ajol.info/index.php/sokjvs/article/view/78937",
+      "title": "Attitude of poultry farmers towards vaccination against newcastle disease and avian influenza in Ibadan, Nigeria",
+      "authors": [
+        "OE Oluwole",
+        "BO Emikpe",
+        "BO Olugasa"
+      ],
+      "journal": "Sokoto Journal of Veterinary Sciences",
+      "journal_abbreviation": "Sokoto J. Vet. Sc.",
+      "issn": "2315-6201",
+      "publication_date": "2012",
+      "year": "2012",
+      "volume": "10",
+      "issue": "1",
+      "pages": "5-12",
+      "doi": "10.4314/sokjvs.v10i1.2",
+      "doi_key": "104314sokjvsv10i12",
+      "language": "en",
+      "keywords": [
+        "attitude",
+        "avian influenza",
+        "Newcastle disease",
+        "poultry farmers",
+        "disease prevention"
+      ],
+      "pdf_url": "https://www.ajol.info/index.php/sokjvs/article/download/78937/69256",
+      "query_membership": [
+        {
+          "query_id": "A1",
+          "query": "+Nigeria +\"avian influenza\"",
+          "rank": 43
+        }
+      ],
+      "within_date_window": true,
+      "pre_screen_flag": "none",
+      "metadata_capture": "recovered_2026-09-20",
+      "canonical_id": "CAN-1722",
+      "canonical_match_rule": "doi",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:sokjvs:82291",
+      "url": "https://www.ajol.info/index.php/sokjvs/article/view/82291",
+      "title": "Knowledge of poultry diseases, biosecurity and husbandry practices among stakeholders in poultry production in Kogi State, Nigeria",
+      "authors": [
+        "ON Ameji",
+        "PA Abdu",
+        "L Sa’idu",
+        "M Isa-Ochepa"
+      ],
+      "journal": "Sokoto Journal of Veterinary Sciences",
+      "journal_abbreviation": "Sokoto J. Vet. Sc.",
+      "issn": "2315-6201",
+      "publication_date": "2012",
+      "year": "2012",
+      "volume": "10",
+      "issue": "2",
+      "pages": "26-31",
+      "doi": "10.4314/sokjvs.v10i2.6",
+      "doi_key": "104314sokjvsv10i26",
+      "language": "en",
+      "keywords": [
+        "biosecurity",
+        "husbandry practices",
+        "poultry diseases",
+        "Kogi State",
+        "Nigeria"
+      ],
+      "pdf_url": "https://www.ajol.info/index.php/sokjvs/article/download/82291/72447",
+      "query_membership": [
+        {
+          "query_id": "A1",
+          "query": "+Nigeria +\"avian influenza\"",
+          "rank": 61
+        },
+        {
+          "query_id": "A3",
+          "query": "+Nigeria +\"H5N1\"",
+          "rank": 22
+        }
+      ],
+      "within_date_window": true,
+      "pre_screen_flag": "none",
+      "metadata_capture": "initial",
+      "canonical_id": "CAN-1723",
+      "canonical_match_rule": "doi",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:sokjvs:82293",
+      "url": "https://www.ajol.info/index.php/sokjvs/article/view/82293",
+      "title": "Risk factors for the occurrence and spread of Highly Pathogenic Avian Influenza H5N1 in commercial poultry farms in Kano, Nigeria",
+      "authors": [
+        "AM Wakawa",
+        "PA Abdu",
+        "SB Oladele",
+        "L Sa’idu",
+        "SB Mohammed"
+      ],
+      "journal": "Sokoto Journal of Veterinary Sciences",
+      "journal_abbreviation": "Sokoto J. Vet. Sc.",
+      "issn": "2315-6201",
+      "publication_date": "2012",
+      "year": "2012",
+      "volume": "10",
+      "issue": "2",
+      "pages": "40-51",
+      "doi": "10.4314/sokjvs.v10i2.8",
+      "doi_key": "104314sokjvsv10i28",
+      "language": "en",
+      "keywords": [
+        "commercial poultry",
+        "H5N1",
+        "HPAI",
+        "Kano",
+        "Nigeria",
+        "risk factors"
+      ],
+      "pdf_url": "https://www.ajol.info/index.php/sokjvs/article/download/82293/72449",
+      "query_membership": [
+        {
+          "query_id": "A1",
+          "query": "+Nigeria +\"avian influenza\"",
+          "rank": 64
+        },
+        {
+          "query_id": "A3",
+          "query": "+Nigeria +\"H5N1\"",
+          "rank": 10
+        },
+        {
+          "query_id": "A9",
+          "query": "+Nigeria +\"avian influenza\" +\"wild bird\"",
+          "rank": 12
+        }
+      ],
+      "within_date_window": true,
+      "pre_screen_flag": "none",
+      "metadata_capture": "initial",
+      "canonical_id": "CAN-1724",
+      "canonical_match_rule": "doi",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:sokjvs:82294",
+      "url": "https://www.ajol.info/index.php/sokjvs/article/view/82294",
+      "title": "Serosurvey of antibody to highly pathogenic avian influenza (H5N1) in pigs, north central Nigeria",
+      "authors": [
+        "CA Meseko",
+        "F Cilloni",
+        "A Oladokun"
+      ],
+      "journal": "Sokoto Journal of Veterinary Sciences",
+      "journal_abbreviation": "Sokoto J. Vet. Sc.",
+      "issn": "2315-6201",
+      "publication_date": "2012",
+      "year": "2012",
+      "volume": "10",
+      "issue": "2",
+      "pages": "52-55",
+      "doi": "10.4314/sokjvs.v10i2.9",
+      "doi_key": "104314sokjvsv10i29",
+      "language": "en",
+      "keywords": [
+        "antibody",
+        "avian influenza",
+        "H5N1",
+        "Nigeria",
+        "pigs"
+      ],
+      "pdf_url": "https://www.ajol.info/index.php/sokjvs/article/download/82294/72451",
+      "query_membership": [
+        {
+          "query_id": "A1",
+          "query": "+Nigeria +\"avian influenza\"",
+          "rank": 5
+        },
+        {
+          "query_id": "A3",
+          "query": "+Nigeria +\"H5N1\"",
+          "rank": 5
+        }
+      ],
+      "within_date_window": true,
+      "pre_screen_flag": "none",
+      "metadata_capture": "initial",
+      "canonical_id": "CAN-1725",
+      "canonical_match_rule": "doi",
+      "screening_status": "not_screened"
+    },
+    {
+      "ajol_id": "AJOL:swj:208685",
+      "url": "https://www.ajol.info/index.php/swj/article/view/208685",
+      "title": "Seroprevalence of Swine Influenza A virus circulating in pigs from Southern Kaduna, Nigeria",
+      "authors": [
+        "Dennis Kabantiyok ",
+        "Oyiguh Abraham ",
+        "A.J.  Dadah"
+      ],
+      "journal": "Science World Journal",
+      "journal_abbreviation": "SWJ",
+      "issn": "1597-6343",
+      "publication_date": "2019",
+      "year": "2019",
+      "volume": "14",
+      "issue": "3",
+      "pages": "92-95",
+      "doi": null,
+      "doi_key": null,
+      "language": "en",
+      "keywords": [
+        "Influenza, Seroprevalence, Swine, Kaduna State, Subtypes"
+      ],
+      "pdf_url": "https://www.ajol.info/index.php/swj/article/download/208685/196724",
+      "query_membership": [
+        {
+          "query_id": "A2",
+          "query": "+Nigeria +\"influenza A virus\"",
+          "rank": 5
+        }
+      ],
+      "within_date_window": true,
+      "pre_screen_flag": "none",
+      "metadata_capture": "initial",
+      "canonical_id": "CAN-1873",
+      "canonical_match_rule": "new",
+      "screening_status": "not_screened"
+    }
+  ]
+}

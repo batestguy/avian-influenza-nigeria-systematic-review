@@ -1,5 +1,8 @@
 # SWiM scoring — 9 items (synthesis without meta-analysis)
 
+**Status (2026-09-20):** synthesis template unchanged; SWiM remains the default. It has not been
+applied because final screening, extraction, and risk-of-bias appraisal have not started/completed.
+
 Source: Campbell et al., BMJ 2020;l6890. Use with PRISMA 2020 Item 13d.
 Score `Yes / Partial / No`. No meta-analysis is expected here — SWiM IS the synthesis standard.
 

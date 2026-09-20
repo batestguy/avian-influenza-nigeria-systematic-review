@@ -1,5 +1,10 @@
 # PRISMA 2020 flow + final audit sheet
 
+**Status (2026-09-20):** intentionally unfilled. Do not sum the 175 imported WoS UIDs with the
+206 broader browser count, or treat AJOL's 144 query rows as unique records. Freeze flow counts
+only after cross-source screening reconciliation. AJOL import is complete: 79 source records map
+to 47 existing and 32 new identities.
+
 ## Flow (fill numbers as you go — diagram drawn at write stage)
 
 - Records identified: PubMed ____ + Scopus ____ + WoS ____ + ScienceDirect ____ + Scholar ____ + AJOL ____ + supplementary ____ = ____

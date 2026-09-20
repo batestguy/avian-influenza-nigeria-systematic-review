@@ -1,5 +1,9 @@
 # Phase 0 — Protocol freeze draft (for approval, NOT yet pasted into manuscript)
 
+**Amendment status (2026-09-20):** Gate A remains passed, with the operational search-update date
+advanced from 19 to 20 September to capture the completed AJOL and WoS browser runs. Historical
+16/19 September layers remain separately dated; the manuscript remains unchanged.
+
 **Current status (2026-09-19):** Gate 0 was re-frozen after the cutoff and Reviewer-2 amendment.
 PROSPERO was skipped; the prospective-registration option below is retained only as historical
 decision support and must not be used.

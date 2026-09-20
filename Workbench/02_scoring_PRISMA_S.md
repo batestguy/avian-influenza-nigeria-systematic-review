@@ -1,5 +1,9 @@
 # PRISMA-S scoring — 16 items (search reproducibility)
 
+**Status (2026-09-20):** active audit template. Exact AJOL and Web of Science browser strings,
+dates, counts, and export limitations are now in files 15 and 19. Final scoring waits for record
+import, canonical reconciliation, and a complete source-level PRISMA accounting table.
+
 Source: Rethlefsen et al., Syst Rev 2021;10:39. Complements PRISMA 2020 Items 6–7.
 Score each `Yes / Partial / No` + location. Q1 bar: zero `No` on 4–9.
 

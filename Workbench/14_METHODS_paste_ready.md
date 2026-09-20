@@ -2,10 +2,11 @@
 
 This review was not prospectively registered. Do not use the obsolete PROSPERO wording below. British English. Keep numeric citations. Replace source dates, hit counts, filters, and appendix placeholders only after the final search layer and canonical register are frozen.
 
-**Current hold note (2026-09-19):** Web of Science has a raw base-query update of 175 records,
-but it is not yet canonicalised or screened; Google Scholar remains an unmerged supplement;
-AJOL has not been verified. Do not paste the information-sources paragraph until those statuses
-and the final search date are settled.
+**Current hold note (2026-09-20):** AJOL and the Web of Science browser search have now been
+executed. AJOL's 79 unique article candidates are source-linked and canonicalised, but remain
+unscreened; Web of Science Free View supplied counts without a complete record export. Google
+Scholar remains an unmerged supplement. Do not paste the information-sources paragraph until
+screening reconciliation and PRISMA accounting are settled.
 
 ## Protocol and registration (PRISMA 2020 Item 24)
 
@@ -13,7 +14,7 @@ and the final search date are settled.
 
 ## Review question and objectives (CoCoPop)
 
-> Condition: avian influenza virus infection/detection, including HPAI and LPAI with subtype, clade/lineage, reassortment, mutation and diversity evidence. Context: Nigeria, 1 January 2006–19 September 2026. Population: domestic poultry (commercial, backyard, live-bird markets), wild/migratory/wetland birds and Nigeria-linked isolates. Central question: How have avian influenza viruses emerged, evolved genetically, and redistributed spatially and temporally in Nigeria from 2006 to 2026? Objectives: (1) temporal/first-detection; (2) geographic by state/zone/epoch; (3) host range/system shifts; (4) clade replacement, diversification, reassortment/mutation with evidence grading.
+> Condition: avian influenza virus infection/detection, including HPAI and LPAI with subtype, clade/lineage, reassortment, mutation and diversity evidence. Context: Nigeria, 1 January 2006–20 September 2026. Population: domestic poultry (commercial, backyard, live-bird markets), wild/migratory/wetland birds and Nigeria-linked isolates. Central question: How have avian influenza viruses emerged, evolved genetically, and redistributed spatially and temporally in Nigeria from 2006 to 2026? Objectives: (1) temporal/first-detection; (2) geographic by state/zone/epoch; (3) host range/system shifts; (4) clade replacement, diversification, reassortment/mutation with evidence grading.
 
 ## Eligibility (condensed — full table in appendix)
 

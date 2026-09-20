@@ -1,5 +1,8 @@
 # PROSPERO submission — ARCHIVED / DO NOT SUBMIT
 
+**Archive check (2026-09-20):** unchanged. Searches have progressed, so this document must not be
+reactivated or used to imply prospective registration.
+
 **Decision recorded 2026-09-16:** PROSPERO was skipped. This file is retained only as historical
 planning material and is not a current registration record. Use the non-registration wording in
 `14_METHODS_paste_ready.md`.

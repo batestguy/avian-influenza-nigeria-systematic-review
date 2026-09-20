@@ -1,5 +1,8 @@
 # Pre-PROSPERO checklist — inputs I need from you
 
+**Archived status (2026-09-20):** no longer an active input request. PROSPERO was skipped on
+16 September; retain this checklist only as an audit trail of the earlier planning stage.
+
 PROSPERO cannot be submitted without these. Reply with the bracketed values or "TBD".
 
 1. Anticipated screening start date: [DD Mon YYYY] — must be AFTER submit date.

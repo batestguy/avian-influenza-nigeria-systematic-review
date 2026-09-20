@@ -1,5 +1,8 @@
 # T6 excluded + T7 RoB shells
 
+**Status (2026-09-20):** no full-text exclusions or RoB assessments are final. Populate only
+after the reconciled full-text queue is frozen; use one full-text exclusion reason per report.
+
 ## T6 Excluded at full-text (one reason only)
 
 | Study | Year | Reason (fixed list) | Linked primary (if duplicate) |

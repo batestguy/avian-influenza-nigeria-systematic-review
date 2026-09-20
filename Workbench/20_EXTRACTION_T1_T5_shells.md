@@ -1,5 +1,8 @@
 # Extraction shells T1–T5 (copy into manuscript appendix at write stage)
 
+**Status (2026-09-20):** extraction has not started. Keep these shells empty until Gate C
+screening reconciliation and Gate D full-text eligibility are complete.
+
 Rule: no blanks. Use `Not reported / Unclear / N-A`. One row per study-event as specified.
 
 ## T1 First-detection chronology (order by year)

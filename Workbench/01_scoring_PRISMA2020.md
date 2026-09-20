@@ -1,5 +1,9 @@
 # PRISMA 2020 scoring — 27 items + 12-item abstract
 
+**Status (2026-09-20):** audit template unchanged and not yet applied to a final report. Search
+execution is documented, but Gate C screening reconciliation and all downstream stages remain
+open; score the manuscript only after the reporting layer is updated.
+
 Source: Page et al., BMJ 2021;n71 + explanation & elaboration n160; prisma-statement.org.
 Use: audit the final `.docx`. Score each `Yes / Partial / No` + location.
 

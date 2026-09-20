@@ -17,24 +17,33 @@
 
 ## Current position
 
-**Active phase:** Phase 0/1 re-entry and candidate reconciliation. Re-audited 19 September 2026.  
+**Active phase:** Phase 2 screening reconciliation. Re-audited 20 September 2026.
 **Completed:** protocol/search drafts, PubMed v3, OpenAlex/Crossref supplement, Scopus and ScienceDirect imports, preliminary title/abstract screening, and the Web of Science Starter API base retrieval (175 raw records, 19 September 2026).  
 **Not completed:** final candidate-register reconciliation, full-text eligibility, extraction, risk of bias, certainty, synthesis and manuscript update.  
-**Operational search layers:** locked library snapshot 16 September 2026 plus a raw Web of Science update layer dated 19 September 2026. The operational cutoff is 19 September 2026; the former 30 September endpoint is superseded.
-Source-date caveat: PubMed, OpenAlex/Crossref, Scopus and ScienceDirect were last run on 16 September; only the Web of Science layer was updated on 19 September. The final report must use source-specific dates rather than implying a same-day rerun of every database.
+**Operational search layers:** locked library snapshot 16 September 2026; imported Web of Science
+API layer dated 19 September; and AJOL plus WoS browser search updates dated 20 September. The
+operational search-update date is 20 September 2026; the former 30 September endpoint is
+superseded. Source-specific dates must be reported rather than implying a same-day rerun.
 
 Evidence currently available:
 
 - PubMed: 140 v3 records; 142 screened including two v1-only checks; 73 main candidates, 4 context candidates, 64 exclusions and 1 check.
 - OpenAlex/Crossref supplement: 1,744 canonical records; 1,627 novel against PubMed; preliminary votes require remapping after canonicalisation.
 - Manual imports: 204 Scopus and 25 ScienceDirect records; 76 marked novel before final reconciliation.
-- Web of Science API: 175 raw records across four pages; not yet merged, screened, or included in PRISMA counts.
+- Web of Science API: 175 raw records across four pages, canonicalised in file 53 but not finally
+  screened or included in PRISMA flow counts.
+- Web of Science browser update: 206 base / 77 molecular / 154 epidemiology / 70 wild-bird;
+  count-only because Free View did not provide a reliable full export.
+- AJOL browser update: 144 query rows, 79 unique article URLs, 73 dated 2006–2026; imported and
+  canonicalised (47 existing matches, 32 new identities) but not substantively screened.
 - WoS provisional-new queue: 24 records in `52_WOS_PROVISIONAL_NEW.json`; Reviewer 2 completed a provisional title/metadata pass: 2 `include_main`, 6 `background_only`, 14 `exclude`, and 2 `unclear`.
 - PubMed metadata repair: 14 v3 IDs recovered from NCBI ESummary and retained in `51_PUBMED_v3_metadata_repair.json`; the original raw export was preserved unchanged.
 - Upper-bound full-text queue: 160 candidates; this is not the final included-study count.
 - Full-text assessment, extraction and RoB: zero completed.
 
-Current identity-QA checkpoint: 2,288 raw rows produce 1,845 provisional identity groups under symmetric DOI/PMID/title-year matching; 151 WoS rows match a pre-existing source and 24 remain provisional-new. The WoS queue remains subject to canonical reconciliation, correction-parent linkage, and full-text eligibility review.
+Current identity-QA checkpoint: 2,367 source rows produce 1,877 provisional identity groups and
+490 collapsed duplicates. AJOL contributes 79 rows across 79 identities; the WoS browser update
+remains count-only. Screening reconciliation and full-text eligibility remain open.
 
 ## Roles and decision record
 
@@ -71,7 +80,7 @@ decision is promoted into T1–T7 without source evidence.
 ### Tasks
 
 - Confirm the frozen question, four objectives, CoCoPop/PEO framework and strict avian laboratory-confirmation eligibility rule.
-- Record the 2026-09-19 amendment fixing the operational review cutoff at 19 September 2026; retain the 16 September library as a historical search layer.
+- Record the 2026-09-20 amendment fixing the operational search-update date at 20 September 2026; retain the 16 and 19 September layers as historical imported layers.
 - Confirm that PROSPERO was skipped and retain the non-registration wording.
 - Maintain the named roles: R1 primary reviewer, Epicurus as independent Reviewer 2, and the main Codex agent as arbiter.
 - Confirm the current default: SWiM without meta-analysis; no post hoc pooling unless Phase 7 passes.
@@ -97,9 +106,9 @@ decision is promoted into T1–T7 without source evidence.
 ### Tasks
 
 - Freeze the 16 September operational snapshot and preserve all existing exports.
-- Reconcile the Gate 1 source table: PubMed, Scopus, ScienceDirect, OpenAlex and Crossref completed; WoS base API retrieval completed 19 September 2026; Google Scholar remains a dated unmerged supplement; AJOL remains not run.
+- Reconcile the Gate 1 source table: PubMed, Scopus, ScienceDirect, OpenAlex and Crossref completed; WoS API retrieval completed 19 September; Google Scholar remains a dated unmerged supplement; AJOL and WoS browser searches completed 20 September with the export limitations in files 15 and 19.
 - Record the WoS API collection (`db=WOS`), exact string, date, pagination, 175 hits, four raw JSON exports, and absence of a recorded English filter. Do not count it in PRISMA until canonicalised.
-- Treat public AJOL discovery and `site:ajol.info` results as fallback discovery only, not AJOL hit counts.
+- Treat the nine AJOL on-site query counts as the executed search record. Do not substitute earlier `site:ajol.info` discovery estimates.
 - Do not use a scraper, proxy rotation, CAPTCHA solver or unauthorised full-text route.
 - Inventory every raw and derived file, recording source, date, query version, cap and known limitations.
 
@@ -115,7 +124,10 @@ decision is promoted into T1–T7 without source evidence.
 - Exact strings, dates, filters, caps and exports are traceable.
 - The search snapshot is not described as covering dates or databases that were not actually searched.
 
-**Current decision (2026-09-19): Gate B remains conditionally closed for source audit, with an additional WoS rate-limit limitation.** Completed sources, the supplementary Scholar run, blocked/not-run AJOL status, and the HTTP 429 response for the corrected WoS facets are explicitly separated in `15_RUN_LOG.md` and `19_SEARCH_run_sheets.md`. This does not convert exploratory or rate-limited requests into primary hit counts or claim complete database coverage.
+**Current decision (2026-09-20): Gate B search execution is complete with export limitations.**
+AJOL has a verified on-site run and WoS has verified browser counts, but AJOL lacks a durable
+project export and WoS Free View lacks a complete record-level export. This does not convert
+count-only results into PRISMA identification records or screened studies.
 
 ## Phase 2 — Canonicalisation and screening reconciliation
 
@@ -300,7 +312,10 @@ Consider pooling only when all conditions below are met for a specific outcome a
 - Update Results: PRISMA flow, included studies, T6 exclusions, study characteristics, T1–T5/T7 tables and synthesis results.
 - Update Discussion: main findings, surveillance/assay limitations, molecular uncertainty, source limitations and implications.
 - State that the review was not prospectively registered.
-- State the actual source layers: WoS base API retrieval on 2026-09-19 is canonicalised in `53_CANONICAL_REGISTER.json` but remains title/metadata-stage only; Google Scholar is an unmerged supplementary run; AJOL is blocked/not run. Do not describe any of these as a complete eligible-study search until final screening and PRISMA accounting are documented.
+- State the actual source layers: WoS API retrieval on 2026-09-19 is canonicalised in file 53;
+  Google Scholar is an unmerged supplementary run; AJOL and WoS browser updates on 2026-09-20
+  are documented but not fully imported. Do not describe retrieval candidates as eligible studies
+  until screening and PRISMA accounting are complete.
 - Write the Abstract last and preserve the required yellow `Abstract` heading, Times New Roman, British English and numeric bracket citations.
 
 ### Deliverables
@@ -335,8 +350,12 @@ The review is submission-ready only when every mandatory audit item is `Yes` or 
 ## Immediate next actions
 
 1. Use this plan as the master route; stop relying on stale phase status in older files.
-2. Complete Phase 0 amendment/role decisions.
-3. Reconcile and deduplicate the 160-candidate queue.
-4. Correct PMID `27677611` and recheck context-only categories.
-5. Begin full-text retrieval and T6 eligibility decisions.
-6. Do not edit the manuscript or run a meta-analysis yet.
+2. Use `56_SCREENING_RECONCILIATION.json` as the sole controlled screening queue: 1,877 identities,
+   six date flags held separately, and a 40-record stratified dual-review pilot.
+3. Independently verify the AJOL source-to-canonical links and deterministic date flags; the source
+   and identity QA are complete, but record-level screening remains provisional.
+4. Remap and verify all preliminary screening decisions against the canonical identities; do not
+   inherit precollapse aggregate votes silently.
+5. Complete the R1/R2 pilot and adjudication before expanding title/abstract screening.
+6. Only then begin full-text retrieval and T6 eligibility decisions.
+7. Do not edit the manuscript or run a meta-analysis yet.

@@ -1,5 +1,9 @@
 # Screening forms — use for pilot + full run
 
+**Operational status (2026-09-20):** form remains active. Earlier PubMed/supplement decisions are
+provisional. AJOL is now canonicalised; apply the form to the updated register after independent
+QA of the import and disposition remapping. Extraction must wait for reconciled screening and full text.
+
 ## Title/abstract (answer Include / Exclude / Unsure per record)
 
 1. Nigeria-linked? (conducted in Nigeria OR Nigeria-specific data extractable) — No → Exclude (non-Nigeria).

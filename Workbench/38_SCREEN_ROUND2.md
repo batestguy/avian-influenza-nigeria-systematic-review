@@ -1,5 +1,8 @@
 # Screening Round 2 — MOL batches 4–6 (15 records, 2026-09-16)
 
+**Status (2026-09-20):** retained as preliminary historical screening. Votes are provisional
+until remapped to the updated canonical register and checked under the frozen all-criteria rule.
+
 ## Votes (adjudicated)
 
 Includes (2): 29104094 (2-yr clade 2.3.2.1c monitoring, novel cluster — core molecular); 29651056 (pig H5N1 exposure Nigeria — agent Include; ADJUDICATED: non-avian host, fails criterion b → supplementary One Health context only, NOT main extraction).

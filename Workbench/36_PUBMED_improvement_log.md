@@ -1,5 +1,8 @@
 # PubMed improvement — v1 → v3 (2026-09-16)
 
+**Source-status note (2026-09-20):** this historical PubMed optimisation log is unchanged. The
+v3 base remains 140 and molecular facet 53; later AJOL/WoS updates do not alter these counts.
+
 ## Problem with v1 (base 188)
 
 Query `(avian influenza OR AIV OR HPAI OR H5N1) AND Nigeria` used All-Fields mapping: pulled Newcastle disease, SARS-CoV-2, Ebola, Zika, H1N1-swine, Ochrobactrum — ~1/3 off-topic at title level.

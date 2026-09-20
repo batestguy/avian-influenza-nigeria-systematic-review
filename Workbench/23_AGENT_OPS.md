@@ -1,5 +1,10 @@
 # Agent operating procedure — systematic review tasks
 
+**Current gate (2026-09-20):** AJOL import/canonical matching is complete and Gate C screening
+reconciliation is initialized in `56_SCREENING_RECONCILIATION.json`. Agents may perform title/abstract
+verification only through that register. They must not start extraction or RoB, and all prior screening
+votes remain provisional until independently verified and adjudicated.
+
 ## Which agent for what (this repo has no code)
 
 - `general` — screening votes, extraction, RoB pre-reads, synthesis drafting. Only type used for review tasks.

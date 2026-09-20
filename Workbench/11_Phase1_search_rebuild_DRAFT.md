@@ -1,5 +1,12 @@
 # Phase 1 — Search rebuild skeleton (DRAFT, per-database strings to finalise)
 
+**Execution amendment (2026-09-20):** the architecture below remains the design record. The
+actual AJOL and Web of Science strings run on 20 September are frozen verbatim in files 15 and
+19. AJOL required nine short mandatory-term queries rather than one Boolean mega-query. Web of
+Science used the full AIV block plus Nigeria block, with three separate facet lines and a
+publication-date window of 2006-01-01 to 2026-09-20. Do not retrofit these executed strings into
+the 16 September historical layer.
+
 ## Architecture (replaces current `And Nigeria`-in-every-block)
 
 `(AIV block) AND (Nigeria block) AND (date 2006–2026 block)`, then facet lines for molecular / epi-spatial-temporal / wild-bird run as SEPARATE restricted queries, not fused into one unreproducible string.

@@ -1,5 +1,8 @@
 # Supplement pull log — OpenAlex + Crossref (API, no browser) — 2026-09-16
 
+**Source-status note (2026-09-20):** this log remains the historical OpenAlex/Crossref supplement
+record. Its 16 September counts are unchanged and must remain separate from AJOL and WoS updates.
+
 Browser-free run: all target sites return 403/429/captcha to Playwright; used public APIs instead.
 
 ## PRISMA-S entries

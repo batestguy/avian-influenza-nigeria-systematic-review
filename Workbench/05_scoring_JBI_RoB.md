@@ -1,5 +1,8 @@
 # JBI RoB scoring rules — no numeric sums
 
+**Status (2026-09-20):** appraisal rules unchanged and not yet applied. Begin only after final
+full-text eligibility and the extraction pilot; do not score current retrieval candidates.
+
 Sources: JBI Manual for Evidence Synthesis; Munn et al. prevalence guidance; Barker et al. revised cross-sectional tool; JBI cohort tool.
 Two independent appraisers. Quote verbatim per item.
 

@@ -1,5 +1,9 @@
 # AvianInfluenzaSysRev
 
+Operational documentation was reconciled on 20 September 2026. Current search status and next
+actions are in `Workbench/15_RUN_LOG.md`, `Workbench/19_SEARCH_run_sheets.md`, and
+`Workbench/54_NEXT_SESSION_HANDOFF_20260919.md`; this file remains the governing instruction set.
+
 Single-manuscript systematic-review repo. Only source of truth:
 `Avian_review_paper_fellow.docx` (~2,783 words). No code, build, test, lint, CI, package manager. Do not scaffold any.
 

@@ -1,5 +1,8 @@
 # Decision: PROSPERO skipped (dated 2026-09-16)
 
+**Reconfirmed (2026-09-20):** decision unchanged. Report the review as not prospectively
+registered and rely on the dated protocol/search amendments; do not backdate registration.
+
 User decision: skip PROSPERO registration. Goal confirmed: proper systematic review WITHOUT meta-analysis (SWiM narrative synthesis).
 
 ## Consequences (plain)

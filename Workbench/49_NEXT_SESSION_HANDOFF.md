@@ -1,7 +1,7 @@
 # Next-session handoff — Nigeria AIV systematic review
 
-**Prepared:** 19 September 2026  
-**Purpose:** resume screening, full-text retrieval, extraction, and risk-of-bias work without reopening settled methodological decisions.
+**Prepared:** 19 September 2026; **updated:** 20 September 2026
+**Purpose:** resume import, canonical reconciliation, and screening without reopening settled methodological decisions.
 
 **Master workplan:** `50_END_TO_END_WORKPLAN.md`. Use it for phase order, gates, deliverables and the conditional post-extraction pooling decision.
 
@@ -20,21 +20,26 @@
 Use `15_RUN_LOG.md` as the operational status reference. The status below distinguishes the locked
 2026-09-16 library from the raw Web of Science update retrieved on 2026-09-19.
 
-- **Cutoff:** the operational review cutoff is now fixed at 19 September 2026. The 16 September library is the historical layer; the WoS update is the 19 September layer. The former 30 September endpoint is superseded and must not appear as the completed cutoff.
+- **Cutoff:** the operational search-update date is now fixed at 20 September 2026. The 16 September library and 19 September WoS API retrieval remain historical imported layers. The former 30 September endpoint is superseded and must not appear as the completed cutoff.
 - **PubMed:** v3 base search returned 140 records; 142 were screened after two v1-only checks; 73 main candidates, 4 supplementary/context candidates, 64 exclusions, and 1 full-text check.
 - **OpenAlex/Crossref supplement:** 2,000 raw records became 1,876 merged records and 1,744 canonical records; 1,627 were novel against PubMed. The current aggregate reports 77 main candidates, 15 context candidates, 53 unclear, and 1,464 exclusions, but votes have not been remapped cleanly from the pre-collapse set.
 - **Manual imports:** 204 Scopus plus 25 ScienceDirect records; 76 marked novel, with 10 main, 2 context, 13 unclear, and 51 excluded.
 - **Upper-bound full-text queue:** 160 candidates (PubMed 73 + supplement 77 + manual 10). This is not a final included-study count.
 - **Full-text assessment:** 0 completed.
 - **Extraction/RoB:** no T1–T7 rows completed.
-- **WoS:** base API query completed 19 September 2026 with 175 raw records; not yet merged or screened, and facet queries were not run.
+- **WoS:** the 175-record API layer from 19 September is canonicalised in file 53. On 20 September, a broader Core Collection browser search returned 206 base / 77 molecular / 154 epidemiology / 70 wild-bird results. Free View prevented a reliable complete record export, so these newer values are count-only and are not in file 53.
 - **Google Scholar:** 140 retrieved/99 canonical groups in the dated supplement; not merged into the candidate register and no persistent export is present.
-- **AJOL:** no verified run or export.
+- **AJOL:** on-site run completed and corrected on 20 September: nine queries, 144 query rows,
+  79 unique article URLs, 73 within 2006–2026, and six outside-window. File 55 preserves source
+  lineage; file 53 contains all 79 links (47 existing identities plus 32 new). None is substantively screened.
 
 ## 3. Mandatory reconciliation before further screening
 
-1. Use the completed `53_CANONICAL_REGISTER.json` as the identity base for the 2,288-row input set. Do not rely on raw pre-collapse votes. The 14 missing PubMed metadata records are repaired in `51_PUBMED_v3_metadata_repair.json`.
-2. Add the 175 WoS records to the identity reconciliation, preserving source lineage and the raw API exports.
+1. Use `53_CANONICAL_REGISTER.json` as the identity base for 2,367 imported source rows and 1,877
+   identities. It remains incomplete only for the count-only WoS browser layer. Do not rely on raw
+   pre-collapse votes. The 14 missing PubMed metadata records are repaired in
+   `51_PUBMED_v3_metadata_repair.json`.
+2. Independently verify the AJOL import in files 53 and 55, then remap and adjudicate screening decisions.
 3. Independently screen and adjudicate the 24 corrected provisional WoS-new records in `52_WOS_PROVISIONAL_NEW.json`. Reviewer 2's record-linked title/metadata result is 2 `include_main`, 6 `background_only`, 14 `exclude`, and 2 `unclear`; do not promote these to final decisions.
 4. Re-screen every candidate using the frozen all-criteria rule:
    - Nigeria-specific data;
@@ -46,7 +51,9 @@ Use `15_RUN_LOG.md` as the operational status reference. The status below distin
 7. Deduplicate the manual import queue. `47_MANUAL_IMPORT_candidates.json` contains repeated titles/DOIs, including a duplicated title with no DOI.
 8. Maintain the operational role record: R1 primary reviewer, Epicurus as independent Reviewer 2, and the main Codex agent as arbiter.
 
-Current identity-QA checkpoint: `53_CANONICAL_REGISTER.json` contains 1,845 canonical identities from 2,288 raw rows under symmetric DOI/PMID/title-year matching; 151 WoS rows match a pre-existing source and 24 remain provisional-new. Twelve of those 24 lack DOI and PMID, and correction record `WOS:000255508300044` is linked to parent PMID `18394282`.
+Current identity-QA checkpoint: file 53 contains 1,877 canonical identities from 2,367 source rows
+and 490 collapsed duplicates. AJOL added 79 source rows: 47 existing matches and 32 new identities.
+The historical WoS layer still has 151 pre-existing matches and 24 provisional-new records.
 
 ## 4. CLI retrieval plan
 
@@ -98,7 +105,7 @@ Apply the relevant JBI Prevalence, Cross-Sectional, or Cohort tool plus molecula
 ## 7. Gates and acceptance criteria
 
 - **Gate A — protocol truth:** current cutoff, non-registration, actual searched sources, and dated amendments are internally consistent.
-- **Gate B — source audit:** conditionally closed with explicit Scholar/AJOL/WoS limitations; no complete database-coverage claim is permitted.
+- **Gate B — search execution/source audit:** complete with explicit Scholar/AJOL/WoS export limitations; no complete exported-record coverage claim is permitted.
 - **Gate C — canonicalisation and screening reconciliation:** identity register complete in `53_CANONICAL_REGISTER.json`; record-level screening adjudication and replacement of the 160-record upper-bound queue remain open.
 - **Gate D — full text:** every candidate must have an eligibility outcome, one full-text exclusion reason where applicable, and duplicate-dataset links.
 - **Gate D — pilot extraction:** five diverse studies are independently extracted and reconciled before full extraction.
@@ -111,7 +118,7 @@ Apply the relevant JBI Prevalence, Cross-Sectional, or Cohort tool plus molecula
 Before handoff or manuscript editing, check that:
 
 - no phrase claims prospective PROSPERO registration;
-- no phrase claims a complete eligible-study search for WoS, Google Scholar, or AJOL before their current documented status and PRISMA accounting are resolved;
+- no phrase converts WoS count-only results, Scholar supplementary results, or AJOL retrieval candidates into screened/included studies before screening and PRISMA reconciliation;
 - no “31 September 2026” date remains;
 - no malformed `And Nigeria` search block remains;
 - title/abstract, full-text, and included-study counts sum at every PRISMA transition;

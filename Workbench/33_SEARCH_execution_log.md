@@ -28,6 +28,13 @@ Remaining: 57 Nigeria-in-title + 74 AIV-title without Nigeria-in-title + 42 off-
 - R5 remainder 82 v3: main 43 (EPI/spatial/KAP/LBM/wild-bird/costs — e.g. 32193749, 29631310, 29152316, 29067212, 30255048, 27603430, 27317323, 28337492, 25923926, 26949793, 25328630, 24880626, 27379256, 24001574, 23936731, 23308319, 23074668, 23038077, 22925404, 22869337, 22530694, 22476732, 22469078, 22079423, 21553559, 21205255, 21146235, 20846589, 20521661, 19653927, 19331751, 19305431, 19021104, 18926110, 18575062, 18343470, 19738338, 22761900, 17542958, 16863071, 41438164, 33040313, 29920398) + supp 2 (23400898, 18008254 workers); excludes 37 (7× 2006 news + reviews/human-only/non-Nigeria/no AIV data — full list in chat 2026-09-16).
 - Cumulative PubMed: screened 142 (140 v3 + 2 v1-only), main 73, supp 4, excludes 64, full-text check 1.
 
-## Next phase — Scopus / WoS / ScienceDirect / Scholar / AJOL (manual, then dedupe)
+## Cross-database status update — 2026-09-20
+
+The PubMed counts above remain source-specific and unchanged. Scopus and ScienceDirect were
+imported on 16 September; Scholar was searched as a supplement on 17 September; WoS has a
+175-record imported API layer plus 20 September count-only browser totals of 206/77/154/70; AJOL
+was searched on 20 September and yielded 79 unique article URLs from 144 query rows. Next:
+independently verify the completed AJOL import, secure a legitimate WoS export if available,
+and complete screening reconciliation before full-text work.
 
 - Run file 19 strings verbatim in library portals; record date, filters, hits, export filename in file 19 + Gate 1 table file 15. Dedupe vs PubMed 140 (auto + manual) before full-text. Do NOT edit PubMed strings mid-run; amendments = new version + date.
