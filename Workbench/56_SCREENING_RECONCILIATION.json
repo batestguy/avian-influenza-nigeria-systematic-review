@@ -10228,7 +10228,7 @@
         "PMID:20236573"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "not_final_full_text_not_done",
+      "final_status": "title_metadata_excluded",
       "vote_disposition": [
         {
           "source": "OpenAlex/Crossref",
@@ -10236,11 +10236,26 @@
           "reason": "aggregate/raw vote not safely remappable to this canonical identity"
         }
       ],
-      "screening_state": "not_started",
-      "reviewer_1": null,
-      "reviewer_2": null,
-      "adjudication": null,
-      "full_text_status": "not_started"
+      "screening_state": "adjudicated_title_metadata",
+      "reviewer_1": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "R1",
+        "batch": "B20",
+        "reason": "Clear non-Nigeria, non-AIV, non-primary, or otherwise out-of-scope title/metadata."
+      },
+      "reviewer_2": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "R2",
+        "batch": "B20",
+        "reason": "Clear non-Nigeria, non-AIV, non-primary, or otherwise out-of-scope title/metadata."
+      },
+      "adjudication": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "main-agent",
+        "batch": "B20",
+        "reason": "Title/metadata exclusion under frozen criteria."
+      },
+      "full_text_status": "not_applicable_title_metadata_excluded"
     },
     {
       "canonical_id": "CAN-0342",
@@ -10255,7 +10270,7 @@
         "PMID:21281550"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "not_final_full_text_not_done",
+      "final_status": "title_metadata_excluded",
       "vote_disposition": [
         {
           "source": "OpenAlex/Crossref",
@@ -10263,11 +10278,26 @@
           "reason": "aggregate/raw vote not safely remappable to this canonical identity"
         }
       ],
-      "screening_state": "not_started",
-      "reviewer_1": null,
-      "reviewer_2": null,
-      "adjudication": null,
-      "full_text_status": "not_started"
+      "screening_state": "adjudicated_title_metadata",
+      "reviewer_1": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "R1",
+        "batch": "B20",
+        "reason": "Clear non-Nigeria, non-AIV, non-primary, or otherwise out-of-scope title/metadata."
+      },
+      "reviewer_2": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "R2",
+        "batch": "B20",
+        "reason": "Clear non-Nigeria, non-AIV, non-primary, or otherwise out-of-scope title/metadata."
+      },
+      "adjudication": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "main-agent",
+        "batch": "B20",
+        "reason": "Title/metadata exclusion under frozen criteria."
+      },
+      "full_text_status": "not_applicable_title_metadata_excluded"
     },
     {
       "canonical_id": "CAN-0343",
@@ -10282,7 +10312,7 @@
         "PMID:23398949"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "not_final_full_text_not_done",
+      "final_status": "title_metadata_excluded",
       "vote_disposition": [
         {
           "source": "OpenAlex/Crossref",
@@ -10290,11 +10320,26 @@
           "reason": "aggregate/raw vote not safely remappable to this canonical identity"
         }
       ],
-      "screening_state": "not_started",
-      "reviewer_1": null,
-      "reviewer_2": null,
-      "adjudication": null,
-      "full_text_status": "not_started"
+      "screening_state": "adjudicated_title_metadata",
+      "reviewer_1": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "R1",
+        "batch": "B20",
+        "reason": "Clear non-Nigeria, non-AIV, non-primary, or otherwise out-of-scope title/metadata."
+      },
+      "reviewer_2": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "R2",
+        "batch": "B20",
+        "reason": "Clear non-Nigeria, non-AIV, non-primary, or otherwise out-of-scope title/metadata."
+      },
+      "adjudication": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "main-agent",
+        "batch": "B20",
+        "reason": "Title/metadata exclusion under frozen criteria."
+      },
+      "full_text_status": "not_applicable_title_metadata_excluded"
     },
     {
       "canonical_id": "CAN-0344",
@@ -10315,7 +10360,7 @@
         "WOS:000333560900005"
       ],
       "preliminary_disposition": "main_candidate_needs_adjudication",
-      "final_status": "not_final_full_text_not_done",
+      "final_status": "provisional_full_text_candidate",
       "vote_disposition": [
         {
           "source": "PubMed",
@@ -10333,11 +10378,26 @@
           "reason": "aggregate/raw vote not safely remappable to this canonical identity"
         }
       ],
-      "screening_state": "not_started",
-      "reviewer_1": null,
-      "reviewer_2": null,
-      "adjudication": null,
-      "full_text_status": "not_started"
+      "screening_state": "adjudicated_title_metadata",
+      "reviewer_1": {
+        "decision": "retain_for_full_text",
+        "reviewer": "R1",
+        "batch": "B20",
+        "reason": "Retained conservatively when Nigeria-specific AIV evidence was possible from title/metadata."
+      },
+      "reviewer_2": {
+        "decision": "retain_for_full_text",
+        "reviewer": "R2",
+        "batch": "B20",
+        "reason": "Retained conservatively when Nigeria-specific AIV evidence was possible from title/metadata."
+      },
+      "adjudication": {
+        "decision": "retain_for_full_text",
+        "reviewer": "main-agent",
+        "batch": "B20",
+        "reason": "Nigeria-specific HPAI spatial epidemiology."
+      },
+      "full_text_status": "awaiting_retrieval"
     },
     {
       "canonical_id": "CAN-0345",
@@ -10352,7 +10412,7 @@
         "PMID:25530320"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "not_final_full_text_not_done",
+      "final_status": "title_metadata_excluded",
       "vote_disposition": [
         {
           "source": "OpenAlex/Crossref",
@@ -10360,11 +10420,26 @@
           "reason": "aggregate/raw vote not safely remappable to this canonical identity"
         }
       ],
-      "screening_state": "not_started",
-      "reviewer_1": null,
-      "reviewer_2": null,
-      "adjudication": null,
-      "full_text_status": "not_started"
+      "screening_state": "adjudicated_title_metadata",
+      "reviewer_1": {
+        "decision": "retain_for_full_text",
+        "reviewer": "R1",
+        "batch": "B20",
+        "reason": "Retained conservatively when Nigeria-specific AIV evidence was possible from title/metadata."
+      },
+      "reviewer_2": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "R2",
+        "batch": "B20",
+        "reason": "Clear non-Nigeria, non-AIV, non-primary, or otherwise out-of-scope title/metadata."
+      },
+      "adjudication": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "main-agent",
+        "batch": "B20",
+        "reason": "CAN-0345 source verification found seven Central/West African surveillance countries without Nigeria; exclude."
+      },
+      "full_text_status": "not_applicable_title_metadata_excluded"
     },
     {
       "canonical_id": "CAN-0346",
@@ -10379,7 +10454,7 @@
         "PMID:26205078"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "not_final_full_text_not_done",
+      "final_status": "title_metadata_excluded",
       "vote_disposition": [
         {
           "source": "OpenAlex/Crossref",
@@ -10387,11 +10462,26 @@
           "reason": "aggregate/raw vote not safely remappable to this canonical identity"
         }
       ],
-      "screening_state": "not_started",
-      "reviewer_1": null,
-      "reviewer_2": null,
-      "adjudication": null,
-      "full_text_status": "not_started"
+      "screening_state": "adjudicated_title_metadata",
+      "reviewer_1": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "R1",
+        "batch": "B20",
+        "reason": "Clear non-Nigeria, non-AIV, non-primary, or otherwise out-of-scope title/metadata."
+      },
+      "reviewer_2": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "R2",
+        "batch": "B20",
+        "reason": "Clear non-Nigeria, non-AIV, non-primary, or otherwise out-of-scope title/metadata."
+      },
+      "adjudication": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "main-agent",
+        "batch": "B20",
+        "reason": "Title/metadata exclusion under frozen criteria."
+      },
+      "full_text_status": "not_applicable_title_metadata_excluded"
     },
     {
       "canonical_id": "CAN-0347",
@@ -10406,7 +10496,7 @@
         "PMID:29166978"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "not_final_full_text_not_done",
+      "final_status": "title_metadata_excluded",
       "vote_disposition": [
         {
           "source": "OpenAlex/Crossref",
@@ -10414,11 +10504,26 @@
           "reason": "aggregate/raw vote not safely remappable to this canonical identity"
         }
       ],
-      "screening_state": "not_started",
-      "reviewer_1": null,
-      "reviewer_2": null,
-      "adjudication": null,
-      "full_text_status": "not_started"
+      "screening_state": "adjudicated_title_metadata",
+      "reviewer_1": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "R1",
+        "batch": "B20",
+        "reason": "Clear non-Nigeria, non-AIV, non-primary, or otherwise out-of-scope title/metadata."
+      },
+      "reviewer_2": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "R2",
+        "batch": "B20",
+        "reason": "Clear non-Nigeria, non-AIV, non-primary, or otherwise out-of-scope title/metadata."
+      },
+      "adjudication": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "main-agent",
+        "batch": "B20",
+        "reason": "Title/metadata exclusion under frozen criteria."
+      },
+      "full_text_status": "not_applicable_title_metadata_excluded"
     },
     {
       "canonical_id": "CAN-0348",
@@ -10433,7 +10538,7 @@
         "PMID:32063239"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "not_final_full_text_not_done",
+      "final_status": "title_metadata_excluded",
       "vote_disposition": [
         {
           "source": "OpenAlex/Crossref",
@@ -10441,11 +10546,26 @@
           "reason": "aggregate/raw vote not safely remappable to this canonical identity"
         }
       ],
-      "screening_state": "not_started",
-      "reviewer_1": null,
-      "reviewer_2": null,
-      "adjudication": null,
-      "full_text_status": "not_started"
+      "screening_state": "adjudicated_title_metadata",
+      "reviewer_1": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "R1",
+        "batch": "B20",
+        "reason": "Clear non-Nigeria, non-AIV, non-primary, or otherwise out-of-scope title/metadata."
+      },
+      "reviewer_2": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "R2",
+        "batch": "B20",
+        "reason": "Clear non-Nigeria, non-AIV, non-primary, or otherwise out-of-scope title/metadata."
+      },
+      "adjudication": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "main-agent",
+        "batch": "B20",
+        "reason": "Title/metadata exclusion under frozen criteria."
+      },
+      "full_text_status": "not_applicable_title_metadata_excluded"
     },
     {
       "canonical_id": "CAN-0349",
@@ -10460,7 +10580,7 @@
         "PMID:39618107"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "not_final_full_text_not_done",
+      "final_status": "title_metadata_excluded",
       "vote_disposition": [
         {
           "source": "OpenAlex/Crossref",
@@ -10468,11 +10588,26 @@
           "reason": "aggregate/raw vote not safely remappable to this canonical identity"
         }
       ],
-      "screening_state": "not_started",
-      "reviewer_1": null,
-      "reviewer_2": null,
-      "adjudication": null,
-      "full_text_status": "not_started"
+      "screening_state": "adjudicated_title_metadata",
+      "reviewer_1": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "R1",
+        "batch": "B20",
+        "reason": "Clear non-Nigeria, non-AIV, non-primary, or otherwise out-of-scope title/metadata."
+      },
+      "reviewer_2": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "R2",
+        "batch": "B20",
+        "reason": "Clear non-Nigeria, non-AIV, non-primary, or otherwise out-of-scope title/metadata."
+      },
+      "adjudication": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "main-agent",
+        "batch": "B20",
+        "reason": "Title/metadata exclusion under frozen criteria."
+      },
+      "full_text_status": "not_applicable_title_metadata_excluded"
     },
     {
       "canonical_id": "CAN-0350",
@@ -10487,7 +10622,7 @@
         "DOI:101017s0954102008001259"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "not_final_full_text_not_done",
+      "final_status": "title_metadata_excluded",
       "vote_disposition": [
         {
           "source": "OpenAlex/Crossref",
@@ -10495,11 +10630,26 @@
           "reason": "aggregate/raw vote not safely remappable to this canonical identity"
         }
       ],
-      "screening_state": "not_started",
-      "reviewer_1": null,
-      "reviewer_2": null,
-      "adjudication": null,
-      "full_text_status": "not_started"
+      "screening_state": "adjudicated_title_metadata",
+      "reviewer_1": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "R1",
+        "batch": "B20",
+        "reason": "Clear non-Nigeria, non-AIV, non-primary, or otherwise out-of-scope title/metadata."
+      },
+      "reviewer_2": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "R2",
+        "batch": "B20",
+        "reason": "Clear non-Nigeria, non-AIV, non-primary, or otherwise out-of-scope title/metadata."
+      },
+      "adjudication": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "main-agent",
+        "batch": "B20",
+        "reason": "Title/metadata exclusion under frozen criteria."
+      },
+      "full_text_status": "not_applicable_title_metadata_excluded"
     },
     {
       "canonical_id": "CAN-0351",
@@ -10514,7 +10664,7 @@
         "DOI:101017s0954102023000342"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "not_final_full_text_not_done",
+      "final_status": "title_metadata_excluded",
       "vote_disposition": [
         {
           "source": "OpenAlex/Crossref",
@@ -10522,11 +10672,26 @@
           "reason": "aggregate/raw vote not safely remappable to this canonical identity"
         }
       ],
-      "screening_state": "not_started",
-      "reviewer_1": null,
-      "reviewer_2": null,
-      "adjudication": null,
-      "full_text_status": "not_started"
+      "screening_state": "adjudicated_title_metadata",
+      "reviewer_1": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "R1",
+        "batch": "B20",
+        "reason": "Clear non-Nigeria, non-AIV, non-primary, or otherwise out-of-scope title/metadata."
+      },
+      "reviewer_2": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "R2",
+        "batch": "B20",
+        "reason": "Clear non-Nigeria, non-AIV, non-primary, or otherwise out-of-scope title/metadata."
+      },
+      "adjudication": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "main-agent",
+        "batch": "B20",
+        "reason": "Title/metadata exclusion under frozen criteria."
+      },
+      "full_text_status": "not_applicable_title_metadata_excluded"
     },
     {
       "canonical_id": "CAN-0352",
@@ -10541,7 +10706,7 @@
         "DOI:101017s1446181110000891"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "not_final_full_text_not_done",
+      "final_status": "title_metadata_excluded",
       "vote_disposition": [
         {
           "source": "OpenAlex/Crossref",
@@ -10549,11 +10714,26 @@
           "reason": "aggregate/raw vote not safely remappable to this canonical identity"
         }
       ],
-      "screening_state": "not_started",
-      "reviewer_1": null,
-      "reviewer_2": null,
-      "adjudication": null,
-      "full_text_status": "not_started"
+      "screening_state": "adjudicated_title_metadata",
+      "reviewer_1": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "R1",
+        "batch": "B20",
+        "reason": "Clear non-Nigeria, non-AIV, non-primary, or otherwise out-of-scope title/metadata."
+      },
+      "reviewer_2": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "R2",
+        "batch": "B20",
+        "reason": "Clear non-Nigeria, non-AIV, non-primary, or otherwise out-of-scope title/metadata."
+      },
+      "adjudication": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "main-agent",
+        "batch": "B20",
+        "reason": "Title/metadata exclusion under frozen criteria."
+      },
+      "full_text_status": "not_applicable_title_metadata_excluded"
     },
     {
       "canonical_id": "CAN-0353",
@@ -10568,7 +10748,7 @@
         "DOI:101017s1466252310000058"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "not_final_full_text_not_done",
+      "final_status": "title_metadata_excluded",
       "vote_disposition": [
         {
           "source": "OpenAlex/Crossref",
@@ -10576,11 +10756,26 @@
           "reason": "aggregate/raw vote not safely remappable to this canonical identity"
         }
       ],
-      "screening_state": "not_started",
-      "reviewer_1": null,
-      "reviewer_2": null,
-      "adjudication": null,
-      "full_text_status": "not_started"
+      "screening_state": "adjudicated_title_metadata",
+      "reviewer_1": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "R1",
+        "batch": "B20",
+        "reason": "Clear non-Nigeria, non-AIV, non-primary, or otherwise out-of-scope title/metadata."
+      },
+      "reviewer_2": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "R2",
+        "batch": "B20",
+        "reason": "Clear non-Nigeria, non-AIV, non-primary, or otherwise out-of-scope title/metadata."
+      },
+      "adjudication": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "main-agent",
+        "batch": "B20",
+        "reason": "Title/metadata exclusion under frozen criteria."
+      },
+      "full_text_status": "not_applicable_title_metadata_excluded"
     },
     {
       "canonical_id": "CAN-0354",
@@ -10595,7 +10790,7 @@
         "PMID:28776490"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "not_final_full_text_not_done",
+      "final_status": "title_metadata_excluded",
       "vote_disposition": [
         {
           "source": "OpenAlex/Crossref",
@@ -10603,11 +10798,26 @@
           "reason": "aggregate/raw vote not safely remappable to this canonical identity"
         }
       ],
-      "screening_state": "not_started",
-      "reviewer_1": null,
-      "reviewer_2": null,
-      "adjudication": null,
-      "full_text_status": "not_started"
+      "screening_state": "adjudicated_title_metadata",
+      "reviewer_1": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "R1",
+        "batch": "B20",
+        "reason": "Clear non-Nigeria, non-AIV, non-primary, or otherwise out-of-scope title/metadata."
+      },
+      "reviewer_2": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "R2",
+        "batch": "B20",
+        "reason": "Clear non-Nigeria, non-AIV, non-primary, or otherwise out-of-scope title/metadata."
+      },
+      "adjudication": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "main-agent",
+        "batch": "B20",
+        "reason": "Title/metadata exclusion under frozen criteria."
+      },
+      "full_text_status": "not_applicable_title_metadata_excluded"
     },
     {
       "canonical_id": "CAN-0355",
@@ -10628,7 +10838,7 @@
         "WOS:000243143300055"
       ],
       "preliminary_disposition": "exclude_provisional",
-      "final_status": "not_final_full_text_not_done",
+      "final_status": "title_metadata_excluded",
       "vote_disposition": [
         {
           "source": "PubMed",
@@ -10646,11 +10856,26 @@
           "reason": "aggregate/raw vote not safely remappable to this canonical identity"
         }
       ],
-      "screening_state": "not_started",
-      "reviewer_1": null,
-      "reviewer_2": null,
-      "adjudication": null,
-      "full_text_status": "not_started"
+      "screening_state": "adjudicated_title_metadata",
+      "reviewer_1": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "R1",
+        "batch": "B20",
+        "reason": "Clear non-Nigeria, non-AIV, non-primary, or otherwise out-of-scope title/metadata."
+      },
+      "reviewer_2": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "R2",
+        "batch": "B20",
+        "reason": "Clear non-Nigeria, non-AIV, non-primary, or otherwise out-of-scope title/metadata."
+      },
+      "adjudication": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "main-agent",
+        "batch": "B20",
+        "reason": "Title/metadata exclusion under frozen criteria."
+      },
+      "full_text_status": "not_applicable_title_metadata_excluded"
     },
     {
       "canonical_id": "CAN-0356",
@@ -10665,7 +10890,7 @@
         "PMID:40134747"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "not_final_full_text_not_done",
+      "final_status": "provisional_full_text_candidate",
       "vote_disposition": [
         {
           "source": "OpenAlex/Crossref",
@@ -10673,11 +10898,26 @@
           "reason": "aggregate/raw vote not safely remappable to this canonical identity"
         }
       ],
-      "screening_state": "not_started",
-      "reviewer_1": null,
-      "reviewer_2": null,
-      "adjudication": null,
-      "full_text_status": "not_started"
+      "screening_state": "adjudicated_title_metadata",
+      "reviewer_1": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "R1",
+        "batch": "B20",
+        "reason": "Clear non-Nigeria, non-AIV, non-primary, or otherwise out-of-scope title/metadata."
+      },
+      "reviewer_2": {
+        "decision": "retain_for_full_text",
+        "reviewer": "R2",
+        "batch": "B20",
+        "reason": "Retained conservatively when Nigeria-specific AIV evidence was possible from title/metadata."
+      },
+      "adjudication": {
+        "decision": "retain_for_full_text",
+        "reviewer": "main-agent",
+        "batch": "B20",
+        "reason": "Nigeria-specific occurrence is reported in a primary global geospatial analysis; retain for full-text verification."
+      },
+      "full_text_status": "awaiting_retrieval"
     },
     {
       "canonical_id": "CAN-0357",
@@ -10694,7 +10934,7 @@
         "PMID:16598222"
       ],
       "preliminary_disposition": "exclude_provisional",
-      "final_status": "not_final_full_text_not_done",
+      "final_status": "title_metadata_excluded",
       "vote_disposition": [
         {
           "source": "PubMed",
@@ -10707,11 +10947,26 @@
           "reason": "aggregate/raw vote not safely remappable to this canonical identity"
         }
       ],
-      "screening_state": "not_started",
-      "reviewer_1": null,
-      "reviewer_2": null,
-      "adjudication": null,
-      "full_text_status": "not_started"
+      "screening_state": "adjudicated_title_metadata",
+      "reviewer_1": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "R1",
+        "batch": "B20",
+        "reason": "Clear non-Nigeria, non-AIV, non-primary, or otherwise out-of-scope title/metadata."
+      },
+      "reviewer_2": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "R2",
+        "batch": "B20",
+        "reason": "Clear non-Nigeria, non-AIV, non-primary, or otherwise out-of-scope title/metadata."
+      },
+      "adjudication": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "main-agent",
+        "batch": "B20",
+        "reason": "Title/metadata exclusion under frozen criteria."
+      },
+      "full_text_status": "not_applicable_title_metadata_excluded"
     },
     {
       "canonical_id": "CAN-0358",
@@ -10726,7 +10981,7 @@
         "PMID:16688138"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "not_final_full_text_not_done",
+      "final_status": "title_metadata_excluded",
       "vote_disposition": [
         {
           "source": "OpenAlex/Crossref",
@@ -10734,11 +10989,26 @@
           "reason": "aggregate/raw vote not safely remappable to this canonical identity"
         }
       ],
-      "screening_state": "not_started",
-      "reviewer_1": null,
-      "reviewer_2": null,
-      "adjudication": null,
-      "full_text_status": "not_started"
+      "screening_state": "adjudicated_title_metadata",
+      "reviewer_1": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "R1",
+        "batch": "B20",
+        "reason": "Clear non-Nigeria, non-AIV, non-primary, or otherwise out-of-scope title/metadata."
+      },
+      "reviewer_2": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "R2",
+        "batch": "B20",
+        "reason": "Clear non-Nigeria, non-AIV, non-primary, or otherwise out-of-scope title/metadata."
+      },
+      "adjudication": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "main-agent",
+        "batch": "B20",
+        "reason": "Title/metadata exclusion under frozen criteria."
+      },
+      "full_text_status": "not_applicable_title_metadata_excluded"
     },
     {
       "canonical_id": "CAN-0359",
@@ -10759,7 +11029,7 @@
         "WOS:000238724500028"
       ],
       "preliminary_disposition": "exclude_provisional",
-      "final_status": "not_final_full_text_not_done",
+      "final_status": "provisional_full_text_candidate",
       "vote_disposition": [
         {
           "source": "PubMed",
@@ -10777,11 +11047,26 @@
           "reason": "aggregate/raw vote not safely remappable to this canonical identity"
         }
       ],
-      "screening_state": "not_started",
-      "reviewer_1": null,
-      "reviewer_2": null,
-      "adjudication": null,
-      "full_text_status": "not_started"
+      "screening_state": "adjudicated_title_metadata",
+      "reviewer_1": {
+        "decision": "retain_for_full_text",
+        "reviewer": "R1",
+        "batch": "B20",
+        "reason": "Retained conservatively when Nigeria-specific AIV evidence was possible from title/metadata."
+      },
+      "reviewer_2": {
+        "decision": "retain_for_full_text",
+        "reviewer": "R2",
+        "batch": "B20",
+        "reason": "Retained conservatively when Nigeria-specific AIV evidence was possible from title/metadata."
+      },
+      "adjudication": {
+        "decision": "retain_for_full_text",
+        "reviewer": "main-agent",
+        "batch": "B20",
+        "reason": "Nigeria-specific H5N1 sequence/introduction report; retain for full-text verification."
+      },
+      "full_text_status": "awaiting_retrieval"
     },
     {
       "canonical_id": "CAN-0360",
@@ -10798,7 +11083,7 @@
         "PMID:16871185"
       ],
       "preliminary_disposition": "exclude_provisional",
-      "final_status": "not_final_full_text_not_done",
+      "final_status": "title_metadata_excluded",
       "vote_disposition": [
         {
           "source": "PubMed",
@@ -10811,11 +11096,26 @@
           "reason": "aggregate/raw vote not safely remappable to this canonical identity"
         }
       ],
-      "screening_state": "not_started",
-      "reviewer_1": null,
-      "reviewer_2": null,
-      "adjudication": null,
-      "full_text_status": "not_started"
+      "screening_state": "adjudicated_title_metadata",
+      "reviewer_1": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "R1",
+        "batch": "B20",
+        "reason": "Clear non-Nigeria, non-AIV, non-primary, or otherwise out-of-scope title/metadata."
+      },
+      "reviewer_2": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "R2",
+        "batch": "B20",
+        "reason": "Clear non-Nigeria, non-AIV, non-primary, or otherwise out-of-scope title/metadata."
+      },
+      "adjudication": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "main-agent",
+        "batch": "B20",
+        "reason": "Title/metadata exclusion under frozen criteria."
+      },
+      "full_text_status": "not_applicable_title_metadata_excluded"
     },
     {
       "canonical_id": "CAN-0361",
@@ -10830,7 +11130,7 @@
         "DOI:101038459756a"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "not_final_full_text_not_done",
+      "final_status": "title_metadata_excluded",
       "vote_disposition": [
         {
           "source": "OpenAlex/Crossref",
@@ -10838,11 +11138,26 @@
           "reason": "aggregate/raw vote not safely remappable to this canonical identity"
         }
       ],
-      "screening_state": "not_started",
-      "reviewer_1": null,
-      "reviewer_2": null,
-      "adjudication": null,
-      "full_text_status": "not_started"
+      "screening_state": "adjudicated_title_metadata",
+      "reviewer_1": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "R1",
+        "batch": "B20",
+        "reason": "Clear non-Nigeria, non-AIV, non-primary, or otherwise out-of-scope title/metadata."
+      },
+      "reviewer_2": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "R2",
+        "batch": "B20",
+        "reason": "Clear non-Nigeria, non-AIV, non-primary, or otherwise out-of-scope title/metadata."
+      },
+      "adjudication": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "main-agent",
+        "batch": "B20",
+        "reason": "Title/metadata exclusion under frozen criteria."
+      },
+      "full_text_status": "not_applicable_title_metadata_excluded"
     },
     {
       "canonical_id": "CAN-0362",
@@ -10857,7 +11172,7 @@
         "PMID:24096642"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "not_final_full_text_not_done",
+      "final_status": "title_metadata_excluded",
       "vote_disposition": [
         {
           "source": "OpenAlex/Crossref",
@@ -10865,11 +11180,26 @@
           "reason": "aggregate/raw vote not safely remappable to this canonical identity"
         }
       ],
-      "screening_state": "not_started",
-      "reviewer_1": null,
-      "reviewer_2": null,
-      "adjudication": null,
-      "full_text_status": "not_started"
+      "screening_state": "adjudicated_title_metadata",
+      "reviewer_1": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "R1",
+        "batch": "B20",
+        "reason": "Clear non-Nigeria, non-AIV, non-primary, or otherwise out-of-scope title/metadata."
+      },
+      "reviewer_2": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "R2",
+        "batch": "B20",
+        "reason": "Clear non-Nigeria, non-AIV, non-primary, or otherwise out-of-scope title/metadata."
+      },
+      "adjudication": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "main-agent",
+        "batch": "B20",
+        "reason": "Title/metadata exclusion under frozen criteria."
+      },
+      "full_text_status": "not_applicable_title_metadata_excluded"
     },
     {
       "canonical_id": "CAN-0363",
@@ -10884,7 +11214,7 @@
         "PMID:19884910"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "not_final_full_text_not_done",
+      "final_status": "title_metadata_excluded",
       "vote_disposition": [
         {
           "source": "OpenAlex/Crossref",
@@ -10892,11 +11222,26 @@
           "reason": "aggregate/raw vote not safely remappable to this canonical identity"
         }
       ],
-      "screening_state": "not_started",
-      "reviewer_1": null,
-      "reviewer_2": null,
-      "adjudication": null,
-      "full_text_status": "not_started"
+      "screening_state": "adjudicated_title_metadata",
+      "reviewer_1": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "R1",
+        "batch": "B20",
+        "reason": "Clear non-Nigeria, non-AIV, non-primary, or otherwise out-of-scope title/metadata."
+      },
+      "reviewer_2": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "R2",
+        "batch": "B20",
+        "reason": "Clear non-Nigeria, non-AIV, non-primary, or otherwise out-of-scope title/metadata."
+      },
+      "adjudication": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "main-agent",
+        "batch": "B20",
+        "reason": "Title/metadata exclusion under frozen criteria."
+      },
+      "full_text_status": "not_applicable_title_metadata_excluded"
     },
     {
       "canonical_id": "CAN-0364",
@@ -10911,7 +11256,7 @@
         "DOI:101038d4158602404075w"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "not_final_full_text_not_done",
+      "final_status": "title_metadata_excluded",
       "vote_disposition": [
         {
           "source": "OpenAlex/Crossref",
@@ -10919,11 +11264,26 @@
           "reason": "aggregate/raw vote not safely remappable to this canonical identity"
         }
       ],
-      "screening_state": "not_started",
-      "reviewer_1": null,
-      "reviewer_2": null,
-      "adjudication": null,
-      "full_text_status": "not_started"
+      "screening_state": "adjudicated_title_metadata",
+      "reviewer_1": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "R1",
+        "batch": "B20",
+        "reason": "Clear non-Nigeria, non-AIV, non-primary, or otherwise out-of-scope title/metadata."
+      },
+      "reviewer_2": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "R2",
+        "batch": "B20",
+        "reason": "Clear non-Nigeria, non-AIV, non-primary, or otherwise out-of-scope title/metadata."
+      },
+      "adjudication": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "main-agent",
+        "batch": "B20",
+        "reason": "Title/metadata exclusion under frozen criteria."
+      },
+      "full_text_status": "not_applicable_title_metadata_excluded"
     },
     {
       "canonical_id": "CAN-0365",
@@ -10938,7 +11298,7 @@
         "DOI:101038emi201318"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "not_final_full_text_not_done",
+      "final_status": "title_metadata_excluded",
       "vote_disposition": [
         {
           "source": "OpenAlex/Crossref",
@@ -10946,11 +11306,26 @@
           "reason": "aggregate/raw vote not safely remappable to this canonical identity"
         }
       ],
-      "screening_state": "not_started",
-      "reviewer_1": null,
-      "reviewer_2": null,
-      "adjudication": null,
-      "full_text_status": "not_started"
+      "screening_state": "adjudicated_title_metadata",
+      "reviewer_1": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "R1",
+        "batch": "B20",
+        "reason": "Clear non-Nigeria, non-AIV, non-primary, or otherwise out-of-scope title/metadata."
+      },
+      "reviewer_2": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "R2",
+        "batch": "B20",
+        "reason": "Clear non-Nigeria, non-AIV, non-primary, or otherwise out-of-scope title/metadata."
+      },
+      "adjudication": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "main-agent",
+        "batch": "B20",
+        "reason": "Title/metadata exclusion under frozen criteria."
+      },
+      "full_text_status": "not_applicable_title_metadata_excluded"
     },
     {
       "canonical_id": "CAN-0366",
@@ -10965,7 +11340,7 @@
         "PMID:26038461"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "not_final_full_text_not_done",
+      "final_status": "title_metadata_excluded",
       "vote_disposition": [
         {
           "source": "OpenAlex/Crossref",
@@ -10973,11 +11348,26 @@
           "reason": "aggregate/raw vote not safely remappable to this canonical identity"
         }
       ],
-      "screening_state": "not_started",
-      "reviewer_1": null,
-      "reviewer_2": null,
-      "adjudication": null,
-      "full_text_status": "not_started"
+      "screening_state": "adjudicated_title_metadata",
+      "reviewer_1": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "R1",
+        "batch": "B20",
+        "reason": "Clear non-Nigeria, non-AIV, non-primary, or otherwise out-of-scope title/metadata."
+      },
+      "reviewer_2": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "R2",
+        "batch": "B20",
+        "reason": "Clear non-Nigeria, non-AIV, non-primary, or otherwise out-of-scope title/metadata."
+      },
+      "adjudication": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "main-agent",
+        "batch": "B20",
+        "reason": "Title/metadata exclusion under frozen criteria."
+      },
+      "full_text_status": "not_applicable_title_metadata_excluded"
     },
     {
       "canonical_id": "CAN-0367",
@@ -10992,7 +11382,7 @@
         "PMID:28270655"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "not_final_full_text_not_done",
+      "final_status": "title_metadata_excluded",
       "vote_disposition": [
         {
           "source": "OpenAlex/Crossref",
@@ -11000,11 +11390,26 @@
           "reason": "aggregate/raw vote not safely remappable to this canonical identity"
         }
       ],
-      "screening_state": "not_started",
-      "reviewer_1": null,
-      "reviewer_2": null,
-      "adjudication": null,
-      "full_text_status": "not_started"
+      "screening_state": "adjudicated_title_metadata",
+      "reviewer_1": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "R1",
+        "batch": "B20",
+        "reason": "Clear non-Nigeria, non-AIV, non-primary, or otherwise out-of-scope title/metadata."
+      },
+      "reviewer_2": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "R2",
+        "batch": "B20",
+        "reason": "Clear non-Nigeria, non-AIV, non-primary, or otherwise out-of-scope title/metadata."
+      },
+      "adjudication": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "main-agent",
+        "batch": "B20",
+        "reason": "Title/metadata exclusion under frozen criteria."
+      },
+      "full_text_status": "not_applicable_title_metadata_excluded"
     },
     {
       "canonical_id": "CAN-0368",
@@ -11019,7 +11424,7 @@
         "DOI:101038mt200847"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "not_final_full_text_not_done",
+      "final_status": "title_metadata_excluded",
       "vote_disposition": [
         {
           "source": "OpenAlex/Crossref",
@@ -11027,11 +11432,26 @@
           "reason": "aggregate/raw vote not safely remappable to this canonical identity"
         }
       ],
-      "screening_state": "not_started",
-      "reviewer_1": null,
-      "reviewer_2": null,
-      "adjudication": null,
-      "full_text_status": "not_started"
+      "screening_state": "adjudicated_title_metadata",
+      "reviewer_1": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "R1",
+        "batch": "B20",
+        "reason": "Clear non-Nigeria, non-AIV, non-primary, or otherwise out-of-scope title/metadata."
+      },
+      "reviewer_2": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "R2",
+        "batch": "B20",
+        "reason": "Clear non-Nigeria, non-AIV, non-primary, or otherwise out-of-scope title/metadata."
+      },
+      "adjudication": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "main-agent",
+        "batch": "B20",
+        "reason": "Title/metadata exclusion under frozen criteria."
+      },
+      "full_text_status": "not_applicable_title_metadata_excluded"
     },
     {
       "canonical_id": "CAN-0369",
@@ -11046,7 +11466,7 @@
         "PMID:19525932"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "not_final_full_text_not_done",
+      "final_status": "title_metadata_excluded",
       "vote_disposition": [
         {
           "source": "OpenAlex/Crossref",
@@ -11054,11 +11474,26 @@
           "reason": "aggregate/raw vote not safely remappable to this canonical identity"
         }
       ],
-      "screening_state": "not_started",
-      "reviewer_1": null,
-      "reviewer_2": null,
-      "adjudication": null,
-      "full_text_status": "not_started"
+      "screening_state": "adjudicated_title_metadata",
+      "reviewer_1": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "R1",
+        "batch": "B20",
+        "reason": "Clear non-Nigeria, non-AIV, non-primary, or otherwise out-of-scope title/metadata."
+      },
+      "reviewer_2": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "R2",
+        "batch": "B20",
+        "reason": "Clear non-Nigeria, non-AIV, non-primary, or otherwise out-of-scope title/metadata."
+      },
+      "adjudication": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "main-agent",
+        "batch": "B20",
+        "reason": "Title/metadata exclusion under frozen criteria."
+      },
+      "full_text_status": "not_applicable_title_metadata_excluded"
     },
     {
       "canonical_id": "CAN-0370",
@@ -11073,7 +11508,7 @@
         "DOI:101038nchina2007254"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "not_final_full_text_not_done",
+      "final_status": "title_metadata_excluded",
       "vote_disposition": [
         {
           "source": "OpenAlex/Crossref",
@@ -11081,11 +11516,26 @@
           "reason": "aggregate/raw vote not safely remappable to this canonical identity"
         }
       ],
-      "screening_state": "not_started",
-      "reviewer_1": null,
-      "reviewer_2": null,
-      "adjudication": null,
-      "full_text_status": "not_started"
+      "screening_state": "adjudicated_title_metadata",
+      "reviewer_1": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "R1",
+        "batch": "B20",
+        "reason": "Clear non-Nigeria, non-AIV, non-primary, or otherwise out-of-scope title/metadata."
+      },
+      "reviewer_2": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "R2",
+        "batch": "B20",
+        "reason": "Clear non-Nigeria, non-AIV, non-primary, or otherwise out-of-scope title/metadata."
+      },
+      "adjudication": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "main-agent",
+        "batch": "B20",
+        "reason": "Title/metadata exclusion under frozen criteria."
+      },
+      "full_text_status": "not_applicable_title_metadata_excluded"
     },
     {
       "canonical_id": "CAN-0371",
@@ -11100,7 +11550,7 @@
         "DOI:101038nchina2008185"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "not_final_full_text_not_done",
+      "final_status": "title_metadata_excluded",
       "vote_disposition": [
         {
           "source": "OpenAlex/Crossref",
@@ -11108,11 +11558,26 @@
           "reason": "aggregate/raw vote not safely remappable to this canonical identity"
         }
       ],
-      "screening_state": "not_started",
-      "reviewer_1": null,
-      "reviewer_2": null,
-      "adjudication": null,
-      "full_text_status": "not_started"
+      "screening_state": "adjudicated_title_metadata",
+      "reviewer_1": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "R1",
+        "batch": "B20",
+        "reason": "Clear non-Nigeria, non-AIV, non-primary, or otherwise out-of-scope title/metadata."
+      },
+      "reviewer_2": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "R2",
+        "batch": "B20",
+        "reason": "Clear non-Nigeria, non-AIV, non-primary, or otherwise out-of-scope title/metadata."
+      },
+      "adjudication": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "main-agent",
+        "batch": "B20",
+        "reason": "Title/metadata exclusion under frozen criteria."
+      },
+      "full_text_status": "not_applicable_title_metadata_excluded"
     },
     {
       "canonical_id": "CAN-0372",
@@ -11127,7 +11592,7 @@
         "DOI:101038nchina200888"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "not_final_full_text_not_done",
+      "final_status": "title_metadata_excluded",
       "vote_disposition": [
         {
           "source": "OpenAlex/Crossref",
@@ -11135,11 +11600,26 @@
           "reason": "aggregate/raw vote not safely remappable to this canonical identity"
         }
       ],
-      "screening_state": "not_started",
-      "reviewer_1": null,
-      "reviewer_2": null,
-      "adjudication": null,
-      "full_text_status": "not_started"
+      "screening_state": "adjudicated_title_metadata",
+      "reviewer_1": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "R1",
+        "batch": "B20",
+        "reason": "Clear non-Nigeria, non-AIV, non-primary, or otherwise out-of-scope title/metadata."
+      },
+      "reviewer_2": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "R2",
+        "batch": "B20",
+        "reason": "Clear non-Nigeria, non-AIV, non-primary, or otherwise out-of-scope title/metadata."
+      },
+      "adjudication": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "main-agent",
+        "batch": "B20",
+        "reason": "Title/metadata exclusion under frozen criteria."
+      },
+      "full_text_status": "not_applicable_title_metadata_excluded"
     },
     {
       "canonical_id": "CAN-0373",
@@ -11154,7 +11634,7 @@
         "DOI:101038nchina201347"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "not_final_full_text_not_done",
+      "final_status": "title_metadata_excluded",
       "vote_disposition": [
         {
           "source": "OpenAlex/Crossref",
@@ -11162,11 +11642,26 @@
           "reason": "aggregate/raw vote not safely remappable to this canonical identity"
         }
       ],
-      "screening_state": "not_started",
-      "reviewer_1": null,
-      "reviewer_2": null,
-      "adjudication": null,
-      "full_text_status": "not_started"
+      "screening_state": "adjudicated_title_metadata",
+      "reviewer_1": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "R1",
+        "batch": "B20",
+        "reason": "Clear non-Nigeria, non-AIV, non-primary, or otherwise out-of-scope title/metadata."
+      },
+      "reviewer_2": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "R2",
+        "batch": "B20",
+        "reason": "Clear non-Nigeria, non-AIV, non-primary, or otherwise out-of-scope title/metadata."
+      },
+      "adjudication": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "main-agent",
+        "batch": "B20",
+        "reason": "Title/metadata exclusion under frozen criteria."
+      },
+      "full_text_status": "not_applicable_title_metadata_excluded"
     },
     {
       "canonical_id": "CAN-0374",
@@ -11181,7 +11676,7 @@
         "PMID:25813399"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "not_final_full_text_not_done",
+      "final_status": "title_metadata_excluded",
       "vote_disposition": [
         {
           "source": "OpenAlex/Crossref",
@@ -11189,11 +11684,26 @@
           "reason": "aggregate/raw vote not safely remappable to this canonical identity"
         }
       ],
-      "screening_state": "not_started",
-      "reviewer_1": null,
-      "reviewer_2": null,
-      "adjudication": null,
-      "full_text_status": "not_started"
+      "screening_state": "adjudicated_title_metadata",
+      "reviewer_1": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "R1",
+        "batch": "B20",
+        "reason": "Clear non-Nigeria, non-AIV, non-primary, or otherwise out-of-scope title/metadata."
+      },
+      "reviewer_2": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "R2",
+        "batch": "B20",
+        "reason": "Clear non-Nigeria, non-AIV, non-primary, or otherwise out-of-scope title/metadata."
+      },
+      "adjudication": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "main-agent",
+        "batch": "B20",
+        "reason": "Title/metadata exclusion under frozen criteria."
+      },
+      "full_text_status": "not_applicable_title_metadata_excluded"
     },
     {
       "canonical_id": "CAN-0375",
@@ -11208,7 +11718,7 @@
         "DOI:101038npre201165091"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "not_final_full_text_not_done",
+      "final_status": "title_metadata_excluded",
       "vote_disposition": [
         {
           "source": "OpenAlex/Crossref",
@@ -11216,11 +11726,26 @@
           "reason": "aggregate/raw vote not safely remappable to this canonical identity"
         }
       ],
-      "screening_state": "not_started",
-      "reviewer_1": null,
-      "reviewer_2": null,
-      "adjudication": null,
-      "full_text_status": "not_started"
+      "screening_state": "adjudicated_title_metadata",
+      "reviewer_1": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "R1",
+        "batch": "B20",
+        "reason": "Clear non-Nigeria, non-AIV, non-primary, or otherwise out-of-scope title/metadata."
+      },
+      "reviewer_2": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "R2",
+        "batch": "B20",
+        "reason": "Clear non-Nigeria, non-AIV, non-primary, or otherwise out-of-scope title/metadata."
+      },
+      "adjudication": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "main-agent",
+        "batch": "B20",
+        "reason": "Title/metadata exclusion under frozen criteria."
+      },
+      "full_text_status": "not_applicable_title_metadata_excluded"
     },
     {
       "canonical_id": "CAN-0376",
@@ -11235,7 +11760,7 @@
         "PMID:26996076"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "not_final_full_text_not_done",
+      "final_status": "title_metadata_excluded",
       "vote_disposition": [
         {
           "source": "OpenAlex/Crossref",
@@ -11243,11 +11768,26 @@
           "reason": "aggregate/raw vote not safely remappable to this canonical identity"
         }
       ],
-      "screening_state": "not_started",
-      "reviewer_1": null,
-      "reviewer_2": null,
-      "adjudication": null,
-      "full_text_status": "not_started"
+      "screening_state": "adjudicated_title_metadata",
+      "reviewer_1": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "R1",
+        "batch": "B20",
+        "reason": "Clear non-Nigeria, non-AIV, non-primary, or otherwise out-of-scope title/metadata."
+      },
+      "reviewer_2": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "R2",
+        "batch": "B20",
+        "reason": "Clear non-Nigeria, non-AIV, non-primary, or otherwise out-of-scope title/metadata."
+      },
+      "adjudication": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "main-agent",
+        "batch": "B20",
+        "reason": "Title/metadata exclusion under frozen criteria."
+      },
+      "full_text_status": "not_applicable_title_metadata_excluded"
     },
     {
       "canonical_id": "CAN-0377",
@@ -11262,7 +11802,7 @@
         "PMID:37328456"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "not_final_full_text_not_done",
+      "final_status": "title_metadata_excluded",
       "vote_disposition": [
         {
           "source": "OpenAlex/Crossref",
@@ -11270,11 +11810,26 @@
           "reason": "aggregate/raw vote not safely remappable to this canonical identity"
         }
       ],
-      "screening_state": "not_started",
-      "reviewer_1": null,
-      "reviewer_2": null,
-      "adjudication": null,
-      "full_text_status": "not_started"
+      "screening_state": "adjudicated_title_metadata",
+      "reviewer_1": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "R1",
+        "batch": "B20",
+        "reason": "Clear non-Nigeria, non-AIV, non-primary, or otherwise out-of-scope title/metadata."
+      },
+      "reviewer_2": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "R2",
+        "batch": "B20",
+        "reason": "Clear non-Nigeria, non-AIV, non-primary, or otherwise out-of-scope title/metadata."
+      },
+      "adjudication": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "main-agent",
+        "batch": "B20",
+        "reason": "Title/metadata exclusion under frozen criteria."
+      },
+      "full_text_status": "not_applicable_title_metadata_excluded"
     },
     {
       "canonical_id": "CAN-0378",
@@ -11289,7 +11844,7 @@
         "PMID:30131494"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "not_final_full_text_not_done",
+      "final_status": "title_metadata_excluded",
       "vote_disposition": [
         {
           "source": "OpenAlex/Crossref",
@@ -11297,11 +11852,26 @@
           "reason": "aggregate/raw vote not safely remappable to this canonical identity"
         }
       ],
-      "screening_state": "not_started",
-      "reviewer_1": null,
-      "reviewer_2": null,
-      "adjudication": null,
-      "full_text_status": "not_started"
+      "screening_state": "adjudicated_title_metadata",
+      "reviewer_1": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "R1",
+        "batch": "B20",
+        "reason": "Clear non-Nigeria, non-AIV, non-primary, or otherwise out-of-scope title/metadata."
+      },
+      "reviewer_2": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "R2",
+        "batch": "B20",
+        "reason": "Clear non-Nigeria, non-AIV, non-primary, or otherwise out-of-scope title/metadata."
+      },
+      "adjudication": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "main-agent",
+        "batch": "B20",
+        "reason": "Title/metadata exclusion under frozen criteria."
+      },
+      "full_text_status": "not_applicable_title_metadata_excluded"
     },
     {
       "canonical_id": "CAN-0379",
@@ -11316,7 +11886,7 @@
         "PMID:31757953"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "not_final_full_text_not_done",
+      "final_status": "provisional_full_text_candidate",
       "vote_disposition": [
         {
           "source": "OpenAlex/Crossref",
@@ -11324,11 +11894,26 @@
           "reason": "aggregate/raw vote not safely remappable to this canonical identity"
         }
       ],
-      "screening_state": "not_started",
-      "reviewer_1": null,
-      "reviewer_2": null,
-      "adjudication": null,
-      "full_text_status": "not_started"
+      "screening_state": "adjudicated_title_metadata",
+      "reviewer_1": {
+        "decision": "retain_for_full_text",
+        "reviewer": "R1",
+        "batch": "B20",
+        "reason": "Retained conservatively when Nigeria-specific AIV evidence was possible from title/metadata."
+      },
+      "reviewer_2": {
+        "decision": "retain_for_full_text",
+        "reviewer": "R2",
+        "batch": "B20",
+        "reason": "Retained conservatively when Nigeria-specific AIV evidence was possible from title/metadata."
+      },
+      "adjudication": {
+        "decision": "retain_for_full_text",
+        "reviewer": "main-agent",
+        "batch": "B20",
+        "reason": "Primary Africa-wide phylogeographic analysis reports Nigerian sequences; retain for full-text verification."
+      },
+      "full_text_status": "awaiting_retrieval"
     },
     {
       "canonical_id": "CAN-0380",
@@ -11343,7 +11928,7 @@
         "PMID:37816720"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "not_final_full_text_not_done",
+      "final_status": "title_metadata_excluded",
       "vote_disposition": [
         {
           "source": "OpenAlex/Crossref",
@@ -11351,11 +11936,26 @@
           "reason": "aggregate/raw vote not safely remappable to this canonical identity"
         }
       ],
-      "screening_state": "not_started",
-      "reviewer_1": null,
-      "reviewer_2": null,
-      "adjudication": null,
-      "full_text_status": "not_started"
+      "screening_state": "adjudicated_title_metadata",
+      "reviewer_1": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "R1",
+        "batch": "B20",
+        "reason": "Clear non-Nigeria, non-AIV, non-primary, or otherwise out-of-scope title/metadata."
+      },
+      "reviewer_2": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "R2",
+        "batch": "B20",
+        "reason": "Clear non-Nigeria, non-AIV, non-primary, or otherwise out-of-scope title/metadata."
+      },
+      "adjudication": {
+        "decision": "exclude_title_metadata",
+        "reviewer": "main-agent",
+        "batch": "B20",
+        "reason": "Title/metadata exclusion under frozen criteria."
+      },
+      "full_text_status": "not_applicable_title_metadata_excluded"
     },
     {
       "canonical_id": "CAN-0381",
@@ -53472,7 +54072,10 @@
     "canonical_identities": 1877,
     "pilot": 40,
     "prior_vote_entries": 2202,
-    "not_started": 1871
+    "not_started": 1831,
+    "b20_screened": 40,
+    "b20_excluded": 36,
+    "b20_retained": 4
   },
   "metadata": {
     "eligibility_anchor": "Nigeria-specific HPAI/LPAI with epidemiological, molecular/phylogenetic, or spatial/temporal data; 2006-2026",
@@ -53485,7 +54088,10 @@
     "pilot_size": 40,
     "created": "2026-09-20",
     "pilot_selection": "Deterministic title-keyword strata, canonical_id order.",
-    "status": "active; no substantive screening decisions recorded",
-    "prior_votes": "Retained as lineage-level evidence; precollapse aggregate votes remain explicitly discarded and are not inherited silently."
+    "status": "B20 recorded; aggregate unique-register coverage complete, but exact retained-ID reconstruction for earlier batches remains open",
+    "prior_votes": "Retained as lineage-level evidence; precollapse aggregate votes remain explicitly discarded and are not inherited silently.",
+    "last_update": "2026-09-23",
+    "b19_note": "The earlier B19 CAN-0241-CAN-0280 pass was a duplicate-range audit/retrieval pilot and is non-additive to the 1,877 identity denominator.",
+    "b20_note": "True uncovered gap CAN-0341-CAN-0380 screened by R1/R2; final 4 retained and 36 excluded after one two-record decision swap."
   }
 }
