@@ -4309,7 +4309,7 @@
         "AJOL:pamj:85775"
       ],
       "preliminary_disposition": "main_candidate_needs_adjudication",
-      "final_status": "provisional_full_text_candidate",
+      "final_status": "provisional_full_text_eligible",
       "vote_disposition": [
         {
           "source": "PubMed",
@@ -4332,7 +4332,7 @@
           "reason": "AJOL retrieval candidate imported 2026-09-20; substantive screening not performed"
         }
       ],
-      "screening_state": "adjudicated_title_metadata",
+      "screening_state": "full_text_adjudicated",
       "reviewer_1": {
         "decision": "retain_for_full_text",
         "reviewer": "R1",
@@ -4348,7 +4348,7 @@
         "reviewer": "main-agent",
         "basis": "fresh independent R1/R2 reconstruction; conservative union"
       },
-      "full_text_status": "retrieval_source_located_free_route",
+      "full_text_status": "full_text_eligible_provisional",
       "retrieval": {
         "checked": "2026-09-23",
         "route": "Europe PMC public metadata/full-text-link service",
@@ -4396,8 +4396,30 @@
         ],
         "error": null,
         "retrieval_status": "retrieval_source_located_free_route",
-        "eligibility_status": "not_assessed",
-        "next_action": "Open/download the located source and record full-text eligibility with page/section evidence."
+        "eligibility_status": "eligible_provisional",
+        "next_action": "Link duplicate/dataset reports, complete extraction and JBI/custom molecular appraisal; do not count as final included study yet."
+      },
+      "full_text_eligibility": {
+        "checked": "2026-09-23",
+        "reviewer_1": {
+          "decision": "retain",
+          "reason_code": null,
+          "evidence": "Abstract; Methods; Results: Nigerian passive/active surveillance, laboratory-confirmed outbreaks and control data, 2006–2009.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3527058/"
+        },
+        "reviewer_2": {
+          "decision": "retain",
+          "reason_code": null,
+          "evidence": "Abstract; Methods; Results: Nigerian poultry, wetland and live-bird-market surveillance with laboratory-confirmed outbreaks, 2006–2009.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3527058/"
+        },
+        "adjudication": {
+          "decision": "retain",
+          "reviewer": "main-agent",
+          "basis": "Concordant Nigeria-specific primary surveillance and epidemiologic evidence.",
+          "caution": "Check overlap with other reports using the same national surveillance system; before/after counts do not by themselves establish intervention causality.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3527058/"
+        }
       }
     },
     {
@@ -5559,7 +5581,7 @@
         "WOS:000407680400004"
       ],
       "preliminary_disposition": "main_candidate_needs_adjudication",
-      "final_status": "provisional_full_text_candidate",
+      "final_status": "provisional_full_text_eligible",
       "vote_disposition": [
         {
           "source": "PubMed",
@@ -5577,7 +5599,7 @@
           "reason": "aggregate/raw vote not safely remappable to this canonical identity"
         }
       ],
-      "screening_state": "adjudicated_title_metadata",
+      "screening_state": "full_text_adjudicated",
       "reviewer_1": {
         "decision": "exclude_title_metadata",
         "reviewer": "R1",
@@ -5593,7 +5615,7 @@
         "reviewer": "main-agent",
         "basis": "fresh independent R1/R2 reconstruction; conservative union"
       },
-      "full_text_status": "retrieval_source_located_free_route",
+      "full_text_status": "full_text_eligible_provisional",
       "retrieval": {
         "checked": "2026-09-23",
         "route": "Europe PMC public metadata/full-text-link service",
@@ -5649,8 +5671,30 @@
         ],
         "error": null,
         "retrieval_status": "retrieval_source_located_free_route",
-        "eligibility_status": "not_assessed",
-        "next_action": "Open/download the located source and record full-text eligibility with page/section evidence."
+        "eligibility_status": "eligible_provisional",
+        "next_action": "Link duplicate/dataset reports, complete extraction and JBI/custom molecular appraisal; do not count as final included study yet."
+      },
+      "full_text_eligibility": {
+        "checked": "2026-09-23",
+        "reviewer_1": {
+          "decision": "exclude",
+          "reason_code": "NO_QUALIFYING_DATA",
+          "evidence": "Abstract; questionnaire methods; Results: 422-person North-central Nigeria survey of H5N1 awareness, perceived risk and biosecurity.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5645842/"
+        },
+        "reviewer_2": {
+          "decision": "retain",
+          "reason_code": null,
+          "evidence": "Abstract; Methods: questionnaire cross-sectional survey of 422 pastoralists in North-central Nigeria, May 2015–June 2016, focused on HPAI H5N1 risk and biosecurity.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5645842/"
+        },
+        "adjudication": {
+          "decision": "retain",
+          "reviewer": "main-agent",
+          "basis": "Adjudicated within the frozen epidemiologic/risk-factor scope: primary Nigeria-specific HPAI risk and mitigation evidence is eligible, but it must be extracted as awareness/biosecurity context rather than infection or outbreak incidence.",
+          "caution": "Does not measure infection, outbreak incidence, or virus distribution; do not use it as molecular or prevalence evidence.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5645842/"
+        }
       }
     },
     {
@@ -5672,7 +5716,7 @@
         "WOS:000414785600005"
       ],
       "preliminary_disposition": "main_candidate_needs_adjudication",
-      "final_status": "provisional_full_text_candidate",
+      "final_status": "provisional_full_text_eligible",
       "vote_disposition": [
         {
           "source": "PubMed",
@@ -5690,7 +5734,7 @@
           "reason": "aggregate/raw vote not safely remappable to this canonical identity"
         }
       ],
-      "screening_state": "adjudicated_title_metadata",
+      "screening_state": "full_text_adjudicated",
       "reviewer_1": {
         "decision": "retain_for_full_text",
         "reviewer": "R1",
@@ -5706,7 +5750,7 @@
         "reviewer": "main-agent",
         "basis": "fresh independent R1/R2 reconstruction; conservative union"
       },
-      "full_text_status": "retrieval_source_located_free_route",
+      "full_text_status": "full_text_eligible_provisional",
       "retrieval": {
         "checked": "2026-09-23",
         "route": "Europe PMC public metadata/full-text-link service",
@@ -5776,8 +5820,30 @@
         ],
         "error": null,
         "retrieval_status": "retrieval_source_located_free_route",
-        "eligibility_status": "not_assessed",
-        "next_action": "Open/download the located source and record full-text eligibility with page/section evidence."
+        "eligibility_status": "eligible_provisional",
+        "next_action": "Link duplicate/dataset reports, complete extraction and JBI/custom molecular appraisal; do not count as final included study yet."
+      },
+      "full_text_eligibility": {
+        "checked": "2026-09-23",
+        "reviewer_1": {
+          "decision": "retain",
+          "reason_code": null,
+          "evidence": "Methods; Results: bird H5 antibody testing by HI/ELISA and risk-factor data from Bauchi and Gombe, Nigeria.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5677776/"
+        },
+        "reviewer_2": {
+          "decision": "retain",
+          "reason_code": null,
+          "evidence": "Study area; laboratory methods; Results: cross-sectional H5 serology and questionnaire-based risk assessment in two Nigerian states.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5677776/"
+        },
+        "adjudication": {
+          "decision": "retain",
+          "reviewer": "main-agent",
+          "basis": "Concordant Nigeria-specific primary seroepidemiologic evidence.",
+          "caution": "H5 antibody positivity does not establish H5N1 subtype, high pathogenicity or active infection; check possible overlap with related Bauchi–Gombe surveys during extraction.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5677776/"
+        }
       }
     },
     {
@@ -6583,7 +6649,7 @@
         "WOS:000285911700007"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "provisional_full_text_candidate",
+      "final_status": "provisional_full_text_eligible",
       "vote_disposition": [
         {
           "source": "OpenAlex/Crossref",
@@ -6591,7 +6657,7 @@
           "reason": "aggregate/raw vote not safely remappable to this canonical identity"
         }
       ],
-      "screening_state": "adjudicated_title_metadata",
+      "screening_state": "full_text_adjudicated",
       "reviewer_1": {
         "decision": "retain_for_full_text",
         "reviewer": "R1",
@@ -6607,7 +6673,7 @@
         "reviewer": "main-agent",
         "basis": "fresh independent R1/R2 reconstruction; conservative union"
       },
-      "full_text_status": "retrieval_source_located_free_route",
+      "full_text_status": "full_text_eligible_provisional",
       "retrieval": {
         "checked": "2026-09-23",
         "route": "Europe PMC public metadata/full-text-link service",
@@ -6663,8 +6729,30 @@
         ],
         "error": null,
         "retrieval_status": "retrieval_source_located_free_route",
-        "eligibility_status": "not_assessed",
-        "next_action": "Open/download the located source and record full-text eligibility with page/section evidence."
+        "eligibility_status": "eligible_provisional",
+        "next_action": "Link duplicate/dataset reports, complete extraction and JBI/custom molecular appraisal; do not count as final included study yet."
+      },
+      "full_text_eligibility": {
+        "checked": "2026-09-23",
+        "reviewer_1": {
+          "decision": "retain",
+          "reason_code": null,
+          "evidence": "Methods; Results: global national analysis includes Nigeria; Results assigns Nigeria to agro-ecological niche 3 and provides an extractable mapped comparison.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3005111/"
+        },
+        "reviewer_2": {
+          "decision": "retain",
+          "reason_code": null,
+          "evidence": "Methods; Results: Nigeria is an analysed national unit and is explicitly assigned to niche 3 in the persistence model.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3005111/"
+        },
+        "adjudication": {
+          "decision": "retain",
+          "reviewer": "main-agent",
+          "basis": "Concordant Nigeria-specific extractable result within a primary global comparative H5N1 model.",
+          "caution": "Extract only the Nigeria-specific niche/spatial finding; the model reuses international surveillance data and does not provide measured Nigerian regional persistence estimates.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3005111/"
+        }
       }
     },
     {
@@ -7041,7 +7129,7 @@
         "WOS:000308359100051"
       ],
       "preliminary_disposition": "main_candidate_needs_adjudication",
-      "final_status": "provisional_full_text_candidate",
+      "final_status": "provisional_full_text_eligible",
       "vote_disposition": [
         {
           "source": "PubMed",
@@ -7059,7 +7147,7 @@
           "reason": "aggregate/raw vote not safely remappable to this canonical identity"
         }
       ],
-      "screening_state": "adjudicated_title_metadata",
+      "screening_state": "full_text_adjudicated",
       "reviewer_1": {
         "decision": "retain_for_full_text",
         "reviewer": "R1",
@@ -7075,7 +7163,7 @@
         "reviewer": "main-agent",
         "basis": "fresh independent R1/R2 reconstruction; conservative union"
       },
-      "full_text_status": "retrieval_source_located_free_route",
+      "full_text_status": "full_text_eligible_provisional",
       "retrieval": {
         "checked": "2026-09-23",
         "route": "Europe PMC public metadata/full-text-link service",
@@ -7159,8 +7247,30 @@
         ],
         "error": null,
         "retrieval_status": "retrieval_source_located_free_route",
-        "eligibility_status": "not_assessed",
-        "next_action": "Open/download the located source and record full-text eligibility with page/section evidence."
+        "eligibility_status": "eligible_provisional",
+        "next_action": "Link duplicate/dataset reports, complete extraction and JBI/custom molecular appraisal; do not count as final included study yet."
+      },
+      "full_text_eligibility": {
+        "checked": "2026-09-23",
+        "reviewer_1": {
+          "decision": "retain",
+          "reason_code": null,
+          "evidence": "Introduction; Materials and methods; Results: state/FCT and Ogun premises H5N1 models fitted to Nigerian 2006–2007 outbreak reports.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3627490/"
+        },
+        "reviewer_2": {
+          "decision": "retain",
+          "reason_code": null,
+          "evidence": "Abstract; Introduction; Methods; Results: Nigerian state and poultry-premises gravity models using 2006–2007 outbreak data.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3627490/"
+        },
+        "adjudication": {
+          "decision": "retain",
+          "reviewer": "main-agent",
+          "basis": "Concordant Nigeria-specific primary spatial/temporal modelling evidence.",
+          "caution": "Uses reported outbreak data and a synthetic Ogun premises map; no new field sampling. Check shared 2006–2007 outbreak datasets during extraction.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3627490/"
+        }
       }
     },
     {
@@ -7620,7 +7730,7 @@
         "PMID:21327896"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "provisional_full_text_candidate",
+      "final_status": "full_text_excluded",
       "vote_disposition": [
         {
           "source": "OpenAlex/Crossref",
@@ -7628,7 +7738,7 @@
           "reason": "aggregate/raw vote not safely remappable to this canonical identity"
         }
       ],
-      "screening_state": "adjudicated_title_metadata",
+      "screening_state": "full_text_adjudicated",
       "reviewer_1": {
         "decision": "retain_for_full_text",
         "reviewer": "R1",
@@ -7644,7 +7754,7 @@
         "reviewer": "main-agent",
         "basis": "fresh independent R1/R2 reconstruction; conservative union"
       },
-      "full_text_status": "retrieval_source_located_free_route",
+      "full_text_status": "full_text_excluded",
       "retrieval": {
         "checked": "2026-09-23",
         "route": "Europe PMC public metadata/full-text-link service",
@@ -7714,8 +7824,30 @@
         ],
         "error": null,
         "retrieval_status": "retrieval_source_located_free_route",
-        "eligibility_status": "not_assessed",
-        "next_action": "Open/download the located source and record full-text eligibility with page/section evidence."
+        "eligibility_status": "excluded",
+        "next_action": "No further eligibility action; retain exclusion reason and source evidence."
+      },
+      "full_text_eligibility": {
+        "checked": "2026-09-23",
+        "reviewer_1": {
+          "decision": "exclude",
+          "reason_code": "NO_NIGERIA_STUDY_DATA",
+          "evidence": "Abstract; Methods: complete genomes from Egyptian chicken and duck isolates; Nigeria is background/comparison context only.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3112484/"
+        },
+        "reviewer_2": {
+          "decision": "exclude",
+          "reason_code": "NO_NIGERIA_STUDY_DATA",
+          "evidence": "Abstract; Methods: sequenced isolates and phylogeny are Egyptian; Nigeria appears only in comparative context.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3112484/"
+        },
+        "adjudication": {
+          "decision": "exclude",
+          "reviewer": "main-agent",
+          "basis": "Concordant full-text exclusion: no Nigerian sample, study unit or extractable Nigeria-specific result.",
+          "caution": "African H5N1 relevance does not make an Egypt-only isolate dataset eligible.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3112484/"
+        }
       }
     },
     {
@@ -85626,7 +85758,7 @@
     "pilot_size": 40,
     "created": "2026-09-20",
     "pilot_selection": "Deterministic title-keyword strata, canonical_id order.",
-    "status": "record-level title/metadata reconstruction complete; full-text eligibility remains open",
+    "status": "record-level screening complete; full-text batch 1 adjudicated; eligible reports remain provisional pending duplicate linkage, extraction and appraisal",
     "prior_votes": "Retained as lineage-level evidence; precollapse aggregate votes remain explicitly discarded and are not inherited silently.",
     "last_update": "2026-09-23",
     "b19_note": "The earlier B19 CAN-0241-CAN-0280 pass was a duplicate-range audit/retrieval pilot and is non-additive to the 1,877 identity denominator.",
@@ -85645,11 +85777,12 @@
     },
     "full_text_pilot": {
       "checked": "2026-09-23",
-      "assessed": 2,
-      "excluded": 2,
-      "pending": 294,
+      "assessed": 8,
+      "excluded": 3,
+      "pending": 288,
       "included": 0,
-      "note": "Two accessible full texts were independently assessed and concordantly excluded; no final included-study count is inferred."
+      "provisionally_eligible": 5,
+      "note": "Two prior pilot exclusions plus six batch-1 assessments were independently reviewed. Five reports are provisionally eligible and one new report is excluded; no final included-study count is inferred before duplicate linkage, extraction and appraisal."
     }
   }
 }
