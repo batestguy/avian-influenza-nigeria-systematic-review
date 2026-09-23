@@ -17,7 +17,7 @@ The source manuscript `Avian_review_paper_fellow.docx` is frozen and must not be
 
 - Branch: `main`, synchronized with `origin/main` after the corrected B20 handoff push.
 - Latest committed screening document/reconciliation: `7f7019d Record full-text eligibility batch 1`.
-- Latest handoff commit: `a77b5ad` (`Record full-text pilot handoff`); previous screening handoff is `84a931c`.
+- Latest handoff commit: `4044b48` (`Update next-session handoff after full-text batch 1`); previous screening document/reconciliation commit is `7f7019d`.
 - A user-owned untracked file, `25min-alternating-exercise.html`, was observed and left untouched. Do not add or delete it.
 - Pushes have been performed to the configured remote; do not alter the user-owned untracked HTML file.
 
