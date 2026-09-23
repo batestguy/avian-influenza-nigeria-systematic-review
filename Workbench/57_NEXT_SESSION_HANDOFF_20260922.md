@@ -15,8 +15,8 @@ The source manuscript `Avian_review_paper_fellow.docx` is frozen and must not be
 
 ## Current repository state
 
-- Branch: `main`, three local commits ahead of `origin/main`.
-- Latest committed screening document: `f9c25d7 Record adjudicated screening batch B3`.
+- Branch: `main`, five local commits ahead of `origin/main`.
+- Latest committed screening document: `a9ed430 Record adjudicated screening batch B4`.
 - Previous commits: `9ad412c Record adjudicated screening batch B2`; `d4848d2 Advance systematic review screening status`.
 - A user-owned untracked file, `25min-alternating-exercise.html`, was observed and left untouched. Do not add or delete it.
 - No push has been performed.
@@ -46,24 +46,22 @@ Committed document state through B3:
 | B3 | 100 | 87 | 13 | Six uncertainty disagreements resolved conservatively |
 | **Committed cumulative** | **340** | **268** | **72** | **1,537 identities unresolved** |
 
-## B4 completed but not yet documented/committed
+## Current state after committed B4
 
 Batch B4 covers 100 records, `CAN-0381–CAN-0480` (register gaps explain the jump after B3).
 
 - R1: 0 clear includes, 11 uncertain/retain for full text, 89 exclusions.
 - R2: exact aggregate agreement with R1; no disagreements reported.
 - Final B4 disposition: 11 provisional full-text candidates, 89 exclusions.
-- Expected cumulative status after the Word update: 440 screened, 357 excluded, 83 provisional full-text candidates, 1,437 unresolved.
-- The current DOCX has not yet been updated or committed with B4 because the last document-update worker was interrupted/blocked. Verify the file before editing or committing.
+- Committed cumulative status: 440 screened, 357 excluded, 83 provisional full-text candidates, 1,437 unresolved.
+- `Avian_review_paper_submission_ready.docx` contains the B4 update and is committed as `a9ed430`; ZIP/XML, `python-docx`, and LibreOffice rendering checks passed. The source manuscript remains unchanged.
 
 ## Exact next actions
 
-1. Verify whether `Avian_review_paper_submission_ready.docx` contains B4 text. If absent, update only this deliverable with the B4 summary, exact counts, and unchanged submission-stage status.
-2. Validate the DOCX ZIP/XML, parse it with `python-docx`, and render with LibreOffice. Remove only temporary validation outputs.
-3. Commit the B4 document update locally. Do not commit the untracked HTML file and do not push unless explicitly requested.
-4. Continue title/metadata screening in 100-record R1/R2 batches using the same conservative rules. Keep uncertain records in the full-text queue.
-5. In parallel, begin legitimate retrieval for the 83 provisional full-text candidates after B4. Record full-text inclusion/exclusion reasons only after evidence is available.
-6. Do not start extraction, RoB, certainty, synthesis or final PRISMA reporting until full-text eligibility is reconciled.
+1. Continue title/metadata screening in 100-record R1/R2 batches using the same conservative rules; Batch B5 is the next unresolved block after B4. Keep uncertain records in the full-text queue.
+2. Begin legitimate, targeted retrieval for the 83 provisional full-text candidates. Record full-text inclusion/exclusion reasons only after evidence is available.
+3. Preserve the submission-stage wording: the document is not yet a final systematic-review manuscript.
+4. Do not start extraction, RoB, certainty, synthesis or final PRISMA reporting until full-text eligibility is reconciled.
 
 ## Frozen screening rules
 
@@ -80,3 +78,4 @@ All retained records remain provisional candidates, not final included studies. 
 - Keep the deliverable as a single Word document. Do not create CSV, BibTeX, Zotero, or new screening-database sidecars.
 - Preserve Times New Roman, British English, numeric bracket citations, manual references, and the yellow `Abstract` heading style.
 - The Word file must continue to state clearly that final screening, full-text assessment, extraction, RoB, synthesis and PRISMA flow are incomplete until they are genuinely complete.
+
