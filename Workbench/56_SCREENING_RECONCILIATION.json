@@ -12973,7 +12973,7 @@
         "reviewer": "main-agent",
         "basis": "fresh independent R1/R2 reconstruction; conservative union"
       },
-      "full_text_status": "retrieval_source_located_free_route",
+      "full_text_status": "full_text_excluded",
       "retrieval": {
         "checked": "2026-09-23",
         "route": "Europe PMC public metadata/full-text-link service",
@@ -13029,8 +13029,32 @@
         ],
         "error": null,
         "retrieval_status": "retrieval_source_located_free_route",
-        "eligibility_status": "not_assessed",
-        "next_action": "Open/download the located source and record full-text eligibility with page/section evidence."
+        "eligibility_status": "full_text_excluded",
+        "next_action": "No further eligibility retrieval required; retain source linkage and exclusion reason in the PRISMA full-text log."
+      },
+      "full_text_eligibility": {
+        "decision": "exclude",
+        "reason_code": "NO_NIGERIA_STUDY_DATA",
+        "reviewer_1": {
+          "decision": "exclude",
+          "reason_code": "NO_NIGERIA_STUDY_DATA",
+          "evidence": "Accessible full text reports primary H5N8 evidence from ostriches in Egypt and has no Nigeria study site or Nigeria-specific primary data."
+        },
+        "reviewer_2": {
+          "decision": "exclude",
+          "reason_code": "NO_NIGERIA_STUDY_DATA",
+          "evidence": "Accessible full text reports primary H5N8 evidence from ostriches in Egypt and has no Nigeria study site or Nigeria-specific primary data."
+        },
+        "adjudication": {
+          "decision": "exclude",
+          "reason_code": "NO_NIGERIA_STUDY_DATA",
+          "evidence": "Accessible full text reports primary H5N8 evidence from ostriches in Egypt and has no Nigeria study site or Nigeria-specific primary data."
+        },
+        "source_urls": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC9582791/",
+          "https://pubmed.ncbi.nlm.nih.gov/36252504/"
+        ],
+        "pages_or_sections": "Full text/abstract and methods-level review; page-level extraction remains unnecessary for exclusion reason."
       }
     },
     {
@@ -13528,7 +13552,7 @@
         "reviewer": "main-agent",
         "basis": "fresh independent R1/R2 reconstruction; conservative union"
       },
-      "full_text_status": "retrieval_identifier_unresolved",
+      "full_text_status": "full_text_excluded",
       "retrieval": {
         "checked": "2026-09-23",
         "route": "Europe PMC public metadata/full-text-link service",
@@ -13541,8 +13565,32 @@
         "free_full_text_sources": [],
         "error": null,
         "retrieval_status": "retrieval_identifier_unresolved",
-        "eligibility_status": "not_assessed",
-        "next_action": "Search the DOI/PubMed route and document legitimate retrieval outcome before eligibility decision."
+        "eligibility_status": "full_text_excluded",
+        "next_action": "No further eligibility retrieval required; retain source linkage and exclusion reason in the PRISMA full-text log."
+      },
+      "full_text_eligibility": {
+        "decision": "exclude",
+        "reason_code": "NOT_PRIMARY_RESEARCH",
+        "reviewer_1": {
+          "decision": "exclude",
+          "reason_code": "NOT_PRIMARY_RESEARCH",
+          "evidence": "Accessible full text identifies a narrative review/literature synthesis; Nigeria appears as a cited country, not as a primary Nigeria-specific study site."
+        },
+        "reviewer_2": {
+          "decision": "exclude",
+          "reason_code": "NOT_PRIMARY_RESEARCH",
+          "evidence": "Accessible full text identifies a narrative review/literature synthesis; Nigeria appears as a cited country, not as a primary Nigeria-specific study site."
+        },
+        "adjudication": {
+          "decision": "exclude",
+          "reason_code": "NOT_PRIMARY_RESEARCH",
+          "evidence": "Accessible full text identifies a narrative review/literature synthesis; Nigeria appears as a cited country, not as a primary Nigeria-specific study site."
+        },
+        "source_urls": [
+          "https://helda.helsinki.fi/server/api/core/bitstreams/0c7868c6-0fa1-4677-b143-ae0c9bad1be9/content",
+          "https://www.sciencedirect.com/science/article/pii/S0048969724038397"
+        ],
+        "pages_or_sections": "Full text/abstract and methods-level review; page-level extraction remains unnecessary for exclusion reason."
       }
     },
     {
@@ -85594,6 +85642,14 @@
       "metadata_or_subscription_only": 24,
       "identifier_unresolved": 165,
       "errors": 0
+    },
+    "full_text_pilot": {
+      "checked": "2026-09-23",
+      "assessed": 2,
+      "excluded": 2,
+      "pending": 294,
+      "included": 0,
+      "note": "Two accessible full texts were independently assessed and concordantly excluded; no final included-study count is inferred."
     }
   }
 }
