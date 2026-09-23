@@ -16,7 +16,7 @@ The source manuscript `Avian_review_paper_fellow.docx` is frozen and must not be
 ## Current repository state
 
 - Branch: `main`, synchronized with `origin/main` after the corrected B20 handoff push.
-- Latest committed screening document/reconciliation: `1796d23 Complete record-level screening reconstruction`.
+- Latest committed screening document/reconciliation: `0c4c02a Add Gate D retrieval inventory`.
 - Latest handoff commit: `62e2dae` (`Record full-register reconstruction handoff`); previous screening handoff is `b3788d1`.
 - A user-owned untracked file, `25min-alternating-exercise.html`, was observed and left untouched. Do not add or delete it.
 - Pushes have been performed to the configured remote; do not alter the user-owned untracked HTML file.
@@ -26,7 +26,8 @@ The source manuscript `Avian_review_paper_fellow.docx` is frozen and must not be
 - Gate A/protocol: closed.
 - Gate B/search execution: closed with export limitations.
 - Gate C/record-level title/metadata screening: complete for all 1,877 canonical identities; 296 provisional full-text candidates are recorded with R1/R2/adjudication fields.
-- Gates D onward — full text, extraction, RoB, certainty, synthesis and final reporting — not started.
+- Gate D/retrieval inventory: complete as a source-location pass; 107 free/open routes, 24 metadata/subscription-only routes and 165 unresolved or identifier-missing routes are recorded. No full-text eligibility decision has been made.
+- Gates D full-text eligibility onward — extraction, RoB, certainty, synthesis and final reporting — remain incomplete.
 - PROSPERO was skipped; do not claim prospective registration.
 - Full-text inventory in the workspace currently contains no article PDFs; only the manuscript/output PDF is local. Retrieval must be targeted and legitimate; do not bypass paywalls or access controls.
 
@@ -223,14 +224,22 @@ Batch B20 screened the true uncovered range `CAN-0341–CAN-0380` (40 records).
 - Final B20 disposition: 4 provisional full-text candidates and 36 exclusions.
 - Record-level reconstructed status: 1,877 screened, 1,581 exclusions, 296 provisional full-text candidates.
 - Two independent title/metadata passes were completed across the full register in 100-record blocks. R1 retained 269 and R2 retained 277; the conservative union contained 302 before preserving the prior evidence-supported pilot/B20 adjudications. The final register records every R1/R2/adjudication field.
-- `Avian_review_paper_submission_ready.docx` contains the correction, B20 audit table, non-additive B19 pilot note, prior extraction calibration pilot and record-level reconstruction update; the validated document/reconciliation commit is `1796d23`.
+- `Avian_review_paper_submission_ready.docx` contains the correction, B20 audit table, non-additive B19 pilot note, prior extraction calibration pilot, record-level reconstruction and Gate D retrieval inventory; the validated document/reconciliation commit is `0c4c02a`.
+
+## Gate D retrieval inventory
+
+- Retrieval inventory checked 296 provisional candidates through public Europe PMC metadata/full-text links, DOI routes and linked repository/Unpaywall routes on 23 September 2026.
+- 107 candidates have a legitimate free/open source URL recorded; these are not yet full-text eligibility decisions.
+- 24 candidates have a matched metadata or subscription-only route; no paywall or access control was bypassed.
+- 165 candidates remain unresolved or lack a stored PMID/DOI; title-based legitimate retrieval and/or manual library retrieval remains required.
+- Every candidate has `retrieval`, `full_text_status`, `eligibility_status` and `next_action` fields in `Workbench/56_SCREENING_RECONCILIATION.json`.
 
 ## Exact next actions
 
-1. Build and verify the 296-record full-text retrieval queue from the adjudicated record-level register. Keep the eight-record B19 retrieval/extraction pilot as a template only; do not add it again.
-3. Perform dual-review full-text eligibility assessment with explicit fixed exclusion reasons, legitimate retrieval-failure documentation, duplicate/dataset linkage checks and page/section evidence.
-4. Reconcile the final eligible report set, then run the extraction pilot, JBI/custom molecular appraisal, narrative certainty plan, SWiM synthesis and PRISMA/PRISMA-S/SWiM audit in that order.
-5. Preserve submission-stage wording until all gates are genuinely complete: no final included-study count, synthesis claim, certainty grade or PRISMA flow is supported yet.
+1. Open/download the 107 located free/open routes and record full-text evidence; document legitimate outcomes for the 24 metadata/subscription-only and 165 unresolved/missing-identifier records.
+2. Perform dual-review full-text eligibility assessment with explicit fixed exclusion reasons, legitimate retrieval-failure documentation, duplicate/dataset linkage checks and page/section evidence.
+3. Reconcile the final eligible report set, then run the extraction pilot, JBI/custom molecular appraisal, narrative certainty plan, SWiM synthesis and PRISMA/PRISMA-S/SWiM audit in that order.
+4. Preserve submission-stage wording until all gates are genuinely complete: no final included-study count, synthesis claim, certainty grade or PRISMA flow is supported yet.
 
 ## Frozen screening rules
 
