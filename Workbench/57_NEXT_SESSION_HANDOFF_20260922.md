@@ -36,7 +36,7 @@ Source reconciliation remains:
 
 `2,367 source rows → 1,877 provisional identity groups → 490 collapsed duplicates`.
 
-Committed document state through B12:
+Committed document state through B13:
 
 | Batch | Screened | Excluded | Retained for full text | Verification |
 |---|---:|---:|---:|---|
@@ -53,7 +53,8 @@ Committed document state through B12:
 | B10 | 100 | 91 | 9 | Seven disagreements retained conservatively |
 | B11 | 100 | 92 | 8 | Five disagreements retained conservatively |
 | B12 | 100 | 90 | 10 | Eight disagreements retained conservatively |
-| **Committed cumulative** | **1,240** | **1,049** | **191** | **637 identities unresolved** |
+| B13 | 100 | 90 | 10 | Five disagreements retained conservatively |
+| **Committed cumulative** | **1,340** | **1,139** | **201** | **537 identities unresolved** |
 
 ## Current state after committed B4
 
@@ -144,10 +145,20 @@ Batch B12 covers 100 records, `CAN-1181–CAN-1280`.
 - Committed cumulative status: 1,240 screened, 1,049 excluded, 191 provisional full-text candidates, 637 unresolved.
 - `Avian_review_paper_submission_ready.docx` contains the B4–B12 updates plus the retrieval-pilot note and is committed as `939c527`; ZIP/XML, `python-docx`, and LibreOffice rendering checks passed. The source manuscript remains unchanged.
 
+## Current state after committed B13
+
+Batch B13 covers 100 records, `CAN-1281–CAN-1380`.
+
+- R1 retained 8 and excluded 92; R2 retained 7 and excluded 93.
+- The reviewers differed on 5 records. Applying the conservative rule, all disagreement records were retained for full-text assessment.
+- Final B13 disposition: 10 provisional full-text candidates, 90 exclusions.
+- Committed cumulative status: 1,340 screened, 1,139 excluded, 201 provisional full-text candidates, 537 unresolved.
+- `Avian_review_paper_submission_ready.docx` contains the B4–B13 updates plus the retrieval-pilot note and is committed as `d6e00d5`; ZIP/XML, `python-docx`, and LibreOffice rendering checks passed. The source manuscript remains unchanged.
+
 ## Exact next actions
 
-1. Continue title/metadata screening in 100-record R1/R2 batches using the same conservative rules; Batch B13 is the next unresolved block after B12. Keep uncertain records in the full-text queue.
-2. Continue legitimate, targeted retrieval for the 191 provisional full-text candidates. Record full-text inclusion/exclusion reasons only after evidence is available.
+1. Continue title/metadata screening in 100-record R1/R2 batches using the same conservative rules; Batch B14 is the next unresolved block after B13. Keep uncertain records in the full-text queue.
+2. Continue legitimate, targeted retrieval for the 201 provisional full-text candidates. Record full-text inclusion/exclusion reasons only after evidence is available.
 3. Preserve the submission-stage wording: the document is not yet a final systematic-review manuscript.
 4. Do not start extraction, RoB, certainty, synthesis or final PRISMA reporting until full-text eligibility is reconciled.
 
