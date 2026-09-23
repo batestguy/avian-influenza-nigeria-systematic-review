@@ -16,7 +16,7 @@ The source manuscript `Avian_review_paper_fellow.docx` is frozen and must not be
 ## Current repository state
 
 - Branch: `main`, synchronized with `origin/main` after the B19 handoff push.
-- Latest committed screening document: `1283662 Document B19 full text retrieval pilot`.
+- Latest committed screening document: `44c1f9e Add full text extraction calibration pilot`.
 - Latest handoff commit: pending this update; previous screening handoff is `bd1e0eb`.
 - A user-owned untracked file, `25min-alternating-exercise.html`, was observed and left untouched. Do not add or delete it.
 - Pushes have been performed to the configured remote; do not alter the user-owned untracked HTML file.
@@ -218,8 +218,9 @@ Batch B19 closed the skipped canonical range `CAN-0241–CAN-0280` (40 records).
 - The reviewers differed on 2 records; both disagreements were retained conservatively.
 - Final B19 disposition: 8 provisional full-text candidates, 32 exclusions.
 - Committed cumulative status: 1,877 screened, 1,578 excluded, 299 provisional full-text candidates, 0 unresolved.
-- Title/metadata screening is complete for the full canonical register. `Avian_review_paper_submission_ready.docx` contains the B4–B19 updates plus the retrieval-pilot note and is committed as `0833d96`; ZIP/XML, `python-docx`, and LibreOffice rendering checks passed. The source manuscript remains unchanged.
-- A B19 full-text retrieval/eligibility pilot is now documented inside the Word deliverable and committed as `1283662`. Eight B19 candidates were checked against authoritative or open sources: CAN-0258 (Egypt-only) and CAN-0269 (review article) have evidence supporting provisional full-text exclusion; CAN-0243, CAN-0244, CAN-0246, CAN-0266 and CAN-0275 remain for full-text eligibility/extraction; CAN-0245 remains a dissertation-retrieval item. These are pilot dispositions, not final PRISMA inclusion counts.
+- Title/metadata screening is complete for the full canonical register. `Avian_review_paper_submission_ready.docx` contains the B4–B19 updates plus the retrieval-pilot note and is committed as `44c1f9e`; ZIP/XML, `python-docx`, and LibreOffice rendering checks passed. The source manuscript remains unchanged.
+- A B19 full-text retrieval/eligibility pilot is documented inside the Word deliverable. Eight B19 candidates were checked against authoritative or open sources: CAN-0258 (Egypt-only) and CAN-0269 (review article) have evidence supporting provisional full-text exclusion; CAN-0243, CAN-0244, CAN-0246, CAN-0266 and CAN-0275 remain for full-text eligibility/extraction; CAN-0245 remains a dissertation-retrieval item. These are pilot dispositions, not final PRISMA inclusion counts.
+- The Word deliverable also contains an extraction calibration pilot for CAN-0243, CAN-0244, CAN-0246, CAN-0266 and CAN-0275. Evidence levels are labelled (open full text, author manuscript, or abstract only); no RoB judgement or final synthesis claim has been assigned.
 
 ## Exact next actions
 
