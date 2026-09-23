@@ -17,7 +17,7 @@ The source manuscript `Avian_review_paper_fellow.docx` is frozen and must not be
 
 - Branch: `main`, synchronized with `origin/main` after the corrected B20 handoff push.
 - Latest committed screening document/reconciliation: `56233c4 Correct screening boundary and record B20 gap`.
-- Latest handoff commit: pending this update; previous screening handoff is `bc518a5`.
+- Latest handoff commit: `b3788d1` (`Record corrected B20 handoff`); previous screening handoff is `bc518a5`.
 - A user-owned untracked file, `25min-alternating-exercise.html`, was observed and left untouched. Do not add or delete it.
 - Pushes have been performed to the configured remote; do not alter the user-owned untracked HTML file.
 
