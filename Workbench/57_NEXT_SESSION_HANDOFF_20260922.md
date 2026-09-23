@@ -97,7 +97,8 @@ Batch B8 covers 100 records, `CAN-0781–CAN-0880`.
 - The reviewers differed on 4 records. Applying the conservative rule, all disagreement records were retained for full-text assessment.
 - Final B8 disposition: 10 provisional full-text candidates, 90 exclusions.
 - Committed cumulative status: 840 screened, 691 excluded, 149 provisional full-text candidates, 1,037 unresolved.
-- `Avian_review_paper_submission_ready.docx` contains the B4–B8 updates and is committed as `7ee9f37`; ZIP/XML, `python-docx`, and LibreOffice rendering checks passed. The source manuscript remains unchanged.
+- A targeted retrieval pilot located authoritative or open full-text/metadata sources for CAN-0782, CAN-0825, CAN-0835 and CAN-0846. These remain provisional pending formal full-text eligibility and extraction checks.
+- `Avian_review_paper_submission_ready.docx` contains the B4–B8 updates plus the retrieval-pilot note and is committed as `354406f`; ZIP/XML, `python-docx`, and LibreOffice rendering checks passed. The source manuscript remains unchanged.
 
 ## Exact next actions
 
