@@ -16,7 +16,7 @@ The source manuscript `Avian_review_paper_fellow.docx` is frozen and must not be
 ## Current repository state
 
 - Branch: `main`, synchronized with `origin/main` after the corrected B20 handoff push.
-- Latest committed screening document/reconciliation: `56233c4 Correct screening boundary and record B20 gap`.
+- Latest committed screening document/reconciliation: `1796d23 Complete record-level screening reconstruction`.
 - Latest handoff commit: `b3788d1` (`Record corrected B20 handoff`); previous screening handoff is `bc518a5`.
 - A user-owned untracked file, `25min-alternating-exercise.html`, was observed and left untouched. Do not add or delete it.
 - Pushes have been performed to the configured remote; do not alter the user-owned untracked HTML file.
@@ -25,8 +25,8 @@ The source manuscript `Avian_review_paper_fellow.docx` is frozen and must not be
 
 - Gate A/protocol: closed.
 - Gate B/search execution: closed with export limitations.
-- Gate C/unique-register coverage: complete at the aggregate denominator level for all 1,877 canonical identities; exact retained-ID reconstruction for earlier batches remains open.
-- Gates D onward — full text, extraction, RoB, certainty, synthesis and final reporting — not started; the 295-record full-text queue cannot be called auditable until earlier retained IDs are reconstructed.
+- Gate C/record-level title/metadata screening: complete for all 1,877 canonical identities; 296 provisional full-text candidates are recorded with R1/R2/adjudication fields.
+- Gates D onward — full text, extraction, RoB, certainty, synthesis and final reporting — not started.
 - PROSPERO was skipped; do not claim prospective registration.
 - Full-text inventory in the workspace currently contains no article PDFs; only the manuscript/output PDF is local. Retrieval must be targeted and legitimate; do not bypass paywalls or access controls.
 
@@ -61,7 +61,7 @@ Committed document state through B15:
 | B18 | 97 | 78 | 19 | Nine disagreements retained conservatively |
 | B19 | 40 | 0 new | 0 new | Duplicate-range audit of CAN-0241–CAN-0280; retrieval/extraction pilot only |
 | B20 | 40 | 36 | 4 | True uncovered gap CAN-0341–CAN-0380; one two-record swap adjudicated |
-| **Aggregate unique-register cumulative** | **1,877** | **1,582** | **295** | **Coverage complete; exact earlier retained-ID queue still requires reconstruction** |
+| **Record-level reconstructed cumulative** | **1,877** | **1,581** | **296** | **R1/R2 lists and conservative adjudication recorded; full-text eligibility pending** |
 
 ## Current state after committed B4
 
@@ -211,7 +211,7 @@ Batch B18 covers the final contiguous register range, `CAN-1781–CAN-1877` (97 
 - Aggregate status before B20: 1,837 screened, 1,546 excluded, 291 provisional full-text candidates. The actual unresolved canonical gap was `CAN-0341–CAN-0380`; the earlier B19 pass on `CAN-0241–CAN-0280` was duplicate-range work.
 - `Avian_review_paper_submission_ready.docx` contains the B4–B18 updates plus the retrieval-pilot note and is committed as `09cd968`; ZIP/XML, `python-docx`, and LibreOffice rendering checks passed. The source manuscript remains unchanged.
 
-## Corrected current state after B19 audit and B20
+## Corrected current state after B19 audit, B20 and record-level reconstruction
 
 The previous B19 label was corrected during this session. B19 screened `CAN-0241–CAN-0280`, a range already included in B3; it contributes zero new unique identities. Its eight-record retrieval/extraction pilot remains in the Word document as a method calibration and is not part of the canonical screening arithmetic.
 
@@ -221,14 +221,13 @@ Batch B20 screened the true uncovered range `CAN-0341–CAN-0380` (40 records).
 - R2 retained 4 (`CAN-0344`, `CAN-0356`, `CAN-0359`, `CAN-0379`) and excluded 36.
 - One two-record decision swap was adjudicated: `CAN-0345` was excluded after source verification found no Nigeria surveillance sites, while `CAN-0356` was retained because the primary geospatial analysis reports Nigerian H5N1 occurrence.
 - Final B20 disposition: 4 provisional full-text candidates and 36 exclusions.
-- Aggregate unique-register status: 1,877 screened, 1,582 excluded, 295 provisional full-text candidates.
-- The denominator is covered, but the exact retained-ID queue from earlier aggregate batches is not yet fully reconstructed. Do not start full-text retrieval from the number alone or claim a final PRISMA flow.
-- `Avian_review_paper_submission_ready.docx` contains the correction, the B20 audit table, the non-additive B19 pilot note and the prior extraction calibration pilot; the validated document/reconciliation commit is `56233c4`.
+- Record-level reconstructed status: 1,877 screened, 1,581 exclusions, 296 provisional full-text candidates.
+- Two independent title/metadata passes were completed across the full register in 100-record blocks. R1 retained 269 and R2 retained 277; the conservative union contained 302 before preserving the prior evidence-supported pilot/B20 adjudications. The final register records every R1/R2/adjudication field.
+- `Avian_review_paper_submission_ready.docx` contains the correction, B20 audit table, non-additive B19 pilot note, prior extraction calibration pilot and record-level reconstruction update; the validated document/reconciliation commit is `1796d23`.
 
 ## Exact next actions
 
-1. Reconstruct and independently verify the exact retained-ID queue for the earlier pilot/B1–B18 aggregate batches; preserve the distinction between aggregate counts and auditable record-level decisions.
-2. Build the corrected 295-record full-text retrieval queue from that verified ID set. Keep the eight-record B19 retrieval/extraction pilot as a template only; do not add it again.
+1. Build and verify the 296-record full-text retrieval queue from the adjudicated record-level register. Keep the eight-record B19 retrieval/extraction pilot as a template only; do not add it again.
 3. Perform dual-review full-text eligibility assessment with explicit fixed exclusion reasons, legitimate retrieval-failure documentation, duplicate/dataset linkage checks and page/section evidence.
 4. Reconcile the final eligible report set, then run the extraction pilot, JBI/custom molecular appraisal, narrative certainty plan, SWiM synthesis and PRISMA/PRISMA-S/SWiM audit in that order.
 5. Preserve submission-stage wording until all gates are genuinely complete: no final included-study count, synthesis claim, certainty grade or PRISMA flow is supported yet.
