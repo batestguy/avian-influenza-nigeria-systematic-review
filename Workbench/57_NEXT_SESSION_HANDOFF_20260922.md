@@ -1,6 +1,6 @@
 # Next-session handoff — Nigeria avian influenza systematic review
 
-**Prepared:** 22 September 2026  
+**Prepared:** 23 September 2026  
 **Purpose:** resume screening and document production without rediscovery, methodological drift, or accidental edits to the frozen source manuscript.
 
 ## Start here
@@ -15,17 +15,17 @@ The source manuscript `Avian_review_paper_fellow.docx` is frozen and must not be
 
 ## Current repository state
 
-- Branch: `main`, five local commits ahead of `origin/main`.
-- Latest committed screening document: `a9ed430 Record adjudicated screening batch B4`.
-- Previous commits: `9ad412c Record adjudicated screening batch B2`; `d4848d2 Advance systematic review screening status`.
+- Branch: `main`, synchronized with `origin/main` after the B19 handoff push.
+- Latest committed screening document: `0833d96 Complete canonical title metadata screening`.
+- Latest handoff commit: pending this update; previous screening handoff is `bd1e0eb`.
 - A user-owned untracked file, `25min-alternating-exercise.html`, was observed and left untouched. Do not add or delete it.
-- No push has been performed.
+- Pushes have been performed to the configured remote; do not alter the user-owned untracked HTML file.
 
 ## Review and search gates
 
 - Gate A/protocol: closed.
 - Gate B/search execution: closed with export limitations.
-- Gate C/title/metadata screening: open and progressing in independent R1/R2 batches.
+- Gate C/title/metadata screening: complete for all 1,877 canonical identities through independent R1/R2 batches and conservative adjudication.
 - Gates D onward — full text, extraction, RoB, certainty, synthesis and final reporting — not started.
 - PROSPERO was skipped; do not claim prospective registration.
 - Full-text inventory in the workspace currently contains no article PDFs; only the manuscript/output PDF is local. Retrieval must be targeted and legitimate; do not bypass paywalls or access controls.
@@ -59,7 +59,8 @@ Committed document state through B15:
 | B16 | 100 | 82 | 18 | Five disagreements retained conservatively |
 | B17 | 100 | 65 | 35 | Twelve disagreements retained conservatively |
 | B18 | 97 | 78 | 19 | Nine disagreements retained conservatively |
-| **Committed cumulative** | **1,837** | **1,546** | **291** | **40 identities unresolved from an earlier range gap** |
+| B19 | 40 | 32 | 8 | Two disagreements retained conservatively; range-gap closure |
+| **Committed cumulative** | **1,877** | **1,578** | **299** | **0 identities unresolved** |
 
 ## Current state after committed B4
 
@@ -209,12 +210,22 @@ Batch B18 covers the final contiguous register range, `CAN-1781–CAN-1877` (97 
 - Committed cumulative status: 1,837 screened, 1,546 excluded, 291 provisional full-text candidates, with 40 identities unresolved from the earlier `CAN-0241–CAN-0280` range gap.
 - `Avian_review_paper_submission_ready.docx` contains the B4–B18 updates plus the retrieval-pilot note and is committed as `09cd968`; ZIP/XML, `python-docx`, and LibreOffice rendering checks passed. The source manuscript remains unchanged.
 
+## Current state after committed B19
+
+Batch B19 closed the skipped canonical range `CAN-0241–CAN-0280` (40 records).
+
+- R1 retained 7 and excluded 33; R2 retained 7 and excluded 33.
+- The reviewers differed on 2 records; both disagreements were retained conservatively.
+- Final B19 disposition: 8 provisional full-text candidates, 32 exclusions.
+- Committed cumulative status: 1,877 screened, 1,578 excluded, 299 provisional full-text candidates, 0 unresolved.
+- Title/metadata screening is complete for the full canonical register. `Avian_review_paper_submission_ready.docx` contains the B4–B19 updates plus the retrieval-pilot note and is committed as `0833d96`; ZIP/XML, `python-docx`, and LibreOffice rendering checks passed. The source manuscript remains unchanged.
+
 ## Exact next actions
 
-1. Screen the skipped canonical range `CAN-0241–CAN-0280` as Batch B19 (40 records) with independent R1/R2 passes; keep uncertain records in the full-text queue.
-2. Continue legitimate, targeted retrieval for the 291 provisional full-text candidates. Record full-text inclusion/exclusion reasons only after evidence is available.
-3. Preserve the submission-stage wording: the document is not yet a final systematic-review manuscript.
-4. Do not start extraction, RoB, certainty, synthesis or final PRISMA reporting until full-text eligibility is reconciled.
+1. Build the 299-record full-text retrieval queue from the adjudicated title/metadata retains; retrieve legitimate full texts or record a documented retrieval failure.
+2. Perform dual-review full-text eligibility assessment with explicit exclusion reasons, duplicate/dataset linkage checks, and no final inclusion claim before evidence is available.
+3. Run the extraction pilot only after full-text eligibility is reconciled; then apply the JBI/custom molecular appraisal and narrative certainty plan.
+4. Preserve the submission-stage wording: the document is not yet a final systematic-review manuscript, and do not write final PRISMA/SWiM results until full-text and extraction gates are complete.
 
 ## Frozen screening rules
 
