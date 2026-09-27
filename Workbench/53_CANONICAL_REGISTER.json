@@ -312,7 +312,13 @@
           "reason": "aggregate/raw vote not safely remappable to this canonical identity"
         }
       ],
-      "final_status": "not_final_full_text_not_done"
+      "final_status": "not_final_full_text_not_done",
+      "report_linkage": {
+        "related_canonical_id": "CAN-0204",
+        "state": "probable_same_dataset",
+        "basis": "Kaduna 2014 wild-bird serology; Bulletin article and IJID conference abstract share title and 157 birds; verify sample dates.",
+        "checked": "2026-09-26"
+      }
     },
     {
       "canonical_id": "CAN-0009",
@@ -1919,7 +1925,13 @@
           "reason": "aggregate/raw vote not safely remappable to this canonical identity"
         }
       ],
-      "final_status": "not_final_full_text_not_done"
+      "final_status": "not_final_full_text_not_done",
+      "report_linkage": {
+        "related_canonical_id": "CAN-1446",
+        "state": "confirmed_same_report",
+        "basis": "Identical Monne et al. 2008 EID 14(4):637?640; DOI 10.3201/eid1404.071178; PMID 18394282; PMC2570913.",
+        "checked": "2026-09-26"
+      }
     },
     {
       "canonical_id": "CAN-0057",
@@ -7869,7 +7881,13 @@
           "reason": "aggregate/raw vote not safely remappable to this canonical identity"
         }
       ],
-      "final_status": "not_final_full_text_not_done"
+      "final_status": "not_final_full_text_not_done",
+      "report_linkage": {
+        "related_canonical_id": "CAN-0008",
+        "state": "probable_same_dataset",
+        "basis": "Kaduna 2014 wild-bird serology; Bulletin article and IJID conference abstract share title and 157 birds; verify sample dates.",
+        "checked": "2026-09-26"
+      }
     },
     {
       "canonical_id": "CAN-0205",
@@ -44735,7 +44753,13 @@
           "reason": "aggregate/raw vote not safely remappable to this canonical identity"
         }
       ],
-      "final_status": "not_final_full_text_not_done"
+      "final_status": "not_final_full_text_not_done",
+      "report_linkage": {
+        "related_canonical_id": "CAN-1179",
+        "state": "possible_same_report",
+        "basis": "Identical 2010 peafowl title, distinct ResNote and Digest DOI suffixes; verify case identity.",
+        "checked": "2026-09-26"
+      }
     },
     {
       "canonical_id": "CAN-1153",
@@ -45713,7 +45737,13 @@
           "reason": "aggregate/raw vote not safely remappable to this canonical identity"
         }
       ],
-      "final_status": "not_final_full_text_not_done"
+      "final_status": "not_final_full_text_not_done",
+      "report_linkage": {
+        "related_canonical_id": "CAN-1152",
+        "state": "possible_same_report",
+        "basis": "Identical 2010 peafowl title, distinct ResNote and Digest DOI suffixes; verify case identity.",
+        "checked": "2026-09-26"
+      }
     },
     {
       "canonical_id": "CAN-1180",
@@ -49808,7 +49838,13 @@
           "reason": "aggregate/raw vote not safely remappable to this canonical identity"
         }
       ],
-      "final_status": "not_final_full_text_not_done"
+      "final_status": "not_final_full_text_not_done",
+      "report_linkage": {
+        "related_canonical_id": "CAN-1602",
+        "state": "probable_preprint_published_pair",
+        "basis": "2023 Nigeria H5 genomic analysis; preprint and final Viruses article; compare accession lists.",
+        "checked": "2026-09-26"
+      }
     },
     {
       "canonical_id": "CAN-1292",
@@ -55709,7 +55745,13 @@
           "reason": "aggregate/raw vote not safely remappable to this canonical identity"
         }
       ],
-      "final_status": "not_final_full_text_not_done"
+      "final_status": "not_final_full_text_not_done",
+      "report_linkage": {
+        "related_canonical_id": "CAN-0056",
+        "state": "confirmed_same_report",
+        "basis": "Identical Monne et al. 2008 EID 14(4):637?640; DOI 10.3201/eid1404.071178; PMID 18394282; PMC2570913.",
+        "checked": "2026-09-26"
+      }
     },
     {
       "canonical_id": "CAN-1447",
@@ -61917,7 +61959,13 @@
           "reason": "aggregate/raw vote not safely remappable to this canonical identity"
         }
       ],
-      "final_status": "not_final_full_text_not_done"
+      "final_status": "not_final_full_text_not_done",
+      "report_linkage": {
+        "related_canonical_id": "CAN-1291",
+        "state": "probable_preprint_published_pair",
+        "basis": "2023 Nigeria H5 genomic analysis; preprint and final Viruses article; compare accession lists.",
+        "checked": "2026-09-26"
+      }
     },
     {
       "canonical_id": "CAN-1603",
@@ -67145,7 +67193,7 @@
     {
       "canonical_id": "CAN-1734",
       "title": "Detection of antibodies to H5 and H9 subtypes of influenza viruses in wild birds in Zaria, Nigeria",
-      "year": "2022",
+      "year": "2021",
       "doi": "104314sokjvsv19i42",
       "pmid": null,
       "all_dois": [
@@ -67184,7 +67232,13 @@
           "reason": "AJOL retrieval candidate imported 2026-09-20; substantive screening not performed"
         }
       ],
-      "final_status": "not_final_full_text_not_done"
+      "final_status": "not_final_full_text_not_done",
+      "year_correction": {
+        "checked": "2026-09-26",
+        "from": "2022",
+        "to": "2021",
+        "basis": "Original Sokoto Journal of Veterinary Sciences issue 19(4), pp.160?165 is dated 2021; AJOL source metadata agrees."
+      }
     },
     {
       "canonical_id": "CAN-1735",

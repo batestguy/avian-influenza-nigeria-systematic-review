@@ -18,6 +18,13 @@ Log: record ID, voter, vote, date. Conflicts resolved by discussion → arbiter.
 
 - non-Nigeria no Nigeria-data
 - non-AIV
+- no laboratory-confirmed avian AIV (operational reason-label clarification, 2026-09-26: use for
+  avian field surveillance with no positive laboratory-confirmed AIV result; the frozen protocol
+  already requires laboratory confirmation, and a negative-only sample cannot establish subtype,
+  clade or circulation)
+- no avian-host field data (operational reason-label clarification, 2026-09-24: the frozen
+  protocol already requires lab-confirmed AIV data in avian hosts; use for human- or mammal-only
+  data, not for a report with extractable avian data)
 - no epi/molecular/spatial-temporal data
 - no primary data
 - experimental only no field relevance

@@ -1,4 +1,139 @@
-# Next-session handoff — Nigeria avian influenza systematic review
+# Next-session handoff - Nigeria avian influenza systematic review
+## Latest handoff - 27 September 2026 (fourth batch)
+
+The controlling record is `Workbench/56_SCREENING_RECONCILIATION.json`.
+
+- **Gate state:** 1,877 title/metadata identities; 1,581 excluded and 296 advanced to full text. Independent R1/R2 and main adjudication are complete for **170 reports (92 provisional retain; 78 exclude)**. **126 remain open (125 unassessed; CAN-1627 seek further info)**. These are report counts, not final studies or PRISMA counts.
+- **Completed:** CAN-0244, CAN-0282, CAN-0329 and CAN-0330 provisionally retained; CAN-0416, CAN-0483, CAN-0485, CAN-0499 and CAN-0570 excluded. Original source URLs, two reviewer observations, fixed reasons and 23 other failed/abstract-only access routes are in file 56. CAN-0215 remains unassessed because the publisher URL returned 403 and snippets did not establish a full-text Nigeria-specific result. CAN-0541 remains unassessed pending independently verified matching full text.
+- **Resume:** assess 125 unassessed original publications, resolve CAN-1627's laboratory evidence, and match reports, outbreak line lists and sequence accessions before final study count. Do not infer full-text eligibility from abstracts, snippets, or different papers. No author contact occurred; the frozen unretrievable rule still requires two attempts plus author contact.
+- **Manuscript:** original `.docx` remains frozen and unedited. No extraction pilot, RoB or SWiM synthesis started.
+
+## Previous handoff - 27 September 2026 (third batch)
+
+The controlling record is `Workbench/56_SCREENING_RECONCILIATION.json`.
+
+- **Gate state:** 1,877 title/metadata identities; 1,581 excluded and 296 advanced to full text. Independent R1/R2 and main adjudication are complete for **161 reports (88 provisional retain; 73 exclude)**. Another **135 candidates remain open (134 unassessed; CAN-1627 seek further info)**. These are report counts, not final studies or PRISMA counts.
+- **Completed:** CAN-0070 and CAN-0129 provisionally retained from original texts; CAN-0097 excluded for no Nigerian data; CAN-0187 excluded for no primary data. Eleven other records gained documented access attempts. CAN-0207's accessible 2021 JALSI article is a different publication from the indexed 2016 IJID record, so CAN-0207 remains unassessed. Conference abstracts CAN-0204/0205/0206 also remain unassessed pending matching full publication. Reviewer evidence, URLs and overlap cautions are in file 56.
+- **Resume:** verify original full text and independently screen the 134 unassessed candidates; resolve CAN-1627 against an explicit laboratory source. Match report versions, outbreak line lists and sequence accessions before final study counting. No author contact occurred; do not invoke unretrievable exclusion without the frozen two-attempt-plus-author-contact process.
+- **Manuscript:** original `.docx` remains frozen and unedited. No extraction pilot, RoB or SWiM synthesis started.
+
+## Previous handoff - 27 September 2026 (second batch)
+
+This checkpoint supersedes historical sections below. The controlling record is `Workbench/56_SCREENING_RECONCILIATION.json`.
+
+- **Gate state:** 1,877 title/metadata identities; 1,581 excluded and 296 advanced to full text. Independent R1/R2 and main adjudication are complete for **157 reports (86 provisional retains; 71 exclusions)**. Another **139 candidates remain open (138 unassessed; CAN-1627 seek further info)**. These are report counts, not final studies or PRISMA counts.
+- **Completed:** six original full texts provisionally retained (CAN-0031, CAN-0033, CAN-0053, CAN-0058, CAN-0065, CAN-0066); CAN-0046 and CAN-0063 excluded. CAN-0033 is a secondary Nigerian-sequence reanalysis, not new isolate collection. CAN-0063's seasonal human influenza antigens do not establish AIV. CAN-0053 subtype attribution and CAN-0065 arithmetic need extraction QA. Full reviewer evidence, original URLs and adjudication are in file 56.
+- **Resume:** independently screen the 138 unassessed candidates from verified original full texts. Seventeen of the latest 25 searched records remain unassessed after access leads or failed routes; do not infer eligibility from abstracts. Resolve CAN-1627 against an explicit laboratory source and report/dataset overlaps before study counting. Unretrievable exclusion still requires the frozen two-attempt-plus-author-contact process; no author contact has occurred.
+- **Manuscript:** original `.docx` remains frozen and unedited. No extraction pilot, RoB or SWiM synthesis started.
+
+## Previous handoff - 27 September 2026
+
+This checkpoint supersedes historical sections below. The controlling file is `Workbench/56_SCREENING_RECONCILIATION.json`.
+
+- **End-of-session update:** a second independent R1/R2 batch added CAN-1347, CAN-1501, CAN-1637 and CAN-1737 as provisional retains. Counts now stand at **149 adjudicated (80 provisional retain; 69 exclude)** and **147 open (146 unassessed; CAN-1627 seek further info)**. CAN-1731 and CAN-1870 are among the 146 unassessed because the original PDFs did not open through attempted routes. CAN-1737 was retained after an R1/R2 disagreement: file 10 explicitly permits positive avian serology with a stated assay; record exposure only. Details and source URLs are in file 56 and the top of file 15.
+- **Gate state:** 1,877 title/metadata identities; 1,581 excluded and 296 advanced to full text. Independent R1/R2 plus main-agent adjudication is complete for 149 reports: 80 provisional retains and 69 exclusions. Another 147 candidates remain open: 146 have no full-text assessment, and CAN-1627 has concordant `seek_further_info` votes because its Ogun surveillance totals lack explicit positive laboratory confirmation. These are report counts, not a final included-study or PRISMA count.
+- **Completed 27 September:** original full texts and independent votes provisionally retained CAN-0147, CAN-0744, CAN-0745, CAN-0746 and CAN-1630. Original URLs, section evidence and assay cautions are recorded in file 56 and summarised at the top of file 15. Five additional records (CAN-0129, CAN-0189, CAN-0089, CAN-0006, CAN-0017) had legitimate access attempts but no original full text opened; they remain pending.
+- **Resume:** assess the 146 untouched full-text candidates with original publisher, author-posted or repository copies, independent R1/R2 votes and main adjudication. Resolve CAN-1627 against laboratory source records. Reconcile confirmed report/version and surveillance-dataset overlap before any final included-study count or extraction pilot. Do not turn abstracts or blocked links into full-text votes. The frozen unretrievable rule still requires two attempts plus author contact; no author contact has occurred.
+- **Manuscript:** original `.docx` remains frozen and unedited. No extraction pilot, RoB or SWiM synthesis started.
+
+## Latest handoff - 26 September 2026
+This checkpoint supersedes historical sections below. The controlling record is `Workbench/56_SCREENING_RECONCILIATION.json`.
+
+- **Gate state:** 1,877 title/metadata identities, of which 1,581 were excluded and 296 advanced to full text. There are 140 independently adjudicated full-text reports (71 provisional retain; 69 exclude), with 156 still without full-text assessment. Thus 296 = 140 + 156. No first-pass report is awaiting R2. These are report-level numbers, not a final included-study count. The original `.docx` remains frozen and unedited.
+- **Today:** closed independent R2 and main adjudication for 132 new reports on top of eight prior adjudications. The final 22 R2 full-text decisions were ten retain and twelve exclude. CAN-0423's original accepted manuscript was opened through the versioned HAL URL; R1/R2 both retained its Nigerian avian laboratory data. CAN-0146 was newly assessed and retained from the University of Ilorin original PDF. CAN-0113 was corrected to exclude after avian-host laboratory criterion QA, with history preserved. CAN-1734's year was corrected to 2021.
+- **Identity and data overlap:** CAN-0056/CAN-1446 are confirmed the same report; CAN-0056 was excluded as a duplicate at full text but the title-identity denominator remains 1,877 pending formal PRISMA deduplication. CAN-0008/CAN-0204, CAN-1291/CAN-1602, and CAN-1152/CAN-1179 remain possible report/version pairs. Surveillance, sequence and serosurvey reports require accession, sampling-period, site and event-line-list matching before study-level synthesis counts.
+- **Access gate:** 156 candidates still need original full-text assessment. Record publisher, repository and alternate legitimate routes. Metadata/abstract snippets cannot substitute for a full-text vote. Do not use the unretrievable exclusion reason before two documented attempts and author contact; no author contact has been made.
+- **Ordered next work:** (1) retrieve and independently R1/R2 screen the 156 remaining candidates; (2) resolve report identity and dataset overlaps; (3) pilot extraction T1?T5, then RoB, SWiM synthesis and manuscript reporting. Keep serology, infection, subtype, clade, reassortment and introduction distinct.
+- **Validation:** JSON parses; 1,877 unique IDs; 296 = 140 + 156; 71 + 69 = 140; all 69 adjudicated exclusions have a fixed reason. No repository preflight/build script exists.
+
+### Session closed: resume from this point
+
+- Resume directly from the **156 records whose `final_status` is `provisional_full_text_candidate` and which lack `full_text_eligibility`** in the controlling register. Do not repeat the 140 completed R1/R2 adjudications. The 2026-09-23 retrieval-category counts are historical access leads, not current eligibility totals.
+- Start with original publisher or repository full texts already located in each record's `retrieval` field. Next revisit access-pending leads including CAN-0330's abstract-only publisher page, CAN-1291's probable preprint/published pair with CAN-1602, and the remaining AJOL-linked candidates. Record each legitimate access attempt; do not turn an abstract or a blocked link into a full-text exclusion.
+- For each newly opened report, record independent R1 and R2 decisions, page or section evidence, an exact source URL, and one fixed reason for any exclusion. Main-agent adjudication follows the independent votes. Keep report-level eligibility separate from study-level counting and preserve the original paper as a single frozen `.docx`.
+- The remaining access process may require institutional PDFs or author contact. No author contact or external message was sent this session. Obtain explicit user authorization before contacting authors; record the frozen two-attempt-plus-author-contact process before any unretrievable exclusion.
+- After the 156 eligibility decisions and report/data overlaps are resolved, proceed in order to the T1-T5 extraction pilot, RoB, SWiM synthesis and reporting. No extraction or manuscript edit started this session.
+
+## Current handoff — 24 September 2026
+This section supersedes the 23 September snapshot preserved below. The controlling sources are
+`Workbench/56_SCREENING_RECONCILIATION.json` for record-level decisions and retrieval attempts,
+and the dated section at the top of `Workbench/15_RUN_LOG.md` for proceedings.
+
+### Verified gate state
+- 1,877 unique canonical records have title/metadata dispositions: 296 retained for full-text
+  assessment and 1,581 excluded at that stage. Of the 296, **107 have full-text eligibility
+  assessments**: eight earlier two-reviewer adjudications (five provisionally eligible, three
+  excluded) and 99 first-pass assessments awaiting independent second review. **189 remain
+  unassessed**. Do not use the historical 288-pending figure below.
+- Retrieval categories in the register are 107 recorded free routes, 24 metadata or subscription
+  only, 122 identifier unresolved, and 35 identifier missing; the remaining eight are the earlier
+  adjudicated reports. A free route is an access lead, not an eligibility decision.
+- No final included-study count, final PRISMA full-text exclusion tally, extraction pilot, RoB,
+  certainty judgement, synthesis, or manuscript reporting update is supportable yet. The original
+  `Avian_review_paper_fellow.docx` is frozen; `Avian_review_paper_submission_ready.docx` remains
+  the provisional working output and was not edited this session.
+- No independent second-review decision was fabricated for the 99 new first-pass records. The
+  protocol's independent-review requirement remains open despite the user's delegation of the
+  screening work. Preserve the existing eight adjudications as recorded.
+
+### Work completed this session
+- Eight first-pass assessments were added with source URL and page/section evidence:
+  `CAN-0056` (2007 Nigerian H5N1 genomes and 2:6 reassortment), `CAN-0039` (17 turkey-flock
+  submissions and reused NVRI outbreak map), `CAN-0025` (2015 resurgence; author-posted Results,
+  publisher PDF returned 403), `CAN-1724` (32 affected/32 unaffected Kano farms; reported effect
+  estimates need QA), `CAN-0007` (Jigawa H5 serology, 396 birds), `CAN-0008` (Kaduna wild-bird
+  influenza A serology, H5/H7 and PCR negative), `CAN-0339` (113 H5N1-affected poultry farms and
+  road proximity), and `CAN-1678` (northern Nigeria FAO interviews plus FAO/OIE outbreak maps).
+  All eight are **first-pass retain**, subject to second review and dataset reconciliation; none
+  is a final included study. Exact evidence and cautions are in each register record.
+- Original journal PDFs were read for all above except `CAN-0025`, whose author-posted article
+  text supplied Results evidence while the AJOL PDF returned 403. For `CAN-0007`/`CAN-0008`,
+  African Union DSpace `/server/api/core/bitstreams/{id}/content` supplied the original issue PDFs.
+  Cambridge and Geospatial Health publisher PDFs opened through the R document reader although
+  browser fetches had failed. URLs are stored in the register and run log.
+- Additional legitimate retrieval attempts were logged for `CAN-0007`, `CAN-0008`, `CAN-0017`,
+  `CAN-0032`, and `CAN-0061`; unsuccessful routes remain documented. Four previously recorded
+  free routes still need verified full text: `CAN-0191` (ScienceDirect 403), `CAN-0423`
+  (Taylor & Francis PDF unavailable), `CAN-0485` (Oxford/CiteSeerX PDF unavailable), and
+  `CAN-1610` (MDPI 429 and Europe PMC blocked). Do not mark them excluded for retrieval failure
+  until the frozen two-attempt-plus-author-contact rule is satisfied.
+- Dataset-overlap watchlists now cover 2006–2009 national outbreak line lists (`CAN-0039`,
+  `CAN-0025`, `CAN-0339`, `CAN-1678` added), 2006–2008 genomes (`CAN-0056` added), the
+  Métras conference/journal reports (`CAN-0061`/`CAN-0608`) with `CAN-1724` as a possible
+  separate Kano sample, and the Aiki-Raji 2007 conference abstract (`CAN-0032`) versus the
+  2008 full article DOI `10.3201/eid1411.080557`. These are hypotheses for accession,
+  farm-ID, date, site, and author comparison; no duplicate exclusion has been declared.
+- The screening form now labels human- or mammal-only data `no avian-host field data`, already
+  implied by the frozen inclusion rule. Four provisional exclusions use that code; `CAN-1720`
+  uses experimental-only/no-field-relevance. Five prior placeholder reasons are resolved, and
+  all still await independent second review. This is a reason-label clarification, not a new
+  eligibility criterion.
+
+### Resume in this order
+1. Validate the 296-candidate denominator against the register, then continue first-pass
+   assessment of the four unverified free routes and other unresolved titles. Record authentic
+   full-text source, page or section, decision, one fixed exclusion reason if applicable, and
+   every failed retrieval attempt. Search original publisher/repository copies before treating
+   index snippets as full text.
+2. Obtain an independent second decision for each of the 99 first-pass records; adjudicate
+   disagreements without relabelling a same-agent reread as independent. Keep 189 pending until
+   their full text is assessed or a legitimate unretrievable determination is complete.
+3. Match isolate accessions, sampling periods/sites, farm IDs and outbreak line lists within the
+   overlap watchlists before counting studies. Separate report-level eligibility from study-level
+   synthesis counts.
+4. Only after eligibility and overlaps are resolved, pilot the existing T1–T5 extraction shells
+   in `Workbench/20_EXTRACTION_T1_T5_shells.md`; then follow the frozen RoB/SWiM/reporting order.
+   Do not infer clade, pathogenicity, or introduction from a subtype or antibody result.
+
+### Reproducibility and validation
+- No repository preflight/setup script exists. The register was parsed after editing: 1,877
+  records with 1,877 unique IDs, 296 candidates, 107 assessed and 189 pending; the last
+  verification also found zero assessed exclusion recommendations lacking a fixed reason.
+- Terminal `exec_command` failed with `helper_unknown_error: setup refresh had errors`.
+  `mcp__rmcp__execute_r_analysis` could read/write the JSON and read publisher PDFs through
+  in-memory `url(..., 'rb')` + `readBin` + `pdftools::pdf_text`. `pdftools` was approved for this
+  analysis session only; a later session may need to approve it again. Browser fetch errors
+  should not be mistaken for proof that a source is unavailable through all legitimate routes.
 
 **Prepared:** 23 September 2026  
 **Purpose:** resume screening and document production without rediscovery, methodological drift, or accidental edits to the frozen source manuscript.
