@@ -1,5 +1,24 @@
 # Next-session handoff - Nigeria avian influenza systematic review
-## Latest handoff - 27 September 2026 (fourth batch)
+## Latest handoff - 27 September 2026 (session paused mid-retrieval)
+
+The controlling record is still `Workbench/56_SCREENING_RECONCILIATION.json`. **Its eligibility counts are unchanged:** 296 full-text candidates; 170 adjudicated (92 provisional retain; 78 exclude); 126 open.
+
+- **Committed this session:** batches 2-4 (`dd30a10`); `full_text_status` normalised to match `final_status` for 28 records (`8d68ad2`). The register now shows 92 `full_text_eligible_provisional`, 78 `full_text_excluded`, and 126 candidates in retrieval states (84 identifier unresolved, 20 identifier missing, 18 metadata/subscription only, 4 free route located).
+- **Protocol amendments logged in file 15 (27 Sept):** MAJOR, by user decision for deadline reasons. There is **no author contact and no waiting period.** Reports without verified full text after (a) a legal open-access sweep and (b) one time-boxed ATBU institutional-access attempt go to PRISMA "reports not retrieved". They are not content exclusions, and Methods/Limitations must state the deviation. MINOR: R1 = executor agent (Claude Opus 5.5) and R2 = a separate reviewer agent (Claude Sonnet 5), blind to R1; the main session adjudicates.
+- **Retrieval policy:** only legal routes are allowed. The user asked about Sci-Hub; it was declined and **must not be used or claimed** in the Methods. The user agreed to the honest route. Routes in scope are Crossref, OpenAlex (all locations), Europe PMC/PMC, PubMed, Semantic Scholar, Unpaywall (all oa_locations), CORE, BASE, Internet Archive Scholar/Wayback, preprint servers, Nigerian university and FAO/WOAH/CGIAR repositories, AJOL/Nigerian journals, directly downloadable author uploads (no requests), and thesis repositories.
+- **Retrieval sweep was stopped partway** (usage limit). It did **not** write to file 56. Its outputs are saved outside the repo at `D:\AvianInfluenzaSysRev_retrieval_20260927\`:
+  - `fulltext/`: 32 candidate full texts, **not yet verified** as the correct publication: CAN-0006 CAN-0020 CAN-0055 CAN-0060 CAN-0071 CAN-0541 CAN-0630 CAN-0648 CAN-0943 CAN-0946 CAN-0947 CAN-0948 CAN-1033 CAN-1152 CAN-1296 CAN-1346 CAN-1416 CAN-1502 CAN-1627 CAN-1666 CAN-1667 CAN-1672 CAN-1710 CAN-1711 CAN-1712 CAN-1713 CAN-1714 CAN-1715 CAN-1745 CAN-1796 CAN-1817 CAN-1875.
+  - `fulltext/_rejected/`: downloads that failed the identity check (CAN-0032, 0047, 0061, 0062, 0064, 0580, 0646, 1033, 1121, 1502, 1745 variants).
+  - `work/`: `resolve.json` (identifier resolution), `attempts.json` (route log), `extra_urls.json`, `manual*.json`, and logs. The scripts (`common.py`, `resolve.py`, `discover2.py`, `fetch2.py`) sit at the folder root.
+- **Resume in this order:**
+  1. Verify the 32 candidates: title, first author, year and journal must match, with a Methods/Results body present. Write verified items and all attempts from `work/attempts.json` into each record's `retrieval` field (`fulltext_obtained`, `retrieval_attempts` dated 2026-09-27). Set `full_text_status` to `retrieval_fulltext_obtained_pending_screening`. Do not change `final_status`.
+  2. Finish the sweep for the remaining ~94 open records using the routes above. Record the publisher URL for paywalled items.
+  3. Give the user the paywalled list for one ATBU attempt: "Access through your institution", campus Wi-Fi, or the Research4Life login from the library.
+  4. Screen retrieved texts with independent R1/R2 votes plus main adjudication, in batches. Resolve CAN-1627's laboratory evidence (a candidate file exists).
+  5. Mark the remainder "not retrieved". Resolve report/dataset overlaps, then count studies. Then run the extraction pilot, RoB, SWiM, the manuscript update (working copy only; the original `.docx` stays frozen), and the PRISMA/PRISMA-S/SWiM audit.
+- **Manuscript:** unedited. No extraction, RoB or synthesis has started.
+
+## Previous handoff - 27 September 2026 (fourth batch)
 
 The controlling record is `Workbench/56_SCREENING_RECONCILIATION.json`.
 
