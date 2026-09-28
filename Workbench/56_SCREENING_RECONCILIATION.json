@@ -468,7 +468,7 @@
         "AJOL:nvj:163887"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "provisional_full_text_candidate",
+      "final_status": "provisional_full_text_eligible",
       "vote_disposition": [
         {
           "source": "OpenAlex/Crossref",
@@ -497,7 +497,7 @@
         "reviewer": "main-agent",
         "basis": "preserved prior adjudicated pilot decision"
       },
-      "full_text_status": "retrieval_fulltext_obtained_pending_screening",
+      "full_text_status": "full_text_eligible_provisional",
       "retrieval": {
         "checked": "2026-09-23",
         "route": "Europe PMC public metadata/full-text-link service",
@@ -510,8 +510,8 @@
         "free_full_text_sources": [],
         "error": null,
         "retrieval_status": "retrieval_fulltext_obtained",
-        "eligibility_status": "not_assessed",
-        "next_action": "Independent R1/R2 full-text eligibility vote, then main adjudication.",
+        "eligibility_status": "assessed",
+        "next_action": "Extraction (report/dataset overlap check first).",
         "retrieval_attempts": [
           {
             "date": "2026-09-26",
@@ -545,6 +545,34 @@
           "identity_verified": true,
           "verification": "Identity verified 2026-09-28: title, authors, year/volume and journal match the register record; body text with methods/results (or review/case-report structure) present. Scanned PDF without text layer; verified by Tesseract OCR (OCR text kept beside PDF). Prior visual note: Visual check of scanned publisher PDF (text layer absent): p.1 title, authors Adamu H.U., Balami A.G., Abdu P.A., Nigerian Veterinary Journal 38(1) March 2017 pp.69-77 match record; p.4 shows Methods (ELISA, HI) and Results sections.",
           "pages": 9
+        }
+      },
+      "full_text_eligibility": {
+        "checked": "2026-09-28",
+        "reviewer_1": {
+          "decision": "retain",
+          "reason_code": null,
+          "evidence": "Summary/Methods: 195 wild birds (egrets, buffalo weavers, laughing doves, speckled pigeons) from Kano wild live-bird market; sera AI-antibody ELISA, oropharyngeal/cloacal swabs AI-antigen ELISA. Results/Table II: AI antigen 4/50 speckled pigeons (8%), overall 1.96%; AI antibodies 0%.",
+          "source_url": "https://www.ajol.info/index.php/nvj/article/download/163887/153352",
+          "method": "independent R1 (executor agent, Claude Opus 5.5) full-text review of locally retrieved verified copy; reported to main agent 2026-09-28",
+          "caution": "Wild-bird finding. Antigen-capture ELISA only: no PCR, no subtype, no HPAI/LPAI distinction. Table II denominator is 204 swabs vs 195 birds."
+        },
+        "reviewer_2": {
+          "decision": "retain",
+          "reason_code": null,
+          "evidence": "ELISA screen of 204 wild-bird swabs (ID.vet kit) found AI antigen in 4/50 speckled pigeons (8%; overall 1.96%), Kano live wild-bird market; antibody 0% by ELISA.",
+          "source_url": "https://www.ajol.info/index.php/nvj/article/download/163887/153352",
+          "method": "independent R2 (reviewer agent, Claude Sonnet 5, blind to R1) full-text review of locally retrieved verified copy; reported to main agent 2026-09-28",
+          "caution": "No molecular/clade data; only antigen-ELISA positivity in wild birds reported."
+        },
+        "adjudication": {
+          "decision": "retain",
+          "reason_code": null,
+          "reviewer": "main-agent",
+          "basis": "Concordant independent full-text review.",
+          "source_url": "https://www.ajol.info/index.php/nvj/article/download/163887/153352",
+          "checked": "2026-09-28",
+          "caution": "Wild-bird finding. Antigen-capture ELISA only: no PCR, no subtype, no HPAI/LPAI distinction. Table II denominator is 204 swabs vs 195 birds. No molecular/clade data; only antigen-ELISA positivity in wild birds reported."
         }
       }
     },
@@ -1371,7 +1399,7 @@
         "OpenAlex/Crossref:486"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "provisional_full_text_candidate",
+      "final_status": "full_text_excluded",
       "vote_disposition": [
         {
           "source": "OpenAlex/Crossref",
@@ -1395,7 +1423,7 @@
         "reviewer": "main-agent",
         "basis": "fresh independent R1/R2 reconstruction; conservative union"
       },
-      "full_text_status": "retrieval_fulltext_obtained_pending_screening",
+      "full_text_status": "full_text_excluded",
       "retrieval": {
         "checked": "2026-09-23",
         "route": "Europe PMC public metadata/full-text-link service",
@@ -1408,8 +1436,8 @@
         "free_full_text_sources": [],
         "error": null,
         "retrieval_status": "retrieval_fulltext_obtained",
-        "eligibility_status": "not_assessed",
-        "next_action": "Independent R1/R2 full-text eligibility vote, then main adjudication.",
+        "eligibility_status": "assessed",
+        "next_action": "None (excluded at full text).",
         "retrieval_attempts": [
           {
             "date": "2026-09-27",
@@ -1467,6 +1495,34 @@
           "identity_verified": true,
           "verification": "Identity verified 2026-09-28: title, authors, year/volume and journal match the register record; body text with methods/results (or review/case-report structure) present.",
           "pages": 5
+        }
+      },
+      "full_text_eligibility": {
+        "checked": "2026-09-28",
+        "reviewer_1": {
+          "decision": "exclude",
+          "reason_code": "no epi/molecular/spatial-temporal data",
+          "evidence": "p.101-102 Methods: 100 birds from 114 flocks with H5N1 confirmed by NVRI (RT-PCR, isolation, HI, AGID), Dec 2006-Jul 2007, 'different parts of Nigeria'. All outcomes are aerobic-bacteria isolation by tissue. No AIV distribution by state, date or host.",
+          "source_url": "https://www.sciencepub.net/report/report0212/18_2815report0212_100_104.pdf",
+          "method": "independent R1 (executor agent, Claude Opus 5.5) full-text review of locally retrieved verified copy; reported to main agent 2026-09-28",
+          "caution": "Borderline. The H5N1-confirmed flock set is only the sampling frame. Same sample set as CAN-1713 (Salmonella Gallinarum paper)."
+        },
+        "reviewer_2": {
+          "decision": "retain",
+          "reason_code": null,
+          "evidence": "100 poultry sampled from 114 HPAI-affected flocks (244,992 birds), Dec2006-Jul2007, Nigeria; H5N1 confirmed by NVRI Vom via AGID, virus isolation, HI, RT-PCR.",
+          "source_url": "https://www.sciencepub.net/report/report0212/18_2815report0212_100_104.pdf",
+          "method": "independent R2 (reviewer agent, Claude Sonnet 5, blind to R1) full-text review of locally retrieved verified copy; reported to main agent 2026-09-28",
+          "caution": "Primary focus is co-infecting aerobic bacteria; only outbreak metadata (dates/locations/numbers) is AIV-relevant; no molecular/clade data. Same underlying sample set as CAN-1713."
+        },
+        "adjudication": {
+          "decision": "exclude",
+          "reason_code": "no epi/molecular/spatial-temporal data",
+          "reviewer": "main-agent",
+          "basis": "R1 exclude / R2 retain. The NVRI-confirmed H5N1 flocks are only the sampling frame; all reported outcomes are bacterial isolation, and no AIV occurrence by state, date or host is extractable.",
+          "source_url": "https://www.sciencepub.net/report/report0212/18_2815report0212_100_104.pdf",
+          "checked": "2026-09-28",
+          "caution": "Shares its sample set with CAN-1713 (also excluded)."
         }
       }
     },
@@ -3777,7 +3833,7 @@
         "OpenAlex/Crossref:891"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "provisional_full_text_candidate",
+      "final_status": "full_text_excluded",
       "vote_disposition": [
         {
           "source": "OpenAlex/Crossref",
@@ -3801,7 +3857,7 @@
         "reviewer": "main-agent",
         "basis": "fresh independent R1/R2 reconstruction; conservative union"
       },
-      "full_text_status": "retrieval_fulltext_obtained_pending_screening",
+      "full_text_status": "full_text_excluded",
       "retrieval": {
         "checked": "2026-09-23",
         "route": "Europe PMC public metadata/full-text-link service",
@@ -3814,8 +3870,8 @@
         "free_full_text_sources": [],
         "error": null,
         "retrieval_status": "retrieval_fulltext_obtained",
-        "eligibility_status": "not_assessed",
-        "next_action": "Independent R1/R2 full-text eligibility vote, then main adjudication.",
+        "eligibility_status": "assessed",
+        "next_action": "None (excluded at full text).",
         "retrieval_attempts": [
           {
             "date": "2026-09-27",
@@ -3891,6 +3947,34 @@
           "identity_verified": true,
           "verification": "Identity verified 2026-09-28: title, authors, year/volume and journal match the register record; body text with methods/results (or review/case-report structure) present.",
           "pages": 103
+        }
+      },
+      "full_text_eligibility": {
+        "checked": "2026-09-28",
+        "reviewer_1": {
+          "decision": "exclude",
+          "reason_code": "no primary data",
+          "evidence": "Executive summary/Approach: qualitative risk assessment built from 'peer-reviewed and grey literature, expert opinion and structured questionnaires'. p.28 Table 4.2 compiles surveillance counts, 2005-2009 (305/30,289 HPAI positive), from cited sources (NADIS, Joannis 2008, AICP).",
+          "source_url": "https://cgspace.cgiar.org/server/api/core/bitstreams/a735f65d-38f7-4326-8a75-b4a030f1a7b9/content",
+          "method": "independent R1 (executor agent, Claude Opus 5.5) full-text review of locally retrieved verified copy; reported to main agent 2026-09-28",
+          "caution": "Table 4.2 and cited data (e.g. Mera 2009, Sokoto) could help locate primary sources. No new laboratory data."
+        },
+        "reviewer_2": {
+          "decision": "exclude",
+          "reason_code": "no primary data",
+          "evidence": "Qualitative risk-assessment working paper synthesising prior published Nigerian HPAI surveillance/literature and expert opinion; no new field sampling or lab testing performed by the authors.",
+          "source_url": "https://cgspace.cgiar.org/server/api/core/bitstreams/a735f65d-38f7-4326-8a75-b4a030f1a7b9/content",
+          "method": "independent R2 (reviewer agent, Claude Sonnet 5, blind to R1) full-text review of locally retrieved verified copy; reported to main agent 2026-09-28",
+          "caution": "Contains cited secondary figures (e.g. 30,289 samples, RT-PCR results) drawn from other published sources, not original data generated by this report."
+        },
+        "adjudication": {
+          "decision": "exclude",
+          "reason_code": "no primary data",
+          "reviewer": "main-agent",
+          "basis": "Concordant independent full-text exclusion with the same fixed reason.",
+          "source_url": "https://cgspace.cgiar.org/server/api/core/bitstreams/a735f65d-38f7-4326-8a75-b4a030f1a7b9/content",
+          "checked": "2026-09-28",
+          "caution": "Table 4.2 and cited data (e.g. Mera 2009, Sokoto) could help locate primary sources. No new laboratory data. Contains cited secondary figures (e.g. 30,289 samples, RT-PCR results) drawn from other published sources, not original data generated by this report."
         }
       }
     },
@@ -4233,7 +4317,7 @@
         "AJOL:sokjvs:72694"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "provisional_full_text_candidate",
+      "final_status": "provisional_full_text_eligible",
       "vote_disposition": [
         {
           "source": "OpenAlex/Crossref",
@@ -4262,7 +4346,7 @@
         "reviewer": "main-agent",
         "basis": "fresh independent R1/R2 reconstruction; conservative union"
       },
-      "full_text_status": "retrieval_fulltext_obtained_pending_screening",
+      "full_text_status": "full_text_eligible_provisional",
       "retrieval": {
         "checked": "2026-09-23",
         "route": "Europe PMC public metadata/full-text-link service",
@@ -4275,8 +4359,8 @@
         "free_full_text_sources": [],
         "error": null,
         "retrieval_status": "retrieval_fulltext_obtained",
-        "eligibility_status": "not_assessed",
-        "next_action": "Independent R1/R2 full-text eligibility vote, then main adjudication.",
+        "eligibility_status": "assessed",
+        "next_action": "Extraction (report/dataset overlap check first).",
         "retrieval_attempts": [
           {
             "date": "2026-09-26",
@@ -4310,6 +4394,33 @@
           "identity_verified": true,
           "verification": "Identity verified 2026-09-28: title, authors, year/volume and journal match the register record; body text with methods/results (or review/case-report structure) present.",
           "pages": 4
+        }
+      },
+      "full_text_eligibility": {
+        "checked": "2026-09-28",
+        "reviewer_1": {
+          "decision": "retain",
+          "reason_code": null,
+          "evidence": "Methods p.1-2: all AI cases at ABU VTH Zaria, Dec 2006-Apr 2007, confirmed by H5 rapid antigen test (Symbiotic kit) on cloacal swabs and referred to NVRI Vom. Nine case reports (flock, date, species, losses). Discussion: all within 15 km radius, Dec 2006-Mar 2007.",
+          "source_url": "https://www.ajol.info/index.php/sokjvs/article/download/72694/61612",
+          "method": "independent R1 (executor agent, Claude Opus 5.5) full-text review of locally retrieved verified copy; reported to main agent 2026-09-28",
+          "caution": "Retrospective clinic case series. The H5 antigen test confirms H5 only; NVRI results are not reported per case. Case 10345 (waterfowl, 27 Apr 2007) is the same outbreak as CAN-1711. Count it once."
+        },
+        "reviewer_2": {
+          "decision": "retain",
+          "reason_code": null,
+          "evidence": "Case series of 9 confirmed HPAI outbreaks, Zaria, Dec2006-Apr2007; diagnosed by rapid antigen H5 test, referred to NVRI Vom for confirmation; dates/locations/mortality per case tabulated.",
+          "source_url": "https://www.ajol.info/index.php/sokjvs/article/download/72694/61612",
+          "method": "independent R2 (reviewer agent, Claude Sonnet 5, blind to R1) full-text review of locally retrieved verified copy; reported to main agent 2026-09-28"
+        },
+        "adjudication": {
+          "decision": "retain",
+          "reason_code": null,
+          "reviewer": "main-agent",
+          "basis": "Concordant independent full-text review.",
+          "source_url": "https://www.ajol.info/index.php/sokjvs/article/download/72694/61612",
+          "checked": "2026-09-28",
+          "caution": "Retrospective clinic case series. The H5 antigen test confirms H5 only; NVRI results are not reported per case. Case 10345 (waterfowl, 27 Apr 2007) is the same outbreak as CAN-1711. Count it once."
         }
       }
     },
@@ -5152,7 +5263,7 @@
         "AJOL:nvj:111677"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "provisional_full_text_candidate",
+      "final_status": "full_text_excluded",
       "vote_disposition": [
         {
           "source": "OpenAlex/Crossref",
@@ -5181,7 +5292,7 @@
         "reviewer": "main-agent",
         "basis": "fresh independent R1/R2 reconstruction; conservative union"
       },
-      "full_text_status": "retrieval_fulltext_obtained_pending_screening",
+      "full_text_status": "full_text_excluded",
       "retrieval": {
         "checked": "2026-09-23",
         "route": "Europe PMC public metadata/full-text-link service",
@@ -5194,8 +5305,8 @@
         "free_full_text_sources": [],
         "error": null,
         "retrieval_status": "retrieval_fulltext_obtained",
-        "eligibility_status": "not_assessed",
-        "next_action": "Independent R1/R2 full-text eligibility vote, then main adjudication.",
+        "eligibility_status": "assessed",
+        "next_action": "None (excluded at full text).",
         "retrieval_attempts": [
           {
             "date": "2026-09-26",
@@ -5229,6 +5340,33 @@
           "identity_verified": true,
           "verification": "Identity verified 2026-09-28: title, authors, year/volume and journal match the register record; body text with methods/results (or review/case-report structure) present.",
           "pages": 8
+        }
+      },
+      "full_text_eligibility": {
+        "checked": "2026-09-28",
+        "reviewer_1": {
+          "decision": "exclude",
+          "reason_code": "no laboratory-confirmed avian AIV",
+          "evidence": "Methods: 170 structured questionnaires on biosecurity and risk practices in six LGAs of Bauchi and Gombe States. Tables 1-2 give practice frequencies. No sampling, assay or laboratory AIV result reported.",
+          "source_url": "https://www.ajol.info/index.php/nvj/article/download/111677/101446",
+          "method": "independent R1 (executor agent, Claude Opus 5.5) full-text review of locally retrieved verified copy; reported to main agent 2026-09-28",
+          "caution": "Qualitative farmer-practice risk assessment. Its HPAI outbreak history is cited only."
+        },
+        "reviewer_2": {
+          "decision": "exclude",
+          "reason_code": "no laboratory-confirmed avian AIV",
+          "evidence": "Cross-sectional KAP/biosecurity-practice questionnaire (170 farmers, Bauchi/Gombe); cites historic 2006-07 outbreaks only from secondary sources, no own lab-confirmed AIV sampling or results.",
+          "source_url": "https://www.ajol.info/index.php/nvj/article/download/111677/101446",
+          "method": "independent R2 (reviewer agent, Claude Sonnet 5, blind to R1) full-text review of locally retrieved verified copy; reported to main agent 2026-09-28"
+        },
+        "adjudication": {
+          "decision": "exclude",
+          "reason_code": "no laboratory-confirmed avian AIV",
+          "reviewer": "main-agent",
+          "basis": "Concordant independent full-text exclusion with the same fixed reason.",
+          "source_url": "https://www.ajol.info/index.php/nvj/article/download/111677/101446",
+          "checked": "2026-09-28",
+          "caution": "Qualitative farmer-practice risk assessment. Its HPAI outbreak history is cited only."
         }
       }
     },
@@ -30247,7 +30385,7 @@
         "WOS:000248828600027"
       ],
       "preliminary_disposition": "main_candidate_needs_adjudication",
-      "final_status": "provisional_full_text_candidate",
+      "final_status": "provisional_full_text_eligible",
       "vote_disposition": [
         {
           "source": "PubMed",
@@ -30281,7 +30419,7 @@
         "reviewer": "main-agent",
         "basis": "fresh independent R1/R2 reconstruction; conservative union"
       },
-      "full_text_status": "retrieval_fulltext_obtained_pending_screening",
+      "full_text_status": "full_text_eligible_provisional",
       "retrieval": {
         "checked": "2026-09-24",
         "route": "Europe PMC public metadata/full-text-link service",
@@ -30307,8 +30445,8 @@
         "free_full_text_sources": [],
         "error": null,
         "retrieval_status": "retrieval_fulltext_obtained",
-        "eligibility_status": "not_assessed",
-        "next_action": "Independent R1/R2 full-text eligibility vote, then main adjudication.",
+        "eligibility_status": "assessed",
+        "next_action": "Extraction (report/dataset overlap check first).",
         "retrieval_attempts": [
           {
             "date": "2026-09-24",
@@ -30395,6 +30533,33 @@
           "identity_verified": true,
           "verification": "Identity verified 2026-09-28: title, authors, year/volume and journal match the register record; body text with methods/results (or review/case-report structure) present.",
           "pages": 10
+        }
+      },
+      "full_text_eligibility": {
+        "checked": "2026-09-28",
+        "reviewer_1": {
+          "decision": "retain",
+          "reason_code": null,
+          "evidence": "Results p.2299: 35/700 Nigerian samples positive by M-gene and H5 real-time RT-PCR. Isolates from 7 chicken farms (SW and N Nigeria), full genomes sequenced. HA/full-genome phylogeny: sublineages A, B, C. Substitution rates support three independent introductions. Accessions AM262524-AM503074.",
+          "source_url": "https://web.archive.org/web/20240413202942id_/https://citeseerx.ist.psu.edu/document?doi=e7b9bfea9a3b63cff10ebdb1edcbef0203ae6354&repid=rep1&type=pdf",
+          "method": "independent R1 (executor agent, Claude Opus 5.5) full-text review of locally retrieved verified copy; reported to main agent 2026-09-28",
+          "caution": "Multi-country paper (Burkina Faso, Niger); extract Nigeria strains only. 'Sublineage A/B/C' within clade 2.2 are not separate clades. Report states no reassortment evidence. Likely overlap with Ducatez 2006 (Nature) strains."
+        },
+        "reviewer_2": {
+          "decision": "retain",
+          "reason_code": null,
+          "evidence": "700 Nigerian poultry swabs (Oyo/Ogun/Lagos, 2006); 35 positive by RT-PCR (M/H5); full-genome sequencing identified 3 Nigerian H5N1 sublineages (A/B/C) with independent-introduction phylogenetic evidence.",
+          "source_url": "https://web.archive.org/web/20240413202942id_/https://citeseerx.ist.psu.edu/document?doi=e7b9bfea9a3b63cff10ebdb1edcbef0203ae6354&repid=rep1&type=pdf",
+          "method": "independent R2 (reviewer agent, Claude Sonnet 5, blind to R1) full-text review of locally retrieved verified copy; reported to main agent 2026-09-28"
+        },
+        "adjudication": {
+          "decision": "retain",
+          "reason_code": null,
+          "reviewer": "main-agent",
+          "basis": "Concordant independent full-text review.",
+          "source_url": "https://web.archive.org/web/20240413202942id_/https://citeseerx.ist.psu.edu/document?doi=e7b9bfea9a3b63cff10ebdb1edcbef0203ae6354&repid=rep1&type=pdf",
+          "checked": "2026-09-28",
+          "caution": "Multi-country paper (Burkina Faso, Niger); extract Nigeria strains only. 'Sublineage A/B/C' within clade 2.2 are not separate clades. Report states no reassortment evidence. Likely overlap with Ducatez 2006 (Nature) strains."
         }
       }
     },
@@ -35150,7 +35315,7 @@
         "PMID:33241659"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "provisional_full_text_candidate",
+      "final_status": "full_text_excluded",
       "vote_disposition": [
         {
           "source": "OpenAlex/Crossref",
@@ -35174,7 +35339,7 @@
         "reviewer": "main-agent",
         "basis": "fresh independent R1/R2 reconstruction; conservative union"
       },
-      "full_text_status": "retrieval_fulltext_obtained_pending_screening",
+      "full_text_status": "full_text_excluded",
       "retrieval": {
         "checked": "2026-09-23",
         "route": "Europe PMC public metadata/full-text-link service",
@@ -35200,8 +35365,8 @@
         "free_full_text_sources": [],
         "error": null,
         "retrieval_status": "retrieval_fulltext_obtained",
-        "eligibility_status": "not_assessed",
-        "next_action": "Independent R1/R2 full-text eligibility vote, then main adjudication.",
+        "eligibility_status": "assessed",
+        "next_action": "None (excluded at full text).",
         "retrieval_attempts": [
           {
             "date": "2026-09-27",
@@ -35278,6 +35443,33 @@
           "verification": "Identity verified 2026-09-28: title, authors, year/volume and journal match the register record; body text with methods/results (or review/case-report structure) present.",
           "pages": 39,
           "screening_flag": "Text appears to concern Bangladesh; Nigeria data not evident on identity check. Screening decision still required from R1/R2."
+        }
+      },
+      "full_text_eligibility": {
+        "checked": "2026-09-28",
+        "reviewer_1": {
+          "decision": "exclude",
+          "reason_code": "non-Nigeria no Nigeria-data",
+          "evidence": "Summary: Health Belief Model / SEM study of 144 backyard, 106 broiler and 113 layer farms in Bangladesh, 2016-2017. Nigeria is not mentioned anywhere in the text.",
+          "source_url": "https://web.archive.org/web/20220519132632id_/https://researchonline.rvc.ac.uk/id/eprint/12947/1/12947_GREEN%20AAM.pdf",
+          "method": "independent R1 (executor agent, Claude Opus 5.5) full-text review of locally retrieved verified copy; reported to main agent 2026-09-28",
+          "caution": "Also a perception survey with no laboratory data."
+        },
+        "reviewer_2": {
+          "decision": "exclude",
+          "reason_code": "non-Nigeria no Nigeria-data",
+          "evidence": "Cross-sectional Health-Belief-Model survey of 144 backyard, 106 broiler and 113 layer farmers in Chittagong/Cox's Bazaar districts, Bangladesh, 2016-17; no Nigeria data anywhere in text.",
+          "source_url": "https://web.archive.org/web/20220519132632id_/https://researchonline.rvc.ac.uk/id/eprint/12947/1/12947_GREEN%20AAM.pdf",
+          "method": "independent R2 (reviewer agent, Claude Sonnet 5, blind to R1) full-text review of locally retrieved verified copy; reported to main agent 2026-09-28"
+        },
+        "adjudication": {
+          "decision": "exclude",
+          "reason_code": "non-Nigeria no Nigeria-data",
+          "reviewer": "main-agent",
+          "basis": "Concordant independent full-text exclusion with the same fixed reason.",
+          "source_url": "https://web.archive.org/web/20220519132632id_/https://researchonline.rvc.ac.uk/id/eprint/12947/1/12947_GREEN%20AAM.pdf",
+          "checked": "2026-09-28",
+          "caution": "Also a perception survey with no laboratory data."
         }
       }
     },
@@ -36541,7 +36733,7 @@
         "DOI:101128genomea0045716"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "provisional_full_text_candidate",
+      "final_status": "full_text_excluded",
       "vote_disposition": [
         {
           "source": "OpenAlex/Crossref",
@@ -36565,7 +36757,7 @@
         "reviewer": "main-agent",
         "basis": "fresh independent R1/R2 reconstruction; conservative union"
       },
-      "full_text_status": "retrieval_fulltext_obtained_pending_screening",
+      "full_text_status": "full_text_excluded",
       "retrieval": {
         "checked": "2026-09-23",
         "route": "Europe PMC public metadata/full-text-link service",
@@ -36578,8 +36770,8 @@
         "free_full_text_sources": [],
         "error": null,
         "retrieval_status": "retrieval_fulltext_obtained",
-        "eligibility_status": "not_assessed",
-        "next_action": "Independent R1/R2 full-text eligibility vote, then main adjudication.",
+        "eligibility_status": "assessed",
+        "next_action": "None (excluded at full text).",
         "retrieval_attempts": [
           {
             "date": "2026-09-27",
@@ -36650,6 +36842,31 @@
           "verification": "Identity verified 2026-09-28: title, authors, year/volume and journal match the register record; body text with methods/results (or review/case-report structure) present.",
           "pages": null,
           "screening_flag": "Text appears to concern USA; Nigeria data not evident on identity check. Screening decision still required from R1/R2."
+        }
+      },
+      "full_text_eligibility": {
+        "checked": "2026-09-28",
+        "reviewer_1": {
+          "decision": "exclude",
+          "reason_code": "non-Nigeria no Nigeria-data",
+          "evidence": "Genome announcement: H7N8 LPAI-to-HPAI mutation in commercial turkeys, Indiana, USA, January 2016 (PCR, full-genome sequencing). No Nigeria data.",
+          "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4911467/fullTextXML",
+          "method": "independent R1 (executor agent, Claude Opus 5.5) full-text review of locally retrieved verified copy; reported to main agent 2026-09-28"
+        },
+        "reviewer_2": {
+          "decision": "exclude",
+          "reason_code": "non-Nigeria no Nigeria-data",
+          "evidence": "Genome announcement of H7N8 LPAI-to-HPAI mutation event in commercial turkeys, Indiana, USA, Jan 2016; North American wild-bird-lineage virus; no Nigeria/Africa content.",
+          "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4911467/fullTextXML",
+          "method": "independent R2 (reviewer agent, Claude Sonnet 5, blind to R1) full-text review of locally retrieved verified copy; reported to main agent 2026-09-28"
+        },
+        "adjudication": {
+          "decision": "exclude",
+          "reason_code": "non-Nigeria no Nigeria-data",
+          "reviewer": "main-agent",
+          "basis": "Concordant independent full-text exclusion with the same fixed reason.",
+          "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4911467/fullTextXML",
+          "checked": "2026-09-28"
         }
       }
     },
@@ -51792,7 +52009,7 @@
         "DOI:1014303jmms2017018"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "provisional_full_text_candidate",
+      "final_status": "full_text_excluded",
       "vote_disposition": [
         {
           "source": "OpenAlex/Crossref",
@@ -51816,7 +52033,7 @@
         "reviewer": "main-agent",
         "basis": "fresh independent R1/R2 reconstruction; conservative union"
       },
-      "full_text_status": "retrieval_fulltext_obtained_pending_screening",
+      "full_text_status": "full_text_excluded",
       "retrieval": {
         "checked": "2026-09-23",
         "route": "Europe PMC public metadata/full-text-link service",
@@ -51829,8 +52046,8 @@
         "free_full_text_sources": [],
         "error": null,
         "retrieval_status": "retrieval_fulltext_obtained",
-        "eligibility_status": "not_assessed",
-        "next_action": "Independent R1/R2 full-text eligibility vote, then main adjudication.",
+        "eligibility_status": "assessed",
+        "next_action": "None (excluded at full text).",
         "retrieval_attempts": [
           {
             "date": "2026-09-27",
@@ -51846,6 +52063,32 @@
           "identity_verified": true,
           "verification": "Identity verified 2026-09-28: title, authors, year/volume and journal match the register record; body text with methods/results (or review/case-report structure) present.",
           "pages": 6
+        }
+      },
+      "full_text_eligibility": {
+        "checked": "2026-09-28",
+        "reviewer_1": {
+          "decision": "exclude",
+          "reason_code": "non-AIV",
+          "evidence": "Methods p.2: SARI patients at ATBUTH Bauchi, respiratory specimens PCR at NIRL Abuja. Discussion p.3-4: 5% positive, about 80% 'Human Influenza type A', 20% type B. No avian subtype detected and no avian samples.",
+          "source_url": "https://www.interesjournals.org/articles/human-avian-influenza-virus-serotypes-in-a-tertiary-hospital-in-nigeria.pdf",
+          "method": "independent R1 (executor agent, Claude Opus 5.5) full-text review of locally retrieved verified copy; reported to main agent 2026-09-28",
+          "caution": "Human-only as well. 'no avian-host field data' is the alternative reason if Flu A is not treated as clearly non-avian."
+        },
+        "reviewer_2": {
+          "decision": "exclude",
+          "reason_code": "no avian-host field data",
+          "evidence": "Cross-sectional PCR survey of 100 human patients with respiratory symptoms at a Bauchi tertiary hospital, Nigeria; tests human influenza A/B in humans only, no avian sampling.",
+          "source_url": "https://www.interesjournals.org/articles/human-avian-influenza-virus-serotypes-in-a-tertiary-hospital-in-nigeria.pdf",
+          "method": "independent R2 (reviewer agent, Claude Sonnet 5, blind to R1) full-text review of locally retrieved verified copy; reported to main agent 2026-09-28"
+        },
+        "adjudication": {
+          "decision": "exclude",
+          "reason_code": "non-AIV",
+          "reviewer": "main-agent",
+          "basis": "Concordant exclude with differing reasons. Human seasonal influenza A/B only. The first failing criterion in hierarchy order is non-AIV.",
+          "source_url": "https://www.interesjournals.org/articles/human-avian-influenza-virus-serotypes-in-a-tertiary-hospital-in-nigeria.pdf",
+          "checked": "2026-09-28"
         }
       }
     },
@@ -51940,7 +52183,7 @@
         "DOI:1014737journalaavs201424s3341"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "provisional_full_text_candidate",
+      "final_status": "full_text_excluded",
       "vote_disposition": [
         {
           "source": "OpenAlex/Crossref",
@@ -51964,7 +52207,7 @@
         "reviewer": "main-agent",
         "basis": "fresh independent R1/R2 reconstruction; conservative union"
       },
-      "full_text_status": "retrieval_fulltext_obtained_pending_screening",
+      "full_text_status": "full_text_excluded",
       "retrieval": {
         "checked": "2026-09-23",
         "route": "Europe PMC public metadata/full-text-link service",
@@ -51977,8 +52220,8 @@
         "free_full_text_sources": [],
         "error": null,
         "retrieval_status": "retrieval_fulltext_obtained",
-        "eligibility_status": "not_assessed",
-        "next_action": "Independent R1/R2 full-text eligibility vote, then main adjudication.",
+        "eligibility_status": "assessed",
+        "next_action": "None (excluded at full text).",
         "retrieval_attempts": [
           {
             "date": "2026-09-27",
@@ -52037,6 +52280,33 @@
           "verification": "Identity verified 2026-09-28: title, authors, year/volume and journal match the register record; body text with methods/results (or review/case-report structure) present.",
           "pages": 9
         }
+      },
+      "full_text_eligibility": {
+        "checked": "2026-09-28",
+        "reviewer_1": {
+          "decision": "exclude",
+          "reason_code": "non-Nigeria no Nigeria-data",
+          "evidence": "Review article (Indian Veterinary Research Institute) on global H5N1 evolution, clades and drug resistance. Nigeria appears only in passing: 2006 spread (p.33) and cited reassortment (Fusaro 2010). No Nigeria data extractable.",
+          "source_url": "https://web.archive.org/web/20250116152754id_/http://nexusacademicpublishers.com/uploads/files/Nexus_347.pdf",
+          "method": "independent R1 (executor agent, Claude Opus 5.5) full-text review of locally retrieved verified copy; reported to main agent 2026-09-28",
+          "caution": "Also a review (no primary data)."
+        },
+        "reviewer_2": {
+          "decision": "exclude",
+          "reason_code": "non-Nigeria no Nigeria-data",
+          "evidence": "Review article on global H5N1 clade evolution centred on India/Asia; Nigeria mentioned once in passing regarding reassortment citation, no Nigeria-specific extractable data.",
+          "source_url": "https://web.archive.org/web/20250116152754id_/http://nexusacademicpublishers.com/uploads/files/Nexus_347.pdf",
+          "method": "independent R2 (reviewer agent, Claude Sonnet 5, blind to R1) full-text review of locally retrieved verified copy; reported to main agent 2026-09-28"
+        },
+        "adjudication": {
+          "decision": "exclude",
+          "reason_code": "non-Nigeria no Nigeria-data",
+          "reviewer": "main-agent",
+          "basis": "Concordant independent full-text exclusion with the same fixed reason.",
+          "source_url": "https://web.archive.org/web/20250116152754id_/http://nexusacademicpublishers.com/uploads/files/Nexus_347.pdf",
+          "checked": "2026-09-28",
+          "caution": "Also a review (no primary data)."
+        }
       }
     },
     {
@@ -52052,7 +52322,7 @@
         "DOI:1014737journalaavs201429524529"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "provisional_full_text_candidate",
+      "final_status": "provisional_full_text_eligible",
       "vote_disposition": [
         {
           "source": "OpenAlex/Crossref",
@@ -52076,7 +52346,7 @@
         "reviewer": "main-agent",
         "basis": "fresh independent R1/R2 reconstruction; conservative union"
       },
-      "full_text_status": "retrieval_fulltext_obtained_pending_screening",
+      "full_text_status": "full_text_eligible_provisional",
       "retrieval": {
         "checked": "2026-09-23",
         "route": "Europe PMC public metadata/full-text-link service",
@@ -52089,8 +52359,8 @@
         "free_full_text_sources": [],
         "error": null,
         "retrieval_status": "retrieval_fulltext_obtained",
-        "eligibility_status": "not_assessed",
-        "next_action": "Independent R1/R2 full-text eligibility vote, then main adjudication.",
+        "eligibility_status": "assessed",
+        "next_action": "Extraction (report/dataset overlap check first).",
         "retrieval_attempts": [
           {
             "date": "2026-09-27",
@@ -52149,6 +52419,33 @@
           "verification": "Identity verified 2026-09-28: title, authors, year/volume and journal match the register record; body text with methods/results (or review/case-report structure) present.",
           "pages": 6
         }
+      },
+      "full_text_eligibility": {
+        "checked": "2026-09-28",
+        "reviewer_1": {
+          "decision": "retain",
+          "reason_code": null,
+          "evidence": "Abstract/Methods: 2011 sera from 10 layers in each of 20 previously HPAI-confirmed and 20 non-affected farms, Jos North/South LGAs, Plateau. H5 HI and ELISA. Seroprevalence 31.6% (ELISA), 69% (HI); non-affected farms 38.3% vs affected 24.9%.",
+          "source_url": "https://web.archive.org/web/20220617103553id_/http://nexusacademicpublishers.com/uploads/files/Nexus__4.pdf",
+          "method": "independent R1 (executor agent, Claude Opus 5.5) full-text review of locally retrieved verified copy; reported to main agent 2026-09-28",
+          "caution": "Serology only: record as H5 exposure. Vaccination status is not settled in the text; high HI prevalence on non-affected farms needs RoB scrutiny."
+        },
+        "reviewer_2": {
+          "decision": "retain",
+          "reason_code": null,
+          "evidence": "Serosurvey of 400 commercial layer birds, Jos, Plateau State; ELISA/HI detected H5 antibodies (31.6% ELISA, 69% HI) in previously HPAI-affected and non-affected farms.",
+          "source_url": "https://web.archive.org/web/20220617103553id_/http://nexusacademicpublishers.com/uploads/files/Nexus__4.pdf",
+          "method": "independent R2 (reviewer agent, Claude Sonnet 5, blind to R1) full-text review of locally retrieved verified copy; reported to main agent 2026-09-28"
+        },
+        "adjudication": {
+          "decision": "retain",
+          "reason_code": null,
+          "reviewer": "main-agent",
+          "basis": "Concordant independent full-text review.",
+          "source_url": "https://web.archive.org/web/20220617103553id_/http://nexusacademicpublishers.com/uploads/files/Nexus__4.pdf",
+          "checked": "2026-09-28",
+          "caution": "Serology only: record as H5 exposure. Vaccination status is not settled in the text; high HI prevalence on non-affected farms needs RoB scrutiny."
+        }
       }
     },
     {
@@ -52164,7 +52461,7 @@
         "DOI:1014737journaljahp2016426064"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "provisional_full_text_candidate",
+      "final_status": "full_text_excluded",
       "vote_disposition": [
         {
           "source": "OpenAlex/Crossref",
@@ -52188,7 +52485,7 @@
         "reviewer": "main-agent",
         "basis": "fresh independent R1/R2 reconstruction; conservative union"
       },
-      "full_text_status": "retrieval_fulltext_obtained_pending_screening",
+      "full_text_status": "full_text_excluded",
       "retrieval": {
         "checked": "2026-09-23",
         "route": "Europe PMC public metadata/full-text-link service",
@@ -52201,8 +52498,8 @@
         "free_full_text_sources": [],
         "error": null,
         "retrieval_status": "retrieval_fulltext_obtained",
-        "eligibility_status": "not_assessed",
-        "next_action": "Independent R1/R2 full-text eligibility vote, then main adjudication.",
+        "eligibility_status": "assessed",
+        "next_action": "None (excluded at full text).",
         "retrieval_attempts": [
           {
             "date": "2026-09-27",
@@ -52260,6 +52557,31 @@
           "identity_verified": true,
           "verification": "Identity verified 2026-09-28: title, authors, year/volume and journal match the register record; body text with methods/results (or review/case-report structure) present.",
           "pages": 5
+        }
+      },
+      "full_text_eligibility": {
+        "checked": "2026-09-28",
+        "reviewer_1": {
+          "decision": "exclude",
+          "reason_code": "no laboratory-confirmed avian AIV",
+          "evidence": "Methods p.61: BSVH/UMVTH Maiduguri records, 2005-2010. 'Disease diagnosis were based on flock history, clinical and post mortem findings.' Table 1: AI 0.36% of BSVH cases. No laboratory confirmation stated.",
+          "source_url": "https://web.archive.org/web/20220623222156id_/http://nexusacademicpublishers.com/uploads/files/JAHP_MH20160227040215_Mshelia%20et%20al.pdf",
+          "method": "independent R1 (executor agent, Claude Opus 5.5) full-text review of locally retrieved verified copy; reported to main agent 2026-09-28"
+        },
+        "reviewer_2": {
+          "decision": "exclude",
+          "reason_code": "no laboratory-confirmed avian AIV",
+          "evidence": "Retrospective hospital-record review, Maiduguri, 2005-2010; AI diagnosed in 0.36% (4/1114) of cases 'based on flock history, clinical and post-mortem findings' -- no stated lab confirmatory test.",
+          "source_url": "https://web.archive.org/web/20220623222156id_/http://nexusacademicpublishers.com/uploads/files/JAHP_MH20160227040215_Mshelia%20et%20al.pdf",
+          "method": "independent R2 (reviewer agent, Claude Sonnet 5, blind to R1) full-text review of locally retrieved verified copy; reported to main agent 2026-09-28"
+        },
+        "adjudication": {
+          "decision": "exclude",
+          "reason_code": "no laboratory-confirmed avian AIV",
+          "reviewer": "main-agent",
+          "basis": "Concordant independent full-text exclusion with the same fixed reason.",
+          "source_url": "https://web.archive.org/web/20220623222156id_/http://nexusacademicpublishers.com/uploads/files/JAHP_MH20160227040215_Mshelia%20et%20al.pdf",
+          "checked": "2026-09-28"
         }
       }
     },
@@ -55860,7 +56182,7 @@
         "DOI:10163711149051115review"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "provisional_full_text_candidate",
+      "final_status": "full_text_excluded",
       "vote_disposition": [
         {
           "source": "OpenAlex/Crossref",
@@ -55884,7 +56206,7 @@
         "reviewer": "main-agent",
         "basis": "fresh independent R1/R2 reconstruction; conservative union"
       },
-      "full_text_status": "retrieval_fulltext_obtained_pending_screening",
+      "full_text_status": "full_text_excluded",
       "retrieval": {
         "checked": "2026-09-23",
         "route": "Europe PMC public metadata/full-text-link service",
@@ -55897,8 +56219,8 @@
         "free_full_text_sources": [],
         "error": null,
         "retrieval_status": "retrieval_fulltext_obtained",
-        "eligibility_status": "not_assessed",
-        "next_action": "Independent R1/R2 full-text eligibility vote, then main adjudication.",
+        "eligibility_status": "assessed",
+        "next_action": "None (excluded at full text).",
         "retrieval_attempts": [
           {
             "date": "2026-09-27",
@@ -55968,6 +56290,33 @@
           "identity_verified": true,
           "verification": "Identity verified 2026-09-28: title, authors, year/volume and journal match the register record; body text with methods/results (or review/case-report structure) present. Author manuscript (accepted/submitted version, line-numbered) on CIRAD Agritrop repository: title \"Ecology of Avian Influenza Virus in Wild Birds in Tropical Africa\", author Nicolas Gaidet (CIRAD) match the Avian Diseases 2016 review record (DOI 10.1637/11149-051115-Review); 20 pages, review format (no Methods/Results headings expected).",
           "pages": 20
+        }
+      },
+      "full_text_eligibility": {
+        "checked": "2026-09-28",
+        "reviewer_1": {
+          "decision": "exclude",
+          "reason_code": "non-Nigeria no Nigeria-data",
+          "evidence": "Synthesis of about 20,000 wild birds tested in 20 African countries; site analyses are Inner Niger Delta (Mali), Kafue flats (Zambia) and others. The word 'Nigeria' does not appear; no country-level Nigeria results.",
+          "source_url": "http://agritrop.cirad.fr/578713/1/11149-051115-review%252E1.pdf",
+          "method": "independent R1 (executor agent, Claude Opus 5.5) full-text review of locally retrieved verified copy; reported to main agent 2026-09-28",
+          "caution": "Wild-bird ecology; any Nigerian samples are not extractable."
+        },
+        "reviewer_2": {
+          "decision": "exclude",
+          "reason_code": "non-Nigeria no Nigeria-data",
+          "evidence": "Continental review of AIV ecology in wild birds, sampling Mali, Zimbabwe, Mauritania, Egypt, Zambia, Ukraine; no Nigeria site or data mentioned anywhere in the text.",
+          "source_url": "http://agritrop.cirad.fr/578713/1/11149-051115-review%252E1.pdf",
+          "method": "independent R2 (reviewer agent, Claude Sonnet 5, blind to R1) full-text review of locally retrieved verified copy; reported to main agent 2026-09-28"
+        },
+        "adjudication": {
+          "decision": "exclude",
+          "reason_code": "non-Nigeria no Nigeria-data",
+          "reviewer": "main-agent",
+          "basis": "Concordant independent full-text exclusion with the same fixed reason.",
+          "source_url": "http://agritrop.cirad.fr/578713/1/11149-051115-review%252E1.pdf",
+          "checked": "2026-09-28",
+          "caution": "Wild-bird ecology; any Nigerian samples are not extractable."
         }
       }
     },
@@ -61093,7 +61442,7 @@
         "DOI:1016378814040109resnote1"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "provisional_full_text_candidate",
+      "final_status": "full_text_excluded",
       "vote_disposition": [
         {
           "source": "OpenAlex/Crossref",
@@ -61117,7 +61466,7 @@
         "reviewer": "main-agent",
         "basis": "fresh independent R1/R2 reconstruction; conservative union"
       },
-      "full_text_status": "retrieval_fulltext_obtained_pending_screening",
+      "full_text_status": "full_text_excluded",
       "retrieval": {
         "checked": "2026-09-23",
         "route": "Europe PMC public metadata/full-text-link service",
@@ -61130,8 +61479,8 @@
         "free_full_text_sources": [],
         "error": null,
         "retrieval_status": "retrieval_fulltext_obtained",
-        "eligibility_status": "not_assessed",
-        "next_action": "Independent R1/R2 full-text eligibility vote, then main adjudication.",
+        "eligibility_status": "assessed",
+        "next_action": "None (excluded at full text).",
         "retrieval_attempts": [
           {
             "date": "2026-09-27",
@@ -61197,6 +61546,31 @@
         "state": "possible_same_report",
         "basis": "Identical peafowl H5N1 title, 2010; distinct Avian Diseases ResNote and Digest DOI suffixes; verify body and case identity.",
         "checked": "2026-09-26"
+      },
+      "full_text_eligibility": {
+        "checked": "2026-09-28",
+        "reviewer_1": {
+          "decision": "exclude",
+          "reason_code": "non-Nigeria no Nigeria-data",
+          "evidence": "HPAI H5N1 in backyard peafowl, Saudi Arabia, Dec 2007 (rRT-PCR, isolation, sequencing, clade 2.2.2). Nigeria appears only as reference strain A/ck/Nigeria/FA6/2006 (98.9-99.6% HA identity).",
+          "source_url": "https://web.archive.org/web/20170813163242id_/http://www.fao.org/docs/eims/upload/259666/ak094e00.pdf",
+          "method": "independent R1 (executor agent, Claude Opus 5.5) full-text review of locally retrieved verified copy; reported to main agent 2026-09-28"
+        },
+        "reviewer_2": {
+          "decision": "exclude",
+          "reason_code": "non-Nigeria no Nigeria-data",
+          "evidence": "H5N1 isolation/sequencing case study in peafowl, Kingdom of Saudi Arabia, 2007; Nigeria referenced only for a sequence-similarity comparison to a prior Nigerian strain.",
+          "source_url": "https://web.archive.org/web/20170813163242id_/http://www.fao.org/docs/eims/upload/259666/ak094e00.pdf",
+          "method": "independent R2 (reviewer agent, Claude Sonnet 5, blind to R1) full-text review of locally retrieved verified copy; reported to main agent 2026-09-28"
+        },
+        "adjudication": {
+          "decision": "exclude",
+          "reason_code": "non-Nigeria no Nigeria-data",
+          "reviewer": "main-agent",
+          "basis": "Concordant independent full-text exclusion with the same fixed reason.",
+          "source_url": "https://web.archive.org/web/20170813163242id_/http://www.fao.org/docs/eims/upload/259666/ak094e00.pdf",
+          "checked": "2026-09-28"
+        }
       }
     },
     {
@@ -67468,7 +67842,7 @@
         "DOI:1021203rs3rs2434849v1"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "provisional_full_text_candidate",
+      "final_status": "full_text_excluded",
       "vote_disposition": [
         {
           "source": "OpenAlex/Crossref",
@@ -67492,7 +67866,7 @@
         "reviewer": "main-agent",
         "basis": "fresh independent R1/R2 reconstruction; conservative union"
       },
-      "full_text_status": "retrieval_fulltext_obtained_pending_screening",
+      "full_text_status": "full_text_excluded",
       "retrieval": {
         "checked": "2026-09-23",
         "route": "Europe PMC public metadata/full-text-link service",
@@ -67505,8 +67879,8 @@
         "free_full_text_sources": [],
         "error": null,
         "retrieval_status": "retrieval_fulltext_obtained",
-        "eligibility_status": "not_assessed",
-        "next_action": "Independent R1/R2 full-text eligibility vote, then main adjudication.",
+        "eligibility_status": "assessed",
+        "next_action": "None (excluded at full text).",
         "retrieval_attempts": [
           {
             "date": "2026-09-27",
@@ -67522,6 +67896,31 @@
           "identity_verified": true,
           "verification": "Identity verified 2026-09-28: title, authors, year/volume and journal match the register record; body text with methods/results (or review/case-report structure) present.",
           "pages": 34
+        }
+      },
+      "full_text_eligibility": {
+        "checked": "2026-09-28",
+        "reviewer_1": {
+          "decision": "exclude",
+          "reason_code": "non-Nigeria no Nigeria-data",
+          "evidence": "Global preprint (later Nature 2023) on H5 HPAI resurgence 2016-2022 using outbreak and genomic data. Nigeria mentioned once (p.~13) among countries with 2016/17-derived lineages. No Nigeria-specific results extractable.",
+          "source_url": "https://assets-eu.researchsquare.com/files/rs-2434849/v1_covered_e96f824b-fa6a-476f-93e3-1bcbb33d0101.pdf?c=1697700530",
+          "method": "independent R1 (executor agent, Claude Opus 5.5) full-text review of locally retrieved verified copy; reported to main agent 2026-09-28"
+        },
+        "reviewer_2": {
+          "decision": "exclude",
+          "reason_code": "non-Nigeria no Nigeria-data",
+          "evidence": "Global genomic/phylogeographic analysis of H5 resurgence 2016-2023; Nigeria named once alongside South Africa/Egypt in a lineage-distribution sentence, no Nigeria-specific dataset.",
+          "source_url": "https://assets-eu.researchsquare.com/files/rs-2434849/v1_covered_e96f824b-fa6a-476f-93e3-1bcbb33d0101.pdf?c=1697700530",
+          "method": "independent R2 (reviewer agent, Claude Sonnet 5, blind to R1) full-text review of locally retrieved verified copy; reported to main agent 2026-09-28"
+        },
+        "adjudication": {
+          "decision": "exclude",
+          "reason_code": "non-Nigeria no Nigeria-data",
+          "reviewer": "main-agent",
+          "basis": "Concordant independent full-text exclusion with the same fixed reason.",
+          "source_url": "https://assets-eu.researchsquare.com/files/rs-2434849/v1_covered_e96f824b-fa6a-476f-93e3-1bcbb33d0101.pdf?c=1697700530",
+          "checked": "2026-09-28"
         }
       }
     },
@@ -69665,7 +70064,7 @@
         "DOI:1025259rvsm32026"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "provisional_full_text_candidate",
+      "final_status": "full_text_excluded",
       "vote_disposition": [
         {
           "source": "OpenAlex/Crossref",
@@ -69689,7 +70088,7 @@
         "reviewer": "main-agent",
         "basis": "fresh independent R1/R2 reconstruction; conservative union"
       },
-      "full_text_status": "retrieval_fulltext_obtained_pending_screening",
+      "full_text_status": "full_text_excluded",
       "retrieval": {
         "checked": "2026-09-23",
         "route": "Europe PMC public metadata/full-text-link service",
@@ -69702,8 +70101,8 @@
         "free_full_text_sources": [],
         "error": null,
         "retrieval_status": "retrieval_fulltext_obtained",
-        "eligibility_status": "not_assessed",
-        "next_action": "Independent R1/R2 full-text eligibility vote, then main adjudication.",
+        "eligibility_status": "assessed",
+        "next_action": "None (excluded at full text).",
         "retrieval_attempts": [
           {
             "date": "2026-09-27",
@@ -69719,6 +70118,33 @@
           "identity_verified": true,
           "verification": "Identity verified 2026-09-28: title, authors, year/volume and journal match the register record; body text with methods/results (or review/case-report structure) present.",
           "pages": 11
+        }
+      },
+      "full_text_eligibility": {
+        "checked": "2026-09-28",
+        "reviewer_1": {
+          "decision": "exclude",
+          "reason_code": "no laboratory-confirmed avian AIV",
+          "evidence": "Abstract/Methods: cross-sectional interviewer-administered questionnaire of 226 LBM workers, Northern Nigeria (KAP, biosecurity, logistic regression). No sampling, assay or laboratory AIV result reported.",
+          "source_url": "https://veterinaryscimed.com/content/122/2026/6/1/pdf/RVSM-6-2.pdf",
+          "method": "independent R1 (executor agent, Claude Opus 5.5) full-text review of locally retrieved verified copy; reported to main agent 2026-09-28",
+          "caution": "KAP survey."
+        },
+        "reviewer_2": {
+          "decision": "exclude",
+          "reason_code": "no laboratory-confirmed avian AIV",
+          "evidence": "Cross-sectional KAP/risk-perception questionnaire of 226 live-bird-market handlers, Nguru/Hadejia/Sabon Gari, Nigeria; assesses human knowledge/biosecurity practices only, no AIV sampling or lab results.",
+          "source_url": "https://veterinaryscimed.com/content/122/2026/6/1/pdf/RVSM-6-2.pdf",
+          "method": "independent R2 (reviewer agent, Claude Sonnet 5, blind to R1) full-text review of locally retrieved verified copy; reported to main agent 2026-09-28"
+        },
+        "adjudication": {
+          "decision": "exclude",
+          "reason_code": "no laboratory-confirmed avian AIV",
+          "reviewer": "main-agent",
+          "basis": "Concordant independent full-text exclusion with the same fixed reason.",
+          "source_url": "https://veterinaryscimed.com/content/122/2026/6/1/pdf/RVSM-6-2.pdf",
+          "checked": "2026-09-28",
+          "caution": "KAP survey."
         }
       }
     },
@@ -72656,7 +73082,7 @@
         "DOI:1029261pakvetj2018112"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "provisional_full_text_candidate",
+      "final_status": "full_text_excluded",
       "vote_disposition": [
         {
           "source": "OpenAlex/Crossref",
@@ -72680,7 +73106,7 @@
         "reviewer": "main-agent",
         "basis": "fresh independent R1/R2 reconstruction; conservative union"
       },
-      "full_text_status": "retrieval_fulltext_obtained_pending_screening",
+      "full_text_status": "full_text_excluded",
       "retrieval": {
         "checked": "2026-09-23",
         "route": "Europe PMC public metadata/full-text-link service",
@@ -72693,8 +73119,8 @@
         "free_full_text_sources": [],
         "error": null,
         "retrieval_status": "retrieval_fulltext_obtained",
-        "eligibility_status": "not_assessed",
-        "next_action": "Independent R1/R2 full-text eligibility vote, then main adjudication.",
+        "eligibility_status": "assessed",
+        "next_action": "None (excluded at full text).",
         "retrieval_attempts": [
           {
             "date": "2026-09-27",
@@ -72711,6 +73137,33 @@
           "verification": "Identity verified 2026-09-28: title, authors, year/volume and journal match the register record; body text with methods/results (or review/case-report structure) present.",
           "pages": 6,
           "screening_flag": "Text appears to concern Egypt; Nigeria data not evident on identity check. Screening decision still required from R1/R2."
+        }
+      },
+      "full_text_eligibility": {
+        "checked": "2026-09-28",
+        "reviewer_1": {
+          "decision": "exclude",
+          "reason_code": "non-Nigeria no Nigeria-data",
+          "evidence": "Abstract: 40 SPF chicks, vaccination then H5N1 challenge, qRRT-PCR/histopathology; Cairo, Egypt. Nigeria mentioned once in passing.",
+          "source_url": "http://www.pvj.com.pk/pdf-files/39_1/31-36.pdf",
+          "method": "independent R1 (executor agent, Claude Opus 5.5) full-text review of locally retrieved verified copy; reported to main agent 2026-09-28",
+          "caution": "Also experimental only."
+        },
+        "reviewer_2": {
+          "decision": "exclude",
+          "reason_code": "non-Nigeria no Nigeria-data",
+          "evidence": "Experimental vaccine-challenge trial in SPF chicks using Egyptian H5N1 clade 2.2.1 strain, conducted in Cairo/Giza laboratories; no Nigeria content.",
+          "source_url": "http://www.pvj.com.pk/pdf-files/39_1/31-36.pdf",
+          "method": "independent R2 (reviewer agent, Claude Sonnet 5, blind to R1) full-text review of locally retrieved verified copy; reported to main agent 2026-09-28"
+        },
+        "adjudication": {
+          "decision": "exclude",
+          "reason_code": "non-Nigeria no Nigeria-data",
+          "reviewer": "main-agent",
+          "basis": "Concordant independent full-text exclusion with the same fixed reason.",
+          "source_url": "http://www.pvj.com.pk/pdf-files/39_1/31-36.pdf",
+          "checked": "2026-09-28",
+          "caution": "Also experimental only."
         }
       }
     },
@@ -77372,7 +77825,7 @@
         "DOI:1033096umjv8i1246"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "provisional_full_text_candidate",
+      "final_status": "full_text_excluded",
       "vote_disposition": [
         {
           "source": "OpenAlex/Crossref",
@@ -77396,7 +77849,7 @@
         "reviewer": "main-agent",
         "basis": "fresh independent R1/R2 reconstruction; conservative union"
       },
-      "full_text_status": "retrieval_fulltext_obtained_pending_screening",
+      "full_text_status": "full_text_excluded",
       "retrieval": {
         "checked": "2026-09-23",
         "route": "Europe PMC public metadata/full-text-link service",
@@ -77409,8 +77862,8 @@
         "free_full_text_sources": [],
         "error": null,
         "retrieval_status": "retrieval_fulltext_obtained",
-        "eligibility_status": "not_assessed",
-        "next_action": "Independent R1/R2 full-text eligibility vote, then main adjudication.",
+        "eligibility_status": "assessed",
+        "next_action": "None (excluded at full text).",
         "retrieval_attempts": [
           {
             "date": "2026-09-27",
@@ -77433,6 +77886,33 @@
           "verification": "Identity verified 2026-09-28: title, authors, year/volume and journal match the register record; body text with methods/results (or review/case-report structure) present. Publisher PDF: UMI Medical Journal Vol.8 Issue 1 (June 2023) p.26 onward; title \"Avian Influenza Virus A Subtype H5N1\", authors Almutaali & Anugrah; 9 pages, narrative review format (no Methods/Results headings).",
           "pages": 9,
           "screening_flag": "Text appears to concern general review (Indonesia); Nigeria data not evident on identity check. Screening decision still required from R1/R2."
+        }
+      },
+      "full_text_eligibility": {
+        "checked": "2026-09-28",
+        "reviewer_1": {
+          "decision": "exclude",
+          "reason_code": "non-Nigeria no Nigeria-data",
+          "evidence": "Indonesian-language narrative review/'case report' on H5N1 (UMI Medical Journal 2023), clinical and treatment focus. No mention of Nigeria.",
+          "source_url": "https://jurnal.fk.umi.ac.id/index.php/umimedicaljournal/article/download/246/155",
+          "method": "independent R1 (executor agent, Claude Opus 5.5) full-text review of locally retrieved verified copy; reported to main agent 2026-09-28",
+          "caution": "Also non-English and no primary data."
+        },
+        "reviewer_2": {
+          "decision": "exclude",
+          "reason_code": "non-Nigeria no Nigeria-data",
+          "evidence": "Indonesian medical-journal case report/narrative review of human H5N1 clinical management and radiology; no Nigeria data, no primary field or lab data of its own.",
+          "source_url": "https://jurnal.fk.umi.ac.id/index.php/umimedicaljournal/article/download/246/155",
+          "method": "independent R2 (reviewer agent, Claude Sonnet 5, blind to R1) full-text review of locally retrieved verified copy; reported to main agent 2026-09-28"
+        },
+        "adjudication": {
+          "decision": "exclude",
+          "reason_code": "non-Nigeria no Nigeria-data",
+          "reviewer": "main-agent",
+          "basis": "Concordant independent full-text exclusion with the same fixed reason.",
+          "source_url": "https://jurnal.fk.umi.ac.id/index.php/umimedicaljournal/article/download/246/155",
+          "checked": "2026-09-28",
+          "caution": "Also non-English and no primary data."
         }
       }
     },
@@ -83337,7 +83817,7 @@
         "DOI:1034257gjmrgvol20is1pg25"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "provisional_full_text_candidate",
+      "final_status": "full_text_excluded",
       "vote_disposition": [
         {
           "source": "OpenAlex/Crossref",
@@ -83361,7 +83841,7 @@
         "reviewer": "main-agent",
         "basis": "fresh independent R1/R2 reconstruction; conservative union"
       },
-      "full_text_status": "retrieval_fulltext_obtained_pending_screening",
+      "full_text_status": "full_text_excluded",
       "retrieval": {
         "checked": "2026-09-23",
         "route": "Europe PMC public metadata/full-text-link service",
@@ -83382,8 +83862,8 @@
         ],
         "error": null,
         "retrieval_status": "retrieval_fulltext_obtained",
-        "eligibility_status": "seek_further_info",
-        "next_action": "Independent R1/R2 full-text eligibility vote, then main adjudication.",
+        "eligibility_status": "assessed",
+        "next_action": "None (excluded at full text).",
         "retrieval_attempts": [
           {
             "date": "2026-09-27",
@@ -83408,27 +83888,57 @@
         }
       },
       "full_text_eligibility": {
-        "checked": "2026-09-27",
+        "checked": "2026-09-28",
         "reviewer_1": {
-          "decision": "seek_further_info",
-          "reason_code": null,
-          "evidence": "Original PDF pp.25-28, Methods/Results: Ogun NADIS outbreak forms for 2015-2019 and 99,923 affected birds; article describes sample referral but gives no explicit positive laboratory-confirmed avian AIV result for this series.",
-          "source_url": "https://globaljournals.org/GJMR_Volume20/4-Performance-of-Avian-Influenza.pdf"
+          "decision": "exclude",
+          "reason_code": "no laboratory-confirmed avian AIV",
+          "evidence": "Methods p.4: NADIS outbreak forms/ODK records reviewed, Ogun 2015-2019. Results: 'A total of 99,923 birds were affected'; Fig 3 gives annual affected birds. No positive laboratory results, subtype or confirmation status reported. Rest is CDC attribute scoring and staff questionnaires.",
+          "source_url": "https://medicalresearchjournal.org/index.php/GJMR/article/download/2042/1931",
+          "method": "independent R1 (executor agent, Claude Opus 5.5) full-text review of locally retrieved verified copy; reported to main agent 2026-09-28",
+          "caution": "Only the pathway is described: samples sent to NVRI Vom (p.4). If the reviewers read NADIS records as implicitly confirmed, seek_further_info is defensible."
         },
         "reviewer_2": {
           "decision": "seek_further_info",
           "reason_code": null,
-          "evidence": "Original publisher PDF pp.27-28 reviews Ogun NADIS forms and reports 99,923 affected birds; no explicit positive laboratory-confirmed AIV result for those records found.",
-          "source_url": "https://globaljournals.org/GJMR_Volume20/4-Performance-of-Avian-Influenza.pdf",
-          "method": "independent R2 original full-text review; reported 2026-09-27"
+          "evidence": "'A total of 99,923 birds were affected during the period under review' (Ogun State, 2015-19); paper scores surveillance-system attributes via staff questionnaire, not stating whether this count reflects lab-confirmed positives.",
+          "source_url": "https://medicalresearchjournal.org/index.php/GJMR/article/download/2042/1931",
+          "method": "independent R2 (reviewer agent, Claude Sonnet 5, blind to R1) full-text review of locally retrieved verified copy; reported to main agent 2026-09-28",
+          "caution": "Unclear if the 99,923-bird figure or any case counts are laboratory-confirmed AIV positives versus reported/suspected outbreak cases; core data are CDC-framework performance scores, not virological results."
         },
         "adjudication": {
-          "decision": "seek_further_info",
+          "decision": "exclude",
+          "reason_code": "no laboratory-confirmed avian AIV",
           "reviewer": "main-agent",
-          "basis": "The original article reports surveillance totals without demonstrating a positive laboratory-confirmed avian AIV result in the Ogun series; resolve against source records before final eligibility.",
-          "source_url": "https://globaljournals.org/GJMR_Volume20/4-Performance-of-Avian-Influenza.pdf",
-          "checked": "2026-09-27"
-        }
+          "basis": "R1 exclude / R2 seek_further_info (previously concordant seek_further_info). The full text reports affected-bird totals from NADIS/ODK forms and describes sample submission to NVRI Vom, but reports no positive laboratory result, subtype or confirmation status. Under the 27 Sept amendment (no author contact) no further information can be sought, so it is decided on the text as published.",
+          "source_url": "https://medicalresearchjournal.org/index.php/GJMR/article/download/2042/1931",
+          "checked": "2026-09-28",
+          "caution": "Candidate data source for sensitivity notes only."
+        },
+        "history": [
+          {
+            "checked": "2026-09-27",
+            "reviewer_1": {
+              "decision": "seek_further_info",
+              "reason_code": null,
+              "evidence": "Original PDF pp.25-28, Methods/Results: Ogun NADIS outbreak forms for 2015-2019 and 99,923 affected birds; article describes sample referral but gives no explicit positive laboratory-confirmed avian AIV result for this series.",
+              "source_url": "https://globaljournals.org/GJMR_Volume20/4-Performance-of-Avian-Influenza.pdf"
+            },
+            "reviewer_2": {
+              "decision": "seek_further_info",
+              "reason_code": null,
+              "evidence": "Original publisher PDF pp.27-28 reviews Ogun NADIS forms and reports 99,923 affected birds; no explicit positive laboratory-confirmed AIV result for those records found.",
+              "source_url": "https://globaljournals.org/GJMR_Volume20/4-Performance-of-Avian-Influenza.pdf",
+              "method": "independent R2 original full-text review; reported 2026-09-27"
+            },
+            "adjudication": {
+              "decision": "seek_further_info",
+              "reviewer": "main-agent",
+              "basis": "The original article reports surveillance totals without demonstrating a positive laboratory-confirmed avian AIV result in the Ogun series; resolve against source records before final eligibility.",
+              "source_url": "https://globaljournals.org/GJMR_Volume20/4-Performance-of-Avian-Influenza.pdf",
+              "checked": "2026-09-27"
+            }
+          }
+        ]
       }
     },
     {
@@ -85235,7 +85745,7 @@
         "DOI:103923ijps2008450456"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "provisional_full_text_candidate",
+      "final_status": "provisional_full_text_eligible",
       "vote_disposition": [
         {
           "source": "OpenAlex/Crossref",
@@ -85264,7 +85774,7 @@
         "reviewer": "main-agent",
         "basis": "fresh independent R1/R2 reconstruction; conservative union"
       },
-      "full_text_status": "retrieval_fulltext_obtained_pending_screening",
+      "full_text_status": "full_text_eligible_provisional",
       "retrieval": {
         "checked": "2026-09-23",
         "route": "Europe PMC public metadata/full-text-link service",
@@ -85277,8 +85787,8 @@
         "free_full_text_sources": [],
         "error": null,
         "retrieval_status": "retrieval_fulltext_obtained",
-        "eligibility_status": "not_assessed",
-        "next_action": "Independent R1/R2 full-text eligibility vote, then main adjudication.",
+        "eligibility_status": "assessed",
+        "next_action": "Extraction (report/dataset overlap check first).",
         "retrieval_attempts": [
           {
             "date": "2026-09-27",
@@ -85307,6 +85817,33 @@
           "verification": "Identity verified 2026-09-28: title, authors, year/volume and journal match the register record; body text with methods/results (or review/case-report structure) present. Scanned PDF without text layer; verified by Tesseract OCR (OCR text kept beside PDF). Prior visual note: Visual check of image-only publisher PDF (IJPS journal site): p.2 header International Journal of Poultry Science 7(5):450-456, 2008; title and authors Bello, Lukshi, Sanusi match; p.5 shows Results and Discussion body.",
           "pages": 8
         }
+      },
+      "full_text_eligibility": {
+        "checked": "2026-09-28",
+        "reviewer_1": {
+          "decision": "retain",
+          "reason_code": null,
+          "evidence": "Abstract: HPAI outbreaks in 19 farms, Bauchi State, Feb-May 2006, diagnosed by NVRI Vom and FAO reference lab Padova. Nine species affected (chickens, ostriches, emus, guinea fowl, geese, pigeons, turkeys, ducks, crowned cranes). 176,426 birds lost. Fig 5: weekly confirmed cases.",
+          "source_url": "https://ijpsjournal.org/ijps/article/download/976/960",
+          "method": "independent R1 (executor agent, Claude Opus 5.5) full-text review of locally retrieved verified copy; reported to main agent 2026-09-28",
+          "caution": "Assay type not detailed per farm. Human personnel serology (negative) is non-avian; exclude it from avian extraction."
+        },
+        "reviewer_2": {
+          "decision": "retain",
+          "reason_code": null,
+          "evidence": "19 farms, 176,426 birds affected, Bauchi State, Feb-May 2006; diagnosed by NVRI Vom and FAO Reference Lab Padova; species, dates, weekly case counts and LGA-level map given.",
+          "source_url": "https://ijpsjournal.org/ijps/article/download/976/960",
+          "method": "independent R2 (reviewer agent, Claude Sonnet 5, blind to R1) full-text review of locally retrieved verified copy; reported to main agent 2026-09-28"
+        },
+        "adjudication": {
+          "decision": "retain",
+          "reason_code": null,
+          "reviewer": "main-agent",
+          "basis": "Concordant independent full-text review.",
+          "source_url": "https://ijpsjournal.org/ijps/article/download/976/960",
+          "checked": "2026-09-28",
+          "caution": "Assay type not detailed per farm. Human personnel serology (negative) is non-avian; exclude it from avian extraction."
+        }
       }
     },
     {
@@ -85324,7 +85861,7 @@
         "DOI:103923ijps2008913916"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "provisional_full_text_candidate",
+      "final_status": "provisional_full_text_eligible",
       "vote_disposition": [
         {
           "source": "OpenAlex/Crossref",
@@ -85353,7 +85890,7 @@
         "reviewer": "main-agent",
         "basis": "fresh independent R1/R2 reconstruction; conservative union"
       },
-      "full_text_status": "retrieval_fulltext_obtained_pending_screening",
+      "full_text_status": "full_text_eligible_provisional",
       "retrieval": {
         "checked": "2026-09-23",
         "route": "Europe PMC public metadata/full-text-link service",
@@ -85366,8 +85903,8 @@
         "free_full_text_sources": [],
         "error": null,
         "retrieval_status": "retrieval_fulltext_obtained",
-        "eligibility_status": "not_assessed",
-        "next_action": "Independent R1/R2 full-text eligibility vote, then main adjudication.",
+        "eligibility_status": "assessed",
+        "next_action": "Extraction (report/dataset overlap check first).",
         "retrieval_attempts": [
           {
             "date": "2026-09-27",
@@ -85389,6 +85926,33 @@
           "identity_verified": true,
           "verification": "Identity verified 2026-09-28: title, authors, year/volume and journal match the register record; body text with methods/results (or review/case-report structure) present. Scanned PDF without text layer; verified by Tesseract OCR (OCR text kept beside PDF). Prior visual note: Visual check of image-only publisher PDF (IJPS journal site): p.2 header International Journal of Poultry Science 7(9):913-916, 2008; title and authors Saidu, Wakawa, Abdu et al. match; Materials and Methods section visible.",
           "pages": 5
+        }
+      },
+      "full_text_eligibility": {
+        "checked": "2026-09-28",
+        "reviewer_1": {
+          "decision": "retain",
+          "reason_code": null,
+          "evidence": "Methods p.913-914: 'confirmed outbreaks' from AI control committees (Kano, Katsina), ABU VTH, PACE Kaduna; Jigawa via questionnaire. Jan-Mar 2006. Tables 1-3: losses by state, species, age. 480,378 birds lost in 34 outbreaks.",
+          "source_url": "https://ijpsjournal.org/ijps/article/download/1054/1035",
+          "method": "independent R1 (executor agent, Claude Opus 5.5) full-text review of locally retrieved verified copy; reported to main agent 2026-09-28",
+          "caution": "Confirmation assay not stated. Jigawa data are questionnaire-derived and may not be lab-confirmed. Internal inconsistency: '34 outbreaks' vs state percentages implying about 195 farms. Likely overlap with national 2006 datasets."
+        },
+        "reviewer_2": {
+          "decision": "retain",
+          "reason_code": null,
+          "evidence": "480,378 birds lost across 34 outbreaks in Kano/Kaduna/Katsina/Jigawa, Jan-Mar 2006; 268 suspected cases tested at NVRI Vom, 58 positive; species/age/state breakdown tabulated.",
+          "source_url": "https://ijpsjournal.org/ijps/article/download/1054/1035",
+          "method": "independent R2 (reviewer agent, Claude Sonnet 5, blind to R1) full-text review of locally retrieved verified copy; reported to main agent 2026-09-28"
+        },
+        "adjudication": {
+          "decision": "retain",
+          "reason_code": null,
+          "reviewer": "main-agent",
+          "basis": "Concordant independent full-text review.",
+          "source_url": "https://ijpsjournal.org/ijps/article/download/1054/1035",
+          "checked": "2026-09-28",
+          "caution": "Confirmation assay not stated. Jigawa data are questionnaire-derived and may not be lab-confirmed. Internal inconsistency: '34 outbreaks' vs state percentages implying about 195 farms. Likely overlap with national 2006 datasets."
         }
       }
     },
@@ -85591,7 +86155,7 @@
         "DOI:103923jas2008205217"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "provisional_full_text_candidate",
+      "final_status": "full_text_excluded",
       "vote_disposition": [
         {
           "source": "OpenAlex/Crossref",
@@ -85620,7 +86184,7 @@
         "reviewer": "main-agent",
         "basis": "fresh independent R1/R2 reconstruction; conservative union"
       },
-      "full_text_status": "retrieval_fulltext_obtained_pending_screening",
+      "full_text_status": "full_text_excluded",
       "retrieval": {
         "checked": "2026-09-23",
         "route": "Europe PMC public metadata/full-text-link service",
@@ -85633,8 +86197,8 @@
         "free_full_text_sources": [],
         "error": null,
         "retrieval_status": "retrieval_fulltext_obtained",
-        "eligibility_status": "not_assessed",
-        "next_action": "Independent R1/R2 full-text eligibility vote, then main adjudication.",
+        "eligibility_status": "assessed",
+        "next_action": "None (excluded at full text).",
         "retrieval_attempts": [
           {
             "date": "2026-09-27",
@@ -85662,6 +86226,34 @@
           "identity_verified": true,
           "verification": "Identity verified 2026-09-28: title, authors, year/volume and journal match the register record; body text with methods/results (or review/case-report structure) present. Scanned PDF without text layer; verified by Tesseract OCR (OCR text kept beside PDF).",
           "pages": 14
+        }
+      },
+      "full_text_eligibility": {
+        "checked": "2026-09-28",
+        "reviewer_1": {
+          "decision": "seek_further_info",
+          "reason_code": null,
+          "evidence": "Methods p.206: outbreaks 'duly confirmed by the Adamawa state birdflu control desk office', Girei/Yola-North, Jan-Feb 2007, 7 localities with coordinates. Table 13: cost of 'sample collection and submission to NVRI Vom'. No laboratory result or subtype reported. Rest is questionnaires and economic losses.",
+          "source_url": "https://docsdrive.com/pdfs/ansinet/jas/2008/205-217.pdf",
+          "method": "independent R1 (executor agent, Claude Opus 5.5) full-text review of locally retrieved verified copy; reported to main agent 2026-09-28",
+          "caution": "Mainly a socio-economic survey. Wild-bird 'mortalities' are respondent-reported only. Retain only if official NVRI confirmation of the Adamawa 2007 outbreak is verified."
+        },
+        "reviewer_2": {
+          "decision": "retain",
+          "reason_code": null,
+          "evidence": "Adamawa outbreak, Jan-Feb 2007, 6 villages plus Jimeta; 'samples...later confirmed positive by...NVRI, Vom'; species/date/village mortality (17,026+11,801 birds) tabulated with socio-economic survey.",
+          "source_url": "https://docsdrive.com/pdfs/ansinet/jas/2008/205-217.pdf",
+          "method": "independent R2 (reviewer agent, Claude Sonnet 5, blind to R1) full-text review of locally retrieved verified copy; reported to main agent 2026-09-28",
+          "caution": "Predominantly a socio-economic/KAP-style farmer survey with cost estimation; authors did not perform own lab testing -- confirmation reported secondhand without assay detail or positive-count. Wild-bird die-off uncorroborated (no samples taken)."
+        },
+        "adjudication": {
+          "decision": "exclude",
+          "reason_code": "no laboratory-confirmed avian AIV",
+          "reviewer": "main-agent",
+          "basis": "R1 seek_further_info / R2 retain. Main-session check of the OCR text did not find R2's quoted phrase \"later confirmed positive by NVRI\". The text states outbreaks were \"duly confirmed by the Adamawa state birdflu control desk office\" and costs \"sample collection and submission to NVRI Vom for analysis\", but reports no laboratory result or subtype. It is decided on the text (no author contact).",
+          "source_url": "https://docsdrive.com/pdfs/ansinet/jas/2008/205-217.pdf",
+          "checked": "2026-09-28",
+          "caution": "Socio-economic survey; wild-bird mortality respondent-reported only."
         }
       }
     },
@@ -87509,7 +88101,7 @@
         "AJOL:nvj:3571"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "provisional_full_text_candidate",
+      "final_status": "provisional_full_text_eligible",
       "vote_disposition": [
         {
           "source": "OpenAlex/Crossref",
@@ -87538,7 +88130,7 @@
         "reviewer": "main-agent",
         "basis": "fresh independent R1/R2 reconstruction; conservative union"
       },
-      "full_text_status": "retrieval_fulltext_obtained_pending_screening",
+      "full_text_status": "full_text_eligible_provisional",
       "retrieval": {
         "checked": "2026-09-23",
         "route": "Europe PMC public metadata/full-text-link service",
@@ -87551,8 +88143,8 @@
         "free_full_text_sources": [],
         "error": null,
         "retrieval_status": "retrieval_fulltext_obtained",
-        "eligibility_status": "not_assessed",
-        "next_action": "Independent R1/R2 full-text eligibility vote, then main adjudication.",
+        "eligibility_status": "assessed",
+        "next_action": "Extraction (report/dataset overlap check first).",
         "retrieval_attempts": [
           {
             "date": "2026-09-26",
@@ -87581,6 +88173,33 @@
           "verification": "Identity verified 2026-09-28: title, authors, year/volume and journal match the register record; body text with methods/results (or review/case-report structure) present. Scanned PDF without text layer; verified by Tesseract OCR (OCR text kept beside PDF). Prior visual note: Visual check of scanned AJOL publisher PDF: Nigerian Veterinary Journal 28(3) 2007:67-69 (record year 2008 = AJOL online/indexed year); title and authors Meseko, Oladokun, Shehu match; case report with case history, clinical signs and lesions body.",
           "pages": 3
         }
+      },
+      "full_text_eligibility": {
+        "checked": "2026-09-28",
+        "reviewer_1": {
+          "decision": "retain",
+          "reason_code": null,
+          "evidence": "Case report p.67-68: Rijiyar Zaki, Ungogo LGA, Kano. Goose bought at Sharada market, 3 Dec 2006; outbreak in 364-bird mixed flock (chickens, turkeys, geese). NVRI Vom: rapid antigen positive, egg isolation, AGID, H5-monospecific HI; HPAI H5N1.",
+          "source_url": "https://www.ajol.info/index.php/nvj/article/download/3571/986",
+          "method": "independent R1 (executor agent, Claude Opus 5.5) full-text review of locally retrieved verified copy; reported to main agent 2026-09-28",
+          "caution": "Single outbreak. Subtype from OCR ('HS?') plus H5 HI; N typing method not described."
+        },
+        "reviewer_2": {
+          "decision": "retain",
+          "reason_code": null,
+          "evidence": "Case report, Kano State, Dec 2006; goose introduced to mixed flock died, chicken carcasses positive by virus isolation/identification at NVRI Vom; clinical/postmortem/epidemiological detail given.",
+          "source_url": "https://www.ajol.info/index.php/nvj/article/download/3571/986",
+          "method": "independent R2 (reviewer agent, Claude Sonnet 5, blind to R1) full-text review of locally retrieved verified copy; reported to main agent 2026-09-28"
+        },
+        "adjudication": {
+          "decision": "retain",
+          "reason_code": null,
+          "reviewer": "main-agent",
+          "basis": "Concordant independent full-text review.",
+          "source_url": "https://www.ajol.info/index.php/nvj/article/download/3571/986",
+          "checked": "2026-09-28",
+          "caution": "Single outbreak. Subtype from OCR ('HS?') plus H5 HI; N typing method not described."
+        }
       }
     },
     {
@@ -87598,7 +88217,7 @@
         "AJOL:nvj:3594"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "provisional_full_text_candidate",
+      "final_status": "provisional_full_text_eligible",
       "vote_disposition": [
         {
           "source": "OpenAlex/Crossref",
@@ -87627,7 +88246,7 @@
         "reviewer": "main-agent",
         "basis": "fresh independent R1/R2 reconstruction; conservative union"
       },
-      "full_text_status": "retrieval_fulltext_obtained_pending_screening",
+      "full_text_status": "full_text_eligible_provisional",
       "retrieval": {
         "checked": "2026-09-23",
         "route": "Europe PMC public metadata/full-text-link service",
@@ -87640,8 +88259,8 @@
         "free_full_text_sources": [],
         "error": null,
         "retrieval_status": "retrieval_fulltext_obtained",
-        "eligibility_status": "not_assessed",
-        "next_action": "Independent R1/R2 full-text eligibility vote, then main adjudication.",
+        "eligibility_status": "assessed",
+        "next_action": "Extraction (report/dataset overlap check first).",
         "retrieval_attempts": [
           {
             "date": "2026-09-26",
@@ -87670,6 +88289,33 @@
           "verification": "Identity verified 2026-09-28: title, authors, year/volume and journal match the register record; body text with methods/results (or review/case-report structure) present. Scanned PDF without text layer; verified by Tesseract OCR (OCR text kept beside PDF). Prior visual note: Visual check of scanned AJOL publisher PDF: Nigerian Veterinary Journal 2008 Vol 29(2):55-58 (record year 2009 = indexed year); title and authors Wakawa, Sa'idu, Kazeem et al. match; case report with case history, clinical signs and post-mortem body.",
           "pages": 4
         }
+      },
+      "full_text_eligibility": {
+        "checked": "2026-09-28",
+        "reviewer_1": {
+          "decision": "retain",
+          "reason_code": null,
+          "evidence": "Case report p.55-56: backyard waterfowl (12 geese, 2 mallard, 2 Muscovy), Samaru, Zaria, 25-27 Apr 2007. AI type A rapid antigen positive; NVRI RT-PCR and virus isolation: HPAI H5N1. Mallards infected without clinical signs.",
+          "source_url": "https://www.ajol.info/index.php/nvj/article/download/3594/38130",
+          "method": "independent R1 (executor agent, Claude Opus 5.5) full-text review of locally retrieved verified copy; reported to main agent 2026-09-28",
+          "caution": "Same outbreak as CAN-0060 case 10345. De-duplicate (CAN-1711 supplies the RT-PCR subtype)."
+        },
+        "reviewer_2": {
+          "decision": "retain",
+          "reason_code": null,
+          "evidence": "Case report, Zaria, Apr 2007; waterfowl flock outbreak after Muscovy duck introduction; rapid antigen test positive, RT-PCR and virus isolation at NVRI Vom confirmed HPAI H5N1.",
+          "source_url": "https://www.ajol.info/index.php/nvj/article/download/3594/38130",
+          "method": "independent R2 (reviewer agent, Claude Sonnet 5, blind to R1) full-text review of locally retrieved verified copy; reported to main agent 2026-09-28"
+        },
+        "adjudication": {
+          "decision": "retain",
+          "reason_code": null,
+          "reviewer": "main-agent",
+          "basis": "Concordant independent full-text review.",
+          "source_url": "https://www.ajol.info/index.php/nvj/article/download/3594/38130",
+          "checked": "2026-09-28",
+          "caution": "Same outbreak as CAN-0060 case 10345. De-duplicate (CAN-1711 supplies the RT-PCR subtype)."
+        }
       }
     },
     {
@@ -87687,7 +88333,7 @@
         "AJOL:nvj:68949"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "provisional_full_text_candidate",
+      "final_status": "provisional_full_text_eligible",
       "vote_disposition": [
         {
           "source": "OpenAlex/Crossref",
@@ -87716,7 +88362,7 @@
         "reviewer": "main-agent",
         "basis": "fresh independent R1/R2 reconstruction; conservative union"
       },
-      "full_text_status": "retrieval_fulltext_obtained_pending_screening",
+      "full_text_status": "full_text_eligible_provisional",
       "retrieval": {
         "checked": "2026-09-23",
         "route": "Europe PMC public metadata/full-text-link service",
@@ -87729,8 +88375,8 @@
         "free_full_text_sources": [],
         "error": null,
         "retrieval_status": "retrieval_fulltext_obtained",
-        "eligibility_status": "not_assessed",
-        "next_action": "Independent R1/R2 full-text eligibility vote, then main adjudication.",
+        "eligibility_status": "assessed",
+        "next_action": "Extraction (report/dataset overlap check first).",
         "retrieval_attempts": [
           {
             "date": "2026-09-26",
@@ -87759,6 +88405,33 @@
           "verification": "Identity verified 2026-09-28: title, authors, year/volume and journal match the register record; body text with methods/results (or review/case-report structure) present.",
           "pages": 6
         }
+      },
+      "full_text_eligibility": {
+        "checked": "2026-09-28",
+        "reviewer_1": {
+          "decision": "retain",
+          "reason_code": null,
+          "evidence": "Summary/Results p.164-166: LBM surveillance May-Jun 2008, 4,707 samples from 11 previously unaffected states. 2/43 ducks positive (isolation, M and H5 RT-PCR), Gombe LBM. Full genome A/duck/Nigeria/3724-2/2008 (GISAID EPI161701-08). Serology negative.",
+          "source_url": "https://www.ajol.info/index.php/nvj/article/download/68949/57007",
+          "method": "independent R1 (executor agent, Claude Opus 5.5) full-text review of locally retrieved verified copy; reported to main agent 2026-09-28",
+          "caution": "Apparently healthy ducks (Anas sparsa) in an LBM. Sequences likely also analysed in Fusaro/Monne papers; watch for overlap. No clade assignment given in text."
+        },
+        "reviewer_2": {
+          "decision": "retain",
+          "reason_code": null,
+          "evidence": "Surveillance of 4,707 samples across 11 Nigerian states, 2008; 2 HPAI H5N1 isolates from apparently healthy ducks (Gombe LBM) by RT-PCR/virus isolation; full genome sequenced, GISAID-deposited.",
+          "source_url": "https://www.ajol.info/index.php/nvj/article/download/68949/57007",
+          "method": "independent R2 (reviewer agent, Claude Sonnet 5, blind to R1) full-text review of locally retrieved verified copy; reported to main agent 2026-09-28"
+        },
+        "adjudication": {
+          "decision": "retain",
+          "reason_code": null,
+          "reviewer": "main-agent",
+          "basis": "Concordant independent full-text review.",
+          "source_url": "https://www.ajol.info/index.php/nvj/article/download/68949/57007",
+          "checked": "2026-09-28",
+          "caution": "Apparently healthy ducks (Anas sparsa) in an LBM. Sequences likely also analysed in Fusaro/Monne papers; watch for overlap. No clade assignment given in text."
+        }
       }
     },
     {
@@ -87776,7 +88449,7 @@
         "AJOL:nvj:68961"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "provisional_full_text_candidate",
+      "final_status": "full_text_excluded",
       "vote_disposition": [
         {
           "source": "OpenAlex/Crossref",
@@ -87805,7 +88478,7 @@
         "reviewer": "main-agent",
         "basis": "fresh independent R1/R2 reconstruction; conservative union"
       },
-      "full_text_status": "retrieval_fulltext_obtained_pending_screening",
+      "full_text_status": "full_text_excluded",
       "retrieval": {
         "checked": "2026-09-23",
         "route": "Europe PMC public metadata/full-text-link service",
@@ -87818,8 +88491,8 @@
         "free_full_text_sources": [],
         "error": null,
         "retrieval_status": "retrieval_fulltext_obtained",
-        "eligibility_status": "not_assessed",
-        "next_action": "Independent R1/R2 full-text eligibility vote, then main adjudication.",
+        "eligibility_status": "assessed",
+        "next_action": "None (excluded at full text).",
         "retrieval_attempts": [
           {
             "date": "2026-09-26",
@@ -87848,6 +88521,33 @@
           "verification": "Identity verified 2026-09-28: title, authors, year/volume and journal match the register record; body text with methods/results (or review/case-report structure) present.",
           "pages": 4
         }
+      },
+      "full_text_eligibility": {
+        "checked": "2026-09-28",
+        "reviewer_1": {
+          "decision": "exclude",
+          "reason_code": "no epi/molecular/spatial-temporal data",
+          "evidence": "p.242 Methods: same 100 birds from 114 NVRI-confirmed H5N1 flocks, Dec 2006-Jul 2007. Results: Salmonella Gallinarum in 7/600 tissues; Table 2 mortality in Salmonella-positive flocks. No AIV epidemiological or molecular results.",
+          "source_url": "https://www.ajol.info/index.php/nvj/article/download/68961/57020",
+          "method": "independent R1 (executor agent, Claude Opus 5.5) full-text review of locally retrieved verified copy; reported to main agent 2026-09-28",
+          "caution": "Same dataset as CAN-0020 (both excluded)."
+        },
+        "reviewer_2": {
+          "decision": "exclude",
+          "reason_code": "duplicate dataset (link primary: CAN-0020)",
+          "evidence": "Same 100 poultry/114-flock (244,992-bird), Dec2006-Jul2007 Nigerian outbreak sample and NVRI Vom lab-confirmation background as CAN-0020 (same author group), differing only in bacterial endpoint.",
+          "source_url": "https://www.ajol.info/index.php/nvj/article/download/68961/57020",
+          "method": "independent R2 (reviewer agent, Claude Sonnet 5, blind to R1) full-text review of locally retrieved verified copy; reported to main agent 2026-09-28"
+        },
+        "adjudication": {
+          "decision": "exclude",
+          "reason_code": "no epi/molecular/spatial-temporal data",
+          "reviewer": "main-agent",
+          "basis": "Concordant exclude with differing reasons. The duplicate-dataset link is not used because the putative primary report (CAN-0020) is itself excluded. Its only outcome is Salmonella Gallinarum.",
+          "source_url": "https://www.ajol.info/index.php/nvj/article/download/68961/57020",
+          "checked": "2026-09-28",
+          "caution": "Same sample set as CAN-0020."
+        }
       }
     },
     {
@@ -87865,7 +88565,7 @@
         "AJOL:nvj:178945"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "provisional_full_text_candidate",
+      "final_status": "provisional_full_text_eligible",
       "vote_disposition": [
         {
           "source": "OpenAlex/Crossref",
@@ -87894,7 +88594,7 @@
         "reviewer": "main-agent",
         "basis": "fresh independent R1/R2 reconstruction; conservative union"
       },
-      "full_text_status": "retrieval_fulltext_obtained_pending_screening",
+      "full_text_status": "full_text_eligible_provisional",
       "retrieval": {
         "checked": "2026-09-23",
         "route": "Europe PMC public metadata/full-text-link service",
@@ -87907,8 +88607,8 @@
         "free_full_text_sources": [],
         "error": null,
         "retrieval_status": "retrieval_fulltext_obtained",
-        "eligibility_status": "not_assessed",
-        "next_action": "Independent R1/R2 full-text eligibility vote, then main adjudication.",
+        "eligibility_status": "assessed",
+        "next_action": "Extraction (report/dataset overlap check first).",
         "retrieval_attempts": [
           {
             "date": "2026-09-26",
@@ -87937,6 +88637,34 @@
           "verification": "Identity verified 2026-09-28: title, authors, year/volume and journal match the register record; body text with methods/results (or review/case-report structure) present.",
           "pages": 15
         }
+      },
+      "full_text_eligibility": {
+        "checked": "2026-09-28",
+        "reviewer_1": {
+          "decision": "retain",
+          "reason_code": null,
+          "evidence": "Methods p.3-4: mini-review plus new NJ phylogeny (MEGA6, Tamura-Nei, 1000 bootstraps) of Nigerian H5N1 clade 2.2 (2006) and 2.3.2.1c (2015) HA sequences from GenBank/GISAID vs European wild birds. Fig 1 and BLAST: Gombe duck virus 99% homologous to European wild-bird strains.",
+          "source_url": "https://www.ajol.info/index.php/nvj/article/download/178945/168309",
+          "method": "independent R1 (executor agent, Claude Opus 5.5) full-text review of locally retrieved verified copy; reported to main agent 2026-09-28",
+          "caution": "Secondary reanalysis per precedent. Mostly narrative review; new analysis is weak (NJ, 28 sequences). Its introduction claim (migratory origin) is inferential; do not treat it as a confirmed new introduction."
+        },
+        "reviewer_2": {
+          "decision": "retain",
+          "reason_code": null,
+          "evidence": "New neighbour-joining phylogenetic analysis and BLAST comparison of Nigerian H5N1 HA sequences (e.g. A/duck/Nigeria/3724-10/2008) against European wild-bird strains, alongside a mini literature review.",
+          "source_url": "https://www.ajol.info/index.php/nvj/article/download/178945/168309",
+          "method": "independent R2 (reviewer agent, Claude Sonnet 5, blind to R1) full-text review of locally retrieved verified copy; reported to main agent 2026-09-28",
+          "caution": "Majority of text is narrative literature review (60+ sources); eligible content is the new phylogenetic tree/BLAST reanalysis (Fig.1) per secondary-reanalysis precedent."
+        },
+        "adjudication": {
+          "decision": "retain",
+          "reason_code": null,
+          "reviewer": "main-agent",
+          "basis": "Concordant independent full-text review.",
+          "source_url": "https://www.ajol.info/index.php/nvj/article/download/178945/168309",
+          "checked": "2026-09-28",
+          "caution": "Secondary reanalysis per precedent. Mostly narrative review; new analysis is weak (NJ, 28 sequences). Its introduction claim (migratory origin) is inferential; do not treat it as a confirmed new introduction. Majority of text is narrative literature review (60+ sources); eligible content is the new phylogenetic tree/BLAST reanalysis (Fig.1) per secondary-reanalysis precedent."
+        }
       }
     },
     {
@@ -87954,7 +88682,7 @@
         "AJOL:nvj:206029"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "provisional_full_text_candidate",
+      "final_status": "provisional_full_text_eligible",
       "vote_disposition": [
         {
           "source": "OpenAlex/Crossref",
@@ -87983,7 +88711,7 @@
         "reviewer": "main-agent",
         "basis": "fresh independent R1/R2 reconstruction; conservative union"
       },
-      "full_text_status": "retrieval_fulltext_obtained_pending_screening",
+      "full_text_status": "full_text_eligible_provisional",
       "retrieval": {
         "checked": "2026-09-23",
         "route": "Europe PMC public metadata/full-text-link service",
@@ -87996,8 +88724,8 @@
         "free_full_text_sources": [],
         "error": null,
         "retrieval_status": "retrieval_fulltext_obtained",
-        "eligibility_status": "not_assessed",
-        "next_action": "Independent R1/R2 full-text eligibility vote, then main adjudication.",
+        "eligibility_status": "assessed",
+        "next_action": "Extraction (report/dataset overlap check first).",
         "retrieval_attempts": [
           {
             "date": "2026-09-26",
@@ -88025,6 +88753,33 @@
           "identity_verified": true,
           "verification": "Identity verified 2026-09-28: title, authors, year/volume and journal match the register record; body text with methods/results (or review/case-report structure) present.",
           "pages": 12
+        }
+      },
+      "full_text_eligibility": {
+        "checked": "2026-09-28",
+        "reviewer_1": {
+          "decision": "retain",
+          "reason_code": null,
+          "evidence": "Methods/Results p.9-11: 501 sera from 24 commercial farms (SW and N-Central) plus 108 sera from H5N1-infected farms (2015-2016). AGID influenza A: 8/501 positive (1.6%, one SW farm). HI: 3 H5-positive (titres 3-4 log2). Infected-farm sera all negative.",
+          "source_url": "https://www.ajol.info/index.php/nvj/article/download/206029/194277",
+          "method": "independent R1 (executor agent, Claude Opus 5.5) full-text review of locally retrieved verified copy; reported to main agent 2026-09-28",
+          "caution": "Serology only: exposure. Authors attribute H5 antibodies most likely to clandestine vaccination; not evidence of field infection."
+        },
+        "reviewer_2": {
+          "decision": "retain",
+          "reason_code": null,
+          "evidence": "AGID/HI serosurvey of 501+108 sera across 24 Nigerian commercial farms, 2015-16; 8/501 AGID-positive, 3 HI-positive for H5 (titres to 4log2), evidencing likely clandestine vaccination.",
+          "source_url": "https://www.ajol.info/index.php/nvj/article/download/206029/194277",
+          "method": "independent R2 (reviewer agent, Claude Sonnet 5, blind to R1) full-text review of locally retrieved verified copy; reported to main agent 2026-09-28"
+        },
+        "adjudication": {
+          "decision": "retain",
+          "reason_code": null,
+          "reviewer": "main-agent",
+          "basis": "Concordant independent full-text review.",
+          "source_url": "https://www.ajol.info/index.php/nvj/article/download/206029/194277",
+          "checked": "2026-09-28",
+          "caution": "Serology only: exposure. Authors attribute H5 antibodies most likely to clandestine vaccination; not evidence of field infection."
         }
       }
     },
@@ -90066,7 +90821,7 @@
         "DOI:1047262sl91132021005"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "provisional_full_text_candidate",
+      "final_status": "full_text_excluded",
       "vote_disposition": [
         {
           "source": "OpenAlex/Crossref",
@@ -90090,7 +90845,7 @@
         "reviewer": "main-agent",
         "basis": "fresh independent R1/R2 reconstruction; conservative union"
       },
-      "full_text_status": "retrieval_fulltext_obtained_pending_screening",
+      "full_text_status": "full_text_excluded",
       "retrieval": {
         "checked": "2026-09-23",
         "route": "Europe PMC public metadata/full-text-link service",
@@ -90103,8 +90858,8 @@
         "free_full_text_sources": [],
         "error": null,
         "retrieval_status": "retrieval_fulltext_obtained",
-        "eligibility_status": "not_assessed",
-        "next_action": "Independent R1/R2 full-text eligibility vote, then main adjudication.",
+        "eligibility_status": "assessed",
+        "next_action": "None (excluded at full text).",
         "retrieval_attempts": [
           {
             "date": "2026-09-27",
@@ -90127,6 +90882,33 @@
           "verification": "Identity verified 2026-09-28: title, authors, year/volume and journal match the register record; body text with methods/results (or review/case-report structure) present. Publisher PDF (Science Letters 9(1), 2021): title \"Effect of Avian Influenza H9N2 Subtype Virus Infection on Backyard Poultry Production\", first author Mirwaise Khan (Gomal University, Pakistan) match; 5 pages, review format with Abstract/Introduction/Conclusion.",
           "pages": 5,
           "screening_flag": "Text appears to concern Pakistan; Nigeria data not evident on identity check. Screening decision still required from R1/R2."
+        }
+      },
+      "full_text_eligibility": {
+        "checked": "2026-09-28",
+        "reviewer_1": {
+          "decision": "exclude",
+          "reason_code": "non-Nigeria no Nigeria-data",
+          "evidence": "Review article (Pakistan authors, Science Letters 2021) on H9N2 in backyard poultry. The word 'Nigeria' does not appear.",
+          "source_url": "http://thesciencepublishers.com/science_letters/files/v9i1-4-132021005-SL.pdf",
+          "method": "independent R1 (executor agent, Claude Opus 5.5) full-text review of locally retrieved verified copy; reported to main agent 2026-09-28",
+          "caution": "Also a review (no primary data)."
+        },
+        "reviewer_2": {
+          "decision": "exclude",
+          "reason_code": "non-Nigeria no Nigeria-data",
+          "evidence": "Review article synthesising global H9N2 backyard-poultry seroprevalence studies (Bangladesh, Iran, Vietnam, Thailand, Pakistan etc.); explicitly labelled 'Review article', no Nigeria data.",
+          "source_url": "http://thesciencepublishers.com/science_letters/files/v9i1-4-132021005-SL.pdf",
+          "method": "independent R2 (reviewer agent, Claude Sonnet 5, blind to R1) full-text review of locally retrieved verified copy; reported to main agent 2026-09-28"
+        },
+        "adjudication": {
+          "decision": "exclude",
+          "reason_code": "non-Nigeria no Nigeria-data",
+          "reviewer": "main-agent",
+          "basis": "Concordant independent full-text exclusion with the same fixed reason.",
+          "source_url": "http://thesciencepublishers.com/science_letters/files/v9i1-4-132021005-SL.pdf",
+          "checked": "2026-09-28",
+          "caution": "Also a review (no primary data)."
         }
       }
     },
@@ -92335,7 +93117,7 @@
         "AJOL:pngas:332176"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "provisional_full_text_candidate",
+      "final_status": "provisional_full_text_eligible",
       "vote_disposition": [
         {
           "source": "OpenAlex/Crossref",
@@ -92364,7 +93146,7 @@
         "reviewer": "main-agent",
         "basis": "fresh independent R1/R2 reconstruction; conservative union"
       },
-      "full_text_status": "retrieval_fulltext_obtained_pending_screening",
+      "full_text_status": "full_text_eligible_provisional",
       "retrieval": {
         "checked": "2026-09-23",
         "route": "Europe PMC public metadata/full-text-link service",
@@ -92377,8 +93159,8 @@
         "free_full_text_sources": [],
         "error": null,
         "retrieval_status": "retrieval_fulltext_obtained",
-        "eligibility_status": "not_assessed",
-        "next_action": "Independent R1/R2 full-text eligibility vote, then main adjudication.",
+        "eligibility_status": "assessed",
+        "next_action": "Extraction (report/dataset overlap check first).",
         "retrieval_attempts": [
           {
             "date": "2026-09-26",
@@ -92412,6 +93194,34 @@
           "identity_verified": true,
           "verification": "Identity verified 2026-09-28: title, authors, year/volume and journal match the register record; body text with methods/results (or review/case-report structure) present.",
           "pages": 13
+        }
+      },
+      "full_text_eligibility": {
+        "checked": "2026-09-28",
+        "reviewer_1": {
+          "decision": "retain",
+          "reason_code": null,
+          "evidence": "Methods p.98: retrospective Plateau State AI Desk records, 2015-2022, including 'laboratory results'. Results: 304 positive cases; 151 positive of 168 suspected farms in 2015; 889,980 birds affected. LGA distribution (Jos North/South highest), dry-season peak, ZINB trend.",
+          "source_url": "https://nasjournal.org.ng/site/index.php/pnas/article/download/789/407",
+          "method": "independent R1 (executor agent, Claude Opus 5.5) full-text review of locally retrieved verified copy; reported to main agent 2026-09-28",
+          "caution": "Laboratory assay and subtype (H5N1 vs H5N8) not reported per case; cases counted at farm level. May overlap with national 2015-2017 outbreak datasets."
+        },
+        "reviewer_2": {
+          "decision": "retain",
+          "reason_code": null,
+          "evidence": "Retrospective 2015-2022 Plateau State record review; Table 1 reports explicit 'HPAI test result: Negative/Positive' per year (e.g. 151 positive/17 negative, 2015) plus LGA spatial and monthly temporal distribution.",
+          "source_url": "https://nasjournal.org.ng/site/index.php/pnas/article/download/789/407",
+          "method": "independent R2 (reviewer agent, Claude Sonnet 5, blind to R1) full-text review of locally retrieved verified copy; reported to main agent 2026-09-28",
+          "caution": "Assay/lab method not detailed beyond 'laboratory results' extracted from AI Desk Office records; also models economic loss, but lab-confirmed epi/spatial-temporal data independently qualifies it."
+        },
+        "adjudication": {
+          "decision": "retain",
+          "reason_code": null,
+          "reviewer": "main-agent",
+          "basis": "Concordant independent full-text review.",
+          "source_url": "https://nasjournal.org.ng/site/index.php/pnas/article/download/789/407",
+          "checked": "2026-09-28",
+          "caution": "Laboratory assay and subtype (H5N1 vs H5N8) not reported per case; cases counted at farm level. May overlap with national 2015-2017 outbreak datasets. Assay/lab method not detailed beyond 'laboratory results' extracted from AI Desk Office records; also models economic loss, but lab-confirmed epi/spatial-temporal data independently qualifies it."
         }
       }
     },
@@ -93372,7 +94182,7 @@
         "DOI:1059331jasdv1i142"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "provisional_full_text_candidate",
+      "final_status": "full_text_excluded",
       "vote_disposition": [
         {
           "source": "OpenAlex/Crossref",
@@ -93396,7 +94206,7 @@
         "reviewer": "main-agent",
         "basis": "fresh independent R1/R2 reconstruction; conservative union"
       },
-      "full_text_status": "retrieval_fulltext_obtained_pending_screening",
+      "full_text_status": "full_text_excluded",
       "retrieval": {
         "checked": "2026-09-23",
         "route": "Europe PMC public metadata/full-text-link service",
@@ -93409,8 +94219,8 @@
         "free_full_text_sources": [],
         "error": null,
         "retrieval_status": "retrieval_fulltext_obtained",
-        "eligibility_status": "not_assessed",
-        "next_action": "Independent R1/R2 full-text eligibility vote, then main adjudication.",
+        "eligibility_status": "assessed",
+        "next_action": "None (excluded at full text).",
         "retrieval_attempts": [
           {
             "date": "2026-09-27",
@@ -93426,6 +94236,33 @@
           "identity_verified": true,
           "verification": "Identity verified 2026-09-28: title, authors, year/volume and journal match the register record; body text with methods/results (or review/case-report structure) present.",
           "pages": 6
+        }
+      },
+      "full_text_eligibility": {
+        "checked": "2026-09-28",
+        "reviewer_1": {
+          "decision": "exclude",
+          "reason_code": "no laboratory-confirmed avian AIV",
+          "evidence": "Abstract/Methods: questionnaires to 40 poultry farmers, Wudil, Kano; descriptive statistics and farm budgeting of egg sales before, during and after the H5N1 epidemic. No sampling or laboratory AIV result reported.",
+          "source_url": "https://njaat.com.ng/index.php/jasd/article/download/42/11",
+          "method": "independent R1 (executor agent, Claude Opus 5.5) full-text review of locally retrieved verified copy; reported to main agent 2026-09-28",
+          "caution": "Economic-impact survey."
+        },
+        "reviewer_2": {
+          "decision": "exclude",
+          "reason_code": "no laboratory-confirmed avian AIV",
+          "evidence": "Farm-budget/socio-economic survey of 40 poultry farmers, Wudil, Kano State, comparing egg sales/prices before/during/after the 2015 outbreak; no lab-confirmed AIV sampling or results of its own.",
+          "source_url": "https://njaat.com.ng/index.php/jasd/article/download/42/11",
+          "method": "independent R2 (reviewer agent, Claude Sonnet 5, blind to R1) full-text review of locally retrieved verified copy; reported to main agent 2026-09-28"
+        },
+        "adjudication": {
+          "decision": "exclude",
+          "reason_code": "no laboratory-confirmed avian AIV",
+          "reviewer": "main-agent",
+          "basis": "Concordant independent full-text exclusion with the same fixed reason.",
+          "source_url": "https://njaat.com.ng/index.php/jasd/article/download/42/11",
+          "checked": "2026-09-28",
+          "caution": "Economic-impact survey."
         }
       }
     },
@@ -96052,7 +96889,7 @@
         "AJOL:pngas:259901"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "provisional_full_text_candidate",
+      "final_status": "provisional_full_text_eligible",
       "vote_disposition": [
         {
           "source": "ajol",
@@ -96076,7 +96913,7 @@
         "reviewer": "main-agent",
         "basis": "fresh independent R1/R2 reconstruction; conservative union"
       },
-      "full_text_status": "retrieval_fulltext_obtained_pending_screening",
+      "full_text_status": "full_text_eligible_provisional",
       "retrieval": {
         "checked": "2026-09-23",
         "route": "Europe PMC public metadata/full-text-link service",
@@ -96089,8 +96926,8 @@
         "free_full_text_sources": [],
         "error": null,
         "retrieval_status": "retrieval_fulltext_obtained",
-        "eligibility_status": "not_assessed",
-        "next_action": "Independent R1/R2 full-text eligibility vote, then main adjudication.",
+        "eligibility_status": "assessed",
+        "next_action": "Extraction (report/dataset overlap check first).",
         "retrieval_attempts": [
           {
             "date": "2026-09-26",
@@ -96118,6 +96955,33 @@
           "identity_verified": true,
           "verification": "Identity verified 2026-09-28: title, authors, year/volume and journal match the register record; body text with methods/results (or review/case-report structure) present.",
           "pages": 20
+        }
+      },
+      "full_text_eligibility": {
+        "checked": "2026-09-28",
+        "reviewer_1": {
+          "decision": "exclude",
+          "reason_code": "no primary data",
+          "evidence": "Public lecture (Nigerian Academy of Science) on transboundary animal diseases. HPAI section (p.~11-13) narrates 2006 national response, policy and vaccines from secondary sources. No new laboratory or field dataset.",
+          "source_url": "https://nasjournal.org.ng/site/index.php/pnas/article/download/66/50",
+          "method": "independent R1 (executor agent, Claude Opus 5.5) full-text review of locally retrieved verified copy; reported to main agent 2026-09-28"
+        },
+        "reviewer_2": {
+          "decision": "retain",
+          "reason_code": null,
+          "evidence": "Public lecture reporting national 2006-08 HPAI surveillance: active surveillance (4,064 tracheal/3,913 cloacal/3,166 serum samples) and LBM surveillance (54 markets); H5N1 isolated in 5/54 LBMs from chickens (3 states) and a duck.",
+          "source_url": "https://nasjournal.org.ng/site/index.php/pnas/article/download/66/50",
+          "method": "independent R2 (reviewer agent, Claude Sonnet 5, blind to R1) full-text review of locally retrieved verified copy; reported to main agent 2026-09-28",
+          "caution": "Format is a public lecture spanning multiple diseases (Rinderpest, PPR, ASF, HPAI); HPAI data appear to summarise a broader FAO/USAID-funded project (possibly overlapping with Joannis et al. 2008, not in this batch) rather than a self-contained new study."
+        },
+        "adjudication": {
+          "decision": "retain",
+          "reason_code": null,
+          "reviewer": "main-agent",
+          "basis": "R1 exclude (no primary data) / R2 retain. The main-session check confirms that the lecture reports results of national HPAI active and LBM surveillance studies the author led (4,064 tracheal, 3,913 cloacal and 3,166 serum samples; H5N1 isolated in 5/54 LBMs across 26 states), i.e. extractable laboratory-confirmed data. Retained as defined grey literature.",
+          "source_url": "https://nasjournal.org.ng/site/index.php/pnas/article/download/66/50",
+          "checked": "2026-09-28",
+          "caution": "Grey literature (public lecture): flag for sensitivity analysis. Likely companion of the national surveillance report or Joannis et al. 2008; resolve the overlap before study counting."
         }
       }
     },
