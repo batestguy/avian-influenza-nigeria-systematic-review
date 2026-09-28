@@ -1,5 +1,19 @@
 # Next-session handoff - Nigeria avian influenza systematic review
-## Latest handoff - 27 September 2026 (session paused mid-retrieval)
+## Latest handoff - 28 September 2026 (full-text gate closed)
+
+The controlling record is `Workbench/56_SCREENING_RECONCILIATION.json`.
+
+- **Gate state:** 1,877 title/metadata identities; 1,581 excluded; 296 full-text candidates = **111 provisional retain + 105 excluded + 80 reports not retrieved**. No report remains unassessed. These are report counts, not study counts.
+- **Done 28 Sept:** 32 candidates identity-verified and screened as batch 5 (13 retain / 19 exclude; `15c316e`). Sweeps 3-4 (OpenAlex/Europe PMC/Semantic Scholar/Crossref title search; Google Scholar via SerpApi with the "All versions" cluster; long-timeout repository retries; Chrome DevTools browser pass) gave 14 more texts; batch 6 = 6 retain / 8 exclude. The remaining 80 are `report_not_retrieved` (`2087a50`). CAN-1627 and CAN-1672 were excluded because the published text reports no laboratory-confirmed results. CAN-1291 (preprint) is not retrieved; its study is represented by the retained CAN-1602.
+- **Amendment (file 15, 28 Sept MAJOR):** the ATBU institutional-access step was dropped because institutional access was unavailable to the team. ResearchGate, Academia.edu (login) and AgEcon Search were bot-gated; no CAPTCHA was bypassed, no login was used and no shadow library was used. Methods/Limitations must say so, and must give the 80 not-retrieved reports.
+- **Workspace:** `D:\AvianInfluenzaSysRev_retrieval_20260927\` (full texts, OCR text, `work/` route logs, `votes/` R1/R2 JSON and adjudication scripts). SerpApi key file is on the user's Desktop (free plan; 127 searches left this month).
+- **Resume in this order:**
+  1. Resolve report/dataset overlaps among the 111 retained reports (companion reports, shared NVRI 2006-07 outbreak line lists, shared sequence accessions, e.g. CAN-0060/CAN-1711, CAN-1719/CAN-1731, CAN-1875 vs the national surveillance report, CAN-1152/CAN-1179 and CAN-0008/CAN-0204 pairs), then produce the study count and the PRISMA 2020 flow numbers.
+  2. Extraction pilot (T1-T5, file 20), then full extraction.
+  3. RoB (JBI plus custom molecular check, file 21), SWiM synthesis, manuscript update in the working copy only (the original `.docx` stays frozen), then the PRISMA/PRISMA-S/SWiM audit.
+- **Manuscript:** unedited. No extraction, RoB or synthesis started.
+
+## Previous handoff - 27 September 2026 (session paused mid-retrieval)
 
 The controlling record is still `Workbench/56_SCREENING_RECONCILIATION.json`. **Its eligibility counts are unchanged:** 296 full-text candidates; 170 adjudicated (92 provisional retain; 78 exclude); 126 open.
 
