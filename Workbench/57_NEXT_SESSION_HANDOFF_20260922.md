@@ -1,5 +1,33 @@
 # Next-session handoff - Nigeria avian influenza systematic review
-## Latest handoff - 28 September 2026 (full-text gate closed)
+## Latest handoff - 28 September 2026, evening (expert audit; Phase A1 paused mid-step)
+
+File 56 is **unchanged** since the full-text gate closed (1,877 identities; 1,581 title/metadata excluded; 296 full text = 111 provisional retain + 105 excluded + 80 not retrieved). Read the file 15 top checkpoint for the audit findings.
+
+- **Expert audit verdict:** the process documentation is strong, but three gaps would draw major-revision comments: (1) **no human reviewer recorded** at any screening stage; (2) title/metadata-only exclusions for most records; (3) the Scholar supplement was never screened. Also: 27% not retrieved (describe it); no κ or PRESS; no PROSPERO and additions around the freeze (report as dated); study counts not done.
+- **Done this session (A1, part):** Scholar Q1-Q4 re-run via SerpApi on 28 Sept, because the 17 Sept run had no export. Result: 800 rows → 519 unique → 291 matched the register → **228 new, unscreened records**, some clearly in scope (Ifende 2015 NVRI; Yakubu 2025; Balami 2025; Akanbi 2016; Akintule 2026; Kwaghe 2017; comparator Kalonda 2020). Logged as a MAJOR amendment in file 15, and in file 19. SerpApi: **~87 searches left this month** (40 used).
+- **Workspace:** `D:\AvianInfluenzaSysRev_retrieval_20260927\scholar_rerun\`
+  - `run_q1q4.py`, which produced `raw_q1q4_20260928.json` (the raw pages)
+  - `reconcile.py`, which produced `reconciled_20260928.json` (one entry per unique title; `match` is null for the 228 new records)
+  - **Do not re-run the SerpApi script.** Re-run `reconcile.py` only if needed (about a minute).
+- **Resume in this order:**
+  - **A1 (continue).**
+    1. Build `scholar_rerun/packet_title_screen.json`: the unmatched entries as SCH-001 to SCH-228, ordered by best Scholar rank, with fields title, year, venue_line (`summary`), snippet, link, type and queries. This was the step blocked by the tool outage.
+    2. Run a blind title/snippet vote on the file 18 form. R1 is the `executor` agent and R2 is the `reviewer` agent; neither sees the other's vote. Each writes to `votes/R1_scholar.json` and `votes/R2_scholar.json` as `{id, decision: include|exclude|unsure, reason, evidence}`. Unsure goes to full text, and neither should exclude on a snippet alone when the Nigeria + AIV link is plausible.
+    3. Adjudicate using the pattern in `votes/adjudicate_batch6.py`, and also flag within-set duplicates (Scholar truncation variants).
+    4. Append the new records to file 56 as CAN-1878 onward, with `source_lineage: ["scholar_rerun_20260928"]`.
+    5. Retrieve and screen full text for the retained records (legal routes only; same R1/R2 plus adjudication), then update the counts and `metadata`.
+  - **A2.** Compute R1/R2 raw agreement and Cohen's κ at the title stage (file 56 `reviewer_1/2.decision`: 1,819 agree / 56 disagree / 2 adjudication overrides) and at the full-text stage (`full_text_eligibility.reviewer_1/2`). Log the results in file 15.
+  - **A3.** Characterise the 80 `report_not_retrieved` records by year, source, publication type and whether the title suggests Nigerian lab data. This goes in the manuscript appendix and the Limitations section.
+  - **B (human check; the user says it was done, but nothing records it).**
+    1. Generate the user-approved sidecar `Workbench/58_HUMAN_VERIFICATION.csv` with columns canonical_id, stage, AI decision, reason, evidence, source URL, plus empty `human_decision`, `human_initials` and `date`. Rows cover all retains, all full-text excludes and a seeded random 10% of title excludes.
+    2. The user fills it in. **The 46 batch 5-6 decisions (27-28 Sept) need the user's own review.**
+    3. Read it back into file 56 as `human_verification`, compute human-vs-AI agreement, log an amendment, and draft the Methods disclosure.
+  - **C.** Link reports to studies: CAN-0060/1711, CAN-1719/1731, CAN-1875 vs the national surveillance report, CAN-1152/1179, CAN-0008/0204, CAN-1291→1602, CAN-0056/1446, plus shared NVRI line lists and accessions. Then produce the PRISMA 2020 flow, with the arithmetic checked by script against file 56.
+  - **D.** Extraction pilot (file 20 T1-T5, ~10 studies) → full extraction → RoB (file 21 + 07; no score sums) → SWiM (file 04; epoch × subtype/clade × host × state/zone) → narrative certainty (file 06). Edit only `Avian_review_paper_submission_ready.docx`, and load `thesis-to-journal` first. Finish with the audit against files 01/02/04.
+- **Checks after each phase:** file 56 must parse; candidates must equal retain + exclude + not retrieved; every exclusion must have one fixed reason. Pass the phase outputs to the `reviewer` agent before reporting.
+- **Manuscript:** unedited.
+
+## Previous handoff - 28 September 2026 (full-text gate closed)
 
 The controlling record is `Workbench/56_SCREENING_RECONCILIATION.json`.
 
