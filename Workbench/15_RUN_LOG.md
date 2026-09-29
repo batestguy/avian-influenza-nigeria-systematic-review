@@ -1,5 +1,15 @@
 # Run log + gate checklists (update as you go)
-## Reviewer audit corrections - 2026-09-29 (latest; supersedes counts below)
+## Phase B: human verification - 2026-09-29 (latest)
+- **The sheet.** `Workbench/58_HUMAN_VERIFICATION.csv` is the user-approved sidecar, built by `votes/build_human_verification.py` from file 56.
+  - 429 decisions: 122 full-text retains, 113 full-text excludes, 12 duplicate removals, and 182 title exclusions (seeded 10% sample of 1,770, seed 20260929, plus 5 adjudication overrides).
+  - 107 rows are flagged must-check (batches 5-6, the Scholar full-text screen, borderline cases, R1/R2 disagreements, overrides and duplicates).
+  - A `reviewer` agent audited it against the register: 0 mismatches over all 429 rows. Its should-fix items (unusable punctuation-stripped DOIs, HTML in titles, mid-word truncation) were fixed.
+- **Verification.** The author, **Mayowa Olabode (MO)**, confirmed all AI decisions in the session chat ("I agree with all AI decisions").
+  - Because of physical limitations, the author asked the AI assistant to enter the confirmation on their behalf. All 429 rows read `agree`, MO, 2026-09-29, with a note stating this.
+  - The register now has a `human_verification` field on each of the 429 records and a `metadata.human_verification` summary. 0 decisions were overturned.
+- **Caveat.** This is a blanket confirmation transcribed by the AI, not a row-level independent check. The 100% human-AI agreement **must not** be reported as an agreement statistic.
+- **Methods and Limitations.** Draft text was added to file 14. Before submission, the author must confirm how the accessibility wording should read. A second human screener checking the 107 priority rows would materially strengthen the review.
+## Reviewer audit corrections - 2026-09-29 (supersedes counts below)
 - An independent `reviewer` agent (Claude Sonnet 5.5) audited today's register changes. There were no blocking findings. All counts, κ values and 10 duplicate calls reproduced; 19 PDFs were identity-checked; no shadow-library or login-gated source URL was found.
 - **False claim corrected.** The retrieval section below says the looser re-check "found no others". That was wrong.
   - The auditor found CAN-2073 = CAN-1687 (same DOI 10.4161/viru.26360; both title-excluded).
