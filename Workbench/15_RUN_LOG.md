@@ -1,5 +1,63 @@
 # Run log + gate checklists (update as you go)
-## Phase A checkpoint - 2026-09-29 (latest)
+## Reviewer audit corrections - 2026-09-29 (latest; supersedes counts below)
+- An independent `reviewer` agent (Claude Sonnet 5.5) audited today's register changes. There were no blocking findings. All counts, κ values and 10 duplicate calls reproduced; 19 PDFs were identity-checked; no shadow-library or login-gated source URL was found.
+- **False claim corrected.** The retrieval section below says the looser re-check "found no others". That was wrong.
+  - The auditor found CAN-2073 = CAN-1687 (same DOI 10.4161/viru.26360; both title-excluded).
+  - **Root cause:** older register records store DOIs with punctuation stripped (e.g. `104161viru26360`), so DOI matching against Scholar DOIs never fired.
+  - A normalised-DOI re-check of all 228 then found **CAN-1941 = CAN-0835**: same DOI 10.12834/VetIt.870.4301.3, the bilingual Veterinaria Italiana article, both retained. No others were found.
+  - Both are now `duplicate_record_removed`. CAN-1941's full-text votes are kept for audit only.
+- **Linked for Phase C:**
+  - CAN-2044 (2009 poster) ↔ CAN-0061 (the same case-control study; not retrieved).
+  - CAN-2040 (French report) → CAN-0359 (Nature 2006, Ducatez et al.).
+  - CAN-1939 remains a not-retrieved companion of the retained CAN-1778.
+- **Consistency flag.** The line between retained records-based outbreak reports (CAN-1914, CAN-1719, CAN-1347) and excluded ones (CAN-2009: confirmation not stated; CAN-2082: official tables reproduced without analysis) is thin. CAN-1914, 2009, 2082 and 1806 are marked `phase_b_must_check`.
+  - The CAN-1914 basis now describes chapter 6 (economic-impact chapter; epidemic curves from official RT-PCR-confirmed records) and chapter 5 (hotspot map) precisely. It no longer says "original analyses".
+- **Register metadata.** Stale fields are updated or marked superseded (`retrieval_summary`, `last_update`, `scholar_rerun_20260928.result`).
+- **Corrected register.**
+  - 2,105 records = **1,770 title/metadata excluded + 323 full-text candidates + 12 duplicate records removed** (2,093 unique identities).
+  - 323 = **122 provisional retain + 113 excluded + 88 not retrieved**.
+  - The Scholar re-run's 228 = 12 duplicates + 190 title-excluded + 26 to full text (11 retained, 7 excluded, 8 not retrieved). CAN-1806, advanced from the original screen, was excluded.
+  - Full-text agreement on the 20 screened reports stays 19/20 (κ 0.90).
+## Scholar re-run full-text screen - 2026-09-29 (full-text gate closed again)
+- **Screen.** 20 reports were screened: the 19 obtained non-duplicates, including CAN-1806 via the CAN-1974 copy, plus CAN-2026 obtained on retry.
+  - Reviewers: R1 was the executor agent (Claude Opus 5.5) and R2 the reviewer agent (Claude Sonnet 5.5, blind; first R2 batch on 5.5 per the MINOR amendment).
+  - Decision agreement: 19/20. There were two reason-only disagreements.
+  - Votes: `votes/R1_scholar_ft.json` and `R2_scholar_ft.json`; script `votes/adjudicate_scholar_ft.py`.
+- **Adjudication (main session).**
+  - **CAN-1914 retained** (R1 retain / R2 exclude). Chapter 6 (an economic-impact chapter; PDF pp.160-162) gives epidemic curves for 2006-08 and 2015-17 from official RT-PCR-confirmed NVRI/FDL/OIE outbreak records (840 confirmed outbreaks, Dec 2014 to May 2017). Chapter 5 gives a hotspot map. This is consistent with CAN-1719 and CAN-1347. It is flagged as records-based, for sensitivity analysis and as a Phase B must-check.
+  - **CAN-2044:** "no primary data" (poster of a planned study).
+  - **CAN-2068:** "experimental only no field relevance" (H9 assay validation; Nigerian content is a reference strain only).
+  - **CAN-2009 and CAN-2082:** concordant excludes kept, after a main-session check. CAN-2009 does not state laboratory confirmation. CAN-2082 is a desk review reproducing official tables without analysis.
+  - **CAN-1995:** kept as a weak retain (egg-yolk antibody in captive quails).
+- **Result.** 12 retained: CAN-1882, 1884, 1902, 1907, 1914, 1919, 1941, 1995, 2005, 2033, 2038, 2056. 8 excluded: CAN-1806, 1948, 2009, 2026, 2044, 2068, 2082, 2094.
+- **Overlap for Phase C.**
+  - The 2006-07 NVRI outbreak dataset underlies CAN-1907, CAN-1941 and CAN-2033 (and likely CAN-2038/2056).
+  - CAN-2005 (Fasina MSc) overlaps the Fasina papers.
+  - CAN-1902 overlaps the 2015 outbreak reports.
+  - CAN-1882 is the preprint of CAN-0191.
+- **Register.**
+  - 2,105 records = 1,771 title/metadata excluded + 324 full-text candidates + 10 duplicate records removed.
+  - 324 = **123 provisional retain + 113 excluded + 88 not retrieved**. None are pending.
+  - These are report counts; study counts await Phase C.
+## Scholar re-run full-text retrieval - 2026-09-29
+- **Retrieval.** The executor agent ran the legal sweep for the 36 retains.
+  - Routes: Scholar links, publisher/DOI, Unpaywall, OpenAlex, the PMC open-access copy on AWS (used where PMC or MDPI showed a reCAPTCHA), repositories (UP, UI, UILSpace, CGSpace, NVRI, SVEPM), and 23 SerpApi Scholar version look-ups. No shadow library, CAPTCHA bypass, login or author contact was used; the source URLs were audited in the main session.
+  - Result: 26 full texts obtained and identity-verified (CAN-2038 and CAN-2056 by Tesseract OCR); 10 not obtained.
+  - Route log: `D:\AvianInfluenzaSysRev_retrieval_20260927\work\scholar36_retrieval.json`, now copied into each record's `retrieval` field.
+- **Correction: 10 duplicate records.** Once the full texts were in hand, 10 of the 228 "new" records turned out to be existing identities. The 2026-09-28 title matching (threshold 0.90; Scholar titles truncated, garbled or mis-titled) had missed them.
+  - The 10 pairs: CAN-1879→1585, 1910→1602, 1922→0642, 1942→1716, 1969→0191, 1974→1806, 2046→1734, 2067→0046, 2070→1778, 2079→1357.
+  - A looser re-check of all 228 (similarity ≥0.75 plus substring match, each hit judged by hand) was run. [Corrected by the audit above: it missed CAN-2073 and CAN-1941, found later by normalised DOI.]
+  - They are now `duplicate_record_removed`, with the evidence in `report_linkage`, and are counted as duplicates removed rather than as screened identities.
+  - Companion preprints are linked for Phase C: CAN-1882 → CAN-0191 and CAN-1939 → CAN-1778.
+- **CAN-1806 advanced to full text.** It was excluded at title stage in the original screen, but its duplicate CAN-1974 was retained by the fresh blind screen. Conservative union across the two screens moves it to full text, using the copy obtained under CAN-1974. The previous decision is kept in `title_rescreen`.
+- **Register.**
+  - 2,105 records = 2,095 unique identities + 10 duplicate records removed.
+  - 1,771 title/metadata excluded.
+  - 324 full-text candidates = 111 provisional retain + 105 excluded + **89 not retrieved** (80 + 9) + **19 pending R1/R2 full-text screen**.
+  - The 9 new not-retrieved were CAN-1881, 1909, 1920, 1931, 1939, 2023, 2026, 2040 and 2095. **Update, same day:** CAN-2026 was obtained on one retry via the WHO IRIS REST API, which was reachable again (Wkly Epidemiol Rec No. 42, 15 Oct 2010, PMID 20949701).
+  - Net for the Scholar re-run: **20 pending R1/R2 full-text screen, 8 not retrieved**.
+  - Full-text candidates are now 324 = 111 + 105 + 88 not retrieved + 20 pending.
+## Phase A checkpoint - 2026-09-29
 - **A1 Scholar re-run screened.** The 228 new records went into a blinded packet (SCH-001 to SCH-228: title, year, venue line, Scholar snippet, link). They were screened on the file 18 form by R1 (executor agent, Claude Opus 5.5) and R2 (reviewer agent, Claude Sonnet 5, blind to R1).
   - **Votes:** R1 20 include / 9 unsure / 199 exclude; R2 22 include / 14 unsure / 192 exclude.
   - **Agreement (retain = include or unsure):** 215/228 (94.3%), Cohen's κ 0.77.

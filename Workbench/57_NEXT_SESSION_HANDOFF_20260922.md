@@ -1,5 +1,30 @@
 # Next-session handoff - Nigeria avian influenza systematic review
-## Latest handoff - 29 September 2026 (Phase A mostly done; full text for 36 Scholar retains next)
+## Latest handoff - 29 September 2026, late (Phase A done; full-text gate closed again)
+
+**Controlling record:** `Workbench/56_SCREENING_RECONCILIATION.json`. The file 15 top three checkpoints have the details.
+
+- **Register (after the reviewer audit):** 2,105 records.
+  - 1,770 title/metadata excluded.
+  - 12 `duplicate_record_removed` (Scholar records that proved to be existing identities).
+  - 323 full-text candidates = **122 provisional retain + 113 excluded + 88 not retrieved**. None are pending.
+  - These are report counts, not study counts.
+  - Old records store DOIs without punctuation: **always normalise DOIs** (strip non-alphanumerics) before matching.
+- **Phase A complete.**
+  - The Scholar re-run added 228 records: 12 were duplicates, 190 were title-excluded, and 26 went to full text. (CAN-1806 was also advanced because its duplicate CAN-1974 was retained.)
+  - Outcome of those 26: 11 retained, 7 excluded, 8 not retrieved. CAN-1806 was excluded.
+  - Phase B must-check flags: CAN-1914, 2009, 2082 and 1806.
+  - Agreement statistics (A2) and the profile of the not-retrieved reports (A3) are in file 15.
+- **Agents:** R2 is now `reviewer` on Claude Sonnet 5.5 (MINOR amendment `32169a0`); R1 stays `executor` on Claude Opus 5.5.
+- **Resume in this order:**
+  1. **Phase B: human verification. This is the biggest remaining credibility gap.**
+     - Generate `Workbench/58_HUMAN_VERIFICATION.csv` (user-approved sidecar), with columns: canonical_id, stage, AI decision, reason, evidence, source URL, plus empty `human_decision`, `human_initials` and `date`.
+     - Rows: all 122 retains, all 113 full-text excludes, all 12 duplicate calls, and a seeded random 10% of title excludes.
+     - Mark as must-check-personally: the 46 batch 5-6 decisions, the 20 Scholar full-text decisions, and CAN-1914/CAN-1806.
+     - Read the CSV back into file 56 as `human_verification`, compute human-vs-AI agreement, and draft the Methods disclosure.
+  2. **Phase C: link reports to studies.** Include the new overlaps listed in file 15 (NVRI 2006-07 dataset: CAN-1907/0835/2033/2038/2056; CAN-2044↔0061; CAN-2040→0359; CAN-2005 vs Fasina papers; CAN-1902 vs the 2015 reports; CAN-1882→0191; CAN-0014/0015), plus the pairs listed in the 28 Sept section below. Then produce the PRISMA 2020 flow, including an "other methods" arm for the Scholar re-run and the 12 duplicates removed.
+  3. **Phase D:** as below.
+
+## Previous handoff - 29 September 2026 (Phase A mostly done; full text for 36 Scholar retains next)
 
 **Controlling record:** `Workbench/56_SCREENING_RECONCILIATION.json`. File 15's top checkpoint has the figures.
 

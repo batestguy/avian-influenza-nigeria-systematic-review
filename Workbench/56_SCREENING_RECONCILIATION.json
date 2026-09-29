@@ -5021,6 +5021,9 @@
           "date": "2026-09-28",
           "basis": "No verified full text after the legal open-access sweep (Crossref, OpenAlex, Unpaywall, Europe PMC, Semantic Scholar, CORE, Research Square, CGSpace and University of Ibadan repositories, Wayback Machine, AJOL, Google Scholar via SerpApi incl. all versions) and a browser pass. Institutional access was not available to the review team; no author contact (27 Sept amendment). PRISMA: report sought but not retrieved; not a content exclusion."
         }
+      },
+      "report_linkage": {
+        "companion_report": "CAN-2044 (poster of the same case-control study; excluded, no primary data)"
       }
     },
     {
@@ -100362,7 +100365,7 @@
         "DOI:105772intechopen86098"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "title_metadata_excluded",
+      "final_status": "full_text_excluded",
       "vote_disposition": [
         {
           "source": "OpenAlex/Crossref",
@@ -100386,7 +100389,81 @@
         "reviewer": "main-agent",
         "basis": "fresh independent R1/R2 reconstruction; conservative union"
       },
-      "full_text_status": "not_applicable_title_metadata_excluded"
+      "full_text_status": "full_text_excluded",
+      "title_rescreen": {
+        "date": "2026-09-29",
+        "basis": "Its duplicate CAN-1974 (Scholar re-run) was retained by the fresh blind R1/R2 title screen. Conservative union across the two screens advances the identity to full text; the full text obtained under CAN-1974 is used.",
+        "previous_final_status": "title_metadata_excluded",
+        "previous_adjudication": {
+          "decision": "exclude_title_metadata",
+          "reviewer": "main-agent",
+          "basis": "fresh independent R1/R2 reconstruction; conservative union"
+        }
+      },
+      "retrieval": {
+        "checked": "2026-09-29",
+        "route": "legal open-access sweep of Scholar links, publisher/DOI, Unpaywall, OpenAlex, PMC OA, repositories, SerpApi Scholar versions",
+        "retrieval_attempts": [
+          {
+            "date": "2026-09-29",
+            "route": "Google Scholar result link",
+            "url": "https://books.google.com/books?hl=en&lr=&id=UTj8DwAAQBAJ&oi=fnd&pg=PA61&dq=H5N1+Nigeria&ots=pS8t6Q0GsN&sig=odDeZdhZUKxt2IKJS2UoF7SDoUw",
+            "outcome": "HTTP 200; HTML page \"Viruses and Viral Infections in Developing Countries - Googl\""
+          },
+          {
+            "date": "2026-09-29",
+            "route": "Google Scholar resource link",
+            "url": "https://www.intechopen.com/chapters/68092",
+            "outcome": "HTTP 200; HTML page \"Features of Highly Pathogenic Avian Influenza (HPAI) H5N1 in\""
+          },
+          {
+            "date": "2026-09-29",
+            "route": "PDF/full-text link from landing page or repository",
+            "url": "https://www.intechopen.com/citation-pdf-url/68092",
+            "outcome": "HTTP 200; PDF downloaded (2756355 bytes)"
+          }
+        ],
+        "retrieval_status": "retrieval_fulltext_obtained",
+        "fulltext_obtained": {
+          "date": "2026-09-29",
+          "source_url": "https://www.intechopen.com/citation-pdf-url/68092",
+          "local_file": "D:\\AvianInfluenzaSysRev_retrieval_20260927\\fulltext\\CAN-1974.pdf",
+          "identity_verified": true,
+          "verification": "Chapter \"Features of Highly Pathogenic Avian Influenza (HPAI) H5N1 in Domestic Poultry\" by Akanbi OB et al. in \"Viruses and Viral Infections in Developing Countries\" (IntechOpen, 2020) matches; 16-page chapter (6,822 words); no OCR.",
+          "pages": 16
+        },
+        "note": "Full text obtained under duplicate record CAN-1974.",
+        "eligibility_status": "assessed",
+        "next_action": "None (excluded at full text)."
+      },
+      "full_text_eligibility": {
+        "checked": "2026-09-29",
+        "reviewer_1": {
+          "decision": "exclude",
+          "reason_code": "no primary data",
+          "evidence": "IntechOpen book chapter (file CAN-1974.pdf) reviewing HPAI H5N1 clinico-pathology and the Nigerian situation 2006-2016; outbreak facts cited from refs [19], [28], [39] etc. (pp.5-11); lesion figures illustrative.",
+          "source_url": "https://www.intechopen.com/citation-pdf-url/68092",
+          "method": "independent R1 (executor agent, Claude Opus 5.5) full-text review of locally retrieved verified copy; reported to main agent 2026-09-29",
+          "caution": "Narrative review; underlying data are in cited primary reports (e.g., CAN-1907, Joannis 2008)."
+        },
+        "reviewer_2": {
+          "decision": "exclude",
+          "reason_code": "no primary data",
+          "evidence": "p1 (file CAN-1974.pdf): book chapter “Features of Highly Pathogenic Avian Influenza (HPAI) H5N1 in Domestic Poultry” (Akanbi et al.); review of clinico-pathological features and Nigerian situation 2006-2016; abstract describes “A critical look at the Nigerian HPAI situation”.",
+          "source_url": "https://www.intechopen.com/citation-pdf-url/68092",
+          "method": "independent R2 (reviewer agent, Claude Sonnet 5.5, blind to R1) full-text review of locally retrieved verified copy; reported to main agent 2026-09-29",
+          "caution": "Narrative chapter synthesising earlier NVRI work; file CAN-1974.pdf holds CAN-1806."
+        },
+        "adjudication": {
+          "decision": "exclude",
+          "reason_code": "no primary data",
+          "reviewer": "main-agent",
+          "basis": "Concordant independent full-text exclusion with the same fixed reason.",
+          "source_url": "https://www.intechopen.com/citation-pdf-url/68092",
+          "checked": "2026-09-29",
+          "phase_b_must_check": true
+        }
+      }
     },
     {
       "canonical_id": "CAN-1807",
@@ -104138,7 +104215,7 @@
         "scholar:Q3#5"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "provisional_full_text_candidate",
+      "final_status": "duplicate_record_removed",
       "vote_disposition": [
         {
           "source": "scholar_rerun_20260928",
@@ -104170,7 +104247,7 @@
         "basis": "Concordant retain (include/unsure).",
         "checked": "2026-09-29"
       },
-      "full_text_status": "full_text_pending_retrieval",
+      "full_text_status": "duplicate_record_removed",
       "scholar_source": {
         "link": "https://www.academia.edu/download/92140463/Live_Bird_Markets_in_Nigeria_A_Potential_Reservoir.pdf",
         "venue_line": "L Sulaiman, I Shittu, A Fusaro, B Inuwa, B Zecchin… - 2021 - academia.edu",
@@ -104180,6 +104257,64 @@
           null,
           "https://www.academia.edu/download/92140463/Live_Bird_Markets_in_Nigeria_A_Potential_Reservoir.pdf"
         ]
+      },
+      "retrieval": {
+        "checked": "2026-09-29",
+        "route": "legal open-access sweep of Scholar links, publisher/DOI, Unpaywall, OpenAlex, PMC OA, repositories, SerpApi Scholar versions",
+        "retrieval_attempts": [
+          {
+            "date": "2026-09-29",
+            "route": "Google Scholar result link",
+            "url": "https://www.academia.edu/download/92140463/Live_Bird_Markets_in_Nigeria_A_Potential_Reservoir.pdf",
+            "outcome": "HTTP 403; HTML page \"Just a moment...\" (Cloudflare bot check; not bypassed)"
+          },
+          {
+            "date": "2026-09-29",
+            "route": "Unpaywall oa_locations",
+            "url": "https://api.unpaywall.org/v2/10.3390/v13081445?email=batesthommie@gmail.com",
+            "outcome": "is_oa=True; 3 location(s): https://www.mdpi.com/1999-4915/13/8/1445/pdf?version=1629333350; https://www.ncbi.nlm.nih.gov/pmc/articles/8402768; https://doaj.org/article/df7225be617d4e67922ab43b32bfb41e"
+          },
+          {
+            "date": "2026-09-29",
+            "route": "MDPI publisher PDF (Unpaywall best_oa_location)",
+            "url": "https://www.mdpi.com/1999-4915/13/8/1445/pdf?version=1629333350",
+            "outcome": "HTTP 403 text/html; page title \"Access Denied\""
+          },
+          {
+            "date": "2026-09-29",
+            "route": "PMC OA service",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id=PMC8402768",
+            "outcome": "HTTP 404 text/html; page title \"NCBI/xpmc21 - WWW Error 404 Diagnostic\""
+          },
+          {
+            "date": "2026-09-29",
+            "route": "NCBI E-utilities efetch PMC full-text XML",
+            "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=8402768&email=batesthommie@gmail.com",
+            "outcome": "HTTP 200 text/xml; page title \"<article-title>Live Bird Markets in Nigeria: A Potential Res\""
+          },
+          {
+            "date": "2026-09-29",
+            "route": "PMC Open Access dataset on AWS (NCBI)",
+            "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC8402768.1/PMC8402768.1.pdf",
+            "outcome": "HTTP 200; PDF downloaded (729937 bytes)"
+          }
+        ],
+        "retrieval_status": "retrieval_fulltext_obtained",
+        "fulltext_obtained": {
+          "date": "2026-09-29",
+          "source_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC8402768.1/PMC8402768.1.pdf",
+          "local_file": "D:\\AvianInfluenzaSysRev_retrieval_20260927\\fulltext\\CAN-1879.pdf",
+          "identity_verified": true,
+          "verification": "Title, first author Sulaiman and Viruses 2021;13:1445 match venue line; 8-page MDPI Communication with methods, results, discussion (4,271 words); no OCR.",
+          "pages": 8
+        },
+        "note": "Scholar academia.edu copy blocked by Cloudflare and MDPI returned 403; the publisher version PDF (CC BY) was taken from the NCBI PMC Open Access dataset on AWS (PMC8402768)."
+      },
+      "report_linkage": {
+        "duplicate_record_of": "CAN-1585",
+        "basis": "Same title (Scholar truncation; similarity 0.89) and same MDPI article.",
+        "checked": "2026-09-29",
+        "note": "Missed by the 2026-09-28 title matching (threshold 0.90 / truncated Scholar titles); found once full text was in hand. Counted as a duplicate record removed, not as a screened identity."
       }
     },
     {
@@ -104254,7 +104389,7 @@
         "scholar:Q3#9"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "provisional_full_text_candidate",
+      "final_status": "report_not_retrieved",
       "vote_disposition": [
         {
           "source": "scholar_rerun_20260928",
@@ -104286,7 +104421,7 @@
         "basis": "Discordant; conservative union retains for full text (file 18 item 5).",
         "checked": "2026-09-29"
       },
-      "full_text_status": "full_text_pending_retrieval",
+      "full_text_status": "report_not_retrieved",
       "scholar_source": {
         "link": "https://www.researcherslinks.com/current-issues/Low-Pathogenicity-Avian-Influenza-Virus-Africa/29/8/7431/html",
         "venue_line": "AS Arafa - Journal of Virological Sciences, 2022 - researcherslinks.com",
@@ -104296,6 +104431,34 @@
           null,
           "https://www.researcherslinks.com/current-issues/Low-Pathogenicity-Avian-Influenza-Virus-Africa/29/8/7431/html"
         ]
+      },
+      "retrieval": {
+        "checked": "2026-09-29",
+        "route": "legal open-access sweep of Scholar links, publisher/DOI, Unpaywall, OpenAlex, PMC OA, repositories, SerpApi Scholar versions",
+        "retrieval_attempts": [
+          {
+            "date": "2026-09-29",
+            "route": "Google Scholar result link",
+            "url": "https://www.researcherslinks.com/current-issues/Low-Pathogenicity-Avian-Influenza-Virus-Africa/29/8/7431/html",
+            "outcome": "HTTP 403; HTML page \"Just a moment...\" (Cloudflare bot check; not bypassed)"
+          },
+          {
+            "date": "2026-09-29",
+            "route": "Google Scholar title search (via SerpApi)",
+            "url": "https://scholar.google.com/scholar?q=Low+pathogenicity+avian+influenza+H9N2+virus+in+Africa+Arafa",
+            "outcome": "1 result(s) returned; see candidate links below"
+          },
+          {
+            "date": "2026-09-29",
+            "route": "Google Scholar \"All versions\" cluster (via SerpApi)",
+            "url": "https://scholar.google.com/scholar?cluster=6307479760002778465",
+            "outcome": "2 result(s) returned; see candidate links below"
+          }
+        ],
+        "retrieval_status": "report_not_retrieved",
+        "note": "Only copy is the ResearchersLinks HTML page (Journal of Virological Sciences 2022), blocked by a Cloudflare bot check; Scholar all-versions lists only two ResearchersLinks URLs; no DOI or repository copy found.",
+        "eligibility_status": "not_assessed",
+        "next_action": "None (report not retrieved after the legal sweep; no author contact per the 2026-09-27 amendment)."
       }
     },
     {
@@ -104315,7 +104478,7 @@
         "scholar:Q4#10"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "provisional_full_text_candidate",
+      "final_status": "provisional_full_text_eligible",
       "vote_disposition": [
         {
           "source": "scholar_rerun_20260928",
@@ -104347,7 +104510,7 @@
         "basis": "Concordant retain (include/unsure).",
         "checked": "2026-09-29"
       },
-      "full_text_status": "full_text_pending_retrieval",
+      "full_text_status": "full_text_eligible_provisional",
       "scholar_source": {
         "link": "https://www.biorxiv.org/content/10.1101/2025.01.22.634354.abstract",
         "venue_line": "A Yakubu, B Inuwa, J Bakam, E Orioko, HS Emmanuel… - BioRxiv, 2025 - biorxiv.org",
@@ -104357,6 +104520,67 @@
           null,
           "https://www.biorxiv.org/content/10.1101/2025.01.22.634354.full.pdf"
         ]
+      },
+      "retrieval": {
+        "checked": "2026-09-29",
+        "route": "legal open-access sweep of Scholar links, publisher/DOI, Unpaywall, OpenAlex, PMC OA, repositories, SerpApi Scholar versions",
+        "retrieval_attempts": [
+          {
+            "date": "2026-09-29",
+            "route": "Google Scholar result link",
+            "url": "https://www.biorxiv.org/content/10.1101/2025.01.22.634354.abstract",
+            "outcome": "HTTP 200; HTML page \"\""
+          },
+          {
+            "date": "2026-09-29",
+            "route": "Google Scholar resource link",
+            "url": "https://www.biorxiv.org/content/10.1101/2025.01.22.634354.full.pdf",
+            "outcome": "HTTP 200; PDF downloaded (852768 bytes)"
+          }
+        ],
+        "retrieval_status": "retrieval_fulltext_obtained",
+        "fulltext_obtained": {
+          "date": "2026-09-29",
+          "source_url": "https://www.biorxiv.org/content/10.1101/2025.01.22.634354.full.pdf",
+          "local_file": "D:\\AvianInfluenzaSysRev_retrieval_20260927\\fulltext\\CAN-1882.pdf",
+          "identity_verified": true,
+          "verification": "Title, first author Yakubu (Atuman Yakubu) and bioRxiv 2025 match; 15-page preprint with introduction, methods, results, discussion (4,478 words); no OCR.",
+          "pages": 15
+        },
+        "note": "bioRxiv preprint (doi 10.1101/2025.01.22.634354). Same study as the journal version CAN-1969 (Atuman YJ et al., Emerging Animal Species 2025, doi 10.1016/j.eas.2025.100055), which was not retrieved.",
+        "eligibility_status": "assessed",
+        "next_action": "Extraction (report/dataset overlap check first)."
+      },
+      "report_linkage": {
+        "companion_report_of": "CAN-0191",
+        "basis": "Preprint of the study reported in CAN-0191; link at the report-to-study stage (Phase C).",
+        "checked": "2026-09-29"
+      },
+      "full_text_eligibility": {
+        "checked": "2026-09-29",
+        "reviewer_1": {
+          "decision": "retain",
+          "reason_code": null,
+          "evidence": "bioRxiv preprint (2025). Feb 2021 cases: imported exotic birds (Libya via Niger) at NVRI, aquatic birds from Sokoto LBM (Lagos household), park birds Asaba, Delta. rRT-PCR M-gene then H5/H9 subtyping: HPAI H5N8 in yellow golden pheasant, H5N1 in geese/ducks; H9N2 negative (pp.1, 6-8).",
+          "source_url": "https://www.biorxiv.org/content/10.1101/2025.01.22.634354.full.pdf",
+          "method": "independent R1 (executor agent, Claude Opus 5.5) full-text review of locally retrieved verified copy; reported to main agent 2026-09-29",
+          "caution": "Preprint, not peer reviewed. Subtype by RT-PCR only; no sequencing/clade shown for these detections (clade 2.3.4.4b mentioned only from prior literature)."
+        },
+        "reviewer_2": {
+          "decision": "retain",
+          "reason_code": null,
+          "evidence": "p1: real-time RT-PCR; “HPAI viruses H5N1 and H5N8 were detected in the imported aquatic (geese and ducks) and exotic (yellow golden pheasant) birds”; three Nigerian locations (Lagos, Sokoto LBM, Delta), sampled Feb 2021.",
+          "source_url": "https://www.biorxiv.org/content/10.1101/2025.01.22.634354.full.pdf",
+          "method": "independent R2 (reviewer agent, Claude Sonnet 5.5, blind to R1) full-text review of locally retrieved verified copy; reported to main agent 2026-09-29"
+        },
+        "adjudication": {
+          "decision": "retain",
+          "reason_code": null,
+          "reviewer": "main-agent",
+          "basis": "Concordant independent full-text review.",
+          "source_url": "https://www.biorxiv.org/content/10.1101/2025.01.22.634354.full.pdf",
+          "checked": "2026-09-29"
+        }
       }
     },
     {
@@ -104433,7 +104657,7 @@
         "scholar:Q3#12"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "provisional_full_text_candidate",
+      "final_status": "provisional_full_text_eligible",
       "vote_disposition": [
         {
           "source": "scholar_rerun_20260928",
@@ -104465,7 +104689,7 @@
         "basis": "Concordant retain (include/unsure).",
         "checked": "2026-09-29"
       },
-      "full_text_status": "full_text_pending_retrieval",
+      "full_text_status": "full_text_eligible_provisional",
       "scholar_source": {
         "link": "https://assets-eu.researchsquare.com/files/rs-8223783/v1/fc4ec617-20f2-443e-954d-42ed11a16c0b.pdf",
         "venue_line": "AO Akintule, LM Oyedeji, DB Tige, NM Iliyasu… - 2026 - assets-eu.researchsquare.com",
@@ -104475,6 +104699,57 @@
           null,
           "https://assets-eu.researchsquare.com/files/rs-8223783/v1/fc4ec617-20f2-443e-954d-42ed11a16c0b.pdf"
         ]
+      },
+      "retrieval": {
+        "checked": "2026-09-29",
+        "route": "legal open-access sweep of Scholar links, publisher/DOI, Unpaywall, OpenAlex, PMC OA, repositories, SerpApi Scholar versions",
+        "retrieval_attempts": [
+          {
+            "date": "2026-09-29",
+            "route": "Google Scholar result link",
+            "url": "https://assets-eu.researchsquare.com/files/rs-8223783/v1/fc4ec617-20f2-443e-954d-42ed11a16c0b.pdf",
+            "outcome": "HTTP 200; PDF downloaded (1231576 bytes)"
+          }
+        ],
+        "retrieval_status": "retrieval_fulltext_obtained",
+        "fulltext_obtained": {
+          "date": "2026-09-29",
+          "source_url": "https://assets-eu.researchsquare.com/files/rs-8223783/v1/fc4ec617-20f2-443e-954d-42ed11a16c0b.pdf",
+          "local_file": "D:\\AvianInfluenzaSysRev_retrieval_20260927\\fulltext\\CAN-1884.pdf",
+          "identity_verified": true,
+          "verification": "Title and first author Akintule match; 16-page Research Square preprint (rs-8223783 v1) with methods, results, discussion (4,603 words); no OCR.",
+          "pages": 16
+        },
+        "note": "Preprint (not peer reviewed), version 1.",
+        "eligibility_status": "assessed",
+        "next_action": "Extraction (report/dataset overlap check first)."
+      },
+      "full_text_eligibility": {
+        "checked": "2026-09-29",
+        "reviewer_1": {
+          "decision": "retain",
+          "reason_code": null,
+          "evidence": "Research Square preprint (2026). Cross-sectional, 15 commercial farms, Kaduna State LGAs, Oct 2024-Jul 2025; 1500 tracheal/cloacal swabs. NP antigen ELISA 230 (15%) positive; rRT-PCR 110 (7.3%): H5 2.6%, H9 4.7%; farm-level prevalence 33% (pp.4-9).",
+          "source_url": "https://assets-eu.researchsquare.com/files/rs-8223783/v1/fc4ec617-20f2-443e-954d-42ed11a16c0b.pdf",
+          "method": "independent R1 (executor agent, Claude Opus 5.5) full-text review of locally retrieved verified copy; reported to main agent 2026-09-29",
+          "caution": "Preprint. Abstract calls ELISA 'serological' but the assay is antigen-capture ELISA on swabs. Risk-perception survey component not AIV data."
+        },
+        "reviewer_2": {
+          "decision": "retain",
+          "reason_code": null,
+          "evidence": "p2 abstract: Kaduna State commercial farms; serology farm-level AIV prevalence 33%; RT-PCR “overall molecular prevalence of 7.3%, comprising 2.6% H5 and 4.7% H9 subtypes”. Assay described p5 (M-gene rRT-PCR).",
+          "source_url": "https://assets-eu.researchsquare.com/files/rs-8223783/v1/fc4ec617-20f2-443e-954d-42ed11a16c0b.pdf",
+          "method": "independent R2 (reviewer agent, Claude Sonnet 5.5, blind to R1) full-text review of locally retrieved verified copy; reported to main agent 2026-09-29",
+          "caution": "Preprint (Research Square, 20 Jan 2026), not peer reviewed."
+        },
+        "adjudication": {
+          "decision": "retain",
+          "reason_code": null,
+          "reviewer": "main-agent",
+          "basis": "Concordant independent full-text review.",
+          "source_url": "https://assets-eu.researchsquare.com/files/rs-8223783/v1/fc4ec617-20f2-443e-954d-42ed11a16c0b.pdf",
+          "checked": "2026-09-29"
+        }
       }
     },
     {
@@ -105484,7 +105759,7 @@
         "scholar:Q2#54"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "provisional_full_text_candidate",
+      "final_status": "provisional_full_text_eligible",
       "vote_disposition": [
         {
           "source": "scholar_rerun_20260928",
@@ -105516,7 +105791,7 @@
         "basis": "Concordant retain (include/unsure).",
         "checked": "2026-09-29"
       },
-      "full_text_status": "full_text_pending_retrieval",
+      "full_text_status": "full_text_eligible_provisional",
       "scholar_source": {
         "link": "http://www.nvri.gov.ng/images/NVRI%20SEMINAR%20SERIES%202015%20-%20Complete.pdf#page=152",
         "venue_line": "VI Ifende, CA Meseko, CI Odita, BO Akanbi… - NVRI Seminar …, 2015 - nvri.gov.ng",
@@ -105526,6 +105801,57 @@
           null,
           "http://www.nvri.gov.ng/images/NVRI%20SEMINAR%20SERIES%202015%20-%20Complete.pdf#page=152"
         ]
+      },
+      "retrieval": {
+        "checked": "2026-09-29",
+        "route": "legal open-access sweep of Scholar links, publisher/DOI, Unpaywall, OpenAlex, PMC OA, repositories, SerpApi Scholar versions",
+        "retrieval_attempts": [
+          {
+            "date": "2026-09-29",
+            "route": "Google Scholar result link",
+            "url": "http://www.nvri.gov.ng/images/NVRI%20SEMINAR%20SERIES%202015%20-%20Complete.pdf#page=152",
+            "outcome": "HTTP 200; PDF downloaded (3702869 bytes)"
+          }
+        ],
+        "retrieval_status": "retrieval_fulltext_obtained",
+        "fulltext_obtained": {
+          "date": "2026-09-29",
+          "source_url": "http://www.nvri.gov.ng/images/NVRI%20SEMINAR%20SERIES%202015%20-%20Complete.pdf#page=152",
+          "local_file": "D:\\AvianInfluenzaSysRev_retrieval_20260927\\fulltext\\CAN-1902.pdf",
+          "identity_verified": true,
+          "verification": "Title and first author Ifende match; pages 147-152 of the NVRI Seminar Series 2015 compilation (PDF pages 152-157) extracted as a 6-page file with materials and methods, results, discussion, references (1,372 words); no OCR.",
+          "pages": 6
+        },
+        "note": "Seminar paper inside a 159-page compendium; only the paper pages were saved.",
+        "eligibility_status": "assessed",
+        "next_action": "Extraction (report/dataset overlap check first)."
+      },
+      "full_text_eligibility": {
+        "checked": "2026-09-29",
+        "reviewer_1": {
+          "decision": "retain",
+          "reason_code": null,
+          "evidence": "NVRI seminar paper on 2015 HPAI resurgence. Index cases Kano/Lagos Jan 2015; RT-PCR (M gene), virus isolation; >500 positive of >1000 samples to Sept 2015, H5N1 in 20 states + FCT; ArcMap; HA clade 2.3.2.1c, GISAID EPI556504, EPI567299-305 (pp.147-149).",
+          "source_url": "http://www.nvri.gov.ng/images/NVRI%20SEMINAR%20SERIES%202015%20-%20Complete.pdf#page=152",
+          "method": "independent R1 (executor agent, Claude Opus 5.5) full-text review of locally retrieved verified copy; reported to main agent 2026-09-29",
+          "caution": "Institutional/proceedings grey literature. Sequence data likely also in Monne et al. 2015 (overlap for duplicate step)."
+        },
+        "reviewer_2": {
+          "decision": "retain",
+          "reason_code": null,
+          "evidence": "p2: “more than 500 cases from over 1000 samples submitted were confirmed positive for Influenza A subtype H5N1 in 20 States”; M-gene RT-PCR, virus isolation; p3 whole-genome sequence GISAID EPI 556504 etc. 2015 outbreak Jan-Sept.",
+          "source_url": "http://www.nvri.gov.ng/images/NVRI%20SEMINAR%20SERIES%202015%20-%20Complete.pdf#page=152",
+          "method": "independent R2 (reviewer agent, Claude Sonnet 5.5, blind to R1) full-text review of locally retrieved verified copy; reported to main agent 2026-09-29",
+          "caution": "Seminar/proceedings paper."
+        },
+        "adjudication": {
+          "decision": "retain",
+          "reason_code": null,
+          "reviewer": "main-agent",
+          "basis": "Concordant independent full-text review.",
+          "source_url": "http://www.nvri.gov.ng/images/NVRI%20SEMINAR%20SERIES%202015%20-%20Complete.pdf#page=152",
+          "checked": "2026-09-29"
+        }
       }
     },
     {
@@ -105773,7 +106099,7 @@
         "scholar:Q4#86"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "provisional_full_text_candidate",
+      "final_status": "provisional_full_text_eligible",
       "vote_disposition": [
         {
           "source": "scholar_rerun_20260928",
@@ -105805,7 +106131,7 @@
         "basis": "Concordant retain (include/unsure).",
         "checked": "2026-09-29"
       },
-      "full_text_status": "full_text_pending_retrieval",
+      "full_text_status": "full_text_eligible_provisional",
       "scholar_source": {
         "link": "https://cyberleninka.ru/article/n/the-effect-of-highly-pathogenic-avian-influenza-hpai-h5n1-outbreaks-on-mixed-species-poultry-farms-in-nigeria",
         "venue_line": "OB Akanbi, PS Ekong, CI Odita… - Journal of World's Poultry …, 2016 - cyberleninka.ru",
@@ -105815,6 +106141,63 @@
           null,
           "https://cyberleninka.ru/article/n/the-effect-of-highly-pathogenic-avian-influenza-hpai-h5n1-outbreaks-on-mixed-species-poultry-farms-in-nigeria"
         ]
+      },
+      "retrieval": {
+        "checked": "2026-09-29",
+        "route": "legal open-access sweep of Scholar links, publisher/DOI, Unpaywall, OpenAlex, PMC OA, repositories, SerpApi Scholar versions",
+        "retrieval_attempts": [
+          {
+            "date": "2026-09-29",
+            "route": "Google Scholar result link",
+            "url": "https://cyberleninka.ru/article/n/the-effect-of-highly-pathogenic-avian-influenza-hpai-h5n1-outbreaks-on-mixed-species-poultry-farms-in-nigeria",
+            "outcome": "HTTP 200; HTML page \"The Effect of Highly Pathogenic Avian Influenza (HPAI) H5N1 \""
+          },
+          {
+            "date": "2026-09-29",
+            "route": "PDF/full-text link from landing page or repository",
+            "url": "https://cyberleninka.ru/article/n/the-effect-of-highly-pathogenic-avian-influenza-hpai-h5n1-outbreaks-on-mixed-species-poultry-farms-in-nigeria/pdf",
+            "outcome": "HTTP 200; PDF downloaded (684119 bytes)"
+          }
+        ],
+        "retrieval_status": "retrieval_fulltext_obtained",
+        "fulltext_obtained": {
+          "date": "2026-09-29",
+          "source_url": "https://cyberleninka.ru/article/n/the-effect-of-highly-pathogenic-avian-influenza-hpai-h5n1-outbreaks-on-mixed-species-poultry-farms-in-nigeria/pdf",
+          "local_file": "D:\\AvianInfluenzaSysRev_retrieval_20260927\\fulltext\\CAN-1907.pdf",
+          "identity_verified": true,
+          "verification": "Title, first author Akanbi and J. World Poult. Res. 2016;6(3):147-152 match; 6-page published article (CC licence) with methods, results, discussion (4,233 words); no OCR.",
+          "pages": 6
+        },
+        "note": "Publisher PDF mirrored on CyberLeninka (open-access aggregator), as linked by Scholar.",
+        "eligibility_status": "assessed",
+        "next_action": "Extraction (report/dataset overlap check first)."
+      },
+      "full_text_eligibility": {
+        "checked": "2026-09-29",
+        "reviewer_1": {
+          "decision": "retain",
+          "reason_code": null,
+          "evidence": "NVRI database of lab-confirmed (VI and/or PCR) HPAI H5N1 outbreaks 2006-2007: 170 of 299 confirmed cases with full history, 20 states; ArcGIS mapping vs wetlands/IBAs; mortality by flock type and single vs mixed species (pp.147-149).",
+          "source_url": "https://cyberleninka.ru/article/n/the-effect-of-highly-pathogenic-avian-influenza-hpai-h5n1-outbreaks-on-mixed-species-poultry-farms-in-nigeria/pdf",
+          "method": "independent R1 (executor agent, Claude Opus 5.5) full-text review of locally retrieved verified copy; reported to main agent 2026-09-29",
+          "caution": "Retrospective analysis of NVRI diagnostic records; same 299-case dataset underlies CAN-2033 (Akanbi 2014 thesis) and CAN-1941 - overlap."
+        },
+        "reviewer_2": {
+          "decision": "retain",
+          "reason_code": null,
+          "evidence": "p1 abstract: “data of confirmed 2006-2008 HPAI H5N1 outbreak in poultry” mapped in ArcGIS; outbreaks clustered in poultry-dense northern states; species mortality by farm type (177,996 birds).",
+          "source_url": "https://cyberleninka.ru/article/n/the-effect-of-highly-pathogenic-avian-influenza-hpai-h5n1-outbreaks-on-mixed-species-poultry-farms-in-nigeria/pdf",
+          "method": "independent R2 (reviewer agent, Claude Sonnet 5.5, blind to R1) full-text review of locally retrieved verified copy; reported to main agent 2026-09-29",
+          "caution": "Uses NVRI 2006-08 confirmed-outbreak data overlapping CAN-1941/2033 sources; duplication not judged."
+        },
+        "adjudication": {
+          "decision": "retain",
+          "reason_code": null,
+          "reviewer": "main-agent",
+          "basis": "Concordant independent full-text review.",
+          "source_url": "https://cyberleninka.ru/article/n/the-effect-of-highly-pathogenic-avian-influenza-hpai-h5n1-outbreaks-on-mixed-species-poultry-farms-in-nigeria/pdf",
+          "checked": "2026-09-29"
+        }
       }
     },
     {
@@ -105889,7 +106272,7 @@
         "scholar:Q4#46"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "provisional_full_text_candidate",
+      "final_status": "report_not_retrieved",
       "vote_disposition": [
         {
           "source": "scholar_rerun_20260928",
@@ -105921,7 +106304,7 @@
         "basis": "Discordant; conservative union retains for full text (file 18 item 5).",
         "checked": "2026-09-29"
       },
-      "full_text_status": "full_text_pending_retrieval",
+      "full_text_status": "report_not_retrieved",
       "scholar_source": {
         "link": "https://www.researchgate.net/profile/Assam-Assam/publication/357531247_Live_Wild_Bird_Trade_and_Sellers'_Biosecurity_Risks_in_Kaduna_State_Nigeria/links/61d82b75b8305f7c4b297e9a/Live-Wild-Bird-Trade-and-Sellers-Biosecurity-Risks-in-Kaduna-State-Nigeria.pdf",
         "venue_line": "A Assam, H Abah, PA Abdu… - emerging infectious …, 2021 - researchgate.net",
@@ -105931,6 +106314,58 @@
           null,
           "https://www.researchgate.net/profile/Assam-Assam/publication/357531247_Live_Wild_Bird_Trade_and_Sellers'_Biosecurity_Risks_in_Kaduna_State_Nigeria/links/61d82b75b8305f7c4b297e9a/Live-Wild-Bird-Trade-and-Sellers-Biosecurity-Risks-in-Kaduna-State-Nigeria.pdf"
         ]
+      },
+      "retrieval": {
+        "checked": "2026-09-29",
+        "route": "legal open-access sweep of Scholar links, publisher/DOI, Unpaywall, OpenAlex, PMC OA, repositories, SerpApi Scholar versions",
+        "retrieval_attempts": [
+          {
+            "date": "2026-09-29",
+            "route": "Google Scholar result link",
+            "url": "https://www.researchgate.net/profile/Assam-Assam/publication/357531247_Live_Wild_Bird_Trade_and_Sellers'_Biosecurity_Risks_in_Kaduna_State_Nigeria/links/61d82b75b8305f7c4b297e9a/Live-Wild-Bird-Trade-and-Sellers-Biosecurity-Risks-in-Kaduna-State-Nigeria.pdf",
+            "outcome": "HTTP 403; HTML page \"ResearchGate - Temporarily Unavailable\" (ResearchGate bot gate; blocked)"
+          },
+          {
+            "date": "2026-09-29",
+            "route": "Unpaywall oa_locations",
+            "url": "https://api.unpaywall.org/v2/10.9734/jalsi/2021/v24i930257?email=batesthommie@gmail.com",
+            "outcome": "is_oa=True; 1 location(s): https://doi.org/10.9734/jalsi/2021/v24i930257"
+          },
+          {
+            "date": "2026-09-29",
+            "route": "DOI resolution (journal)",
+            "url": "https://doi.org/10.9734/jalsi/2021/v24i930257",
+            "outcome": "HTTP 403 text/html; page title \"Just a moment...\"; final URL https://journaljalsi.com/index.php/JALSI/article/view/550"
+          },
+          {
+            "date": "2026-09-29",
+            "route": "Google Scholar title search (via SerpApi)",
+            "url": "https://scholar.google.com/scholar?q=Live+wild+bird+trade+and+sellers%27+biosecurity+risks+in+Kaduna+state%2C+Nigeria",
+            "outcome": "1 result(s) returned; see candidate links below"
+          },
+          {
+            "date": "2026-09-29",
+            "route": "Google Scholar \"All versions\" cluster (via SerpApi)",
+            "url": "https://scholar.google.com/scholar?cluster=14165178535560698213",
+            "outcome": "3 result(s) returned; see candidate links below"
+          },
+          {
+            "date": "2026-09-29",
+            "route": "HAL API metadata (hal-05232310, from Scholar all-versions)",
+            "url": "https://api.archives-ouvertes.fr/search/?q=halId_s:hal-05232310&fl=fileMain_s,files_s,title_s,authFullName_s,producedDateY_i,doiId_s",
+            "outcome": "HTTP 200 application/json; page title \"\""
+          },
+          {
+            "date": "2026-09-29",
+            "route": "HAL record page (Scholar all-versions)",
+            "url": "https://hal.science/hal-05232310/",
+            "outcome": "HTTP 200 text/html; page title \"Making sure you&#39;re not a bot!\""
+          }
+        ],
+        "retrieval_status": "report_not_retrieved",
+        "note": "Journal of Applied Life Sciences International 2021 (doi 10.9734/jalsi/2021/v24i930257): publisher site behind Cloudflare; ResearchGate gated; academia.edu version listed in Scholar all-versions is also Cloudflare-gated; HAL record hal-05232310 has no file.",
+        "eligibility_status": "not_assessed",
+        "next_action": "None (report not retrieved after the legal sweep; no author contact per the 2026-09-27 amendment)."
       }
     },
     {
@@ -105949,7 +106384,7 @@
         "scholar:Q3#47"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "provisional_full_text_candidate",
+      "final_status": "duplicate_record_removed",
       "vote_disposition": [
         {
           "source": "scholar_rerun_20260928",
@@ -105981,7 +106416,7 @@
         "basis": "Concordant retain (include/unsure).",
         "checked": "2026-09-29"
       },
-      "full_text_status": "full_text_pending_retrieval",
+      "full_text_status": "duplicate_record_removed",
       "scholar_source": {
         "link": "https://www.academia.edu/download/107592792/viruses-15-01387.pdf",
         "venue_line": "C Meseko, A Milani, B Inuwa, C Chinyere, I Shittu… - 2023 - academia.edu",
@@ -105991,6 +106426,70 @@
           null,
           "https://www.academia.edu/download/107592792/viruses-15-01387.pdf"
         ]
+      },
+      "retrieval": {
+        "checked": "2026-09-29",
+        "route": "legal open-access sweep of Scholar links, publisher/DOI, Unpaywall, OpenAlex, PMC OA, repositories, SerpApi Scholar versions",
+        "retrieval_attempts": [
+          {
+            "date": "2026-09-29",
+            "route": "Google Scholar result link",
+            "url": "https://www.academia.edu/download/107592792/viruses-15-01387.pdf",
+            "outcome": "HTTP 403; HTML page \"Just a moment...\" (Cloudflare bot check; not bypassed)"
+          },
+          {
+            "date": "2026-09-29",
+            "route": "Unpaywall oa_locations",
+            "url": "https://api.unpaywall.org/v2/10.3390/v15061387?email=batesthommie@gmail.com",
+            "outcome": "is_oa=True; 3 location(s): https://www.mdpi.com/1999-4915/15/6/1387/pdf?version=1687003682; https://pmc.ncbi.nlm.nih.gov/articles/PMC10301279/pdf/viruses-15-01387.pdf; https://doaj.org/article/1e1d7aba322f473da42bbab8227b5f16"
+          },
+          {
+            "date": "2026-09-29",
+            "route": "MDPI publisher PDF (Unpaywall)",
+            "url": "https://www.mdpi.com/1999-4915/15/6/1387/pdf?version=1687003682",
+            "outcome": "HTTP 403 text/html; page title \"Access Denied\""
+          },
+          {
+            "date": "2026-09-29",
+            "route": "PMC PDF (Unpaywall)",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10301279/pdf/viruses-15-01387.pdf",
+            "outcome": "HTTP 200 text/html; page title \"Checking your browser - reCAPTCHA\""
+          },
+          {
+            "date": "2026-09-29",
+            "route": "PMC OA service",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id=PMC10301279",
+            "outcome": "HTTP 404 text/html; page title \"NCBI/xpmc12 - WWW Error 404 Diagnostic\""
+          },
+          {
+            "date": "2026-09-29",
+            "route": "NCBI E-utilities efetch PMC full-text XML",
+            "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=10301279&email=batesthommie@gmail.com",
+            "outcome": "HTTP 200 text/xml; page title \"\""
+          },
+          {
+            "date": "2026-09-29",
+            "route": "PMC Open Access dataset on AWS (NCBI)",
+            "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10301279.1/PMC10301279.1.pdf",
+            "outcome": "HTTP 200; PDF downloaded (2784009 bytes)"
+          }
+        ],
+        "retrieval_status": "retrieval_fulltext_obtained",
+        "fulltext_obtained": {
+          "date": "2026-09-29",
+          "source_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10301279.1/PMC10301279.1.pdf",
+          "local_file": "D:\\AvianInfluenzaSysRev_retrieval_20260927\\fulltext\\CAN-1910.pdf",
+          "identity_verified": true,
+          "verification": "Title, first author Meseko and Viruses 2023;15:1387 match; 13-page article with methods, results, discussion (8,276 words); no OCR.",
+          "pages": 13
+        },
+        "note": "Scholar academia.edu copy blocked by Cloudflare; MDPI 403; PMC PDF behind reCAPTCHA; publisher PDF taken from NCBI PMC Open Access dataset on AWS (PMC10301279)."
+      },
+      "report_linkage": {
+        "duplicate_record_of": "CAN-1602",
+        "basis": "Same title (similarity 0.89) and same Viruses 2023 article.",
+        "checked": "2026-09-29",
+        "note": "Missed by the 2026-09-28 title matching (threshold 0.90 / truncated Scholar titles); found once full text was in hand. Counted as a duplicate record removed, not as a screened identity."
       }
     },
     {
@@ -106183,7 +106682,7 @@
         "scholar:Q3#51"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "provisional_full_text_candidate",
+      "final_status": "provisional_full_text_eligible",
       "vote_disposition": [
         {
           "source": "scholar_rerun_20260928",
@@ -106215,7 +106714,7 @@
         "basis": "Concordant retain (include/unsure).",
         "checked": "2026-09-29"
       },
-      "full_text_status": "full_text_pending_retrieval",
+      "full_text_status": "full_text_eligible_provisional",
       "scholar_source": {
         "link": "https://repository.up.ac.za/items/62c1dc5d-ac51-4f0f-9585-1c7c307a2733",
         "venue_line": "OG FASANMI - 2017 - repository.up.ac.za",
@@ -106225,6 +106724,66 @@
           null,
           "https://repository.up.ac.za/bitstreams/42e18c28-c12a-4827-9dae-02aa589b193a/download"
         ]
+      },
+      "retrieval": {
+        "checked": "2026-09-29",
+        "route": "legal open-access sweep of Scholar links, publisher/DOI, Unpaywall, OpenAlex, PMC OA, repositories, SerpApi Scholar versions",
+        "retrieval_attempts": [
+          {
+            "date": "2026-09-29",
+            "route": "Google Scholar result link",
+            "url": "https://repository.up.ac.za/items/62c1dc5d-ac51-4f0f-9585-1c7c307a2733",
+            "outcome": "HTTP 200; HTML page \"Epidemiological modelling for the control of highly pathogen\""
+          },
+          {
+            "date": "2026-09-29",
+            "route": "Google Scholar resource link",
+            "url": "https://repository.up.ac.za/bitstreams/42e18c28-c12a-4827-9dae-02aa589b193a/download",
+            "outcome": "HTTP 200; PDF downloaded (3883972 bytes)"
+          }
+        ],
+        "retrieval_status": "retrieval_fulltext_obtained",
+        "fulltext_obtained": {
+          "date": "2026-09-29",
+          "source_url": "https://repository.up.ac.za/bitstreams/42e18c28-c12a-4827-9dae-02aa589b193a/download",
+          "local_file": "D:\\AvianInfluenzaSysRev_retrieval_20260927\\fulltext\\CAN-1914.pdf",
+          "identity_verified": true,
+          "verification": "Title and author Fasanmi OG (PhD, University of Pretoria) match; 268-page thesis with chapters, methods, results, discussion (58,591 words); no OCR.",
+          "pages": 268
+        },
+        "note": "Thesis title page carries the record title plus an alternate heading (\"...for the mitigation of HPAI H5N1 in parts of Africa (Egypt and Nigeria)\"). Probably overlaps published papers by the same author.",
+        "eligibility_status": "assessed",
+        "next_action": "Extraction (report/dataset overlap check first)."
+      },
+      "full_text_eligibility": {
+        "checked": "2026-09-29",
+        "reviewer_1": {
+          "decision": "retain",
+          "reason_code": null,
+          "evidence": "PhD thesis (Pretoria 2017), Egypt and Nigeria. Nigeria Ch.6 (pp.146-148): 840 lab-confirmed (RRT-PCR/VI, NVRI) H5N1 outbreaks Dec 2014-May 2017, ~2.77 million birds, epidemic curves 2006-08 and 2015-17; Ch.5 state-level outbreak risk map; Ch.3 LBM biosecurity checklist.",
+          "source_url": "https://repository.up.ac.za/bitstreams/42e18c28-c12a-4827-9dae-02aa589b193a/download",
+          "method": "independent R1 (executor agent, Claude Opus 5.5) full-text review of locally retrieved verified copy; reported to main agent 2026-09-29",
+          "caution": "Nigeria outbreak data mined/reconciled from NVRI/FDL records and OIE (register-based), not new sampling. Ch.2 review; Ch.8 vaccine study experimental. Adjudicator may weigh 'no primary data'."
+        },
+        "reviewer_2": {
+          "decision": "exclude",
+          "reason_code": "no primary data",
+          "evidence": "PDF pp.55-56: ch.2 LBM status “confirmed as positive or negative based on the protocol description of Joannis et al. (2008)”; p.64: “61 infected LBMs and 94 non-infected” from Nigeria and Egypt, not split by country. No new Nigerian AIV lab results.",
+          "source_url": "https://repository.up.ac.za/bitstreams/42e18c28-c12a-4827-9dae-02aa589b193a/download",
+          "method": "independent R2 (reviewer agent, Claude Sonnet 5.5, blind to R1) full-text review of locally retrieved verified copy; reported to main agent 2026-09-29",
+          "caution": "Borderline: thesis ch.2 is a biosecurity/risk-factor study using previously lab-classified LBMs (Nigeria plus Egypt pooled); other chapters review, modelling, cost, duck challenge. Alternative reason: no epi/molecular/spatial-temporal data."
+        },
+        "adjudication": {
+          "decision": "retain",
+          "reason_code": null,
+          "reviewer": "main-agent",
+          "basis": "R1 retain / R2 exclude (no primary data). R2 assessed chapter 2 only. Main-session check of chapter 6 (thesis pp.145-147, PDF pp.160-162, an economic-impact chapter): outbreaks were counted only if RRT-PCR-positive at NVRI, and monthly epidemic curves for 2006-08 and 2015-17 are given (840 confirmed outbreaks, 24 Dec 2014 to May 2017, from official NVRI/FDL/OIE records); chapter 5 gives a hotspot map. Retained as records-based analysis of confirmed-outbreak data, consistent with CAN-1719 and CAN-1347.",
+          "source_url": "https://repository.up.ac.za/bitstreams/42e18c28-c12a-4827-9dae-02aa589b193a/download",
+          "checked": "2026-09-29",
+          "caution": "Records-based analysis of official confirmed-outbreak data (NVRI/FDL, OIE), not new sampling; flag for sensitivity analysis. Overlaps national line lists and the 2015 outbreak reports (e.g. CAN-1902); resolve in Phase C. Chapter 2 LBM data pool Nigeria and Egypt and are not extractable.",
+          "phase_b_must_check": true,
+          "consistency_note": "The retain/exclude line between records-based outbreak reports is thin: CAN-1914, CAN-1719 and CAN-1347 retained; CAN-2009 (laboratory confirmation not stated) and CAN-2082 (official tables reproduced without analysis) excluded. Phase B human check required."
+        }
       }
     },
     {
@@ -106475,7 +107034,7 @@
         "scholar:Q3#56"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "provisional_full_text_candidate",
+      "final_status": "provisional_full_text_eligible",
       "vote_disposition": [
         {
           "source": "scholar_rerun_20260928",
@@ -106507,13 +107066,88 @@
         "basis": "Concordant retain (include/unsure).",
         "checked": "2026-09-29"
       },
-      "full_text_status": "full_text_pending_retrieval",
+      "full_text_status": "full_text_eligible_provisional",
       "scholar_source": {
         "link": "https://openurl.ebsco.com/contentitem/gcd:190461082?sid=ebsco:plink:crawler-gcd&id=ebsco:gcd:190461082&crl=c&jrnl=28111346",
         "venue_line": "SB BALAMI, B INUWA, MS GAMBO… - … Veterinary & Allied …, 2025 - openurl.ebsco.com",
         "snippet": "… Exotic and zoological birds’ resident and imported into Nigeria harbour highly pathogenic avian influenza virus: Threat to poultry production, food security and public health. bioRxiv. …",
         "type": null,
         "resources": []
+      },
+      "retrieval": {
+        "checked": "2026-09-29",
+        "route": "legal open-access sweep of Scholar links, publisher/DOI, Unpaywall, OpenAlex, PMC OA, repositories, SerpApi Scholar versions",
+        "retrieval_attempts": [
+          {
+            "date": "2026-09-29",
+            "route": "Google Scholar result link",
+            "url": "https://openurl.ebsco.com/contentitem/gcd:190461082?sid=ebsco:plink:crawler-gcd&id=ebsco:gcd:190461082&crl=c&jrnl=28111346",
+            "outcome": "HTTP 200; HTML page \"Results - OpenURL Connection - EBSCO\""
+          },
+          {
+            "date": "2026-09-29",
+            "route": "Google Scholar title search (via SerpApi)",
+            "url": "https://scholar.google.com/scholar?q=avian+influenza+virus+in+pigeons+%28Columba+livia+domestica%29%3A+prevalence+and+associated+risk+factors+in+Maiduguri+metropolis%2C+Borno+State",
+            "outcome": "1 result(s) returned; see candidate links below"
+          },
+          {
+            "date": "2026-09-29",
+            "route": "Google Scholar \"All versions\" cluster (via SerpApi)",
+            "url": "https://scholar.google.com/scholar?cluster=585883808099863006",
+            "outcome": "2 result(s) returned; see candidate links below"
+          },
+          {
+            "date": "2026-09-29",
+            "route": "Web search (journal site)",
+            "url": "\"Journal of Sustainable Veterinary and Allied Sciences\" pigeons influenza A Maiduguri Balami",
+            "outcome": "journal PDF located at josvasmouau.com"
+          },
+          {
+            "date": "2026-09-29",
+            "route": "Journal PDF (JoSVAS, found by web search)",
+            "url": "https://josvasmouau.com/wp-content/uploads/2025/06/28.-Balami-et-al.-2025.pdf",
+            "outcome": "HTTP 200; PDF downloaded (497167 bytes)"
+          }
+        ],
+        "retrieval_status": "retrieval_fulltext_obtained",
+        "fulltext_obtained": {
+          "date": "2026-09-29",
+          "source_url": "https://josvasmouau.com/wp-content/uploads/2025/06/28.-Balami-et-al.-2025.pdf",
+          "local_file": "D:\\AvianInfluenzaSysRev_retrieval_20260927\\fulltext\\CAN-1919.pdf",
+          "identity_verified": true,
+          "verification": "Title \"Influenza A virus in pigeons (Columba livia domestica): prevalence and associated risk factors in Maiduguri metropolis, Borno State, Nigeria\", first author Balami SB and JoSVAS 2025;7(2):180-185 match; 6-page article with methods, results, discussion (4,044 words); no OCR.",
+          "pages": 6
+        },
+        "note": "Scholar link (EBSCO OpenURL) gave no full text; the journal PDF was found by web search on the journal site (doi 10.54328/covm.josvas.2025.235).",
+        "eligibility_status": "assessed",
+        "next_action": "Extraction (report/dataset overlap check first)."
+      },
+      "full_text_eligibility": {
+        "checked": "2026-09-29",
+        "reviewer_1": {
+          "decision": "retain",
+          "reason_code": null,
+          "evidence": "Maiduguri, Borno State; 71 pigeon oropharyngeal swabs (30 LBM, 41 households); rRT-PCR M gene: 9/71 (12.7%) influenza A positive; risk factors location, age, breed (pp.181-183).",
+          "source_url": "https://josvasmouau.com/wp-content/uploads/2025/06/28.-Balami-et-al.-2025.pdf",
+          "method": "independent R1 (executor agent, Claude Opus 5.5) full-text review of locally retrieved verified copy; reported to main agent 2026-09-29",
+          "caution": "Influenza A only; high Ct, not subtyped (H5/H9 unknown). Sampling year not stated (published 2025)."
+        },
+        "reviewer_2": {
+          "decision": "retain",
+          "reason_code": null,
+          "evidence": "p1: pigeons, Maiduguri LBMs and households; oropharyngeal swabs tested by rRT-PCR for M gene; “overall prevalence of 12.7% (CI: 6.55%, 18.81%)”; risk factors location, age, breed.",
+          "source_url": "https://josvasmouau.com/wp-content/uploads/2025/06/28.-Balami-et-al.-2025.pdf",
+          "method": "independent R2 (reviewer agent, Claude Sonnet 5.5, blind to R1) full-text review of locally retrieved verified copy; reported to main agent 2026-09-29",
+          "caution": "IAV M-gene only, subtype not determined; wording is influenza A virus, not confirmed AIV subtype."
+        },
+        "adjudication": {
+          "decision": "retain",
+          "reason_code": null,
+          "reviewer": "main-agent",
+          "basis": "Concordant independent full-text review.",
+          "source_url": "https://josvasmouau.com/wp-content/uploads/2025/06/28.-Balami-et-al.-2025.pdf",
+          "checked": "2026-09-29"
+        }
       }
     },
     {
@@ -106531,7 +107165,7 @@
         "scholar:Q2#56"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "provisional_full_text_candidate",
+      "final_status": "report_not_retrieved",
       "vote_disposition": [
         {
           "source": "scholar_rerun_20260928",
@@ -106563,7 +107197,7 @@
         "basis": "Concordant retain (include/unsure).",
         "checked": "2026-09-29"
       },
-      "full_text_status": "full_text_pending_retrieval",
+      "full_text_status": "report_not_retrieved",
       "scholar_source": {
         "link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5389457",
         "venue_line": "C Meseko, U Edet, N Mkpuma, K Olawuyi… - Available at SSRN … - papers.ssrn.com",
@@ -106573,6 +107207,46 @@
           null,
           "https://papers.ssrn.com/sol3/Delivery.cfm?abstractid=5389457"
         ]
+      },
+      "retrieval": {
+        "checked": "2026-09-29",
+        "route": "legal open-access sweep of Scholar links, publisher/DOI, Unpaywall, OpenAlex, PMC OA, repositories, SerpApi Scholar versions",
+        "retrieval_attempts": [
+          {
+            "date": "2026-09-29",
+            "route": "Google Scholar result link",
+            "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5389457",
+            "outcome": "HTTP 403; HTML page \"Just a moment...\" (Cloudflare bot check; not bypassed)"
+          },
+          {
+            "date": "2026-09-29",
+            "route": "Google Scholar resource link",
+            "url": "https://papers.ssrn.com/sol3/Delivery.cfm?abstractid=5389457",
+            "outcome": "HTTP 403; HTML page \"Just a moment...\" (Cloudflare bot check; not bypassed)"
+          },
+          {
+            "date": "2026-09-29",
+            "route": "Unpaywall oa_locations",
+            "url": "https://api.unpaywall.org/v2/10.2139/ssrn.5389457?email=batesthommie@gmail.com",
+            "outcome": "is_oa=True; 1 location(s): https://doi.org/10.2139/ssrn.5389457"
+          },
+          {
+            "date": "2026-09-29",
+            "route": "DOI resolution (SSRN)",
+            "url": "https://doi.org/10.2139/ssrn.5389457",
+            "outcome": "HTTP 403 text/html; page title \"Just a moment...\"; final URL https://www.ssrn.com/abstract=5389457"
+          },
+          {
+            "date": "2026-09-29",
+            "route": "Google Scholar title search (via SerpApi)",
+            "url": "https://scholar.google.com/scholar?q=Evolution+of+Avian+Influenza+H5n1+Strain+in+Nigeria+from+2006+to+2023%3A+Insight+from+Phylogeography+and+Gene+Pool+Analysis",
+            "outcome": "1 result(s) returned; see candidate links below"
+          }
+        ],
+        "retrieval_status": "report_not_retrieved",
+        "note": "SSRN preprint 5389457: abstract page and Delivery.cfm PDF behind a Cloudflare bot check; no other version found. Possibly related to Tare et al. 2024 Arch Virol (doi 10.1007/s00705-024-06032-4), not checked.",
+        "eligibility_status": "not_assessed",
+        "next_action": "None (report not retrieved after the legal sweep; no author contact per the 2026-09-27 amendment)."
       }
     },
     {
@@ -106647,7 +107321,7 @@
         "scholar:Q2#57"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "title_metadata_excluded",
+      "final_status": "duplicate_record_removed",
       "vote_disposition": [
         {
           "source": "scholar_rerun_20260928",
@@ -106679,13 +107353,19 @@
         "basis": "Concordant exclusion with the same reason.",
         "checked": "2026-09-29"
       },
-      "full_text_status": "not_applicable_title_metadata_excluded",
+      "full_text_status": "duplicate_record_removed",
       "scholar_source": {
         "link": "https://www.science.org/doi/abs/10.1126/science.311.5763.932a",
         "venue_line": "M Enserink - 2006 - science.org",
         "snippet": "… Global anxiety over the H5N1 avian influenza strain ratcheted … Even more disconcerting, H5N1 has gained a firm foothold on … of human infections with H5N1, which has reached Nigeria. …",
         "type": null,
         "resources": []
+      },
+      "report_linkage": {
+        "duplicate_record_of": "CAN-0642",
+        "basis": "Same news item; Scholar title drops the \"Avian influenza -\" prefix. Found by the looser title re-check (no full text).",
+        "checked": "2026-09-29",
+        "note": "Missed by the 2026-09-28 matching: older register records store DOIs with punctuation stripped, so DOI matching never fired, and Scholar titles were truncated, garbled or mis-titled. Counted as a duplicate record removed, not as a screened identity."
       }
     },
     {
@@ -107164,7 +107844,7 @@
         "scholar:Q2#64"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "provisional_full_text_candidate",
+      "final_status": "report_not_retrieved",
       "vote_disposition": [
         {
           "source": "scholar_rerun_20260928",
@@ -107196,7 +107876,7 @@
         "basis": "Concordant retain (include/unsure).",
         "checked": "2026-09-29"
       },
-      "full_text_status": "full_text_pending_retrieval",
+      "full_text_status": "report_not_retrieved",
       "scholar_source": {
         "link": "https://www.researchgate.net/profile/Ayi-Kwaghe/publication/320419066_Economic_Losses_and_Implications_of_Highly_Pathogenic_Avian_Influenza_HPAI_H5N1_Resurgence_in_Nigeria/links/59e4948c458515393d60f8e3/Economic-Losses-and-Implications-of-Highly-Pathogenic-Avian-Influenza-HPAI-H5N1-Resurgence-in-Nigeria.pdf",
         "venue_line": "AV Kwaghe, CT Vakuru, MD Ndahi… - … Journal of Scientific …, 2017 - researchgate.net",
@@ -107206,6 +107886,46 @@
           null,
           "https://www.researchgate.net/profile/Ayi-Kwaghe/publication/320419066_Economic_Losses_and_Implications_of_Highly_Pathogenic_Avian_Influenza_HPAI_H5N1_Resurgence_in_Nigeria/links/59e4948c458515393d60f8e3/Economic-Losses-and-Implications-of-Highly-Pathogenic-Avian-Influenza-HPAI-H5N1-Resurgence-in-Nigeria.pdf"
         ]
+      },
+      "retrieval": {
+        "checked": "2026-09-29",
+        "route": "legal open-access sweep of Scholar links, publisher/DOI, Unpaywall, OpenAlex, PMC OA, repositories, SerpApi Scholar versions",
+        "retrieval_attempts": [
+          {
+            "date": "2026-09-29",
+            "route": "Google Scholar result link",
+            "url": "https://www.researchgate.net/profile/Ayi-Kwaghe/publication/320419066_Economic_Losses_and_Implications_of_Highly_Pathogenic_Avian_Influenza_HPAI_H5N1_Resurgence_in_Nigeria/links/59e4948c458515393d60f8e3/Economic-Losses-and-Implications-of-Highly-Pathogenic-Avian-Influenza-HPAI-H5N1-Resurgence-in-Nigeria.pdf",
+            "outcome": "HTTP 403; HTML page \"ResearchGate - Temporarily Unavailable\" (ResearchGate bot gate; blocked)"
+          },
+          {
+            "date": "2026-09-29",
+            "route": "Google Scholar title search (via SerpApi)",
+            "url": "https://scholar.google.com/scholar?q=Economic+losses+and+implications+of+highly+pathogenic+avian+influenza+%28HPAI%29+H5N1+resurgence+in+Nigeria",
+            "outcome": "1 result(s) returned; see candidate links below"
+          },
+          {
+            "date": "2026-09-29",
+            "route": "Web search (journal site ijser.org / Semantic Scholar)",
+            "url": "\"Economic Losses and Implications of Highly Pathogenic Avian Influenza\" Kwaghe ijser.org",
+            "outcome": "no IJSER copy found; ResearchGate and Semantic Scholar record only"
+          },
+          {
+            "date": "2026-09-29",
+            "route": "Semantic Scholar paper page",
+            "url": "https://www.semanticscholar.org/paper/3ab3ba31ac1cbd0d96513fbb97491af9437db7cb",
+            "outcome": "HTTP 202 text/html; page title \"\""
+          },
+          {
+            "date": "2026-09-29",
+            "route": "Semantic Scholar API openAccessPdf",
+            "url": "https://api.semanticscholar.org/graph/v1/paper/3ab3ba31ac1cbd0d96513fbb97491af9437db7cb?fields=title,year,venue,openAccessPdf,externalIds",
+            "outcome": "HTTP 200 application/json; page title \"\""
+          }
+        ],
+        "retrieval_status": "report_not_retrieved",
+        "note": "Int J Sci Eng Res 2017: only copy found is on ResearchGate (bot gate); no IJSER or repository copy found; Semantic Scholar has no open PDF.",
+        "eligibility_status": "not_assessed",
+        "next_action": "None (report not retrieved after the legal sweep; no author contact per the 2026-09-27 amendment)."
       }
     },
     {
@@ -107626,7 +108346,7 @@
         "scholar:Q4#73"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "provisional_full_text_candidate",
+      "final_status": "report_not_retrieved",
       "vote_disposition": [
         {
           "source": "scholar_rerun_20260928",
@@ -107658,7 +108378,7 @@
         "basis": "Concordant retain (include/unsure).",
         "checked": "2026-09-29"
       },
-      "full_text_status": "full_text_pending_retrieval",
+      "full_text_status": "report_not_retrieved",
       "scholar_source": {
         "link": "https://www.authorea.com/doi/full/10.22541/au.160218231.19049151",
         "venue_line": "P Alonge, S Oladele, F Hassan, O Orakpoghenor… - 2020 - authorea.com",
@@ -107668,6 +108388,57 @@
           null,
           "https://www.authorea.com/doi/pdf/10.22541/au.160218231.19049151"
         ]
+      },
+      "retrieval": {
+        "checked": "2026-09-29",
+        "route": "legal open-access sweep of Scholar links, publisher/DOI, Unpaywall, OpenAlex, PMC OA, repositories, SerpApi Scholar versions",
+        "retrieval_attempts": [
+          {
+            "date": "2026-09-29",
+            "route": "Google Scholar result link",
+            "url": "https://www.authorea.com/doi/full/10.22541/au.160218231.19049151",
+            "outcome": "HTTP 403; HTML page \"Just a moment...\" (Cloudflare bot check; not bypassed)"
+          },
+          {
+            "date": "2026-09-29",
+            "route": "Google Scholar resource link",
+            "url": "https://www.authorea.com/doi/pdf/10.22541/au.160218231.19049151",
+            "outcome": "HTTP 403; HTML page \"Just a moment...\" (Cloudflare bot check; not bypassed)"
+          },
+          {
+            "date": "2026-09-29",
+            "route": "Unpaywall oa_locations",
+            "url": "https://api.unpaywall.org/v2/10.22541/au.160218231.19049151/v1?email=batesthommie@gmail.com",
+            "outcome": "is_oa=True; 1 location(s): https://www.authorea.com/doi/pdf/10.22541/au.160218231.19049151"
+          },
+          {
+            "date": "2026-09-29",
+            "route": "Google Scholar title search (via SerpApi)",
+            "url": "https://scholar.google.com/scholar?q=Avian+Influenza+H5+Antigen+and+Antibodies+in+Wild+Birds+in+Zaria%2C+Nigeria",
+            "outcome": "1 result(s) returned; see candidate links below"
+          },
+          {
+            "date": "2026-09-29",
+            "route": "Google Scholar \"All versions\" cluster (via SerpApi)",
+            "url": "https://scholar.google.com/scholar?cluster=6958558941861668819",
+            "outcome": "3 result(s) returned; see candidate links below"
+          },
+          {
+            "date": "2026-09-29",
+            "route": "Europe PMC preprint record (Scholar all-versions)",
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:PPR1195334%20AND%20SRC:PPR&format=json&resultType=core",
+            "outcome": "HTTP 200 application/json; page title \"\""
+          }
+        ],
+        "retrieval_status": "report_not_retrieved",
+        "note": "Authorea preprint (doi 10.22541/au.160218231.19049151): Authorea behind Cloudflare; academia.edu copy behind Cloudflare; Europe PMC preprint record PPR1195334 has no full text. The journal version of this study is CAN-2070 (obtained).",
+        "eligibility_status": "not_assessed",
+        "next_action": "None (report not retrieved after the legal sweep; no author contact per the 2026-09-27 amendment)."
+      },
+      "report_linkage": {
+        "companion_report_of": "CAN-1778",
+        "basis": "Preprint of the study reported in CAN-1778; link at the report-to-study stage (Phase C).",
+        "checked": "2026-09-29"
       }
     },
     {
@@ -107743,7 +108514,7 @@
         "scholar:Q2#75"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "provisional_full_text_candidate",
+      "final_status": "duplicate_record_removed",
       "vote_disposition": [
         {
           "source": "scholar_rerun_20260928",
@@ -107775,13 +108546,83 @@
         "basis": "Concordant retain (include/unsure).",
         "checked": "2026-09-29"
       },
-      "full_text_status": "full_text_pending_retrieval",
+      "full_text_status": "duplicate_record_removed",
       "scholar_source": {
         "link": "https://experts.umn.edu/en/publications/distribuzione-geografica-dei-campioni-infetti-dal-virus-h5n1-di-i/",
         "venue_line": "PS Ekong, CJ Cardona, W Bryssinckx… - Veterinaria …, 2018 - experts.umn.edu",
         "snippet": "… (HPAI) virus H5N1 spread throughout Nigeria between 2006 … 2006 and 2007 epidemic in Nigeria. Spatial statistics evaluating … FOC submission program in Nigeria was limited to regions …",
         "type": null,
         "resources": []
+      },
+      "retrieval": {
+        "checked": "2026-09-29",
+        "route": "legal open-access sweep of Scholar links, publisher/DOI, Unpaywall, OpenAlex, PMC OA, repositories, SerpApi Scholar versions",
+        "retrieval_attempts": [
+          {
+            "date": "2026-09-29",
+            "route": "Google Scholar result link",
+            "url": "https://experts.umn.edu/en/publications/distribuzione-geografica-dei-campioni-infetti-dal-virus-h5n1-di-i/",
+            "outcome": "HTTP 200; HTML page \"Spatial clustering of pathology submissions during the initi\""
+          },
+          {
+            "date": "2026-09-29",
+            "route": "Google Scholar title search (via SerpApi)",
+            "url": "https://scholar.google.com/scholar?q=geografica+dei+campioni+infetti+dal+virus+H5N1+di+influenza+aviaria+Nigeria+Ekong+Cardona",
+            "outcome": "1 result(s) returned; see candidate links below"
+          },
+          {
+            "date": "2026-09-29",
+            "route": "DOI resolution (Veterinaria Italiana)",
+            "url": "https://doi.org/10.12834/VetIt.870.4301.3",
+            "outcome": "HTTP 200; PDF downloaded (1779227 bytes)"
+          }
+        ],
+        "retrieval_status": "retrieval_fulltext_obtained",
+        "fulltext_obtained": {
+          "date": "2026-09-29",
+          "source_url": "https://doi.org/10.12834/VetIt.870.4301.3",
+          "local_file": "D:\\AvianInfluenzaSysRev_retrieval_20260927\\fulltext\\CAN-1941.pdf",
+          "identity_verified": true,
+          "verification": "Bilingual article (Italian title \"Distribuzione geografica dei campioni infetti...\"; English \"Spatial clustering of pathology submissions...\") by Ekong PS et al., Veterinaria Italiana 2018;54(1):13-20, matches venue line; 8 pages with methods, results, discussion (5,269 words); no OCR.",
+          "pages": 8
+        },
+        "note": "Scholar link was a University of Minnesota Experts metadata page; DOI resolved directly to the open-access publisher PDF.",
+        "eligibility_status": "assessed",
+        "next_action": "None (duplicate record of CAN-0835; its full-text votes are kept for audit only)."
+      },
+      "full_text_eligibility": {
+        "checked": "2026-09-29",
+        "reviewer_1": {
+          "decision": "retain",
+          "reason_code": null,
+          "evidence": "Spatial analysis of free-of-charge pathology submissions to NVRI-Vom from poultry farms 2006-2007; H5N1-positive farms (229/299 in north) by geopolitical zone; Moran's I, SaTScan Poisson, Bithell test; clusters NE, NC, SW (pp.13-17).",
+          "source_url": "https://doi.org/10.12834/VetIt.870.4301.3",
+          "method": "independent R1 (executor agent, Claude Opus 5.5) full-text review of locally retrieved verified copy; reported to main agent 2026-09-29",
+          "caution": "Same NVRI 2006-07 confirmed-farm dataset as CAN-1907/CAN-2033; focus partly on submission (surveillance) pattern rather than cases."
+        },
+        "reviewer_2": {
+          "decision": "retain",
+          "reason_code": null,
+          "evidence": "p2: “data of the FOC submission program compiled by the NVRI-Vom during the H5N1 HPAI epidemic in Nigeria from January 2006 to December 2007”; p1 abstract: global and local spatial clusters (Moran index, SaTScan) in NE, NC, SW zones.",
+          "source_url": "https://doi.org/10.12834/VetIt.870.4301.3",
+          "method": "independent R2 (reviewer agent, Claude Sonnet 5.5, blind to R1) full-text review of locally retrieved verified copy; reported to main agent 2026-09-29",
+          "caution": "Italian-language abstract with English text; shares 2006-07 NVRI dataset with CAN-1907/2033; duplication not judged."
+        },
+        "adjudication": {
+          "decision": "retain",
+          "reason_code": null,
+          "reviewer": "main-agent",
+          "basis": "Concordant independent full-text review.",
+          "source_url": "https://doi.org/10.12834/VetIt.870.4301.3",
+          "checked": "2026-09-29"
+        }
+      },
+      "report_linkage": {
+        "duplicate_record_of": "CAN-0835",
+        "basis": "Same DOI 10.12834/VetIt.870.4301.3 (Ekong et al. 2018, Veterinaria Italiana, bilingual article; Scholar indexed the Italian title); found by the normalised-DOI re-check after full-text screening.",
+        "checked": "2026-09-29",
+        "note": "Missed by the 2026-09-28 matching: older register records store DOIs with punctuation stripped, so DOI matching never fired, and Scholar titles were truncated, garbled or mis-titled. Counted as a duplicate record removed, not as a screened identity.",
+        "previous_final_status": "provisional_full_text_eligible"
       }
     },
     {
@@ -107798,7 +108639,7 @@
         "scholar:Q3#75"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "provisional_full_text_candidate",
+      "final_status": "duplicate_record_removed",
       "vote_disposition": [
         {
           "source": "scholar_rerun_20260928",
@@ -107830,7 +108671,7 @@
         "basis": "Concordant retain (include/unsure).",
         "checked": "2026-09-29"
       },
-      "full_text_status": "full_text_pending_retrieval",
+      "full_text_status": "duplicate_record_removed",
       "scholar_source": {
         "link": "https://www.researchgate.net/profile/Ismaila-Shittu-2/publication/350989331_Sero-Detection_of_Avian_Influenza_AH7_in_Nigerian_Live-Bird_Markets_in_Plateau_State/links/608a9649a6fdccaebdf5430c/Sero-Detection-of-Avian-Influenza-A-H7-in-Nigerian-Live-Bird-Markets-in-Plateau-State.pdf",
         "venue_line": "CN Chinyere, EC Okwor, CA Meseko, WS Ezema… - researchgate.net",
@@ -107840,6 +108681,46 @@
           null,
           "https://www.researchgate.net/profile/Ismaila-Shittu-2/publication/350989331_Sero-Detection_of_Avian_Influenza_AH7_in_Nigerian_Live-Bird_Markets_in_Plateau_State/links/608a9649a6fdccaebdf5430c/Sero-Detection-of-Avian-Influenza-A-H7-in-Nigerian-Live-Bird-Markets-in-Plateau-State.pdf"
         ]
+      },
+      "retrieval": {
+        "checked": "2026-09-29",
+        "route": "legal open-access sweep of Scholar links, publisher/DOI, Unpaywall, OpenAlex, PMC OA, repositories, SerpApi Scholar versions",
+        "retrieval_attempts": [
+          {
+            "date": "2026-09-29",
+            "route": "Google Scholar result link",
+            "url": "https://www.researchgate.net/profile/Ismaila-Shittu-2/publication/350989331_Sero-Detection_of_Avian_Influenza_AH7_in_Nigerian_Live-Bird_Markets_in_Plateau_State/links/608a9649a6fdccaebdf5430c/Sero-Detection-of-Avian-Influenza-A-H7-in-Nigerian-Live-Bird-Markets-in-Plateau-State.pdf",
+            "outcome": "HTTP 403; HTML page \"ResearchGate - Temporarily Unavailable\" (ResearchGate bot gate; blocked)"
+          },
+          {
+            "date": "2026-09-29",
+            "route": "Unpaywall oa_locations",
+            "url": "https://api.unpaywall.org/v2/10.4314/nvj.v41i2.7?email=batesthommie@gmail.com",
+            "outcome": "is_oa=True; 1 location(s): https://www.ajol.info/index.php/nvj/article/download/206060/194305"
+          },
+          {
+            "date": "2026-09-29",
+            "route": "AJOL PDF (Unpaywall)",
+            "url": "https://www.ajol.info/index.php/nvj/article/download/206060/194305",
+            "outcome": "HTTP 200; PDF downloaded (402328 bytes)"
+          }
+        ],
+        "retrieval_status": "retrieval_fulltext_obtained",
+        "fulltext_obtained": {
+          "date": "2026-09-29",
+          "source_url": "https://www.ajol.info/index.php/nvj/article/download/206060/194305",
+          "local_file": "D:\\AvianInfluenzaSysRev_retrieval_20260927\\fulltext\\CAN-1942.pdf",
+          "identity_verified": true,
+          "verification": "Scholar title is garbled (\"NIG ERIAN V ETERINARYJOURNAL\"); the document is \"Sero-Detection of Avian Influenza A/H7 in Nigerian Live-Bird Markets in Plateau State\", Chinyere CN et al., Nig Vet J 2020;41(2):161-174 (doi 10.4314/nvj.v41i2.7), matching venue-line authors and the ResearchGate URL title; 14 pages with methods, results, discussion (5,199 words); no OCR.",
+          "pages": 14
+        },
+        "note": "Register year is null; the PDF is dated June 2020 (Crossref issued 2021). ResearchGate copy blocked; AJOL publisher PDF used (via Unpaywall)."
+      },
+      "report_linkage": {
+        "duplicate_record_of": "CAN-1716",
+        "basis": "Scholar title garbled (\"NIG ERIAN V ETERINARYJOURNAL\"); full text is Chinyere et al. 2020, Nig Vet J 41(2), doi 10.4314/nvj.v41i2.7, the register title of CAN-1716.",
+        "checked": "2026-09-29",
+        "note": "Missed by the 2026-09-28 title matching (threshold 0.90 / truncated Scholar titles); found once full text was in hand. Counted as a duplicate record removed, not as a screened identity."
       }
     },
     {
@@ -108147,7 +109028,7 @@
         "scholar:Q4#79"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "provisional_full_text_candidate",
+      "final_status": "full_text_excluded",
       "vote_disposition": [
         {
           "source": "scholar_rerun_20260928",
@@ -108179,7 +109060,7 @@
         "basis": "Discordant; conservative union retains for full text (file 18 item 5).",
         "checked": "2026-09-29"
       },
-      "full_text_status": "full_text_pending_retrieval",
+      "full_text_status": "full_text_excluded",
       "scholar_source": {
         "link": "https://www.academia.edu/download/110736243/a-retrospective-study-of-poultry-diseases-diagnosed-in-maiduguri-northeast-nigeria-pfw.1000113.pdf",
         "venue_line": "AG Balami - Poultry, Fisheries & Wildlife Sciences, 2014 - academia.edu",
@@ -108189,6 +109070,74 @@
           null,
           "https://www.academia.edu/download/110736243/a-retrospective-study-of-poultry-diseases-diagnosed-in-maiduguri-northeast-nigeria-pfw.1000113.pdf"
         ]
+      },
+      "retrieval": {
+        "checked": "2026-09-29",
+        "route": "legal open-access sweep of Scholar links, publisher/DOI, Unpaywall, OpenAlex, PMC OA, repositories, SerpApi Scholar versions",
+        "retrieval_attempts": [
+          {
+            "date": "2026-09-29",
+            "route": "Google Scholar result link",
+            "url": "https://www.academia.edu/download/110736243/a-retrospective-study-of-poultry-diseases-diagnosed-in-maiduguri-northeast-nigeria-pfw.1000113.pdf",
+            "outcome": "HTTP 403; HTML page \"Just a moment...\" (Cloudflare bot check; not bypassed)"
+          },
+          {
+            "date": "2026-09-29",
+            "route": "Unpaywall oa_locations",
+            "url": "https://api.unpaywall.org/v2/10.4172/2375-446x.1000113?email=batesthommie@gmail.com",
+            "outcome": "is_oa=False; 0 location(s)"
+          },
+          {
+            "date": "2026-09-29",
+            "route": "DOI resolution (OMICS)",
+            "url": "https://doi.org/10.4172/2375-446x.1000113",
+            "outcome": "HTTP 200 text/html; page title \"A Retrospective Study of Poultry Diseases Diagnosed in Maidu\"; final URL https://www.longdom.org/open-access/a-retrospective-study-of-poultry-diseases-diagnosed-in-maiduguri-northeast-nigeria-p"
+          },
+          {
+            "date": "2026-09-29",
+            "route": "Publisher PDF (Longdom/OMICS, via DOI landing page)",
+            "url": "https://www.longdom.org/open-access-pdfs/a-retrospective-study-of-poultry-diseases-diagnosed-in-maiduguri-northeast-nigeria-pfw.1000113.pdf",
+            "outcome": "HTTP 200; PDF downloaded (546976 bytes)"
+          }
+        ],
+        "retrieval_status": "retrieval_fulltext_obtained",
+        "fulltext_obtained": {
+          "date": "2026-09-29",
+          "source_url": "https://www.longdom.org/open-access-pdfs/a-retrospective-study-of-poultry-diseases-diagnosed-in-maiduguri-northeast-nigeria-pfw.1000113.pdf",
+          "local_file": "D:\\AvianInfluenzaSysRev_retrieval_20260927\\fulltext\\CAN-1948.pdf",
+          "identity_verified": true,
+          "verification": "Title, first author Balami and Poult Fish Wildl Sci 2014;2(1):1000113 match; 4-page article with methods, results, discussion (3,498 words); no OCR.",
+          "pages": 4
+        },
+        "note": "Academia.edu copy blocked by Cloudflare; DOI 10.4172/2375-446x.1000113 resolves to Longdom (OMICS) page with open PDF.",
+        "eligibility_status": "assessed",
+        "next_action": "None (excluded at full text)."
+      },
+      "full_text_eligibility": {
+        "checked": "2026-09-29",
+        "reviewer_1": {
+          "decision": "exclude",
+          "reason_code": "no laboratory-confirmed avian AIV",
+          "evidence": "Retrospective clinical records, UMVTH and State Veterinary Hospital Maiduguri 2004-2012, 2,317 poultry cases; avian influenza row 0 cases every year (p.3 table); text states no HPAI/LPAI outbreak reported (p.2). No AIV testing.",
+          "source_url": "https://www.longdom.org/open-access-pdfs/a-retrospective-study-of-poultry-diseases-diagnosed-in-maiduguri-northeast-nigeria-pfw.1000113.pdf",
+          "method": "independent R1 (executor agent, Claude Opus 5.5) full-text review of locally retrieved verified copy; reported to main agent 2026-09-29",
+          "caution": "General poultry-disease records; 'non-AIV' is an arguable alternative, but AI is an explicit (zero) category."
+        },
+        "reviewer_2": {
+          "decision": "exclude",
+          "reason_code": "no laboratory-confirmed avian AIV",
+          "evidence": "p2 table: retrospective clinic diagnoses Maiduguri; “Avian influenza 0 0 0 0 0 0 0 0 0 0 (0)”; text: “no report of outbreaks of neither highly pathogenic avian influenza nor any of its mild form in the study area”.",
+          "source_url": "https://www.longdom.org/open-access-pdfs/a-retrospective-study-of-poultry-diseases-diagnosed-in-maiduguri-northeast-nigeria-pfw.1000113.pdf",
+          "method": "independent R2 (reviewer agent, Claude Sonnet 5.5, blind to R1) full-text review of locally retrieved verified copy; reported to main agent 2026-09-29"
+        },
+        "adjudication": {
+          "decision": "exclude",
+          "reason_code": "no laboratory-confirmed avian AIV",
+          "reviewer": "main-agent",
+          "basis": "Concordant independent full-text exclusion with the same fixed reason.",
+          "source_url": "https://www.longdom.org/open-access-pdfs/a-retrospective-study-of-poultry-diseases-diagnosed-in-maiduguri-northeast-nigeria-pfw.1000113.pdf",
+          "checked": "2026-09-29"
+        }
       }
     },
     {
@@ -109367,7 +110316,7 @@
         "scholar:Q3#100"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "provisional_full_text_candidate",
+      "final_status": "duplicate_record_removed",
       "vote_disposition": [
         {
           "source": "scholar_rerun_20260928",
@@ -109399,7 +110348,7 @@
         "basis": "Concordant retain (include/unsure).",
         "checked": "2026-09-29"
       },
-      "full_text_status": "full_text_pending_retrieval",
+      "full_text_status": "duplicate_record_removed",
       "scholar_source": {
         "link": "https://www.researchgate.net/profile/Bitrus-Inuwa/publication/392248886_Exotic_and_aquatic_zoological_birds_harbour_highly_pathogenic_Avian_Influenza_Virus_2021_continuous_threat_to_poultry_production_food_security_and_public_health_in_Nigeria/links/683fcced6b5a287c30491756/Exotic-and-aquatic-zoological-birds-harbour-highly-pathogenic-Avian-Influenza-Virus-2021-continuous-threat-to-poultry-production-food-security-and-public-health-in-Nigeria.pdf",
         "venue_line": "YJ Atuman, B Inuwa, J Bakam, E Orioko, N Ikemefuna… - researchgate.net",
@@ -109411,9 +110360,54 @@
         ]
       },
       "report_linkage": {
-        "possible_duplicate_of": "CAN-1882",
+        "duplicate_record_of": "CAN-0191",
+        "basis": "Same DOI 10.1016/j.eas.2025.100055 (Emerging Animal Species 2025). Found from the DOI recorded during retrieval (no full text).",
         "checked": "2026-09-29",
-        "basis": "Flagged by R1 and/or R2 at title stage (preprint/journal or re-indexed version); confirm at full text."
+        "note": "Missed by the 2026-09-28 matching: older register records store DOIs with punctuation stripped, so DOI matching never fired, and Scholar titles were truncated, garbled or mis-titled. Counted as a duplicate record removed, not as a screened identity."
+      },
+      "retrieval": {
+        "checked": "2026-09-29",
+        "route": "legal open-access sweep of Scholar links, publisher/DOI, Unpaywall, OpenAlex, PMC OA, repositories, SerpApi Scholar versions",
+        "retrieval_attempts": [
+          {
+            "date": "2026-09-29",
+            "route": "Google Scholar result link",
+            "url": "https://www.researchgate.net/profile/Bitrus-Inuwa/publication/392248886_Exotic_and_aquatic_zoological_birds_harbour_highly_pathogenic_Avian_Influenza_Virus_2021_continuous_threat_to_poultry_production_food_security_and_public_health_in_Nigeria/links/683fcced6b5a287c30491756/Exotic-and-aquatic-zoological-birds-harbour-highly-pathogenic-Avian-Influenza-Virus-2021-continuous-threat-to-poultry-production-food-security-and-public-health-in-Nigeria.pdf",
+            "outcome": "HTTP 403; HTML page \"ResearchGate - Temporarily Unavailable\" (ResearchGate bot gate; blocked)"
+          },
+          {
+            "date": "2026-09-29",
+            "route": "Unpaywall oa_locations",
+            "url": "https://api.unpaywall.org/v2/10.1016/j.eas.2025.100055?email=batesthommie@gmail.com",
+            "outcome": "is_oa=True; 1 location(s): https://doi.org/10.1016/j.eas.2025.100055"
+          },
+          {
+            "date": "2026-09-29",
+            "route": "DOI resolution (Elsevier)",
+            "url": "https://doi.org/10.1016/j.eas.2025.100055",
+            "outcome": "HTTP 200 text/html; page title \"Redirecting\"; final URL https://linkinghub.elsevier.com/retrieve/pii/S2772813725000022"
+          },
+          {
+            "date": "2026-09-29",
+            "route": "ScienceDirect article page",
+            "url": "https://www.sciencedirect.com/science/article/pii/S2772813725000022",
+            "outcome": "HTTP 403 text/html; page title \"ScienceDirect\""
+          },
+          {
+            "date": "2026-09-29",
+            "route": "Google Scholar title search (via SerpApi)",
+            "url": "https://scholar.google.com/scholar?q=Exotic+and+aquatic+zoological+birds+harbour+highly+pathogenic+Avian+Influenza+Virus%2C+2021%3A+continuous+threat+to+poultry+production%2C+food+security+and+public+health+in+Nigeria",
+            "outcome": "1 result(s) returned; see candidate links below"
+          },
+          {
+            "date": "2026-09-29",
+            "route": "Google Scholar \"All versions\" cluster (via SerpApi)",
+            "url": "https://scholar.google.com/scholar?cluster=13215558006954740139",
+            "outcome": "2 result(s) returned; see candidate links below"
+          }
+        ],
+        "retrieval_status": "report_not_retrieved",
+        "note": "Emerging Animal Species 2025 (doi 10.1016/j.eas.2025.100055): Elsevier/ScienceDirect returned 403; ResearchGate gated; CABI abstract record only. The bioRxiv preprint of the same study is CAN-1882 (obtained)."
       }
     },
     {
@@ -109662,7 +110656,7 @@
         "scholar:Q2#105"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "provisional_full_text_candidate",
+      "final_status": "duplicate_record_removed",
       "vote_disposition": [
         {
           "source": "scholar_rerun_20260928",
@@ -109694,7 +110688,7 @@
         "basis": "Concordant retain (include/unsure).",
         "checked": "2026-09-29"
       },
-      "full_text_status": "full_text_pending_retrieval",
+      "full_text_status": "duplicate_record_removed",
       "scholar_source": {
         "link": "https://books.google.com/books?hl=en&lr=&id=UTj8DwAAQBAJ&oi=fnd&pg=PA61&dq=H5N1+Nigeria&ots=pS8t6Q0GsN&sig=odDeZdhZUKxt2IKJS2UoF7SDoUw",
         "venue_line": "D Poultry - Viruses and Viral Infections in Developing Countries, 2020 - books.google.com",
@@ -109704,6 +110698,46 @@
           null,
           "https://www.intechopen.com/chapters/68092"
         ]
+      },
+      "retrieval": {
+        "checked": "2026-09-29",
+        "route": "legal open-access sweep of Scholar links, publisher/DOI, Unpaywall, OpenAlex, PMC OA, repositories, SerpApi Scholar versions",
+        "retrieval_attempts": [
+          {
+            "date": "2026-09-29",
+            "route": "Google Scholar result link",
+            "url": "https://books.google.com/books?hl=en&lr=&id=UTj8DwAAQBAJ&oi=fnd&pg=PA61&dq=H5N1+Nigeria&ots=pS8t6Q0GsN&sig=odDeZdhZUKxt2IKJS2UoF7SDoUw",
+            "outcome": "HTTP 200; HTML page \"Viruses and Viral Infections in Developing Countries - Googl\""
+          },
+          {
+            "date": "2026-09-29",
+            "route": "Google Scholar resource link",
+            "url": "https://www.intechopen.com/chapters/68092",
+            "outcome": "HTTP 200; HTML page \"Features of Highly Pathogenic Avian Influenza (HPAI) H5N1 in\""
+          },
+          {
+            "date": "2026-09-29",
+            "route": "PDF/full-text link from landing page or repository",
+            "url": "https://www.intechopen.com/citation-pdf-url/68092",
+            "outcome": "HTTP 200; PDF downloaded (2756355 bytes)"
+          }
+        ],
+        "retrieval_status": "retrieval_fulltext_obtained",
+        "fulltext_obtained": {
+          "date": "2026-09-29",
+          "source_url": "https://www.intechopen.com/citation-pdf-url/68092",
+          "local_file": "D:\\AvianInfluenzaSysRev_retrieval_20260927\\fulltext\\CAN-1974.pdf",
+          "identity_verified": true,
+          "verification": "Chapter \"Features of Highly Pathogenic Avian Influenza (HPAI) H5N1 in Domestic Poultry\" by Akanbi OB et al. in \"Viruses and Viral Infections in Developing Countries\" (IntechOpen, 2020) matches; 16-page chapter (6,822 words); no OCR.",
+          "pages": 16
+        },
+        "note": "Scholar parsed the author as \"D Poultry\" (title truncation); actual first author is Olatunde Babatunde Akanbi. Book chapter format, not IMRaD."
+      },
+      "report_linkage": {
+        "duplicate_record_of": "CAN-1806",
+        "basis": "Same IntechOpen 2020 chapter (Akanbi et al.); Scholar title truncated and author parsed as \"D Poultry\".",
+        "checked": "2026-09-29",
+        "note": "Missed by the 2026-09-28 title matching (threshold 0.90 / truncated Scholar titles); found once full text was in hand. Counted as a duplicate record removed, not as a screened identity."
       }
     },
     {
@@ -110876,7 +111910,7 @@
         "scholar:Q1#123"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "provisional_full_text_candidate",
+      "final_status": "provisional_full_text_eligible",
       "vote_disposition": [
         {
           "source": "scholar_rerun_20260928",
@@ -110908,13 +111942,70 @@
         "basis": "Concordant retain (include/unsure).",
         "checked": "2026-09-29"
       },
-      "full_text_status": "full_text_pending_retrieval",
+      "full_text_status": "full_text_eligible_provisional",
       "scholar_source": {
         "link": "http://aavsci.com/article/10.11648/j.avs.20251306.11",
         "venue_line": "OS Gabriel, AI Abayomi, AJ Olowo - Animal and Veterinary Sciences, 2025 - aavsci.com",
         "snippet": "… Avian influenza in Nigeria: increasing spread with potentials for endemicity. Proceedings of the 12th International Conference of the association of Institutions of Tropical Veterinary …",
         "type": null,
         "resources": []
+      },
+      "retrieval": {
+        "checked": "2026-09-29",
+        "route": "legal open-access sweep of Scholar links, publisher/DOI, Unpaywall, OpenAlex, PMC OA, repositories, SerpApi Scholar versions",
+        "retrieval_attempts": [
+          {
+            "date": "2026-09-29",
+            "route": "Google Scholar result link",
+            "url": "http://aavsci.com/article/10.11648/j.avs.20251306.11",
+            "outcome": "HTTP 200; HTML page \"Sero-epidemiological Survey of Avian Influenza and Newcastle\""
+          },
+          {
+            "date": "2026-09-29",
+            "route": "PDF/full-text link from landing page or repository",
+            "url": "https://article.sciencepublishinggroup.com/pdf/j.avs.20251306.11",
+            "outcome": "HTTP 200; PDF downloaded (163269 bytes)"
+          }
+        ],
+        "retrieval_status": "retrieval_fulltext_obtained",
+        "fulltext_obtained": {
+          "date": "2026-09-29",
+          "source_url": "https://article.sciencepublishinggroup.com/pdf/j.avs.20251306.11",
+          "local_file": "D:\\AvianInfluenzaSysRev_retrieval_20260927\\fulltext\\CAN-1995.pdf",
+          "identity_verified": true,
+          "verification": "Title, first author Osanyintuyi Shola Gabriel and Animal and Veterinary Sciences 2025;13(6):175-178 (doi 10.11648/j.avs.20251306.11) match; 4-page article with methods, results, discussion (2,180 words); no OCR.",
+          "pages": 4
+        },
+        "note": "Scholar venue line lists the author as \"OS Gabriel\" (surname Osanyintuyi).",
+        "eligibility_status": "assessed",
+        "next_action": "Extraction (report/dataset overlap check first)."
+      },
+      "full_text_eligibility": {
+        "checked": "2026-09-29",
+        "reviewer_1": {
+          "decision": "retain",
+          "reason_code": null,
+          "evidence": "Japanese quails from a Nigerian research centre (unvaccinated): HI with AI (H5N2) antigen; egg yolk extracts 3/203 (1.5%) AI antibody positive (titre >=1:8), sera (filter paper) 0/79; ND 136/203 (pp.176-177).",
+          "source_url": "https://article.sciencepublishinggroup.com/pdf/j.avs.20251306.11",
+          "method": "independent R1 (executor agent, Claude Opus 5.5) full-text review of locally retrieved verified copy; reported to main agent 2026-09-29",
+          "caution": "Weak: maternal antibody only, HI possibly cross-reactive, state and sampling year not stated, birds termed 'experimental quails' though not infected. Adjudicator may consider 'experimental only' or 'no laboratory-confirmed avian AIV'."
+        },
+        "reviewer_2": {
+          "decision": "retain",
+          "reason_code": null,
+          "evidence": "p1 abstract: Japanese quail eggs and sera, Akure; HI test; “Out of the 203 quail egg yolk extracts tested for the presence of HI antibodies, 3 (1.5%) ... were positive for AI”; no serum sample positive.",
+          "source_url": "https://article.sciencepublishinggroup.com/pdf/j.avs.20251306.11",
+          "method": "independent R2 (reviewer agent, Claude Sonnet 5.5, blind to R1) full-text review of locally retrieved verified copy; reported to main agent 2026-09-29",
+          "caution": "Borderline: maternal antibody in egg yolk from purchased captive quails, subtype/HI antigen and field relevance limited; retained as bird serology exposure data."
+        },
+        "adjudication": {
+          "decision": "retain",
+          "reason_code": null,
+          "reviewer": "main-agent",
+          "basis": "Concordant independent full-text review. Weak retain: HI antibody in egg yolk of purchased captive quails (3/203), state and year not given; flag for sensitivity analysis.",
+          "source_url": "https://article.sciencepublishinggroup.com/pdf/j.avs.20251306.11",
+          "checked": "2026-09-29"
+        }
       }
     },
     {
@@ -111457,7 +112548,7 @@
         "scholar:Q2#130"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "provisional_full_text_candidate",
+      "final_status": "provisional_full_text_eligible",
       "vote_disposition": [
         {
           "source": "scholar_rerun_20260928",
@@ -111489,7 +112580,7 @@
         "basis": "Concordant retain (include/unsure).",
         "checked": "2026-09-29"
       },
-      "full_text_status": "full_text_pending_retrieval",
+      "full_text_status": "full_text_eligible_provisional",
       "scholar_source": {
         "link": "https://search.proquest.com/openview/aa8db5dec52d99fb6083556495d36e06/1?pq-origsite=gscholar&cbl=2026366&diss=y",
         "venue_line": "FO Fasina - 2009 - search.proquest.com",
@@ -111499,6 +112590,63 @@
           null,
           "https://repository.up.ac.za/bitstreams/1b12e5d3-d3f2-4257-aa34-c50cda3e6e34/download"
         ]
+      },
+      "retrieval": {
+        "checked": "2026-09-29",
+        "route": "legal open-access sweep of Scholar links, publisher/DOI, Unpaywall, OpenAlex, PMC OA, repositories, SerpApi Scholar versions",
+        "retrieval_attempts": [
+          {
+            "date": "2026-09-29",
+            "route": "Google Scholar result link",
+            "url": "https://search.proquest.com/openview/aa8db5dec52d99fb6083556495d36e06/1?pq-origsite=gscholar&cbl=2026366&diss=y",
+            "outcome": "HTTP 200; HTML page \"Molecular and Spatial-Temporal Epidemiology of Highly Pathog\""
+          },
+          {
+            "date": "2026-09-29",
+            "route": "Google Scholar resource link",
+            "url": "https://repository.up.ac.za/bitstreams/1b12e5d3-d3f2-4257-aa34-c50cda3e6e34/download",
+            "outcome": "HTTP 200; PDF downloaded (8508306 bytes)"
+          }
+        ],
+        "retrieval_status": "retrieval_fulltext_obtained",
+        "fulltext_obtained": {
+          "date": "2026-09-29",
+          "source_url": "https://repository.up.ac.za/bitstreams/1b12e5d3-d3f2-4257-aa34-c50cda3e6e34/download",
+          "local_file": "D:\\AvianInfluenzaSysRev_retrieval_20260927\\fulltext\\CAN-2005.pdf",
+          "identity_verified": true,
+          "verification": "Title and author Fasina FO (MSc, University of Pretoria) match; 157-page thesis with methods, results, discussion chapters (36,682 words); no OCR.",
+          "pages": 157
+        },
+        "note": "Thesis states \"submitted October 2008\"; Scholar year 2009 (ProQuest record). Probably overlaps Fasina et al. journal papers.",
+        "eligibility_status": "assessed",
+        "next_action": "Extraction (report/dataset overlap check first)."
+      },
+      "full_text_eligibility": {
+        "checked": "2026-09-29",
+        "reviewer_1": {
+          "decision": "retain",
+          "reason_code": null,
+          "evidence": "MSc thesis (Pretoria 2008). 35 NVRI HPAI H5N1 isolates Jan 2006-Jan 2007 (32 sequenced) with species, state, date (Table 2.1, p.54); RT-PCR, phylogenetics (multiple introductions); GIS spatial-temporal diffusion of 2006 outbreaks; financial cost.",
+          "source_url": "https://repository.up.ac.za/bitstreams/1b12e5d3-d3f2-4257-aa34-c50cda3e6e34/download",
+          "method": "independent R1 (executor agent, Claude Opus 5.5) full-text review of locally retrieved verified copy; reported to main agent 2026-09-29",
+          "caution": "Molecular data likely overlap Fasina et al. published papers (duplicate step)."
+        },
+        "reviewer_2": {
+          "decision": "retain",
+          "reason_code": null,
+          "evidence": "PDF p72 (ch.3.2): “Six sub-lineages were identified amongst the Nigerian H5 genes” in three clades with bootstrap values; p109: GIS and temporal study show northern states at higher risk and multiple outbreaks. MSc thesis, Nigeria 2006-Jan 2007.",
+          "source_url": "https://repository.up.ac.za/bitstreams/1b12e5d3-d3f2-4257-aa34-c50cda3e6e34/download",
+          "method": "independent R2 (reviewer agent, Claude Sonnet 5.5, blind to R1) full-text review of locally retrieved verified copy; reported to main agent 2026-09-29",
+          "caution": "Thesis; also contains cost and vaccination chapters (not relevant)."
+        },
+        "adjudication": {
+          "decision": "retain",
+          "reason_code": null,
+          "reviewer": "main-agent",
+          "basis": "Concordant independent full-text review.",
+          "source_url": "https://repository.up.ac.za/bitstreams/1b12e5d3-d3f2-4257-aa34-c50cda3e6e34/download",
+          "checked": "2026-09-29"
+        }
       }
     },
     {
@@ -111686,7 +112834,7 @@
         "scholar:Q1#133"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "provisional_full_text_candidate",
+      "final_status": "full_text_excluded",
       "vote_disposition": [
         {
           "source": "scholar_rerun_20260928",
@@ -111718,7 +112866,7 @@
         "basis": "Concordant retain (include/unsure).",
         "checked": "2026-09-29"
       },
-      "full_text_status": "full_text_pending_retrieval",
+      "full_text_status": "full_text_excluded",
       "scholar_source": {
         "link": "https://www.researchgate.net/profile/Israel-Barde/publication/338987831_Retrospective_Study_of_Avian_Influenza_Outbreak_from_2015-2017_Resurgences_in_Plateau_State_Nigeria/links/5e372d0e92851c7f7f17ae32/Retrospective-Study-of-Avian-Influenza-Outbreak-from-2015-2017-Resurgences-in-Plateau-State-Nigeria.pdf",
         "venue_line": "IS Ejura, WS Nafarnda, G Egwu, H Ayuba… - Acta Sci …, 2020 - researchgate.net",
@@ -111728,6 +112876,89 @@
           null,
           "https://www.researchgate.net/profile/Israel-Barde/publication/338987831_Retrospective_Study_of_Avian_Influenza_Outbreak_from_2015-2017_Resurgences_in_Plateau_State_Nigeria/links/5e372d0e92851c7f7f17ae32/Retrospective-Study-of-Avian-Influenza-Outbreak-from-2015-2017-Resurgences-in-Plateau-State-Nigeria.pdf"
         ]
+      },
+      "retrieval": {
+        "checked": "2026-09-29",
+        "route": "legal open-access sweep of Scholar links, publisher/DOI, Unpaywall, OpenAlex, PMC OA, repositories, SerpApi Scholar versions",
+        "retrieval_attempts": [
+          {
+            "date": "2026-09-29",
+            "route": "Google Scholar result link",
+            "url": "https://www.researchgate.net/profile/Israel-Barde/publication/338987831_Retrospective_Study_of_Avian_Influenza_Outbreak_from_2015-2017_Resurgences_in_Plateau_State_Nigeria/links/5e372d0e92851c7f7f17ae32/Retrospective-Study-of-Avian-Influenza-Outbreak-from-2015-2017-Resurgences-in-Plateau-State-Nigeria.pdf",
+            "outcome": "HTTP 403; HTML page \"ResearchGate - Temporarily Unavailable\" (ResearchGate bot gate; blocked)"
+          },
+          {
+            "date": "2026-09-29",
+            "route": "Google Scholar title search (via SerpApi)",
+            "url": "https://scholar.google.com/scholar?q=Retrospective+Study+of+Avian+Influenza+Outbreak+from+2015-2017%3B+Resurgences+in+Plateau+State+Nigeria",
+            "outcome": "1 result(s) returned; see candidate links below"
+          },
+          {
+            "date": "2026-09-29",
+            "route": "Google Scholar \"All versions\" cluster (via SerpApi)",
+            "url": "https://scholar.google.com/scholar?cluster=14078775928346370053",
+            "outcome": "2 result(s) returned; see candidate links below"
+          },
+          {
+            "date": "2026-09-29",
+            "route": "Web search (journal site)",
+            "url": "\"Retrospective Study of Avian Influenza Outbreak from 2015-2017\" Acta Scientific Microbiology pdf",
+            "outcome": "no copy on publisher/journal site found; only ResearchGate"
+          },
+          {
+            "date": "2026-09-29",
+            "route": "Web search (publisher site)",
+            "url": "actascientific.com Ejura Nafarnda avian influenza Plateau State 2020 ASMI",
+            "outcome": "publisher PDF located: ASMI-03-0493.pdf"
+          },
+          {
+            "date": "2026-09-29",
+            "route": "Publisher PDF (Acta Scientific Microbiology)",
+            "url": "https://actascientific.com/ASMI/pdf/ASMI-03-0493.pdf",
+            "outcome": "HTTP 200; PDF downloaded (319722 bytes)"
+          }
+        ],
+        "retrieval_status": "retrieval_fulltext_obtained",
+        "fulltext_obtained": {
+          "date": "2026-09-29",
+          "source_url": "https://actascientific.com/ASMI/pdf/ASMI-03-0493.pdf",
+          "local_file": "D:\\AvianInfluenzaSysRev_retrieval_20260927\\fulltext\\CAN-2009.pdf",
+          "identity_verified": true,
+          "verification": "Title, first author Ejura (Idachaba Stella Ejura) and Acta Scientific Microbiology 2020;3(2):70-72 match; 3-page article with methods, results, discussion (2,047 words); no OCR.",
+          "pages": 3
+        },
+        "note": "ResearchGate copy blocked; publisher PDF found by web search.",
+        "eligibility_status": "assessed",
+        "next_action": "None (excluded at full text)."
+      },
+      "full_text_eligibility": {
+        "checked": "2026-09-29",
+        "reviewer_1": {
+          "decision": "exclude",
+          "reason_code": "no laboratory-confirmed avian AIV",
+          "evidence": "Retrospective records of Plateau State AI desk office 2015-2017: 167 farms visited 2015 (~90% infected), 63 farms 2016, 22 farms 2017; birds by type infected/depopulated (pp.1-2).",
+          "source_url": "https://actascientific.com/ASMI/pdf/ASMI-03-0493.pdf",
+          "method": "independent R1 (executor agent, Claude Opus 5.5) full-text review of locally retrieved verified copy; reported to main agent 2026-09-29",
+          "caution": "No statement that outbreaks were laboratory confirmed (no assay or NVRI confirmation described); official records likely NVRI-confirmed - adjudicator may retain if accepting official outbreak status."
+        },
+        "reviewer_2": {
+          "decision": "exclude",
+          "reason_code": "no laboratory-confirmed avian AIV",
+          "evidence": "p1-2: retrospective survey of Plateau State desk-office records 2015-17; birds depopulated (487,233 in 2015) and farms affected (Table 1). No RT-PCR, isolation or serology is stated for the records reviewed.",
+          "source_url": "https://actascientific.com/ASMI/pdf/ASMI-03-0493.pdf",
+          "method": "independent R2 (reviewer agent, Claude Sonnet 5.5, blind to R1) full-text review of locally retrieved verified copy; reported to main agent 2026-09-29",
+          "caution": "Borderline: outbreak counts are presumably NVRI-confirmed but no confirmation or assay is stated; reconsider if R1 retains."
+        },
+        "adjudication": {
+          "decision": "exclude",
+          "reason_code": "no laboratory-confirmed avian AIV",
+          "reviewer": "main-agent",
+          "basis": "Concordant independent full-text exclusion with the same fixed reason. Main-session check: kept excluded. Unlike CAN-1719, the report does not state that the desk-office outbreaks were laboratory-confirmed; decided on the text as published (precedent CAN-1627, CAN-1672).",
+          "source_url": "https://actascientific.com/ASMI/pdf/ASMI-03-0493.pdf",
+          "checked": "2026-09-29",
+          "phase_b_must_check": true,
+          "consistency_note": "The retain/exclude line between records-based outbreak reports is thin: CAN-1914, CAN-1719 and CAN-1347 retained; CAN-2009 (laboratory confirmation not stated) and CAN-2082 (official tables reproduced without analysis) excluded. Phase B human check required."
+        }
       }
     },
     {
@@ -112501,7 +113732,7 @@
         "scholar:Q3#144"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "provisional_full_text_candidate",
+      "final_status": "report_not_retrieved",
       "vote_disposition": [
         {
           "source": "scholar_rerun_20260928",
@@ -112533,7 +113764,7 @@
         "basis": "Discordant; conservative union retains for full text (file 18 item 5).",
         "checked": "2026-09-29"
       },
-      "full_text_status": "full_text_pending_retrieval",
+      "full_text_status": "report_not_retrieved",
       "scholar_source": {
         "link": "https://theses.hal.science/tel-04556650/",
         "venue_line": "M Fusade-Boyer - 2021 - theses.hal.science",
@@ -112543,6 +113774,58 @@
           null,
           "https://theses.hal.science/tel-04556650/document"
         ]
+      },
+      "retrieval": {
+        "checked": "2026-09-29",
+        "route": "legal open-access sweep of Scholar links, publisher/DOI, Unpaywall, OpenAlex, PMC OA, repositories, SerpApi Scholar versions",
+        "retrieval_attempts": [
+          {
+            "date": "2026-09-29",
+            "route": "Google Scholar result link",
+            "url": "https://theses.hal.science/tel-04556650/",
+            "outcome": "HTTP 200; HTML page \"Making sure you&#39;re not a bot!\" (Anubis bot check; not bypassed)"
+          },
+          {
+            "date": "2026-09-29",
+            "route": "Google Scholar resource link",
+            "url": "https://theses.hal.science/tel-04556650/document",
+            "outcome": "HTTP 200; HTML page \"Making sure you&#39;re not a bot!\" (Anubis bot check; not bypassed)"
+          },
+          {
+            "date": "2026-09-29",
+            "route": "HAL API metadata",
+            "url": "https://api.archives-ouvertes.fr/search/?q=halId_s:tel-04556650&fl=fileMain_s,files_s,title_s,authFullName_s,producedDateY_i",
+            "outcome": "HTTP 200 application/json; page title \"\""
+          },
+          {
+            "date": "2026-09-29",
+            "route": "HAL file URL (HAL API files_s)",
+            "url": "https://theses.hal.science/tel-04556650/file/FUSADE_BOYER.pdf",
+            "outcome": "HTTP 200 text/html; page title \"Making sure you&#39;re not a bot!\""
+          },
+          {
+            "date": "2026-09-29",
+            "route": "Google Scholar title search (via SerpApi)",
+            "url": "https://scholar.google.com/scholar?q=Circulation+des+virus+influenza+aviaires+en+Afrique+subsaharienne+et+franchissement+de+la+barri%C3%A8re+d%27esp%C3%A8ce",
+            "outcome": "1 result(s) returned; see candidate links below"
+          },
+          {
+            "date": "2026-09-29",
+            "route": "Google Scholar \"All versions\" cluster (via SerpApi)",
+            "url": "https://scholar.google.com/scholar?cluster=3137498056827899010",
+            "outcome": "6 result(s) returned; see candidate links below"
+          },
+          {
+            "date": "2026-09-29",
+            "route": "theses.fr document API (Scholar all-versions)",
+            "url": "https://theses.fr/api/v1/document/2021INPT0131",
+            "outcome": "HTTP 200 text/html; page title \"Making sure you&#39;re not a bot!\"; final URL https://theses.hal.science/tel-04556650"
+          }
+        ],
+        "retrieval_status": "report_not_retrieved",
+        "note": "HAL thesis tel-04556650 (Fusade-Boyer 2021): every HAL/theses.fr URL (document, file FUSADE_BOYER.pdf, theses.fr API) is behind the Anubis bot check; not bypassed.",
+        "eligibility_status": "not_assessed",
+        "next_action": "None (report not retrieved after the legal sweep; no author contact per the 2026-09-27 amendment)."
       }
     },
     {
@@ -112666,7 +113949,7 @@
       "title": "Antigenic and genetic characteristics of influenza A (H5N1) and influenza A (H9N2) viruses and candidate vaccine viruses developed for potential use in human …",
       "year": "2010",
       "doi": null,
-      "pmid": null,
+      "pmid": "20949701",
       "source_lineage": [
         "scholar_rerun_20260928"
       ],
@@ -112675,7 +113958,7 @@
         "scholar:Q3#147"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "provisional_full_text_candidate",
+      "final_status": "full_text_excluded",
       "vote_disposition": [
         {
           "source": "scholar_rerun_20260928",
@@ -112707,7 +113990,7 @@
         "basis": "Discordant; conservative union retains for full text (file 18 item 5).",
         "checked": "2026-09-29"
       },
-      "full_text_status": "full_text_pending_retrieval",
+      "full_text_status": "full_text_excluded",
       "scholar_source": {
         "link": "https://iris.who.int/items/ca0e5322-575d-4d2f-8787-1711febe425f",
         "venue_line": "World Health Organization - Weekly Epidemiological Record= Relevé …, 2010 - iris.who.int",
@@ -112717,6 +114000,147 @@
           null,
           "https://iris.who.int/bitstreams/2a37d457-dc1c-4039-b6fc-a692d61633ee/download"
         ]
+      },
+      "retrieval": {
+        "checked": "2026-09-29",
+        "route": "legal open-access sweep of Scholar links, publisher/DOI, Unpaywall, OpenAlex, PMC OA, repositories, SerpApi Scholar versions",
+        "retrieval_attempts": [
+          {
+            "date": "2026-09-29",
+            "route": "Google Scholar result link",
+            "url": "https://iris.who.int/items/ca0e5322-575d-4d2f-8787-1711febe425f",
+            "outcome": "request failed (connection error)"
+          },
+          {
+            "date": "2026-09-29",
+            "route": "Google Scholar resource link",
+            "url": "https://iris.who.int/bitstreams/2a37d457-dc1c-4039-b6fc-a692d61633ee/download",
+            "outcome": "request failed (connection error)"
+          },
+          {
+            "date": "2026-09-29",
+            "route": "WHO IRIS bitstream (Scholar resource), retry",
+            "url": "https://iris.who.int/bitstreams/2a37d457-dc1c-4039-b6fc-a692d61633ee/download",
+            "outcome": "request failed: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by t"
+          },
+          {
+            "date": "2026-09-29",
+            "route": "WHO IRIS item page (Scholar link), retry",
+            "url": "https://iris.who.int/items/ca0e5322-575d-4d2f-8787-1711febe425f",
+            "outcome": "request failed: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by t"
+          },
+          {
+            "date": "2026-09-29",
+            "route": "Internet Archive Wayback copy of WHO WER 85(10) 2010 PDF",
+            "url": "http://web.archive.org/web/20220121103000id_/http://www.who.int/wer/2010/wer8510.pdf",
+            "outcome": "HTTP 429 text/html; page title \"429 Too Many Requests\""
+          },
+          {
+            "date": "2026-09-29",
+            "route": "Internet Archive Wayback copy of WHO WER 85(41) 2010 PDF",
+            "url": "http://web.archive.org/web/20220120224728id_/http://www.who.int/wer/2010/wer8541.pdf",
+            "outcome": "HTTP 429 text/html; page title \"429 Too Many Requests\""
+          },
+          {
+            "date": "2026-09-29",
+            "route": "Internet Archive Wayback copy of WHO WER 85(10) 2010 PDF (retry)",
+            "url": "http://web.archive.org/web/20220121103000id_/http://www.who.int/wer/2010/wer8510.pdf",
+            "outcome": "HTTP 429 text/html; page title \"429 Too Many Requests\""
+          },
+          {
+            "date": "2026-09-29",
+            "route": "WHO IRIS item page (Scholar link), retry",
+            "url": "https://iris.who.int/items/ca0e5322-575d-4d2f-8787-1711febe425f",
+            "outcome": "request failed: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by t"
+          },
+          {
+            "date": "2026-09-29",
+            "route": "WHO IRIS item page (Scholar link), retry",
+            "url": "https://iris.who.int/items/ca0e5322-575d-4d2f-8787-1711febe425f",
+            "outcome": "request failed: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by t"
+          },
+          {
+            "date": "2026-09-29",
+            "route": "Internet Archive Wayback copy of WHO WER 85(10) 2010 PDF (retry)",
+            "url": "https://web.archive.org/web/2022id_/http://www.who.int/wer/2010/wer8510.pdf",
+            "outcome": "HTTP 429 text/html; page title \"429 Too Many Requests\""
+          },
+          {
+            "date": "2026-09-29",
+            "route": "Internet Archive Wayback copy of WHO WER 85(41) 2010 PDF (retry)",
+            "url": "https://web.archive.org/web/2022id_/http://www.who.int/wer/2010/wer8541.pdf",
+            "outcome": "HTTP 429 text/html; page title \"429 Too Many Requests\""
+          },
+          {
+            "date": "2026-09-29",
+            "route": "Web search (identify WER issue / alternate host)",
+            "url": "\"Antigenic and genetic characteristics of influenza A(H5N1) and influenza A(H9N2) viruses and candidate vaccine viruses\" 2010 Weekly Epidemiological Record pdf",
+            "outcome": "two 2010 WER editions share this title (PMID 20229648, Feb/March 2010; PMID 20949701, Oct 2010); no alternate host found; WHO IRIS unreachable (connection reset)"
+          },
+          {
+            "date": "2026-09-29",
+            "route": "WebFetch of WHO IRIS item page",
+            "url": "https://iris.who.int/items/ca0e5322-575d-4d2f-8787-1711febe425f",
+            "outcome": "ECONNRESET"
+          },
+          {
+            "date": "2026-09-29",
+            "route": "Internet Archive Wayback copy of WHO WER 85(10) 2010 PDF (final retry)",
+            "url": "https://web.archive.org/web/20220121103000if_/http://www.who.int/wer/2010/wer8510.pdf",
+            "outcome": "HTTP 429 text/html; page title \"429 Too Many Requests\""
+          },
+          {
+            "date": "2026-09-29",
+            "route": "WHO IRIS bitstream (Scholar resource), final retry",
+            "url": "https://iris.who.int/bitstreams/2a37d457-dc1c-4039-b6fc-a692d61633ee/download",
+            "outcome": "request failed: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by t"
+          },
+          {
+            "date": "2026-09-29",
+            "route": "retry: WHO IRIS DSpace REST API (item from the Scholar link, ORIGINAL bundle)",
+            "url": "https://iris.who.int/server/api/core/bitstreams/2a37d457-dc1c-4039-b6fc-a692d61633ee/content",
+            "outcome": "HTTP 200; PDF WER8542_418-424 downloaded"
+          }
+        ],
+        "retrieval_status": "retrieval_fulltext_obtained",
+        "note": "WHO IRIS unreachable (connection reset on every attempt, also via WebFetch); Internet Archive returned HTTP 429 on all Wayback attempts; two 2010 WER editions share this title (PMID 20229648, Feb/March 2010; PMID 20949701, Oct 2010), so the exact Scholar item could not be pinned without IRIS. Worth a later retry of the IRIS bitstream.",
+        "eligibility_status": "assessed",
+        "next_action": "None (excluded at full text).",
+        "fulltext_obtained": {
+          "date": "2026-09-29",
+          "source_url": "https://iris.who.int/server/api/core/bitstreams/2a37d457-dc1c-4039-b6fc-a692d61633ee/content",
+          "local_file": "D:/AvianInfluenzaSysRev_retrieval_20260927/fulltext/CAN-2026.pdf",
+          "identity_verified": true,
+          "verification": "Title matches; Wkly Epidemiol Rec No. 42, 15 Oct 2010, pp. 418-424 (PMID 20949701), the edition held by the IRIS item that the Scholar record links to; 7 pages, 4,103 words, no OCR.",
+          "pages": 7
+        }
+      },
+      "full_text_eligibility": {
+        "checked": "2026-09-29",
+        "reviewer_1": {
+          "decision": "exclude",
+          "reason_code": "non-Nigeria no Nigeria-data",
+          "evidence": "WHO WER No.42 (15 Oct 2010): global H5N1/H9N2 antigenic-genetic update and candidate vaccine viruses, 17 Feb-26 Sep 2010. Table 1 (p.2) lists H5N1 activity by country; Nigeria absent. Nigeria appears only as reference human strain A/Nigeria/6/07 in HA phylogenetic tree (Fig.1, p.4); no Nigerian avian data.",
+          "source_url": "https://iris.who.int/server/api/core/bitstreams/2a37d457-dc1c-4039-b6fc-a692d61633ee/content",
+          "method": "independent R1 (executor agent, Claude Opus 5.5) full-text review of locally retrieved verified copy; reported to main agent 2026-09-29",
+          "caution": "The only Nigerian item is a human reference virus (A/Nigeria/6/07) that is a tree label only; no avian Nigeria data."
+        },
+        "reviewer_2": {
+          "decision": "exclude",
+          "reason_code": "non-Nigeria no Nigeria-data",
+          "evidence": "WHO Weekly Epidemiological Record No. 42, 15 Oct 2010, pp.418ff: global update on H5N1/H9N2 antigenic and genetic characteristics and candidate vaccine viruses. The only Nigeria mention is a tree label (p4, A/Nigeria/6/07, clade 2.2.1); no Nigeria-specific avian data.",
+          "source_url": "https://iris.who.int/server/api/core/bitstreams/2a37d457-dc1c-4039-b6fc-a692d61633ee/content",
+          "method": "independent R2 (reviewer agent, Claude Sonnet 5.5, blind to R1) full-text review of locally retrieved verified copy; reported to main agent 2026-09-29",
+          "caution": "Global vaccine-virus report; the single Nigerian isolate label is a reference strain in a clade tree (thought to be a human case isolate; not verified in report)."
+        },
+        "adjudication": {
+          "decision": "exclude",
+          "reason_code": "non-Nigeria no Nigeria-data",
+          "reviewer": "main-agent",
+          "basis": "Concordant independent full-text exclusion with the same fixed reason.",
+          "source_url": "https://iris.who.int/server/api/core/bitstreams/2a37d457-dc1c-4039-b6fc-a692d61633ee/content",
+          "checked": "2026-09-29"
+        }
       }
     },
     {
@@ -113079,7 +114503,7 @@
         "scholar:Q2#152"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "provisional_full_text_candidate",
+      "final_status": "provisional_full_text_eligible",
       "vote_disposition": [
         {
           "source": "scholar_rerun_20260928",
@@ -113111,7 +114535,7 @@
         "basis": "Concordant retain (include/unsure).",
         "checked": "2026-09-29"
       },
-      "full_text_status": "full_text_pending_retrieval",
+      "full_text_status": "full_text_eligible_provisional",
       "scholar_source": {
         "link": "http://ir.library.ui.edu.ng/handle/123456789/623",
         "venue_line": "BO AKANBI - 2014 - ir.library.ui.edu.ng",
@@ -113121,6 +114545,63 @@
           null,
           "http://ir.library.ui.edu.ng/bitstream/123456789/623/1/22%202%202014%20Phd%20thesis%20defense%20proof%20copy.pdf"
         ]
+      },
+      "retrieval": {
+        "checked": "2026-09-29",
+        "route": "legal open-access sweep of Scholar links, publisher/DOI, Unpaywall, OpenAlex, PMC OA, repositories, SerpApi Scholar versions",
+        "retrieval_attempts": [
+          {
+            "date": "2026-09-29",
+            "route": "Google Scholar result link",
+            "url": "http://ir.library.ui.edu.ng/handle/123456789/623",
+            "outcome": "HTTP 200; HTML page \"University of Ibadan Institutional Repository: CHARACTERIZAT\""
+          },
+          {
+            "date": "2026-09-29",
+            "route": "Google Scholar resource link",
+            "url": "http://ir.library.ui.edu.ng/bitstream/123456789/623/1/22%202%202014%20Phd%20thesis%20defense%20proof%20copy.pdf",
+            "outcome": "HTTP 200; PDF downloaded (16977902 bytes)"
+          }
+        ],
+        "retrieval_status": "retrieval_fulltext_obtained",
+        "fulltext_obtained": {
+          "date": "2026-09-29",
+          "source_url": "http://ir.library.ui.edu.ng/bitstream/123456789/623/1/22%202%202014%20Phd%20thesis%20defense%20proof%20copy.pdf",
+          "local_file": "D:\\AvianInfluenzaSysRev_retrieval_20260927\\fulltext\\CAN-2033.pdf",
+          "identity_verified": true,
+          "verification": "Title and author Akanbi BO (PhD, University of Ibadan, February 2014) match; 289-page thesis with methods, results, discussion (53,508 words); no OCR.",
+          "pages": 289
+        },
+        "note": "File is labelled \"PhD thesis defense proof copy\".",
+        "eligibility_status": "assessed",
+        "next_action": "Extraction (report/dataset overlap check first)."
+      },
+      "full_text_eligibility": {
+        "checked": "2026-09-29",
+        "reviewer_1": {
+          "decision": "retain",
+          "reason_code": null,
+          "evidence": "PhD thesis (Ibadan 2014). 468 suspected birds from 6 zones confirmed by AGID/VI at NVRI 2006-2008; mortality by zone; GIS map; 56/80 backyard cases mixed vs single species OR=3.02; FFPE rRT-PCR 7/10, 4 sequenced, sub-clade 2.2 (abstract p.ii; Studies 1-3, pp.~60-100).",
+          "source_url": "http://ir.library.ui.edu.ng/bitstream/123456789/623/1/22%202%202014%20Phd%20thesis%20defense%20proof%20copy.pdf",
+          "method": "independent R1 (executor agent, Claude Opus 5.5) full-text review of locally retrieved verified copy; reported to main agent 2026-09-29",
+          "caution": "Study 4 is experimental infection of SPF ducks with non-Nigerian clade 1/2.2 strains - not extractable. Field data overlap CAN-1907/CAN-1941."
+        },
+        "reviewer_2": {
+          "decision": "retain",
+          "reason_code": null,
+          "evidence": "PDF pp.76-79: Study 1, HPAI H5N1 epidemiology 2006-2008 by region and state (Tables 4.1-4.2), plus pathology, IHC of Nigerian outbreak tissues and BLAST/HA sequencing (Table 4.9). Experimental duck/chicken challenge chapters not used.",
+          "source_url": "http://ir.library.ui.edu.ng/bitstream/123456789/623/1/22%202%202014%20Phd%20thesis%20defense%20proof%20copy.pdf",
+          "method": "independent R2 (reviewer agent, Claude Sonnet 5.5, blind to R1) full-text review of locally retrieved verified copy; reported to main agent 2026-09-29",
+          "caution": "PhD thesis; mixed field and experimental studies, only field Nigeria studies count. Shares 2006-07 NVRI outbreak data with CAN-1907/1941."
+        },
+        "adjudication": {
+          "decision": "retain",
+          "reason_code": null,
+          "reviewer": "main-agent",
+          "basis": "Concordant independent full-text review.",
+          "source_url": "http://ir.library.ui.edu.ng/bitstream/123456789/623/1/22%202%202014%20Phd%20thesis%20defense%20proof%20copy.pdf",
+          "checked": "2026-09-29"
+        }
       }
     },
     {
@@ -113369,7 +114850,7 @@
         "scholar:Q2#155"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "provisional_full_text_candidate",
+      "final_status": "provisional_full_text_eligible",
       "vote_disposition": [
         {
           "source": "scholar_rerun_20260928",
@@ -113401,13 +114882,70 @@
         "basis": "Concordant retain (include/unsure).",
         "checked": "2026-09-29"
       },
-      "full_text_status": "full_text_pending_retrieval",
+      "full_text_status": "full_text_eligible_provisional",
       "scholar_source": {
         "link": "https://uilspace.unilorin.edu.ng/items/bf363b89-9f91-43ce-8556-c2fa4b4de187",
         "venue_line": "P Kumbish, T Joannis, A Jambalang, M Damina… - 2006 - uilspace.unilorin.edu.ng",
         "snippet": "… States in the northern part of Nigeria. The outbreaks were confirmed to be the highly pathogenic avian influenza (HPAI) caused by the subtype H5N1. The outbreak was spontaneously …",
         "type": null,
         "resources": []
+      },
+      "retrieval": {
+        "checked": "2026-09-29",
+        "route": "legal open-access sweep of Scholar links, publisher/DOI, Unpaywall, OpenAlex, PMC OA, repositories, SerpApi Scholar versions",
+        "retrieval_attempts": [
+          {
+            "date": "2026-09-29",
+            "route": "Google Scholar result link",
+            "url": "https://uilspace.unilorin.edu.ng/items/bf363b89-9f91-43ce-8556-c2fa4b4de187",
+            "outcome": "HTTP 200; HTML page \"Clinico-Pathological Features of Highly Pathogenic Avian Inf\""
+          },
+          {
+            "date": "2026-09-29",
+            "route": "PDF/full-text link from landing page or repository",
+            "url": "https://uilspace.unilorin.edu.ng/bitstreams/87e46530-f202-4b9c-97db-3647a03692c5/download",
+            "outcome": "HTTP 200; PDF downloaded (999109 bytes)"
+          }
+        ],
+        "retrieval_status": "retrieval_fulltext_obtained",
+        "fulltext_obtained": {
+          "date": "2026-09-29",
+          "source_url": "https://uilspace.unilorin.edu.ng/bitstreams/87e46530-f202-4b9c-97db-3647a03692c5/download",
+          "local_file": "D:\\AvianInfluenzaSysRev_retrieval_20260927\\fulltext\\CAN-2038.pdf",
+          "identity_verified": true,
+          "verification": "Scanned image-only PDF; Tesseract OCR (250 dpi) confirms title and first author Kumbish PR with NVRI Vom affiliation; repository metadata give Vom Journal of Veterinary Science 2006; 10 pages with abstract, introduction, materials and methods, results (2,802 OCR words).",
+          "pages": 10
+        },
+        "note": "OCR quality is moderate (some garbled words); OCR text saved alongside as fulltext\\CAN-2038.txt.",
+        "eligibility_status": "assessed",
+        "next_action": "Extraction (report/dataset overlap check first)."
+      },
+      "full_text_eligibility": {
+        "checked": "2026-09-29",
+        "reviewer_1": {
+          "decision": "retain",
+          "reason_code": null,
+          "evidence": "Clinico-pathology of first HPAI H5N1 outbreaks, Jan 2006, commercial flocks Kaduna (Jaji), Jos, Kano; NVRI virus isolation, AGID, HI; confirmed by Padova reference lab; 15 states by July 2006; ~785,571 birds of multiple species involved (OCR pp.1-4).",
+          "source_url": "https://uilspace.unilorin.edu.ng/bitstreams/87e46530-f202-4b9c-97db-3647a03692c5/download",
+          "method": "independent R1 (executor agent, Claude Opus 5.5) full-text review of locally retrieved verified copy; reported to main agent 2026-09-29",
+          "caution": "OCR text poor (numbers e.g. 785,571 uncertain). Mostly pathology; epi data are outbreak dates, locations, species/host range."
+        },
+        "reviewer_2": {
+          "decision": "retain",
+          "reason_code": null,
+          "evidence": "OCR p1-3: HPAI H5N1 clinico-pathology in commercial chickens, 2006; birds submitted to NVRI Vom “confirmed to be positive”; 15 states with positive outbreaks “confirmed by the Reference Laboratory in Padova, Italy”.",
+          "source_url": "https://uilspace.unilorin.edu.ng/bitstreams/87e46530-f202-4b9c-97db-3647a03692c5/download",
+          "method": "independent R2 (reviewer agent, Claude Sonnet 5.5, blind to R1) full-text review of locally retrieved verified copy; reported to main agent 2026-09-29",
+          "caution": "OCR quality poor; pathology-focused, epi data limited to states, hosts and mortality."
+        },
+        "adjudication": {
+          "decision": "retain",
+          "reason_code": null,
+          "reviewer": "main-agent",
+          "basis": "Concordant independent full-text review.",
+          "source_url": "https://uilspace.unilorin.edu.ng/bitstreams/87e46530-f202-4b9c-97db-3647a03692c5/download",
+          "checked": "2026-09-29"
+        }
       }
     },
     {
@@ -113482,7 +115020,7 @@
         "scholar:Q2#156"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "provisional_full_text_candidate",
+      "final_status": "report_not_retrieved",
       "vote_disposition": [
         {
           "source": "scholar_rerun_20260928",
@@ -113514,7 +115052,7 @@
         "basis": "Concordant retain (include/unsure).",
         "checked": "2026-09-29"
       },
-      "full_text_status": "full_text_pending_retrieval",
+      "full_text_status": "report_not_retrieved",
       "scholar_source": {
         "link": "https://www.researchgate.net/profile/Mariette-Ducatez/publication/237120572_L'ETUDE_DE_L'EPIDEMIOLOGIE_MOLECULAIRE_DE_H5N1_HAUTEMENT_PATHOGENE_AU_NIGERIA_INDIQUE_QUE_PLUSIEURS_VIRUS_DISTINCTS_Y_ONT_ETE_INTRODUITS/links/00463529ce9be6f314000000/LETUDE-DE-LEPIDEMIOLOGIE-MOLECULAIRE-DE-H5N1-HAUTEMENT-PATHOGENE-AU-NIGERIA-INDIQUE-QUE-PLUSIEURS-VIRUS-DISTINCTS-Y-ONT-ETE-INTRODUITS.pdf",
         "venue_line": "MF Ducatez, CM Olinger, AA Owoade… - researchgate.net",
@@ -113524,6 +115062,69 @@
           null,
           "https://www.researchgate.net/profile/Mariette-Ducatez/publication/237120572_L'ETUDE_DE_L'EPIDEMIOLOGIE_MOLECULAIRE_DE_H5N1_HAUTEMENT_PATHOGENE_AU_NIGERIA_INDIQUE_QUE_PLUSIEURS_VIRUS_DISTINCTS_Y_ONT_ETE_INTRODUITS/links/00463529ce9be6f314000000/LETUDE-DE-LEPIDEMIOLOGIE-MOLECULAIRE-DE-H5N1-HAUTEMENT-PATHOGENE-AU-NIGERIA-INDIQUE-QUE-PLUSIEURS-VIRUS-DISTINCTS-Y-ONT-ETE-INTRODUITS.pdf"
         ]
+      },
+      "retrieval": {
+        "checked": "2026-09-29",
+        "route": "legal open-access sweep of Scholar links, publisher/DOI, Unpaywall, OpenAlex, PMC OA, repositories, SerpApi Scholar versions",
+        "retrieval_attempts": [
+          {
+            "date": "2026-09-29",
+            "route": "Google Scholar result link",
+            "url": "https://www.researchgate.net/profile/Mariette-Ducatez/publication/237120572_L'ETUDE_DE_L'EPIDEMIOLOGIE_MOLECULAIRE_DE_H5N1_HAUTEMENT_PATHOGENE_AU_NIGERIA_INDIQUE_QUE_PLUSIEURS_VIRUS_DISTINCTS_Y_ONT_ETE_INTRODUITS/links/00463529ce9be6f314000000/LETUDE-DE-LEPIDEMIOLOGIE-MOLECULAIRE-DE-H5N1-HAUTEMENT-PATHOGENE-AU-NIGERIA-INDIQUE-QUE-PLUSIEURS-VIRUS-DISTINCTS-Y-ONT-ETE-INTRODUITS.pdf",
+            "outcome": "HTTP 403; HTML page \"ResearchGate - Temporarily Unavailable\" (ResearchGate bot gate; blocked)"
+          },
+          {
+            "date": "2026-09-29",
+            "route": "Unpaywall oa_locations",
+            "url": "https://api.unpaywall.org/v2/10.1038/442037a?email=batesthommie@gmail.com",
+            "outcome": "is_oa=False; 0 location(s)"
+          },
+          {
+            "date": "2026-09-29",
+            "route": "Google Scholar title search (via SerpApi)",
+            "url": "https://scholar.google.com/scholar?q=L%27ETUDE+DE+L%27EPIDEMIOLOGIE+MOLECULAIRE+DE+H5N1+HAUTEMENT+PATHOGENE+AU+NIGERIA+INDIQUE+QUE+PLUSIEURS+VIRUS+DISTINCTS+Y+ONT+ETE+INTRODUITS",
+            "outcome": "2 result(s) returned; see candidate links below"
+          },
+          {
+            "date": "2026-09-29",
+            "route": "HAL API metadata (hal-02660015, from Scholar)",
+            "url": "https://api.archives-ouvertes.fr/search/?q=halId_s:hal-02660015&fl=fileMain_s,files_s,title_s,authFullName_s,producedDateY_i,journalTitle_s,volume_s,page_s,linkExtUrl_s,doiId_s",
+            "outcome": "HTTP 200 application/json; page title \"\""
+          },
+          {
+            "date": "2026-09-29",
+            "route": "HAL INRAE file (HAL API files_s)",
+            "url": "https://hal.inrae.fr/hal-02660015/file/Ducatez2006e_1.pdf",
+            "outcome": "HTTP 200 text/html; page title \"Making sure you&#39;re not a bot!\""
+          },
+          {
+            "date": "2026-09-29",
+            "route": "Epidémiologie et Santé Animale journal site (AEEMA)",
+            "url": "https://aeema.vet-alfort.fr/public/pdf/revue/50.08.pdf",
+            "outcome": "HTTP 404 text/html; page title \"404 Not Found\""
+          },
+          {
+            "date": "2026-09-29",
+            "route": "Google Scholar \"All versions\" cluster (via SerpApi)",
+            "url": "https://scholar.google.com/scholar?cluster=4297056016976291415",
+            "outcome": "3 result(s) returned; see candidate links below"
+          },
+          {
+            "date": "2026-09-29",
+            "route": "AGRIS record (Scholar all-versions)",
+            "url": "https://agris.fao.org/search/en/providers/122439/records/647760eb5eb437ddff77c17e",
+            "outcome": "HTTP 200 text/html; page title \"L’étude de l’épidémiologie moléculaire de H5N1 hautement pat\""
+          }
+        ],
+        "retrieval_status": "report_not_retrieved",
+        "note": "French-language version of Ducatez et al., Epidemiologie et Sante Animale 2006;50:41-44 (HAL hal-02660015). HAL INRAE file behind Anubis bot check; ResearchGate gated; AGRIS records carry no file. Related English paper Ducatez et al. Nature 2006;442:37 (doi 10.1038/442037a) not retrieved.",
+        "eligibility_status": "not_assessed",
+        "next_action": "None (report not retrieved after the legal sweep; no author contact per the 2026-09-27 amendment)."
+      },
+      "report_linkage": {
+        "companion_report_of": "CAN-0359",
+        "checked": "2026-09-29",
+        "basis": "French-language report of the Ducatez et al. 2006 molecular study (Epidemiologie et Sante Animale 2006;50:41-44); the English report is CAN-0359 (Nature 2006, doi 10.1038/442037a). Different report, not a duplicate record."
       }
     },
     {
@@ -113716,7 +115317,7 @@
         "scholar:Q2#158"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "provisional_full_text_candidate",
+      "final_status": "full_text_excluded",
       "vote_disposition": [
         {
           "source": "scholar_rerun_20260928",
@@ -113748,13 +115349,93 @@
         "basis": "Concordant retain (include/unsure).",
         "checked": "2026-09-29"
       },
-      "full_text_status": "full_text_pending_retrieval",
+      "full_text_status": "full_text_excluded",
       "scholar_source": {
         "link": "https://cgspace.cgiar.org/items/dfadbb2b-bfef-4383-9a1c-1db2496687ba",
         "venue_line": "R Métras, KB Stevens, P Abdu, S Costard, I Okike… - 2009 - cgspace.cgiar.org",
         "snippet": "… reported officially an HPAI H5N1 outbreak confirmed by the … factors associated with HPAI H5N1 outbreak occurrence. The … in preventing HPAI H5N1 outbreaks in poultry farms in Nigeria. …",
         "type": null,
         "resources": []
+      },
+      "retrieval": {
+        "checked": "2026-09-29",
+        "route": "legal open-access sweep of Scholar links, publisher/DOI, Unpaywall, OpenAlex, PMC OA, repositories, SerpApi Scholar versions",
+        "retrieval_attempts": [
+          {
+            "date": "2026-09-29",
+            "route": "Google Scholar result link",
+            "url": "https://cgspace.cgiar.org/items/dfadbb2b-bfef-4383-9a1c-1db2496687ba",
+            "outcome": "HTTP 429; HTML page \"\" (rate limited)"
+          },
+          {
+            "date": "2026-09-29",
+            "route": "PDF/full-text link from landing page or repository",
+            "url": "https://cgspace.cgiar.org/server/api/core/items/dfadbb2b-bfef-4383-9a1c-1db2496687ba?embed=bundles/bitstreams",
+            "outcome": "HTTP 200; HTML page \"\""
+          },
+          {
+            "date": "2026-09-29",
+            "route": "Google Scholar title search (via SerpApi)",
+            "url": "https://scholar.google.com/scholar?q=A+case-control+study+to+identify+risk+factors+for+the+occurrence+of+highly+pathogenic+avian+influenza+H5N1+in+Nigeria",
+            "outcome": "1 result(s) returned; see candidate links below"
+          },
+          {
+            "date": "2026-09-29",
+            "route": "Google Scholar \"All versions\" cluster (via SerpApi)",
+            "url": "https://scholar.google.com/scholar?cluster=8703331002929340049",
+            "outcome": "5 result(s) returned; see candidate links below"
+          },
+          {
+            "date": "2026-09-29",
+            "route": "SVEPM conference poster PDF (Scholar all-versions)",
+            "url": "https://svepm.org.uk/wp-content/uploads/2023/05/Metras-A-case-control-study-to-identify-risk-factors-for-the-occurrence-of-highly-pathogenic-avian-influenza-H5N1-in-Nigeria.pdf",
+            "outcome": "HTTP 200; PDF downloaded (687448 bytes)"
+          }
+        ],
+        "retrieval_status": "retrieval_fulltext_obtained",
+        "fulltext_obtained": {
+          "date": "2026-09-29",
+          "source_url": "https://svepm.org.uk/wp-content/uploads/2023/05/Metras-A-case-control-study-to-identify-risk-factors-for-the-occurrence-of-highly-pathogenic-avian-influenza-H5N1-in-Nigeria.pdf",
+          "local_file": "D:\\AvianInfluenzaSysRev_retrieval_20260927\\fulltext\\CAN-2044.pdf",
+          "identity_verified": true,
+          "verification": "Title and authors (Métras, Stevens et al.) match; the item is a 1-page conference poster (SVEPM 2009) with background, materials and methods, outlook and discussion, expected outputs and references (1,154 words); no OCR.",
+          "pages": 1
+        },
+        "note": "CGSpace record is metadata only (\"Limited Access\", type Poster, no file); poster PDF obtained from the SVEPM website via Scholar all-versions. The record is a poster, not a full paper.",
+        "eligibility_status": "assessed",
+        "next_action": "None (excluded at full text)."
+      },
+      "full_text_eligibility": {
+        "checked": "2026-09-29",
+        "reviewer_1": {
+          "decision": "exclude",
+          "reason_code": "no primary data",
+          "evidence": "Conference poster (RVC/ILRI) describing a planned case-control study of HPAI H5N1 farm-level risk factors, Lagos and Kano, 2006-2007 outbreaks; only 'expected outputs'; map/counts of reported cases from FDL (p.1).",
+          "source_url": "https://svepm.org.uk/wp-content/uploads/2023/05/Metras-A-case-control-study-to-identify-risk-factors-for-the-occurrence-of-highly-pathogenic-avian-influenza-H5N1-in-Nigeria.pdf",
+          "method": "independent R1 (executor agent, Claude Opus 5.5) full-text review of locally retrieved verified copy; reported to main agent 2026-09-29",
+          "caution": "No results reported; outbreak counts are secondary official data. Completed study may exist as a separate publication."
+        },
+        "reviewer_2": {
+          "decision": "exclude",
+          "reason_code": "no epi/molecular/spatial-temporal data",
+          "evidence": "p1 poster: background gives “300 cases of highly pathogenic avian influenza (HPAI) H5N1 as at the end of August 2008” and three clusters (Lagos, Kano, Jos), citing Federal Dept of Livestock; study aims and expected outputs are proposed risk-factor work only.",
+          "source_url": "https://svepm.org.uk/wp-content/uploads/2023/05/Metras-A-case-control-study-to-identify-risk-factors-for-the-occurrence-of-highly-pathogenic-avian-influenza-H5N1-in-Nigeria.pdf",
+          "method": "independent R2 (reviewer agent, Claude Sonnet 5.5, blind to R1) full-text review of locally retrieved verified copy; reported to main agent 2026-09-29",
+          "caution": "Study-protocol poster; background epidemiology is secondary citation, not primary data."
+        },
+        "adjudication": {
+          "decision": "exclude",
+          "reason_code": "no primary data",
+          "reviewer": "main-agent",
+          "basis": "Concordant exclusion with differing reasons (R1 no primary data; R2 no epi/molecular/spatial-temporal data). One-page poster of a planned case-control study with expected outputs only; its outbreak counts are secondary official figures. \"No primary data\" describes the failing criterion.",
+          "source_url": "https://svepm.org.uk/wp-content/uploads/2023/05/Metras-A-case-control-study-to-identify-risk-factors-for-the-occurrence-of-highly-pathogenic-avian-influenza-H5N1-in-Nigeria.pdf",
+          "checked": "2026-09-29"
+        }
+      },
+      "report_linkage": {
+        "companion_report_of": "CAN-0061",
+        "checked": "2026-09-29",
+        "basis": "CAN-2044 is the 2009 SVEPM poster of the Nigerian case-control study whose results report is CAN-0061 (not retrieved)."
       }
     },
     {
@@ -113829,7 +115510,7 @@
         "scholar:Q3#159"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "provisional_full_text_candidate",
+      "final_status": "duplicate_record_removed",
       "vote_disposition": [
         {
           "source": "scholar_rerun_20260928",
@@ -113861,7 +115542,7 @@
         "basis": "Discordant; conservative union retains for full text (file 18 item 5).",
         "checked": "2026-09-29"
       },
-      "full_text_status": "full_text_pending_retrieval",
+      "full_text_status": "duplicate_record_removed",
       "scholar_source": {
         "link": "https://www.academia.edu/download/87780650/207860.pdf",
         "venue_line": "P Cubillo - 2022 - academia.edu",
@@ -113871,6 +115552,52 @@
           null,
           "https://www.academia.edu/download/87780650/207860.pdf"
         ]
+      },
+      "retrieval": {
+        "checked": "2026-09-29",
+        "route": "legal open-access sweep of Scholar links, publisher/DOI, Unpaywall, OpenAlex, PMC OA, repositories, SerpApi Scholar versions",
+        "retrieval_attempts": [
+          {
+            "date": "2026-09-29",
+            "route": "Google Scholar result link",
+            "url": "https://www.academia.edu/download/87780650/207860.pdf",
+            "outcome": "HTTP 403; HTML page \"Just a moment...\" (Cloudflare bot check; not bypassed)"
+          },
+          {
+            "date": "2026-09-29",
+            "route": "Google Scholar title search (via SerpApi)",
+            "url": "https://scholar.google.com/scholar?q=%22Nigeria%22+H9N2+%22North-eastern+States+of+Nigeria%22+poultry+production+bird+species",
+            "outcome": "2 result(s) returned; see candidate links below"
+          },
+          {
+            "date": "2026-09-29",
+            "route": "Journal PDF (Sokoto J Vet Sci) identified via Google Scholar snippet search",
+            "url": "https://sokvetjournal.net/images/PDF/Vol_19_4/2.%20Wungak%20et%20al.pdf",
+            "outcome": "HTTP 200; PDF downloaded (312549 bytes)"
+          },
+          {
+            "date": "2026-09-29",
+            "route": "AJOL article page matching academia file name 207860",
+            "url": "https://www.ajol.info/index.php/sokjvs/article/view/207860",
+            "outcome": "HTTP 404 text/html; page title \"\""
+          }
+        ],
+        "retrieval_status": "retrieval_fulltext_obtained",
+        "fulltext_obtained": {
+          "date": "2026-09-29",
+          "source_url": "https://sokvetjournal.net/images/PDF/Vol_19_4/2.%20Wungak%20et%20al.pdf",
+          "local_file": "D:\\AvianInfluenzaSysRev_retrieval_20260927\\fulltext\\CAN-2046.pdf",
+          "identity_verified": true,
+          "verification": "Scholar title (Quito/Ecuador supplementary material, P Cubillo 2022) is mismatched; the academia.edu file could not be opened (Cloudflare), but all four Scholar snippet phrases occur verbatim in Wungak YS et al., \"Detection of antibodies to H5 and H9 subtypes of influenza viruses in wild birds in Zaria, Nigeria\", Sokoto J Vet Sci 2021;19(4):160-165 (doi 10.4314/sokjvs.v19i4.2); 6 pages with methods, results, discussion (3,722 words); no OCR.",
+          "pages": 6
+        },
+        "note": "IDENTITY PROBLEM: record metadata (title, author, year) do not describe the document; identification rests on the verbatim snippet match, not on the academia.edu file itself. Check whether Wungak et al. 2021 already exists elsewhere in the register (possible duplicate)."
+      },
+      "report_linkage": {
+        "duplicate_record_of": "CAN-1734",
+        "basis": "Scholar record mis-titled (Quito/Ecuador supplementary material); its snippet text matches Wungak et al. 2021, Sokoto J Vet Sci 19(4), the register title of CAN-1734.",
+        "checked": "2026-09-29",
+        "note": "Missed by the 2026-09-28 title matching (threshold 0.90 / truncated Scholar titles); found once full text was in hand. Counted as a duplicate record removed, not as a screened identity."
       }
     },
     {
@@ -114406,7 +116133,7 @@
         "scholar:Q2#166"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "provisional_full_text_candidate",
+      "final_status": "provisional_full_text_eligible",
       "vote_disposition": [
         {
           "source": "scholar_rerun_20260928",
@@ -114438,13 +116165,70 @@
         "basis": "Concordant retain (include/unsure).",
         "checked": "2026-09-29"
       },
-      "full_text_status": "full_text_pending_retrieval",
+      "full_text_status": "full_text_eligible_provisional",
       "scholar_source": {
         "link": "https://uilspace.unilorin.edu.ng/items/138cf390-a217-4874-98b9-d042b3f2828a",
         "venue_line": "P Kumbish, MK Bello, A Jambalang, B Hussaini… - 2006 - uilspace.unilorin.edu.ng",
         "snippet": "The Highly pathogenic avian influenza (H5N1) was reported in Nigeria in early January 2006. A total of 430 suspected samples were submitted to the National Veterinary Research …",
         "type": null,
         "resources": []
+      },
+      "retrieval": {
+        "checked": "2026-09-29",
+        "route": "legal open-access sweep of Scholar links, publisher/DOI, Unpaywall, OpenAlex, PMC OA, repositories, SerpApi Scholar versions",
+        "retrieval_attempts": [
+          {
+            "date": "2026-09-29",
+            "route": "Google Scholar result link",
+            "url": "https://uilspace.unilorin.edu.ng/items/138cf390-a217-4874-98b9-d042b3f2828a",
+            "outcome": "HTTP 200; HTML page \"Bacterial and Parasitic Agents Associated with Outbreaks of \""
+          },
+          {
+            "date": "2026-09-29",
+            "route": "PDF/full-text link from landing page or repository",
+            "url": "https://uilspace.unilorin.edu.ng/bitstreams/8fa0efb8-767e-4bb1-9c0e-684c4dfbb6ff/download",
+            "outcome": "HTTP 200; PDF downloaded (1242731 bytes)"
+          }
+        ],
+        "retrieval_status": "retrieval_fulltext_obtained",
+        "fulltext_obtained": {
+          "date": "2026-09-29",
+          "source_url": "https://uilspace.unilorin.edu.ng/bitstreams/8fa0efb8-767e-4bb1-9c0e-684c4dfbb6ff/download",
+          "local_file": "D:\\AvianInfluenzaSysRev_retrieval_20260927\\fulltext\\CAN-2056.pdf",
+          "identity_verified": true,
+          "verification": "Scanned image-only PDF; Tesseract OCR (250 dpi) confirms title and first author Kumbish PR (NVRI Vom); repository metadata give Vom Journal of Veterinary Science 2006; 9 pages with summary, introduction, materials and methods, results, discussion, references (3,473 OCR words).",
+          "pages": 9
+        },
+        "note": "OCR text saved alongside as fulltext\\CAN-2056.txt.",
+        "eligibility_status": "assessed",
+        "next_action": "Extraction (report/dataset overlap check first)."
+      },
+      "full_text_eligibility": {
+        "checked": "2026-09-29",
+        "reviewer_1": {
+          "decision": "retain",
+          "reason_code": null,
+          "evidence": "NVRI 2006 outbreak submissions: 430 suspected samples, 149 HPAI H5N1 positive (virus isolation, AGID, HI); bacterial (89) and parasitic (60) co-infections with mortality by agent and flock size (OCR pp.1, 3-8, Tables 1-4).",
+          "source_url": "https://uilspace.unilorin.edu.ng/bitstreams/8fa0efb8-767e-4bb1-9c0e-684c4dfbb6ff/download",
+          "method": "independent R1 (executor agent, Claude Opus 5.5) full-text review of locally retrieved verified copy; reported to main agent 2026-09-29",
+          "caution": "OCR text. Focus on co-infections; AIV positivity and mortality extractable. Likely overlaps NVRI 2006 dataset (CAN-2038, CAN-2033)."
+        },
+        "reviewer_2": {
+          "decision": "retain",
+          "reason_code": null,
+          "evidence": "OCR p1: 430 suspected samples submitted to NVRI Vom in 2006; “149 of the analysed samples were positive for highly pathogenic avian influenza”; 89 with bacteria, 60 parasites; H5N1 confirmed by Reference Laboratory in Padova (p3).",
+          "source_url": "https://uilspace.unilorin.edu.ng/bitstreams/8fa0efb8-767e-4bb1-9c0e-684c4dfbb6ff/download",
+          "method": "independent R2 (reviewer agent, Claude Sonnet 5.5, blind to R1) full-text review of locally retrieved verified copy; reported to main agent 2026-09-29",
+          "caution": "OCR quality poor; co-infection focus but case counts and confirmation extractable; sister paper of CAN-2038."
+        },
+        "adjudication": {
+          "decision": "retain",
+          "reason_code": null,
+          "reviewer": "main-agent",
+          "basis": "Concordant independent full-text review.",
+          "source_url": "https://uilspace.unilorin.edu.ng/bitstreams/8fa0efb8-767e-4bb1-9c0e-684c4dfbb6ff/download",
+          "checked": "2026-09-29"
+        }
       }
     },
     {
@@ -115048,7 +116832,7 @@
         "scholar:Q2#176"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "provisional_full_text_candidate",
+      "final_status": "duplicate_record_removed",
       "vote_disposition": [
         {
           "source": "scholar_rerun_20260928",
@@ -115080,7 +116864,7 @@
         "basis": "Concordant retain (include/unsure).",
         "checked": "2026-09-29"
       },
-      "full_text_status": "full_text_pending_retrieval",
+      "full_text_status": "duplicate_record_removed",
       "scholar_source": {
         "link": "https://cgspace.cgiar.org/items/e30653be-1d3a-4402-bfe8-374eae574632",
         "venue_line": "K Stevens, S Costard, R Métras, D Pfeiffer - 2009 - cgspace.cgiar.org",
@@ -115090,6 +116874,46 @@
           null,
           "https://cgspace.cgiar.org/bitstreams/a5030526-79c9-4857-863c-9f197d362950/download"
         ]
+      },
+      "retrieval": {
+        "checked": "2026-09-29",
+        "route": "legal open-access sweep of Scholar links, publisher/DOI, Unpaywall, OpenAlex, PMC OA, repositories, SerpApi Scholar versions",
+        "retrieval_attempts": [
+          {
+            "date": "2026-09-29",
+            "route": "Google Scholar result link",
+            "url": "https://cgspace.cgiar.org/items/e30653be-1d3a-4402-bfe8-374eae574632",
+            "outcome": "HTTP 200; HTML page \"Mapping the likelihood of introduction and spread of HPAI Vi\""
+          },
+          {
+            "date": "2026-09-29",
+            "route": "Google Scholar resource link",
+            "url": "https://cgspace.cgiar.org/bitstreams/a5030526-79c9-4857-863c-9f197d362950/download",
+            "outcome": "HTTP 429; HTML page \"\" (rate limited)"
+          },
+          {
+            "date": "2026-09-29",
+            "route": "PDF/full-text link from landing page or repository",
+            "url": "https://cgspace.cgiar.org/bitstreams/a5030526-79c9-4857-863c-9f197d362950/download",
+            "outcome": "HTTP 429; HTML page \"\" (rate limited)"
+          }
+        ],
+        "retrieval_status": "retrieval_fulltext_obtained",
+        "fulltext_obtained": {
+          "date": "2026-09-29",
+          "source_url": "https://cgspace.cgiar.org/server/api/core/bitstreams/a5030526-79c9-4857-863c-9f197d362950/content",
+          "local_file": "D:\\AvianInfluenzaSysRev_retrieval_20260927\\fulltext\\CAN-2067.pdf",
+          "identity_verified": true,
+          "verification": "Title and authors Stevens KB, Costard S, Métras R, Pfeiffer DU (April 2009) match; 32-page project report with methods and results sections including Nigeria (7,281 words); no OCR.",
+          "pages": 32
+        },
+        "note": "CGSpace Scholar resource returned HTTP 429 twice; obtained via the CGSpace REST bitstream endpoint after a pause."
+      },
+      "report_linkage": {
+        "duplicate_record_of": "CAN-0046",
+        "basis": "Same CGSpace report; the register title of CAN-0046 appears verbatim on the first pages.",
+        "checked": "2026-09-29",
+        "note": "Missed by the 2026-09-28 title matching (threshold 0.90 / truncated Scholar titles); found once full text was in hand. Counted as a duplicate record removed, not as a screened identity."
       }
     },
     {
@@ -115106,7 +116930,7 @@
         "scholar:Q3#176"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "provisional_full_text_candidate",
+      "final_status": "full_text_excluded",
       "vote_disposition": [
         {
           "source": "scholar_rerun_20260928",
@@ -115138,7 +116962,7 @@
         "basis": "Discordant; conservative union retains for full text (file 18 item 5).",
         "checked": "2026-09-29"
       },
-      "full_text_status": "full_text_pending_retrieval",
+      "full_text_status": "full_text_excluded",
       "scholar_source": {
         "link": "https://www.mdpi.com/1999-4915/14/6/1263",
         "venue_line": "V Panzarin, S Marciano, A Fortin, I Brian, V D'amico… - Viruses, 2022 - mdpi.com",
@@ -115148,6 +116972,87 @@
           null,
           "https://www.mdpi.com/1999-4915/14/6/1263"
         ]
+      },
+      "retrieval": {
+        "checked": "2026-09-29",
+        "route": "legal open-access sweep of Scholar links, publisher/DOI, Unpaywall, OpenAlex, PMC OA, repositories, SerpApi Scholar versions",
+        "retrieval_attempts": [
+          {
+            "date": "2026-09-29",
+            "route": "Google Scholar result link",
+            "url": "https://www.mdpi.com/1999-4915/14/6/1263",
+            "outcome": "HTTP 403; HTML page \"Access Denied\" (publisher bot block)"
+          },
+          {
+            "date": "2026-09-29",
+            "route": "Unpaywall oa_locations",
+            "url": "https://api.unpaywall.org/v2/10.3390/v14061263?email=batesthommie@gmail.com",
+            "outcome": "is_oa=True; 2 location(s): https://www.mdpi.com/1999-4915/14/6/1263/pdf?version=1655107188; https://www.ncbi.nlm.nih.gov/pmc/articles/9227555"
+          },
+          {
+            "date": "2026-09-29",
+            "route": "MDPI publisher PDF (Unpaywall)",
+            "url": "https://www.mdpi.com/1999-4915/14/6/1263/pdf?version=1655107188",
+            "outcome": "HTTP 403 text/html; page title \"Access Denied\""
+          },
+          {
+            "date": "2026-09-29",
+            "route": "PMC OA service",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id=PMC9227555",
+            "outcome": "HTTP 404 text/html; page title \"NCBI/xpmc12 - WWW Error 404 Diagnostic\""
+          },
+          {
+            "date": "2026-09-29",
+            "route": "NCBI E-utilities efetch PMC full-text XML",
+            "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=9227555&email=batesthommie@gmail.com",
+            "outcome": "HTTP 200 text/xml; page title \"<article-title>Redesign and Validation of a Real-Time RT-PCR\""
+          },
+          {
+            "date": "2026-09-29",
+            "route": "PMC Open Access dataset on AWS (NCBI)",
+            "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC9227555.1/PMC9227555.1.pdf",
+            "outcome": "HTTP 200; PDF downloaded (1008798 bytes)"
+          }
+        ],
+        "retrieval_status": "retrieval_fulltext_obtained",
+        "fulltext_obtained": {
+          "date": "2026-09-29",
+          "source_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC9227555.1/PMC9227555.1.pdf",
+          "local_file": "D:\\AvianInfluenzaSysRev_retrieval_20260927\\fulltext\\CAN-2068.pdf",
+          "identity_verified": true,
+          "verification": "Title, first author Panzarin and Viruses 2022;14:1263 match; 14-page article with methods, results, discussion (8,514 words); no OCR.",
+          "pages": 14
+        },
+        "note": "MDPI returned 403 (Access Denied); publisher PDF taken from NCBI PMC Open Access dataset on AWS (PMC9227555).",
+        "eligibility_status": "assessed",
+        "next_action": "None (excluded at full text)."
+      },
+      "full_text_eligibility": {
+        "checked": "2026-09-29",
+        "reviewer_1": {
+          "decision": "exclude",
+          "reason_code": "experimental only no field relevance",
+          "evidence": "Viruses 2022: redesign/validation of pan-H9 rRT-PCR at IZSVe; Nigerian strain A/chicken/Nigeria/19VIR8424-15/2019 H9N2 (G1) used for LoD (pp.5-6); clinical validation samples pooled as 'Africa 2019-2021' (Table 2, p.4); Nigerian false negatives noted (p.10).",
+          "source_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC9227555.1/PMC9227555.1.pdf",
+          "method": "independent R1 (executor agent, Claude Opus 5.5) full-text review of locally retrieved verified copy; reported to main agent 2026-09-29",
+          "caution": "Nigeria contribution is a reference strain and unseparated field samples; 'non-Nigeria no Nigeria-data' or 'no epi/molecular/spatial-temporal data' are arguable alternatives. Supplementary Table S3 not examined."
+        },
+        "reviewer_2": {
+          "decision": "exclude",
+          "reason_code": "no epi/molecular/spatial-temporal data",
+          "evidence": "p6, p8: Nigerian H9N2 strain A/chicken/Nigeria/19VIR8424-15/2019/H9N2 (G1 clade) used as reference for assay limit of detection; p10 mentions false negatives from Benin and Nigeria samples. Paper is an H9 RT-PCR redesign and validation.",
+          "source_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC9227555.1/PMC9227555.1.pdf",
+          "method": "independent R2 (reviewer agent, Claude Sonnet 5.5, blind to R1) full-text review of locally retrieved verified copy; reported to main agent 2026-09-29",
+          "caution": "Assay validation; Nigerian samples appear only as a reference strain and sequence-mismatch remarks, no extractable Nigerian surveillance or prevalence data found."
+        },
+        "adjudication": {
+          "decision": "exclude",
+          "reason_code": "experimental only no field relevance",
+          "reviewer": "main-agent",
+          "basis": "Concordant exclusion with differing reasons (R1 experimental only; R2 no epi/molecular/spatial-temporal data). An H9 RT-PCR redesign and validation study; its Nigerian content is a reference strain for the limit of detection and pooled \"Africa\" validation samples, with no extractable Nigerian field data.",
+          "source_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC9227555.1/PMC9227555.1.pdf",
+          "checked": "2026-09-29"
+        }
       }
     },
     {
@@ -115222,7 +117127,7 @@
         "scholar:Q1#178"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "provisional_full_text_candidate",
+      "final_status": "duplicate_record_removed",
       "vote_disposition": [
         {
           "source": "scholar_rerun_20260928",
@@ -115254,7 +117159,7 @@
         "basis": "Concordant retain (include/unsure).",
         "checked": "2026-09-29"
       },
-      "full_text_status": "full_text_pending_retrieval",
+      "full_text_status": "duplicate_record_removed",
       "scholar_source": {
         "link": "http://saheljvs.org/index.php/saheljvs/article/view/226",
         "venue_line": "PI Alonge, SB Oladele, FB Hassan… - Sahel Journal of …, 2021 - saheljvs.org",
@@ -115266,9 +117171,38 @@
         ]
       },
       "report_linkage": {
-        "possible_duplicate_of": "CAN-1939",
+        "duplicate_record_of": "CAN-1778",
+        "basis": "Same Sahel J Vet Sci 2021 article; Scholar title truncated with a leading ellipsis.",
         "checked": "2026-09-29",
-        "basis": "Flagged by R1 and/or R2 at title stage (preprint/journal or re-indexed version); confirm at full text."
+        "note": "Missed by the 2026-09-28 title matching (threshold 0.90 / truncated Scholar titles); found once full text was in hand. Counted as a duplicate record removed, not as a screened identity."
+      },
+      "retrieval": {
+        "checked": "2026-09-29",
+        "route": "legal open-access sweep of Scholar links, publisher/DOI, Unpaywall, OpenAlex, PMC OA, repositories, SerpApi Scholar versions",
+        "retrieval_attempts": [
+          {
+            "date": "2026-09-29",
+            "route": "Google Scholar result link",
+            "url": "http://saheljvs.org/index.php/saheljvs/article/view/226",
+            "outcome": "HTTP 200; HTML page \"Serological and Molecular Detection of Avian Influenza Virus\""
+          },
+          {
+            "date": "2026-09-29",
+            "route": "Google Scholar resource link",
+            "url": "https://saheljvs.org/index.php/saheljvs/article/download/226/43",
+            "outcome": "HTTP 200; PDF downloaded (628083 bytes)"
+          }
+        ],
+        "retrieval_status": "retrieval_fulltext_obtained",
+        "fulltext_obtained": {
+          "date": "2026-09-29",
+          "source_url": "https://saheljvs.org/index.php/saheljvs/article/download/226/43",
+          "local_file": "D:\\AvianInfluenzaSysRev_retrieval_20260927\\fulltext\\CAN-2070.pdf",
+          "identity_verified": true,
+          "verification": "Title \"Serological and Molecular Detection of Avian Influenza Virus Hemagglutinin (H5) in Wild Birds in and Around Zaria, Nigeria\", first author Alonge PI and Sahel J Vet Sci 2021;18(1):27-31 match; 5 pages with methods, results, discussion (3,526 words); no OCR.",
+          "pages": 5
+        },
+        "note": "Journal version of the Authorea preprint CAN-1939 (Alonge et al. 2020, not retrieved)."
       }
     },
     {
@@ -115401,7 +117335,7 @@
         "scholar:Q3#179"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "title_metadata_excluded",
+      "final_status": "duplicate_record_removed",
       "vote_disposition": [
         {
           "source": "scholar_rerun_20260928",
@@ -115433,7 +117367,7 @@
         "basis": "Concordant exclusion; reasons differ (R1 no primary data; R2 non-Nigeria no Nigeria-data); R1 reason recorded.",
         "checked": "2026-09-29"
       },
-      "full_text_status": "not_applicable_title_metadata_excluded",
+      "full_text_status": "duplicate_record_removed",
       "scholar_source": {
         "link": "https://www.tandfonline.com/doi/full/10.4161/viru.26360",
         "venue_line": "EM Abdelwhab, J Veits, TC Mettenleiter - Virulence, 2013 - Taylor & Francis",
@@ -115443,6 +117377,13 @@
           null,
           "https://www.tandfonline.com/doi/pdf/10.4161/viru.26360"
         ]
+      },
+      "report_linkage": {
+        "duplicate_record_of": "CAN-1687",
+        "basis": "Same DOI 10.4161/viru.26360 (Abdelwhab et al. 2013, Virulence); found by the reviewer audit and the normalised-DOI re-check.",
+        "checked": "2026-09-29",
+        "note": "Missed by the 2026-09-28 matching: older register records store DOIs with punctuation stripped, so DOI matching never fired, and Scholar titles were truncated, garbled or mis-titled. Counted as a duplicate record removed, not as a screened identity.",
+        "previous_final_status": "title_metadata_excluded"
       }
     },
     {
@@ -115753,7 +117694,7 @@
         "scholar:Q3#183"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "provisional_full_text_candidate",
+      "final_status": "duplicate_record_removed",
       "vote_disposition": [
         {
           "source": "scholar_rerun_20260928",
@@ -115785,7 +117726,7 @@
         "basis": "Concordant retain (include/unsure).",
         "checked": "2026-09-29"
       },
-      "full_text_status": "full_text_pending_retrieval",
+      "full_text_status": "duplicate_record_removed",
       "scholar_source": {
         "link": "https://www.eurosurveillance.org/upload/site-assets/imgs/2008%204%20V13N04.pdf#page=124",
         "venue_line": "TM Joannis, CA Meseko, AT Oladokun… - SURVEILLANCE …, 2007 - eurosurveillance.org",
@@ -115795,6 +117736,34 @@
           null,
           "https://www.eurosurveillance.org/upload/site-assets/imgs/2008%204%20V13N04.pdf#page=124"
         ]
+      },
+      "retrieval": {
+        "checked": "2026-09-29",
+        "route": "legal open-access sweep of Scholar links, publisher/DOI, Unpaywall, OpenAlex, PMC OA, repositories, SerpApi Scholar versions",
+        "retrieval_attempts": [
+          {
+            "date": "2026-09-29",
+            "route": "Google Scholar result link",
+            "url": "https://www.eurosurveillance.org/upload/site-assets/imgs/2008%204%20V13N04.pdf#page=124",
+            "outcome": "HTTP 200; PDF downloaded (12211320 bytes)"
+          }
+        ],
+        "retrieval_status": "retrieval_fulltext_obtained",
+        "fulltext_obtained": {
+          "date": "2026-09-29",
+          "source_url": "https://www.eurosurveillance.org/upload/site-assets/imgs/2008%204%20V13N04.pdf#page=124",
+          "local_file": "D:\\AvianInfluenzaSysRev_retrieval_20260927\\fulltext\\CAN-2079.pdf",
+          "identity_verified": true,
+          "verification": "Article \"Serologic and virologic surveillance of avian influenza in Nigeria, 2006-7\" by Joannis TM et al. (Scholar title truncated) extracted from the Eurosurveillance Vol 13 issues 40-51 (Oct-Dec 2008) compilation, printed pages 608-612 (PDF pages 124-128); 5 pages with methods, results, discussion, references (4,704 words); no OCR.",
+          "pages": 5
+        },
+        "note": "Scholar gives 2007; the article appeared in 2008 (Euro Surveill 13(42)). The extracted pages include correction text that follows the article on pp. 611-612."
+      },
+      "report_linkage": {
+        "duplicate_record_of": "CAN-1357",
+        "basis": "Same Eurosurveillance 2008 article (Joannis et al., \"Serologic and virologic surveillance of avian influenza in Nigeria, 2006-7\"); Scholar title truncated.",
+        "checked": "2026-09-29",
+        "note": "Missed by the 2026-09-28 title matching (threshold 0.90 / truncated Scholar titles); found once full text was in hand. Counted as a duplicate record removed, not as a screened identity."
       }
     },
     {
@@ -115927,7 +117896,7 @@
         "scholar:Q4#185"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "provisional_full_text_candidate",
+      "final_status": "full_text_excluded",
       "vote_disposition": [
         {
           "source": "scholar_rerun_20260928",
@@ -115959,7 +117928,7 @@
         "basis": "Discordant; conservative union retains for full text (file 18 item 5).",
         "checked": "2026-09-29"
       },
-      "full_text_status": "full_text_pending_retrieval",
+      "full_text_status": "full_text_excluded",
       "scholar_source": {
         "link": "https://cgspace.cgiar.org/bitstreams/db27a754-dfba-4d8a-b281-1834ed69e215/download",
         "venue_line": "TU Obi, A Olubukola, GA Maina - 2008 - cgspace.cgiar.org",
@@ -115969,6 +117938,65 @@
           null,
           "https://cgspace.cgiar.org/bitstreams/db27a754-dfba-4d8a-b281-1834ed69e215/download"
         ]
+      },
+      "retrieval": {
+        "checked": "2026-09-29",
+        "route": "legal open-access sweep of Scholar links, publisher/DOI, Unpaywall, OpenAlex, PMC OA, repositories, SerpApi Scholar versions",
+        "retrieval_attempts": [
+          {
+            "date": "2026-09-29",
+            "route": "Google Scholar result link",
+            "url": "https://cgspace.cgiar.org/bitstreams/db27a754-dfba-4d8a-b281-1834ed69e215/download",
+            "outcome": "HTTP 429; HTML page \"\" (rate limited)"
+          },
+          {
+            "date": "2026-09-29",
+            "route": "PDF/full-text link from landing page or repository",
+            "url": "https://cgspace.cgiar.org/bitstreams/db27a754-dfba-4d8a-b281-1834ed69e215/download",
+            "outcome": "HTTP 200; PDF downloaded (3394139 bytes)"
+          }
+        ],
+        "retrieval_status": "retrieval_fulltext_obtained",
+        "fulltext_obtained": {
+          "date": "2026-09-29",
+          "source_url": "https://cgspace.cgiar.org/bitstreams/db27a754-dfba-4d8a-b281-1834ed69e215/download",
+          "local_file": "D:\\AvianInfluenzaSysRev_retrieval_20260927\\fulltext\\CAN-2082.pdf",
+          "identity_verified": true,
+          "verification": "Title \"Pro-Poor HPAI Risk Reduction Strategies in Nigeria - Background Paper\" and authors Obi TU, Olubukola A, Maina GA match; 130-page report (Africa/Indonesia Region Report No. 5) with chapters (49,330 words); no OCR.",
+          "pages": 130
+        },
+        "note": "First request returned HTTP 429; succeeded on retry after a pause.",
+        "eligibility_status": "assessed",
+        "next_action": "None (excluded at full text)."
+      },
+      "full_text_eligibility": {
+        "checked": "2026-09-29",
+        "reviewer_1": {
+          "decision": "exclude",
+          "reason_code": "no primary data",
+          "evidence": "IFPRI/ILRI Pro-Poor HPAI background paper (Obi, Olubukola, Maina, ~2008): desk review of poultry sector, livelihoods, prior research; tables of first 2006 outbreaks with diagnostics and states/LGAs with confirmed HPAI to 30/3/2008 from NADIS/FDL&PCS (pp.74-76).",
+          "source_url": "https://cgspace.cgiar.org/bitstreams/db27a754-dfba-4d8a-b281-1834ed69e215/download",
+          "method": "independent R1 (executor agent, Claude Opus 5.5) full-text review of locally retrieved verified copy; reported to main agent 2026-09-29",
+          "caution": "Institutional report compiling secondary official data; contains extractable tabulated outbreak data - adjudicator may retain as FDL-type grey literature."
+        },
+        "reviewer_2": {
+          "decision": "exclude",
+          "reason_code": "no primary data",
+          "evidence": "PDF p1: 130-page “Pro-Poor HPAI Risk Reduction Strategies in Nigeria - Background Paper” (Obi, Olubukola, Maina), Africa/Indonesia Region Report No. 5: policy and socio-economic review of Nigerian HPAI compiled from secondary sources.",
+          "source_url": "https://cgspace.cgiar.org/bitstreams/db27a754-dfba-4d8a-b281-1834ed69e215/download",
+          "method": "independent R2 (reviewer agent, Claude Sonnet 5.5, blind to R1) full-text review of locally retrieved verified copy; reported to main agent 2026-09-29",
+          "caution": "Institutional report; may contain compiled outbreak counts from earlier sources, not primary lab data."
+        },
+        "adjudication": {
+          "decision": "exclude",
+          "reason_code": "no primary data",
+          "reviewer": "main-agent",
+          "basis": "Concordant independent full-text exclusion with the same fixed reason. Main-session check: kept excluded. Desk-review background paper reproducing official outbreak tables (NADIS/FDL) without analysing them; the source data belong to the national line lists.",
+          "source_url": "https://cgspace.cgiar.org/bitstreams/db27a754-dfba-4d8a-b281-1834ed69e215/download",
+          "checked": "2026-09-29",
+          "phase_b_must_check": true,
+          "consistency_note": "The retain/exclude line between records-based outbreak reports is thin: CAN-1914, CAN-1719 and CAN-1347 retained; CAN-2009 (laboratory confirmation not stated) and CAN-2082 (official tables reproduced without analysis) excluded. Phase B human check required."
+        }
       }
     },
     {
@@ -116622,7 +118650,7 @@
         "scholar:Q2#194"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "provisional_full_text_candidate",
+      "final_status": "full_text_excluded",
       "vote_disposition": [
         {
           "source": "scholar_rerun_20260928",
@@ -116654,7 +118682,7 @@
         "basis": "Discordant; conservative union retains for full text (file 18 item 5).",
         "checked": "2026-09-29"
       },
-      "full_text_status": "full_text_pending_retrieval",
+      "full_text_status": "full_text_excluded",
       "scholar_source": {
         "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3372333/",
         "venue_line": "M Gilbert, X Xiao, J Domenech… - Emerging infectious …, 2006 - pmc.ncbi.nlm.nih.gov",
@@ -116664,6 +118692,92 @@
           null,
           "https://pmc.ncbi.nlm.nih.gov/articles/PMC3372333/pdf/06-0223.pdf"
         ]
+      },
+      "retrieval": {
+        "checked": "2026-09-29",
+        "route": "legal open-access sweep of Scholar links, publisher/DOI, Unpaywall, OpenAlex, PMC OA, repositories, SerpApi Scholar versions",
+        "retrieval_attempts": [
+          {
+            "date": "2026-09-29",
+            "route": "Google Scholar result link",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3372333/",
+            "outcome": "HTTP 200; HTML page \"Checking your browser - reCAPTCHA\" (reCAPTCHA browser check; not bypassed)"
+          },
+          {
+            "date": "2026-09-29",
+            "route": "Google Scholar resource link",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3372333/pdf/06-0223.pdf",
+            "outcome": "HTTP 200; HTML page \"Checking your browser - reCAPTCHA\" (reCAPTCHA browser check; not bypassed)"
+          },
+          {
+            "date": "2026-09-29",
+            "route": "PDF/full-text link from landing page or repository",
+            "url": "https://europepmc.org/articles/PMC3372333?pdf=render",
+            "outcome": "HTTP 403; HTML page \"Just a moment...\" (Cloudflare bot check; not bypassed)"
+          },
+          {
+            "date": "2026-09-29",
+            "route": "PDF/full-text link from landing page or repository",
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3372333/fullTextXML",
+            "outcome": "HTTP 200; HTML page \"<article-title>Anatidae Migration in the Western Palearctic \""
+          },
+          {
+            "date": "2026-09-29",
+            "route": "Unpaywall oa_locations",
+            "url": "https://api.unpaywall.org/v2/10.3201/eid1211.060223?email=batesthommie@gmail.com",
+            "outcome": "is_oa=True; 3 location(s): https://doi.org/10.3201/eid1211.060223; https://www.ncbi.nlm.nih.gov/pmc/articles/3372333; https://www.ncbi.nlm.nih.gov/pmc/articles/3372333"
+          },
+          {
+            "date": "2026-09-29",
+            "route": "CDC EID publisher PDF",
+            "url": "https://wwwnc.cdc.gov/eid/article/12/11/pdfs/06-0223.pdf",
+            "outcome": "HTTP 200; PDF downloaded (324686 bytes)"
+          },
+          {
+            "date": "2026-09-29",
+            "route": "PMC OA service",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id=PMC3372333",
+            "outcome": "HTTP 404 text/html; page title \"NCBI/xpmc21 - WWW Error 404 Diagnostic\""
+          }
+        ],
+        "retrieval_status": "retrieval_fulltext_obtained",
+        "fulltext_obtained": {
+          "date": "2026-09-29",
+          "source_url": "https://wwwnc.cdc.gov/eid/article/12/11/pdfs/06-0223.pdf",
+          "local_file": "D:\\AvianInfluenzaSysRev_retrieval_20260927\\fulltext\\CAN-2094.pdf",
+          "identity_verified": true,
+          "verification": "Title, first author Gilbert and Emerg Infect Dis 2006;12(11):1650 match; 7-page Perspective article (5,286 words); no OCR.",
+          "pages": 7
+        },
+        "note": "PMC copy behind reCAPTCHA browser check; Europe PMC render returned 403; publisher (CDC) PDF used.",
+        "eligibility_status": "assessed",
+        "next_action": "None (excluded at full text)."
+      },
+      "full_text_eligibility": {
+        "checked": "2026-09-29",
+        "reviewer_1": {
+          "decision": "exclude",
+          "reason_code": "non-Nigeria no Nigeria-data",
+          "evidence": "EID 2006 perspective (Gilbert et al.) on H5N1 spread from Russia/Kazakhstan to Black Sea along Anatidae flyways; Nigeria mentioned only narratively (Lake Chad/Niger delta ducks vs poultry imports, p.5); no Nigeria data.",
+          "source_url": "https://wwwnc.cdc.gov/eid/article/12/11/pdfs/06-0223.pdf",
+          "method": "independent R1 (executor agent, Claude Opus 5.5) full-text review of locally retrieved verified copy; reported to main agent 2026-09-29"
+        },
+        "reviewer_2": {
+          "decision": "exclude",
+          "reason_code": "non-Nigeria no Nigeria-data",
+          "evidence": "p1: EID 2006 perspective on HPAI H5N1 spread from Russia and Kazakhstan to the Black Sea basin in relation to Anatidae flyways and climate; no Nigeria-specific data presented.",
+          "source_url": "https://wwwnc.cdc.gov/eid/article/12/11/pdfs/06-0223.pdf",
+          "method": "independent R2 (reviewer agent, Claude Sonnet 5.5, blind to R1) full-text review of locally retrieved verified copy; reported to main agent 2026-09-29",
+          "caution": "Africa mentioned only in general terms."
+        },
+        "adjudication": {
+          "decision": "exclude",
+          "reason_code": "non-Nigeria no Nigeria-data",
+          "reviewer": "main-agent",
+          "basis": "Concordant independent full-text exclusion with the same fixed reason.",
+          "source_url": "https://wwwnc.cdc.gov/eid/article/12/11/pdfs/06-0223.pdf",
+          "checked": "2026-09-29"
+        }
       }
     },
     {
@@ -116680,7 +118794,7 @@
         "scholar:Q3#194"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "provisional_full_text_candidate",
+      "final_status": "report_not_retrieved",
       "vote_disposition": [
         {
           "source": "scholar_rerun_20260928",
@@ -116712,13 +118826,41 @@
         "basis": "Discordant; conservative union retains for full text (file 18 item 5).",
         "checked": "2026-09-29"
       },
-      "full_text_status": "full_text_pending_retrieval",
+      "full_text_status": "report_not_retrieved",
       "scholar_source": {
         "link": "https://www.cabidigitallibrary.org/doi/full/10.5555/20103140010",
         "venue_line": "DD Ortserga, TI Anthony, AC Andyar - 2009 - cabidigitallibrary.org",
         "snippet": "The research was conducted with the aim of determining the impact of the avian influenza (bird flu) disease on the poultry industry in Benue State of Nigeria. Both primary and …",
         "type": null,
         "resources": []
+      },
+      "retrieval": {
+        "checked": "2026-09-29",
+        "route": "legal open-access sweep of Scholar links, publisher/DOI, Unpaywall, OpenAlex, PMC OA, repositories, SerpApi Scholar versions",
+        "retrieval_attempts": [
+          {
+            "date": "2026-09-29",
+            "route": "Google Scholar result link",
+            "url": "https://www.cabidigitallibrary.org/doi/full/10.5555/20103140010",
+            "outcome": "HTTP 403; HTML page \"Just a moment...\" (Cloudflare bot check; not bypassed)"
+          },
+          {
+            "date": "2026-09-29",
+            "route": "Google Scholar title search (via SerpApi)",
+            "url": "https://scholar.google.com/scholar?q=Impact+assessment+of+avian+influenza+%28bird+flu%29+on+the+poultry+industry+in+Benue+State+of+Nigeria",
+            "outcome": "1 result(s) returned; see candidate links below"
+          },
+          {
+            "date": "2026-09-29",
+            "route": "Web search (original journal)",
+            "url": "Ortserga \"avian influenza\" \"Benue State\" poultry industry impact assessment 2009 journal",
+            "outcome": "no source beyond CABI abstract record found"
+          }
+        ],
+        "retrieval_status": "report_not_retrieved",
+        "note": "Only a CABI Digital Library abstract record (doi 10.5555/20103140010, behind Cloudflare); original journal or source not identified by Scholar or web search.",
+        "eligibility_status": "not_assessed",
+        "next_action": "None (report not retrieved after the legal sweep; no author contact per the 2026-09-27 amendment)."
       }
     },
     {
@@ -117312,11 +119454,13 @@
     "b20_excluded": 36,
     "b20_retained": 4,
     "screened_record_level": 2105,
-    "retained_record_level": 332,
-    "excluded_record_level": 1773,
+    "retained_record_level": 323,
+    "excluded_record_level": 1770,
     "scholar_rerun_screened": 228,
-    "scholar_rerun_retained": 36,
-    "scholar_rerun_excluded": 192
+    "scholar_rerun_retained": 26,
+    "scholar_rerun_excluded": 190,
+    "duplicate_records_removed_scholar_rerun": 12,
+    "unique_identities": 2093
   },
   "metadata": {
     "eligibility_anchor": "Nigeria-specific HPAI/LPAI with epidemiological, molecular/phylogenetic, or spatial/temporal data; 2006-2026",
@@ -117329,9 +119473,9 @@
     "pilot_size": 40,
     "created": "2026-09-20",
     "pilot_selection": "Deterministic title-keyword strata, canonical_id order.",
-    "status": "record-level screening complete for 2,105 identities; full-text gate reopened for the 36 Scholar re-run retains (pending retrieval); report-level retains remain provisional pending duplicate linkage, extraction and appraisal",
+    "status": "2093 unique identities (12 duplicate records removed); full-text gate closed: 323 candidates = 122 provisional retain + 113 excluded + 88 not retrieved; report counts, pending report-to-study linkage",
     "prior_votes": "Retained as lineage-level evidence; precollapse aggregate votes remain explicitly discarded and are not inherited silently.",
-    "last_update": "2026-09-27",
+    "last_update": "2026-09-29",
     "b19_note": "The earlier B19 CAN-0241-CAN-0280 pass was a duplicate-range audit/retrieval pilot and is non-additive to the 1,877 identity denominator.",
     "b20_note": "True uncovered gap CAN-0341-CAN-0380 screened by R1/R2; final 4 retained and 36 excluded after one two-record decision swap.",
     "screening_method": "Fresh independent R1/R2 title/metadata reconstruction in 100-record blocks; conservative union adjudication, with prior pilot/B20 evidence-supported decisions preserved.",
@@ -117350,7 +119494,8 @@
         "retrieval_metadata_or_subscription_only": 24,
         "retrieval_source_located_free_route": 107
       },
-      "note": "Access-route status_counts are a 2026-09-23 historical inventory and not current eligibility totals. Current report-level state: 140 two-reviewer adjudicated, 156 without full-text assessment; no final included-study count."
+      "note": "Access-route status_counts are a 2026-09-23 historical inventory and not current eligibility totals. Current report-level state: 140 two-reviewer adjudicated, 156 without full-text assessment; no final included-study count.",
+      "superseded": "Historical 2026-09-23 inventory of the original 296 candidates; current counts are in `counts` and `status`."
     },
     "full_text_pilot": {
       "checked": "2026-09-23",
@@ -117477,7 +119622,7 @@
       "search": "Google Scholar Q1-Q4 via SerpApi, 2026-09-28; 800 rows, 519 unique, 291 matched existing identities, 228 new (CAN-1878 to CAN-2105). Raw: D:/AvianInfluenzaSysRev_retrieval_20260927/scholar_rerun/.",
       "screening": "Blind R1/R2 title/venue/snippet votes (file 18), main-session adjudication 2026-09-29: conservative union with 3 overrides to exclude (SCH-090, SCH-192, SCH-211).",
       "agreement": "Binary retain/exclude: 215/228 agree (94.3%), Cohen kappa 0.767. Disagreements 13 (R1 exclude/R2 retain 10; R1 retain/R2 exclude 3).",
-      "result": "36 retained for full text; 192 excluded at title/snippet.",
+      "result": "228 records: 12 duplicate records of existing identities (found after screening), 190 excluded at title/snippet, 26 advanced to full text. Original adjudication before duplicate removal: 36 retained, 192 excluded.",
       "caveat": "Matching to existing identities used DOI, title similarity >=0.90, or a unique substring match for Scholar-truncated titles; a small number of false matches cannot be ruled out.",
       "sch_to_can": {
         "SCH-001": "CAN-1878",
@@ -117708,7 +119853,10 @@
         "SCH-226": "CAN-2103",
         "SCH-227": "CAN-2104",
         "SCH-228": "CAN-2105"
-      }
+      },
+      "retrieval": "2026-09-29: 26 of 36 full texts obtained, 10 not retrieved. 10 records proved to be duplicates of existing identities (9 retained + 1 title-excluded); CAN-1806 advanced to full text via its duplicate CAN-1974. Net: 19 to full-text screening, 9 reports not retrieved. CAN-2026 obtained on retry (WHO IRIS reachable again): 20 to full-text screening, 8 not retrieved.",
+      "full_text": "2026-09-29: 20 reports screened by blind R1 (Opus 5.5) / R2 (Sonnet 5.5) with main adjudication: 12 retained, 8 excluded. Decision agreement 19/20; one decision disagreement (CAN-1914, retained) and two reason-only disagreements (CAN-2044, CAN-2068). After the audit (CAN-1941 removed as a duplicate of CAN-0835): Scholar re-run records at full text = {'report_not_retrieved': 8, 'provisional_full_text_eligible': 11, 'full_text_excluded': 7}; CAN-1806 excluded.",
+      "duplicate_cause": "Missed by the 2026-09-28 matching: older register records store DOIs with punctuation stripped, so DOI matching never fired, and Scholar titles were truncated, garbled or mis-titled. Counted as a duplicate record removed, not as a screened identity."
     }
   }
 }
