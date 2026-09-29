@@ -1,5 +1,21 @@
 # Next-session handoff - Nigeria avian influenza systematic review
-## Latest handoff - 29 September 2026, final (Phase B row-level check done; Phase C next)
+## Latest handoff - 29 September 2026, session close (Phase C approved, not started)
+
+- **State:** unchanged since commit `5d19b4d`. Register: 2,105 = 1,768 title-excluded + 325 full-text candidates (**126 retain / 111 exclude / 88 not retrieved**) + 12 duplicates removed. No Phase C work has been done yet, and no files other than this one changed.
+- **Author go-ahead:** Mayowa Olabode said "proceed" to Phase C on 29 Sept. There is no need to ask again. Come back to the author only with the final study count, for a yes/no check.
+- **Still open with the author:** the accessibility wording in file 14 (currently "for accessibility reasons"), and whether a second human can check the 107 priority rows. The author has not answered either yet.
+- **Phase C, in order:**
+  1. **Report-to-study linkage over the 126 retained reports.** Record each link in file 56 under `report_linkage` (study_id, primary report, companions, and the basis for the link: same dataset, accessions, authors or sampling frame). Normalise DOIs first. Known links to resolve:
+     - The NVRI 2006-07 dataset shared by CAN-1907/0835/2033/2038/2056.
+     - CAN-2044↔0061, 2040→0359, 1882→0191 and 1939→1778.
+     - CAN-2005 vs the Fasina papers; CAN-1902 vs the 2015 reports; CAN-0014/0015.
+     - CAN-0060/1711, 1719/1731 (also 2009 and 1796), 1875 vs the national report, 1152/1179, 0008/0204, 1291→1602 and 0056/1446.
+     - Map the Q1 secondary analyses (CAN-1535, 1558, 0356, 0527, 0902, 0911, 1679, 1714) to the primary reports they reuse. Do not count their data twice.
+  2. **PRISMA 2020 flow**, with a databases arm and an "other methods" arm (the Scholar re-run of 228 records, including the 12 duplicates removed; also the 2 title overturns). Check by script that the numbers reconcile with file 56, then log a checkpoint in file 15.
+  3. Run a reviewer-agent pass on the linkage before reporting it. Then go to Phase D.
+- **Working with the author:** minimal actions, yes/no questions, one at a time. Never enter a decision the author has not actually given.
+
+## Previous handoff - 29 September 2026, final (Phase B row-level check done; Phase C next)
 
 - **Register:** 2,105 records = 1,768 title-excluded + 325 full-text candidates (**126 retain / 111 exclude / 88 not retrieved**) + 12 duplicates removed.
 - **Phase B.** The author (MO) checked all 107 priority rows one by one in chat and set rules Q1-Q3 (file 15 top). Six decisions changed. The 322 other verified rows rest on blanket confirmation.
