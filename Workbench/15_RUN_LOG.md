@@ -1,5 +1,32 @@
 # Run log + gate checklists (update as you go)
-## Expert audit and Scholar update search - 2026-09-28 (latest; session paused)
+## Phase A checkpoint - 2026-09-29 (latest)
+- **A1 Scholar re-run screened.** The 228 new records went into a blinded packet (SCH-001 to SCH-228: title, year, venue line, Scholar snippet, link). They were screened on the file 18 form by R1 (executor agent, Claude Opus 5.5) and R2 (reviewer agent, Claude Sonnet 5, blind to R1).
+  - **Votes:** R1 20 include / 9 unsure / 199 exclude; R2 22 include / 14 unsure / 192 exclude.
+  - **Agreement (retain = include or unsure):** 215/228 (94.3%), Cohen's κ 0.77.
+  - **Adjudication (main session):** conservative union, with three overrides to exclude:
+    - SCH-090: human isolate only (no avian-host field data)
+    - SCH-211: human bird handlers only (no avian-host field data)
+    - SCH-192: correspondence (no primary data)
+  - **Result:** 36 retained for full text and 192 excluded. They were added to file 56 as CAN-1878 to CAN-2105; the SCH→CAN map is in `metadata.scholar_rerun_20260928`. Seven possible duplicate pairs are flagged in `report_linkage` (e.g. SCH-092/SCH-005 and SCH-193/SCH-062, both retained).
+  - **Register now:** 2,105 identities; 1,773 title/metadata excluded; 332 full-text candidates = 111 provisional retain + 105 excluded + 80 not retrieved + **36 pending retrieval**. The full-text gate is reopened for the 36.
+  - **Files:** votes in `D:\AvianInfluenzaSysRev_retrieval_20260927\votes\R1_scholar.json` and `R2_scholar.json`; adjudication script `adjudicate_scholar.py`.
+- **A2 Reviewer agreement: all R1/R2 pairs are AI agents** (Codex, then Claude). These figures are AI-AI agreement, not human-AI agreement (see Phase B).
+  - **Title/metadata (1,877 original identities):** 1,821/1,877 agree (97.0%), κ 0.88. Of the 56 disagreements, 31 were R1 exclude / R2 retain and 25 the reverse. In 2 further records both reviewers retained and adjudication excluded.
+  - **Full text (216 assessed):** votes were normalised to retain / exclude / unsure (`exclude_recommended` = exclude; `uncertain`, `unclear` and `seek_further_info` = unsure).
+    - Three-category agreement: 187/216 (86.6%), κ 0.76.
+    - Where both reviewers gave a definitive vote: 181/190 (95.3%), κ 0.90.
+    - Batches 5-6 (current R1/R2 pairing): 42/46 (91.3%), κ 0.83.
+    - Concordant exclusions with the same fixed reason: 32/43.
+  - **Scholar re-run title stage:** see A1 above.
+- **A3 The 80 not-retrieved reports.**
+  - **By period:** 2006-10 27; 2011-15 23; 2016-20 15; 2021-26 15.
+  - **Identifiers:** 66 have a DOI, 19 a PMID, and 12 neither.
+  - **Sources:** 40 are OpenAlex/Crossref only; the rest came from at least one bibliographic database.
+  - **Likely relevance (main-session title-level judgement, provisional):** about 33 look like Nigerian avian laboratory or epidemiological reports: CAN-0014, 0015, 0017, 0027, 0032, 0048, 0051, 0061, 0064, 0089, 0122, 0189, 0204, 0205, 0208, 0209, 0359, 0575, 0576, 0608, 0609, 0612, 0619, 0632, 0655, 0742, 1143, 1179, 1180, 1254, 1291, 1843, 1870. Three of these have their study represented by a retained report: CAN-1179 (by CAN-1152), CAN-0204 (by CAN-0008) and CAN-1291 (by CAN-1602).
+  - **The other ~47** appear to be human-, mammal- or non-Nigeria-only, risk/biosecurity/economic reports without laboratory data, or reviews.
+  - **Possible duplicate:** CAN-0014 and CAN-0015 share a title (2019/2020 records) and may be one report counted twice; resolve in Phase C.
+  - This profile feeds the manuscript appendix and the Limitations text (risk of missing studies).
+## Expert audit and Scholar update search - 2026-09-28
 - **Expert audit against PRISMA 2020 / Cochrane ch. 4-5 / 2025 AI-in-evidence-synthesis guidance.** Process documentation judged strong (dated freeze, graded amendments, dual votes + adjudication, one fixed reason, per-record access routes, honest not-retrieved handling). Seven gaps: (1) no human reviewer recorded at any screening stage (R1/R2/arbiter all AI agents); (2) most of the 1,581 exclusions are title/metadata-only (OpenAlex/Crossref records lack abstracts); (3) the 17 Sept Scholar supplement was never screened; (4) 80/296 (27%) reports not retrieved, which must be characterised; (5) no agreement statistics and no PRESS search peer review; (6) no PROSPERO registration and sources added 17-20 Sept around the freeze (already dated; report clearly); (7) report-to-study linkage and PRISMA study counts not done. Remediation plan (Phases A-D) is in file 57.
 - **Phase A1 started.** The 17 Sept SerpApi Scholar run had no persistent export, so its 50 unmatched records cannot be reconstructed. The same Q1-Q4 queries were re-run on 28 Sept via SerpApi with the same parameters (`as_ylo=2006`, `as_yhi=2026`, `as_sdt=0` no patents, `as_vis=1` no citations, relevance, 20/page, cap 200/query; 40 API searches). Result: 800 rows (200 per query) → 519 unique titles; 291 matched register identities (DOI, title similarity ≥0.90, or a unique substring match for Scholar-truncated titles); **228 are not in the 1,877-identity register**. Spot checks confirmed genuine absences, including in-scope Nigerian reports (e.g. Ifende et al. 2015 NVRI overview of the 2015 HPAI outbreaks; Yakubu et al. 2025 exotic/zoo birds; Balami et al. 2025 pigeons, Maiduguri; Akanbi et al. 2016 mixed-species farms; Akintule et al. 2026 commercial farms) and the comparator review Kalonda et al. 2020. Raw pages, scripts and the reconciliation output are outside the repo at `D:\AvianInfluenzaSysRev_retrieval_20260927\scholar_rerun\` (`run_q1q4.py`, `raw_q1q4_20260928.json`, `reconcile.py`, `reconciled_20260928.json`).
 - **Not yet done:** the blinded packet (SCH-001 to SCH-228) was not written because of a tool outage; the 228 are unscreened and file 56 is unchanged (1,877 identities; 1,581 / 111 / 105 / 80). See file 57 for resume steps.

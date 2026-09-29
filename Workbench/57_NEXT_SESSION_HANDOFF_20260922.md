@@ -1,5 +1,28 @@
 # Next-session handoff - Nigeria avian influenza systematic review
-## Latest handoff - 28 September 2026, evening (expert audit; Phase A1 paused mid-step)
+## Latest handoff - 29 September 2026 (Phase A mostly done; full text for 36 Scholar retains next)
+
+**Controlling record:** `Workbench/56_SCREENING_RECONCILIATION.json`. File 15's top checkpoint has the figures.
+
+- **Register now:** 2,105 identities.
+  - 1,773 title/metadata excluded.
+  - 332 full-text candidates = 111 provisional retain + 105 excluded + 80 not retrieved + **36 `provisional_full_text_candidate` (CAN-1878 to CAN-2105 range, `full_text_status: full_text_pending_retrieval`)**.
+- **Done 29 Sept:**
+  - **A1:** the 228 Scholar re-run records were screened blind by R1/R2 and adjudicated (36 retain, 192 exclude; κ 0.77).
+  - **A2:** agreement statistics are logged in file 15.
+  - **A3:** the 80 not-retrieved reports are profiled in file 15 (~33 look like relevant Nigerian lab/epi reports).
+- **Resume in this order:**
+  1. **Finish A1 at full text.** Find the 36 with `final_status == provisional_full_text_candidate`.
+     - Retrieve them by legal routes only, following the 27-28 Sept rules in file 15. Each record's `scholar_source.link`/`resources` gives the Scholar landing or PDF link.
+     - Verify identity, then run blind R1/R2 full-text votes and adjudicate using the pattern in `votes/adjudicate_batch6.py`.
+     - Anything not retrieved goes to `report_not_retrieved`.
+     - Resolve the flagged `report_linkage.possible_duplicate_of` pairs.
+     - Then check that 332 = retain + exclude + not retrieved.
+  2. **Phase B:** human verification CSV (file 58). This is the biggest remaining credibility gap. Include the 36 new decisions and the 46 from batches 5-6 in the rows the user must check themselves.
+  3. **Phases C and D:** as listed in the 28 Sept evening section below. Phase C now also covers the CAN-0014/0015 duplicate and the new Scholar duplicate pairs.
+- **Pending user decision:** switching the Explore and reviewer agents from Sonnet 5 to Sonnet 5.5, released 28 Sept, was proposed but not applied. If R2 changes model, log a MINOR reviewer-identity amendment in file 15 before the next batch. R1 stays on the executor agent (Opus 5.5).
+- **SerpApi:** ~87 searches left this month.
+
+## Previous handoff - 28 September 2026, evening (expert audit; Phase A1 paused mid-step)
 
 File 56 is **unchanged** since the full-text gate closed (1,877 identities; 1,581 title/metadata excluded; 296 full text = 111 provisional retain + 105 excluded + 80 not retrieved). Read the file 15 top checkpoint for the audit findings.
 

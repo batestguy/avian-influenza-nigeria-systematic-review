@@ -41,7 +41,7 @@ Variant of Scopus string in title-abs-key; record filters + cap. Date: ____ | Hi
 
 Queries: Q1 "avian influenza" Nigeria; Q2 H5N1 Nigeria; Q3 H9N2 Nigeria; Q4 poultry Nigeria wild birds. Date: 2026-09-17 | Years: 2006–2026 | Sort: relevance | Cap: 200/query | Retrieved: 140 | Cross-query unique: 99 | Persistent export: none | Status: supplementary, excluded from primary PRISMA snapshot; superseded by the re-run below.
 
-**Re-run 2026-09-28 (post-freeze update search; file 15 MAJOR amendment).** Same Q1–Q4, via SerpApi `engine=google_scholar`, `as_ylo=2006`, `as_yhi=2026`, `as_sdt=0` (no patents), `as_vis=1` (no citations), `hl=en`, relevance, `num=20`, pages start 0–180 (cap 200/query). Retrieved: 200 per query = 800 | Unique (normalised title): 519 | Matched register: 291 | New: 228 | Export: `D:\AvianInfluenzaSysRev_retrieval_20260927\scholar_rerun\raw_q1q4_20260928.json` (outside repo). Screening status: pending.
+**Re-run 2026-09-28 (post-freeze update search; file 15 MAJOR amendment).** Same Q1–Q4, via SerpApi `engine=google_scholar`, `as_ylo=2006`, `as_yhi=2026`, `as_sdt=0` (no patents), `as_vis=1` (no citations), `hl=en`, relevance, `num=20`, pages start 0–180 (cap 200/query). Retrieved: 200 per query = 800 | Unique (normalised title): 519 | Matched register: 291 | New: 228 | Export: `D:\AvianInfluenzaSysRev_retrieval_20260927\scholar_rerun\raw_q1q4_20260928.json` (outside repo). Screening (2026-09-29): blind R1/R2 title/snippet votes plus adjudication → 36 retained for full text, 192 excluded; added to file 56 as CAN-1878 to CAN-2105.
 
 ## AJOL (on-site run completed 2026-09-20)
 
