@@ -1,5 +1,26 @@
 # Run log + gate checklists (update as you go)
-## Phase B: human verification - 2026-09-29 (latest)
+## Phase B: row-level check of the 107 priority decisions - 2026-09-29 (latest; supersedes the blanket-only note below)
+- **How it was done.** The author (MO) went through all 107 `must_check` rows in chat, in three batches.
+  - The AI assistant prepared a one-line summary of each row, gave its own read (flagged as not independent, since it adjudicated these decisions), and raised three consistency questions.
+  - The author answered each batch; the AI transcribed the answers. Script: `votes/apply_human_review.py`. Decisions: `votes/human_review_20260929.json`.
+  - Rows in file 58 now read "Row-level assisted review" (107 rows) or "Blanket confirmation" (322 rows).
+- **Rules set by the author** (also stored in `metadata.human_verification.rules`):
+  - **Q1 A:** secondary or global analyses that reuse Nigerian data are eligible if they produce Nigeria-specific analytic results. Narrative compilations, reprinted tables and model predictions are not.
+  - **Q2 A:** official outbreak records described as confirmed are eligible even without a named assay; they are flagged for sensitivity analysis.
+  - **Q3 A:** reports that only reprint official outbreak tables (CAN-0055, CAN-2082) stay excluded.
+- **Changes (6 of 107).** Everything else was confirmed.
+  - CAN-1535 and CAN-1558: exclude → retain (Q1).
+  - CAN-1672 and CAN-2009: exclude → retain (Q2; CAN-2009 is the weakest, since it states neither "confirmed" nor an assay).
+  - CAN-0343 and CAN-0345: title exclusion → full text. Both reviewers had retained them, and the adjudication override had no recorded reason.
+- **CAN-0343 and CAN-0345 at full text.** Both open-access publisher PDFs were obtained and identity-verified. Blind R1 (Opus 5.5) and R2 (Sonnet 5.5) both excluded them as "non-Nigeria no Nigeria-data".
+  - CAN-0343: Poyang Lake, China.
+  - CAN-0345: 7 Central/West African countries, not including Nigeria. Its Nigerian citations (Joannis 2008; Nwankwo, Sokoto) are already retained as CAN-1357 and CAN-0086.
+- **Process note.** R1 and R2 wrote text extracts to the same scratch folder, so one overwrote the other's extracts. Votes and blinding were unaffected. From now on, give each reviewer its own scratch subfolder.
+- **Register.**
+  - 2,105 records = **1,768 title/metadata excluded + 325 full-text candidates + 12 duplicate records removed**.
+  - 325 = **126 provisional retain + 111 excluded + 88 not retrieved**.
+- File 14's Methods and Limitations now describe the row-level assisted check accurately.
+## Phase B: human verification - 2026-09-29
 - **The sheet.** `Workbench/58_HUMAN_VERIFICATION.csv` is the user-approved sidecar, built by `votes/build_human_verification.py` from file 56.
   - 429 decisions: 122 full-text retains, 113 full-text excludes, 12 duplicate removals, and 182 title exclusions (seeded 10% sample of 1,770, seed 20260929, plus 5 adjudication overrides).
   - 107 rows are flagged must-check (batches 5-6, the Scholar full-text screen, borderline cases, R1/R2 disagreements, overrides and duplicates).

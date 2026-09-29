@@ -1,5 +1,16 @@
 # Next-session handoff - Nigeria avian influenza systematic review
-## Latest handoff - 29 September 2026, end of day (Phases A and B done; Phase C next)
+## Latest handoff - 29 September 2026, final (Phase B row-level check done; Phase C next)
+
+- **Register:** 2,105 records = 1,768 title-excluded + 325 full-text candidates (**126 retain / 111 exclude / 88 not retrieved**) + 12 duplicates removed.
+- **Phase B.** The author (MO) checked all 107 priority rows one by one in chat and set rules Q1-Q3 (file 15 top). Six decisions changed. The 322 other verified rows rest on blanket confirmation.
+- **Retained reports to handle with care at extraction** (flagged for sensitivity analysis):
+  - CAN-1535, 1558, 1672, 2009, 1914, 1875 and 1995.
+  - Secondary analyses kept under Q1 (CAN-0356, 0527, 0902, 0911, 1679, 1714).
+- **Open with the author:** the accessibility wording in file 14 (currently "for accessibility reasons"), and whether a second human can check the priority rows.
+- **Agents:** give R1 and R2 separate scratch subfolders.
+- **Next: Phase C** (report-to-study linkage, then the PRISMA 2020 flow). The overlap lists are in the sections below and in file 15.
+
+## Previous handoff - 29 September 2026, end of day (Phases A and B done; Phase C next)
 
 - **Register unchanged since the audit:** 2,105 records = 1,770 title-excluded + 323 full-text candidates (122 retain / 113 exclude / 88 not retrieved) + 12 duplicates removed.
 - **Phase B done.** `Workbench/58_HUMAN_VERIFICATION.csv` covers 429 decisions. The author, Mayowa Olabode (MO), confirmed all of them in chat; the AI transcribed the confirmation at the author's request because of physical limitations. `human_verification` is on every one of those records, 0 were overturned, and the caveats are in file 15.

@@ -591,9 +591,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 1"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 1",
+        "human_reason": null
       }
     },
     {
@@ -1679,9 +1680,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 40"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 40",
+        "human_reason": null
       }
     },
     {
@@ -2685,9 +2687,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 2"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 2",
+        "human_reason": null
       }
     },
     {
@@ -3858,9 +3861,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 41"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 41",
+        "human_reason": null
       }
     },
     {
@@ -4555,9 +4559,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 42"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 42",
+        "human_reason": null
       }
     },
     {
@@ -4665,9 +4670,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 43"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 43",
+        "human_reason": null
       }
     },
     {
@@ -5065,9 +5071,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 3"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 3",
+        "human_reason": null
       }
     },
     {
@@ -5439,9 +5446,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 44"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 44",
+        "human_reason": null
       }
     },
     {
@@ -6250,9 +6258,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 45"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 45",
+        "human_reason": null
       }
     },
     {
@@ -8953,9 +8962,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 46"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 46",
+        "human_reason": null
       }
     },
     {
@@ -12109,9 +12119,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 47"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 47",
+        "human_reason": null
       }
     },
     {
@@ -17345,9 +17356,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 48"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 48",
+        "human_reason": null
       }
     },
     {
@@ -18334,9 +18346,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 49"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 49",
+        "human_reason": null
       }
     },
     {
@@ -19338,9 +19351,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 4"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 4",
+        "human_reason": null
       }
     },
     {
@@ -23145,7 +23159,7 @@
         "PMID:23398949"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "title_metadata_excluded",
+      "final_status": "full_text_excluded",
       "vote_disposition": [
         {
           "source": "OpenAlex/Crossref",
@@ -23169,16 +23183,90 @@
         "reviewer": "main-agent",
         "basis": "fresh reconstruction adjudication"
       },
-      "full_text_status": "not_applicable_title_metadata_excluded",
+      "full_text_status": "full_text_excluded",
       "human_verification": {
         "stage": "title_exclude_sample",
         "ai_decision": "exclude_title_metadata",
-        "human_decision": "agree",
+        "human_decision": "disagree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 103"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 103",
+        "human_reason": "send to full text"
+      },
+      "title_rescreen": {
+        "date": "2026-09-29",
+        "by": "Mayowa Olabode (MO)",
+        "basis": "Both reviewers retained at title stage and the adjudication override has no recorded reason; conservative union applies",
+        "note": "Zhang et al. 2013, Epidemiol Infect (doi 10.1017/S0950268813000101); likely global - check for Nigeria-specific results under Q1 A.",
+        "previous_final_status": "title_metadata_excluded",
+        "previous_adjudication": {
+          "decision": "exclude_title_metadata",
+          "reviewer": "main-agent",
+          "basis": "fresh reconstruction adjudication"
+        }
+      },
+      "retrieval": {
+        "checked": "2026-09-29",
+        "route": "Unpaywall publisher OA location",
+        "retrieval_attempts": [
+          {
+            "date": "2026-09-29",
+            "route": "publisher (Unpaywall OA)",
+            "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/826E11B5161885C8CCD69492DF0AAAEF/S0950268813000101a.pdf/div-class-title-distribution-and-dynamics-of-risk-factors-associated-with-highly-pathogenic-avian-influenza-h5n1-div.pdf",
+            "outcome": "HTTP 200, pdf=True"
+          },
+          {
+            "date": "2026-09-29",
+            "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/826E11B5161885C8CCD69492DF0AAAEF/S0950268813000101a.pdf/div-class-title-distribution-and-dynamics-of-risk-factors-associated-with-highly-pathogenic-avian-influenza-h5n1-div.pdf",
+            "outcome": "'charmap' codec can't encode character '\\ufb02' in position 84: character maps t"
+          },
+          {
+            "date": "2026-09-29",
+            "route": "PMC OA copy (AWS open data)",
+            "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC4878017.1/PMC4878017.1.pdf",
+            "outcome": "HTTP 404, pdf=False"
+          }
+        ],
+        "retrieval_status": "retrieval_fulltext_obtained",
+        "fulltext_obtained": {
+          "date": "2026-09-29",
+          "source_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/826E11B5161885C8CCD69492DF0AAAEF/S0950268813000101a.pdf/div-class-title-distribution-and-dynamics-of-risk-factors-associated-with-highly-pathogenic-avian-influenza-h5n1-div.pdf",
+          "local_file": "D:/AvianInfluenzaSysRev_retrieval_20260927/fulltext/CAN-0343.pdf",
+          "identity_verified": true,
+          "verification": "Title, authors (Zhang, Guo, Bridge, Li) and Epidemiol Infect 2013 match; 10 pages, 6,459 words; publisher open-access PDF.",
+          "pages": 10
+        },
+        "eligibility_status": "assessed",
+        "next_action": "None (excluded at full text)."
+      },
+      "full_text_eligibility": {
+        "checked": "2026-09-29",
+        "reviewer_1": {
+          "decision": "exclude",
+          "reason_code": "non-Nigeria no Nigeria-data",
+          "evidence": "GIS risk-factor mapping of HPAI H5N1 confined to China's Poyang Lake region/Jiangxi province, built from publicly available layers with no outbreak data (Summary p2444; Methods p2445). Nigeria appears only in a cited reference title (ref 25, 'Lessons from Nigeria: the role of roads', final page). No Nigerian samples, cases or analytic results.",
+          "source_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/826E11B5161885C8CCD69492DF0AAAEF/S0950268813000101a.pdf/div-class-title-distribution-and-dynamics-of-risk-factors-associated-with-highly-pathogenic-avian-influenza-h5n1-div.pdf",
+          "method": "independent R1 (executor agent, Claude Opus 5.5) full-text review of locally retrieved verified copy; reported to main agent 2026-09-29",
+          "caution": "Would also fail 'no laboratory-confirmed avian AIV' (modelling without lab data); first failing reason applied."
+        },
+        "reviewer_2": {
+          "decision": "exclude",
+          "reason_code": "non-Nigeria no Nigeria-data",
+          "evidence": "Study area is China's Poyang Lake region (Summary, p1: \"Within China's Poyang Lake region...\"); risk-mapping model. Nigeria appears only as a reference title (ref 25, Rivas et al., \"Lessons form Nigeria\", p10). No Nigerian data or results.",
+          "source_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/826E11B5161885C8CCD69492DF0AAAEF/S0950268813000101a.pdf/div-class-title-distribution-and-dynamics-of-risk-factors-associated-with-highly-pathogenic-avian-influenza-h5n1-div.pdf",
+          "method": "independent R2 (reviewer agent, Claude Sonnet 5.5, blind to R1) full-text review of locally retrieved verified copy; reported to main agent 2026-09-29",
+          "caution": "Also lacks field lab-confirmed data (modelling 'in the absence of actual outbreak data', p2), but first failing reason is non-Nigeria."
+        },
+        "adjudication": {
+          "decision": "exclude",
+          "reason_code": "non-Nigeria no Nigeria-data",
+          "reviewer": "main-agent",
+          "basis": "Concordant independent full-text exclusion with the same fixed reason. Poyang Lake, China risk mapping; Nigeria only in a cited reference title.",
+          "source_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/826E11B5161885C8CCD69492DF0AAAEF/S0950268813000101a.pdf/div-class-title-distribution-and-dynamics-of-risk-factors-associated-with-highly-pathogenic-avian-influenza-h5n1-div.pdf",
+          "checked": "2026-09-29"
+        }
       }
     },
     {
@@ -23369,7 +23457,7 @@
         "PMID:25530320"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "title_metadata_excluded",
+      "final_status": "full_text_excluded",
       "vote_disposition": [
         {
           "source": "OpenAlex/Crossref",
@@ -23393,16 +23481,90 @@
         "reviewer": "main-agent",
         "basis": "preserved evidence-supported B20 adjudication"
       },
-      "full_text_status": "not_applicable_title_metadata_excluded",
+      "full_text_status": "full_text_excluded",
       "human_verification": {
         "stage": "title_exclude_sample",
         "ai_decision": "exclude_title_metadata",
-        "human_decision": "agree",
+        "human_decision": "disagree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 104"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 104",
+        "human_reason": "send to full text"
+      },
+      "title_rescreen": {
+        "date": "2026-09-29",
+        "by": "Mayowa Olabode (MO)",
+        "basis": "Both reviewers retained at title stage and the adjudication override has no recorded reason; conservative union applies",
+        "note": "Fuller et al. 2015, Epidemiol Infect (doi 10.1017/S0950268814003586), Central and West Africa surveillance 2010-2014; likely includes Nigerian samples.",
+        "previous_final_status": "title_metadata_excluded",
+        "previous_adjudication": {
+          "decision": "exclude_title_metadata",
+          "reviewer": "main-agent",
+          "basis": "preserved evidence-supported B20 adjudication"
+        }
+      },
+      "retrieval": {
+        "checked": "2026-09-29",
+        "route": "Unpaywall publisher OA location",
+        "retrieval_attempts": [
+          {
+            "date": "2026-09-29",
+            "route": "publisher (Unpaywall OA)",
+            "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/060E89CD1FDF271DE70C0E448AF09F9E/S0950268814003586a.pdf/div-class-title-avian-influenza-surveillance-in-central-and-west-africa-2010-2014-div.pdf",
+            "outcome": "HTTP 200, pdf=True"
+          },
+          {
+            "date": "2026-09-29",
+            "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/060E89CD1FDF271DE70C0E448AF09F9E/S0950268814003586a.pdf/div-class-title-avian-influenza-surveillance-in-central-and-west-africa-2010-2014-div.pdf",
+            "outcome": "'charmap' codec can't encode character '\\ufb02' in position 8: character maps to"
+          },
+          {
+            "date": "2026-09-29",
+            "route": "PMC OA copy (AWS open data)",
+            "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC9506990.1/PMC9506990.1.pdf",
+            "outcome": "HTTP 404, pdf=False"
+          }
+        ],
+        "retrieval_status": "retrieval_fulltext_obtained",
+        "fulltext_obtained": {
+          "date": "2026-09-29",
+          "source_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/060E89CD1FDF271DE70C0E448AF09F9E/S0950268814003586a.pdf/div-class-title-avian-influenza-surveillance-in-central-and-west-africa-2010-2014-div.pdf",
+          "local_file": "D:/AvianInfluenzaSysRev_retrieval_20260927/fulltext/CAN-0345.pdf",
+          "identity_verified": true,
+          "verification": "Title and authors (Fuller, Ducatez, Njabo, Couacy-Hymann et al.) and Epidemiol Infect 2015 match; 8 pages, 4,310 words; publisher open-access PDF.",
+          "pages": 8
+        },
+        "eligibility_status": "assessed",
+        "next_action": "None (excluded at full text)."
+      },
+      "full_text_eligibility": {
+        "checked": "2026-09-29",
+        "reviewer_1": {
+          "decision": "exclude",
+          "reason_code": "non-Nigeria no Nigeria-data",
+          "evidence": "40,099 birds sampled at 32 sites in Cameroon, CAR, Congo-Brazzaville, Gabon, Benin, Cote d'Ivoire and Togo only (Summary p2205; Table 1 p2207; Fig. 1 p2206). West Africa RT-PCR 0% (p2208). Nigeria mentioned only in Discussion citing Joannis 2008, Nwankwo 2012, Okoye 2013 (refs 14,15,21,22; p2210). No Nigerian samples or results.",
+          "source_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/060E89CD1FDF271DE70C0E448AF09F9E/S0950268814003586a.pdf/div-class-title-avian-influenza-surveillance-in-central-and-west-africa-2010-2014-div.pdf",
+          "method": "independent R1 (executor agent, Claude Opus 5.5) full-text review of locally retrieved verified copy; reported to main agent 2026-09-29",
+          "caution": "Neighbouring-country (Benin) data may be useful for Discussion context only; Nigerian figures cited are from earlier literature and must not be extracted from this report."
+        },
+        "reviewer_2": {
+          "decision": "exclude",
+          "reason_code": "non-Nigeria no Nigeria-data",
+          "evidence": "Sampled Cameroon, Central African Republic, Congo-Brazzaville, Gabon, Benin, Cote d'Ivoire, Togo (Summary p1; Table 1 p3; Fig 1 p2). No Nigerian site. Nigeria appears only in Discussion (p6) citing earlier studies: \"In Nigeria, surveillance of 13 597 LBM samples...\" [21],[22].",
+          "source_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/060E89CD1FDF271DE70C0E448AF09F9E/S0950268814003586a.pdf/div-class-title-avian-influenza-surveillance-in-central-and-west-africa-2010-2014-div.pdf",
+          "method": "independent R2 (reviewer agent, Claude Sonnet 5.5, blind to R1) full-text review of locally retrieved verified copy; reported to main agent 2026-09-29",
+          "caution": "Nigerian LBM results are quoted from prior literature and do not count; consider checking refs 21-22 (Eurosurveillance 2006-7; Sokoto) as separate records."
+        },
+        "adjudication": {
+          "decision": "exclude",
+          "reason_code": "non-Nigeria no Nigeria-data",
+          "reviewer": "main-agent",
+          "basis": "Concordant independent full-text exclusion with the same fixed reason. Sampled 7 countries (Cameroon, CAR, Congo-Brazzaville, Gabon, Benin, Cote d'Ivoire, Togo); Nigeria only in Discussion citing earlier studies already in the register (CAN-1357 Joannis 2008; CAN-0086 Nwankwo, Sokoto).",
+          "source_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/060E89CD1FDF271DE70C0E448AF09F9E/S0950268814003586a.pdf/div-class-title-avian-influenza-surveillance-in-central-and-west-africa-2010-2014-div.pdf",
+          "checked": "2026-09-29"
+        }
       }
     },
     {
@@ -23972,9 +24134,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 5"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 5",
+        "human_reason": null
       }
     },
     {
@@ -25813,9 +25976,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 50"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 50",
+        "human_reason": null
       }
     },
     {
@@ -33016,9 +33180,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 6"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 6",
+        "human_reason": null
       }
     },
     {
@@ -33963,9 +34128,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 7"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 7",
+        "human_reason": null
       }
     },
     {
@@ -37181,9 +37347,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 51"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 51",
+        "human_reason": null
       }
     },
     {
@@ -39741,9 +39908,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 52"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 52",
+        "human_reason": null
       }
     },
     {
@@ -40262,9 +40430,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 53"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 53",
+        "human_reason": null
       }
     },
     {
@@ -41261,9 +41430,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 54"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 54",
+        "human_reason": null
       }
     },
     {
@@ -41565,9 +41735,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 55"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 55",
+        "human_reason": null
       }
     },
     {
@@ -44654,9 +44825,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 56"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 56",
+        "human_reason": null
       }
     },
     {
@@ -44970,9 +45142,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 8"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 8",
+        "human_reason": null
       }
     },
     {
@@ -51487,9 +51660,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 9"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 9",
+        "human_reason": null
       }
     },
     {
@@ -53535,9 +53709,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 57"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 57",
+        "human_reason": null
       }
     },
     {
@@ -55216,9 +55391,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 10"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 10",
+        "human_reason": null
       }
     },
     {
@@ -55690,9 +55866,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 11"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 11",
+        "human_reason": null
       }
     },
     {
@@ -55953,9 +56130,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 58"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 58",
+        "human_reason": null
       }
     },
     {
@@ -56318,9 +56496,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 59"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 59",
+        "human_reason": null
       }
     },
     {
@@ -57742,9 +57921,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 60"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 60",
+        "human_reason": null
       }
     },
     {
@@ -57969,9 +58149,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 61"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 61",
+        "human_reason": null
       }
     },
     {
@@ -58118,9 +58299,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 12"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 12",
+        "human_reason": null
       }
     },
     {
@@ -58265,9 +58447,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 62"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 62",
+        "human_reason": null
       }
     },
     {
@@ -62604,9 +62787,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 63"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 63",
+        "human_reason": null
       }
     },
     {
@@ -66335,9 +66519,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 64"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 64",
+        "human_reason": null
       }
     },
     {
@@ -68856,9 +69041,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 65"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 65",
+        "human_reason": null
       }
     },
     {
@@ -76320,9 +76506,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 66"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 66",
+        "human_reason": null
       }
     },
     {
@@ -78786,9 +78973,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 67"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 67",
+        "human_reason": null
       }
     },
     {
@@ -79237,9 +79425,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 68"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 68",
+        "human_reason": null
       }
     },
     {
@@ -81968,9 +82157,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 69"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 69",
+        "human_reason": null
       }
     },
     {
@@ -86975,9 +87165,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 70"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 70",
+        "human_reason": null
       }
     },
     {
@@ -88397,7 +88588,7 @@
         "PMID:29922681"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "full_text_excluded",
+      "final_status": "provisional_full_text_eligible",
       "vote_disposition": [
         {
           "source": "OpenAlex/Crossref",
@@ -88421,7 +88612,7 @@
         "reviewer": "main-agent",
         "basis": "fresh independent R1/R2 reconstruction; conservative union"
       },
-      "full_text_status": "full_text_excluded",
+      "full_text_status": "full_text_eligible_provisional",
       "retrieval": {
         "checked": "2026-09-23",
         "route": "Europe PMC public metadata/full-text-link service",
@@ -88478,7 +88669,7 @@
         "error": null,
         "retrieval_status": "retrieval_source_located_free_route",
         "eligibility_status": "excluded",
-        "next_action": "Open/download the located source and record full-text eligibility with page/section evidence."
+        "next_action": "Extraction (report/dataset overlap check first)."
       },
       "full_text_eligibility": {
         "checked": "2026-09-24",
@@ -88503,17 +88694,27 @@
           "basis": "Worldwide historical literature compilation cites Nigerian reassortment reports but performs no original Nigerian avian field analysis.",
           "checked": "2026-09-26",
           "source_url": "https://www.frontiersin.org/journals/veterinary-science/articles/10.3389/fvets.2018.00084/full"
+        },
+        "human_override": {
+          "date": "2026-09-29",
+          "by": "Mayowa Olabode (MO)",
+          "previous_decision": "exclude",
+          "previous_reason_code": "no primary data",
+          "decision": "retain",
+          "rule": "Q1 A: worldwide reassortment compilation gives Nigeria-specific event-level results (Table S1)",
+          "caution": "Secondary; map events to primary reports; do not equate reassortment with new introduction."
         }
       },
       "human_verification": {
         "stage": "full_text_exclude",
         "ai_decision": "exclude",
-        "human_decision": "agree",
+        "human_decision": "disagree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 71"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 71",
+        "human_reason": "retain: Q1 A: worldwide reassortment compilation gives Nigeria-specific event-level results (Table S1)"
       }
     },
     {
@@ -89627,7 +89828,7 @@
         "PMID:31146461"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "full_text_excluded",
+      "final_status": "provisional_full_text_eligible",
       "vote_disposition": [
         {
           "source": "OpenAlex/Crossref",
@@ -89651,7 +89852,7 @@
         "reviewer": "main-agent",
         "basis": "fresh independent R1/R2 reconstruction; conservative union"
       },
-      "full_text_status": "full_text_excluded",
+      "full_text_status": "full_text_eligible_provisional",
       "retrieval": {
         "checked": "2026-09-23",
         "route": "Europe PMC public metadata/full-text-link service",
@@ -89708,7 +89909,7 @@
         "error": null,
         "retrieval_status": "retrieval_source_located_free_route",
         "eligibility_status": "excluded",
-        "next_action": "Open/download the located source and record full-text eligibility with page/section evidence."
+        "next_action": "Extraction (report/dataset overlap check first)."
       },
       "full_text_eligibility": {
         "checked": "2026-09-24",
@@ -89733,17 +89934,27 @@
           "basis": "Narrative clade review collates prior reports without original Nigerian avian field analysis.",
           "checked": "2026-09-26",
           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6616411/"
+        },
+        "human_override": {
+          "date": "2026-09-29",
+          "by": "Mayowa Olabode (MO)",
+          "previous_decision": "exclude",
+          "previous_reason_code": "no primary data",
+          "decision": "retain",
+          "rule": "Q1 A: EMPRES-based analysis gives Nigeria-specific clade 2.3.4.4 detections",
+          "caution": "Secondary database analysis; avoid double counting."
         }
       },
       "human_verification": {
         "stage": "full_text_exclude",
         "ai_decision": "exclude",
-        "human_decision": "agree",
+        "human_decision": "disagree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 72"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 72",
+        "human_reason": "retain: Q1 A: EMPRES-based analysis gives Nigeria-specific clade 2.3.4.4 detections"
       }
     },
     {
@@ -93230,9 +93441,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 73"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 73",
+        "human_reason": null
       }
     },
     {
@@ -95205,9 +95417,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 13"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 13",
+        "human_reason": null
       }
     },
     {
@@ -95325,9 +95538,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 14"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 14",
+        "human_reason": null
       }
     },
     {
@@ -95529,7 +95743,7 @@
         "DOI:103923jas2008205217"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "full_text_excluded",
+      "final_status": "provisional_full_text_eligible",
       "vote_disposition": [
         {
           "source": "OpenAlex/Crossref",
@@ -95558,7 +95772,7 @@
         "reviewer": "main-agent",
         "basis": "fresh independent R1/R2 reconstruction; conservative union"
       },
-      "full_text_status": "full_text_excluded",
+      "full_text_status": "full_text_eligible_provisional",
       "retrieval": {
         "checked": "2026-09-23",
         "route": "Europe PMC public metadata/full-text-link service",
@@ -95572,7 +95786,7 @@
         "error": null,
         "retrieval_status": "retrieval_fulltext_obtained",
         "eligibility_status": "assessed",
-        "next_action": "None (excluded at full text).",
+        "next_action": "Extraction (report/dataset overlap check first).",
         "retrieval_attempts": [
           {
             "date": "2026-09-27",
@@ -95628,17 +95842,27 @@
           "source_url": "https://docsdrive.com/pdfs/ansinet/jas/2008/205-217.pdf",
           "checked": "2026-09-28",
           "caution": "Socio-economic survey; wild-bird mortality respondent-reported only."
+        },
+        "human_override": {
+          "date": "2026-09-29",
+          "by": "Mayowa Olabode (MO)",
+          "previous_decision": "exclude",
+          "previous_reason_code": "no laboratory-confirmed avian AIV",
+          "decision": "retain",
+          "rule": "Q2 A: outbreaks 'duly confirmed' by the state desk office with samples sent to NVRI",
+          "caution": "Assay not named; mainly socio-economic survey; extract outbreak locations/dates only; sensitivity analysis."
         }
       },
       "human_verification": {
         "stage": "full_text_exclude",
         "ai_decision": "exclude",
-        "human_decision": "agree",
+        "human_decision": "disagree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 74"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 74",
+        "human_reason": "retain: Q2 A: outbreaks 'duly confirmed' by the state desk office with samples sent to NVRI"
       }
     },
     {
@@ -96112,9 +96336,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 15"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 15",
+        "human_reason": null
       }
     },
     {
@@ -97745,9 +97970,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 16"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 16",
+        "human_reason": null
       }
     },
     {
@@ -97871,9 +98097,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 17"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 17",
+        "human_reason": null
       }
     },
     {
@@ -97997,9 +98224,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 18"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 18",
+        "human_reason": null
       }
     },
     {
@@ -98123,9 +98351,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 75"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 75",
+        "human_reason": null
       }
     },
     {
@@ -98250,9 +98479,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 19"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 19",
+        "human_reason": null
       }
     },
     {
@@ -98376,9 +98606,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 20"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 20",
+        "human_reason": null
       }
     },
     {
@@ -98538,9 +98769,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 21"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 21",
+        "human_reason": null
       }
     },
     {
@@ -98700,9 +98932,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 22"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 22",
+        "human_reason": null
       }
     },
     {
@@ -98909,9 +99142,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 23"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 23",
+        "human_reason": null
       }
     },
     {
@@ -99480,9 +99714,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 76"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 76",
+        "human_reason": null
       }
     },
     {
@@ -100010,9 +100245,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 24"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 24",
+        "human_reason": null
       }
     },
     {
@@ -100173,9 +100409,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 77"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 77",
+        "human_reason": null
       }
     },
     {
@@ -100491,9 +100728,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 25"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 25",
+        "human_reason": null
       }
     },
     {
@@ -100654,9 +100892,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 26"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 26",
+        "human_reason": null
       }
     },
     {
@@ -101120,9 +101359,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 78"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 78",
+        "human_reason": null
       }
     },
     {
@@ -103493,9 +103733,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 27"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 27",
+        "human_reason": null
       }
     },
     {
@@ -104060,9 +104301,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 79"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 79",
+        "human_reason": null
       }
     },
     {
@@ -104760,9 +105002,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 80"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 80",
+        "human_reason": null
       }
     },
     {
@@ -105598,9 +105841,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 81"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 81",
+        "human_reason": null
       }
     },
     {
@@ -105730,9 +105974,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 82"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 82",
+        "human_reason": null
       }
     },
     {
@@ -107562,9 +107807,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 83"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 83",
+        "human_reason": null
       }
     },
     {
@@ -107798,9 +108044,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 28"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 28",
+        "human_reason": null
       }
     },
     {
@@ -108062,9 +108309,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 91"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 91",
+        "human_reason": null
       }
     },
     {
@@ -108338,9 +108586,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 29"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 29",
+        "human_reason": null
       }
     },
     {
@@ -108517,9 +108766,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 30"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 30",
+        "human_reason": null
       }
     },
     {
@@ -109659,9 +109909,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 31"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 31",
+        "human_reason": null
       }
     },
     {
@@ -110015,9 +110266,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 32"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 32",
+        "human_reason": null
       }
     },
     {
@@ -110317,9 +110569,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 92"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 92",
+        "human_reason": null
       }
     },
     {
@@ -110621,9 +110874,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 33"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 33",
+        "human_reason": null
       }
     },
     {
@@ -110995,9 +111249,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 34"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 34",
+        "human_reason": null
       }
     },
     {
@@ -111223,9 +111478,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 93"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 93",
+        "human_reason": null
       }
     },
     {
@@ -112510,9 +112766,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 94"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 94",
+        "human_reason": null
       }
     },
     {
@@ -112618,9 +112875,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 95"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 95",
+        "human_reason": null
       }
     },
     {
@@ -113055,9 +113313,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 84"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 84",
+        "human_reason": null
       }
     },
     {
@@ -114189,9 +114448,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 105"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 105",
+        "human_reason": null
       }
     },
     {
@@ -114365,9 +114625,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 96"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 96",
+        "human_reason": null
       }
     },
     {
@@ -114715,9 +114976,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 97"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 97",
+        "human_reason": null
       }
     },
     {
@@ -116063,9 +116325,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 35"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 35",
+        "human_reason": null
       }
     },
     {
@@ -116724,9 +116987,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 36"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 36",
+        "human_reason": null
       }
     },
     {
@@ -116914,7 +117178,7 @@
         "scholar:Q1#133"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "full_text_excluded",
+      "final_status": "provisional_full_text_eligible",
       "vote_disposition": [
         {
           "source": "scholar_rerun_20260928",
@@ -116946,7 +117210,7 @@
         "basis": "Concordant retain (include/unsure).",
         "checked": "2026-09-29"
       },
-      "full_text_status": "full_text_excluded",
+      "full_text_status": "full_text_eligible_provisional",
       "scholar_source": {
         "link": "https://www.researchgate.net/profile/Israel-Barde/publication/338987831_Retrospective_Study_of_Avian_Influenza_Outbreak_from_2015-2017_Resurgences_in_Plateau_State_Nigeria/links/5e372d0e92851c7f7f17ae32/Retrospective-Study-of-Avian-Influenza-Outbreak-from-2015-2017-Resurgences-in-Plateau-State-Nigeria.pdf",
         "venue_line": "IS Ejura, WS Nafarnda, G Egwu, H Ayuba… - Acta Sci …, 2020 - researchgate.net",
@@ -117009,7 +117273,7 @@
         },
         "note": "ResearchGate copy blocked; publisher PDF found by web search.",
         "eligibility_status": "assessed",
-        "next_action": "None (excluded at full text)."
+        "next_action": "Extraction (report/dataset overlap check first)."
       },
       "full_text_eligibility": {
         "checked": "2026-09-29",
@@ -117038,17 +117302,27 @@
           "checked": "2026-09-29",
           "phase_b_must_check": true,
           "consistency_note": "The retain/exclude line between records-based outbreak reports is thin: CAN-1914, CAN-1719 and CAN-1347 retained; CAN-2009 (laboratory confirmation not stated) and CAN-2082 (official tables reproduced without analysis) excluded. Phase B human check required."
+        },
+        "human_override": {
+          "date": "2026-09-29",
+          "by": "Mayowa Olabode (MO)",
+          "previous_decision": "exclude",
+          "previous_reason_code": "no laboratory-confirmed avian AIV",
+          "decision": "retain",
+          "rule": "Q2 A (as presented to the author, CAN-2009 named explicitly): official Plateau desk-office outbreak records",
+          "caution": "The report describes farms as 'infected' from desk-office records and states neither 'confirmed' nor a laboratory assay; the weakest of the Q2 inclusions; sensitivity analysis; overlaps CAN-1719/CAN-1796."
         }
       },
       "human_verification": {
         "stage": "full_text_exclude",
         "ai_decision": "exclude",
-        "human_decision": "agree",
+        "human_decision": "disagree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 85"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 85",
+        "human_reason": "retain: Q2 A (as presented to the author, CAN-2009 named explicitly): official Plateau desk-office outbreak records"
       }
     },
     {
@@ -118248,9 +118522,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 86"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 86",
+        "human_reason": null
       }
     },
     {
@@ -118719,9 +118994,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 37"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 37",
+        "human_reason": null
       }
     },
     {
@@ -119083,9 +119359,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 38"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 38",
+        "human_reason": null
       }
     },
     {
@@ -119583,9 +119860,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 87"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 87",
+        "human_reason": null
       }
     },
     {
@@ -119755,9 +120033,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 98"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 98",
+        "human_reason": null
       }
     },
     {
@@ -120396,9 +120675,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 39"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 39",
+        "human_reason": null
       }
     },
     {
@@ -121091,9 +121371,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 99"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 99",
+        "human_reason": null
       }
     },
     {
@@ -121240,9 +121521,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 88"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 88",
+        "human_reason": null
       }
     },
     {
@@ -121308,9 +121590,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 106"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 106",
+        "human_reason": null
       }
     },
     {
@@ -121410,9 +121693,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 100"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 100",
+        "human_reason": null
       }
     },
     {
@@ -121601,9 +121885,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 101"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 101",
+        "human_reason": null
       }
     },
     {
@@ -122001,9 +122286,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 102"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 102",
+        "human_reason": null
       }
     },
     {
@@ -122244,9 +122530,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 89"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 89",
+        "human_reason": null
       }
     },
     {
@@ -122614,9 +122901,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 107"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 107",
+        "human_reason": null
       }
     },
     {
@@ -123055,9 +123343,10 @@
         "human_decision": "agree",
         "verifier": "Mayowa Olabode (MO)",
         "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 90"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 90",
+        "human_reason": null
       }
     },
     {
@@ -123744,8 +124033,8 @@
     "b20_excluded": 36,
     "b20_retained": 4,
     "screened_record_level": 2105,
-    "retained_record_level": 323,
-    "excluded_record_level": 1770,
+    "retained_record_level": 325,
+    "excluded_record_level": 1768,
     "scholar_rerun_screened": 228,
     "scholar_rerun_retained": 26,
     "scholar_rerun_excluded": 190,
@@ -123763,7 +124052,7 @@
     "pilot_size": 40,
     "created": "2026-09-20",
     "pilot_selection": "Deterministic title-keyword strata, canonical_id order.",
-    "status": "2093 unique identities (12 duplicate records removed); full-text gate closed: 323 candidates = 122 provisional retain + 113 excluded + 88 not retrieved; report counts, pending report-to-study linkage",
+    "status": "2093 unique identities (12 duplicate records removed); full-text gate closed after human verification: 325 candidates = 126 provisional retain + 111 excluded + 88 not retrieved; report counts, pending report-to-study linkage",
     "prior_votes": "Retained as lineage-level evidence; precollapse aggregate votes remain explicitly discarded and are not inherited silently.",
     "last_update": "2026-09-29",
     "b19_note": "The earlier B19 CAN-0241-CAN-0280 pass was a duplicate-range audit/retrieval pilot and is non-additive to the 1,877 identity denominator.",
@@ -124155,7 +124444,12 @@
       "scope": "429 decisions: all 122 full-text retains, all 113 full-text excludes, all 12 duplicate removals, 182 title exclusions (seeded 10% sample of 1,770, seed 20260929, plus 5 adjudication overrides); 107 flagged must-check. The 88 not-retrieved reports carry no decision.",
       "result": "429/429 AI decisions confirmed; 0 overturned.",
       "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
-      "caveat": "Because confirmation was given as a single statement rather than row by row, human-AI agreement (100%) is not an independent agreement statistic and must not be reported as one."
+      "caveat": "Because confirmation was given as a single statement rather than row by row, human-AI agreement (100%) is not an independent agreement statistic and must not be reported as one.",
+      "rules": {
+        "Q1": "A - secondary or global analyses that reuse Nigerian data (outbreak databases, public sequences) are eligible when they produce Nigeria-specific analytic results (phylogenetic, spatial or temporal); overlap is handled at report-to-study linkage. Narrative compilations, reprinted tables and model-predicted suitability are not analytic Nigeria-specific results.",
+        "Q2": "A - official outbreak records described in the report as 'confirmed' are eligible even when the laboratory assay is not named (Nigerian confirmation runs through NVRI); flag for sensitivity analysis.",
+        "Q3": "A - reports that only reprint official outbreak tables without analysis (CAN-0055, CAN-2082) stay excluded; the same counts come from national records used by included studies."
+      }
     }
   }
 }
