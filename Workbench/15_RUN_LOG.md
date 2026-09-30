@@ -1,5 +1,39 @@
 # Run log + gate checklists (update as you go)
-## Phase B addendum: the author's second pass over the 107 priority rows - 2026-09-30 (latest)
+## Phase D: extraction pilot and form v2 - 2026-09-30 (latest)
+- **Pilot.** Two extractors worked blind on the same 10 studies with per-study form v1:
+  - R1 = `executor` (Opus 5.5); R2 = `reviewer` (Sonnet 5.5).
+  - The 10: STU-025, 028, 049, 057, 063, 069, 071, 072, 100 and 110.
+  - They cover molecular, serology, official-records, secondary, wild-bird, thesis, LPAI, national surveillance and spatial studies.
+  - The unit is one record per study, drawn from all its reports.
+  - Workspace: `D:\AvianInfluenzaSysRev_retrieval_20260927\extraction\` (`EXTRACTION_FORM_v1.md`/`v2.md`, `BATCH_BRIEF.md`, `R1_pilot.json`, `r2_scratch\R2_pilot.json`).
+- **Agreement.** High on design, period, states, subtypes, headline counts and reassortment/introduction calls. Differences came mainly from the form:
+  - findings-row granularity
+  - pathotype basis
+  - no "inherited reassortant" or "hypothesised introduction" options
+  - one citation field for multi-report studies
+  - RoB tool choice for records reviews and secondary studies
+- **Adjudicated:**
+  - STU-071: the Nigerian H5N8 is "inherited" (its reassortant genotype was shown elsewhere). The H9N2 19 genomes go in one row.
+  - STU-110: introduction is "hypothesised only".
+  - STU-028: Jema'a is recorded as printed, with the inconsistency logged.
+  - STU-025 shares the NVRI 2006-08 dataset (299 cases) with STU-110 and is counted once.
+- **Access gaps.** CAN-0244 (the only report of STU-025) and CAN-0329 could be read only as abstracts, because of paywall or CAPTCHA blocks; no bypass was attempted.
+- **Internal inconsistencies found in reports:**
+  - CAN-1796: 304 cases vs 287 positive farms; birds 889,980 / 825,000 / 836,031.
+  - CAN-1785: four LGAs, not five; 0.8% printed for 5/250.
+  - CAN-0782: "H5N2" applied to H5-only RT-PCR positives.
+  - CAN-2033: "all clade 2.2" from a 154-nt BLAST, one clone best matching Vietnam 2005; OR 3.02 is a mortality contrast, not infection risk.
+  - CAN-1602: 13 H5N8 genomes vs 12 outbreaks.
+- **Form v2.** Adds:
+  - per-report access level
+  - the row rule (evidence × subtype × host × state × year)
+  - `pathotype_basis`, `n_characterised` and `report` per row
+  - reassortment "inherited" and introduction "hypothesised only"
+  - `molecular` as a per-subtype list
+  - `inconsistencies` and `other_outcomes`
+  - a RoB-tool mapping rule
+- **Full extraction.** 112 studies, in batches of about 15, with dual blind R1/R2 per the protocol (dual for outcome fields). Batch 01 is the 10 pilot studies re-done under v2, plus STU-001 to 005. Each batch is compared and adjudicated by the main session.
+## Phase B addendum: the author's second pass over the 107 priority rows - 2026-09-30
 - **Why.** No second human screener is available, so the author chose to recheck the 107 priority rows themselves before Phase D.
 - **Tool.** A private page, https://claude.ai/artifact/9jhGWfFgZtxun9p8HnfEqS.
   - It shows one row per screen: the current register decision, the reviewers' evidence and the author's first-check answer.

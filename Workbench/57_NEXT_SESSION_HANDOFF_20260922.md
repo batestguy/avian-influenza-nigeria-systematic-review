@@ -1,5 +1,5 @@
 # Next-session handoff - Nigeria avian influenza systematic review
-## Latest handoff - 30 September 2026 (Phase C done; author recheck done; Phase D next)
+## Latest handoff - 30 September 2026 (Phase D extraction under way)
 
 - **Result:** **125 included reports = 112 studies.**
   - The author excluded CAN-1610 on 30 Sept: a multi-country pigeon sequence compilation, excluded under rule Q1.
@@ -11,9 +11,11 @@
   - "For accessibility reasons" is confirmed (file 14). There is no second human.
   - The author rechecked all 107 priority rows directly in the recheck page: **107/107 correct**, in about 3.5 minutes. Report it as a reconfirmation (file 15 top).
   - Nothing is pending with the author.
-- **Next: Phase D.**
-  - Extraction pilot on about 10 studies using the file 20 shells, then full extraction per **study** (study_primary report plus companions).
-  - Honour the `overlapping_data_with` flags and the file 15 extraction flags. For example, CAN-1796 is the umbrella for Plateau outbreak counts, and the STU-071 denominator is counted once.
+- **Phase D is under way.**
+  - The pilot is done and form v2 is written (file 15 top). Workspace: `D:\AvianInfluenzaSysRev_retrieval_20260927\extraction\`.
+  - Each batch: launch R1 (`executor`) and R2 (`reviewer`) with the one-line prompt pattern, "Read BATCH_BRIEF.md; batch NN; studies ...". Outputs are `R1_batchNN.json` and `r2_scratch\R2_batchNN.json`. Then compare, adjudicate against the texts, and save `consensus_batchNN.json`.
+  - Batch 01 (the 10 pilot studies + STU-001 to 005) was launched 30 Sept. If the session ended before it finished, check that both output files exist before relaunching.
+  - Remaining studies: STU-006 to STU-112, excluding the pilot IDs, about 7 batches of 14-15.
 - **To rerun the linkage after any eligibility change:** `adjudicate_linkage.py`, then `apply_linkage.py`, then `prisma_flow.py`. Study IDs renumber, so do this before extraction starts, not after.
 - **Optional:** open the 12 reports not verified in full text (CAN-0031, 0058, 0066, 0129, 0147, 0191, 0243, 0244, 0282, 0329, 0330, 1662) through legal routes. This happens naturally at extraction.
 
