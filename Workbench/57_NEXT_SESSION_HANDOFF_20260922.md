@@ -1,16 +1,17 @@
 # Next-session handoff - Nigeria avian influenza systematic review
-## Latest handoff - 30 September 2026 (Phase C done; one author question open; Phase D next)
+## Latest handoff - 30 September 2026 (Phase C done; Phase D next)
 
-- **Result:** 126 included reports = **113 studies**.
-  - Linkage is on every retained record in file 56 (`report_linkage.study_id` etc.).
+- **Result:** **125 included reports = 112 studies.**
+  - The author excluded CAN-1610 on 30 Sept: a multi-country pigeon sequence compilation, excluded under rule Q1.
+  - Linkage is on every retained record in file 56 (`report_linkage.study_id`, `study_reports`, `overlapping_data_with`).
   - The PRISMA 2020 flow is filled in file 22 and reconciled by script (`linkage/prisma_flow.py` in the retrieval workspace).
   - Method, merges, reviewer fixes and extraction flags are in the file 15 top checkpoint.
-- **Open with the author (ask as one yes/no):** CAN-1610 is Cui et al. 2025 (Viruses), a China-led compilation of 658 pigeon sequences. Its only Nigerian content is one 2006 isolate that is already in CAN-2005/0337. Recommend excluding it under rule Q1, which would give 125 reports and 112 studies.
-  - Before applying: record `full_text_eligibility.human_override`, set final_status to full_text_excluded, rerun `apply_linkage.py`-style study renumbering (or drop STU for CAN-1610), rerun `prisma_flow.py`, and update files 15 and 22.
-- **Still open with the author:** the accessibility wording in file 14, and whether a second human can check the priority rows.
+- **Register:** 2,105 = 1,768 title-excluded + 325 full-text candidates (**125 retain / 112 exclude / 88 not retrieved**) + 12 duplicates removed.
+- **Still open with the author:** the accessibility wording in file 14, and whether a second human can check the priority rows. Neither has been answered.
 - **Next: Phase D.**
-  - Extraction pilot on about 10 studies using the file 20 shells, then full extraction per **study**, using the study_primary report plus its companions.
-  - Honour the `overlapping_data_with` flags and the file 15 extraction flags; for example, CAN-1796 is the umbrella for Plateau outbreak counts, and the STU-071 denominator is counted once.
+  - Extraction pilot on about 10 studies using the file 20 shells, then full extraction per **study** (study_primary report plus companions).
+  - Honour the `overlapping_data_with` flags and the file 15 extraction flags. For example, CAN-1796 is the umbrella for Plateau outbreak counts, and the STU-071 denominator is counted once.
+- **To rerun the linkage after any eligibility change:** `adjudicate_linkage.py`, then `apply_linkage.py`, then `prisma_flow.py`. Study IDs renumber, so do this before extraction starts, not after.
 - **Optional:** open the 12 reports not verified in full text (CAN-0031, 0058, 0066, 0129, 0147, 0191, 0243, 0244, 0282, 0329, 0330, 1662) through legal routes. This happens naturally at extraction.
 
 ## Previous handoff - 29 September 2026, session close (Phase C approved, not started)

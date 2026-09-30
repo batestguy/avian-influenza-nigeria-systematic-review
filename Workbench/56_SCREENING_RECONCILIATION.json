@@ -3068,7 +3068,7 @@
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 112"
       },
       "report_linkage": {
-        "study_id": "STU-111",
+        "study_id": "STU-110",
         "study_role": "companion",
         "study_primary": "CAN-2033",
         "study_reports": [
@@ -4928,7 +4928,7 @@
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 114"
       },
       "report_linkage": {
-        "study_id": "STU-087",
+        "study_id": "STU-086",
         "study_role": "companion",
         "study_primary": "CAN-1715",
         "study_reports": [
@@ -23210,7 +23210,7 @@
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 136"
       },
       "report_linkage": {
-        "study_id": "STU-109",
+        "study_id": "STU-108",
         "study_role": "companion",
         "study_primary": "CAN-2005",
         "study_reports": [
@@ -45991,7 +45991,7 @@
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 146"
       },
       "report_linkage": {
-        "study_id": "STU-111",
+        "study_id": "STU-110",
         "study_role": "companion",
         "study_primary": "CAN-2033",
         "study_reports": [
@@ -85569,7 +85569,7 @@
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 167"
       },
       "report_linkage": {
-        "study_id": "STU-085",
+        "study_id": "STU-084",
         "study_role": "companion",
         "study_primary": "CAN-1712",
         "study_reports": [
@@ -93618,7 +93618,7 @@
         "PMID:40285026"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "provisional_full_text_eligible",
+      "final_status": "full_text_excluded",
       "vote_disposition": [
         {
           "source": "OpenAlex/Crossref",
@@ -93642,7 +93642,7 @@
         "reviewer": "main-agent",
         "basis": "fresh independent R1/R2 reconstruction; conservative union"
       },
-      "full_text_status": "full_text_eligible_provisional",
+      "full_text_status": "full_text_excluded",
       "retrieval": {
         "checked": "2026-09-24",
         "route": "Europe PMC public metadata/full-text-link service",
@@ -93734,32 +93734,36 @@
           "reviewer": "main-agent",
           "basis": "Concordant independent full-text votes with Nigeria-specific extractable avian data. Study-level overlap and extraction remain pending.",
           "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12031089/fullTextXML",
-          "checked": "2026-09-26"
+          "checked": "2026-09-26",
+          "reason_code": "no primary data",
+          "superseded_by": "human_override 2026-09-30"
+        },
+        "human_override": {
+          "date": "2026-09-30",
+          "by": "Mayowa Olabode (MO)",
+          "previous_decision": "retain",
+          "previous_reason_code": null,
+          "decision": "exclude",
+          "reason_code": "no primary data",
+          "rule": "Q1 A: compilation of 658 public pigeon AIV sequences from 21 countries (Cui et al. 2025, Viruses 17(4):585); its only Nigerian datum is one 2006 isolate (A/pigeon/Nigeria/VRD370/2006) already reported in CAN-2005/CAN-0337, with no Nigeria-specific analytic result.",
+          "caution": "Register R1 evidence misnamed the journal as Veterinary Sciences; it is Viruses."
         }
       },
       "human_verification": {
         "stage": "full_text_retain",
         "ai_decision": "retain",
-        "human_decision": "agree",
+        "human_decision": "disagree",
         "verifier": "Mayowa Olabode (MO)",
-        "date": "2026-09-29",
-        "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
+        "date": "2026-09-30",
+        "mode": "row-level decision in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "N",
-        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 174"
+        "source": "Workbench/58_HUMAN_VERIFICATION.csv row 174",
+        "human_reason": "exclude: Q1 A: compilation of 658 public pigeon AIV sequences from 21 countries (Cui et al. 2025, Viruses 17(4):585); its only Nigerian datum is one 2006 isolate (A/pigeon/Nigeria/VRD370/2006) already reported in CAN-2005/CAN-0337, with no Nigeria-specific analytic result."
       },
       "report_linkage": {
-        "study_id": "STU-073",
-        "study_role": "primary",
-        "study_primary": "CAN-1610",
-        "study_reports": [
-          "CAN-1610"
-        ],
-        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
-        "overlapping_data_with": [
-          "CAN-2005"
-        ],
-        "linked": "2026-09-30",
-        "eligibility_query": "Phase C identity check (R1 + reviewer, 2026-09-30): Cui et al. 2025, Viruses 17(4):585, a compilation of 658 public pigeon AIV sequences from 21 countries; the only Nigerian datum is A/pigeon/Nigeria/VRD370/2006, already in CAN-2005/CAN-0337. Register R1 evidence misnamed the journal. Pending the author decision on whether it meets rule Q1."
+        "excluded_after_linkage": "2026-09-30",
+        "note": "Removed from report-to-study linkage when excluded by the author.",
+        "eligibility_query_answered": "exclude (author, 2026-09-30)"
       }
     },
     {
@@ -94793,7 +94797,7 @@
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 175"
       },
       "report_linkage": {
-        "study_id": "STU-074",
+        "study_id": "STU-073",
         "study_role": "primary",
         "study_primary": "CAN-1630",
         "study_reports": [
@@ -95151,7 +95155,7 @@
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 176"
       },
       "report_linkage": {
-        "study_id": "STU-075",
+        "study_id": "STU-074",
         "study_role": "primary",
         "study_primary": "CAN-1637",
         "study_reports": [
@@ -95738,7 +95742,7 @@
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 177"
       },
       "report_linkage": {
-        "study_id": "STU-076",
+        "study_id": "STU-075",
         "study_role": "primary",
         "study_primary": "CAN-1650",
         "study_reports": [
@@ -96368,7 +96372,7 @@
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 178"
       },
       "report_linkage": {
-        "study_id": "STU-077",
+        "study_id": "STU-076",
         "study_role": "primary",
         "study_primary": "CAN-1662",
         "study_reports": [
@@ -96642,7 +96646,7 @@
         "human_reason": null
       },
       "report_linkage": {
-        "study_id": "STU-078",
+        "study_id": "STU-077",
         "study_role": "primary",
         "study_primary": "CAN-1666",
         "study_reports": [
@@ -96776,7 +96780,7 @@
         "human_reason": null
       },
       "report_linkage": {
-        "study_id": "STU-079",
+        "study_id": "STU-078",
         "study_role": "primary",
         "study_primary": "CAN-1667",
         "study_reports": [
@@ -97111,7 +97115,7 @@
         "human_reason": "retain: Q2 A: outbreaks 'duly confirmed' by the state desk office with samples sent to NVRI"
       },
       "report_linkage": {
-        "study_id": "STU-080",
+        "study_id": "STU-079",
         "study_role": "primary",
         "study_primary": "CAN-1672",
         "study_reports": [
@@ -97480,7 +97484,7 @@
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 179"
       },
       "report_linkage": {
-        "study_id": "STU-081",
+        "study_id": "STU-080",
         "study_role": "primary",
         "study_primary": "CAN-1678",
         "study_reports": [
@@ -97616,7 +97620,7 @@
         "human_reason": null
       },
       "report_linkage": {
-        "study_id": "STU-082",
+        "study_id": "STU-081",
         "study_role": "primary",
         "study_primary": "CAN-1679",
         "study_reports": [
@@ -98343,7 +98347,7 @@
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 180"
       },
       "report_linkage": {
-        "study_id": "STU-083",
+        "study_id": "STU-082",
         "study_role": "primary",
         "study_primary": "CAN-1693",
         "study_reports": [
@@ -99278,7 +99282,7 @@
         "human_reason": null
       },
       "report_linkage": {
-        "study_id": "STU-084",
+        "study_id": "STU-083",
         "study_role": "primary",
         "study_primary": "CAN-1710",
         "study_reports": [
@@ -99557,7 +99561,7 @@
         "human_reason": null
       },
       "report_linkage": {
-        "study_id": "STU-085",
+        "study_id": "STU-084",
         "study_role": "primary",
         "study_primary": "CAN-1712",
         "study_reports": [
@@ -99827,7 +99831,7 @@
         "human_reason": null
       },
       "report_linkage": {
-        "study_id": "STU-086",
+        "study_id": "STU-085",
         "study_role": "primary",
         "study_primary": "CAN-1714",
         "study_reports": [
@@ -99971,7 +99975,7 @@
         "human_reason": null
       },
       "report_linkage": {
-        "study_id": "STU-087",
+        "study_id": "STU-086",
         "study_role": "primary",
         "study_primary": "CAN-1715",
         "study_reports": [
@@ -100146,7 +100150,7 @@
         "human_reason": null
       },
       "report_linkage": {
-        "study_id": "STU-088",
+        "study_id": "STU-087",
         "study_role": "primary",
         "study_primary": "CAN-1716",
         "study_reports": [
@@ -100320,7 +100324,7 @@
         "human_reason": null
       },
       "report_linkage": {
-        "study_id": "STU-089",
+        "study_id": "STU-088",
         "study_role": "primary",
         "study_primary": "CAN-1717",
         "study_reports": [
@@ -100543,7 +100547,7 @@
         "human_reason": null
       },
       "report_linkage": {
-        "study_id": "STU-090",
+        "study_id": "STU-089",
         "study_role": "primary",
         "study_primary": "CAN-1719",
         "study_reports": [
@@ -100970,7 +100974,7 @@
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 181"
       },
       "report_linkage": {
-        "study_id": "STU-091",
+        "study_id": "STU-090",
         "study_role": "primary",
         "study_primary": "CAN-1724",
         "study_reports": [
@@ -101390,7 +101394,7 @@
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 182"
       },
       "report_linkage": {
-        "study_id": "STU-092",
+        "study_id": "STU-091",
         "study_role": "primary",
         "study_primary": "CAN-1729",
         "study_reports": [
@@ -101514,7 +101518,7 @@
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 183"
       },
       "report_linkage": {
-        "study_id": "STU-093",
+        "study_id": "STU-092",
         "study_role": "primary",
         "study_primary": "CAN-1730",
         "study_reports": [
@@ -101703,7 +101707,7 @@
         "human_reason": null
       },
       "report_linkage": {
-        "study_id": "STU-094",
+        "study_id": "STU-093",
         "study_role": "primary",
         "study_primary": "CAN-1731",
         "study_reports": [
@@ -102037,7 +102041,7 @@
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 184"
       },
       "report_linkage": {
-        "study_id": "STU-095",
+        "study_id": "STU-094",
         "study_role": "primary",
         "study_primary": "CAN-1734",
         "study_reports": [
@@ -102211,7 +102215,7 @@
         "human_reason": null
       },
       "report_linkage": {
-        "study_id": "STU-096",
+        "study_id": "STU-095",
         "study_role": "primary",
         "study_primary": "CAN-1735",
         "study_reports": [
@@ -102386,7 +102390,7 @@
         "human_reason": null
       },
       "report_linkage": {
-        "study_id": "STU-097",
+        "study_id": "STU-096",
         "study_role": "primary",
         "study_primary": "CAN-1737",
         "study_reports": [
@@ -102508,7 +102512,7 @@
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 185"
       },
       "report_linkage": {
-        "study_id": "STU-098",
+        "study_id": "STU-097",
         "study_role": "primary",
         "study_primary": "CAN-1738",
         "study_reports": [
@@ -104234,7 +104238,7 @@
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 186"
       },
       "report_linkage": {
-        "study_id": "STU-099",
+        "study_id": "STU-098",
         "study_role": "primary",
         "study_primary": "CAN-1778",
         "study_reports": [
@@ -104522,7 +104526,7 @@
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 187"
       },
       "report_linkage": {
-        "study_id": "STU-100",
+        "study_id": "STU-099",
         "study_role": "primary",
         "study_primary": "CAN-1782",
         "study_reports": [
@@ -105286,7 +105290,7 @@
         "human_reason": null
       },
       "report_linkage": {
-        "study_id": "STU-101",
+        "study_id": "STU-100",
         "study_role": "primary",
         "study_primary": "CAN-1796",
         "study_reports": [
@@ -108026,7 +108030,7 @@
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 189"
       },
       "report_linkage": {
-        "study_id": "STU-111",
+        "study_id": "STU-110",
         "study_role": "companion",
         "study_primary": "CAN-2033",
         "study_reports": [
@@ -109035,7 +109039,7 @@
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 190"
       },
       "report_linkage": {
-        "study_id": "STU-102",
+        "study_id": "STU-101",
         "study_role": "primary",
         "study_primary": "CAN-1868",
         "study_reports": [
@@ -109642,7 +109646,7 @@
         "human_reason": null
       },
       "report_linkage": {
-        "study_id": "STU-103",
+        "study_id": "STU-102",
         "study_role": "primary",
         "study_primary": "CAN-1875",
         "study_reports": [
@@ -110388,7 +110392,7 @@
         "human_reason": null
       },
       "report_linkage": {
-        "study_id": "STU-104",
+        "study_id": "STU-103",
         "study_role": "primary",
         "study_primary": "CAN-1884",
         "study_reports": [
@@ -111915,7 +111919,7 @@
         "human_reason": null
       },
       "report_linkage": {
-        "study_id": "STU-105",
+        "study_id": "STU-104",
         "study_role": "primary",
         "study_primary": "CAN-1907",
         "study_reports": [
@@ -112544,7 +112548,7 @@
         "human_reason": null
       },
       "report_linkage": {
-        "study_id": "STU-106",
+        "study_id": "STU-105",
         "study_role": "primary",
         "study_primary": "CAN-1914",
         "study_reports": [
@@ -112936,7 +112940,7 @@
         "human_reason": null
       },
       "report_linkage": {
-        "study_id": "STU-107",
+        "study_id": "STU-106",
         "study_role": "primary",
         "study_primary": "CAN-1919",
         "study_reports": [
@@ -114257,7 +114261,7 @@
         "companion_report_of": "CAN-1778",
         "basis": "Preprint of the study reported in CAN-1778; link at the report-to-study stage (Phase C).",
         "checked": "2026-09-29",
-        "possible_companion_of_study": "STU-099",
+        "possible_companion_of_study": "STU-098",
         "study_primary": "CAN-1778",
         "linked": "2026-09-30",
         "note": "Not retrieved; not counted as an included report."
@@ -118027,7 +118031,7 @@
         "human_reason": null
       },
       "report_linkage": {
-        "study_id": "STU-108",
+        "study_id": "STU-107",
         "study_role": "primary",
         "study_primary": "CAN-1995",
         "study_reports": [
@@ -118700,7 +118704,7 @@
         "human_reason": null
       },
       "report_linkage": {
-        "study_id": "STU-109",
+        "study_id": "STU-108",
         "study_role": "primary",
         "study_primary": "CAN-2005",
         "study_reports": [
@@ -118712,7 +118716,6 @@
           "CAN-0243",
           "CAN-0541",
           "CAN-1357",
-          "CAN-1610",
           "CAN-1678"
         ],
         "linked": "2026-09-30",
@@ -119053,7 +119056,7 @@
         "human_reason": "retain: Q2 A (as presented to the author, CAN-2009 named explicitly): official Plateau desk-office outbreak records"
       },
       "report_linkage": {
-        "study_id": "STU-110",
+        "study_id": "STU-109",
         "study_role": "primary",
         "study_primary": "CAN-2009",
         "study_reports": [
@@ -120742,7 +120745,7 @@
         "human_reason": null
       },
       "report_linkage": {
-        "study_id": "STU-111",
+        "study_id": "STU-110",
         "study_role": "primary",
         "study_primary": "CAN-2033",
         "study_reports": [
@@ -121132,7 +121135,7 @@
         "human_reason": null
       },
       "report_linkage": {
-        "study_id": "STU-112",
+        "study_id": "STU-111",
         "study_role": "primary",
         "study_primary": "CAN-2038",
         "study_reports": [
@@ -122466,7 +122469,7 @@
         "human_reason": null
       },
       "report_linkage": {
-        "study_id": "STU-113",
+        "study_id": "STU-112",
         "study_role": "primary",
         "study_primary": "CAN-2056",
         "study_reports": [
@@ -125998,7 +126001,7 @@
       "seek_further_info_candidates": 1,
       "note": "Report-level counts only. Identity/report and dataset overlaps unresolved; no final included-study count."
     },
-    "last_updated": "2026-09-29",
+    "last_updated": "2026-09-30",
     "scholar_rerun_20260928": {
       "search": "Google Scholar Q1-Q4 via SerpApi, 2026-09-28; 800 rows, 519 unique, 291 matched existing identities, 228 new (CAN-1878 to CAN-2105). Raw: D:/AvianInfluenzaSysRev_retrieval_20260927/scholar_rerun/.",
       "screening": "Blind R1/R2 title/venue/snippet votes (file 18), main-session adjudication 2026-09-29: conservative union with 3 overrides to exclude (SCH-090, SCH-192, SCH-211).",
@@ -126244,7 +126247,7 @@
       "verifier": "Mayowa Olabode (review author)",
       "file": "Workbench/58_HUMAN_VERIFICATION.csv",
       "scope": "429 decisions: all 122 full-text retains, all 113 full-text excludes, all 12 duplicate removals, 182 title exclusions (seeded 10% sample of 1,770, seed 20260929, plus 5 adjudication overrides); 107 flagged must-check. The 88 not-retrieved reports carry no decision.",
-      "result": "429 AI decisions verified: 423 agree, 6 disagree. The 6 changes: CAN-1535, CAN-1558 (rule Q1) and CAN-1672, CAN-2009 (rule Q2) moved from full-text exclude to retain; CAN-0343 and CAN-0345 moved from title exclusion to full text, then excluded at full text by blind R1/R2 (non-Nigeria, no Nigeria data).",
+      "result": "429 AI decisions verified: 423 agree, 6 disagree. The 6 changes: CAN-1535, CAN-1558 (rule Q1) and CAN-1672, CAN-2009 (rule Q2) moved from full-text exclude to retain; CAN-0343 and CAN-0345 moved from title exclusion to full text, then excluded at full text by blind R1/R2 (non-Nigeria, no Nigeria data). Later change (2026-09-30, Phase C identity check): CAN-1610 retain -> exclude (Q1), author decision.",
       "mode": "Two stages, both in the session chat and transcribed by the AI assistant at the author's request (accessibility): (1) 2026-09-29 blanket confirmation of all 429 rows; (2) 2026-09-29 row-level assisted review of the 107 must-check rows, in which the author read an AI-prepared one-line summary per row and gave each decision. The 322 other rows rest on the blanket confirmation only.",
       "caveat": "Row-level decisions relied on AI-prepared summaries rather than an independent re-reading of each full text; the 322 lower-priority rows were confirmed in a single statement. Do not report human-AI agreement as an independent agreement statistic.",
       "rules": {
@@ -126257,11 +126260,11 @@
     "report_study_linkage": {
       "date": "2026-09-30",
       "method": "R1 executor agent proposed links from full texts (legal routes only) and OpenAlex/Crossref metadata; reviewer agent verified against texts; main session adjudicated. Study = shared samples/animals/outbreaks (Cochrane Handbook ch. 5); separate studies reusing the same data are flagged overlapping_data for synthesis.",
-      "reports_included": 126,
-      "studies_included": 113,
+      "reports_included": 125,
+      "studies_included": 112,
       "files": "D:/AvianInfluenzaSysRev_retrieval_20260927/linkage/ (R1_linkage.json, linkage_final.json, adjudicate_linkage.py, apply_linkage.py, prisma_flow.py)",
       "unverified": "Reports not opened in Phase C (links rest on register evidence/metadata): CAN-0031, 0058, 0066, 0129, 0147, 0191, 0243, 0244, 0282, 0329, 0330, 1662. NR companions CAN-0204 and CAN-1939 are possible, unverified.",
-      "pending_author": "CAN-1610 eligibility (see its report_linkage.eligibility_query)."
+      "author_decisions": "CAN-1610 excluded by the author 2026-09-30 after the Phase C identity check (rule Q1)."
     }
   }
 }

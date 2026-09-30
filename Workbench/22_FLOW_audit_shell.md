@@ -4,7 +4,7 @@
 
 ## Flow (numbers from `prisma_flow.py`, reconciled with file 56 on 2026-09-30; diagram drawn at write stage)
 
-**Status (2026-09-30):** filled. The counts are provisional until the author decides on CAN-1610; if it is excluded, the figures become 125 reports and 112 studies.
+**Status (2026-09-30):** filled, including the author's exclusion of CAN-1610 (rule Q1).
 
 **Identification - databases and registers**
 - Records identified: 2,367. OpenAlex 1,000 and Crossref 1,000 exports together gave 1,744 rows. PubMed 140, Scopus 204, Web of Science 175, ScienceDirect 25, AJOL 79 unique article pages (from 144 query rows).
@@ -19,11 +19,11 @@
 - Records screened: 1,877.
 - Excluded on title/metadata: 1,578, including 6 outside the 2006-2026 window.
 - Reports sought for retrieval: 299. Not retrieved: 80.
-- Reports assessed for eligibility: 219. Excluded: 105:
+- Reports assessed for eligibility: 219. Excluded: 106:
   - non-Nigeria, no Nigeria data: 52
   - no laboratory-confirmed avian AIV: 19
   - no avian-host field data: 17
-  - no primary data: 12
+  - no primary data: 13
   - no epidemiological/molecular/spatial-temporal data: 2
   - duplicate dataset: 1
   - non-AIV: 1
@@ -39,8 +39,8 @@
   - experimental only: 1
 
 **Included**
-- Reports: 126 (databases 114 + other methods 12).
-- **Studies: 113** (report-to-study linkage, file 15, 2026-09-30).
+- Reports: 125 (databases 113 + other methods 12).
+- **Studies: 112** (report-to-study linkage, file 15, 2026-09-30).
 - Included in syntheses (temporal / geographic / host / molecular): ____ (after extraction).
 
 ## Final audit (score with files 01/02/04 — paste location per item)

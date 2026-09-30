@@ -11,20 +11,20 @@
   - CAN-1730 is now `overlapping_data` with CAN-0114 at specimen level: count the shared Bauchi/Gombe sera once.
   - Not-retrieved companions CAN-0204 and CAN-1939 are marked possible, unverified.
   - R1's checker forced same_study labels onto sibling pairs through transitivity; those labels were corrected.
-- **Result.** **126 reports = 113 studies.** 10 studies have more than one retained report:
+- **Result.** **126 reports = 113 studies**, then **125 reports = 112 studies** after the author excluded CAN-1610 (below). Study IDs below are the post-exclusion numbering. 10 studies have more than one retained report:
   - STU-004: CAN-0025 + 1902 (NVRI 2015 resurgence).
   - STU-008: CAN-0060 + 1711 (Zaria case 10345).
   - STU-014: CAN-0114 + 0147 (Bauchi/Gombe survey); CAN-0209 not retrieved.
   - STU-022: CAN-0191 + 1882 (preprint and article).
   - STU-028: CAN-0329 + 1785 (the same 480 Kaduna sera).
   - STU-071: CAN-1585 + 0491 + 1484 (2019 national LBM surveillance; keep H9N2, H5N6 and H5N8 separate).
-  - STU-085: CAN-1712 + 1453 (the same Gombe duck isolates).
-  - STU-087: CAN-1715 + 0058 (the same article recorded twice).
-  - STU-109: CAN-2005 thesis + 0337 (the same 35 isolates).
-  - STU-111: CAN-2033 thesis + 0039, 0714, 1845 (NVRI 2006-08 submissions, 233 farms).
-- **Written to file 56.** `report_linkage` fields study_id, study_role, study_reports, study_basis and overlapping_data_with on all 126 retained reports, plus `metadata.report_study_linkage`.
+  - STU-084: CAN-1712 + 1453 (the same Gombe duck isolates).
+  - STU-086: CAN-1715 + 0058 (the same article recorded twice).
+  - STU-108: CAN-2005 thesis + 0337 (the same 35 isolates).
+  - STU-110: CAN-2033 thesis + 0039, 0714, 1845 (NVRI 2006-08 submissions, 233 farms).
+- **Written to file 56.** `report_linkage` fields study_id, study_role, study_reports, study_basis and overlapping_data_with on all retained reports (125 after the exclusion), plus `metadata.report_study_linkage`.
 - **Not verified in full text.** CAN-0031, 0058, 0066, 0129, 0147, 0191, 0243, 0244, 0282, 0329, 0330 and 1662; their links rest on register evidence and metadata.
-- **Pending the author.** CAN-1610 is Cui et al. 2025 (Viruses), a compilation of 658 pigeon sequences from 21 countries. Its only Nigerian datum is one 2006 isolate, which is already in CAN-2005/0337. Under rule Q1 it is probably not eligible. The register R1 evidence misnamed its journal. If it is excluded, the counts become 125 reports and 112 studies.
+- **Author decision (2026-09-30): CAN-1610 excluded** (retain → exclude, rule Q1, reason "no primary data"; `human_override` in file 56, file 58 row 174 set to disagree; script `linkage/exclude_1610.py`). CAN-1610 is Cui et al. 2025 (Viruses), a compilation of 658 pigeon sequences from 21 countries. Its only Nigerian datum is one 2006 isolate, which is already in CAN-2005/0337. The register R1 evidence misnamed its journal.
 - **Extraction flags.**
   - CAN-0114: 950 vs 1,000 sera.
   - CAN-0266 vs thesis: 465 vs 840 outbreaks.
@@ -38,14 +38,14 @@
     - Duplicates removed: 490. Screened: 1,877.
     - Excluded on title/metadata: 1,578, of which 6 were outside the date window.
     - Sought: 299. Not retrieved: 80. Assessed: 219.
-    - Excluded: 105 (non-Nigeria 52, no lab-confirmed avian AIV 19, no avian-host field data 17, no primary data 12, no epi/molecular/spatial-temporal data 2, duplicate dataset 1, non-AIV 1, experimental only 1).
-    - Reports included: 114.
+    - Excluded: 106 (non-Nigeria 52, no lab-confirmed avian AIV 19, no avian-host field data 17, no primary data 13, no epi/molecular/spatial-temporal data 2, duplicate dataset 1, non-AIV 1, experimental only 1).
+    - Reports included: 113.
   - **Other methods** (Google Scholar dated update search, 2026-09-28):
     - 800 rows; 519 unique; 291 already identified; 228 new, of which 12 were later found to be duplicates. Screened: 216.
     - Excluded on title/snippet: 190. Sought: 26. Not retrieved: 8. Assessed: 18.
     - Excluded: 6 (non-Nigeria 2, no primary data 2, no lab-confirmed avian AIV 1, experimental only 1).
     - Reports included: 12.
-  - **Total: 126 reports of 113 studies.**
+  - **Total: 125 reports of 112 studies** (after the CAN-1610 exclusion; before it, 126 and 113).
 - **Register note corrected.** `metadata.human_verification` still said "429/429 confirmed; 0 overturned" (from the blanket stage). It now records 423 agree / 6 disagree and both stages.
 ## Phase B: row-level check of the 107 priority decisions - 2026-09-29 (supersedes the blanket-only note below)
 - **How it was done.** The author (MO) went through all 107 `must_check` rows in chat, in three batches.
