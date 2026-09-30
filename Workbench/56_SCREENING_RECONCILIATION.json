@@ -595,6 +595,17 @@
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 1",
         "human_reason": null
+      },
+      "report_linkage": {
+        "study_id": "STU-001",
+        "study_role": "primary",
+        "study_primary": "CAN-0006",
+        "study_reports": [
+          "CAN-0006"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -704,6 +715,17 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 108"
+      },
+      "report_linkage": {
+        "study_id": "STU-002",
+        "study_role": "primary",
+        "study_primary": "CAN-0007",
+        "study_reports": [
+          "CAN-0007"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -808,7 +830,19 @@
         "related_canonical_id": "CAN-0204",
         "state": "probable_same_dataset",
         "basis": "Kaduna 2014 wild-bird serology; Bulletin full article and IJID conference abstract share title and 157 sampled birds; verify dates and samples.",
-        "checked": "2026-09-26"
+        "checked": "2026-09-26",
+        "study_id": "STU-003",
+        "study_role": "primary",
+        "study_primary": "CAN-0008",
+        "study_reports": [
+          "CAN-0008"
+        ],
+        "study_basis": "Possible, unverified (companion report not retrieved; not a retained report). IJID 2014 conference abstract of the Assam et al. Kaduna wild-bird survey (Mar-Jun 2012); abstract not retrieved.",
+        "overlapping_data_with": [],
+        "linked": "2026-09-30",
+        "not_retrieved_companions": [
+          "CAN-0204"
+        ]
       },
       "human_verification": {
         "stage": "full_text_retain",
@@ -1962,6 +1996,23 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 110"
+      },
+      "report_linkage": {
+        "study_id": "STU-004",
+        "study_role": "primary",
+        "study_primary": "CAN-0025",
+        "study_reports": [
+          "CAN-0025",
+          "CAN-1902"
+        ],
+        "study_basis": "NVRI 2015 H5N1 resurgence: same index specimens (8 Kano carcasses, 7 Jan 2015; Lagos LBMs) and NVRI 2015 records; the seminar paper (to Sep 2015) is an earlier cut of the article (to Dec 2015, 542 cases).",
+        "overlapping_data_with": [
+          "CAN-0129",
+          "CAN-0745",
+          "CAN-1471",
+          "CAN-1473"
+        ],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -2442,6 +2493,22 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 111"
+      },
+      "report_linkage": {
+        "study_id": "STU-005",
+        "study_role": "primary",
+        "study_primary": "CAN-0031",
+        "study_reports": [
+          "CAN-0031"
+        ],
+        "study_basis": "Ten archival FFPE blocks from ten 2006-07 outbreaks (laboratory sub-study; thesis CAN-2033 Study 3). Overlap with CAN-0337 isolates unchecked. Full text not opened.",
+        "overlapping_data_with": [
+          "CAN-0039",
+          "CAN-0714",
+          "CAN-1845",
+          "CAN-1907"
+        ],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -2691,6 +2758,20 @@
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 2",
         "human_reason": null
+      },
+      "report_linkage": {
+        "study_id": "STU-006",
+        "study_role": "primary",
+        "study_primary": "CAN-0033",
+        "study_reports": [
+          "CAN-0033"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [
+          "CAN-0423",
+          "CAN-0541"
+        ],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -2985,6 +3066,23 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 112"
+      },
+      "report_linkage": {
+        "study_id": "STU-111",
+        "study_role": "companion",
+        "study_primary": "CAN-2033",
+        "study_reports": [
+          "CAN-2033",
+          "CAN-0039",
+          "CAN-0714",
+          "CAN-1845"
+        ],
+        "study_basis": "Akanbi 2014 PhD thesis on NVRI 2006-08 HPAI submissions: 153 commercial farms (CAN-0714) + 80 backyard farms (CAN-1845) = 233 farms; CAN-0039 reports the same 80 backyard farms.",
+        "overlapping_data_with": [
+          "CAN-0031",
+          "CAN-1907"
+        ],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -4269,6 +4367,17 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 113"
+      },
+      "report_linkage": {
+        "study_id": "STU-007",
+        "study_role": "primary",
+        "study_primary": "CAN-0053",
+        "study_reports": [
+          "CAN-0053"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -4817,6 +4926,18 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 114"
+      },
+      "report_linkage": {
+        "study_id": "STU-087",
+        "study_role": "companion",
+        "study_primary": "CAN-1715",
+        "study_reports": [
+          "CAN-1715",
+          "CAN-0058"
+        ],
+        "study_basis": "Same article (Meseko et al., Nig Vet J 41(1), doi 10.4314/nvj.v41i1.2) recorded twice; identical sera counts.",
+        "overlapping_data_with": [],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -5075,6 +5196,20 @@
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 3",
         "human_reason": null
+      },
+      "report_linkage": {
+        "study_id": "STU-008",
+        "study_role": "primary",
+        "study_primary": "CAN-0060",
+        "study_reports": [
+          "CAN-0060",
+          "CAN-1711"
+        ],
+        "study_basis": "The Samaru waterfowl case report (27 Apr 2007) is case 10345 of the ABU VTH Zaria case series; same authors.",
+        "overlapping_data_with": [
+          "CAN-1357"
+        ],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -5806,6 +5941,17 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 115"
+      },
+      "report_linkage": {
+        "study_id": "STU-009",
+        "study_role": "primary",
+        "study_primary": "CAN-0065",
+        "study_reports": [
+          "CAN-0065"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -5910,6 +6056,17 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 116"
+      },
+      "report_linkage": {
+        "study_id": "STU-010",
+        "study_role": "primary",
+        "study_primary": "CAN-0066",
+        "study_reports": [
+          "CAN-0066"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -6129,6 +6286,20 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 117"
+      },
+      "report_linkage": {
+        "study_id": "STU-011",
+        "study_role": "primary",
+        "study_primary": "CAN-0070",
+        "study_reports": [
+          "CAN-0070"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [
+          "CAN-0244",
+          "CAN-0835"
+        ],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -7201,6 +7372,17 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 118"
+      },
+      "report_linkage": {
+        "study_id": "STU-012",
+        "study_role": "primary",
+        "study_primary": "CAN-0086",
+        "study_reports": [
+          "CAN-0086"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -7344,6 +7526,20 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 119"
+      },
+      "report_linkage": {
+        "study_id": "STU-013",
+        "study_role": "primary",
+        "study_primary": "CAN-0087",
+        "study_reports": [
+          "CAN-0087"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [
+          "CAN-0751",
+          "CAN-1357"
+        ],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -9125,6 +9321,23 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 120"
+      },
+      "report_linkage": {
+        "study_id": "STU-014",
+        "study_role": "primary",
+        "study_primary": "CAN-0114",
+        "study_reports": [
+          "CAN-0114",
+          "CAN-0147"
+        ],
+        "study_basis": "One Bauchi/Gombe field survey (910 domestic + 21 semi-domestic + 69 wild birds): serology/risk (CAN-0114), RT-PCR co-infection (CAN-0147) and its IJID 2018 abstract (NR).",
+        "overlapping_data_with": [
+          "CAN-1730"
+        ],
+        "linked": "2026-09-30",
+        "not_retrieved_companions": [
+          "CAN-0209"
+        ]
       }
     },
     {
@@ -10136,6 +10349,23 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 121"
+      },
+      "report_linkage": {
+        "study_id": "STU-015",
+        "study_role": "primary",
+        "study_primary": "CAN-0129",
+        "study_reports": [
+          "CAN-0129"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [
+          "CAN-0025",
+          "CAN-0226",
+          "CAN-1471",
+          "CAN-1473",
+          "CAN-1902"
+        ],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -10361,6 +10591,20 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 122"
+      },
+      "report_linkage": {
+        "study_id": "STU-016",
+        "study_role": "primary",
+        "study_primary": "CAN-0132",
+        "study_reports": [
+          "CAN-0132"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [
+          "CAN-0869",
+          "CAN-1678"
+        ],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -10889,6 +11133,19 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 123"
+      },
+      "report_linkage": {
+        "study_id": "STU-017",
+        "study_role": "primary",
+        "study_primary": "CAN-0142",
+        "study_reports": [
+          "CAN-0142"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [
+          "CAN-1357"
+        ],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -11292,6 +11549,17 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 124"
+      },
+      "report_linkage": {
+        "study_id": "STU-018",
+        "study_role": "primary",
+        "study_primary": "CAN-0146",
+        "study_reports": [
+          "CAN-0146"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -11425,6 +11693,23 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 125"
+      },
+      "report_linkage": {
+        "study_id": "STU-014",
+        "study_role": "companion",
+        "study_primary": "CAN-0114",
+        "study_reports": [
+          "CAN-0114",
+          "CAN-0147"
+        ],
+        "study_basis": "One Bauchi/Gombe field survey (910 domestic + 21 semi-domestic + 69 wild birds): serology/risk (CAN-0114), RT-PCR co-infection (CAN-0147) and its IJID 2018 abstract (NR).",
+        "overlapping_data_with": [
+          "CAN-1730"
+        ],
+        "linked": "2026-09-30",
+        "not_retrieved_companions": [
+          "CAN-0209"
+        ]
       }
     },
     {
@@ -11976,6 +12261,21 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 126"
+      },
+      "report_linkage": {
+        "study_id": "STU-019",
+        "study_role": "primary",
+        "study_primary": "CAN-0155",
+        "study_reports": [
+          "CAN-0155"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [
+          "CAN-0226",
+          "CAN-0654",
+          "CAN-1602"
+        ],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -12518,6 +12818,19 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 127"
+      },
+      "report_linkage": {
+        "study_id": "STU-020",
+        "study_role": "primary",
+        "study_primary": "CAN-0163",
+        "study_reports": [
+          "CAN-0163"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [
+          "CAN-0745"
+        ],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -13062,6 +13375,17 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 128"
+      },
+      "report_linkage": {
+        "study_id": "STU-021",
+        "study_role": "primary",
+        "study_primary": "CAN-0174",
+        "study_reports": [
+          "CAN-0174"
+        ],
+        "study_basis": "LBM biosecurity checklist survey (75 SW Nigeria + 80 Egyptian LBMs, Feb-May 2015); also reported as thesis CAN-1914 ch 2.",
+        "overlapping_data_with": [],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -14095,6 +14419,20 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 129"
+      },
+      "report_linkage": {
+        "study_id": "STU-022",
+        "study_role": "primary",
+        "study_primary": "CAN-0191",
+        "study_reports": [
+          "CAN-0191",
+          "CAN-1882"
+        ],
+        "study_basis": "bioRxiv preprint (Jan 2025) and published Emerging Animal Species article on the Feb 2021 HPAI detections in imported/zoological birds; same six authors and events.",
+        "overlapping_data_with": [
+          "CAN-1602"
+        ],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -14750,7 +15088,11 @@
         "related_canonical_id": "CAN-0008",
         "state": "probable_same_dataset",
         "basis": "Kaduna 2014 wild-bird serology; Bulletin full article and IJID conference abstract share title and 157 sampled birds; verify dates and samples.",
-        "checked": "2026-09-26"
+        "checked": "2026-09-26",
+        "possible_companion_of_study": "STU-003",
+        "study_primary": "CAN-0008",
+        "linked": "2026-09-30",
+        "note": "Not retrieved; not counted as an included report."
       }
     },
     {
@@ -15602,6 +15944,12 @@
           "date": "2026-09-28",
           "basis": "No verified full text after the legal open-access sweep (Crossref, OpenAlex, Unpaywall, Europe PMC, Semantic Scholar, CORE, Research Square, CGSpace and University of Ibadan repositories, Wayback Machine, AJOL, Google Scholar via SerpApi incl. all versions) and a browser pass. Institutional access was not available to the review team; no author contact (27 Sept amendment). PRISMA: report sought but not retrieved; not a content exclusion."
         }
+      },
+      "report_linkage": {
+        "possible_companion_of_study": "STU-014",
+        "study_primary": "CAN-0114",
+        "linked": "2026-09-30",
+        "note": "Not retrieved; not counted as an included report."
       }
     },
     {
@@ -16815,6 +17163,23 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 130"
+      },
+      "report_linkage": {
+        "study_id": "STU-023",
+        "study_role": "primary",
+        "study_primary": "CAN-0226",
+        "study_reports": [
+          "CAN-0226"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [
+          "CAN-0129",
+          "CAN-0155",
+          "CAN-0379",
+          "CAN-1471",
+          "CAN-1473"
+        ],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -17827,6 +18192,22 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 131"
+      },
+      "report_linkage": {
+        "study_id": "STU-024",
+        "study_role": "primary",
+        "study_primary": "CAN-0243",
+        "study_reports": [
+          "CAN-0243"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [
+          "CAN-0337",
+          "CAN-0339",
+          "CAN-1724",
+          "CAN-2005"
+        ],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -17970,6 +18351,25 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 132"
+      },
+      "report_linkage": {
+        "study_id": "STU-025",
+        "study_role": "primary",
+        "study_primary": "CAN-0244",
+        "study_reports": [
+          "CAN-0244"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [
+          "CAN-0070",
+          "CAN-0835",
+          "CAN-1357",
+          "CAN-1907",
+          "CAN-2033",
+          "CAN-2038",
+          "CAN-2056"
+        ],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -19355,6 +19755,17 @@
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 4",
         "human_reason": null
+      },
+      "report_linkage": {
+        "study_id": "STU-026",
+        "study_role": "primary",
+        "study_primary": "CAN-0266",
+        "study_reports": [
+          "CAN-0266"
+        ],
+        "study_basis": "Benefit-cost model on national OIE outbreak records Dec 2014-May 2017; also reported as thesis CAN-1914 ch 6 (thesis 840 vs paper >=465 outbreaks).",
+        "overlapping_data_with": [],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -20321,6 +20732,19 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 133"
+      },
+      "report_linkage": {
+        "study_id": "STU-027",
+        "study_role": "primary",
+        "study_primary": "CAN-0282",
+        "study_reports": [
+          "CAN-0282"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [
+          "CAN-0654"
+        ],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -22269,6 +22693,18 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 134"
+      },
+      "report_linkage": {
+        "study_id": "STU-028",
+        "study_role": "primary",
+        "study_primary": "CAN-0329",
+        "study_reports": [
+          "CAN-0329",
+          "CAN-1785"
+        ],
+        "study_basis": "The same 480 Kaduna village-chicken sera (H5 HI 14/480, 2.9%) reported twice by Gugong et al. 2012; APJTD version adds the risk-practice questionnaire.",
+        "overlapping_data_with": [],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -22385,6 +22821,17 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 135"
+      },
+      "report_linkage": {
+        "study_id": "STU-029",
+        "study_role": "primary",
+        "study_primary": "CAN-0330",
+        "study_reports": [
+          "CAN-0330"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -22761,6 +23208,23 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 136"
+      },
+      "report_linkage": {
+        "study_id": "STU-109",
+        "study_role": "companion",
+        "study_primary": "CAN-2005",
+        "study_reports": [
+          "CAN-2005",
+          "CAN-0337"
+        ],
+        "study_basis": "Fasina 2008 MSc thesis + CAN-0337: the same 35 NVRI 2006 isolates (EF631164-87), matched name for name. The thesis GIS chapter is counted under CAN-0339.",
+        "overlapping_data_with": [
+          "CAN-0243",
+          "CAN-0339",
+          "CAN-0654",
+          "CAN-1357"
+        ],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -22949,6 +23413,23 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 137"
+      },
+      "report_linkage": {
+        "study_id": "STU-030",
+        "study_role": "primary",
+        "study_primary": "CAN-0339",
+        "study_reports": [
+          "CAN-0339"
+        ],
+        "study_basis": "Roads and geo-temporal progression, 113 infected-farm records Jan-Jun 2006; the same analysis appears in thesis CAN-2005 (GIS chapter).",
+        "overlapping_data_with": [
+          "CAN-0243",
+          "CAN-0337",
+          "CAN-0344",
+          "CAN-0869",
+          "CAN-1678"
+        ],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -23442,6 +23923,20 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 138"
+      },
+      "report_linkage": {
+        "study_id": "STU-031",
+        "study_role": "primary",
+        "study_primary": "CAN-0344",
+        "study_reports": [
+          "CAN-0344"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [
+          "CAN-0339",
+          "CAN-1679"
+        ],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -24138,6 +24633,20 @@
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 5",
         "human_reason": null
+      },
+      "report_linkage": {
+        "study_id": "STU-032",
+        "study_role": "primary",
+        "study_primary": "CAN-0356",
+        "study_reports": [
+          "CAN-0356"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [
+          "CAN-0736",
+          "CAN-1602"
+        ],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -25426,6 +25935,20 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 139"
+      },
+      "report_linkage": {
+        "study_id": "STU-033",
+        "study_role": "primary",
+        "study_primary": "CAN-0379",
+        "study_reports": [
+          "CAN-0379"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [
+          "CAN-0226",
+          "CAN-0654"
+        ],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -28018,6 +28541,22 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 140"
+      },
+      "report_linkage": {
+        "study_id": "STU-034",
+        "study_role": "primary",
+        "study_primary": "CAN-0423",
+        "study_reports": [
+          "CAN-0423"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [
+          "CAN-0033",
+          "CAN-0541",
+          "CAN-0654",
+          "CAN-2038"
+        ],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -31168,6 +31707,19 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 141"
+      },
+      "report_linkage": {
+        "study_id": "STU-071",
+        "study_role": "companion",
+        "study_primary": "CAN-1585",
+        "study_reports": [
+          "CAN-1585",
+          "CAN-0491",
+          "CAN-1484"
+        ],
+        "study_basis": "One 2019 national active LBM surveillance campaign (18 states, 3131 samples, 13 species, IZSVe batch 19VIR8424/8425): H9N2 genomes, the H5N6 Sokoto duck isolate and the H5N8 Ogun guinea-fowl isolate. Subtypes remain distinct. CAN-1484 states the same design and batch code (19VIR8424) but does not restate n=3131 or 13 species. Count the denominator once; keep H9N2, H5N6 and H5N8 separate.",
+        "overlapping_data_with": [],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -33184,6 +33736,19 @@
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 6",
         "human_reason": null
+      },
+      "report_linkage": {
+        "study_id": "STU-035",
+        "study_role": "primary",
+        "study_primary": "CAN-0527",
+        "study_reports": [
+          "CAN-0527"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [
+          "CAN-1585"
+        ],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -33885,6 +34450,17 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 142"
+      },
+      "report_linkage": {
+        "study_id": "STU-036",
+        "study_role": "primary",
+        "study_primary": "CAN-0539",
+        "study_reports": [
+          "CAN-0539"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -34132,6 +34708,28 @@
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 7",
         "human_reason": null
+      },
+      "report_linkage": {
+        "study_id": "STU-037",
+        "study_role": "primary",
+        "study_primary": "CAN-0541",
+        "study_reports": [
+          "CAN-0541"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [
+          "CAN-0033",
+          "CAN-0423",
+          "CAN-0768",
+          "CAN-0859",
+          "CAN-0863",
+          "CAN-0869",
+          "CAN-1444",
+          "CAN-1451",
+          "CAN-1714",
+          "CAN-2005"
+        ],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -35308,6 +35906,17 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 143"
+      },
+      "report_linkage": {
+        "study_id": "STU-038",
+        "study_role": "primary",
+        "study_primary": "CAN-0565",
+        "study_reports": [
+          "CAN-0565"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -35533,6 +36142,17 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 144"
+      },
+      "report_linkage": {
+        "study_id": "STU-039",
+        "study_role": "primary",
+        "study_primary": "CAN-0568",
+        "study_reports": [
+          "CAN-0568"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -42240,6 +42860,27 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 145"
+      },
+      "report_linkage": {
+        "study_id": "STU-040",
+        "study_role": "primary",
+        "study_primary": "CAN-0654",
+        "study_reports": [
+          "CAN-0654"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [
+          "CAN-0155",
+          "CAN-0282",
+          "CAN-0337",
+          "CAN-0379",
+          "CAN-0423",
+          "CAN-0902",
+          "CAN-1446",
+          "CAN-1712",
+          "CAN-1714"
+        ],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -45146,6 +45787,17 @@
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 8",
         "human_reason": null
+      },
+      "report_linkage": {
+        "study_id": "STU-041",
+        "study_role": "primary",
+        "study_primary": "CAN-0712",
+        "study_reports": [
+          "CAN-0712"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -45337,6 +45989,23 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 146"
+      },
+      "report_linkage": {
+        "study_id": "STU-111",
+        "study_role": "companion",
+        "study_primary": "CAN-2033",
+        "study_reports": [
+          "CAN-2033",
+          "CAN-0039",
+          "CAN-0714",
+          "CAN-1845"
+        ],
+        "study_basis": "Akanbi 2014 PhD thesis on NVRI 2006-08 HPAI submissions: 153 commercial farms (CAN-0714) + 80 backyard farms (CAN-1845) = 233 farms; CAN-0039 reports the same 80 backyard farms.",
+        "overlapping_data_with": [
+          "CAN-0031",
+          "CAN-1907"
+        ],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -45645,6 +46314,17 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 147"
+      },
+      "report_linkage": {
+        "study_id": "STU-042",
+        "study_role": "primary",
+        "study_primary": "CAN-0719",
+        "study_reports": [
+          "CAN-0719"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -46571,6 +47251,23 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 148"
+      },
+      "report_linkage": {
+        "study_id": "STU-043",
+        "study_role": "primary",
+        "study_primary": "CAN-0736",
+        "study_reports": [
+          "CAN-0736"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [
+          "CAN-0356",
+          "CAN-0745",
+          "CAN-0911",
+          "CAN-1558",
+          "CAN-1602"
+        ],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -47151,6 +47848,19 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 149"
+      },
+      "report_linkage": {
+        "study_id": "STU-044",
+        "study_role": "primary",
+        "study_primary": "CAN-0744",
+        "study_reports": [
+          "CAN-0744"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [
+          "CAN-0745"
+        ],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -47262,6 +47972,26 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 150"
+      },
+      "report_linkage": {
+        "study_id": "STU-045",
+        "study_role": "primary",
+        "study_primary": "CAN-0745",
+        "study_reports": [
+          "CAN-0745"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [
+          "CAN-0025",
+          "CAN-0163",
+          "CAN-0736",
+          "CAN-0744",
+          "CAN-0911",
+          "CAN-1347",
+          "CAN-1650",
+          "CAN-1914"
+        ],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -47373,6 +48103,17 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 151"
+      },
+      "report_linkage": {
+        "study_id": "STU-046",
+        "study_role": "primary",
+        "study_primary": "CAN-0746",
+        "study_reports": [
+          "CAN-0746"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -47681,6 +48422,21 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 152"
+      },
+      "report_linkage": {
+        "study_id": "STU-047",
+        "study_role": "primary",
+        "study_primary": "CAN-0751",
+        "study_reports": [
+          "CAN-0751"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [
+          "CAN-0087",
+          "CAN-1357",
+          "CAN-1875"
+        ],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -48472,6 +49228,19 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 153"
+      },
+      "report_linkage": {
+        "study_id": "STU-048",
+        "study_role": "primary",
+        "study_primary": "CAN-0768",
+        "study_reports": [
+          "CAN-0768"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [
+          "CAN-0541"
+        ],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -49295,6 +50064,19 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 154"
+      },
+      "report_linkage": {
+        "study_id": "STU-049",
+        "study_role": "primary",
+        "study_primary": "CAN-0782",
+        "study_reports": [
+          "CAN-0782"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [
+          "CAN-0924"
+        ],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -51076,6 +51858,17 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 155"
+      },
+      "report_linkage": {
+        "study_id": "STU-050",
+        "study_role": "primary",
+        "study_primary": "CAN-0825",
+        "study_reports": [
+          "CAN-0825"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -51664,6 +52457,24 @@
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 9",
         "human_reason": null
+      },
+      "report_linkage": {
+        "study_id": "STU-051",
+        "study_role": "primary",
+        "study_primary": "CAN-0835",
+        "study_reports": [
+          "CAN-0835"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [
+          "CAN-0070",
+          "CAN-0244",
+          "CAN-1907",
+          "CAN-2033",
+          "CAN-2038",
+          "CAN-2056"
+        ],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -52844,6 +53655,19 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 156"
+      },
+      "report_linkage": {
+        "study_id": "STU-052",
+        "study_role": "primary",
+        "study_primary": "CAN-0859",
+        "study_reports": [
+          "CAN-0859"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [
+          "CAN-0541"
+        ],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -53108,6 +53932,20 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 157"
+      },
+      "report_linkage": {
+        "study_id": "STU-053",
+        "study_role": "primary",
+        "study_primary": "CAN-0863",
+        "study_reports": [
+          "CAN-0863"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [
+          "CAN-0541",
+          "CAN-1446"
+        ],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -53527,6 +54365,22 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 158"
+      },
+      "report_linkage": {
+        "study_id": "STU-054",
+        "study_role": "primary",
+        "study_primary": "CAN-0869",
+        "study_reports": [
+          "CAN-0869"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [
+          "CAN-0132",
+          "CAN-0339",
+          "CAN-0541",
+          "CAN-1678"
+        ],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -55395,6 +56249,20 @@
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 10",
         "human_reason": null
+      },
+      "report_linkage": {
+        "study_id": "STU-055",
+        "study_role": "primary",
+        "study_primary": "CAN-0902",
+        "study_reports": [
+          "CAN-0902"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [
+          "CAN-0654",
+          "CAN-1446"
+        ],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -55870,6 +56738,21 @@
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 11",
         "human_reason": null
+      },
+      "report_linkage": {
+        "study_id": "STU-056",
+        "study_role": "primary",
+        "study_primary": "CAN-0911",
+        "study_reports": [
+          "CAN-0911"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [
+          "CAN-0736",
+          "CAN-0745",
+          "CAN-1357"
+        ],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -56778,6 +57661,20 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 159"
+      },
+      "report_linkage": {
+        "study_id": "STU-057",
+        "study_role": "primary",
+        "study_primary": "CAN-0924",
+        "study_reports": [
+          "CAN-0924"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [
+          "CAN-0782",
+          "CAN-1714"
+        ],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -58303,6 +59200,17 @@
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 12",
         "human_reason": null
+      },
+      "report_linkage": {
+        "study_id": "STU-058",
+        "study_role": "primary",
+        "study_primary": "CAN-0947",
+        "study_reports": [
+          "CAN-0947"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -76135,7 +77043,11 @@
         "related_canonical_id": "CAN-1602",
         "state": "probable_preprint_published_pair",
         "basis": "2023 Nigerian poultry H5 genomic analysis; preprint and Viruses final article; compare accession lists.",
-        "checked": "2026-09-26"
+        "checked": "2026-09-26",
+        "possible_companion_of_study": "STU-072",
+        "study_primary": "CAN-1602",
+        "linked": "2026-09-30",
+        "note": "Not retrieved; not counted as an included report."
       }
     },
     {
@@ -76326,6 +77238,17 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 160"
+      },
+      "report_linkage": {
+        "study_id": "STU-059",
+        "study_role": "primary",
+        "study_primary": "CAN-1293",
+        "study_reports": [
+          "CAN-1293"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -79081,6 +80004,19 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 161"
+      },
+      "report_linkage": {
+        "study_id": "STU-060",
+        "study_role": "primary",
+        "study_primary": "CAN-1347",
+        "study_reports": [
+          "CAN-1347"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [
+          "CAN-0745"
+        ],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -79708,6 +80644,33 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 162"
+      },
+      "report_linkage": {
+        "study_id": "STU-061",
+        "study_role": "primary",
+        "study_primary": "CAN-1357",
+        "study_reports": [
+          "CAN-1357"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [
+          "CAN-0060",
+          "CAN-0087",
+          "CAN-0142",
+          "CAN-0244",
+          "CAN-0337",
+          "CAN-0751",
+          "CAN-0911",
+          "CAN-1666",
+          "CAN-1667",
+          "CAN-1678",
+          "CAN-1679",
+          "CAN-1710",
+          "CAN-1875",
+          "CAN-2005",
+          "CAN-2033"
+        ],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -83591,6 +84554,21 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 163"
+      },
+      "report_linkage": {
+        "study_id": "STU-062",
+        "study_role": "primary",
+        "study_primary": "CAN-1444",
+        "study_reports": [
+          "CAN-1444"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [
+          "CAN-0541",
+          "CAN-1446",
+          "CAN-1535"
+        ],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -83802,7 +84780,21 @@
         "related_canonical_id": "CAN-0056",
         "state": "confirmed_same_report",
         "basis": "Identical Monne et al. 2008 EID 14(4):637-640; DOI 10.3201/eid1404.071178; PMID 18394282; PMC2570913.",
-        "checked": "2026-09-26"
+        "checked": "2026-09-26",
+        "study_id": "STU-063",
+        "study_role": "primary",
+        "study_primary": "CAN-1446",
+        "study_reports": [
+          "CAN-1446"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [
+          "CAN-0654",
+          "CAN-0863",
+          "CAN-0902",
+          "CAN-1444"
+        ],
+        "linked": "2026-09-30"
       },
       "human_verification": {
         "stage": "full_text_retain",
@@ -84229,6 +85221,19 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 165"
+      },
+      "report_linkage": {
+        "study_id": "STU-064",
+        "study_role": "primary",
+        "study_primary": "CAN-1451",
+        "study_reports": [
+          "CAN-1451"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [
+          "CAN-0541"
+        ],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -84390,6 +85395,17 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 166"
+      },
+      "report_linkage": {
+        "study_id": "STU-065",
+        "study_role": "primary",
+        "study_primary": "CAN-1452",
+        "study_reports": [
+          "CAN-1452"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -84551,6 +85567,18 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 167"
+      },
+      "report_linkage": {
+        "study_id": "STU-085",
+        "study_role": "companion",
+        "study_primary": "CAN-1712",
+        "study_reports": [
+          "CAN-1712",
+          "CAN-1453"
+        ],
+        "study_basis": "Same 2008 Gombe LBM duck isolates A/duck/Nigeria/3724-2/2008 and 3724-10/2008 (EPI161701-08): surveillance report with denominator (primary) and genotype report.",
+        "overlapping_data_with": [],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -85587,6 +86615,23 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 168"
+      },
+      "report_linkage": {
+        "study_id": "STU-066",
+        "study_role": "primary",
+        "study_primary": "CAN-1471",
+        "study_reports": [
+          "CAN-1471"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [
+          "CAN-0025",
+          "CAN-0129",
+          "CAN-0226",
+          "CAN-1473",
+          "CAN-1902"
+        ],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -85773,6 +86818,24 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 169"
+      },
+      "report_linkage": {
+        "study_id": "STU-067",
+        "study_role": "primary",
+        "study_primary": "CAN-1473",
+        "study_reports": [
+          "CAN-1473"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [
+          "CAN-0025",
+          "CAN-0129",
+          "CAN-0226",
+          "CAN-1471",
+          "CAN-1714",
+          "CAN-1902"
+        ],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -86316,6 +87379,19 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 170"
+      },
+      "report_linkage": {
+        "study_id": "STU-071",
+        "study_role": "companion",
+        "study_primary": "CAN-1585",
+        "study_reports": [
+          "CAN-1585",
+          "CAN-0491",
+          "CAN-1484"
+        ],
+        "study_basis": "One 2019 national active LBM surveillance campaign (18 states, 3131 samples, 13 species, IZSVe batch 19VIR8424/8425): H9N2 genomes, the H5N6 Sokoto duck isolate and the H5N8 Ogun guinea-fowl isolate. Subtypes remain distinct. CAN-1484 states the same design and batch code (19VIR8424) but does not restate n=3131 or 13 species. Count the denominator once; keep H9N2, H5N6 and H5N8 separate.",
+        "overlapping_data_with": [],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -87054,6 +88130,17 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 171"
+      },
+      "report_linkage": {
+        "study_id": "STU-068",
+        "study_role": "primary",
+        "study_primary": "CAN-1501",
+        "study_reports": [
+          "CAN-1501"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -88715,6 +89802,19 @@
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 71",
         "human_reason": "retain: Q1 A: worldwide reassortment compilation gives Nigeria-specific event-level results (Table S1)"
+      },
+      "report_linkage": {
+        "study_id": "STU-069",
+        "study_role": "primary",
+        "study_primary": "CAN-1535",
+        "study_reports": [
+          "CAN-1535"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [
+          "CAN-1444"
+        ],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -89955,6 +91055,20 @@
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 72",
         "human_reason": "retain: Q1 A: EMPRES-based analysis gives Nigeria-specific clade 2.3.4.4 detections"
+      },
+      "report_linkage": {
+        "study_id": "STU-070",
+        "study_role": "primary",
+        "study_primary": "CAN-1558",
+        "study_reports": [
+          "CAN-1558"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [
+          "CAN-0736",
+          "CAN-1650"
+        ],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -91332,6 +92446,21 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 172"
+      },
+      "report_linkage": {
+        "study_id": "STU-071",
+        "study_role": "primary",
+        "study_primary": "CAN-1585",
+        "study_reports": [
+          "CAN-1585",
+          "CAN-0491",
+          "CAN-1484"
+        ],
+        "study_basis": "One 2019 national active LBM surveillance campaign (18 states, 3131 samples, 13 species, IZSVe batch 19VIR8424/8425): H9N2 genomes, the H5N6 Sokoto duck isolate and the H5N8 Ogun guinea-fowl isolate. Subtypes remain distinct. CAN-1484 states the same design and batch code (19VIR8424) but does not restate n=3131 or 13 species. Count the denominator once; keep H9N2, H5N6 and H5N8 separate.",
+        "overlapping_data_with": [
+          "CAN-0527"
+        ],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -92140,7 +93269,28 @@
         "related_canonical_id": "CAN-1291",
         "state": "probable_preprint_published_pair",
         "basis": "2023 Nigerian poultry H5 genomic analysis; preprint and Viruses final article; compare accession lists.",
-        "checked": "2026-09-26"
+        "checked": "2026-09-26",
+        "study_id": "STU-072",
+        "study_role": "primary",
+        "study_primary": "CAN-1602",
+        "study_reports": [
+          "CAN-1602"
+        ],
+        "study_basis": "Preprints.org 202305.1027 is Crossref-linked as preprint of Viruses 15:1387 (2021-2022 HPAI H5Nx, 97 genomes, 467 outbreaks).",
+        "overlapping_data_with": [
+          "CAN-0155",
+          "CAN-0191",
+          "CAN-0356",
+          "CAN-0736",
+          "CAN-1630",
+          "CAN-1637",
+          "CAN-1693",
+          "CAN-1717"
+        ],
+        "linked": "2026-09-30",
+        "not_retrieved_companions": [
+          "CAN-1291"
+        ]
       },
       "human_verification": {
         "stage": "full_text_retain",
@@ -92596,6 +93746,20 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 174"
+      },
+      "report_linkage": {
+        "study_id": "STU-073",
+        "study_role": "primary",
+        "study_primary": "CAN-1610",
+        "study_reports": [
+          "CAN-1610"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [
+          "CAN-2005"
+        ],
+        "linked": "2026-09-30",
+        "eligibility_query": "Phase C identity check (R1 + reviewer, 2026-09-30): Cui et al. 2025, Viruses 17(4):585, a compilation of 658 public pigeon AIV sequences from 21 countries; the only Nigerian datum is A/pigeon/Nigeria/VRD370/2006, already in CAN-2005/CAN-0337. Register R1 evidence misnamed the journal. Pending the author decision on whether it meets rule Q1."
       }
     },
     {
@@ -93627,6 +94791,19 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 175"
+      },
+      "report_linkage": {
+        "study_id": "STU-074",
+        "study_role": "primary",
+        "study_primary": "CAN-1630",
+        "study_reports": [
+          "CAN-1630"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [
+          "CAN-1602"
+        ],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -93972,6 +95149,21 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 176"
+      },
+      "report_linkage": {
+        "study_id": "STU-075",
+        "study_role": "primary",
+        "study_primary": "CAN-1637",
+        "study_reports": [
+          "CAN-1637"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [
+          "CAN-1602",
+          "CAN-1719",
+          "CAN-1796"
+        ],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -94544,6 +95736,20 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 177"
+      },
+      "report_linkage": {
+        "study_id": "STU-076",
+        "study_role": "primary",
+        "study_primary": "CAN-1650",
+        "study_reports": [
+          "CAN-1650"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [
+          "CAN-0745",
+          "CAN-1558"
+        ],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -95160,6 +96366,19 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 178"
+      },
+      "report_linkage": {
+        "study_id": "STU-077",
+        "study_role": "primary",
+        "study_primary": "CAN-1662",
+        "study_reports": [
+          "CAN-1662"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [
+          "CAN-1729"
+        ],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -95421,6 +96640,19 @@
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 13",
         "human_reason": null
+      },
+      "report_linkage": {
+        "study_id": "STU-078",
+        "study_role": "primary",
+        "study_primary": "CAN-1666",
+        "study_reports": [
+          "CAN-1666"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [
+          "CAN-1357"
+        ],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -95542,6 +96774,20 @@
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 14",
         "human_reason": null
+      },
+      "report_linkage": {
+        "study_id": "STU-079",
+        "study_role": "primary",
+        "study_primary": "CAN-1667",
+        "study_reports": [
+          "CAN-1667"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [
+          "CAN-1357",
+          "CAN-1724"
+        ],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -95863,6 +97109,17 @@
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 74",
         "human_reason": "retain: Q2 A: outbreaks 'duly confirmed' by the state desk office with samples sent to NVRI"
+      },
+      "report_linkage": {
+        "study_id": "STU-080",
+        "study_role": "primary",
+        "study_primary": "CAN-1672",
+        "study_reports": [
+          "CAN-1672"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -96221,6 +97478,23 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 179"
+      },
+      "report_linkage": {
+        "study_id": "STU-081",
+        "study_role": "primary",
+        "study_primary": "CAN-1678",
+        "study_reports": [
+          "CAN-1678"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [
+          "CAN-0132",
+          "CAN-0339",
+          "CAN-0869",
+          "CAN-1357",
+          "CAN-2005"
+        ],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -96340,6 +97614,20 @@
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 15",
         "human_reason": null
+      },
+      "report_linkage": {
+        "study_id": "STU-082",
+        "study_role": "primary",
+        "study_primary": "CAN-1679",
+        "study_reports": [
+          "CAN-1679"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [
+          "CAN-0344",
+          "CAN-1357"
+        ],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -97053,6 +98341,20 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 180"
+      },
+      "report_linkage": {
+        "study_id": "STU-083",
+        "study_role": "primary",
+        "study_primary": "CAN-1693",
+        "study_reports": [
+          "CAN-1693"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [
+          "CAN-1602",
+          "CAN-1796"
+        ],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -97974,6 +99276,19 @@
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 16",
         "human_reason": null
+      },
+      "report_linkage": {
+        "study_id": "STU-084",
+        "study_role": "primary",
+        "study_primary": "CAN-1710",
+        "study_reports": [
+          "CAN-1710"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [
+          "CAN-1357"
+        ],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -98101,6 +99416,18 @@
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 17",
         "human_reason": null
+      },
+      "report_linkage": {
+        "study_id": "STU-008",
+        "study_role": "companion",
+        "study_primary": "CAN-0060",
+        "study_reports": [
+          "CAN-0060",
+          "CAN-1711"
+        ],
+        "study_basis": "The Samaru waterfowl case report (27 Apr 2007) is case 10345 of the ABU VTH Zaria case series; same authors.",
+        "overlapping_data_with": [],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -98228,6 +99555,21 @@
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 18",
         "human_reason": null
+      },
+      "report_linkage": {
+        "study_id": "STU-085",
+        "study_role": "primary",
+        "study_primary": "CAN-1712",
+        "study_reports": [
+          "CAN-1712",
+          "CAN-1453"
+        ],
+        "study_basis": "Same 2008 Gombe LBM duck isolates A/duck/Nigeria/3724-2/2008 and 3724-10/2008 (EPI161701-08): surveillance report with denominator (primary) and genotype report.",
+        "overlapping_data_with": [
+          "CAN-0654",
+          "CAN-1714"
+        ],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -98483,6 +99825,23 @@
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 19",
         "human_reason": null
+      },
+      "report_linkage": {
+        "study_id": "STU-086",
+        "study_role": "primary",
+        "study_primary": "CAN-1714",
+        "study_reports": [
+          "CAN-1714"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [
+          "CAN-0541",
+          "CAN-0654",
+          "CAN-0924",
+          "CAN-1473",
+          "CAN-1712"
+        ],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -98610,6 +99969,18 @@
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 20",
         "human_reason": null
+      },
+      "report_linkage": {
+        "study_id": "STU-087",
+        "study_role": "primary",
+        "study_primary": "CAN-1715",
+        "study_reports": [
+          "CAN-1715",
+          "CAN-0058"
+        ],
+        "study_basis": "Same article (Meseko et al., Nig Vet J 41(1), doi 10.4314/nvj.v41i1.2) recorded twice; identical sera counts.",
+        "overlapping_data_with": [],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -98773,6 +100144,17 @@
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 21",
         "human_reason": null
+      },
+      "report_linkage": {
+        "study_id": "STU-088",
+        "study_role": "primary",
+        "study_primary": "CAN-1716",
+        "study_reports": [
+          "CAN-1716"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -98936,6 +100318,19 @@
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 22",
         "human_reason": null
+      },
+      "report_linkage": {
+        "study_id": "STU-089",
+        "study_role": "primary",
+        "study_primary": "CAN-1717",
+        "study_reports": [
+          "CAN-1717"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [
+          "CAN-1602"
+        ],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -99146,6 +100541,22 @@
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 23",
         "human_reason": null
+      },
+      "report_linkage": {
+        "study_id": "STU-090",
+        "study_role": "primary",
+        "study_primary": "CAN-1719",
+        "study_reports": [
+          "CAN-1719"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [
+          "CAN-1637",
+          "CAN-1731",
+          "CAN-1796",
+          "CAN-2009"
+        ],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -99557,6 +100968,20 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 181"
+      },
+      "report_linkage": {
+        "study_id": "STU-091",
+        "study_role": "primary",
+        "study_primary": "CAN-1724",
+        "study_reports": [
+          "CAN-1724"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [
+          "CAN-0243",
+          "CAN-1667"
+        ],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -99963,6 +101388,19 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 182"
+      },
+      "report_linkage": {
+        "study_id": "STU-092",
+        "study_role": "primary",
+        "study_primary": "CAN-1729",
+        "study_reports": [
+          "CAN-1729"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [
+          "CAN-1662"
+        ],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -100074,6 +101512,20 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 183"
+      },
+      "report_linkage": {
+        "study_id": "STU-093",
+        "study_role": "primary",
+        "study_primary": "CAN-1730",
+        "study_reports": [
+          "CAN-1730"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [
+          "CAN-0114",
+          "CAN-0147"
+        ],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -100249,6 +101701,20 @@
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 24",
         "human_reason": null
+      },
+      "report_linkage": {
+        "study_id": "STU-094",
+        "study_role": "primary",
+        "study_primary": "CAN-1731",
+        "study_reports": [
+          "CAN-1731"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [
+          "CAN-1719",
+          "CAN-1796"
+        ],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -100569,6 +102035,17 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 184"
+      },
+      "report_linkage": {
+        "study_id": "STU-095",
+        "study_role": "primary",
+        "study_primary": "CAN-1734",
+        "study_reports": [
+          "CAN-1734"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -100732,6 +102209,17 @@
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 25",
         "human_reason": null
+      },
+      "report_linkage": {
+        "study_id": "STU-096",
+        "study_role": "primary",
+        "study_primary": "CAN-1735",
+        "study_reports": [
+          "CAN-1735"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -100896,6 +102384,17 @@
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 26",
         "human_reason": null
+      },
+      "report_linkage": {
+        "study_id": "STU-097",
+        "study_role": "primary",
+        "study_primary": "CAN-1737",
+        "study_reports": [
+          "CAN-1737"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -101007,6 +102506,17 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 185"
+      },
+      "report_linkage": {
+        "study_id": "STU-098",
+        "study_role": "primary",
+        "study_primary": "CAN-1738",
+        "study_reports": [
+          "CAN-1738"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -102722,6 +104232,20 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 186"
+      },
+      "report_linkage": {
+        "study_id": "STU-099",
+        "study_role": "primary",
+        "study_primary": "CAN-1778",
+        "study_reports": [
+          "CAN-1778"
+        ],
+        "study_basis": "Possible, unverified (companion report not retrieved; not a retained report). UNVERIFIED: 2020 preprint 'Avian Influenza H5 Antigen and Antibodies in Wild Birds in Zaria' is probably the preprint of the 2021 Sahel J Vet Sci article; authors not confirmed.",
+        "overlapping_data_with": [],
+        "linked": "2026-09-30",
+        "not_retrieved_companions": [
+          "CAN-1939"
+        ]
       }
     },
     {
@@ -102996,6 +104520,17 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 187"
+      },
+      "report_linkage": {
+        "study_id": "STU-100",
+        "study_role": "primary",
+        "study_primary": "CAN-1782",
+        "study_reports": [
+          "CAN-1782"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -103203,6 +104738,18 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 188"
+      },
+      "report_linkage": {
+        "study_id": "STU-028",
+        "study_role": "companion",
+        "study_primary": "CAN-0329",
+        "study_reports": [
+          "CAN-0329",
+          "CAN-1785"
+        ],
+        "study_basis": "The same 480 Kaduna village-chicken sera (H5 HI 14/480, 2.9%) reported twice by Gugong et al. 2012; APJTD version adds the risk-practice questionnaire.",
+        "overlapping_data_with": [],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -103737,6 +105284,23 @@
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 27",
         "human_reason": null
+      },
+      "report_linkage": {
+        "study_id": "STU-101",
+        "study_role": "primary",
+        "study_primary": "CAN-1796",
+        "study_reports": [
+          "CAN-1796"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [
+          "CAN-1637",
+          "CAN-1693",
+          "CAN-1719",
+          "CAN-1731",
+          "CAN-2009"
+        ],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -106460,6 +108024,23 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 189"
+      },
+      "report_linkage": {
+        "study_id": "STU-111",
+        "study_role": "companion",
+        "study_primary": "CAN-2033",
+        "study_reports": [
+          "CAN-2033",
+          "CAN-0039",
+          "CAN-0714",
+          "CAN-1845"
+        ],
+        "study_basis": "Akanbi 2014 PhD thesis on NVRI 2006-08 HPAI submissions: 153 commercial farms (CAN-0714) + 80 backyard farms (CAN-1845) = 233 farms; CAN-0039 reports the same 80 backyard farms.",
+        "overlapping_data_with": [
+          "CAN-0031",
+          "CAN-1907"
+        ],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -107452,6 +109033,17 @@
         "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
         "must_check": "N",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 190"
+      },
+      "report_linkage": {
+        "study_id": "STU-102",
+        "study_role": "primary",
+        "study_primary": "CAN-1868",
+        "study_reports": [
+          "CAN-1868"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -108048,6 +109640,20 @@
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 28",
         "human_reason": null
+      },
+      "report_linkage": {
+        "study_id": "STU-103",
+        "study_role": "primary",
+        "study_primary": "CAN-1875",
+        "study_reports": [
+          "CAN-1875"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [
+          "CAN-0751",
+          "CAN-1357"
+        ],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -108552,7 +110158,17 @@
       "report_linkage": {
         "companion_report_of": "CAN-0191",
         "basis": "Preprint of the study reported in CAN-0191; link at the report-to-study stage (Phase C).",
-        "checked": "2026-09-29"
+        "checked": "2026-09-29",
+        "study_id": "STU-022",
+        "study_role": "companion",
+        "study_primary": "CAN-0191",
+        "study_reports": [
+          "CAN-0191",
+          "CAN-1882"
+        ],
+        "study_basis": "bioRxiv preprint (Jan 2025) and published Emerging Animal Species article on the Feb 2021 HPAI detections in imported/zoological birds; same six authors and events.",
+        "overlapping_data_with": [],
+        "linked": "2026-09-30"
       },
       "full_text_eligibility": {
         "checked": "2026-09-29",
@@ -108770,6 +110386,17 @@
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 30",
         "human_reason": null
+      },
+      "report_linkage": {
+        "study_id": "STU-104",
+        "study_role": "primary",
+        "study_primary": "CAN-1884",
+        "study_reports": [
+          "CAN-1884"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -109913,6 +111540,22 @@
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 31",
         "human_reason": null
+      },
+      "report_linkage": {
+        "study_id": "STU-004",
+        "study_role": "companion",
+        "study_primary": "CAN-0025",
+        "study_reports": [
+          "CAN-0025",
+          "CAN-1902"
+        ],
+        "study_basis": "NVRI 2015 H5N1 resurgence: same index specimens (8 Kano carcasses, 7 Jan 2015; Lagos LBMs) and NVRI 2015 records; the seminar paper (to Sep 2015) is an earlier cut of the article (to Dec 2015, 542 cases).",
+        "overlapping_data_with": [
+          "CAN-0129",
+          "CAN-1471",
+          "CAN-1473"
+        ],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -110270,6 +111913,27 @@
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 32",
         "human_reason": null
+      },
+      "report_linkage": {
+        "study_id": "STU-105",
+        "study_role": "primary",
+        "study_primary": "CAN-1907",
+        "study_reports": [
+          "CAN-1907"
+        ],
+        "study_basis": "Mixed-species analysis of 170 of 299 NVRI 2006-08 cases with full history; overlaps the Akanbi thesis database (CAN-2033) but uses a different sample definition.",
+        "overlapping_data_with": [
+          "CAN-0031",
+          "CAN-0039",
+          "CAN-0244",
+          "CAN-0714",
+          "CAN-0835",
+          "CAN-1845",
+          "CAN-2033",
+          "CAN-2038",
+          "CAN-2056"
+        ],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -110878,6 +112542,23 @@
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 33",
         "human_reason": null
+      },
+      "report_linkage": {
+        "study_id": "STU-106",
+        "study_role": "primary",
+        "study_primary": "CAN-1914",
+        "study_reports": [
+          "CAN-1914"
+        ],
+        "study_basis": "Fasanmi 2017 PhD thesis; own study for chapters 3-5 and 7 (incl. ch 5 risk map). Chapters 2 and 6 are counted under CAN-0174 and CAN-0266.",
+        "overlapping_data_with": [
+          "CAN-0745"
+        ],
+        "linked": "2026-09-30",
+        "also_reports_on": [
+          "CAN-0174",
+          "CAN-0266"
+        ]
       }
     },
     {
@@ -111253,6 +112934,17 @@
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 34",
         "human_reason": null
+      },
+      "report_linkage": {
+        "study_id": "STU-107",
+        "study_role": "primary",
+        "study_primary": "CAN-1919",
+        "study_reports": [
+          "CAN-1919"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -112564,7 +114256,11 @@
       "report_linkage": {
         "companion_report_of": "CAN-1778",
         "basis": "Preprint of the study reported in CAN-1778; link at the report-to-study stage (Phase C).",
-        "checked": "2026-09-29"
+        "checked": "2026-09-29",
+        "possible_companion_of_study": "STU-099",
+        "study_primary": "CAN-1778",
+        "linked": "2026-09-30",
+        "note": "Not retrieved; not counted as an included report."
       }
     },
     {
@@ -116329,6 +118025,17 @@
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 35",
         "human_reason": null
+      },
+      "report_linkage": {
+        "study_id": "STU-108",
+        "study_role": "primary",
+        "study_primary": "CAN-1995",
+        "study_reports": [
+          "CAN-1995"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -116991,6 +118698,27 @@
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 36",
         "human_reason": null
+      },
+      "report_linkage": {
+        "study_id": "STU-109",
+        "study_role": "primary",
+        "study_primary": "CAN-2005",
+        "study_reports": [
+          "CAN-2005",
+          "CAN-0337"
+        ],
+        "study_basis": "Fasina 2008 MSc thesis + CAN-0337: the same 35 NVRI 2006 isolates (EF631164-87), matched name for name. The thesis GIS chapter is counted under CAN-0339.",
+        "overlapping_data_with": [
+          "CAN-0243",
+          "CAN-0541",
+          "CAN-1357",
+          "CAN-1610",
+          "CAN-1678"
+        ],
+        "linked": "2026-09-30",
+        "also_reports_on": [
+          "CAN-0339"
+        ]
       }
     },
     {
@@ -117323,6 +119051,20 @@
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 85",
         "human_reason": "retain: Q2 A (as presented to the author, CAN-2009 named explicitly): official Plateau desk-office outbreak records"
+      },
+      "report_linkage": {
+        "study_id": "STU-110",
+        "study_role": "primary",
+        "study_primary": "CAN-2009",
+        "study_reports": [
+          "CAN-2009"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [
+          "CAN-1719",
+          "CAN-1796"
+        ],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -118998,6 +120740,31 @@
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 37",
         "human_reason": null
+      },
+      "report_linkage": {
+        "study_id": "STU-111",
+        "study_role": "primary",
+        "study_primary": "CAN-2033",
+        "study_reports": [
+          "CAN-2033",
+          "CAN-0039",
+          "CAN-0714",
+          "CAN-1845"
+        ],
+        "study_basis": "Akanbi 2014 PhD thesis on NVRI 2006-08 HPAI submissions: 153 commercial farms (CAN-0714) + 80 backyard farms (CAN-1845) = 233 farms; CAN-0039 reports the same 80 backyard farms.",
+        "overlapping_data_with": [
+          "CAN-0244",
+          "CAN-0835",
+          "CAN-1357",
+          "CAN-1907",
+          "CAN-2038",
+          "CAN-2056"
+        ],
+        "linked": "2026-09-30",
+        "also_reports_on": [
+          "CAN-0031",
+          "CAN-1907"
+        ]
       }
     },
     {
@@ -119363,6 +121130,24 @@
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 38",
         "human_reason": null
+      },
+      "report_linkage": {
+        "study_id": "STU-112",
+        "study_role": "primary",
+        "study_primary": "CAN-2038",
+        "study_reports": [
+          "CAN-2038"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [
+          "CAN-0244",
+          "CAN-0423",
+          "CAN-0835",
+          "CAN-1907",
+          "CAN-2033",
+          "CAN-2056"
+        ],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -120679,6 +122464,23 @@
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 39",
         "human_reason": null
+      },
+      "report_linkage": {
+        "study_id": "STU-113",
+        "study_role": "primary",
+        "study_primary": "CAN-2056",
+        "study_reports": [
+          "CAN-2056"
+        ],
+        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
+        "overlapping_data_with": [
+          "CAN-0244",
+          "CAN-0835",
+          "CAN-1907",
+          "CAN-2033",
+          "CAN-2038"
+        ],
+        "linked": "2026-09-30"
       }
     },
     {
@@ -124442,14 +126244,24 @@
       "verifier": "Mayowa Olabode (review author)",
       "file": "Workbench/58_HUMAN_VERIFICATION.csv",
       "scope": "429 decisions: all 122 full-text retains, all 113 full-text excludes, all 12 duplicate removals, 182 title exclusions (seeded 10% sample of 1,770, seed 20260929, plus 5 adjudication overrides); 107 flagged must-check. The 88 not-retrieved reports carry no decision.",
-      "result": "429/429 AI decisions confirmed; 0 overturned.",
-      "mode": "blanket confirmation by the author in the session chat, transcribed by the AI assistant at the author's request (physical limitations); not a row-by-row independent check",
-      "caveat": "Because confirmation was given as a single statement rather than row by row, human-AI agreement (100%) is not an independent agreement statistic and must not be reported as one.",
+      "result": "429 AI decisions verified: 423 agree, 6 disagree. The 6 changes: CAN-1535, CAN-1558 (rule Q1) and CAN-1672, CAN-2009 (rule Q2) moved from full-text exclude to retain; CAN-0343 and CAN-0345 moved from title exclusion to full text, then excluded at full text by blind R1/R2 (non-Nigeria, no Nigeria data).",
+      "mode": "Two stages, both in the session chat and transcribed by the AI assistant at the author's request (accessibility): (1) 2026-09-29 blanket confirmation of all 429 rows; (2) 2026-09-29 row-level assisted review of the 107 must-check rows, in which the author read an AI-prepared one-line summary per row and gave each decision. The 322 other rows rest on the blanket confirmation only.",
+      "caveat": "Row-level decisions relied on AI-prepared summaries rather than an independent re-reading of each full text; the 322 lower-priority rows were confirmed in a single statement. Do not report human-AI agreement as an independent agreement statistic.",
       "rules": {
         "Q1": "A - secondary or global analyses that reuse Nigerian data (outbreak databases, public sequences) are eligible when they produce Nigeria-specific analytic results (phylogenetic, spatial or temporal); overlap is handled at report-to-study linkage. Narrative compilations, reprinted tables and model-predicted suitability are not analytic Nigeria-specific results.",
         "Q2": "A - official outbreak records described in the report as 'confirmed' are eligible even when the laboratory assay is not named (Nigerian confirmation runs through NVRI); flag for sensitivity analysis.",
         "Q3": "A - reports that only reprint official outbreak tables without analysis (CAN-0055, CAN-2082) stay excluded; the same counts come from national records used by included studies."
-      }
+      },
+      "superseded_note": "The earlier result '429/429 confirmed; 0 overturned' (blanket stage) was superseded by the row-level stage on the same day; corrected 2026-09-30."
+    },
+    "report_study_linkage": {
+      "date": "2026-09-30",
+      "method": "R1 executor agent proposed links from full texts (legal routes only) and OpenAlex/Crossref metadata; reviewer agent verified against texts; main session adjudicated. Study = shared samples/animals/outbreaks (Cochrane Handbook ch. 5); separate studies reusing the same data are flagged overlapping_data for synthesis.",
+      "reports_included": 126,
+      "studies_included": 113,
+      "files": "D:/AvianInfluenzaSysRev_retrieval_20260927/linkage/ (R1_linkage.json, linkage_final.json, adjudicate_linkage.py, apply_linkage.py, prisma_flow.py)",
+      "unverified": "Reports not opened in Phase C (links rest on register evidence/metadata): CAN-0031, 0058, 0066, 0129, 0147, 0191, 0243, 0244, 0282, 0329, 0330, 1662. NR companions CAN-0204 and CAN-1939 are possible, unverified.",
+      "pending_author": "CAN-1610 eligibility (see its report_linkage.eligibility_query)."
     }
   }
 }

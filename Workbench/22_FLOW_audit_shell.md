@@ -1,17 +1,47 @@
 # PRISMA 2020 flow + final audit sheet
 
-**Status (2026-09-20):** intentionally unfilled. Do not sum the 175 imported WoS UIDs with the
-206 broader browser count, or treat AJOL's 144 query rows as unique records. Freeze flow counts
-only after cross-source screening reconciliation. AJOL import is complete: 79 source records map
-to 47 existing and 32 new identities.
+**Status (2026-09-20, superseded 2026-09-30):** was unfilled pending cross-source reconciliation. That reconciliation is done; the flow below is filled from the register.
 
-## Flow (fill numbers as you go — diagram drawn at write stage)
+## Flow (numbers from `prisma_flow.py`, reconciled with file 56 on 2026-09-30; diagram drawn at write stage)
 
-- Records identified: PubMed ____ + Scopus ____ + WoS ____ + ScienceDirect ____ + Scholar ____ + AJOL ____ + supplementary ____ = ____
-- Duplicates removed (auto ____ + manual ____) → screened ____
-- Title/abstract excluded ____ → full-text assessed ____
-- Full-text excluded ____ (T6) → included ____
-- Included in syntheses: temporal ____ / geographic ____ / host ____ / molecular ____
+**Status (2026-09-30):** filled. The counts are provisional until the author decides on CAN-1610; if it is excluded, the figures become 125 reports and 112 studies.
+
+**Identification - databases and registers**
+- Records identified: 2,367. OpenAlex 1,000 and Crossref 1,000 exports together gave 1,744 rows. PubMed 140, Scopus 204, Web of Science 175, ScienceDirect 25, AJOL 79 unique article pages (from 144 query rows).
+- The Web of Science browser update (206 base) is count-only and is not added.
+- Duplicates removed before screening: 490. Identity rule: DOI, PMID, or normalised title plus year.
+
+**Identification - other methods**
+- Google Scholar dated update search (2026-09-28, Q1-Q4, cap 200 per query): 800 rows, 519 unique.
+- 291 were already identified by the database search, leaving 228 new records. Of these, 12 were later found to be duplicates of existing records and were removed.
+
+**Screening - databases**
+- Records screened: 1,877.
+- Excluded on title/metadata: 1,578, including 6 outside the 2006-2026 window.
+- Reports sought for retrieval: 299. Not retrieved: 80.
+- Reports assessed for eligibility: 219. Excluded: 105:
+  - non-Nigeria, no Nigeria data: 52
+  - no laboratory-confirmed avian AIV: 19
+  - no avian-host field data: 17
+  - no primary data: 12
+  - no epidemiological/molecular/spatial-temporal data: 2
+  - duplicate dataset: 1
+  - non-AIV: 1
+  - experimental only: 1
+
+**Screening - other methods**
+- Records screened: 216. Excluded on title/snippet: 190.
+- Reports sought: 26. Not retrieved: 8.
+- Reports assessed: 18. Excluded: 6:
+  - non-Nigeria: 2
+  - no primary data: 2
+  - no laboratory-confirmed avian AIV: 1
+  - experimental only: 1
+
+**Included**
+- Reports: 126 (databases 114 + other methods 12).
+- **Studies: 113** (report-to-study linkage, file 15, 2026-09-30).
+- Included in syntheses (temporal / geographic / host / molecular): ____ (after extraction).
 
 ## Final audit (score with files 01/02/04 — paste location per item)
 

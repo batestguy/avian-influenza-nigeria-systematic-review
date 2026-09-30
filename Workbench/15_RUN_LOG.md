@@ -1,5 +1,53 @@
 # Run log + gate checklists (update as you go)
-## Phase B: row-level check of the 107 priority decisions - 2026-09-29 (latest; supersedes the blanket-only note below)
+## Phase C: report-to-study linkage and PRISMA 2020 flow - 2026-09-30 (latest)
+- **Method.**
+  - R1 (`executor`, Opus 5.5) proposed links for the 126 retained reports from full texts (legal routes only) and OpenAlex/Crossref author metadata. It started from 21 candidate clusters and reported 205 pairwise relations.
+  - The `reviewer` agent (Sonnet 5.5) checked the links against the texts. The main session adjudicated.
+  - A study is a set of reports sharing samples, animals or outbreaks (Cochrane Handbook ch. 5), not merely authors. Separate studies that reuse the same data are flagged `overlapping_data` so synthesis counts those data once.
+  - Workspace: `D:\AvianInfluenzaSysRev_retrieval_20260927\linkage\`. Files: `R1_linkage.json`, `linkage_final.json`, `adjudicate_linkage.py`, `apply_linkage.py`, `prisma_flow.py`.
+- **Reviewer fixes applied.**
+  - R1's STU-101 (Fasanmi thesis) and STU-104 (Fasina thesis) bundled sibling papers that share no samples. Both were split: CAN-0174 and CAN-0266 are separate studies, and so is CAN-0339.
+  - In the Akanbi thesis study, CAN-1907 (a different case definition) and CAN-0031 (FFPE sub-study) became separate studies.
+  - CAN-1730 is now `overlapping_data` with CAN-0114 at specimen level: count the shared Bauchi/Gombe sera once.
+  - Not-retrieved companions CAN-0204 and CAN-1939 are marked possible, unverified.
+  - R1's checker forced same_study labels onto sibling pairs through transitivity; those labels were corrected.
+- **Result.** **126 reports = 113 studies.** 10 studies have more than one retained report:
+  - STU-004: CAN-0025 + 1902 (NVRI 2015 resurgence).
+  - STU-008: CAN-0060 + 1711 (Zaria case 10345).
+  - STU-014: CAN-0114 + 0147 (Bauchi/Gombe survey); CAN-0209 not retrieved.
+  - STU-022: CAN-0191 + 1882 (preprint and article).
+  - STU-028: CAN-0329 + 1785 (the same 480 Kaduna sera).
+  - STU-071: CAN-1585 + 0491 + 1484 (2019 national LBM surveillance; keep H9N2, H5N6 and H5N8 separate).
+  - STU-085: CAN-1712 + 1453 (the same Gombe duck isolates).
+  - STU-087: CAN-1715 + 0058 (the same article recorded twice).
+  - STU-109: CAN-2005 thesis + 0337 (the same 35 isolates).
+  - STU-111: CAN-2033 thesis + 0039, 0714, 1845 (NVRI 2006-08 submissions, 233 farms).
+- **Written to file 56.** `report_linkage` fields study_id, study_role, study_reports, study_basis and overlapping_data_with on all 126 retained reports, plus `metadata.report_study_linkage`.
+- **Not verified in full text.** CAN-0031, 0058, 0066, 0129, 0147, 0191, 0243, 0244, 0282, 0329, 0330 and 1662; their links rest on register evidence and metadata.
+- **Pending the author.** CAN-1610 is Cui et al. 2025 (Viruses), a compilation of 658 pigeon sequences from 21 countries. Its only Nigerian datum is one 2006 isolate, which is already in CAN-2005/0337. Under rule Q1 it is probably not eligible. The register R1 evidence misnamed its journal. If it is excluded, the counts become 125 reports and 112 studies.
+- **Extraction flags.**
+  - CAN-0114: 950 vs 1,000 sera.
+  - CAN-0266 vs thesis: 465 vs 840 outbreaks.
+  - CAN-1785: "five LGAs" but four tabulated.
+  - CAN-0058: register year 2017; the article is 2020/21.
+  - CAN-1796 is the umbrella for Plateau outbreak counts (it covers CAN-2009 and CAN-1719).
+  - CAN-0745 embeds the Kano and Enugu records.
+- **PRISMA 2020 flow** (`prisma_flow.py`; all reconciliation asserts pass).
+  - **Databases arm:**
+    - Identified: 2,367 (OpenAlex/Crossref 1,744, PubMed 140, Scopus 204, WoS 175, ScienceDirect 25, AJOL 79).
+    - Duplicates removed: 490. Screened: 1,877.
+    - Excluded on title/metadata: 1,578, of which 6 were outside the date window.
+    - Sought: 299. Not retrieved: 80. Assessed: 219.
+    - Excluded: 105 (non-Nigeria 52, no lab-confirmed avian AIV 19, no avian-host field data 17, no primary data 12, no epi/molecular/spatial-temporal data 2, duplicate dataset 1, non-AIV 1, experimental only 1).
+    - Reports included: 114.
+  - **Other methods** (Google Scholar dated update search, 2026-09-28):
+    - 800 rows; 519 unique; 291 already identified; 228 new, of which 12 were later found to be duplicates. Screened: 216.
+    - Excluded on title/snippet: 190. Sought: 26. Not retrieved: 8. Assessed: 18.
+    - Excluded: 6 (non-Nigeria 2, no primary data 2, no lab-confirmed avian AIV 1, experimental only 1).
+    - Reports included: 12.
+  - **Total: 126 reports of 113 studies.**
+- **Register note corrected.** `metadata.human_verification` still said "429/429 confirmed; 0 overturned" (from the blanket stage). It now records 423 agree / 6 disagree and both stages.
+## Phase B: row-level check of the 107 priority decisions - 2026-09-29 (supersedes the blanket-only note below)
 - **How it was done.** The author (MO) went through all 107 `must_check` rows in chat, in three batches.
   - The AI assistant prepared a one-line summary of each row, gave its own read (flagged as not independent, since it adjudicated these decisions), and raised three consistency questions.
   - The author answered each batch; the AI transcribed the answers. Script: `votes/apply_human_review.py`. Decisions: `votes/human_review_20260929.json`.

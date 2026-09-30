@@ -1,5 +1,19 @@
 # Next-session handoff - Nigeria avian influenza systematic review
-## Latest handoff - 29 September 2026, session close (Phase C approved, not started)
+## Latest handoff - 30 September 2026 (Phase C done; one author question open; Phase D next)
+
+- **Result:** 126 included reports = **113 studies**.
+  - Linkage is on every retained record in file 56 (`report_linkage.study_id` etc.).
+  - The PRISMA 2020 flow is filled in file 22 and reconciled by script (`linkage/prisma_flow.py` in the retrieval workspace).
+  - Method, merges, reviewer fixes and extraction flags are in the file 15 top checkpoint.
+- **Open with the author (ask as one yes/no):** CAN-1610 is Cui et al. 2025 (Viruses), a China-led compilation of 658 pigeon sequences. Its only Nigerian content is one 2006 isolate that is already in CAN-2005/0337. Recommend excluding it under rule Q1, which would give 125 reports and 112 studies.
+  - Before applying: record `full_text_eligibility.human_override`, set final_status to full_text_excluded, rerun `apply_linkage.py`-style study renumbering (or drop STU for CAN-1610), rerun `prisma_flow.py`, and update files 15 and 22.
+- **Still open with the author:** the accessibility wording in file 14, and whether a second human can check the priority rows.
+- **Next: Phase D.**
+  - Extraction pilot on about 10 studies using the file 20 shells, then full extraction per **study**, using the study_primary report plus its companions.
+  - Honour the `overlapping_data_with` flags and the file 15 extraction flags; for example, CAN-1796 is the umbrella for Plateau outbreak counts, and the STU-071 denominator is counted once.
+- **Optional:** open the 12 reports not verified in full text (CAN-0031, 0058, 0066, 0129, 0147, 0191, 0243, 0244, 0282, 0329, 0330, 1662) through legal routes. This happens naturally at extraction.
+
+## Previous handoff - 29 September 2026, session close (Phase C approved, not started)
 
 - **State:** unchanged since commit `5d19b4d`. Register: 2,105 = 1,768 title-excluded + 325 full-text candidates (**126 retain / 111 exclude / 88 not retrieved**) + 12 duplicates removed. No Phase C work has been done yet, and no files other than this one changed.
 - **Author go-ahead:** Mayowa Olabode said "proceed" to Phase C on 29 Sept. There is no need to ask again. Come back to the author only with the final study count, for a yes/no check.
