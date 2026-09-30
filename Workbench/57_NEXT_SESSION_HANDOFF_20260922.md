@@ -1,5 +1,5 @@
 # Next-session handoff - Nigeria avian influenza systematic review
-## Latest handoff - 30 September 2026 (Phase C done; author rechecking 107 rows; then Phase D)
+## Latest handoff - 30 September 2026 (Phase C done; author recheck done; Phase D next)
 
 - **Result:** **125 included reports = 112 studies.**
   - The author excluded CAN-1610 on 30 Sept: a multi-country pigeon sequence compilation, excluded under rule Q1.
@@ -7,11 +7,10 @@
   - The PRISMA 2020 flow is filled in file 22 and reconciled by script (`linkage/prisma_flow.py` in the retrieval workspace).
   - Method, merges, reviewer fixes and extraction flags are in the file 15 top checkpoint.
 - **Register:** 2,105 = 1,768 title-excluded + 325 full-text candidates (**125 retain / 112 exclude / 88 not retrieved**) + 12 duplicates removed.
-- **Author answers (30 Sept):** "for accessibility reasons" is confirmed (file 14). There is no second human; the author is **re-checking the 107 priority rows themselves** before Phase D.
-  - Tool: the private artifact https://claude.ai/artifact/9jhGWfFgZtxun9p8HnfEqS (one row per screen, keys 1/2/3).
-  - Answers are stored in its db collection `recheck`, one doc per canonical_id: {decision: correct|change|unsure, note}. Read them with ArtifactData `list`.
-  - When the author says "recheck done": read `recheck`; for "unsure" rows, open the full text and go through it with the author; apply any "change" only after confirming it with the author. Then record the second pass in file 58 (new columns or human_note), file 56 `human_verification`, file 15 and file 14.
-  - Source data for the page: 58 CSV must_check rows plus the current register status (scratchpad copy only).
+- **Author answers (30 Sept):**
+  - "For accessibility reasons" is confirmed (file 14). There is no second human.
+  - The author rechecked all 107 priority rows directly in the recheck page: **107/107 correct**, in about 3.5 minutes. Report it as a reconfirmation (file 15 top).
+  - Nothing is pending with the author.
 - **Next: Phase D.**
   - Extraction pilot on about 10 studies using the file 20 shells, then full extraction per **study** (study_primary report plus companions).
   - Honour the `overlapping_data_with` flags and the file 15 extraction flags. For example, CAN-1796 is the umbrella for Plateau outbreak counts, and the STU-071 denominator is counted once.

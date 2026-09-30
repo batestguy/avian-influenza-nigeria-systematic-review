@@ -1,5 +1,15 @@
 # Run log + gate checklists (update as you go)
-## Phase C: report-to-study linkage and PRISMA 2020 flow - 2026-09-30 (latest)
+## Phase B addendum: the author's second pass over the 107 priority rows - 2026-09-30 (latest)
+- **Why.** No second human screener is available, so the author chose to recheck the 107 priority rows themselves before Phase D.
+- **Tool.** A private page, https://claude.ai/artifact/9jhGWfFgZtxun9p8HnfEqS.
+  - It shows one row per screen: the current register decision, the reviewers' evidence and the author's first-check answer.
+  - The author answered each row directly (Correct / Change it / Not sure); nothing was transcribed by the AI.
+  - Answers are stored in the page's db collection `recheck`.
+- **Result.** 107/107 marked correct: no changes, no "not sure" rows, no notes.
+  - Recorded in file 58 (new columns `recheck_decision` and `recheck_at`) and in file 56 (`human_verification.recheck` per record, plus `metadata.human_verification.recheck`).
+- **Timing.** All answers were entered between 01:01:20 and 01:04:51 UTC, about 2 seconds per row. Report this pass as a reconfirmation, not an independent re-review. File 14 says so.
+- **Next:** Phase D.
+## Phase C: report-to-study linkage and PRISMA 2020 flow - 2026-09-30
 - **Method.**
   - R1 (`executor`, Opus 5.5) proposed links for the 126 retained reports from full texts (legal routes only) and OpenAlex/Crossref author metadata. It started from 21 candidate clusters and reported 205 pairwise relations.
   - The `reviewer` agent (Sonnet 5.5) checked the links against the texts. The main session adjudicated.

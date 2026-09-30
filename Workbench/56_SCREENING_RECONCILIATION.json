@@ -594,7 +594,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 1",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:01:20.758Z",
+          "note": null
+        }
       },
       "report_linkage": {
         "study_id": "STU-001",
@@ -1717,7 +1722,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 40",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:02:57.006Z",
+          "note": null
+        }
       }
     },
     {
@@ -2757,7 +2767,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 2",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:01:28.791Z",
+          "note": null
+        }
       },
       "report_linkage": {
         "study_id": "STU-006",
@@ -3962,7 +3977,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 41",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:02:58.750Z",
+          "note": null
+        }
       }
     },
     {
@@ -4671,7 +4691,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 42",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:03:00.382Z",
+          "note": null
+        }
       }
     },
     {
@@ -4782,7 +4807,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 43",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:03:02.007Z",
+          "note": null
+        }
       }
     },
     {
@@ -5195,7 +5225,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 3",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:01:31.686Z",
+          "note": null
+        }
       },
       "report_linkage": {
         "study_id": "STU-008",
@@ -5584,7 +5619,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 44",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:03:03.286Z",
+          "note": null
+        }
       }
     },
     {
@@ -6432,7 +6472,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 45",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:03:04.630Z",
+          "note": null
+        }
       }
     },
     {
@@ -9161,7 +9206,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 46",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:03:06.269Z",
+          "note": null
+        }
       }
     },
     {
@@ -12422,7 +12472,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 47",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:03:07.598Z",
+          "note": null
+        }
       }
     },
     {
@@ -17724,7 +17779,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 48",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:03:09.070Z",
+          "note": null
+        }
       }
     },
     {
@@ -18749,7 +18809,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 49",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:03:10.462Z",
+          "note": null
+        }
       }
     },
     {
@@ -19754,7 +19819,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 4",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:01:38.669Z",
+          "note": null
+        }
       },
       "report_linkage": {
         "study_id": "STU-026",
@@ -23674,7 +23744,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 103",
-        "human_reason": "send to full text"
+        "human_reason": "send to full text",
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:04:46.286Z",
+          "note": null
+        }
       },
       "title_rescreen": {
         "date": "2026-09-29",
@@ -23986,7 +24061,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 104",
-        "human_reason": "send to full text"
+        "human_reason": "send to full text",
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:04:47.550Z",
+          "note": null
+        }
       },
       "title_rescreen": {
         "date": "2026-09-29",
@@ -24632,7 +24712,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 5",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:01:42.383Z",
+          "note": null
+        }
       },
       "report_linkage": {
         "study_id": "STU-032",
@@ -26502,7 +26587,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 50",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:03:11.662Z",
+          "note": null
+        }
       }
     },
     {
@@ -33735,7 +33825,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 6",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:01:45.279Z",
+          "note": null
+        }
       },
       "report_linkage": {
         "study_id": "STU-035",
@@ -34707,7 +34802,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 7",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:01:47.062Z",
+          "note": null
+        }
       },
       "report_linkage": {
         "study_id": "STU-037",
@@ -37970,7 +38070,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 51",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:03:12.951Z",
+          "note": null
+        }
       }
     },
     {
@@ -40531,7 +40636,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 52",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:03:14.480Z",
+          "note": null
+        }
       }
     },
     {
@@ -41053,7 +41163,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 53",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:03:15.928Z",
+          "note": null
+        }
       }
     },
     {
@@ -42053,7 +42168,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 54",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:03:17.686Z",
+          "note": null
+        }
       }
     },
     {
@@ -42358,7 +42478,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 55",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:03:19.102Z",
+          "note": null
+        }
       }
     },
     {
@@ -45469,7 +45594,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 56",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:03:20.366Z",
+          "note": null
+        }
       }
     },
     {
@@ -45786,7 +45916,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 8",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:01:50.590Z",
+          "note": null
+        }
       },
       "report_linkage": {
         "study_id": "STU-041",
@@ -52456,7 +52591,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 9",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:01:52.886Z",
+          "note": null
+        }
       },
       "report_linkage": {
         "study_id": "STU-051",
@@ -54566,7 +54706,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 57",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:03:21.774Z",
+          "note": null
+        }
       }
     },
     {
@@ -56248,7 +56393,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 10",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:01:55.685Z",
+          "note": null
+        }
       },
       "report_linkage": {
         "study_id": "STU-055",
@@ -56737,7 +56887,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 11",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:01:57.445Z",
+          "note": null
+        }
       },
       "report_linkage": {
         "study_id": "STU-056",
@@ -57016,7 +57171,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 58",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:03:23.103Z",
+          "note": null
+        }
       }
     },
     {
@@ -57382,7 +57542,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 59",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:03:24.520Z",
+          "note": null
+        }
       }
     },
     {
@@ -58821,7 +58986,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 60",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:03:25.968Z",
+          "note": null
+        }
       }
     },
     {
@@ -59049,7 +59219,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 61",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:03:27.302Z",
+          "note": null
+        }
       }
     },
     {
@@ -59199,7 +59374,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 12",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:01:59.741Z",
+          "note": null
+        }
       },
       "report_linkage": {
         "study_id": "STU-058",
@@ -59358,7 +59538,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 62",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:03:28.718Z",
+          "note": null
+        }
       }
     },
     {
@@ -63698,7 +63883,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 63",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:03:29.942Z",
+          "note": null
+        }
       }
     },
     {
@@ -67430,7 +67620,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 64",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:03:31.501Z",
+          "note": null
+        }
       }
     },
     {
@@ -69952,7 +70147,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 65",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:03:33.421Z",
+          "note": null
+        }
       }
     },
     {
@@ -77432,7 +77632,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 66",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:03:34.734Z",
+          "note": null
+        }
       }
     },
     {
@@ -79899,7 +80104,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 67",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:03:36.630Z",
+          "note": null
+        }
       }
     },
     {
@@ -80364,7 +80574,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 68",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:03:38.477Z",
+          "note": null
+        }
       }
     },
     {
@@ -83123,7 +83338,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 69",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:03:39.958Z",
+          "note": null
+        }
       }
     },
     {
@@ -88255,7 +88475,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 70",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:03:41.304Z",
+          "note": null
+        }
       }
     },
     {
@@ -89801,7 +90026,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 71",
-        "human_reason": "retain: Q1 A: worldwide reassortment compilation gives Nigeria-specific event-level results (Table S1)"
+        "human_reason": "retain: Q1 A: worldwide reassortment compilation gives Nigeria-specific event-level results (Table S1)",
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:03:42.693Z",
+          "note": null
+        }
       },
       "report_linkage": {
         "study_id": "STU-069",
@@ -91054,7 +91284,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 72",
-        "human_reason": "retain: Q1 A: EMPRES-based analysis gives Nigeria-specific clade 2.3.4.4 detections"
+        "human_reason": "retain: Q1 A: EMPRES-based analysis gives Nigeria-specific clade 2.3.4.4 detections",
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:03:52.631Z",
+          "note": null
+        }
       },
       "report_linkage": {
         "study_id": "STU-070",
@@ -94612,7 +94847,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 73",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:03:54.143Z",
+          "note": null
+        }
       }
     },
     {
@@ -96643,7 +96883,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 13",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:02:02.110Z",
+          "note": null
+        }
       },
       "report_linkage": {
         "study_id": "STU-077",
@@ -96777,7 +97022,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 14",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:02:04.174Z",
+          "note": null
+        }
       },
       "report_linkage": {
         "study_id": "STU-078",
@@ -97112,7 +97362,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 74",
-        "human_reason": "retain: Q2 A: outbreaks 'duly confirmed' by the state desk office with samples sent to NVRI"
+        "human_reason": "retain: Q2 A: outbreaks 'duly confirmed' by the state desk office with samples sent to NVRI",
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:03:58.134Z",
+          "note": null
+        }
       },
       "report_linkage": {
         "study_id": "STU-079",
@@ -97617,7 +97872,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 15",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:02:07.854Z",
+          "note": null
+        }
       },
       "report_linkage": {
         "study_id": "STU-081",
@@ -99279,7 +99539,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 16",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:02:09.270Z",
+          "note": null
+        }
       },
       "report_linkage": {
         "study_id": "STU-083",
@@ -99419,7 +99684,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 17",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:02:10.773Z",
+          "note": null
+        }
       },
       "report_linkage": {
         "study_id": "STU-008",
@@ -99558,7 +99828,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 18",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:02:12.165Z",
+          "note": null
+        }
       },
       "report_linkage": {
         "study_id": "STU-084",
@@ -99700,7 +99975,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 75",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:04:00.022Z",
+          "note": null
+        }
       }
     },
     {
@@ -99828,7 +100108,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 19",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:02:13.582Z",
+          "note": null
+        }
       },
       "report_linkage": {
         "study_id": "STU-085",
@@ -99972,7 +100257,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 20",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:02:15.055Z",
+          "note": null
+        }
       },
       "report_linkage": {
         "study_id": "STU-086",
@@ -100147,7 +100437,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 21",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:02:16.494Z",
+          "note": null
+        }
       },
       "report_linkage": {
         "study_id": "STU-087",
@@ -100321,7 +100616,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 22",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:02:18.183Z",
+          "note": null
+        }
       },
       "report_linkage": {
         "study_id": "STU-088",
@@ -100544,7 +100844,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 23",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:02:19.478Z",
+          "note": null
+        }
       },
       "report_linkage": {
         "study_id": "STU-089",
@@ -101146,7 +101451,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 76",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:04:01.678Z",
+          "note": null
+        }
       }
     },
     {
@@ -101704,7 +102014,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 24",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:02:21.495Z",
+          "note": null
+        }
       },
       "report_linkage": {
         "study_id": "STU-093",
@@ -101882,7 +102197,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 77",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:04:06.694Z",
+          "note": null
+        }
       }
     },
     {
@@ -102212,7 +102532,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 25",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:02:22.821Z",
+          "note": null
+        }
       },
       "report_linkage": {
         "study_id": "STU-095",
@@ -102387,7 +102712,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 26",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:02:24.160Z",
+          "note": null
+        }
       },
       "report_linkage": {
         "study_id": "STU-096",
@@ -102876,7 +103206,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 78",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:04:07.998Z",
+          "note": null
+        }
       }
     },
     {
@@ -105287,7 +105622,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 27",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:02:25.544Z",
+          "note": null
+        }
       },
       "report_linkage": {
         "study_id": "STU-100",
@@ -105872,7 +106212,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 79",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:04:11.254Z",
+          "note": null
+        }
       }
     },
     {
@@ -106573,7 +106918,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 80",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:04:12.542Z",
+          "note": null
+        }
       }
     },
     {
@@ -107412,7 +107762,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 81",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:04:13.765Z",
+          "note": null
+        }
       }
     },
     {
@@ -107545,7 +107900,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 82",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:04:15.224Z",
+          "note": null
+        }
       }
     },
     {
@@ -109406,7 +109766,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 83",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:04:16.798Z",
+          "note": null
+        }
       }
     },
     {
@@ -109643,7 +110008,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 28",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:02:27.007Z",
+          "note": null
+        }
       },
       "report_linkage": {
         "study_id": "STU-102",
@@ -109922,7 +110292,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 91",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:04:29.454Z",
+          "note": null
+        }
       }
     },
     {
@@ -110209,7 +110584,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 29",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:02:28.478Z",
+          "note": null
+        }
       }
     },
     {
@@ -110389,7 +110769,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 30",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:02:30.198Z",
+          "note": null
+        }
       },
       "report_linkage": {
         "study_id": "STU-103",
@@ -111543,7 +111928,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 31",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:02:31.638Z",
+          "note": null
+        }
       },
       "report_linkage": {
         "study_id": "STU-004",
@@ -111916,7 +112306,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 32",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:02:33.726Z",
+          "note": null
+        }
       },
       "report_linkage": {
         "study_id": "STU-104",
@@ -112240,7 +112635,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 92",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:04:30.975Z",
+          "note": null
+        }
       }
     },
     {
@@ -112545,7 +112945,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 33",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:02:35.158Z",
+          "note": null
+        }
       },
       "report_linkage": {
         "study_id": "STU-105",
@@ -112937,7 +113342,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 34",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:02:36.831Z",
+          "note": null
+        }
       },
       "report_linkage": {
         "study_id": "STU-106",
@@ -113177,7 +113587,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 93",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:04:32.550Z",
+          "note": null
+        }
       }
     },
     {
@@ -114469,7 +114884,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 94",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:04:34.271Z",
+          "note": null
+        }
       }
     },
     {
@@ -114578,7 +114998,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 95",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:04:35.694Z",
+          "note": null
+        }
       }
     },
     {
@@ -115016,7 +115441,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 84",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:04:18.830Z",
+          "note": null
+        }
       }
     },
     {
@@ -116151,7 +116581,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 105",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:04:48.982Z",
+          "note": null
+        }
       }
     },
     {
@@ -116328,7 +116763,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 96",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:04:37.198Z",
+          "note": null
+        }
       }
     },
     {
@@ -116679,7 +117119,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 97",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:04:38.509Z",
+          "note": null
+        }
       }
     },
     {
@@ -118028,7 +118473,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 35",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:02:38.190Z",
+          "note": null
+        }
       },
       "report_linkage": {
         "study_id": "STU-107",
@@ -118701,7 +119151,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 36",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:02:39.822Z",
+          "note": null
+        }
       },
       "report_linkage": {
         "study_id": "STU-108",
@@ -119053,7 +119508,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 85",
-        "human_reason": "retain: Q2 A (as presented to the author, CAN-2009 named explicitly): official Plateau desk-office outbreak records"
+        "human_reason": "retain: Q2 A (as presented to the author, CAN-2009 named explicitly): official Plateau desk-office outbreak records",
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:04:20.246Z",
+          "note": null
+        }
       },
       "report_linkage": {
         "study_id": "STU-109",
@@ -120270,7 +120730,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 86",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:04:22.174Z",
+          "note": null
+        }
       }
     },
     {
@@ -120742,7 +121207,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 37",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:02:41.279Z",
+          "note": null
+        }
       },
       "report_linkage": {
         "study_id": "STU-110",
@@ -121132,7 +121602,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 38",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:02:43.278Z",
+          "note": null
+        }
       },
       "report_linkage": {
         "study_id": "STU-111",
@@ -121651,7 +122126,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 87",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:04:23.725Z",
+          "note": null
+        }
       }
     },
     {
@@ -121824,7 +122304,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 98",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:04:39.784Z",
+          "note": null
+        }
       }
     },
     {
@@ -122466,7 +122951,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 39",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:02:44.517Z",
+          "note": null
+        }
       },
       "report_linkage": {
         "study_id": "STU-112",
@@ -123179,7 +123669,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 99",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:04:41.032Z",
+          "note": null
+        }
       }
     },
     {
@@ -123329,7 +123824,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 88",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:04:24.981Z",
+          "note": null
+        }
       }
     },
     {
@@ -123398,7 +123898,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 106",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:04:50.126Z",
+          "note": null
+        }
       }
     },
     {
@@ -123501,7 +124006,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 100",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:04:42.470Z",
+          "note": null
+        }
       }
     },
     {
@@ -123693,7 +124203,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 101",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:04:43.590Z",
+          "note": null
+        }
       }
     },
     {
@@ -124094,7 +124609,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 102",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:04:44.750Z",
+          "note": null
+        }
       }
     },
     {
@@ -124338,7 +124858,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 89",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:04:26.647Z",
+          "note": null
+        }
       }
     },
     {
@@ -124709,7 +125234,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 107",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:04:51.672Z",
+          "note": null
+        }
       }
     },
     {
@@ -125151,7 +125681,12 @@
         "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 90",
-        "human_reason": null
+        "human_reason": null,
+        "recheck": {
+          "decision": "correct",
+          "at": "2026-09-30T01:04:27.943Z",
+          "note": null
+        }
       }
     },
     {
@@ -126255,7 +126790,16 @@
         "Q2": "A - official outbreak records described in the report as 'confirmed' are eligible even when the laboratory assay is not named (Nigerian confirmation runs through NVRI); flag for sensitivity analysis.",
         "Q3": "A - reports that only reprint official outbreak tables without analysis (CAN-0055, CAN-2082) stay excluded; the same counts come from national records used by included studies."
       },
-      "superseded_note": "The earlier result '429/429 confirmed; 0 overturned' (blanket stage) was superseded by the row-level stage on the same day; corrected 2026-09-30."
+      "superseded_note": "The earlier result '429/429 confirmed; 0 overturned' (blanket stage) was superseded by the row-level stage on the same day; corrected 2026-09-30.",
+      "recheck": {
+        "date": "2026-09-30",
+        "by": "Mayowa Olabode (MO)",
+        "tool": "https://claude.ai/artifact/9jhGWfFgZtxun9p8HnfEqS (private page; one row per screen showing the current decision, reviewer evidence and the first-check answer; answers stored in its db collection recheck)",
+        "scope": "the 107 must-check rows, each against its current register decision (including the six changes and the CAN-1610 exclusion context)",
+        "result": "107/107 marked correct; no changes, no unsure rows, no notes.",
+        "timing": "All 107 answers were entered between 2026-09-30T01:01:20.758Z and 2026-09-30T01:04:51.672Z (about 3.5 minutes; roughly 2 seconds per row).",
+        "caveat": "Entered directly by the author, not transcribed. The pace means this pass reconfirms the decisions rather than re-reading the evidence; report it as a reconfirmation, not as an independent re-review."
+      }
     },
     "report_study_linkage": {
       "date": "2026-09-30",
