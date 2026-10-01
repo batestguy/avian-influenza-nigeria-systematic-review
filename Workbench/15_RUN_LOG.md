@@ -1,5 +1,29 @@
 # Run log + gate checklists (update as you go)
-## Phase D: extraction batch 01 - 2026-10-01 (latest)
+## Phase D: extraction batch 02 - 2026-10-01 (latest)
+- **Scope.** STU-006 to 020 (15 studies). After the session-limit stop, R1 and R2 were relaunched at about 09:30. They extracted blind, and both outputs validated with no structural errors.
+- **Consensus.**
+  - `extraction\consensus_batch02.json` has 15 studies, 54 findings rows and 16 logged adjudications (`adjudication_batch02.json`).
+  - Every study uses R1 as the base except STU-019, which uses R2 because only R2 opened the PMC supplement (Tables S1/S2: Nigerian sequences H5N1 280, H5N2 3, H5N6 1, H5N8 5, of 289).
+- **Main fixes.**
+  - STU-008: R2's host classification (the production system is not stated for 3 flocks), with flock counts. The NVRI result for case 10345 is coded RNA H5N1.
+  - STU-013: LBM surveillance split into 25 infected states (13,884 samples) and 11 non-infected states (5,807).
+  - STU-014: wild and captive serology rows added, marked "subset; do not add".
+  - STU-007 and STU-012: subtype "type A" (not subtyped).
+  - STU-006: host system NR.
+- **Form v2.2 rules R-i to R-n** added:
+  - host_system = sampling setting
+  - "NR (abstract only)" for introductions
+  - "introduction" = into Nigeria or into a new zone
+  - subtype "NA" only for serology
+  - no template text as a value
+  - open the supplement tables before recording NR
+- **Access gaps.** CAN-0129 (STU-015) and CAN-0147 (STU-014) were available as abstracts only (Springer; the ResearchGate copies returned 403, with no bypass). The full text of CAN-0209 was not retrieved.
+- **Notable source errors**, logged per study, for RoB and synthesis:
+  - CAN-0087: its Table 1 total double-counts 2006 (1,893,708 vs 1,250,345).
+  - CAN-0155: labels the 2015-16 genomes clade 2.3.2.1f, but the primary reports use 2.3.2.1c.
+  - CAN-0114: altitude P = 0.000, but a recomputation gives P ≈ 0.17.
+
+## Phase D: extraction batch 01 - 2026-10-01
 - **Scope.** 15 studies: the 10 pilot studies re-done under form v2, plus STU-001 to 005.
   - R1 and R2 extracted blind. R1 was resumed after the 30 Sept interruption from its per-study files; R2 was rebuilt from its cached texts.
   - Quote checks: R1 169/173 matched (4 false alarms confirmed by eye); R2 202/202.
