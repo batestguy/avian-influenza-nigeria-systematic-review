@@ -1,5 +1,25 @@
 # Run log + gate checklists (update as you go)
-## Phase D: extraction pilot and form v2 - 2026-09-30 (latest)
+## Phase D: extraction batch 01 - 2026-10-01 (latest)
+- **Scope.** 15 studies: the 10 pilot studies re-done under form v2, plus STU-001 to 005.
+  - R1 and R2 extracted blind. R1 was resumed after the 30 Sept interruption from its per-study files; R2 was rebuilt from its cached texts.
+  - Quote checks: R1 169/173 matched (4 false alarms confirmed by eye); R2 202/202.
+- **Agreement.**
+  - Period and design agreed in 15/15 studies; headline counts agreed in most.
+  - Differences were mainly labels: evidence type for records versus lab-confirmed cases, "hypothesised" versus NA introductions, and NA conventions.
+- **Consensus.**
+  - `extraction\consensus_batch01.json` is R1 as the base, with 18 logged adjudications (`adjudication_batch01.json`) and R2's inconsistency findings merged in.
+  - Numbers fixed: STU-004 542/1,137; STU-057 228 screening denominator; STU-025 299/1,654; STU-003 157.
+  - Classifications fixed: STU-071 H5N6 is an inherited reassortant; STU-100 rows are official reports; STU-110 rows are lab-confirmed cases with method NR.
+- **Form v2.1 rules R-a to R-h** added to `EXTRACTION_FORM_v2.md`:
+  - NA conventions for introduction and reassortment
+  - `n_tested` is the first screening denominator
+  - authors' own sequences are evidence type "sequence"
+  - records with no assay are "official confirmed report"
+  - subset rows are allowed, marked "do not add"
+  - sub-state counts go in `estimate`
+- **Scope note.** STU-110 is now thesis Study 1 + CAN-0714/1845/0039. The FFPE work counts under STU-005 and the mixed-species work under STU-104, per `also_reports_on`.
+- **Batch 02** (STU-006 to 020) launched.
+## Phase D: extraction pilot and form v2 - 2026-09-30
 - **Pilot.** Two extractors worked blind on the same 10 studies with per-study form v1:
   - R1 = `executor` (Opus 5.5); R2 = `reviewer` (Sonnet 5.5).
   - The 10: STU-025, 028, 049, 057, 063, 069, 071, 072, 100 and 110.

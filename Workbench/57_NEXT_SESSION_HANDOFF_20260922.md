@@ -14,8 +14,10 @@
 - **Phase D is under way.**
   - The pilot is done and form v2 is written (file 15 top). Workspace: `D:\AvianInfluenzaSysRev_retrieval_20260927\extraction\`.
   - Each batch: launch R1 (`executor`) and R2 (`reviewer`) with the one-line prompt pattern, "Read BATCH_BRIEF.md; batch NN; studies ...". Outputs are `R1_batchNN.json` and `r2_scratch\R2_batchNN.json`. Then compare, adjudicate against the texts, and save `consensus_batchNN.json`.
-  - Batch 01 (the 10 pilot studies + STU-001 to 005) was launched 30 Sept. If the session ended before it finished, check that both output files exist before relaunching.
-  - Remaining studies: STU-006 to STU-112, excluding the pilot IDs, about 7 batches of 14-15.
+  - **Batch 01 is done:** `consensus_batch01.json` (15 studies).
+  - **Batch 02** (STU-006 to 020) was launched on 1 Oct. If the session ended, check for `R1_batch02.json` and `r2_scratch\R2_batch02.json`; resume an unfinished agent with SendMessage or relaunch it. Per-study partial files are in `r1_scratch2\` and `r2_scratch\work\`.
+  - Adjudicate each batch with a copy of `adjudicate_batch01.py`: R1 as the base, patches only after checking the text, and R2's inconsistencies merged.
+  - Remaining after batch 02: STU-021 to 112, excluding the pilot IDs (025, 028, 049, 057, 063, 069, 071, 072, 100, 110). That is 82 studies, about 6 batches.
 - **To rerun the linkage after any eligibility change:** `adjudicate_linkage.py`, then `apply_linkage.py`, then `prisma_flow.py`. Study IDs renumber, so do this before extraction starts, not after.
 - **Optional:** open the 12 reports not verified in full text (CAN-0031, 0058, 0066, 0129, 0147, 0191, 0243, 0244, 0282, 0329, 0330, 1662) through legal routes. This happens naturally at extraction.
 
