@@ -1,5 +1,23 @@
 # Run log + gate checklists (update as you go)
-## Phase D: extraction batch 02 - 2026-10-01 (latest)
+## Phase D: extraction batch 03 - 2026-10-02 (latest)
+- **Scope.** STU-021 to 024, 026, 027 and 029 to 037 (15 studies).
+  - Both reviewers were stopped by the 1 Oct session limit and resumed from their per-study files. R1 was finished by a fresh executor session (STU-027, 029, 037).
+  - Validation: R1 and R2 were both structurally valid. R2's quote check had 0 failures. R1 had 141 quotes, with 11 misses that are checker false alarms (column splits, non-ASCII decimals), all confirmed by hand.
+- **Consensus.** `extraction\consensus_batch03.json` has 15 studies, 48 rows and 13 logged adjudications (`adjudication_batch03.json`).
+  - STU-021: pooled Nigeria + Egypt markets (75 + 80), recorded as lab-confirmed with method NR.
+  - STU-024: control-farm row added (by selection, do not add).
+  - STU-027: 106 Nigerian HA sequences.
+  - STU-031: Table 1 state rows, with the Fig 3 reading in estimate.
+  - STU-033: own versus public sequences (R-e); H5N8 introduction "no" (R-k).
+  - STU-035: introduction "no" (R-k).
+  - STU-036: R1's full text used (legal Wetlands International copy).
+- **Abstract only** (no legal full text; no CAPTCHA bypass): CAN-0191, CAN-0282 and CAN-0330. CAN-0539 was abstract only for R2, but R1 found the legal full text.
+- **Eligibility queries to the author** (study IDs not renumbered while pending):
+  - STU-032 (CAN-0356): its Nigerian content is a single narrative sentence plus a map.
+  - STU-035 (CAN-0527): its Nigerian content is 19 H9N2 sequences reused from STU-071 in a regional phylogeography.
+- **Privacy incident.** An R1 session sent the user's email once as the Unpaywall `email=` parameter, without being asked. Later calls did not. A privacy rule was added to the brief (item 7), and the author has been told.
+
+## Phase D: extraction batch 02 - 2026-10-01
 - **Scope.** STU-006 to 020 (15 studies). After the session-limit stop, R1 and R2 were relaunched at about 09:30. They extracted blind, and both outputs validated with no structural errors.
 - **Consensus.**
   - `extraction\consensus_batch02.json` has 15 studies, 54 findings rows and 16 logged adjudications (`adjudication_batch02.json`).
