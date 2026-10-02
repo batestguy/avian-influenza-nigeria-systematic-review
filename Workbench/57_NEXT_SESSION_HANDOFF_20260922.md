@@ -1,5 +1,5 @@
 # Next-session handoff - Nigeria avian influenza systematic review
-## Latest handoff - 1 October 2026 (Phase D extraction under way; batches 01-06 done)
+## Latest handoff - 1 October 2026 (Phase D extraction under way; batches 01-07 done)
 
 - **Result:** **123 included reports = 110 studies** (CAN-0356 / STU-032 and CAN-1558 / STU-070 excluded by the author on 2 Oct; both IDs retired, the rest not renumbered).
   - The author excluded CAN-1610 on 30 Sept: a multi-country pigeon sequence compilation, excluded under rule Q1.
@@ -20,9 +20,10 @@
   - **Batch 04 is done:** `consensus_batch04.json` (15 studies, 54 rows). Cross-study overlaps to settle at synthesis are listed at the top of file 15.
   - **Batch 05 is done:** `consensus_batch05.json` (15 studies, 57 rows). STU-070 was excluded by the author; drop it at synthesis, as with STU-032.
   - **Batch 06 is done:** `consensus_batch06.json` (15 studies, 46 rows). STU-081 and STU-085 were queried and kept by the author.
-  - **Next is batch 07:** STU-089-099 and 101-104. Then batch 08: STU-105-109, 111 and 112. The pilot IDs 100 and 110 are already done. If interrupted, check for `R1_batchNN.json` and `r2_scratch/R2_batchNN.json`. The per-study partials are in `r1_scratch/v2/` and `r2_scratch/work/bNN_*`. Relaunch with "reuse finished per-study files".
+  - **Batch 07 is done:** `consensus_batch07.json` (15 studies).
+  - **Next is batch 08, the last:** STU-105-109, 111 and 112 (7 studies). The pilot IDs 100 and 110 are already done. If interrupted, check for `R1_batchNN.json` and `r2_scratch/R2_batchNN.json`. The per-study partials are in `r1_scratch/v2/` and `r2_scratch/work/bNN_*`. Relaunch with "reuse finished per-study files".
   - Adjudicate each batch with a copy of `adjudicate_batch02.py`: R1 as the base, patches only after checking the text, and the other reviewer's inconsistencies merged.
-  - Remaining after batch 06: STU-089 to 112, excluding the pilot IDs (025, 028, 049, 057, 063, 069, 071, 072, 100, 110). That is 22 studies, 2 batches.
+  - Remaining after batch 07: STU-105 to 112, excluding the pilot IDs (025, 028, 049, 057, 063, 069, 071, 072, 100, 110). That is 7 studies, 1 batch.
 - **To rerun the linkage after any eligibility change:** `adjudicate_linkage.py`, then `apply_linkage.py`, then `prisma_flow.py`. Study IDs renumber, so do this before extraction starts, not after.
 - **Optional:** open the 12 reports not verified in full text (CAN-0031, 0058, 0066, 0129, 0147, 0191, 0243, 0244, 0282, 0329, 0330, 1662) through legal routes. This happens naturally at extraction.
 

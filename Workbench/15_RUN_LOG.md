@@ -1,5 +1,20 @@
 # Run log + gate checklists (update as you go)
-## Phase D: extraction batch 06 - 2026-10-02 (latest)
+## Phase D: extraction batch 07 - 2026-10-02 (latest)
+- **Scope.** STU-089 to 099 and 101 to 104 (15 studies). Every source text was already held locally, so no web requests were made.
+  - R1's quote check: 146 quotes, 0 missing, 0 fuzzy. The CAN-1907 table images were transcribed by both reviewers. Both outputs were structurally valid.
+- **Consensus.** `extraction/consensus_batch07.json` has 15 studies and 9 logged adjudications.
+  - STU-101: H5 and H7 negative rows added.
+  - STU-102: R2's rows used (a lecture; all rows are secondary or official, overlap CAN-1357 and CAN-0751, do not add). Its unique content is that unapproved H5N2 vaccine was used in the South West and H5N9/H7N1 in Kaduna and Plateau. That bears on serology interpretation.
+  - STU-104: single and mixed-species cross-classification rows added; rob_tool JBI analytical cross-sectional; introduction NA.
+  - STU-089: the human-contact result (3/18 H5N1, method NR) is outside the avian scope. It is noted in estimate for the Discussion only.
+- **Overlaps to settle at synthesis.**
+  - STU-089's 2019 farms are STU-093's farms.
+  - STU-089's 2021 farms overlap STU-074 and CAN-1602.
+  - STU-104's 170 cases are a subset of the NVRI 299 (STU-025/061/110).
+  - STU-092 may share sera with STU-014 (same first author).
+  - STU-098 may have a companion preprint, CAN-1939, which was not retrieved.
+
+## Phase D: extraction batch 06 - 2026-10-02
 - **Scope.** STU-074 to 088 (15 studies). Both reviewers were stopped by the session limit before saving anything and were resumed after the 10:40 reset.
   - R1's quote check: 144 quotes, 0 missing, 6 fuzzy (two-column wraps). R2: machine-checked. Both outputs were structurally valid, and neither sent any personal identifier.
 - **Access.**
