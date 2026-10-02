@@ -1,5 +1,29 @@
 # Run log + gate checklists (update as you go)
-## Phase D: extraction batch 05 - 2026-10-02 (latest)
+## Phase D: extraction batch 06 - 2026-10-02 (latest)
+- **Scope.** STU-074 to 088 (15 studies). Both reviewers were stopped by the session limit before saving anything and were resumed after the 10:40 reset.
+  - R1's quote check: 144 quotes, 0 missing, 6 fuzzy (two-column wraps). R2: machine-checked. Both outputs were structurally valid, and neither sent any personal identifier.
+- **Access.**
+  - CAN-1662 (STU-076): the live page is behind a Cloudflare challenge, which was not bypassed. R1 used the open-access scialert page plus the publisher's table images; R2 used the Internet Archive copy. Table values were read from the images.
+  - CAN-0058 is the same article as CAN-1715 (ResearchGate only, not opened).
+  - Four OCR scans were used (CAN-1666, 1667, 1672, 1710).
+- **Consensus.** `extraction/consensus_batch06.json` has 15 studies, 46 rows and 11 logged adjudications.
+  - STU-076: rows merged per host system (H5 23/547, type A 92/309), with the farm and household split in estimate.
+  - STU-084: isolation split Gombe 2/43 and other states 0/1,899.
+  - STU-087: H5 and H9 negative rows added.
+  - STU-079: rob_tool JBI prevalence.
+  - Introduction evidence "epidemiological only" where it was hypothesised.
+- **Author decisions (2026-10-02, yes/no in chat).**
+  - STU-081 / CAN-1679 is **kept**: a global cluster analysis with a Nigeria-specific space-time result.
+  - STU-085 / CAN-1714 is **kept**: a Nigerian re-analysis of 10 public sequences, to be counted once.
+  - Both recorded under `report_linkage.eligibility_query_answered`. The counts are unchanged: **123 reports = 110 studies**.
+- **Overlaps to settle at synthesis.**
+  - STU-077, 078, 079 and 083 sit within the CAN-1357 NVRI 2006-07 line list.
+  - STU-074, 082 and 088 sit within the CAN-1602 2021-22 records.
+  - STU-075 is a Kano subset of CAN-0745.
+  - STU-080 uses the EMPRES-i/WAHID compilations.
+  - STU-084's Gombe isolates were likely reused in CAN-0654.
+
+## Phase D: extraction batch 05 - 2026-10-02
 - **Scope.** STU-054-056, 058-062, 064-068, 070 and 073 (15 studies). Every report was read in full; supplements were opened under R-n.
   - R1's quote check: 127 quotes, 0 missing and 0 fuzzy. R2: 0 failures. Both outputs were structurally valid, and neither sent any personal identifier.
 - **Consensus.** `extraction/consensus_batch05.json` has 15 studies, 57 rows and 11 logged adjudications (`adjudication_batch05.json`).
