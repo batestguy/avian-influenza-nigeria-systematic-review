@@ -1,5 +1,24 @@
 # Run log + gate checklists (update as you go)
-## Phase D: extraction batch 03 - 2026-10-02 (latest)
+## Phase D: extraction batch 04 - 2026-10-02 (latest)
+- **Scope.** STU-038 to 048 and 050 to 053 (15 studies). Both reviewers were stopped by the session limit and resumed from their per-study files.
+  - Both outputs validated. R1's quote check: 177 quotes, 0 missing. R2: 0 failures.
+  - No email or personal identifier was sent (brief item 7). PMC's proof-of-work browser check on the CAN-0654 supplement was not bypassed.
+- **Consensus.** `extraction/consensus_batch04.json` has 15 studies, 54 rows and 11 logged adjudications (`adjudication_batch04.json`).
+  - STU-041: H5 HI split by state (Bauchi 6/200, Gombe 2/200).
+  - STU-042: ELISA split by state (Oyo 19/315, Osun 4/95, Ondo 0/110). H3N8 HI positives are 22, not 18.
+  - STU-043: 499 WAHIS reports covering 1,230 outbreaks.
+  - STU-045: hotspot-state subset rows.
+  - STU-047: national 299/1,675 row; year rows coded lab-confirmed (method NR); introduction NA.
+  - STU-053: introduction "hypothesised only".
+  - STU-040: JBI case series (new genomes).
+- **Cross-study overlaps to settle at synthesis (count once).**
+  - STU-040 and STU-053 share the same 21 Nigerian 2006-07 genomes (CY016276-91, CY016907-54, CY017179-86, EU148356-451). The register does not flag this yet.
+  - The NVRI "299" appears three ways: STU-051 (farms out of 1,006 submitting farms), STU-047 (cases out of 1,675 suspected), and STU-025/110 (233 farms + 66 LBMs).
+  - STU-048 and STU-052 sequence sets overlap CAN-0654, CAN-0863 and CAN-0541.
+  - STU-043, 044 and 045 national records overlap.
+- **Access.** Every report was read in full. Not obtained: the CAN-0654 supplement (Table S1, per-isolate state and date).
+
+## Phase D: extraction batch 03 - 2026-10-02
 - **Scope.** STU-021 to 024, 026, 027 and 029 to 037 (15 studies).
   - Both reviewers were stopped by the 1 Oct session limit and resumed from their per-study files. R1 was finished by a fresh executor session (STU-027, 029, 037).
   - Validation: R1 and R2 were both structurally valid. R2's quote check had 0 failures. R1 had 141 quotes, with 11 misses that are checker false alarms (column splits, non-ASCII decimals), all confirmed by hand.
