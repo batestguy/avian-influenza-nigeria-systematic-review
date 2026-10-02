@@ -24581,7 +24581,7 @@
         "PMID:40134747"
       ],
       "preliminary_disposition": "needs_adjudication",
-      "final_status": "provisional_full_text_eligible",
+      "final_status": "full_text_excluded",
       "vote_disposition": [
         {
           "source": "OpenAlex/Crossref",
@@ -24605,7 +24605,7 @@
         "reviewer": "main-agent",
         "basis": "preserved evidence-supported B20 adjudication"
       },
-      "full_text_status": "full_text_eligible_provisional",
+      "full_text_status": "full_text_excluded",
       "retrieval": {
         "checked": "2026-09-23",
         "route": "Europe PMC public metadata/full-text-link service",
@@ -24700,19 +24700,30 @@
           "basis": "Original geospatial analysis explicitly maps and temporally describes Nigerian poultry H5N1 reports in late 2020 and 2021.",
           "caution": "Use as report-level spatial context only; verify Figure 5 source points and overlap before extraction.",
           "checked": "2026-09-26",
-          "source_url": "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2024GH001296"
+          "source_url": "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2024GH001296",
+          "reason_code": "non-Nigeria no Nigeria-data",
+          "superseded_by": "human_override 2026-10-02"
+        },
+        "human_override": {
+          "date": "2026-10-02",
+          "by": "Mayowa Olabode (MO)",
+          "previous_decision": "retain",
+          "previous_reason_code": null,
+          "decision": "exclude",
+          "reason_code": "non-Nigeria no Nigeria-data",
+          "rule": "no Nigeria-specific data: global WAHIS-based spatial analysis of AIV spread (CAN-0356); its only Nigerian content is one narrative sentence (\"Initial AIV reports in Africa, particularly from poultry in Nigeria (late 2020)\") and a trade map, with no Nigerian counts, samples or sequences. Found at dual extraction (batch 03)."
         }
       },
       "human_verification": {
         "stage": "full_text_retain",
         "ai_decision": "retain",
-        "human_decision": "agree",
+        "human_decision": "disagree",
         "verifier": "Mayowa Olabode (MO)",
-        "date": "2026-09-29",
-        "mode": "row-level assisted review in chat (AI-prepared summary, author decision, AI transcription)",
+        "date": "2026-10-02",
+        "mode": "row-level decision in chat (AI-prepared yes/no question, author decision, AI transcription)",
         "must_check": "Y",
         "source": "Workbench/58_HUMAN_VERIFICATION.csv row 5",
-        "human_reason": null,
+        "human_reason": "exclude: no Nigeria-specific data: global WAHIS-based spatial analysis of AIV spread (CAN-0356); its only Nigerian content is one narrative sentence (\"Initial AIV reports in Africa, particularly from poultry in Nigeria (late 2020)\") and a trade map, with no Nigerian counts, samples or sequences. Found at dual extraction (batch 03).",
         "recheck": {
           "decision": "correct",
           "at": "2026-09-30T01:01:42.383Z",
@@ -24720,18 +24731,10 @@
         }
       },
       "report_linkage": {
-        "study_id": "STU-032",
-        "study_role": "primary",
-        "study_primary": "CAN-0356",
-        "study_reports": [
-          "CAN-0356"
-        ],
-        "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
-        "overlapping_data_with": [
-          "CAN-0736",
-          "CAN-1602"
-        ],
-        "linked": "2026-09-30"
+        "excluded_after_linkage": "2026-10-02",
+        "retired_study_id": "STU-032",
+        "note": "Excluded by the author after extraction began; STU-032 retired and other study IDs NOT renumbered.",
+        "eligibility_query_answered": "exclude (author, 2026-10-02)"
       }
     },
     {
@@ -33841,9 +33844,12 @@
         ],
         "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
         "overlapping_data_with": [
+          "CAN-0491",
+          "CAN-1484",
           "CAN-1585"
         ],
-        "linked": "2026-09-30"
+        "linked": "2026-09-30",
+        "eligibility_query_answered": "keep (author, 2026-10-02): reuses 19 Nigerian H9N2 genomes reported in STU-071; count the sequences once (under STU-071)"
       }
     },
     {
@@ -47396,7 +47402,6 @@
         ],
         "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
         "overlapping_data_with": [
-          "CAN-0356",
           "CAN-0745",
           "CAN-0911",
           "CAN-1558",
@@ -93515,7 +93520,6 @@
         "overlapping_data_with": [
           "CAN-0155",
           "CAN-0191",
-          "CAN-0356",
           "CAN-0736",
           "CAN-1630",
           "CAN-1637",
@@ -126536,7 +126540,7 @@
       "seek_further_info_candidates": 1,
       "note": "Report-level counts only. Identity/report and dataset overlaps unresolved; no final included-study count."
     },
-    "last_updated": "2026-09-30",
+    "last_updated": "2026-10-02",
     "scholar_rerun_20260928": {
       "search": "Google Scholar Q1-Q4 via SerpApi, 2026-09-28; 800 rows, 519 unique, 291 matched existing identities, 228 new (CAN-1878 to CAN-2105). Raw: D:/AvianInfluenzaSysRev_retrieval_20260927/scholar_rerun/.",
       "screening": "Blind R1/R2 title/venue/snippet votes (file 18), main-session adjudication 2026-09-29: conservative union with 3 overrides to exclude (SCH-090, SCH-192, SCH-211).",
@@ -126782,7 +126786,7 @@
       "verifier": "Mayowa Olabode (review author)",
       "file": "Workbench/58_HUMAN_VERIFICATION.csv",
       "scope": "429 decisions: all 122 full-text retains, all 113 full-text excludes, all 12 duplicate removals, 182 title exclusions (seeded 10% sample of 1,770, seed 20260929, plus 5 adjudication overrides); 107 flagged must-check. The 88 not-retrieved reports carry no decision.",
-      "result": "429 AI decisions verified: 423 agree, 6 disagree. The 6 changes: CAN-1535, CAN-1558 (rule Q1) and CAN-1672, CAN-2009 (rule Q2) moved from full-text exclude to retain; CAN-0343 and CAN-0345 moved from title exclusion to full text, then excluded at full text by blind R1/R2 (non-Nigeria, no Nigeria data). Later change (2026-09-30, Phase C identity check): CAN-1610 retain -> exclude (Q1), author decision.",
+      "result": "429 AI decisions verified: 423 agree, 6 disagree. The 6 changes: CAN-1535, CAN-1558 (rule Q1) and CAN-1672, CAN-2009 (rule Q2) moved from full-text exclude to retain; CAN-0343 and CAN-0345 moved from title exclusion to full text, then excluded at full text by blind R1/R2 (non-Nigeria, no Nigeria data). Later change (2026-09-30, Phase C identity check): CAN-1610 retain -> exclude (Q1), author decision. Later change (2026-10-02, extraction batch 03): CAN-0356 retain -> exclude (no Nigeria-specific data), author decision; CAN-0527 kept by the author with an overlap flag to STU-071.",
       "mode": "Two stages, both in the session chat and transcribed by the AI assistant at the author's request (accessibility): (1) 2026-09-29 blanket confirmation of all 429 rows; (2) 2026-09-29 row-level assisted review of the 107 must-check rows, in which the author read an AI-prepared one-line summary per row and gave each decision. The 322 other rows rest on the blanket confirmation only.",
       "caveat": "Row-level decisions relied on AI-prepared summaries rather than an independent re-reading of each full text; the 322 lower-priority rows were confirmed in a single statement. Do not report human-AI agreement as an independent agreement statistic.",
       "rules": {
@@ -126804,11 +126808,14 @@
     "report_study_linkage": {
       "date": "2026-09-30",
       "method": "R1 executor agent proposed links from full texts (legal routes only) and OpenAlex/Crossref metadata; reviewer agent verified against texts; main session adjudicated. Study = shared samples/animals/outbreaks (Cochrane Handbook ch. 5); separate studies reusing the same data are flagged overlapping_data for synthesis.",
-      "reports_included": 125,
-      "studies_included": 112,
+      "reports_included": 124,
+      "studies_included": 111,
       "files": "D:/AvianInfluenzaSysRev_retrieval_20260927/linkage/ (R1_linkage.json, linkage_final.json, adjudicate_linkage.py, apply_linkage.py, prisma_flow.py)",
       "unverified": "Reports not opened in Phase C (links rest on register evidence/metadata): CAN-0031, 0058, 0066, 0129, 0147, 0191, 0243, 0244, 0282, 0329, 0330, 1662. NR companions CAN-0204 and CAN-1939 are possible, unverified.",
-      "author_decisions": "CAN-1610 excluded by the author 2026-09-30 after the Phase C identity check (rule Q1)."
+      "author_decisions": "CAN-1610 excluded by the author 2026-09-30 after the Phase C identity check (rule Q1).",
+      "retired_study_ids": [
+        "STU-032 (CAN-0356 excluded 2026-10-02; IDs not renumbered)"
+      ]
     }
   }
 }

@@ -15,6 +15,10 @@
 - **Eligibility queries to the author** (study IDs not renumbered while pending):
   - STU-032 (CAN-0356): its Nigerian content is a single narrative sentence plus a map.
   - STU-035 (CAN-0527): its Nigerian content is 19 H9N2 sequences reused from STU-071 in a regional phylogeography.
+- **Author decisions (2026-10-02, yes/no in chat):**
+  - STU-032 / CAN-0356 is **excluded** (reason "non-Nigeria no Nigeria-data"; `linkage/exclude_0356.py`). STU-032 is retired and the other study IDs are not renumbered.
+  - STU-035 / CAN-0527 is **kept**, with an overlap flag to STU-071 (CAN-0491/1484/1585), so its sequences are counted once.
+  - Flow recomputed by `prisma_flow.py`: databases arm 219 assessed, 107 excluded (non-Nigeria 53), 112 included. **Total 124 reports = 111 studies.** File 22 and the file 14 Methods sentence were updated.
 - **Privacy incident.** An R1 session sent the user's email once as the Unpaywall `email=` parameter, without being asked. Later calls did not. A privacy rule was added to the brief (item 7), and the author has been told.
 
 ## Phase D: extraction batch 02 - 2026-10-01

@@ -19,8 +19,8 @@
 - Records screened: 1,877.
 - Excluded on title/metadata: 1,578, including 6 outside the 2006-2026 window.
 - Reports sought for retrieval: 299. Not retrieved: 80.
-- Reports assessed for eligibility: 219. Excluded: 106:
-  - non-Nigeria, no Nigeria data: 52
+- Reports assessed for eligibility: 219. Excluded: 107:
+  - non-Nigeria, no Nigeria data: 53 (includes CAN-0356, excluded by the author at extraction on 2026-10-02)
   - no laboratory-confirmed avian AIV: 19
   - no avian-host field data: 17
   - no primary data: 13
@@ -39,8 +39,8 @@
   - experimental only: 1
 
 **Included**
-- Reports: 125 (databases 113 + other methods 12).
-- **Studies: 112** (report-to-study linkage, file 15, 2026-09-30).
+- Reports: 124 (databases 112 + other methods 12).
+- **Studies: 111** (report-to-study linkage, file 15, 2026-09-30; STU-032 retired 2026-10-02 when CAN-0356 was excluded, IDs not renumbered).
 - Included in syntheses (temporal / geographic / host / molecular): ____ (after extraction).
 
 ## Final audit (score with files 01/02/04 — paste location per item)
