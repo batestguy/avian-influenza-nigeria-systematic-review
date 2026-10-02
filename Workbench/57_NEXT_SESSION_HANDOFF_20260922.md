@@ -1,12 +1,12 @@
 # Next-session handoff - Nigeria avian influenza systematic review
-## Latest handoff - 1 October 2026 (Phase D extraction under way; batches 01-04 done)
+## Latest handoff - 1 October 2026 (Phase D extraction under way; batches 01-05 done)
 
-- **Result:** **124 included reports = 111 studies** (CAN-0356 / STU-032 excluded by the author on 2 Oct; STU-032 retired, IDs not renumbered).
+- **Result:** **123 included reports = 110 studies** (CAN-0356 / STU-032 and CAN-1558 / STU-070 excluded by the author on 2 Oct; both IDs retired, the rest not renumbered).
   - The author excluded CAN-1610 on 30 Sept: a multi-country pigeon sequence compilation, excluded under rule Q1.
   - Linkage is on every retained record in file 56 (`report_linkage.study_id`, `study_reports`, `overlapping_data_with`).
   - The PRISMA 2020 flow is filled in file 22 and reconciled by script (`linkage/prisma_flow.py` in the retrieval workspace).
   - Method, merges, reviewer fixes and extraction flags are in the file 15 top checkpoint.
-- **Register:** 2,105 = 1,768 title-excluded + 325 full-text candidates (**124 retain / 113 exclude / 88 not retrieved**) + 12 duplicates removed.
+- **Register:** 2,105 = 1,768 title-excluded + 325 full-text candidates (**123 retain / 114 exclude / 88 not retrieved**) + 12 duplicates removed.
 - **Author answers (30 Sept):**
   - "For accessibility reasons" is confirmed (file 14). There is no second human.
   - The author rechecked all 107 priority rows directly in the recheck page: **107/107 correct**, in about 3.5 minutes. Report it as a reconfirmation (file 15 top).
@@ -18,9 +18,10 @@
   - **Batch 02 is done:** `consensus_batch02.json` (15 studies, 54 rows); form rules v2.2 R-i to R-n are at the top of file 15.
   - **Batch 03 is done:** `consensus_batch03.json` (15 studies, 48 rows). Author decisions on 2 Oct: STU-032 excluded (`linkage/exclude_0356.py`); STU-035 kept with an overlap flag to STU-071. Drop STU-032 from `consensus_batch03.json` at synthesis.
   - **Batch 04 is done:** `consensus_batch04.json` (15 studies, 54 rows). Cross-study overlaps to settle at synthesis are listed at the top of file 15.
-  - **Next is batch 05:** STU-054-056, 058-062, 064-068, 070 and 073. Later batches skip the pilot IDs 071, 072, 100 and 110. If interrupted, check for `R1_batchNN.json` and `r2_scratch/R2_batchNN.json`. The per-study partials are in `r1_scratch/v2/` and `r2_scratch/work/bNN_*`. Relaunch with "reuse finished per-study files".
+  - **Batch 05 is done:** `consensus_batch05.json` (15 studies, 57 rows). STU-070 was excluded by the author; drop it at synthesis, as with STU-032.
+  - **Next is batch 06:** STU-074-088. Then batch 07, STU-089-099 and 101-104, and batch 08, STU-105-109 and 111-112. The pilot IDs 100 and 110 are already done. If interrupted, check for `R1_batchNN.json` and `r2_scratch/R2_batchNN.json`. The per-study partials are in `r1_scratch/v2/` and `r2_scratch/work/bNN_*`. Relaunch with "reuse finished per-study files".
   - Adjudicate each batch with a copy of `adjudicate_batch02.py`: R1 as the base, patches only after checking the text, and the other reviewer's inconsistencies merged.
-  - Remaining after batch 04: STU-054 to 112, excluding the pilot IDs (025, 028, 049, 057, 063, 069, 071, 072, 100, 110). That is 52 studies, about 4 batches.
+  - Remaining after batch 05: STU-074 to 112, excluding the pilot IDs (025, 028, 049, 057, 063, 069, 071, 072, 100, 110). That is 37 studies, 3 batches.
 - **To rerun the linkage after any eligibility change:** `adjudicate_linkage.py`, then `apply_linkage.py`, then `prisma_flow.py`. Study IDs renumber, so do this before extraction starts, not after.
 - **Optional:** open the 12 reports not verified in full text (CAN-0031, 0058, 0066, 0129, 0147, 0191, 0243, 0244, 0282, 0329, 0330, 1662) through legal routes. This happens naturally at extraction.
 

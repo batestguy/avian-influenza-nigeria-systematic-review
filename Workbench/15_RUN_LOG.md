@@ -1,5 +1,23 @@
 # Run log + gate checklists (update as you go)
-## Phase D: extraction batch 04 - 2026-10-02 (latest)
+## Phase D: extraction batch 05 - 2026-10-02 (latest)
+- **Scope.** STU-054-056, 058-062, 064-068, 070 and 073 (15 studies). Every report was read in full; supplements were opened under R-n.
+  - R1's quote check: 127 quotes, 0 missing and 0 fuzzy. R2: 0 failures. Both outputs were structurally valid, and neither sent any personal identifier.
+- **Consensus.** `extraction/consensus_batch05.json` has 15 studies, 57 rows and 11 logged adjudications (`adjudication_batch05.json`).
+  - STU-061 and STU-073 take R2's rows: specimen types are kept apart, and the full assay panel includes the negatives.
+  - STU-056: rob_tool is "none (secondary/modelling)".
+  - STU-056 and STU-060: zero-outbreak year rows added.
+  - STU-061: introduction "yes", on weak evidence (a note added in proof; no tree shown).
+  - STU-054: introduction "hypothesised only".
+- **Author decision (2026-10-02, yes/no in chat).** STU-070 / CAN-1558 (Antigua 2019, a global H5Nx review that names Nigeria in two sentences) is **excluded** for "non-Nigeria no Nigeria-data" (`linkage/exclude_1558.py`). STU-070 is retired and the other IDs are not renumbered.
+  - Flow recomputed: databases arm 219 assessed, 108 excluded (non-Nigeria 54), 111 included. **Total 123 reports = 110 studies.** Files 22 and 14 updated.
+- **Overlaps to settle at synthesis.**
+  - STU-061 (CAN-1357) is the primary report of the NVRI 2006-07 confirmations (145 in 2006 + 154 in 2007 = 299). It says 98% of isolates came from farms, against 233 farms + 66 LBMs in the pilot adjudication.
+  - STU-062 (CAN-1444) is the primary report of the 2006 genomes reused in STU-054, 055, 052, 053 and 040.
+  - STU-066 and STU-067 report the same January 2015 Lagos index virus (also in STU-004 and STU-069).
+  - STU-060's 2015-16 Rivers cases are the same 50 cases as in STU-045.
+- **Source warning.** STU-058's (CAN-0947) HI figures are internally impossible (the overall mean exceeds both subgroup means, and Table 4 duplicates Table 3). Do not pool them; flag them for RoB.
+
+## Phase D: extraction batch 04 - 2026-10-02
 - **Scope.** STU-038 to 048 and 050 to 053 (15 studies). Both reviewers were stopped by the session limit and resumed from their per-study files.
   - Both outputs validated. R1's quote check: 177 quotes, 0 missing. R2: 0 failures.
   - No email or personal identifier was sent (brief item 7). PMC's proof-of-work browser check on the CAN-0654 supplement was not bypassed.
