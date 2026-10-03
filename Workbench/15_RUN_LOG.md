@@ -4,6 +4,14 @@
   - **Reason.** 30 of the 110 included studies are outbreak investigations or small isolate series, which the JBI Case Series tool fits best. Forcing them into the Prevalence or Cohort tools would misjudge them.
   - The tool for each study was fixed from the consensus extraction (`rob/rob_assignment.json`): Prevalence 55 (including records reviews), Case series 30, Analytical cross-sectional 5, none (secondary/modelling) 20. The molecular check applies to 37 studies.
 - **Rule clarified (author decision, 2026-10-03).** Files 07 and 21 disagreed on the molecular cap. The author chose **file 07**: a `No` on M4 (accessions) **or** M5 (phylogeny method and support) caps that study's molecular claims at "suggestive". File 21 was corrected to match.
+- **RoB batch 1 (STU-001-028) done, 2026-10-03.** `rob/consensus_rob1.json`.
+  - Item agreement before adjudication: 194/250 (77.6%). The 56 disagreements were settled by five written conventions (A1-A5, added to `rob/ROB_FORM.md`) and per-item calls, all logged in `adjudication_rob1.json`.
+  - Molecular cap "suggestive": STU-004 (M5), STU-005 (M4) and STU-006 (M4).
+  - Abstract-only, so "Seek further info" (treated as Include-with-concerns): STU-015, 025 and 027.
+  - **Author decisions (2026-10-03, yes/no in chat).** STU-007 and STU-021 (R1 Exclude, R2 Seek) are kept as **Include (high risk)**:
+    - STU-007 is recorded only as influenza A, not subtyped.
+    - From STU-021, only the Nigerian market descriptives are used; its pooled Nigeria+Egypt estimates are not.
+    - Both are left out in the high-RoB-out sensitivity analysis.
 - **Method.**
   - Two independent blind appraisers, R1 (executor) and R2 (reviewer), with main-session adjudication against the texts.
   - Each item takes Yes/No/Unclear/N/A with a verbatim quote. The overall judgement is Include/Exclude/Seek. No scores or sums.
