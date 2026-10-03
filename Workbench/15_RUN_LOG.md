@@ -12,6 +12,13 @@
     - STU-007 is recorded only as influenza A, not subtyped.
     - From STU-021, only the Nigerian market descriptives are used; its pooled Nigeria+Egypt estimates are not.
     - Both are left out in the high-RoB-out sensitivity analysis.
+- **RoB batch 2 (STU-029-057) done, 2026-10-03.** `rob/consensus_rob2.json`.
+  - Item agreement before adjudication: 223/289 (77.2%). Disagreements were settled by A1-A5 plus new conventions A6-A9 (`rob/ROB_FORM.md`), logged in `adjudication_rob2.json`.
+  - A9 (M6 clade nomenclature) was applied retroactively to batch 1: STU-004, 005 and 023 M6 = Yes. The cap is unaffected.
+  - Cap "suggestive": STU-035 (M4), 037 (M5), 048 (M5; support not reported, checked in the text) and 055 (M4).
+  - STU-036: R1 legal full text used throughout (R2 had the abstract only).
+  - Abstract only: STU-029 (Seek further info). No Exclude judgements.
+
 - **Method.**
   - Two independent blind appraisers, R1 (executor) and R2 (reviewer), with main-session adjudication against the texts.
   - Each item takes Yes/No/Unclear/N/A with a verbatim quote. The overall judgement is Include/Exclude/Seek. No scores or sums.
