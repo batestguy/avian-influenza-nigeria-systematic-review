@@ -16,4 +16,5 @@ after the reconciled full-text queue is frozen; use one full-text exclusion reas
 | | prevalence / cross-sectional / cohort | | e.g. convenience LBM sampling; no CI | e.g. M4 No accession; M5 no model |
 
 M-items: M1 sampling, M2 assay, M3 sequencing, M4 accession, M5 phylogeny+support, M6 nomenclature, M7 reassortment discipline (file 07).
-Overall rule: any M4+M5 double-No caps molecular claims at "suggestive" regardless of JBI.
+Overall rule (author decision 2026-10-03, matching file 07): a No on M4 **or** M5 caps molecular claims at "suggestive" regardless of JBI. (Earlier text here said "M4+M5 double-No"; superseded.)
+Design column also allows "case series" (JBI Case Series; minor amendment 2026-10-03, file 15).

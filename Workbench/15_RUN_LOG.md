@@ -1,5 +1,17 @@
 # Run log + gate checklists (update as you go)
-## Phase D: extraction COMPLETE - batch 08 - 2026-10-03 (latest)
+## Phase D: risk of bias started - 2026-10-03 (latest)
+- **AMENDMENT (MINOR, 2026-10-03; author decision, yes/no in chat).** The JBI **Case Series** checklist is added to the RoB tools: the protocol lists Prevalence, Analytical Cross-sectional and Cohort.
+  - **Reason.** 30 of the 110 included studies are outbreak investigations or small isolate series, which the JBI Case Series tool fits best. Forcing them into the Prevalence or Cohort tools would misjudge them.
+  - The tool for each study was fixed from the consensus extraction (`rob/rob_assignment.json`): Prevalence 55 (including records reviews), Case series 30, Analytical cross-sectional 5, none (secondary/modelling) 20. The molecular check applies to 37 studies.
+- **Rule clarified (author decision, 2026-10-03).** Files 07 and 21 disagreed on the molecular cap. The author chose **file 07**: a `No` on M4 (accessions) **or** M5 (phylogeny method and support) caps that study's molecular claims at "suggestive". File 21 was corrected to match.
+- **Method.**
+  - Two independent blind appraisers, R1 (executor) and R2 (reviewer), with main-session adjudication against the texts.
+  - Each item takes Yes/No/Unclear/N/A with a verbatim quote. The overall judgement is Include/Exclude/Seek. No scores or sums.
+  - The form and brief are `rob/ROB_FORM.md` and `rob/ROB_BRIEF.md`.
+  - There are 4 batches: STU-001-028, 029-057, 058-086 and 087-112.
+  - Without author contact, "Seek further info" is treated as Include-with-concerns.
+
+## Phase D: extraction COMPLETE - batch 08 - 2026-10-03
 - **Batch 08.** STU-105-109, 111 and 112 (7 studies). Two earlier attempts were stopped by session limits before anything was saved, so the batch was relaunched fresh on 3 Oct.
   - R1's quote check: 72 quotes, 0 missing. R2: 0 failures. No web requests were made; all texts were local. Both outputs were structurally valid.
 - **Batch 08 consensus.** `consensus_batch08.json` has 7 studies, 20 rows and 7 adjudications.

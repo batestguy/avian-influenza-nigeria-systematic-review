@@ -31,6 +31,10 @@ Two independent appraisers. Quote verbatim per item.
 4. Objective standard condition criteria? 5. Confounders identified? 6. Confounder strategies stated?
 7. Outcomes measured validly/reliably? 8. Appropriate stats (confounder handling visible)?
 
+## Case series (10 items; added 2026-10-03, minor amendment, file 15)
+
+For outbreak investigations and small isolate series: inclusion criteria; standard and valid identification; consecutive and complete inclusion; case characteristics; clinical information; outcomes; site reporting; statistics. Full wording is in `rob/ROB_FORM.md` (retrieval workspace).
+
 ## Cohort (11 items — follow-up/outbreak cohorts)
 
 Selection/allocation, exposure classification, confounding, temporal precedence (exposure before outcome?),
