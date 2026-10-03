@@ -1,5 +1,19 @@
 # Run log + gate checklists (update as you go)
-## Phase D: extraction batch 07 - 2026-10-02 (latest)
+## Phase D: extraction COMPLETE - batch 08 - 2026-10-03 (latest)
+- **Batch 08.** STU-105-109, 111 and 112 (7 studies). Two earlier attempts were stopped by session limits before anything was saved, so the batch was relaunched fresh on 3 Oct.
+  - R1's quote check: 72 quotes, 0 missing. R2: 0 failures. No web requests were made; all texts were local. Both outputs were structurally valid.
+- **Batch 08 consensus.** `consensus_batch08.json` has 7 studies, 20 rows and 7 adjudications.
+  - STU-111/112: evidence "lab-confirmed case (method NR)" (H5N1 typing attributed to the Padova laboratory, with no data).
+  - STU-105: the human case (2007) is noted as outside the avian scope.
+  - STU-107: quails come from an unnamed Nigerian research centre; state and date NR.
+  - STU-108: the national row (299/1,205) plus sequence rows by host system.
+- **Extraction complete.**
+  - Coverage check: all 110 included studies have exactly one consensus record. The only records not counted are the retired STU-032 and STU-070, and no study appears twice.
+  - The merged file is `extraction/consensus_all.json`, built by `merge_consensus.py`: **110 studies, 376 findings rows.**
+  - Method: dual independent extraction (R1 executor / R2 reviewer, blind) with main-session adjudication against the texts. Each batch's adjudications are logged in `adjudication_batchNN.json`. Form v2 has rules R-a to R-n.
+- **Next: risk of bias** (files 21/07: JBI tool per design plus the molecular check; no score sums). Then the SWiM synthesis, which must resolve the cross-study overlaps logged in the batch checkpoints below (NVRI 2006-07 line list; 2006 genomes; 2015 index virus; 2021-22 records; national record compilations).
+
+## Phase D: extraction batch 07 - 2026-10-02
 - **Scope.** STU-089 to 099 and 101 to 104 (15 studies). Every source text was already held locally, so no web requests were made.
   - R1's quote check: 146 quotes, 0 missing, 0 fuzzy. The CAN-1907 table images were transcribed by both reviewers. Both outputs were structurally valid.
 - **Consensus.** `extraction/consensus_batch07.json` has 15 studies and 9 logged adjudications.
