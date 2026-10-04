@@ -1,5 +1,16 @@
 # Run log + gate checklists (update as you go)
-## Phase D: risk of bias started - 2026-10-03 (latest)
+## Phase D: risk of bias COMPLETE - 2026-10-04 (latest)
+- **RoB batch 4 (STU-087-112) done.** `rob/consensus_rob4.json`: item agreement 205/243 (84.4%). Settled by A1-A12, with no new conventions.
+- **All batches merged** (`rob/merge_rob.py` produces `rob/consensus_rob_all.json`). It covers all **110 studies**, checked against `rob_assignment.json`.
+  - Overall inter-appraiser item agreement before adjudication: **868/1,094 (79.3%)**.
+  - Overall judgements: Include 104; Include (high risk, author) 2; Seek further info (abstract only) 4. **No study was excluded on risk of bias.**
+  - **Molecular cap "suggestive" (13):** STU-004, 005, 006, 035, 037, 048, 055, 061, 065, 082, 085, 088 and 093.
+- **High-risk rule (author decision, 2026-10-04, yes/no in chat).** A study is high risk if (a) the author designated it, (b) it has a No on the "valid identification method" item, or (c) only its abstract could be appraised. There are no score sums.
+  - Result: **11 studies**: STU-007, 008, 015, 021, 025, 027, 029, 031, 047, 104 and 107.
+  - These are removed in the SWiM high-RoB-out sensitivity analysis. All 110 stay in the main synthesis.
+- **Next: SWiM synthesis** (file 04). It is grouped by epoch × subtype/clade × host system × state/zone, and the cross-study overlaps must be resolved so each dataset is counted once. Certainty follows (file 06).
+
+## Phase D: risk of bias started - 2026-10-03
 - **AMENDMENT (MINOR, 2026-10-03; author decision, yes/no in chat).** The JBI **Case Series** checklist is added to the RoB tools: the protocol lists Prevalence, Analytical Cross-sectional and Cohort.
   - **Reason.** 30 of the 110 included studies are outbreak investigations or small isolate series, which the JBI Case Series tool fits best. Forcing them into the Prevalence or Cohort tools would misjudge them.
   - The tool for each study was fixed from the consensus extraction (`rob/rob_assignment.json`): Prevalence 55 (including records reviews), Case series 30, Analytical cross-sectional 5, none (secondary/modelling) 20. The molecular check applies to 37 studies.

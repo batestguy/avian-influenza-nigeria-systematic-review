@@ -1,5 +1,5 @@
 # Next-session handoff - Nigeria avian influenza systematic review
-## Latest handoff - 3 October 2026 (Phase D: extraction COMPLETE; risk of bias next)
+## Latest handoff - 4 October 2026 (Phase D: extraction and risk of bias COMPLETE; SWiM synthesis next)
 
 - **Result:** **123 included reports = 110 studies** (CAN-0356 / STU-032 and CAN-1558 / STU-070 excluded by the author on 2 Oct; both IDs retired, the rest not renumbered).
   - The author excluded CAN-1610 on 30 Sept: a multi-country pigeon sequence compilation, excluded under rule Q1.
@@ -22,7 +22,8 @@
   - **Batch 06 is done:** `consensus_batch06.json` (15 studies, 46 rows). STU-081 and STU-085 were queried and kept by the author.
   - **Batch 07 is done:** `consensus_batch07.json` (15 studies).
   - **Batch 08 is done.** **Extraction is complete:** `extraction/consensus_all.json` has 110 studies and 376 rows (`merge_consensus.py` checks coverage).
-  - **Next is risk of bias:** files 21 and 07 (JBI per design plus the molecular check; no score sums), then SWiM. The overlaps to settle at synthesis are in the file 15 batch checkpoints. If interrupted, check for `R1_batchNN.json` and `r2_scratch/R2_batchNN.json`. The per-study partials are in `r1_scratch/v2/` and `r2_scratch/work/bNN_*`. Relaunch with "reuse finished per-study files".
+  - **Risk of bias is complete:** `rob/consensus_rob_all.json` covers 110 studies, with 79.3% item agreement and no RoB exclusions. 13 studies have molecular claims capped "suggestive". The 11 high-risk studies are removed in the sensitivity analysis under the author's rule. Details are at the top of file 15.
+  - **Next is the SWiM synthesis** (file 04), grouped by epoch × subtype/clade × host × state/zone. Resolve the cross-study overlaps first (NVRI 2006-07 line list, 2006 genomes, 2015 index virus, 2021-22 records, national compilations). Then certainty (file 06), then the manuscript edit (load `thesis-to-journal`), then the audit. If interrupted, check for `R1_batchNN.json` and `r2_scratch/R2_batchNN.json`. The per-study partials are in `r1_scratch/v2/` and `r2_scratch/work/bNN_*`. Relaunch with "reuse finished per-study files".
   - Adjudicate each batch with a copy of `adjudicate_batch02.py`: R1 as the base, patches only after checking the text, and the other reviewer's inconsistencies merged.
   - No extraction remains.
 - **To rerun the linkage after any eligibility change:** `adjudicate_linkage.py`, then `apply_linkage.py`, then `prisma_flow.py`. Study IDs renumber, so do this before extraction starts, not after.
