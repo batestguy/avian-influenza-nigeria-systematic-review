@@ -19,6 +19,13 @@
   - STU-036: R1 legal full text used throughout (R2 had the abstract only).
   - Abstract only: STU-029 (Seek further info). No Exclude judgements.
 
+- **RoB batch 3 (STU-058-086) done, 2026-10-04.** `rob/consensus_rob3.json`.
+  - Item agreement before adjudication: 246/312 (78.8%). Disagreements were settled by A1-A9 plus new conventions A10-A12 (case-series consecutive/reporting/statistics), logged in `adjudication_rob3.json`.
+  - Two disputed points were checked in the text: STU-082 has no case outcomes, and all its positives were cleavage-site sequenced.
+  - Cap "suggestive": STU-061 (M4, M5), 065 (M4), 082 (M4) and 085 (M4).
+  - STU-072 M4 is Unclear: the accessions are only in an unavailable supplement, so there is no cap.
+  - No Exclude judgements. The "high risk" set will be defined by a written rule at synthesis.
+
 - **Method.**
   - Two independent blind appraisers, R1 (executor) and R2 (reviewer), with main-session adjudication against the texts.
   - Each item takes Yes/No/Unclear/N/A with a verbatim quote. The overall judgement is Include/Exclude/Seek. No scores or sums.
