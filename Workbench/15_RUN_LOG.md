@@ -1,5 +1,32 @@
 # Run log + gate checklists (update as you go)
-## Phase D: risk of bias COMPLETE - 2026-10-04 (latest)
+## Phase D: SWiM synthesis tables BUILT and VERIFIED - 2026-10-05 (latest)
+- **Plan:** `synthesis/SWIM_PLAN.md` (retrieval workspace). Groupings S1 temporal, S2 geographic, S3 host range, S4 molecular, S5 exposure (serology/surveys). There is no pooling and no meta-analysis.
+  - Exact Clopper-Pearson 95% CIs are computed from the reported counts.
+  - Each data stream is counted once, under one primary study (overlap map: `overlap_map.md`).
+- **Build:** the executor wrote `synthesis/run_all.py` (scripts `syn_common.py`, `build_overlap.py`, `build_pubtype.py`, `build_tables.py`, `build_coverage_sensitivity.py`).
+  - Outputs: `tables.md`, `tables.json`, `t1..t5.json`, `s5.json`, `occurrence.json`, `coverage.json`, `sensitivity.json`.
+  - Assertions: every row traces to a consensus row; all 110 studies are covered (in a table or in the no-synthesisable-data list); one primary per stream; CI bounds; fix-round checks.
+- **Review:** three reviewer passes.
+  - Pass 1 found 6 blocking items. Official-report and unsourced background rows had been counted as laboratory-confirmed; state lists were wrongly suppressed; window rules hid earlier detections; Lagos was misplaced in 2011-14; a preprint row was misused; species positivity was over-claimed. It also found 8 should-fix items and some optional ones.
+  - Pass 2 found 3 remaining errors: one independent duck isolation estimate was suppressed, ostrich was over-claimed, and a Lagos official mark remained in 2011-14.
+  - **Pass 3: PASS.** All 100 CIs were recomputed by the reviewer and match. The main session fixed one rounding error after the pass.
+- **Key results (verified):**
+  - **T2, states with laboratory-confirmed evidence:** 2006-10: 27; 2011-14: 2 (Kano, Oyo); 2015-20: 22; 2021-26: 15; date NR: 5.
+    - Rivers 2021-26 rests on an official report only. No confirmed detection in Akwa Ibom, Cross River, Kogi, Ondo or Osun.
+  - **T1, first-detection states:** 2006-10: 27; 2011-14: none; 2015-20: 4 (Abia, Bayelsa, Delta, Imo); 2021-26: 1 (Ebonyi, 2022-01).
+    - The 2011-14 Kano H5N1 entry (STU-004#3) rests on deaths of 24 Dec 2014, with specimens received in 2015-01.
+  - **Host systems confirmed:** C, B, L, Wr, Cap and O; Wm only on mixed-host rows; wild birds of unresolved status, official only.
+    - Host O earliest is 2021-02 (STU-022#0). STU-110#1 ostriches were not necropsied and are excluded from host keys.
+  - **S5 exposure:** 109 rows, 71 independent (subtype follow-ups and second assays on the same specimens are marked dependent). STU-009#0 is excluded.
+    - Ranges by host × assay are in `tables.md`. For example, L × virus isolation 0-0.047 (2/43 ducks, Gombe 2008).
+- **Sensitivity:**
+  - (i) High-RoB-out: Niger leaves 2006-10 (27→26); nothing else in T1-T4 changes.
+  - (ii) Peer-reviewed only: Delta leaves 2021-26 (15→14); some first-detection dates move later (e.g. Wr 2006-03→2007-02; Cap→2015-17); vulture is lost.
+    - These changes depend on excluding the preprint row STU-022#3. Its published version, CAN-0191, is available as an abstract only. This is noted in the output.
+  - (iii) As (ii), plus the 4 uncertain reports treated as grey: Kano first detection 2006-01→2006-12; Plateau→2006.
+- **Next:** the SWiM narrative per S1-S5 with certainty (GRADE-prognosis, file 06), then the manuscript edit (load `thesis-to-journal`), then the PRISMA / PRISMA-S / SWiM audit.
+
+## Phase D: risk of bias COMPLETE - 2026-10-04
 - **RoB batch 4 (STU-087-112) done.** `rob/consensus_rob4.json`: item agreement 205/243 (84.4%). Settled by A1-A12, with no new conventions.
 - **All batches merged** (`rob/merge_rob.py` produces `rob/consensus_rob_all.json`). It covers all **110 studies**, checked against `rob_assignment.json`.
   - Overall inter-appraiser item agreement before adjudication: **868/1,094 (79.3%)**.

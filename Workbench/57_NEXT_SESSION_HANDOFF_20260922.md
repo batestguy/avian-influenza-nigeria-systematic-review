@@ -1,5 +1,14 @@
 # Next-session handoff - Nigeria avian influenza systematic review
-## Latest handoff - 4 October 2026 (Phase D: extraction and risk of bias COMPLETE; SWiM synthesis next)
+## Latest handoff - 5 October 2026 (Phase D: SWiM synthesis tables built and verified; narrative next)
+
+- **Synthesis tables are done and verified** (reviewer PASS after two fix rounds). Workspace: `D:\AvianInfluenzaSysRev_retrieval_20260927\synthesis\`. Rebuild with `python run_all.py`; all assertions must pass. Results and sensitivity verdicts are in the file 15 top checkpoint.
+- **Next steps:**
+  1. Write the SWiM narrative per S1-S5 from `tables.md`, with certainty by GRADE-prognosis logic (file 06). Use "suggests" for the 13 studies with molecular claims capped; antibody means exposure only.
+  2. Edit `Avian_review_paper_submission_ready.docx` only, after loading `thesis-to-journal`.
+  3. Audit against files 01, 02 and 04.
+- **Possible author question:** whether the abstract-only published version of STU-022 (CAN-0191) counts as peer-reviewed in sensitivity runs (ii) and (iii). For now the dependency is only stated.
+
+## Previous handoff - 4 October 2026 (Phase D: extraction and risk of bias COMPLETE; SWiM synthesis next)
 
 - **Result:** **123 included reports = 110 studies** (CAN-0356 / STU-032 and CAN-1558 / STU-070 excluded by the author on 2 Oct; both IDs retired, the rest not renumbered).
   - The author excluded CAN-1610 on 30 Sept: a multi-country pigeon sequence compilation, excluded under rule Q1.
