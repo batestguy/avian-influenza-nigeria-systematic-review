@@ -1,5 +1,29 @@
 # Run log + gate checklists (update as you go)
-## Phase D: SWiM narrative and certainty DONE - 2026-10-07 (latest)
+## Phase D: manuscript rebuilt as a completed review; reporting audit done - 2026-10-07 (latest)
+- **`Avian_review_paper_submission_ready.docx` was rebuilt** with the docx skill, by author decision. The frozen original is untouched.
+  - A backup and the restartable build live in the retrieval workspace `manuscript/` (section files, `assemble.py --target`, `verify.py`).
+- **Structure:**
+  - Title "...: a systematic review" and a structured abstract (268 words).
+  - Introduction, Methods (12 subsections), Results with the S1-S5 synthesis, Discussion and Conclusions (main text about 8,300 words, including table notes).
+  - Figure 1 is the PRISMA flow diagram. Tables 1-6 are first detections, the state x epoch matrix, host range, the clade/reassortment/introduction verdicts, exposure with exact CIs, and certainty (9 Low, 14 Very low, 1 not gradable).
+  - Appendices A-F: search and PRISMA-S audit; the concise screening audit; study characteristics; 114 full-text exclusions; RoB item tables; full synthesis tables. The document runs to 92 pages.
+- **References:** 141 entries; all 110 studies are cited, in order of first citation.
+  - 35 are highlighted for the author: missing authors, DOI, volume/pages, or truncated titles. Nothing was invented.
+- **Placeholders for the author** (highlighted): funding, competing interests, author contributions, acknowledgements, and data availability (including where the search files, register, extraction and RoB data are held).
+  - Also highlighted: the identity of Reviewer 1 before 27 Sep 2026 (author decision: mark it). The repo records only R2 = Codex agent "Epicurus" from 19 to 27 Sep, with the main Codex session as arbiter.
+  - The protocol is "available from the corresponding author on request" (author decision).
+- **Review:** the reviewer checked four rounds.
+  - It verified the flow, agreement, RoB, characteristics, Tables 2/3/5/6 and the reference-to-study mapping (about 20 citations traced to their consensus rows).
+  - The fixes covered overclaiming (first confirmed vs emerged; low-certainty wording), the sensitivity labels ((i)-(ii) planned, (iii) during synthesis, (iv) post hoc), the EA-2024-DV rating (k4), the single-state count (44), the 216-report kappa denominator, the published PRISMA-S items, the publication-bias column and the language rule.
+- **Final reporting audit** (reviewer, against files 01/02/04):
+  - **PRISMA 2020:** 28 reported, 4 partly, 0 not reported, 4 pending author.
+    - The partly reported items (7, 10b, 20a, 21) were then addressed, apart from the undocumented Scopus/ScienceDirect strings. Those are disclosed and cannot be repaired.
+  - **Abstract:** 9 reported, 2 partly reported (then fixed), 1 pending author (funding).
+  - **PRISMA-S** (file 02 list): 10 reported, 5 partly (gaps disclosed), 1 not reported (citation chasing was not done; disclosed).
+  - **SWiM:** 9/9 reported.
+- **Author to complete before submission:** the placeholders above, the 35 highlighted references, and the choice of target journal (the main text may need trimming to its word limit).
+
+## Phase D: SWiM narrative and certainty DONE - 2026-10-07
 - **Narrative:** `synthesis/SWIM_NARRATIVE.md` in the retrieval workspace, about 4,100 words.
   - Each of S1-S5 has a table-linked narrative, the heterogeneity explored, certainty, and sensitivity.
   - It ends with Limitations (SWiM 9) and a coverage line (all 110 studies).

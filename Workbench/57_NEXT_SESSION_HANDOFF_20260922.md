@@ -1,5 +1,16 @@
 # Next-session handoff - Nigeria avian influenza systematic review
-## Latest handoff - 7 October 2026 (Phase D: SWiM narrative and certainty done; manuscript edit next)
+## Latest handoff - 7 October 2026, late (manuscript complete; reporting audit done; author items remain)
+
+- **Done.** `Avian_review_paper_submission_ready.docx` is now the completed systematic review, reviewer-verified and audited against PRISMA 2020, PRISMA-S and SWiM. Details are in the file 15 top checkpoint.
+- **To rebuild after edits:** in `D:/AvianInfluenzaSysRev_retrieval_20260927/manuscript/`, edit `sections/*.txt`, then run `python assemble.py --target`, then `python verify.py`, then `validate.py`.
+- **Remaining, all author items** (highlighted yellow in the docx):
+  - funding, competing interests, contributions, acknowledgements and data availability;
+  - the identity of Reviewer 1 before 27 Sep 2026;
+  - 35 incomplete references;
+  - the target journal (the main text is about 8,300 words and may need trimming).
+- **Optional:** citation chasing (not done; disclosed as a limitation).
+
+## Previous handoff - 7 October 2026 (Phase D: SWiM narrative and certainty done; manuscript edit next)
 
 - **Done.** The synthesis tables and the narrative with certainty are verified: `D:/AvianInfluenzaSysRev_retrieval_20260927/synthesis/SWIM_NARRATIVE.md` and `tables.md`. Rebuild with `python run_all.py`. The ratings summary is in the file 15 top checkpoint.
 - **Next:**
