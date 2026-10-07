@@ -35,7 +35,11 @@
 - **Post-hoc sensitivity (iv)**, added after the certainty rating: only states with sequence or isolate evidence count.
   - Result: 17+FCT / 2 / 19+FCT / 10+FCT. The South-South zone is lost in 2006-10, and both southern zones in 2021-26.
 - **Review.** The reviewer checked four rounds, each verdict FIX NEEDED. Its final three wording fixes were applied verbatim by the main session: testing-start wording, EA-2024-DV origin, and the abstract-only list (STU-014 and STU-028 have full-text reports; the abstract-only studies are STU-015, 025, 027 and 029).
-- **Next:** the manuscript edit (`Avian_review_paper_submission_ready.docx` only; load `thesis-to-journal`), then the PRISMA 2020 / PRISMA-S / SWiM audit.
+- **Author decisions, 2026-10-07 (yes/no in chat):**
+  - The `thesis-to-journal` skill is not installed, so the manuscript is edited with the standard Word (docx) skill. The same formatting rules apply, and the frozen original is untouched.
+  - The protocol-stage Appendix B batch logs (B1-B24 and status notes) are replaced by one concise screening and selection audit appendix. The full logs stay in files 15, 56 and 58.
+  - The 110 included studies are cited as numbered references built from register metadata. Incomplete entries are flagged for the author, and nothing is invented.
+- **Next:** the manuscript edit (`Avian_review_paper_submission_ready.docx` only; backup in the retrieval workspace `manuscript/`), then the PRISMA 2020 / PRISMA-S / SWiM audit.
 
 ## Phase D: SWiM synthesis tables BUILT and VERIFIED - 2026-10-05
 - **Plan:** `synthesis/SWIM_PLAN.md` (retrieval workspace). Groupings S1 temporal, S2 geographic, S3 host range, S4 molecular, S5 exposure (serology/surveys). There is no pooling and no meta-analysis.
