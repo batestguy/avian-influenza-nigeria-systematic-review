@@ -1,5 +1,13 @@
 # Next-session handoff - Nigeria avian influenza systematic review
-## Latest handoff - 5 October 2026 (Phase D: SWiM synthesis tables built and verified; narrative next)
+## Latest handoff - 7 October 2026 (Phase D: SWiM narrative and certainty done; manuscript edit next)
+
+- **Done.** The synthesis tables and the narrative with certainty are verified: `D:/AvianInfluenzaSysRev_retrieval_20260927/synthesis/SWIM_NARRATIVE.md` and `tables.md`. Rebuild with `python run_all.py`. The ratings summary is in the file 15 top checkpoint.
+- **Next:**
+  1. Load `thesis-to-journal` and edit only `Avian_review_paper_submission_ready.docx`: Methods (RoB, synthesis, certainty, sensitivity), Results S1-S5 with tables, Discussion, Limitations, PRISMA flow.
+  2. Audit against files 01, 02 and 04.
+- **Possible author question:** whether CAN-0191 (STU-022's published version, abstract only) counts as peer-reviewed in runs (ii) and (iii). For now the dependency is only stated.
+
+## Previous handoff - 5 October 2026 (Phase D: SWiM synthesis tables built and verified; narrative next)
 
 - **Synthesis tables are done and verified** (reviewer PASS after two fix rounds). Workspace: `D:\AvianInfluenzaSysRev_retrieval_20260927\synthesis\`. Rebuild with `python run_all.py`; all assertions must pass. Results and sensitivity verdicts are in the file 15 top checkpoint.
 - **Next steps:**

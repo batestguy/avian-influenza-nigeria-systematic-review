@@ -1,5 +1,43 @@
 # Run log + gate checklists (update as you go)
-## Phase D: SWiM synthesis tables BUILT and VERIFIED - 2026-10-05 (latest)
+## Phase D: SWiM narrative and certainty DONE - 2026-10-07 (latest)
+- **Narrative:** `synthesis/SWIM_NARRATIVE.md` in the retrieval workspace, about 4,100 words.
+  - Each of S1-S5 has a table-linked narrative, the heterogeneity explored, certainty, and sensitivity.
+  - It ends with Limitations (SWiM 9) and a coverage line (all 110 studies).
+- **Certainty method (file 06).** Two independent raters (R1 executor, R2 reviewer, blind to each other); the main session settled disagreements against the tables.
+  - Convention: start at Low for observational evidence. Low = no serious domain; Very low = a serious concern in at least one domain. A claim resting on a single study is downgraded for imprecision. Nothing is rated up.
+- **Ratings.**
+  - **Low:**
+    - H5N1 confirmed in Nigeria in early 2006 (first outbreak reported in January; laboratory confirmation 6-7 Feb per STU-008/013);
+    - two major epizootics, 2006-08 and 2015-17;
+    - wide spread 2006-10 (26 states + FCT);
+    - confirmed infection in commercial, backyard, live bird market and resident wild birds;
+    - clade 2.2 in 2006-08; clade 2.3.2.1c from 2015; 2.3.4.4b present 2021-26;
+    - intra-clade reassortment (2006-07 and 2015-16);
+    - clade-level turnover.
+  - **Very low:**
+    - wave boundaries and the 2009 to Nov 2014 lull; wave sizes;
+    - H5N8/H5N6/H9N2 first-detection dates;
+    - the later state counts, which are floors;
+    - the absence claims: only Cross River and Ondo lack both laboratory and official evidence;
+    - captive and other hosts;
+    - migratory birds (ruff and white stork, 2022; single study);
+    - 2.3.4.4b onset;
+    - the WA1xWA2 genotype, the H5N2 reassortant (STU-072) and EA-2024-DV (place of reassortment not shown);
+    - multiple independent introductions (2, 3 or 4 by source);
+    - all antibody (exposure) findings.
+  - Species-level host range is not gradable.
+- **Table fixes after R2.**
+  - Wm earliest corrected 2007 to 2022 (STU-057 positives were resident species).
+  - Species-aware host keys: ruff, white stork, jacana and nightjar are now stated positive; mortality counts are no longer read as positives.
+  - STU-043 WAHIS § marks added: Akwa Ibom, Kogi and Osun are official-only.
+  - FCT is shown separately in the counts.
+  - S5 ranges carry n/N and small-N flags.
+- **Post-hoc sensitivity (iv)**, added after the certainty rating: only states with sequence or isolate evidence count.
+  - Result: 17+FCT / 2 / 19+FCT / 10+FCT. The South-South zone is lost in 2006-10, and both southern zones in 2021-26.
+- **Review.** The reviewer checked four rounds, each verdict FIX NEEDED. Its final three wording fixes were applied verbatim by the main session: testing-start wording, EA-2024-DV origin, and the abstract-only list (STU-014 and STU-028 have full-text reports; the abstract-only studies are STU-015, 025, 027 and 029).
+- **Next:** the manuscript edit (`Avian_review_paper_submission_ready.docx` only; load `thesis-to-journal`), then the PRISMA 2020 / PRISMA-S / SWiM audit.
+
+## Phase D: SWiM synthesis tables BUILT and VERIFIED - 2026-10-05
 - **Plan:** `synthesis/SWIM_PLAN.md` (retrieval workspace). Groupings S1 temporal, S2 geographic, S3 host range, S4 molecular, S5 exposure (serology/surveys). There is no pooling and no meta-analysis.
   - Exact Clopper-Pearson 95% CIs are computed from the reported counts.
   - Each data stream is counted once, under one primary study (overlap map: `overlap_map.md`).
