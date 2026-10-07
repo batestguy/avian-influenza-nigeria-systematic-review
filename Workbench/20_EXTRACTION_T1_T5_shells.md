@@ -1,5 +1,7 @@
 # Extraction shells T1–T5 (copy into manuscript appendix at write stage)
 
+**Status (2026-10-07):** done. The consensus extraction is `extraction/consensus_all.json` in the retrieval workspace (110 studies, 376 rows). The filled tables are `synthesis/tables.md` and manuscript Appendix F.
+
 **Status (2026-09-20):** extraction has not started. Keep these shells empty until Gate C
 screening reconciliation and Gate D full-text eligibility are complete.
 

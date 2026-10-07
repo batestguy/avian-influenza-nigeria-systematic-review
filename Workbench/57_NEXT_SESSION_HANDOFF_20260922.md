@@ -1,14 +1,62 @@
 # Next-session handoff - Nigeria avian influenza systematic review
-## Latest handoff - 7 October 2026, late (manuscript complete; reporting audit done; author items remain)
+## Latest handoff - 7 October 2026, late (REVIEW COMPLETE; only author items remain)
 
-- **Done.** `Avian_review_paper_submission_ready.docx` is now the completed systematic review, reviewer-verified and audited against PRISMA 2020, PRISMA-S and SWiM. Details are in the file 15 top checkpoint.
-- **To rebuild after edits:** in `D:/AvianInfluenzaSysRev_retrieval_20260927/manuscript/`, edit `sections/*.txt`, then run `python assemble.py --target`, then `python verify.py`, then `validate.py`.
-- **Remaining, all author items** (highlighted yellow in the docx):
-  - funding, competing interests, contributions, acknowledgements and data availability;
-  - the identity of Reviewer 1 before 27 Sep 2026;
-  - 35 incomplete references;
-  - the target journal (the main text is about 8,300 words and may need trimming).
-- **Optional:** citation chasing (not done; disclosed as a limitation).
+### Where things stand
+- **The manuscript is finished:** `Avian_review_paper_submission_ready.docx` is the completed systematic review (commit 56dd35b).
+  - It is reviewer-verified and audited against PRISMA 2020 (28 reported, 4 partly, 0 not reported, 4 pending author), PRISMA-S (10 reported, 5 partly, 1 not reported) and SWiM (9/9). The audit tables are at the end of files 01, 02 and 04.
+  - The frozen `Avian_review_paper_fellow.docx` is untouched.
+- **Pipeline:** protocol freeze → search → screening → extraction → RoB → SWiM synthesis → certainty → manuscript → audit. All done.
+- **Headline numbers:**
+  - 1,877 identities, 123 reports = 110 studies; 88 reports not retrieved; 114 full-text exclusions.
+  - RoB: 79.3% item agreement; 11 high-risk studies; 13 molecular caps.
+  - Certainty: 9 Low, 14 Very low, 1 not gradable.
+
+### Author items still open (all highlighted yellow in the docx)
+1. **Declarations:** funding (also in the abstract), competing interests, author contributions, acknowledgements, and data availability (say where the search files, register, extraction and RoB data are held; PRISMA 27 and PRISMA-S 15).
+2. **Reviewer 1 before 27 Sep 2026** (Methods, Selection process, and Table B2). The repo records only that R2 was a Codex agent ("Epicurus") from 19 to 27 Sep, with the main Codex session as arbiter. The author answered "not sure, mark it".
+3. **35 incomplete references:**
+   - methodological references added from memory; the reviewer judged them correct: 22-26;
+   - first author only: 39, 40, 42, 44, 56, 58, 59, 85, 91, 111, 123, 124, 140, 141;
+   - Okoli author swaps: 80, 129, 130, 134;
+   - no DOI: 31, 35, 41, 43, 57, 107, 125;
+   - volume or pages missing: 27, 45, 75, 82;
+   - truncated title: 78, 123.
+   - Also check ref 68 (the "Pathogenicnotifiable" typo comes from the register) and ref 7 (journal reads "Lancet"; probably Lancet Infect Dis).
+   - The full list is in `manuscript/build_report.json`.
+4. **Target journal:** the main text is about 8,300 words including table notes, and the abstract is 268. Trim to the journal's limits once one is chosen.
+5. **Optional:** citation chasing was not done and is disclosed as a limitation. Doing it would need a new screening pass.
+
+### How to change the manuscript next time
+- **Workspace:** `D:\AvianInfluenzaSysRev_retrieval_20260927\manuscript\`.
+  - Content: `sections\01_title_abstract.txt` to `10_appendix_cdef.txt`.
+  - Tables: `tables_gen.py`. References: `build_refs.py` writes `refs_reports.json`.
+  - Citations in the section files are written as keys (`{B:...}` for background references, and study keys); `assemble.py` numbers them in order of first citation.
+- **Rebuild:**
+  1. `python assemble.py --target` (writes the real docx).
+  2. `python verify.py` (citations, all 110 cited, no stray STU IDs).
+  3. `python <docx skill>/scripts/office/validate.py <docx> --original backup_submission_ready_20261007.docx`.
+  4. `python render_check.py` (PDF and page images in `render\`).
+- **Backup** of the pre-rebuild submission copy: `manuscript\backup_submission_ready_20261007.docx`.
+- **Formatting:** use the docx skill (`anthropic-skills:docx`). `thesis-to-journal`, named in AGENTS.md, is not installed (author decision of 7 Oct: use docx with the same formatting rules).
+- **Upstream data, if any number must change:**
+  - `extraction/consensus_all.json` and `rob/consensus_rob_all.json`;
+  - `synthesis/run_all.py`, which regenerates `tables.md`/json, s5, sensitivity and coverage; all assertions must pass;
+  - `synthesis/SWIM_NARRATIVE.md` (certainty reasons).
+  - Then update the manuscript section files and rebuild.
+  - Do not rerun `adjudicate_linkage.py` or `apply_linkage.py`: they renumber the study IDs.
+
+### Working rules that held this project together
+- Every author decision is a yes/no question with a recommended option, logged in file 15. Never enter a decision the author has not given (accessibility: act as scribe).
+- **Agents:** executor (Opus 5.5) does the work; reviewer (Sonnet 5.5) checks it before anything is reported.
+  - Never pass `model`. Fan-out is at most 3.
+  - Agents save after each unit, because usage limits stop them; resume with SendMessage.
+- **Legal retrieval routes only:** no author contact, and never send the user's email or any identifier in a request.
+- **Language rules:**
+  - subtype, clade, reassortant and introduction are kept distinct;
+  - antibody means exposure;
+  - "suggests" for the 13 capped studies;
+  - "first" claims are attributed to their authors;
+  - wording follows certainty.
 
 ## Previous handoff - 7 October 2026 (Phase D: SWiM narrative and certainty done; manuscript edit next)
 

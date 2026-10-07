@@ -1,5 +1,9 @@
 # Workbench index — lives at `D:\AvianInfluenzaSysRev\Workbench\`
 
+**Current status (2026-10-07, supersedes the paragraph below):** the review is complete. `Avian_review_paper_submission_ready.docx` is the finished systematic review: 123 reports = 110 studies, the SWiM synthesis S1-S5, dual-rater certainty, and the PRISMA 2020 / PRISMA-S / SWiM audit done.
+- Only author items remain (highlighted in the docx). See file 57 (top) and the file 15 top checkpoint.
+- Working data and build scripts live in `D:\AvianInfluenzaSysRev_retrieval_20260927\`: `extraction/`, `rob/`, `synthesis/`, `manuscript/`.
+
 Original manuscript `Avian_review_paper_fellow.docx` is frozen until paste-approved. All audit and drafting aids live here.
 
 **Operational status (2026-09-20):** planned database searches have been executed, including

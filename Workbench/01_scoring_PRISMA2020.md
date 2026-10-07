@@ -1,5 +1,7 @@
 # PRISMA 2020 scoring — 27 items + 12-item abstract
 
+**Status (2026-10-07):** applied to the final manuscript. Results are under "Final audit" at the end of this file.
+
 **Status (2026-09-20):** audit template unchanged and not yet applied to a final report. Search
 execution is documented, but Gate C screening reconciliation and all downstream stages remain
 open; score the manuscript only after the reporting layer is updated.
@@ -59,3 +61,29 @@ Use: audit the final `.docx`. Score each `Yes / Partial / No` + location.
 ## Abstract 12-item block (score separately)
 
 1 Title = systematic review. 2 Objectives. 3 Eligibility. 4 Sources + date. 5 RoB methods. 6 Synthesis methods. 7 Included studies (n) + key traits. 8 Synthesis results per main outcome (n + direction). 9 Limitations of evidence. 10 Interpretation. 11 Funding. 12 Registration number or "not registered".
+
+## Final audit - 2026-10-07 (reviewer agent, on `Avian_review_paper_submission_ready.docx`)
+**Main items: 28 Reported / 4 Partly / 0 Not / 4 Pending author.**
+
+**Partly reported (fixed afterwards where possible):**
+- **7** Search strategy: the Scopus facet lines and ScienceDirect string are not documented. Disclosed; cannot be repaired.
+- **10b** Funding of included studies: now stated as not extracted.
+- **20a** Characteristics of contributing studies: per-grouping counts of high-risk, capped and abstract-only studies added.
+- **21** Reporting bias: a publication-bias column was added to Table 6.
+
+**Pending author:**
+- **8:** identity of Reviewer 1 before 27 Sep 2026.
+- **25:** funding.
+- **26:** competing interests.
+- **27:** data and code availability, including where the search files, register, extraction and RoB data are held.
+
+**Fully reported, and where:**
+- **24a-c:** "Not registered"; the protocol is available from the corresponding author on request; amendments are dated in Table B2.
+- **16b:** Appendix D (114 full-text exclusions with reasons).
+- **20b-d:** Results S1-S5 and Sensitivity.
+- **22:** Table 6 (certainty).
+- **23:** Discussion.
+
+**Abstract (12 items): 9 Reported / 2 Partly / 0 Not / 1 Pending author** (funding).
+- Items 7 and 8 were partly reported; study characteristics and study counts were then added.
+- The abstract is 268 words.

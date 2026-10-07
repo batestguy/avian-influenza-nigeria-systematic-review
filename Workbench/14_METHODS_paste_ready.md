@@ -1,5 +1,8 @@
 # Paste-ready Methods paragraphs — HOLD until Gates A–H pass
 
+**Status (2026-10-07):** pasted and expanded into the manuscript Methods. Edit the manuscript build files (`manuscript/sections/03_methods.txt` in the retrieval workspace), not this file.
+- The open point "[confirm the exact agent per round]" is resolved in the docx: Reviewer 2 is stated as recorded, and Reviewer 1 before 27 Sep is left as a highlighted placeholder for the author to confirm.
+
 This review was not prospectively registered. Do not use the obsolete PROSPERO wording below. British English. Keep numeric citations. Replace source dates, hit counts, filters, and appendix placeholders only after the final search layer and canonical register are frozen.
 
 **Current hold note (2026-09-20):** AJOL and the Web of Science browser search have now been

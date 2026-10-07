@@ -1,5 +1,7 @@
 # PRISMA 2020 flow + final audit sheet
 
+**Status (2026-10-07):** final. Exclusions at extraction (CAN-0356, CAN-1558) are included: 123 reports = 110 studies. Figure 1 of the manuscript reproduces this flow.
+
 **Status (2026-09-20, superseded 2026-09-30):** was unfilled pending cross-source reconciliation. That reconciliation is done; the flow below is filled from the register.
 
 ## Flow (numbers from `prisma_flow.py`, reconciled with file 56 on 2026-09-30; diagram drawn at write stage)

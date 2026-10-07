@@ -1,6 +1,6 @@
 # AvianInfluenzaSysRev
 
-Operational documentation was reconciled on 20 September 2026. Current search status and next
+Operational documentation was reconciled on 20 September 2026. As of 7 October 2026 the review is complete and only author items remain; read the top of file 57 first. Current search status and next
 actions are in `Workbench/15_RUN_LOG.md`, `Workbench/19_SEARCH_run_sheets.md`, and
 `Workbench/57_NEXT_SESSION_HANDOFF_20260922.md` (read its top section first); this file remains the governing instruction set.
 
@@ -31,3 +31,4 @@ Single-manuscript systematic-review repo. Only source of truth:
 ## Skills
 - Load `systematic-literature-review` only for search/synthesis method; it is arXiv-only, so do not use its script for this PubMed/Scopus review.
 - Load `thesis-to-journal` before any `.docx` edit; `academic-paper-review` for critique.
+  - *Note (7 Oct 2026, author decision):* `thesis-to-journal` is not installed, so `.docx` edits use the `docx` skill under the same formatting rules. The manuscript is now built from `D:\AvianInfluenzaSysRev_retrieval_20260927\manuscript\` (see file 57).

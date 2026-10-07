@@ -1,5 +1,7 @@
 # PRISMA-S scoring — 16 items (search reproducibility)
 
+**Status (2026-10-07):** applied to the final manuscript. Results are under "Final audit" at the end of this file. Table A2 in the docx uses the published PRISMA-S numbering (Rethlefsen 2021), which differs from the local list below.
+
 **Status (2026-09-20):** active audit template. Exact AJOL and Web of Science browser strings,
 dates, counts, and export limitations are now in files 15 and 19. Final scoring waits for record
 import, canonical reconciliation, and a complete source-level PRISMA accounting table.
@@ -25,3 +27,21 @@ Score each `Yes / Partial / No` + location. Q1 bar: zero `No` on 4–9.
 16. **Amendments** — any post-freeze string changes dated + justified.
 
 Current draft fails 1, 4, 6–9, 12–14. Rebuild template: `(AIV) AND (Nigeria) AND (2006–2026)` + facet lines, never `And Nigeria` inside every facet.
+
+## Final audit - 2026-10-07 (reviewer agent; scored against this file's 16 items)
+**Totals: 10 Reported / 5 Partly / 1 Not.**
+
+**Partly reported:**
+- **2** Grey sources: WOAH and agency sites, and reference lists, were not searched. Disclosed.
+- **4** Limits:
+  - The date limit is justified as the first Nigerian HPAI epidemic (file 10).
+  - The language rule follows file 10 L35. No included report needed translation; 2 French reports were not retrieved.
+  - The English filter was inconsistent across sources (disclosed).
+- **7** Update search: only Google Scholar was re-run, with the reason from file 15 L719. No reason is recorded for not re-running the databases, so none is stated.
+- **8** Full strategy: the Scopus and ScienceDirect gaps are disclosed.
+- **15** Search files retained: their location is pending the author's data-availability statement.
+
+**Not reported:**
+- **14** Citation-chasing log: chasing was not done, and the manuscript says so.
+
+The bar of "zero No on items 4-9" is met.

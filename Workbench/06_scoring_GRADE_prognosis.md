@@ -1,5 +1,10 @@
 # GRADE certainty — prognosis logic (narrative, no fake grades)
 
+**Status (2026-10-07):** applied. Two independent raters (R1 executor, R2 reviewer); the main session adjudicated against the tables.
+- **Convention:** Low = no serious domain; Very low = a serious concern in at least one domain. A single-study claim is downgraded for imprecision. Nothing is rated up.
+- **Result:** 9 Low, 14 Very low, 1 not gradable (manuscript Table 6; full reasons in `synthesis/SWIM_NARRATIVE.md`).
+- **Publication-bias rule:** runs that only remove data cannot test publication bias or absence claims.
+
 **Status (2026-09-20):** certainty framework unchanged and inactive. No certainty grade is
 claimable before study grouping, extraction, JBI appraisal, and the molecular transparency check.
 

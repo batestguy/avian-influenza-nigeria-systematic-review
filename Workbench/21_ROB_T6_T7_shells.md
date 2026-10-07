@@ -1,5 +1,7 @@
 # T6 excluded + T7 RoB shells
 
+**Status (2026-10-07):** done. The RoB consensus is `rob/consensus_rob_all.json` (110 studies; 79.3% item agreement; 13 molecular caps; 11 high-risk). The tables are in manuscript Appendix E.
+
 **Status (2026-09-20):** no full-text exclusions or RoB assessments are final. Populate only
 after the reconciled full-text queue is frozen; use one full-text exclusion reason per report.
 
