@@ -1,5 +1,22 @@
 # Next-session handoff - Nigeria avian influenza systematic review
-## Latest handoff - 7 October 2026, late (REVIEW COMPLETE; only author items remain)
+## Update - 8 October 2026 (references completed)
+- **All 35 incomplete references, plus refs 7 and 68, are resolved.** The docx now has 0 highlighted references; only the declarations and Reviewer 1 placeholders remain. Item 3 below is closed.
+  - Sources: Crossref, PubMed, doi.org, publisher pages, and bylines in the local full texts. Each correction and its source is in `manuscript\refs_verified_20261008.json`, which `assemble.py` applies after OVR (search for `VER`).
+  - Corrections worth knowing:
+    - the printed DOIs of refs 123 (JoSVAS) and 140 (Acta Sci Microbiol) are not registered at doi.org, so they were dropped;
+    - ref 134 is 1(1):12-23, not 4(1);
+    - refs 80 and 130 are single-author papers;
+    - ref 44's title ends ", Burkina Faso";
+    - ref 7 is in Lancet Infect Dis;
+    - 19 references have no DOI by design (older Nigerian journals or grey literature).
+  - Reviewer pass: no blocking findings; its one should-fix (ref 57 issue number) is applied. `verify.py` and docx validation PASS.
+  - Pre-change backup: `manuscript\backup_submission_ready_20261008_prerefs.docx`.
+- **Optional author calls raised by the reviewer:**
+  - ref 134 year: 2019 (issue year, as now printed) or 2020 (online date in the DOI record);
+  - Sa'idu Lawal is printed "Lawal S" in refs 58 and 85 and "Sa'idu L" in refs 35, 59 and 111, each as in its source;
+  - re-check refs 123 and 140 for late DOI registration at proof stage.
+
+## Previous handoff - 7 October 2026, late (REVIEW COMPLETE; only author items remain)
 
 ### Where things stand
 - **The manuscript is finished:** `Avian_review_paper_submission_ready.docx` is the completed systematic review (commit 56dd35b).

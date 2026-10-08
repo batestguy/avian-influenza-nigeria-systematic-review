@@ -1,5 +1,15 @@
 # Run log + gate checklists (update as you go)
-## Phase D: manuscript rebuilt as a completed review; reporting audit done - 2026-10-07 (latest)
+## References completed - 2026-10-08 (latest)
+- **Done:** the 35 flagged references, plus refs 7 and 68, were completed from Crossref, PubMed, doi.org, publisher pages and the local full-text bylines. The author said "proceed".
+  - The provenance is in `manuscript\refs_verified_20261008.json`, which `assemble.py` applies as VER.
+  - Result: 141 references, 0 flagged; 6 author placeholders remain.
+- **Dropped:** two printed DOIs that are not registered at doi.org (refs 123 and 140).
+- **Corrected:** ref 134 volume (1(1), not 4(1)); single authorship for refs 80 and 130; the full title of ref 44; the journal of ref 7; the title typo in ref 68.
+- **Review:** the reviewer agent re-checked every entry against its source, found no blocking issues, and its one should-fix (ref 57) is applied.
+- **Checks:** `verify.py` PASS; docx validation PASS (8802 paragraphs, unchanged); still 92 pages.
+- **Optional author calls:** in file 57 top.
+
+## Phase D: manuscript rebuilt as a completed review; reporting audit done - 2026-10-07
 - **`Avian_review_paper_submission_ready.docx` was rebuilt** with the docx skill, by author decision. The frozen original is untouched.
   - A backup and the restartable build live in the retrieval workspace `manuscript/` (section files, `assemble.py --target`, `verify.py`).
 - **Structure:**
