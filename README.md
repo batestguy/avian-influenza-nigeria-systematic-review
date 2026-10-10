@@ -4,18 +4,29 @@ Local evidence-synthesis workspace for the review of avian influenza emergence,
 temporal and geographic distribution, host range, molecular/clade patterns, and
 reassortment dynamics in Nigeria, 2006–2026.
 
+## Current state — 10 October 2026
+
+The review is **complete** and the October improvement cycle is committed (close-out commit, 10 October 2026; nothing pushed). Source of truth: `Avian_review_paper_submission_ready.docx` (127 reports = 113 studies; 145 references, 4 flagged; 96 pages; abstract 290 words). The earlier `Avian_review_paper_fellow.docx` is frozen.
+
+- Register (`Workbench/56_SCREENING_RECONCILIATION.json`): **2,157 records** = 1,803 title-excluded + 342 full-text candidates (127 retain / 117 exclude / 98 not retrieved) + 12 duplicates (verified 10 Oct 2026). Flow: 1,877 database arm + 228 Scholar update-search + 52 October update-search records.
+- Deliverables also in `output/`: the workflow completion record (PDF and Word, clean and AI-highlighted) and `tmp/ai_review_20261010/` (the AI-mention review copy of the manuscript).
+- Working tree (extraction, RoB, synthesis, manuscript build): `D:\AvianInfluenzaSysRev_retrieval_20260927\`.
+- Signposts: `Workbench/15_RUN_LOG.md`, `Workbench/56_SCREENING_RECONCILIATION.json`, `Workbench/57_NEXT_SESSION_HANDOFF_20260922.md`, `Workbench/59_IMPROVEMENT_PLAN_20261008.md`, `Workbench/60_APPRAISAL_20261009.md`.
+- Everything below dated 20 September 2026 is **historical** and superseded by this block.
+
 ## Authority and scope
 
-- **Manuscript source of truth:** `Avian_review_paper_fellow.docx`.
+- **Manuscript source of truth:** `Avian_review_paper_submission_ready.docx` (the completed review; `Avian_review_paper_fellow.docx` stays frozen).
 - **Governing instructions:** `AGENTS.md`.
 - **Review standard:** PRISMA 2020, PRISMA-S, and SWiM where meta-analysis is not justified.
 - **Question framework:** CoCoPop/PEO, not PICO.
 - **Eligibility anchor:** Nigeria-specific HPAI/LPAI evidence with epidemiological,
   molecular/phylogenetic, or spatial/temporal data.
-- **Current work scope:** protocol/search audit, screening, extraction, risk of bias,
-  and synthesis support. The manuscript remains unchanged in this repository state.
+- **Current work scope:** the review is complete and the October cycle is committed; remaining: the author items and the Sunday checks (audits re-run, blind re-score; see files 59/60).
 
 ## Current evidence state — 20 September 2026
+
+> **Superseded (10 Oct 2026)** — see "Current state" above. Kept as the historical record.
 
 `Workbench/53_CANONICAL_REGISTER.json` is the canonical identity register:
 
@@ -57,7 +68,8 @@ unscreened retrieval candidates.
 | Path | Purpose | Version-control status |
 |---|---|---|
 | `AGENTS.md` | Project rules, scope lock, methods, and safety constraints | tracked |
-| `Avian_review_paper_fellow.docx` | Single manuscript source of truth | tracked |
+| `Avian_review_paper_submission_ready.docx` | Completed review manuscript (source of truth) | tracked |
+| `Avian_review_paper_fellow.docx` | Frozen original manuscript | tracked |
 | `ScienceDirect_*.ris` | ScienceDirect citation export | tracked |
 | `scopus_export_*.ris` | Scopus citation export | tracked |
 | `Workbench/00_INDEX.md`–`55_AJOL_CANDIDATES.json` | Protocol, methods, audit trail, search outputs, and canonical register | tracked |
@@ -85,6 +97,8 @@ output. Retrieval attempts, query strings, response totals, errors, and limitati
 
 ## Resume order
 
+> **Superseded (9 Oct 2026)** — the review is complete. The current plan is file 59; the 9 Oct appraisal and fix list are in file 60.
+
 1. Read `AGENTS.md` and `Workbench/54_NEXT_SESSION_HANDOFF_20260919.md` (updated through
    20 September despite its historical filename).
 2. Treat `Workbench/53_CANONICAL_REGISTER.json` as the current identity source.
@@ -94,4 +108,5 @@ output. Retrieval attempts, query strings, response totals, errors, and limitati
 5. Keep decisions provisional until screening, duplicate reconciliation, and adjudication
    gates are complete.
 
-No GitHub remote has been configured or pushed. This is a local repository only.
+Remote: `origin` = `https://github.com/batestguy/avian-influenza-nigeria-systematic-review.git`
+(configured; the earlier "No GitHub remote has been configured" note was stale — corrected 9 Oct 2026).

@@ -5,6 +5,14 @@ Inventory of the local systematic-review workspace at the initial Git commit,
 credentials or browser session state are intentionally excluded from Git and are listed below
 for transparency.
 
+> **Update (10 October 2026).** The review is complete and the October improvement
+> cycle is committed (close-out commit, 10 October 2026). Source of truth:
+> `Avian_review_paper_submission_ready.docx` (127 reports = 113 studies); current state in
+> `Workbench/56_SCREENING_RECONCILIATION.json` (2,157 records = 1,803 title-excluded + 342
+> full-text candidates [127 retain / 117 exclude / 98 not retrieved] + 12 duplicates), working
+> tree `D:\AvianInfluenzaSysRev_retrieval_20260927\`. The inventory below is historical
+> (19–20 September 2026) and is not rewritten.
+
 ## 20 September search evidence not stored in Git
 
 - AJOL was searched through its normal on-site interface using nine exact queries. The corrected

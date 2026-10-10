@@ -1,4 +1,145 @@
 # Next-session handoff - Nigeria avian influenza systematic review
+## Latest handoff - 10 October 2026 (close-out: workflow record in Word; AI mentions marked; commit made)
+
+### One-paragraph state
+**The October improvement cycle is committed and this session is closed out.** The workflow completion record now exists in both formats - PDF (`output/pdf/`) and Word (`output/docx/`), each clean and AI-highlighted, generated from one content source (no retyped text) and XSD-validated. A marked manuscript review copy (`tmp/ai_review_20261010/`; all 36 AI tokens highlighted) records every AI mention for the author's wording decision. The target was restored byte-for-byte from the verified build after a Word session left unfinalised edits (one deleted word, a stray "+", ~30 empty paragraphs; the Word-saved state is kept at `manuscript\backup_submission_ready_20261010_wordstate.docx`) - if any of those edits was intended, it must go through the sections and a rebuild. Author-requested commit made (this handoff included); nothing pushed. Open before submission: the audits re-run (files 01/02/04) + blind re-score; author items (six placeholders + Reviewer 1 line + journal choice); the "under 20 pages" question (no such requirement is recorded anywhere - the journal choice settles the format); decision on the accurate-register wording pass. No AI statement was relabelled as human; the relabelling request is declined on the record (file 15).
+
+### Remaining (carried forward)
+1. Re-run the audits (files 01/02/04) against the updated manuscript; reviewer blind re-score (baseline = file 60; blind to file 59 targets).
+2. Author items: six yellow placeholders (funding incl. abstract, competing interests, contributions, acknowledgements, data availability), the Reviewer 1 line, and the journal choice; the 4 flagged references stay disclosed as incomplete.
+3. Source of the "under 20 pages" expectation: not recorded in the project; ask the author, or let the journal choice settle it.
+4. Final checks on the target docx (`verify.py`, docx validation, render) whenever anything changes; then the deliverable handover. The current build has passed all three.
+
+## Previous handoff - 10 October 2026 (update search fully integrated; manuscript rebuilt)
+
+### One-paragraph state
+**The October update search is through the entire pipeline and the target manuscript is rebuilt and passing every check.** 52 new records screened blind (κ 0.85) -> 4 retained abstract-only studies (**STU-113/114/115** new; **CAN-2139** linked as a companion of STU-023, author evidence) -> dual blind extraction + abstract-only RoB (high-risk 11 -> **14**) -> synthesis re-run (coverage 113; all assertions PASS; T2 counts unchanged; S5 110/72) -> register **2,157** (1,803 / 127 / 117 / 98 + 12) -> manuscript updated everywhere (127 reports / 113 studies / 98 not retrieved / Appendix A3 added / B-tables updated) -> `verify.py` PASS, docx validation PASSED, render 96 pages, Figures 2-3 embedded. 145 references, 4 flagged (new records' incomplete metadata, nothing invented); 6 author placeholders remain. Backups: `backup_submission_ready_20261009_prefixures.docx`, `preW3.docx`.
+
+### Remaining for the Sunday finish (in order)
+1. Re-run the audits (files 01/02/04 checklists) against the updated manuscript sections; update their audit tables if the reviewer-agent reports were recorded there.
+2. Reviewer-agent blind re-score of every domain (baseline = file 60; do not show the agent file 59's targets).
+3. The author items: six yellow placeholders (funding incl. abstract, competing interests, contributions, acknowledgements, data availability), the Reviewer 1 line, and the journal choice; the 4 flagged references are disclosed as incomplete.
+4. Final render of the target docx + a last `verify.py`; then the deliverable handover. Commit only if the author asks.
+
+### Working rules (unchanged)
+Author questions only via the final deliverable; legal routes only; one attempt per bot gate; nothing committed.
+
+## Previous handoff - 9 October 2026 (deadline set; figures integrated; W3 screened/retrieved/integrated)
+
+### Read first
+- **File 15 top** - the session record (deadline path, author directive, W1 corrections, figures, W3 adjudication and integration).
+- **File 60** - the appraisal + fix list (F1-F8; F1-F5 done or in train).
+- **File 59** - the plan; the 9 Oct progress entries.
+
+### State at this point (9 Oct)
+- **Author decisions (file 15):** **D7 = "I need this by sunday"** (Sunday 11 Oct, hard). Author directive: the review work is the agent's job - **no tasks delegated to the author**; retrieval closes at what legal open routes yield (loans optional, not awaited); **no D3 author contact**; **no external W6 helper** (AI-only disclosure stands unchanged). Only the final deliverable goes to the author.
+- **Manuscript (`Avian_review_paper_submission_ready.docx`) rebuilt with Figures 2-3**: backup `manuscript\backup_submission_ready_20261009_prefixures.docx`; `verify.py` PASS; docx validation PASSED; render check 94 pages (Fig 3 p11, Fig 2 p14); `assemble.py` supports `@image`; `render_check.py` checks Figure 2./3. **Pending for W9: the manuscript still carries the PRE-update-search numbers (123 reports/110 studies, 2,105 register); Appendix A still describes only the original six-source search - both must be updated after W7.**
+- **W1 search rebuild (corrected)**: 17,037 downloaded; corrected dedup (v3) -> 44 likely-new + abstracts fetched; Scholar quota spent; AJOL pages 2-4 browser-only; Scopus/ScienceDirect open (D4 not pursued; disclosed). Files in `w1_search_20261009\`.
+- **W2 citation chasing**: 77 of 123 seeds resolved; 2,195 candidates; 1,745 new; 11 relevance-positive; **43 seeds blocked by the OpenAlex daily budget** (resets 00:00 UTC) - one-shot automation `w2-rechase-openalex-reset` re-runs the chase at **01:10 local, 10 Oct**; fold any new relevance-positive records into the W3 queue.
+- **W3 screening + retrieval + integration DONE (9 Oct):** packet 52; R1+R2 blind (92.3%, kappa 0.852); 35 title-excluded; 17 advanced; retrieval legal-only -> 1 full text, 6 abstract-only, 10 not retrievable; full-text/abstract screening -> 3 excluded (W3-044 news; W3-048 negative-only; W3-049 conceptual), **4 retained abstract-only (W3-026, 029, 032, 034)**; **register now 2,157 records** (CAN-2106-CAN-2157); counts 1,803 / 127 / 117 / 98 + 12 duplicates.
+- **Next (Saturday):** W7 for the 4 abstract-only studies (dual extraction + RoB + synthesis with `run_all.py` assertions passing - note the 110-study assertions need extending to the new count); companion resolution (W3-029 vs CAN-1914/CAN-0174; W3-034 vs CAN-2005); fold W2 re-chase additions (01:10) into a mini-screen; then the manuscript update: flow/counts, Methods (update search), Appendix A (W1 strings + PRISMA-S), Appendix B/C/E updates, abstract; rebuild; Sunday final audits + blind re-score.
+- **Working rules (unchanged):** author questions only via the final deliverable now; legal routes only; one attempt per bot gate; commit only when the author asks; nothing committed yet (files 15/23/56/57/59/60, AGENTS.md, README, FILE_INVENTORY, 00_INDEX + fix report).
+
+## Previous handoff - 9 October 2026 (appraisal + agentic execution started; W1 corrected, W5 built, W2 running)
+
+## Previous handoff - 9 October 2026 (appraisal + agentic execution started; W1 corrected, W5 built, W2 running)
+
+### Read first
+- **File 60** (`60_APPRAISAL_20261009.md`) — the fresh 9 Oct appraisal (two independent appraiser agents, blind to files 57/59; every material claim re-verified by the main session) and the fix list F1–F8. Overall submission-readiness about 62%; workflow 8/10, reproducibility 7/10; no blocker.
+- **File 59** — the improvement plan; its progress log carries the 9 Oct session entries.
+- **File 15 top** — the session log: F1–F4/F8 applied, W1 done + reviewer-corrected, W5 built, dispatch state.
+
+### Done this session (9 Oct)
+- **Appraisal recorded** (file 60). Reconciled findings: file 56 metadata WAS stale (F1 fixed — now 123/114/88 with `status_history` kept); `00_INDEX.md`/README/FILE_INVENTORY were stale (F2 fixed with dated notes); the narrative lacked the (k4) rating block (F3 fixed — now 23 rating blocks = Table 6); "7 vs 4 abstract" was NOT a contradiction (F4: `access` is per report); flow counts reconcile (no fix needed).
+- **W1 search rebuild done + reviewer-corrected**: outputs in `..._retrieval_20260927\w1_search_20261009\`. Headline: the old PubMed string missed ~half the field (140 vs 209). The reviewer found dedup defects (OpenAlex URL-form DOI/PMID → 0 DOI matches; HTML entities in register titles). Main session rewrote it as `dedup_v3.py` + fetched abstracts for the 51 unmatched PubMed records and 21 OpenAlex candidates: **44 likely-new candidates (43 in window)** replace the executor's inflated 63. Files: `dedup_v3_report.md`, `dedup_v3_candidates_final.json`, `dedup_v3_final.md`, `dedup_v3_addendum.md`. Scholar skipped (quota); Scopus/ScienceDirect need D4; AJOL pages 2-4 need a browser (46 titles).
+- **W5 figures built** (`manuscript\figures\`): `fig2_states_epochs` + `fig3_timeline` (PDF+PNG), `validation_table.txt` all-OK (27/2/22/15/0/5), `figures_note.md` with captions + provenance + geoBoundaries CC BY 4.0 attribution. Visual review in progress; the interrupted worker's files were regenerated consistently (script 8:10, figures 8:22, note 8:13).
+- **Engineering hygiene** (F8): `run_all.py` asserts coverage=110; `syn_common.py` env-first roots; `synthesis/run_manifest.json` (git_head `1a17393`, hashes of 10 outputs); `human_check/README.md` handling rules.
+- **W2 citation chasing dispatched** (running): backward + forward on the 123 seed reports via OpenAlex.
+
+### Next actions, in order
+1. When the visual review returns: fix any figure defects, then wire Figures 2–3 into the manuscript build (image embedding step in `assemble.py` — the docx currently has no media at all; main session writes the target docx).
+2. When W2 returns: reviewer check, then integrate into files 19/33 and add new records to the W3 queue.
+3. Ask the author: **D1 follow-up** (someone other than the author), then **D4** (Scopus/ScienceDirect export), then D3/D5/D6/D7 — one at a time, logged in file 15.
+4. W3: dual-screen the queued new records (44 W1 + W2 results + loan arrivals) per the frozen protocol.
+5. W9 when the new studies and figures are in: rebuild, audits, blind re-score.
+
+### Working rules (unchanged)
+- Yes/no questions one at a time, log in file 15; never invent decisions or human checks; legal routes only; one attempt per bot gate; commit only when the author asks.
+- **Uncommitted:** files 15/19/23/56/57/59/60, AGENTS.md, README.md, FILE_INVENTORY.md, 00_INDEX.md and the fix report (author rule: commit only when asked).
+
+## Previous handoff - 9 October 2026 (early; appraisal + W1 dispatched)
+
+
+## Previous handoff - 8 October 2026, end of session (improvement plan in progress)
+
+### Read first
+- **File 59** (`59_IMPROVEMENT_PLAN_20261008.md`) is the working plan. It raises every appraisal domain to 8/10 or above, except registration, which is capped at about 7 because we never backdate (file 17). Its "Progress log" at the bottom is the detailed record of this session.
+- **Baseline appraisal (8 Oct):** deliverable about 6.5, workflow about 8. The weak domains were registration 4, search 5, selection 5 and retrieval 4.
+- **The manuscript is unchanged since commit `1a17393`** (references completed). Nothing below has touched the docx, the register (file 56), extraction, RoB or synthesis.
+
+### Author decisions so far
+- **D1 = yes** (a second person screens a blinded sample in a browser page).
+- **D2 = yes** (retrieval re-opened through legal paid or loan routes: interlibrary loan, BL On Demand, a colleague's access). Both are logged in file 15.
+- **Still to ask, one at a time:**
+  - **D1 follow-up (ask first):** is there someone *other than the author* who can do the check? They need about 6 hours and no prior involvement in the review.
+  - **D4:** can someone with Scopus/ScienceDirect access paste our strings and export (about 30 minutes)?
+  - **D3:** author contact, only if loans leave more than 10 priority gaps.
+  - **D5:** OSF/Zenodo deposit and retrospective registration.
+  - **D6:** who was Reviewer 1 before 27 Sep.
+  - **D7:** whether there is a hard deadline.
+
+### W6, independent human check: page built, but the run so far is NOT valid
+- **Page:** https://claude.ai/artifact/NT9auMwPRJ24xLjH4VPoD8 (owner-only; db rules: `decisions/{self}` writable by Contributor and above, readable by the owner).
+  - Page source: `C:\Users\TOSHIBA\AppData\Local\Temp\claude\D--AvianInfluenzaSysRev\7cd3aa49-4c79-4ceb-89bb-6f26375e47c6\scratchpad\screening\page_template.html`. The scratchpad may be cleared between sessions; if it is gone, rebuild from the live page with the Artifact tool, action read.
+  - Sample builder: `D:\AvianInfluenzaSysRev_retrieval_20260927\human_check\make_sample.py` (seed 20261008). Its outputs are `sample_public.json` (blinded) and `sample_key.json` (AI decisions; **never publish**).
+  - Sample: 330 titles (250 from the 1,768 AI title-excluded records, 80 from the 325 advanced) and 40 full texts (20 included, 20 excluded).
+- **The author completed the page themselves** (saved as `human_check\author_run_20261008.json`).
+  - Stage 1: kappa 0.22 (weighted 0.16); the author was very over-inclusive.
+  - Stage 2: 40 full texts in about 7 minutes, so the papers were not read.
+  - It is logged as a **calibration pilot only**. Do not report it as the independent check. Whether to mention it in the manuscript is a later decision.
+- **Before a helper uses the page:**
+  - add worked examples for Stage 1 exclusions (other countries only; kits and vaccines; awareness, economics or producer surveys without laboratory testing);
+  - make Stage 2 require opening the paper and recording the page or section relied on;
+  - then republish to the same URL.
+  - The helper gets their own `decisions/<id>` document. Share the page with them **by email as Editor** (Contributor if they are in the same organisation), **never by public link**.
+- **After the helper finishes:**
+  1. read the store (`ArtifactData list decisions`);
+  2. compute raw and stratum-weighted kappa (the code pattern is in this session's logic: unsure = advance);
+  3. re-adjudicate every disagreement against the full text;
+  4. report the results in the Methods and Results.
+
+### W4, retrieval: open-route re-sweep done and reviewer-checked
+- **Workspace:** `D:\AvianInfluenzaSysRev_retrieval_20260927\retrieval_pass2\`.
+  - The log is `retrieval_log_20261008.json` (88 records).
+  - **`LOAN_REQUEST_LIST.md` is the author's to-do list:** 15 free papers to download in a normal browser, 19 priority loans (Laleye 2022, CAN-0632, first), 33 other loans, 3 with nothing to request.
+- **Results:**
+  - 18 of the 88 now have a file in `fulltext\`: 10 full texts and 8 IJID conference abstracts.
+  - 42 need a loan, 20 could not be reached, and 8 have no identifier.
+  - Of the 33 priority reports, 9 now have a file.
+- **Re-runs:** regenerate with `python build_log.py` then `python gen_loan.py`. The main-session overrides (`OVERRIDES` in build_log.py) keep the corrections across re-runs.
+- **New rule (8 Oct):** one attempt per bot gate, never retried and never auto-passed. Three auto-gated files (CAN-1291, 2023, 2040) were deleted and moved to the author-download list. The Wayback sweep is now limited to open-flagged records.
+- **Scope notes for screening:** CAN-0576 is Thai, CAN-0655 is H7N7 in the Netherlands, CAN-1330 is a Serbian survey, and CAN-0417 and 0488 are global or China-focused. Nothing new has been screened yet.
+
+### Next actions, in order
+1. Ask the D1 follow-up. If yes, apply the page fixes above and republish; the author shares the page.
+2. Ask D4. Meanwhile, start what needs no decision:
+   - **W1:** rebuild the search with line-by-line strings and no 1,000-record caps (PubMed, OpenAlex, Crossref, AJOL, WoS Starter, Scholar; the SerpApi quota ran out on 8 Oct, so check it first).
+   - **W2:** citation chasing on the 123 included reports.
+   - **W5:** figures (a state × epoch map using geoBoundaries ADM1, and a clade timeline).
+   - **W8:** prepare the OSF material.
+3. When loaned or downloaded papers arrive, dual-screen the new full texts, then run W7 (extraction, RoB, synthesis) for any new studies, then W9 (rebuild, audit, re-score with the reviewer blind to targets).
+
+### Working rules (unchanged)
+- Yes/no questions, one at a time, with a recommended option; log every decision in file 15.
+- Never invent decisions or human checks.
+- Executor does the work, the reviewer checks it before anything is reported, and fan-out is at most 3.
+- No shadow libraries, no author contact (unless D3), and no email or identifiers in requests.
+- **Not committed this session:** files 15, 57 and 59 and the new workspace files. Commit only when the author asks.
+
+## Earlier note - 8 October 2026 (improvement plan written)
+- The author asked to raise every appraisal domain to 8/10 or above. The plan is in **file 59** (`59_IMPROVEMENT_PLAN_20261008.md`): 7 author decisions (D1–D7) and 9 work packages (W1–W9).
+- Registration is capped at about 7 by honesty: no backdating (file 17).
+
 ## Update - 8 October 2026 (references completed)
 - **All 35 incomplete references, plus refs 7 and 68, are resolved.** The docx now has 0 highlighted references; only the declarations and Reviewer 1 placeholders remain. Item 3 below is closed.
   - Sources: Crossref, PubMed, doi.org, publisher pages, and bylines in the local full texts. Each correction and its source is in `manuscript\refs_verified_20261008.json`, which `assemble.py` applies after OVR (search for `VER`).

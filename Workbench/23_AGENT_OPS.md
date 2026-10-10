@@ -1,5 +1,19 @@
 # Agent operating procedure — systematic review tasks
 
+**Current workflow (9 October 2026).** Supersedes the gate text further below, which is kept as historical.
+
+- **Roles.** An *executor* agent does each work unit; a fresh, independent *reviewer* agent checks it before anything is reported; the main session adjudicates and is the only writer of the `.docx` and of the register (file 56). Agents return JSON/text; the main session integrates it into Workbench files.
+- **Fan-out.** At most 3 agents at once. Agents save after each unit; before relaunching, check for partial outputs and reuse them.
+- **Work queues.** W1–W9 in file 59; its progress log is the session record. Startable without further author decisions: W1 (all sources except Scopus/ScienceDirect), W2, the W4 open-route re-sweep, W5, W8 preparation.
+- **Author gate.** Yes/no questions, one at a time, recommended option first; log every answer in file 15. Never enter a decision the author has not given; never invent a human check.
+- **Boundaries.** Legal retrieval routes only; one attempt per bot gate, never retried or auto-passed; no author contact unless D3 is approved; commit only when the author asks.
+- **Verification habits.** Number checks by script (counts reconcile; `run_all.py` assertions pass; `verify.py` PASS); every claim cites file/row; disagreements adjudicated against the source text.
+- **Blind spots to preserve.** Appraisers and the W9 re-scorer must not read file 59 (targets) or file 57 (baseline); the W6 `sample_key.json` is never published; the author's 8 Oct page run is a calibration pilot only, never the independent check.
+
+---
+
+## Historical — gate text as at 2026-09-20 (superseded)
+
 **Current gate (2026-09-20):** AJOL import/canonical matching is complete and Gate C screening
 reconciliation is initialized in `56_SCREENING_RECONCILIATION.json`. Agents may perform title/abstract
 verification only through that register. They must not start extraction or RoB, and all prior screening

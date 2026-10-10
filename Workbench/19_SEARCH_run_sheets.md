@@ -1,5 +1,34 @@
 # Search run sheets — execute one row at a time, log as you go
 
+## 2026-10-09 — W1 search rebuild (file 59). Final strings and counts for the re-run
+
+**Where the strings live:** `D:\AvianInfluenzaSysRev_retrieval_20260927\w1_search_20261009\strings_final.md`
+(verbatim per source, with facet rationale); raw responses in `raw\`; run metadata in `hits.json`.
+To be transcribed into manuscript Appendix A at W9. The Scopus/ScienceDirect strings are unchanged
+from this sheet (still pending D4 for a human export).
+
+| Source | Status | Total | Notes |
+|---|---|---:|---|
+| PubMed (E-utilities) | ok | **209** | New PRESS-improved string; the old v3 string returned 140 — the old string missed about half the field (added `"Influenza in Birds"[Mesh]`, `"Influenza A virus"[tiab]`, `Nigerians[tiab]`, `Nigeria[ad]`). Record as a dated amendment. |
+| OpenAlex (cursor, 54 pages × 200) | ok | 10,614 | No 1,000-record cap; `search` is a title/abstract/fulltext field — totals are not Boolean-comparable; spill-over expected. |
+| Crossref (cursor, 6 pages × 1000) | ok | 6,000 of 16,292 | Relevance engine, non-Boolean; download stopped at 6 pages for wall-clock. PRISMA should say "6,000 of 16,292". |
+| Web of Science Starter API | ok | 194 | Key live; **no date filter honoured by the API — window applied locally**; no abstracts returned by Starter. |
+| AJOL | partial | 66 rows / 20 captured | `page=2..4` returned byte-identical page 1; 46 titles need a browser. |
+| Google Scholar (SerpApi) | skipped | – | Quota spent (250/250 on 8 Oct). Refresh needs a new month or paid plan. |
+| Scopus / ScienceDirect | skipped | – | No legal programmatic access; needs a human (D4). Strings: see the two rows below. |
+
+- **Total downloaded:** 17,037. **Matched to register:** 2,270. **Corrected dedup (v3):** 48 candidates;
+  **44 likely-new (43 in window)** after fuzzy probable-duplicate exclusion — the W3 screening queue.
+  Scripts: `dedup_v3.py`, `abstracts_fetch.py`, `fix_openalex_abstracts.py`, `finalise_candidates.py`.
+- **Methods and filters as executed:** PubMed/OpenAlex/Crossref date windows 2006-01-01 to 2026-10-09;
+  no language filters (the review has none); rate limits respected (≤3/s PubMed, 0.15–0.2 s elsewhere).
+- **Limitations (disclosed):** relevance for the WoS set and the OpenAlex/Crossref spill-over sets is
+  title-only (no abstracts); OpenAlex/Crossref totals are not Boolean counts; the AJOL and Scholar gaps
+  above. Independent PRESS peer review of the strings is still missing.
+- **Reviewer outcome:** W1 reviewer pass found the dedup DOI/entity defects, now fixed (file 15 top).
+
+---
+
 Freeze version: v1 (2026-09-16). Execution amendment v2 (2026-09-20) is recorded below without
 rewriting the historical strings. Do not edit strings mid-run; amendments get a new date/version.
 

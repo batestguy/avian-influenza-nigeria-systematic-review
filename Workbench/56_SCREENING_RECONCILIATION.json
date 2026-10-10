@@ -17224,7 +17224,8 @@
         "study_role": "primary",
         "study_primary": "CAN-0226",
         "study_reports": [
-          "CAN-0226"
+          "CAN-0226",
+          "CAN-2139"
         ],
         "study_basis": "Singleton: no same_report/same_study link found; see pairs for any overlapping_data flags.",
         "overlapping_data_with": [
@@ -126358,11 +126359,1927 @@
           "https://pmc.ncbi.nlm.nih.gov/articles/PMC2735110/pdf/nihms125377.pdf"
         ]
       }
+    },
+    {
+      "canonical_id": "CAN-2106",
+      "title": "ENZYME-IMMUNOASSAY OF ANTIBODIES TO INFLUENZA A VIRUS IN NIGERIAN CHILDREN",
+      "year": 1979,
+      "doi": null,
+      "venue": "TROPICAL AND GEOGRAPHICAL MEDICINE",
+      "source_lineage": [
+        "w1_rebuild_20261009"
+      ],
+      "w3_id": "W3-001",
+      "w3_source_set": [
+        "W1-search"
+      ],
+      "title_note": null,
+      "screening": {
+        "stage": "title_abstract",
+        "date": "2026-10-09",
+        "r1": {
+          "decision": "exclude",
+          "criterion": "2",
+          "reason": "Nigerian children influenza A serology (1979); human host only, no avian AIV or laboratory confirmation stated."
+        },
+        "r2": {
+          "decision": "exclude",
+          "criterion": "2",
+          "reason": "Human influenza A antibody survey in Nigerian children; no avian host or AIV confirmation; also outside 2006-2026."
+        },
+        "adjudication": "outside 2006-2026 window and human-only (convention W3-A1; both exclude)",
+        "conventions": "w3_screen_20261009/adjudication_conventions.md (W3-A1..A5)"
+      },
+      "final_status": "title_metadata_excluded",
+      "full_text_status": "title_metadata_excluded"
+    },
+    {
+      "canonical_id": "CAN-2107",
+      "title": "Multiple introductions of H5N1 in Nigeria - Phylogenetic analysis reveals that this deadly virus first arrived in Africa from different sources",
+      "year": 2006,
+      "doi": null,
+      "venue": "NATURE",
+      "source_lineage": [
+        "w1_rebuild_20261009"
+      ],
+      "w3_id": "W3-002",
+      "w3_source_set": [
+        "W1-search"
+      ],
+      "title_note": null,
+      "screening": {
+        "stage": "title_abstract",
+        "date": "2026-10-09",
+        "r1": {
+          "decision": "include",
+          "criterion": "n/a",
+          "reason": "Primary phylogenetic analysis of Nigerian H5N1 introductions; Nigeria-linked avian AIV with molecular data."
+        },
+        "r2": {
+          "decision": "include",
+          "criterion": "n/a",
+          "reason": "Phylogenetic analysis of multiple H5N1 introductions into Nigeria; in-scope molecular epidemiology."
+        },
+        "adjudication": "include by one or both",
+        "conventions": "w3_screen_20261009/adjudication_conventions.md (W3-A1..A5)"
+      },
+      "final_status": "report_not_retrieved",
+      "full_text_status": "report_not_retrieved",
+      "retrieval": {
+        "outcome": "not_found",
+        "files": [],
+        "log": "w3_retrieval_20261009/retrieval_log.json",
+        "note": "probable news/commentary item (subtitle format); possibly related to CAN-0359 (same title stem) and the Science 2006 news item - resolve at linkage"
+      }
+    },
+    {
+      "canonical_id": "CAN-2108",
+      "title": "Nigeria's strains of bird flu bode ill for Africa",
+      "year": 2006,
+      "doi": null,
+      "venue": "NEW SCIENTIST",
+      "source_lineage": [
+        "w1_rebuild_20261009"
+      ],
+      "w3_id": "W3-003",
+      "w3_source_set": [
+        "W1-search"
+      ],
+      "title_note": null,
+      "screening": {
+        "stage": "title_abstract",
+        "date": "2026-10-09",
+        "r1": {
+          "decision": "exclude",
+          "criterion": "4",
+          "reason": "New Scientist news item about Nigerian bird flu strains; no primary data."
+        },
+        "r2": {
+          "decision": "exclude",
+          "criterion": "4",
+          "reason": "New Scientist news item on Nigerian bird flu strains; no primary data or methods."
+        },
+        "adjudication": "both exclude (4/4)",
+        "conventions": "w3_screen_20261009/adjudication_conventions.md (W3-A1..A5)"
+      },
+      "final_status": "title_metadata_excluded",
+      "full_text_status": "title_metadata_excluded"
+    },
+    {
+      "canonical_id": "CAN-2109",
+      "title": "Aggregation of Single Nucleotide Polymorphisms in a Human H5N1 Clade 2.2 Hemagglutinin",
+      "year": 2007,
+      "doi": "10.1038/npre.2007.743.1",
+      "venue": "Nature Precedings",
+      "source_lineage": [
+        "w2_citations_20261009"
+      ],
+      "w3_id": "W3-004",
+      "w3_source_set": [
+        "W2-citations"
+      ],
+      "title_note": null,
+      "screening": {
+        "stage": "title_abstract",
+        "date": "2026-10-09",
+        "r1": {
+          "decision": "unsure",
+          "criterion": "5",
+          "reason": "Molecular analysis of a human Nigerian H5N1 HA; avian-host requirement for criterion 2 undecidable from abstract."
+        },
+        "r2": {
+          "decision": "unsure",
+          "criterion": "5",
+          "reason": "Nigerian H5N1 hemagglutinin molecular analysis but the described host is human; avian-host criterion unclear."
+        },
+        "adjudication": "no avian-host data (convention W3-A2; both reviewers unsure)",
+        "conventions": "w3_screen_20261009/adjudication_conventions.md (W3-A1..A5)"
+      },
+      "final_status": "title_metadata_excluded",
+      "full_text_status": "title_metadata_excluded"
+    },
+    {
+      "canonical_id": "CAN-2110",
+      "title": "Spatial and temporal spread of avian influenza H5N1 in Nigeria.",
+      "year": 2007,
+      "doi": null,
+      "venue": null,
+      "source_lineage": [
+        "w1_rebuild_20261009"
+      ],
+      "w3_id": "W3-005",
+      "w3_source_set": [
+        "W1-search"
+      ],
+      "title_note": null,
+      "screening": {
+        "stage": "title_abstract",
+        "date": "2026-10-09",
+        "r1": {
+          "decision": "include",
+          "criterion": "n/a",
+          "reason": "Primary spatial and temporal study of H5N1 avian influenza in Nigeria."
+        },
+        "r2": {
+          "decision": "include",
+          "criterion": "n/a",
+          "reason": "Spatial and temporal spread of H5N1 in Nigeria; core scope."
+        },
+        "adjudication": "include by one or both",
+        "conventions": "w3_screen_20261009/adjudication_conventions.md (W3-A1..A5)"
+      },
+      "final_status": "report_not_retrieved",
+      "full_text_status": "report_not_retrieved",
+      "retrieval": {
+        "outcome": "not_found",
+        "files": [],
+        "log": "w3_retrieval_20261009/retrieval_log.json",
+        "note": null
+      }
+    },
+    {
+      "canonical_id": "CAN-2111",
+      "title": "H5N1, une souche hautement pathogène encore présente au Nigeria",
+      "year": 2008,
+      "doi": null,
+      "venue": null,
+      "source_lineage": [
+        "w1_rebuild_20261009"
+      ],
+      "w3_id": "W3-006",
+      "w3_source_set": [
+        "W1-search"
+      ],
+      "title_note": null,
+      "screening": {
+        "stage": "title_abstract",
+        "date": "2026-10-09",
+        "r1": {
+          "decision": "unsure",
+          "criterion": "5",
+          "reason": "H5N1 still present in Nigeria; publication type and extractable data undecidable from a title with no venue or abstract."
+        },
+        "r2": {
+          "decision": "unsure",
+          "criterion": "5",
+          "reason": "H5N1 still present in Nigeria; no abstract, venue or format, so article versus news unclear."
+        },
+        "adjudication": "unsure by one or both",
+        "conventions": "w3_screen_20261009/adjudication_conventions.md (W3-A1..A5)"
+      },
+      "final_status": "report_not_retrieved",
+      "full_text_status": "report_not_retrieved",
+      "retrieval": {
+        "outcome": "not_found",
+        "files": [],
+        "log": "w3_retrieval_20261009/retrieval_log.json",
+        "note": null
+      }
+    },
+    {
+      "canonical_id": "CAN-2112",
+      "title": "Genetic evolution of H5N1 Avian Influenza A Virus in Nigeria (2006-2008).",
+      "year": 2009,
+      "doi": null,
+      "venue": null,
+      "source_lineage": [
+        "w1_rebuild_20261009"
+      ],
+      "w3_id": "W3-007",
+      "w3_source_set": [
+        "W1-search"
+      ],
+      "title_note": null,
+      "screening": {
+        "stage": "title_abstract",
+        "date": "2026-10-09",
+        "r1": {
+          "decision": "include",
+          "criterion": "n/a",
+          "reason": "Primary molecular genetic evolution study of Nigerian H5N1 viruses, 2006-2008."
+        },
+        "r2": {
+          "decision": "include",
+          "criterion": "n/a",
+          "reason": "Genetic evolution of Nigerian H5N1 2006-2008; in-scope molecular epidemiology."
+        },
+        "adjudication": "include by one or both",
+        "conventions": "w3_screen_20261009/adjudication_conventions.md (W3-A1..A5)"
+      },
+      "final_status": "report_not_retrieved",
+      "full_text_status": "report_not_retrieved",
+      "retrieval": {
+        "outcome": "not_found",
+        "files": [],
+        "log": "w3_retrieval_20261009/retrieval_log.json",
+        "note": null
+      }
+    },
+    {
+      "canonical_id": "CAN-2113",
+      "title": "Investigating the Potential Impact of HPAI on Livelihoods in Nigeria",
+      "year": 2009,
+      "doi": null,
+      "venue": "IFPRI E-brary (International Food Policy Research Institute)",
+      "source_lineage": [
+        "w1_rebuild_20261009"
+      ],
+      "w3_id": "W3-008",
+      "w3_source_set": [
+        "W1-search"
+      ],
+      "title_note": null,
+      "screening": {
+        "stage": "title_abstract",
+        "date": "2026-10-09",
+        "r1": {
+          "decision": "exclude",
+          "criterion": "4",
+          "reason": "Livelihood impact study of HPAI; no primary AIV laboratory or epidemiological data extractable."
+        },
+        "r2": {
+          "decision": "exclude",
+          "criterion": "3",
+          "reason": "HPAI livelihood and socioeconomic analysis; no prevalence, molecular, spatial or wild-bird AIV data."
+        },
+        "adjudication": "both exclude (4/3)",
+        "conventions": "w3_screen_20261009/adjudication_conventions.md (W3-A1..A5)"
+      },
+      "final_status": "title_metadata_excluded",
+      "full_text_status": "title_metadata_excluded"
+    },
+    {
+      "canonical_id": "CAN-2114",
+      "title": "Mapping the risk of highly pathogenic avian influenza occurrence in Nigeria: A data-driven approach",
+      "year": 2009,
+      "doi": null,
+      "venue": "CGSPace A Repository of Agricultural Research Outputs (Consultative Group for International Agricultural Research)",
+      "source_lineage": [
+        "w1_rebuild_20261009"
+      ],
+      "w3_id": "W3-009",
+      "w3_source_set": [
+        "W1-search"
+      ],
+      "title_note": null,
+      "screening": {
+        "stage": "title_abstract",
+        "date": "2026-10-09",
+        "r1": {
+          "decision": "include",
+          "criterion": "n/a",
+          "reason": "Spatial risk mapping of HPAI occurrence in Nigeria; primary data-driven study."
+        },
+        "r2": {
+          "decision": "include",
+          "criterion": "n/a",
+          "reason": "Risk mapping of HPAI occurrence in Nigeria; in-scope spatial analysis."
+        },
+        "adjudication": "include by one or both",
+        "conventions": "w3_screen_20261009/adjudication_conventions.md (W3-A1..A5)"
+      },
+      "final_status": "report_not_retrieved",
+      "full_text_status": "report_not_retrieved",
+      "retrieval": {
+        "outcome": "not_found",
+        "files": [],
+        "log": "w3_retrieval_20261009/retrieval_log.json",
+        "note": null
+      }
+    },
+    {
+      "canonical_id": "CAN-2115",
+      "title": "Overview of avian influenza status and control: Lagos zone, Nigeria.",
+      "year": 2009,
+      "doi": null,
+      "venue": "Nigerian Veterinary Journal",
+      "source_lineage": [
+        "w1_rebuild_20261009"
+      ],
+      "w3_id": "W3-010",
+      "w3_source_set": [
+        "W1-search"
+      ],
+      "title_note": null,
+      "screening": {
+        "stage": "title_abstract",
+        "date": "2026-10-09",
+        "r1": {
+          "decision": "unsure",
+          "criterion": "5",
+          "reason": "Overview of AI status and control, Lagos zone; review-versus-field-report type undecidable from title alone."
+        },
+        "r2": {
+          "decision": "include",
+          "criterion": "n/a",
+          "reason": "Overview of avian influenza status and control in Lagos zone, Nigeria; plausible surveillance data."
+        },
+        "adjudication": "include by one or both",
+        "conventions": "w3_screen_20261009/adjudication_conventions.md (W3-A1..A5)"
+      },
+      "final_status": "report_not_retrieved",
+      "full_text_status": "report_not_retrieved",
+      "retrieval": {
+        "outcome": "not_found",
+        "files": [],
+        "log": "w3_retrieval_20261009/retrieval_log.json",
+        "note": null
+      }
+    },
+    {
+      "canonical_id": "CAN-2116",
+      "title": "Anxiety Among Residents Living Near Poultry Farms During Avian Influenza H5Ni - Outbreak In Nigeria",
+      "year": 2010,
+      "doi": null,
+      "venue": "Mary Slessor Journal of Medicine",
+      "source_lineage": [
+        "w1_rebuild_20261009"
+      ],
+      "w3_id": "W3-011",
+      "w3_source_set": [
+        "W1-search"
+      ],
+      "title_note": null,
+      "screening": {
+        "stage": "title_abstract",
+        "date": "2026-10-09",
+        "r1": {
+          "decision": "exclude",
+          "criterion": "4",
+          "reason": "Survey of residents' anxiety during the Nigerian H5N1 outbreak; no AIV laboratory or epidemiological data."
+        },
+        "r2": {
+          "decision": "unsure",
+          "criterion": "5",
+          "reason": "Anxiety among residents during Nigerian H5N1 outbreak; no abstract to judge whether AIV data included."
+        },
+        "adjudication": "unsure by one or both",
+        "conventions": "w3_screen_20261009/adjudication_conventions.md (W3-A1..A5)"
+      },
+      "final_status": "report_not_retrieved",
+      "full_text_status": "report_not_retrieved",
+      "retrieval": {
+        "outcome": "not_found",
+        "files": [],
+        "log": "w3_retrieval_20261009/retrieval_log.json",
+        "note": null
+      }
+    },
+    {
+      "canonical_id": "CAN-2117",
+      "title": "Evidence for influenza A virus infection among patients with respiratory tract infections in Nigeria",
+      "year": 2010,
+      "doi": "https://doi.org/10.1016/j.ijid.2010.02.2122",
+      "venue": "International Journal of Infectious Diseases",
+      "source_lineage": [
+        "w1_rebuild_20261009"
+      ],
+      "w3_id": "W3-012",
+      "w3_source_set": [
+        "W1-search"
+      ],
+      "title_note": null,
+      "screening": {
+        "stage": "title_abstract",
+        "date": "2026-10-09",
+        "r1": {
+          "decision": "exclude",
+          "criterion": "2",
+          "reason": "Human respiratory patients in Lagos tested by PCR for influenza A; no avian hosts studied."
+        },
+        "r2": {
+          "decision": "exclude",
+          "criterion": "2",
+          "reason": "Influenza A PCR in human patients in Lagos; human-only, no avian host or AIV confirmation."
+        },
+        "adjudication": "both exclude (2/2)",
+        "conventions": "w3_screen_20261009/adjudication_conventions.md (W3-A1..A5)"
+      },
+      "final_status": "title_metadata_excluded",
+      "full_text_status": "title_metadata_excluded"
+    },
+    {
+      "canonical_id": "CAN-2118",
+      "title": "Evidence for influenza A virus infection among patients with respiratory tract infections in Nigeria",
+      "year": 2010,
+      "doi": null,
+      "venue": "INTERNATIONAL JOURNAL OF INFECTIOUS DISEASES",
+      "source_lineage": [
+        "w1_rebuild_20261009"
+      ],
+      "w3_id": "W3-013",
+      "w3_source_set": [
+        "W1-search"
+      ],
+      "title_note": null,
+      "screening": {
+        "stage": "title_abstract",
+        "date": "2026-10-09",
+        "r1": {
+          "decision": "exclude",
+          "criterion": "2",
+          "reason": "Duplicate of W3-012; human influenza A patients in Nigeria, no avian host or AIV in birds."
+        },
+        "r2": {
+          "decision": "exclude",
+          "criterion": "2",
+          "reason": "Duplicate of W3-012; human respiratory influenza A survey, non-avian host, no AIV data."
+        },
+        "adjudication": "both exclude (2/2)",
+        "conventions": "w3_screen_20261009/adjudication_conventions.md (W3-A1..A5)"
+      },
+      "final_status": "title_metadata_excluded",
+      "full_text_status": "title_metadata_excluded"
+    },
+    {
+      "canonical_id": "CAN-2119",
+      "title": "Haemagglutinating pattern of some Nigerian isolates of highly pathogenic avian influenza H5N1 to mammalian and avian erythrocytes.",
+      "year": 2010,
+      "doi": null,
+      "venue": "Online journal of veterinary research",
+      "source_lineage": [
+        "w1_rebuild_20261009",
+        "w2_citations_20261009"
+      ],
+      "w3_id": "W3-014",
+      "w3_source_set": [
+        "W1-search",
+        "W2-citations"
+      ],
+      "title_note": null,
+      "screening": {
+        "stage": "title_abstract",
+        "date": "2026-10-09",
+        "r1": {
+          "decision": "include",
+          "criterion": "n/a",
+          "reason": "Laboratory characterisation of Nigerian HPAI H5N1 isolates against mammalian and avian erythrocytes."
+        },
+        "r2": {
+          "decision": "include",
+          "criterion": "n/a",
+          "reason": "Virological characterisation of Nigerian HPAI H5N1 isolates in avian and mammalian erythrocytes."
+        },
+        "adjudication": "include by one or both",
+        "conventions": "w3_screen_20261009/adjudication_conventions.md (W3-A1..A5)"
+      },
+      "final_status": "report_not_retrieved",
+      "full_text_status": "report_not_retrieved",
+      "retrieval": {
+        "outcome": "not_found",
+        "files": [],
+        "log": "w3_retrieval_20261009/retrieval_log.json",
+        "note": null
+      }
+    },
+    {
+      "canonical_id": "CAN-2120",
+      "title": "Knowledge and practice of live bird sellers on health risks and preventive measure of Avian Influenza in an urban community of Lagos state, Nigeria",
+      "year": 2010,
+      "doi": null,
+      "venue": "University of the Western Cape Electronic Theses and Dissertations Repository (University of the Western Cape)",
+      "source_lineage": [
+        "w1_rebuild_20261009"
+      ],
+      "w3_id": "W3-015",
+      "w3_source_set": [
+        "W1-search"
+      ],
+      "title_note": null,
+      "screening": {
+        "stage": "title_abstract",
+        "date": "2026-10-09",
+        "r1": {
+          "decision": "exclude",
+          "criterion": "4",
+          "reason": "Questionnaire survey of live bird sellers' knowledge and practice; no AIV testing or epidemiological data."
+        },
+        "r2": {
+          "decision": "exclude",
+          "criterion": "3",
+          "reason": "Knowledge and practice survey of live bird sellers; no AIV prevalence, molecular or spatial data."
+        },
+        "adjudication": "both exclude (4/3)",
+        "conventions": "w3_screen_20261009/adjudication_conventions.md (W3-A1..A5)"
+      },
+      "final_status": "title_metadata_excluded",
+      "full_text_status": "title_metadata_excluded"
+    },
+    {
+      "canonical_id": "CAN-2121",
+      "title": "Nigeria - Avian Influenza Control and Human Pandemic Preparedness and Response Project for Nigeria : P100122 - Implementation Status Results Report : Sequence 10",
+      "year": 2010,
+      "doi": null,
+      "venue": null,
+      "source_lineage": [
+        "w1_rebuild_20261009"
+      ],
+      "w3_id": "W3-016",
+      "w3_source_set": [
+        "W1-search"
+      ],
+      "title_note": null,
+      "screening": {
+        "stage": "title_abstract",
+        "date": "2026-10-09",
+        "r1": {
+          "decision": "exclude",
+          "criterion": "4",
+          "reason": "World Bank project implementation status report; administrative document without primary AIV data."
+        },
+        "r2": {
+          "decision": "exclude",
+          "criterion": "4",
+          "reason": "World Bank project implementation status report; not primary, surveillance or molecular study data."
+        },
+        "adjudication": "both exclude (4/4)",
+        "conventions": "w3_screen_20261009/adjudication_conventions.md (W3-A1..A5)"
+      },
+      "final_status": "title_metadata_excluded",
+      "full_text_status": "title_metadata_excluded"
+    },
+    {
+      "canonical_id": "CAN-2122",
+      "title": "Post-Avian Flu Profitability and Resource Use Efficiency of Broiler Farmers in Akwa Ibom State, South-South, Nigeria",
+      "year": 2010,
+      "doi": "https://doi.org/10.3923/aj.2010.37.44",
+      "venue": "Agricultural Journal",
+      "source_lineage": [
+        "w1_rebuild_20261009"
+      ],
+      "w3_id": "W3-017",
+      "w3_source_set": [
+        "W1-search"
+      ],
+      "title_note": null,
+      "screening": {
+        "stage": "title_abstract",
+        "date": "2026-10-09",
+        "r1": {
+          "decision": "exclude",
+          "criterion": "4",
+          "reason": "Profitability and resource-use economics of broiler farmers post-avian flu; no AIV data."
+        },
+        "r2": {
+          "decision": "exclude",
+          "criterion": "3",
+          "reason": "Farm profitability and resource-use economics after avian flu; no AIV epidemiological or laboratory data."
+        },
+        "adjudication": "both exclude (4/3)",
+        "conventions": "w3_screen_20261009/adjudication_conventions.md (W3-A1..A5)"
+      },
+      "final_status": "title_metadata_excluded",
+      "full_text_status": "title_metadata_excluded"
+    },
+    {
+      "canonical_id": "CAN-2123",
+      "title": "Prevalence of antibodies to influenza viruses among handlers of live pigs at three locations in Ibadan, Nigeria.",
+      "year": 2010,
+      "doi": null,
+      "venue": "PubMed",
+      "source_lineage": [
+        "w1_rebuild_20261009"
+      ],
+      "w3_id": "W3-018",
+      "w3_source_set": [
+        "W1-search"
+      ],
+      "title_note": null,
+      "screening": {
+        "stage": "title_abstract",
+        "date": "2026-10-09",
+        "r1": {
+          "decision": "exclude",
+          "criterion": "2",
+          "reason": "Human pig handlers in Ibadan; influenza antibodies in humans, no avian hosts."
+        },
+        "r2": {
+          "decision": "exclude",
+          "criterion": "2",
+          "reason": "Influenza antibodies in pig handlers; swine and human hosts, no avian AIV laboratory confirmation."
+        },
+        "adjudication": "both exclude (2/2)",
+        "conventions": "w3_screen_20261009/adjudication_conventions.md (W3-A1..A5)"
+      },
+      "final_status": "title_metadata_excluded",
+      "full_text_status": "title_metadata_excluded"
+    },
+    {
+      "canonical_id": "CAN-2124",
+      "title": "Psychosocial effects associated with highly pathogenic avian influenza (H5N1) in Nigeria",
+      "year": 2010,
+      "doi": null,
+      "venue": "DOAJ (DOAJ: Directory of Open Access Journals)",
+      "source_lineage": [
+        "w1_rebuild_20261009"
+      ],
+      "w3_id": "W3-019",
+      "w3_source_set": [
+        "W1-search"
+      ],
+      "title_note": "repaired from corrupted packet title (duplicated text); clean form recovered verbatim from the same record - check against DOAJ at retrieval",
+      "screening": {
+        "stage": "title_abstract",
+        "date": "2026-10-09",
+        "r1": {
+          "decision": "exclude",
+          "criterion": "4",
+          "reason": "Psychosocial analysis of HPAI H5N1 effects on Nigerian farmers; no primary epidemiological or molecular data."
+        },
+        "r2": {
+          "decision": "exclude",
+          "criterion": "3",
+          "reason": "Psychosocial and economic effects of H5N1 on farmers; no virus prevalence, molecular or spatial data."
+        },
+        "adjudication": "both exclude (4/3)",
+        "conventions": "w3_screen_20261009/adjudication_conventions.md (W3-A1..A5)"
+      },
+      "final_status": "title_metadata_excluded",
+      "full_text_status": "title_metadata_excluded"
+    },
+    {
+      "canonical_id": "CAN-2125",
+      "title": "Amino acid sequence analysis and identification of mutations in the NS gene of 2009 influenza A (H1N1) isolates from Kenya.",
+      "year": 2011,
+      "doi": "10.1007/s11262-011-0616-6",
+      "venue": "Virus genes",
+      "source_lineage": [
+        "w1_rebuild_20261009"
+      ],
+      "w3_id": "W3-020",
+      "w3_source_set": [
+        "W1-search"
+      ],
+      "title_note": null,
+      "screening": {
+        "stage": "title_abstract",
+        "date": "2026-10-09",
+        "r1": {
+          "decision": "exclude",
+          "criterion": "1",
+          "reason": "Kenyan 2009 H1N1 isolates sequenced; Nigeria appears only as a comparison site."
+        },
+        "r2": {
+          "decision": "exclude",
+          "criterion": "1",
+          "reason": "Kenyan 2009 pandemic H1N1 NS gene study; Nigeria mentioned only as a comparison isolate."
+        },
+        "adjudication": "both exclude (1/1)",
+        "conventions": "w3_screen_20261009/adjudication_conventions.md (W3-A1..A5)"
+      },
+      "final_status": "title_metadata_excluded",
+      "full_text_status": "title_metadata_excluded"
+    },
+    {
+      "canonical_id": "CAN-2126",
+      "title": "Isolation of influenza A viruses from pigs in Ibadan, Nigeria.",
+      "year": 2011,
+      "doi": null,
+      "venue": "PubMed",
+      "source_lineage": [
+        "w1_rebuild_20261009"
+      ],
+      "w3_id": "W3-021",
+      "w3_source_set": [
+        "W1-search"
+      ],
+      "title_note": null,
+      "screening": {
+        "stage": "title_abstract",
+        "date": "2026-10-09",
+        "r1": {
+          "decision": "exclude",
+          "criterion": "2",
+          "reason": "Swine influenza A (H1N1, H3N2) isolated from pigs in Ibadan; non-avian hosts only."
+        },
+        "r2": {
+          "decision": "exclude",
+          "criterion": "2",
+          "reason": "Swine influenza A isolation in Ibadan pigs; non-avian host, swine influenza only."
+        },
+        "adjudication": "both exclude (2/2)",
+        "conventions": "w3_screen_20261009/adjudication_conventions.md (W3-A1..A5)"
+      },
+      "final_status": "title_metadata_excluded",
+      "full_text_status": "title_metadata_excluded"
+    },
+    {
+      "canonical_id": "CAN-2127",
+      "title": "Nigeria - Avian Influenza Control and Human Pandemic Preparedness and Response Project for Nigeria : P100122 - Implementation Status Results Report : Sequence 12",
+      "year": 2011,
+      "doi": null,
+      "venue": null,
+      "source_lineage": [
+        "w1_rebuild_20261009"
+      ],
+      "w3_id": "W3-022",
+      "w3_source_set": [
+        "W1-search"
+      ],
+      "title_note": null,
+      "screening": {
+        "stage": "title_abstract",
+        "date": "2026-10-09",
+        "r1": {
+          "decision": "exclude",
+          "criterion": "4",
+          "reason": "Second World Bank implementation status report; administrative, no primary AIV data."
+        },
+        "r2": {
+          "decision": "exclude",
+          "criterion": "4",
+          "reason": "World Bank implementation status report sequence 12; not primary research with extractable AIV data."
+        },
+        "adjudication": "both exclude (4/4)",
+        "conventions": "w3_screen_20261009/adjudication_conventions.md (W3-A1..A5)"
+      },
+      "final_status": "title_metadata_excluded",
+      "full_text_status": "title_metadata_excluded"
+    },
+    {
+      "canonical_id": "CAN-2128",
+      "title": "Spinned Poisson distribution with health management application.",
+      "year": 2011,
+      "doi": "10.1007/s10729-011-9157-8",
+      "venue": "Health care management science",
+      "source_lineage": [
+        "w1_rebuild_20261009"
+      ],
+      "w3_id": "W3-023",
+      "w3_source_set": [
+        "W1-search"
+      ],
+      "title_note": null,
+      "screening": {
+        "stage": "title_abstract",
+        "date": "2026-10-09",
+        "r1": {
+          "decision": "exclude",
+          "criterion": "1",
+          "reason": "Statistical distribution paper; the Nigerian data used are smallpox incidence, not AIV."
+        },
+        "r2": {
+          "decision": "exclude",
+          "criterion": "2",
+          "reason": "Statistical methods paper on spinned Poisson distribution; no avian influenza virus content."
+        },
+        "adjudication": "both exclude (1/2)",
+        "conventions": "w3_screen_20261009/adjudication_conventions.md (W3-A1..A5)"
+      },
+      "final_status": "title_metadata_excluded",
+      "full_text_status": "title_metadata_excluded"
+    },
+    {
+      "canonical_id": "CAN-2129",
+      "title": "Comparative Molecular Analysis of Egyptian Strains of Highly Pathogenic Avian Influenza (HPAI) Virus H5N1 Isolated During 2006 And 2007",
+      "year": 2012,
+      "doi": null,
+      "venue": null,
+      "source_lineage": [
+        "w2_citations_20261009"
+      ],
+      "w3_id": "W3-024",
+      "w3_source_set": [
+        "W2-citations"
+      ],
+      "title_note": null,
+      "screening": {
+        "stage": "title_abstract",
+        "date": "2026-10-09",
+        "r1": {
+          "decision": "exclude",
+          "criterion": "1",
+          "reason": "Egyptian H5N1 isolates characterised; Nigeria only listed within a lineage comparison."
+        },
+        "r2": {
+          "decision": "exclude",
+          "criterion": "1",
+          "reason": "Egyptian H5N1 molecular study; Nigeria appears only in a lineage country list."
+        },
+        "adjudication": "both exclude (1/1)",
+        "conventions": "w3_screen_20261009/adjudication_conventions.md (W3-A1..A5)"
+      },
+      "final_status": "title_metadata_excluded",
+      "full_text_status": "title_metadata_excluded"
+    },
+    {
+      "canonical_id": "CAN-2130",
+      "title": "Why did H5N1 HPAI disappear from Nigeria? - Incidence and transmission characteristics of H5N1 HPAI outbreaks 2005-2008 in Nigeria",
+      "year": 2012,
+      "doi": null,
+      "venue": "CGSPace A Repository of Agricultural Research Outputs (Consultative Group for International Agricultural Research)",
+      "source_lineage": [
+        "w1_rebuild_20261009"
+      ],
+      "w3_id": "W3-025",
+      "w3_source_set": [
+        "W1-search"
+      ],
+      "title_note": null,
+      "screening": {
+        "stage": "title_abstract",
+        "date": "2026-10-09",
+        "r1": {
+          "decision": "include",
+          "criterion": "n/a",
+          "reason": "Primary incidence and transmission study of Nigerian H5N1 HPAI outbreaks, 2005-2008."
+        },
+        "r2": {
+          "decision": "include",
+          "criterion": "n/a",
+          "reason": "Incidence and transmission of H5N1 outbreaks in Nigeria 2005-2008; in-scope epidemiology."
+        },
+        "adjudication": "include by one or both",
+        "conventions": "w3_screen_20261009/adjudication_conventions.md (W3-A1..A5)"
+      },
+      "final_status": "report_not_retrieved",
+      "full_text_status": "report_not_retrieved",
+      "retrieval": {
+        "outcome": "not_found",
+        "files": [],
+        "log": "w3_retrieval_20261009/retrieval_log.json",
+        "note": null
+      }
+    },
+    {
+      "canonical_id": "CAN-2131",
+      "title": "Retrospective survey of spatio-temporal spread of avian influenza in and around Maiduguri, Borno state northeastern Nigeria",
+      "year": 2013,
+      "doi": "https://doi.org/10.14196/sjva.v2i7.862",
+      "venue": "Journal of Veterinary Advances",
+      "source_lineage": [
+        "w1_rebuild_20261009"
+      ],
+      "w3_id": "W3-026",
+      "w3_source_set": [
+        "W1-search"
+      ],
+      "title_note": null,
+      "screening": {
+        "stage": "title_abstract",
+        "date": "2026-10-09",
+        "r1": {
+          "decision": "include",
+          "criterion": "n/a",
+          "reason": "Retrospective spatio-temporal outbreak survey with farm-level mortality data, Maiduguri, Nigeria."
+        },
+        "r2": {
+          "decision": "include",
+          "criterion": "n/a",
+          "reason": "Retrospective spatio-temporal HPAI spread with outbreak and mortality data, Borno State."
+        },
+        "adjudication": "include by one or both",
+        "conventions": "w3_screen_20261009/adjudication_conventions.md (W3-A1..A5)"
+      },
+      "final_status": "provisional_full_text_eligible",
+      "full_text_status": "abstract_only_retained_pending_linkage",
+      "full_text_screening": {
+        "date": "2026-10-09",
+        "basis": "abstract (full text unobtainable via legal open routes)",
+        "decision": "retain (abstract level)",
+        "note": "to be extracted as an abstract-only study under review precedent; linkage/companion resolution due at W7"
+      },
+      "retrieval": {
+        "outcome": "abstract_only",
+        "files": [],
+        "log": "w3_retrieval_20261009/retrieval_log.json"
+      },
+      "report_linkage": {
+        "study_id": "STU-113",
+        "study_role": "primary",
+        "study_primary": "CAN-2131",
+        "study_reports": [
+          "CAN-2131"
+        ],
+        "study_basis": "New study (October 2026 update search, W3): retrospective outbreak-record survey, Maiduguri 2006-2007; abstract-only retention.",
+        "overlapping_data_with": [],
+        "linked": "2026-10-09"
+      },
+      "pmid": null
+    },
+    {
+      "canonical_id": "CAN-2132",
+      "title": "Assessment of the Competence of Veterinary Laboratory Staff Involved in the Diagnosis of Highly Pathogenic Avian Influenza in Nigeria",
+      "year": 2014,
+      "doi": null,
+      "venue": "Global journal of animal scientific research",
+      "source_lineage": [
+        "w1_rebuild_20261009"
+      ],
+      "w3_id": "W3-027",
+      "w3_source_set": [
+        "W1-search"
+      ],
+      "title_note": null,
+      "screening": {
+        "stage": "title_abstract",
+        "date": "2026-10-09",
+        "r1": {
+          "decision": "exclude",
+          "criterion": "4",
+          "reason": "Questionnaire assessment of veterinary laboratory staff competence; no AIV detection, surveillance or outbreak data."
+        },
+        "r2": {
+          "decision": "exclude",
+          "criterion": "3",
+          "reason": "Survey of laboratory staff competence for HPAI diagnosis; no AIV prevalence, molecular or spatial data."
+        },
+        "adjudication": "both exclude (4/3)",
+        "conventions": "w3_screen_20261009/adjudication_conventions.md (W3-A1..A5)"
+      },
+      "final_status": "title_metadata_excluded",
+      "full_text_status": "title_metadata_excluded"
+    },
+    {
+      "canonical_id": "CAN-2133",
+      "title": "Preventive Measures against Avian Influenza in Lagelu Local Government Area, South Western Nigeria: A model to vaccination in Nigeria",
+      "year": 2014,
+      "doi": null,
+      "venue": "The 20th IEA World Congress of Epidemiology (17-21 August 2014, Anchorage, AK)",
+      "source_lineage": [
+        "w1_rebuild_20261009"
+      ],
+      "w3_id": "W3-028",
+      "w3_source_set": [
+        "W1-search"
+      ],
+      "title_note": null,
+      "screening": {
+        "stage": "title_abstract",
+        "date": "2026-10-09",
+        "r1": {
+          "decision": "unsure",
+          "criterion": "5",
+          "reason": "Preventive measures and vaccination model in Lagelu LGA; study type and data undecidable from title only."
+        },
+        "r2": {
+          "decision": "unsure",
+          "criterion": "5",
+          "reason": "Conference abstract on AI preventive measures in Lagelu, Nigeria; no abstract text to judge data."
+        },
+        "adjudication": "unsure by one or both",
+        "conventions": "w3_screen_20261009/adjudication_conventions.md (W3-A1..A5)"
+      },
+      "final_status": "report_not_retrieved",
+      "full_text_status": "report_not_retrieved",
+      "retrieval": {
+        "outcome": "not_found",
+        "files": [],
+        "log": "w3_retrieval_20261009/retrieval_log.json",
+        "note": null
+      }
+    },
+    {
+      "canonical_id": "CAN-2134",
+      "title": "Epidemiologic and Economic Analyses on Highly Pathogenic Avian Influenza H5N1 in Nigeria and Egypt",
+      "year": 2015,
+      "doi": null,
+      "venue": "Utrecht University Repository (Utrecht University)",
+      "source_lineage": [
+        "w1_rebuild_20261009"
+      ],
+      "w3_id": "W3-029",
+      "w3_source_set": [
+        "W1-search"
+      ],
+      "title_note": null,
+      "screening": {
+        "stage": "title_abstract",
+        "date": "2026-10-09",
+        "r1": {
+          "decision": "include",
+          "criterion": "n/a",
+          "reason": "Epidemiological analyses of Nigerian H5N1 outbreaks with virus isolation, RT-PCR and serology stated."
+        },
+        "r2": {
+          "decision": "include",
+          "criterion": "n/a",
+          "reason": "Epidemiologic and economic H5N1 analyses with Nigerian outbreak data and laboratory testing."
+        },
+        "adjudication": "include by one or both",
+        "conventions": "w3_screen_20261009/adjudication_conventions.md (W3-A1..A5)"
+      },
+      "final_status": "provisional_full_text_eligible",
+      "full_text_status": "abstract_only_retained_pending_linkage",
+      "full_text_screening": {
+        "date": "2026-10-09",
+        "basis": "abstract (full text unobtainable via legal open routes)",
+        "decision": "retain (abstract level)",
+        "note": "to be extracted as an abstract-only study under review precedent; linkage/companion resolution due at W7"
+      },
+      "retrieval": {
+        "outcome": "abstract_only",
+        "files": [],
+        "log": "w3_retrieval_20261009/retrieval_log.json"
+      },
+      "overlapping_data_with": [
+        "CAN-1914 (Egypt+Nigeria models, STU-105); CAN-0174 (Nigeria+Egypt LBM study, STU-021) - thematic overlap; resolve at linkage"
+      ],
+      "report_linkage": {
+        "study_id": "STU-114",
+        "study_role": "primary",
+        "study_primary": "CAN-2134",
+        "study_reports": [
+          "CAN-2134"
+        ],
+        "study_basis": "New study (October 2026 update search, W3): composite Nigeria+Egypt analyses; abstract-only retention; no synthesisable Nigerian data.",
+        "overlapping_data_with": [],
+        "linked": "2026-10-09"
+      },
+      "pmid": null
+    },
+    {
+      "canonical_id": "CAN-2135",
+      "title": "MOLECULAR DETECTION OF SWINE INFLUENZA VIRUS IN PIGS AND PIG HANDLERS IN SOME COMMUNITIES IN LAGOS STATE, SOUTH WESTERN, NIGERIA",
+      "year": 2015,
+      "doi": null,
+      "venue": "Journal of Disease and Global Health",
+      "source_lineage": [
+        "w1_rebuild_20261009"
+      ],
+      "w3_id": "W3-030",
+      "w3_source_set": [
+        "W1-search"
+      ],
+      "title_note": null,
+      "screening": {
+        "stage": "title_abstract",
+        "date": "2026-10-09",
+        "r1": {
+          "decision": "exclude",
+          "criterion": "2",
+          "reason": "Swine influenza A detected in pigs and pig handlers, Lagos; non-avian hosts only."
+        },
+        "r2": {
+          "decision": "exclude",
+          "criterion": "2",
+          "reason": "Swine influenza detection in pigs and pig handlers, Lagos; non-avian hosts."
+        },
+        "adjudication": "both exclude (2/2)",
+        "conventions": "w3_screen_20261009/adjudication_conventions.md (W3-A1..A5)"
+      },
+      "final_status": "title_metadata_excluded",
+      "full_text_status": "title_metadata_excluded"
+    },
+    {
+      "canonical_id": "CAN-2136",
+      "title": "Types of human influenza virus among patient at Abubakar Tafawa Balewa University Teaching Hospital (ATBUTH), Bauchi, Nigeria",
+      "year": 2016,
+      "doi": null,
+      "venue": "Journal of Infectious Diseases and Therapy",
+      "source_lineage": [
+        "w1_rebuild_20261009"
+      ],
+      "w3_id": "W3-031",
+      "w3_source_set": [
+        "W1-search"
+      ],
+      "title_note": null,
+      "screening": {
+        "stage": "title_abstract",
+        "date": "2026-10-09",
+        "r1": {
+          "decision": "exclude",
+          "criterion": "2",
+          "reason": "Human influenza virus types in hospital patients, Bauchi; human host only."
+        },
+        "r2": {
+          "decision": "exclude",
+          "criterion": "2",
+          "reason": "Human influenza virus types in hospital patients, Bauchi; human-only, no avian AIV."
+        },
+        "adjudication": "both exclude (2/2)",
+        "conventions": "w3_screen_20261009/adjudication_conventions.md (W3-A1..A5)"
+      },
+      "final_status": "title_metadata_excluded",
+      "full_text_status": "title_metadata_excluded"
+    },
+    {
+      "canonical_id": "CAN-2137",
+      "title": "[Title unavailable - IJAAR 2017 5(3); abstract-only record: H5N2 antibody seroprevalence in birds, Maiduguri]",
+      "year": 2017,
+      "doi": "10.33500/ijaar.2017.05.003",
+      "venue": "International Journal of Advance Agricultural Research",
+      "source_lineage": [
+        "w2_citations_20261009"
+      ],
+      "w3_id": "W3-032",
+      "w3_source_set": [
+        "W2-citations"
+      ],
+      "title_note": "packet title empty; IJAAR/Crossref store no title; annotated, not invented (convention W3-A5)",
+      "screening": {
+        "stage": "title_abstract",
+        "date": "2026-10-09",
+        "r1": {
+          "decision": "include",
+          "criterion": "n/a",
+          "reason": "ELISA seroprevalence of AIV antibodies in broilers, layers, village chickens, geese and ducks, Maiduguri."
+        },
+        "r2": {
+          "decision": "include",
+          "criterion": "n/a",
+          "reason": "Seroprevalence of AIV H5N2 antibodies in multiple bird species, Maiduguri; avian hosts, ELISA confirmation."
+        },
+        "adjudication": "include by one or both",
+        "conventions": "w3_screen_20261009/adjudication_conventions.md (W3-A1..A5)"
+      },
+      "final_status": "provisional_full_text_eligible",
+      "full_text_status": "abstract_only_retained_pending_linkage",
+      "full_text_screening": {
+        "date": "2026-10-09",
+        "basis": "abstract (full text unobtainable via legal open routes)",
+        "decision": "retain (abstract level)",
+        "note": "to be extracted as an abstract-only study under review precedent; linkage/companion resolution due at W7"
+      },
+      "retrieval": {
+        "outcome": "abstract_only",
+        "files": [],
+        "log": "w3_retrieval_20261009/retrieval_log.json"
+      },
+      "report_linkage": {
+        "study_id": "STU-115",
+        "study_role": "primary",
+        "study_primary": "CAN-2137",
+        "study_reports": [
+          "CAN-2137"
+        ],
+        "study_basis": "New study (October 2026 update search, W3): H5N2 antibody seroprevalence, Maiduguri; abstract-only retention (exposure evidence only).",
+        "overlapping_data_with": [],
+        "linked": "2026-10-09"
+      },
+      "pmid": null
+    },
+    {
+      "canonical_id": "CAN-2138",
+      "title": "Highly Pathogenic Avian Influenza H5N1 Persistence in Africa: Household Poultry Perspective & Public Health Implications",
+      "year": 2017,
+      "doi": "10.15406/jdvar.2017.05.00134",
+      "venue": "Journal of Dairy Veterinary & Animal Research",
+      "source_lineage": [
+        "w2_citations_20261009"
+      ],
+      "w3_id": "W3-033",
+      "w3_source_set": [
+        "W2-citations"
+      ],
+      "title_note": null,
+      "screening": {
+        "stage": "title_abstract",
+        "date": "2026-10-09",
+        "r1": {
+          "decision": "exclude",
+          "criterion": "4",
+          "reason": "Africa-wide narrative review of HPAI and household poultry; no Nigeria-specific primary data."
+        },
+        "r2": {
+          "decision": "exclude",
+          "criterion": "4",
+          "reason": "Africa-wide perspective piece; cited human case data are Egyptian, no Nigeria-specific extractable data."
+        },
+        "adjudication": "both exclude (4/4)",
+        "conventions": "w3_screen_20261009/adjudication_conventions.md (W3-A1..A5)"
+      },
+      "final_status": "title_metadata_excluded",
+      "full_text_status": "title_metadata_excluded"
+    },
+    {
+      "canonical_id": "CAN-2139",
+      "title": "Phylogenetic analysis of 2015-2016 Nigerian highly pathogenic avian influenza (HPAI) H5N1 viruses",
+      "year": 2017,
+      "doi": null,
+      "venue": "UpSpace Institutional Repository (University of Pretoria)",
+      "source_lineage": [
+        "w1_rebuild_20261009"
+      ],
+      "w3_id": "W3-034",
+      "w3_source_set": [
+        "W1-search"
+      ],
+      "title_note": null,
+      "screening": {
+        "stage": "title_abstract",
+        "date": "2026-10-09",
+        "r1": {
+          "decision": "include",
+          "criterion": "n/a",
+          "reason": "Phylogenetic analysis of 100 sequenced Nigerian poultry H5N1 genomes, 2015-2016, with clade assignment."
+        },
+        "r2": {
+          "decision": "include",
+          "criterion": "n/a",
+          "reason": "Phylogenetic analysis of 100 Nigerian 2015-2016 H5N1 genomes; in-scope molecular epidemiology."
+        },
+        "adjudication": "include by one or both",
+        "conventions": "w3_screen_20261009/adjudication_conventions.md (W3-A1..A5)"
+      },
+      "final_status": "provisional_full_text_eligible",
+      "full_text_status": "abstract_only_retained_pending_linkage",
+      "full_text_screening": {
+        "date": "2026-10-09",
+        "basis": "abstract (full text unobtainable via legal open routes)",
+        "decision": "retain (abstract level)",
+        "note": "to be extracted as an abstract-only study under review precedent; linkage/companion resolution due at W7"
+      },
+      "retrieval": {
+        "outcome": "abstract_only",
+        "files": [],
+        "log": "w3_retrieval_20261009/retrieval_log.json"
+      },
+      "overlapping_data_with": [
+        "CAN-2005 (Pretoria thesis: molecular and spatial-temporal epidemiology of HPAI H5N1 in Nigeria) - probable companion report; resolve at linkage"
+      ],
+      "report_linkage": {
+        "study_id": "STU-023",
+        "study_role": "companion",
+        "study_primary": "CAN-0226",
+        "study_reports": [
+          "CAN-0226",
+          "CAN-2139"
+        ],
+        "study_basis": "Companion report (author evidence): UpSpace record with the same first author (Laleye A) as the primary report CAN-0226, covering the same 100 complete genomes of January 2015 to June 2016 (16 states and the FCT, GenBank submission); no accessions listed in the abstract. Data counted once under STU-023.",
+        "overlapping_data_with": [
+          "CAN-0226"
+        ],
+        "linked": "2026-10-09"
+      },
+      "pmid": null
+    },
+    {
+      "canonical_id": "CAN-2140",
+      "title": "Evidence of silent infection of domestic pigs with Highly Pathogenic AvianInfluenza H5N1 and H1N1pdm09 in ‘hot spot’ Nigeria: Is a pandemic virusalready in the pipeline?",
+      "year": 2018,
+      "doi": null,
+      "venue": null,
+      "source_lineage": [
+        "w1_rebuild_20261009"
+      ],
+      "w3_id": "W3-035",
+      "w3_source_set": [
+        "W1-search"
+      ],
+      "title_note": null,
+      "screening": {
+        "stage": "title_abstract",
+        "date": "2026-10-09",
+        "r1": {
+          "decision": "unsure",
+          "criterion": "5",
+          "reason": "HPAI H5N1 detected in Nigerian domestic pigs; avian-host requirement of criterion 2 cannot be settled without abstract."
+        },
+        "r2": {
+          "decision": "unsure",
+          "criterion": "5",
+          "reason": "HPAI H5N1 in Nigerian pigs; non-avian host, criterion 2 applicability needs full text."
+        },
+        "adjudication": "no avian-host data (convention W3-A2; both reviewers unsure)",
+        "conventions": "w3_screen_20261009/adjudication_conventions.md (W3-A1..A5)"
+      },
+      "final_status": "title_metadata_excluded",
+      "full_text_status": "title_metadata_excluded"
+    },
+    {
+      "canonical_id": "CAN-2141",
+      "title": "Detection of Antibody to Avian Influenza Virus A in Free Range Pigs In Taraba State, Nigeria -",
+      "year": 2019,
+      "doi": null,
+      "venue": null,
+      "source_lineage": [
+        "w1_rebuild_20261009"
+      ],
+      "w3_id": "W3-036",
+      "w3_source_set": [
+        "W1-search"
+      ],
+      "title_note": null,
+      "screening": {
+        "stage": "title_abstract",
+        "date": "2026-10-09",
+        "r1": {
+          "decision": "unsure",
+          "criterion": "5",
+          "reason": "AIV antibody detected in free-range pigs, Taraba; host is non-avian so avian-host criterion cannot be confirmed."
+        },
+        "r2": {
+          "decision": "unsure",
+          "criterion": "5",
+          "reason": "AIV antibody detected in Nigerian pigs by cELISA; non-avian host, criterion 2 applicability needs full text."
+        },
+        "adjudication": "no avian-host data (convention W3-A2; both reviewers unsure)",
+        "conventions": "w3_screen_20261009/adjudication_conventions.md (W3-A1..A5)"
+      },
+      "final_status": "title_metadata_excluded",
+      "full_text_status": "title_metadata_excluded"
+    },
+    {
+      "canonical_id": "CAN-2142",
+      "title": "Serological and molecular surveillance for influenza A virus in dogs and their human contacts in Oyo State, Nigeria.",
+      "year": 2019,
+      "doi": null,
+      "venue": "Tropical biomedicine",
+      "source_lineage": [
+        "w1_rebuild_20261009",
+        "w2_citations_20261009"
+      ],
+      "w3_id": "W3-037",
+      "w3_source_set": [
+        "W1-search",
+        "W2-citations"
+      ],
+      "title_note": null,
+      "screening": {
+        "stage": "title_abstract",
+        "date": "2026-10-09",
+        "r1": {
+          "decision": "exclude",
+          "criterion": "2",
+          "reason": "Dog and human-contact serosurvey in Oyo State; no avian hosts sampled, no H5 detected."
+        },
+        "r2": {
+          "decision": "exclude",
+          "criterion": "2",
+          "reason": "Influenza A surveillance in dogs and human contacts; non-avian hosts and H5 antibody not detected."
+        },
+        "adjudication": "both exclude (2/2)",
+        "conventions": "w3_screen_20261009/adjudication_conventions.md (W3-A1..A5)"
+      },
+      "final_status": "title_metadata_excluded",
+      "full_text_status": "title_metadata_excluded"
+    },
+    {
+      "canonical_id": "CAN-2143",
+      "title": "INFLUENZA REQUIERE UN MANEJO BAJO LA PERSPECTIVA DE “ONE HEALTH” EN COLOMBIA.",
+      "year": 2020,
+      "doi": "10.15446/abc.v25n3.79364",
+      "venue": "Acta Biológica Colombiana",
+      "source_lineage": [
+        "w2_citations_20261009"
+      ],
+      "w3_id": "W3-038",
+      "w3_source_set": [
+        "W2-citations"
+      ],
+      "title_note": null,
+      "screening": {
+        "stage": "title_abstract",
+        "date": "2026-10-09",
+        "r1": {
+          "decision": "exclude",
+          "criterion": "1",
+          "reason": "Colombian One Health review of influenza; no Nigerian data or Nigerian AIV."
+        },
+        "r2": {
+          "decision": "exclude",
+          "criterion": "1",
+          "reason": "Colombian One Health influenza review; no Nigerian data or AIV findings."
+        },
+        "adjudication": "both exclude (1/1)",
+        "conventions": "w3_screen_20261009/adjudication_conventions.md (W3-A1..A5)"
+      },
+      "final_status": "title_metadata_excluded",
+      "full_text_status": "title_metadata_excluded"
+    },
+    {
+      "canonical_id": "CAN-2144",
+      "title": "Influenza A Virus Infections in Dromedary Camels, Nigeria and Ethiopia, 2015-2017",
+      "year": 2020,
+      "doi": null,
+      "venue": "EMERGING INFECTIOUS DISEASES",
+      "source_lineage": [
+        "w1_rebuild_20261009"
+      ],
+      "w3_id": "W3-039",
+      "w3_source_set": [
+        "W1-search"
+      ],
+      "title_note": null,
+      "screening": {
+        "stage": "title_abstract",
+        "date": "2026-10-09",
+        "r1": {
+          "decision": "exclude",
+          "criterion": "2",
+          "reason": "Influenza A in dromedary camels (Nigeria and Ethiopia); non-avian hosts only."
+        },
+        "r2": {
+          "decision": "exclude",
+          "criterion": "2",
+          "reason": "Influenza A infection in dromedary camels; non-avian hosts, no avian AIV confirmation stated."
+        },
+        "adjudication": "both exclude (2/2)",
+        "conventions": "w3_screen_20261009/adjudication_conventions.md (W3-A1..A5)"
+      },
+      "final_status": "title_metadata_excluded",
+      "full_text_status": "title_metadata_excluded"
+    },
+    {
+      "canonical_id": "CAN-2145",
+      "title": "Influenza A Virus Infections in Dromedary Camels, Nigeria and Ethiopia, 2015-2017.",
+      "year": 2020,
+      "doi": "10.3201/eid2601.191165",
+      "venue": "Emerging infectious diseases",
+      "source_lineage": [
+        "w1_rebuild_20261009"
+      ],
+      "w3_id": "W3-040",
+      "w3_source_set": [
+        "W1-search"
+      ],
+      "title_note": null,
+      "screening": {
+        "stage": "title_abstract",
+        "date": "2026-10-09",
+        "r1": {
+          "decision": "exclude",
+          "criterion": "2",
+          "reason": "Duplicate camel record; non-avian hosts, no AIV in avian hosts or birds sampled."
+        },
+        "r2": {
+          "decision": "exclude",
+          "criterion": "2",
+          "reason": "Duplicate of W3-039; influenza A in camels, non-avian hosts, no avian AIV confirmation."
+        },
+        "adjudication": "both exclude (2/2)",
+        "conventions": "w3_screen_20261009/adjudication_conventions.md (W3-A1..A5)"
+      },
+      "final_status": "title_metadata_excluded",
+      "full_text_status": "title_metadata_excluded"
+    },
+    {
+      "canonical_id": "CAN-2146",
+      "title": "Seroepidemiology of seasonal influenza virus among unvaccinated pregnant women in Lagos, Nigeria.",
+      "year": 2020,
+      "doi": null,
+      "venue": "PubMed",
+      "source_lineage": [
+        "w1_rebuild_20261009"
+      ],
+      "w3_id": "W3-041",
+      "w3_source_set": [
+        "W1-search"
+      ],
+      "title_note": null,
+      "screening": {
+        "stage": "title_abstract",
+        "date": "2026-10-09",
+        "r1": {
+          "decision": "exclude",
+          "criterion": "2",
+          "reason": "Seasonal influenza serology in unvaccinated pregnant women, Lagos; human host only."
+        },
+        "r2": {
+          "decision": "exclude",
+          "criterion": "2",
+          "reason": "Seasonal influenza A (H1N1/H3N2) IgM serology in pregnant women; human-only, non-avian."
+        },
+        "adjudication": "both exclude (2/2)",
+        "conventions": "w3_screen_20261009/adjudication_conventions.md (W3-A1..A5)"
+      },
+      "final_status": "title_metadata_excluded",
+      "full_text_status": "title_metadata_excluded"
+    },
+    {
+      "canonical_id": "CAN-2147",
+      "title": "Major Emerging Viral Zoonosis Reported in Nigeria: A Review",
+      "year": 2021,
+      "doi": "10.36108/jvbs/1202.30.0250",
+      "venue": "Journal of Veterinary and Biomedical Sciences",
+      "source_lineage": [
+        "w2_citations_20261009"
+      ],
+      "w3_id": "W3-042",
+      "w3_source_set": [
+        "W2-citations"
+      ],
+      "title_note": null,
+      "screening": {
+        "stage": "title_abstract",
+        "date": "2026-10-09",
+        "r1": {
+          "decision": "exclude",
+          "criterion": "4",
+          "reason": "Narrative review of emerging zoonoses in Nigeria; no primary AIV epidemiological or molecular data."
+        },
+        "r2": {
+          "decision": "exclude",
+          "criterion": "4",
+          "reason": "Narrative review of emerging zoonoses in Nigeria; no primary or extractable AIV data."
+        },
+        "adjudication": "both exclude (4/4)",
+        "conventions": "w3_screen_20261009/adjudication_conventions.md (W3-A1..A5)"
+      },
+      "final_status": "title_metadata_excluded",
+      "full_text_status": "title_metadata_excluded"
+    },
+    {
+      "canonical_id": "CAN-2148",
+      "title": "Seroprevalence of Equine Influenza and Its Associated Risk Factors in Northwest Nigeria.",
+      "year": 2022,
+      "doi": "10.3390/pathogens11111372",
+      "venue": "Pathogens (Basel, Switzerland)",
+      "source_lineage": [
+        "w1_rebuild_20261009"
+      ],
+      "w3_id": "W3-043",
+      "w3_source_set": [
+        "W1-search"
+      ],
+      "title_note": null,
+      "screening": {
+        "stage": "title_abstract",
+        "date": "2026-10-09",
+        "r1": {
+          "decision": "exclude",
+          "criterion": "2",
+          "reason": "Equine influenza seroprevalence in horses, northwest Nigeria; non-avian host."
+        },
+        "r2": {
+          "decision": "exclude",
+          "criterion": "2",
+          "reason": "Equine influenza H3N8 seroprevalence in Nigerian horses; equine-only, non-avian."
+        },
+        "adjudication": "both exclude (2/2)",
+        "conventions": "w3_screen_20261009/adjudication_conventions.md (W3-A1..A5)"
+      },
+      "final_status": "title_metadata_excluded",
+      "full_text_status": "title_metadata_excluded"
+    },
+    {
+      "canonical_id": "CAN-2149",
+      "title": "Bird flu: Nigeria is on major migratory bird routes, new strains keep appearing",
+      "year": 2023,
+      "doi": "https://doi.org/10.64628/aaj.qddm3ft7c",
+      "venue": null,
+      "source_lineage": [
+        "w1_rebuild_20261009"
+      ],
+      "w3_id": "W3-044",
+      "w3_source_set": [
+        "W1-search"
+      ],
+      "title_note": null,
+      "screening": {
+        "stage": "title_abstract",
+        "date": "2026-10-09",
+        "r1": {
+          "decision": "unsure",
+          "criterion": "5",
+          "reason": "Migratory-bird-route bird flu piece; commentary versus study undecidable with no venue and no abstract."
+        },
+        "r2": {
+          "decision": "exclude",
+          "criterion": "4",
+          "reason": "News commentary on bird flu and migratory routes; no primary data or methods."
+        },
+        "adjudication": "unsure by one or both",
+        "conventions": "w3_screen_20261009/adjudication_conventions.md (W3-A1..A5)"
+      },
+      "final_status": "full_text_excluded",
+      "full_text_status": "excluded",
+      "full_text_screening": {
+        "date": "2026-10-09",
+        "basis": "full text",
+        "reason": "no primary data",
+        "evidence": "Full text retrieved 2026-10-09 (The Conversation): news commentary, no primary or surveillance data."
+      },
+      "retrieval": {
+        "outcome": "fulltext",
+        "files": [
+          "retrieved/W3-044.html"
+        ],
+        "log": "w3_retrieval_20261009/retrieval_log.json"
+      }
+    },
+    {
+      "canonical_id": "CAN-2150",
+      "title": "Continuous Circulation of Equine Influenza Virus (H3n8) Florida Clade 1 (Fc-1) Among Donkeys and Horses Population Sold and Slaughtered in Ebonyi State, South Eastern Nigeria, 2022",
+      "year": 2024,
+      "doi": "10.2139/ssrn.4803648",
+      "venue": "SSRN Electronic Journal",
+      "source_lineage": [
+        "w2_citations_20261009"
+      ],
+      "w3_id": "W3-045",
+      "w3_source_set": [
+        "W2-citations"
+      ],
+      "title_note": null,
+      "screening": {
+        "stage": "title_abstract",
+        "date": "2026-10-09",
+        "r1": {
+          "decision": "exclude",
+          "criterion": "2",
+          "reason": "Equine influenza H3N8 circulating in donkeys and horses, Ebonyi State; non-avian hosts."
+        },
+        "r2": {
+          "decision": "exclude",
+          "criterion": "2",
+          "reason": "Equine influenza H3N8 in donkeys and horses, Ebonyi; non-avian host."
+        },
+        "adjudication": "both exclude (2/2)",
+        "conventions": "w3_screen_20261009/adjudication_conventions.md (W3-A1..A5)"
+      },
+      "final_status": "title_metadata_excluded",
+      "full_text_status": "title_metadata_excluded"
+    },
+    {
+      "canonical_id": "CAN-2151",
+      "title": "Influenza A virus antibodies in horses and pigs in Nigeria: The need for One Health approach",
+      "year": 2024,
+      "doi": "https://doi.org/10.1016/j.microb.2024.100039",
+      "venue": "The Microbe",
+      "source_lineage": [
+        "w1_rebuild_20261009"
+      ],
+      "w3_id": "W3-046",
+      "w3_source_set": [
+        "W1-search"
+      ],
+      "title_note": null,
+      "screening": {
+        "stage": "title_abstract",
+        "date": "2026-10-09",
+        "r1": {
+          "decision": "exclude",
+          "criterion": "2",
+          "reason": "Influenza A antibodies in horses and pigs, Nigeria; non-avian hosts only."
+        },
+        "r2": {
+          "decision": "exclude",
+          "criterion": "2",
+          "reason": "Influenza A antibodies in Nigerian horses and pigs; non-avian hosts only."
+        },
+        "adjudication": "both exclude (2/2)",
+        "conventions": "w3_screen_20261009/adjudication_conventions.md (W3-A1..A5)"
+      },
+      "final_status": "title_metadata_excluded",
+      "full_text_status": "title_metadata_excluded"
+    },
+    {
+      "canonical_id": "CAN-2152",
+      "title": "Influenza A virus antibodies in horses and pigs in Nigeria: The need for One Health approach",
+      "year": 2024,
+      "doi": null,
+      "venue": "MICROBE",
+      "source_lineage": [
+        "w1_rebuild_20261009"
+      ],
+      "w3_id": "W3-047",
+      "w3_source_set": [
+        "W1-search"
+      ],
+      "title_note": null,
+      "screening": {
+        "stage": "title_abstract",
+        "date": "2026-10-09",
+        "r1": {
+          "decision": "exclude",
+          "criterion": "2",
+          "reason": "Duplicate record of horse and pig influenza A antibody survey; non-avian hosts."
+        },
+        "r2": {
+          "decision": "exclude",
+          "criterion": "2",
+          "reason": "Duplicate of W3-046; influenza A antibodies in horses and pigs, non-avian hosts."
+        },
+        "adjudication": "both exclude (2/2)",
+        "conventions": "w3_screen_20261009/adjudication_conventions.md (W3-A1..A5)"
+      },
+      "final_status": "title_metadata_excluded",
+      "full_text_status": "title_metadata_excluded"
+    },
+    {
+      "canonical_id": "CAN-2153",
+      "title": "Participatory Epidemiology and Sero-Surveillance for Avian Influenza in Local Chicken at Live bird Market and House Holds in Enugu State, Nigeria",
+      "year": 2024,
+      "doi": null,
+      "venue": "Nigerian Journal of Animal Production",
+      "source_lineage": [
+        "w1_rebuild_20261009"
+      ],
+      "w3_id": "W3-048",
+      "w3_source_set": [
+        "W1-search"
+      ],
+      "title_note": null,
+      "screening": {
+        "stage": "title_abstract",
+        "date": "2026-10-09",
+        "r1": {
+          "decision": "include",
+          "criterion": "n/a",
+          "reason": "Sero-surveillance for AIV antibodies in local chickens plus participatory epidemiology, Enugu State."
+        },
+        "r2": {
+          "decision": "include",
+          "criterion": "n/a",
+          "reason": "Avian influenza sero-surveillance in Nigerian local chickens plus participatory epidemiology; avian hosts, AGID testing."
+        },
+        "adjudication": "include by one or both",
+        "conventions": "w3_screen_20261009/adjudication_conventions.md (W3-A1..A5)"
+      },
+      "final_status": "full_text_excluded",
+      "full_text_status": "excluded",
+      "full_text_screening": {
+        "date": "2026-10-09",
+        "basis": "abstract (full text unobtainable via legal open routes)",
+        "reason": "no laboratory-confirmed avian AIV",
+        "evidence": "Abstract: all 200 sera from local chickens negative for AIV antibodies (AGID); a negative-only survey cannot establish circulation."
+      },
+      "retrieval": {
+        "outcome": "abstract_only",
+        "files": [],
+        "log": "w3_retrieval_20261009/retrieval_log.json"
+      }
+    },
+    {
+      "canonical_id": "CAN-2154",
+      "title": "Use of Geographic Information System (GIS) to Determine Pattern of Spread of Highly Pathogenic Avian Influenza in Nigeria: A Strategy for Public Health Surveillance",
+      "year": 2024,
+      "doi": null,
+      "venue": "International Journal of Health and Medical Information (IJHMI)",
+      "source_lineage": [
+        "w1_rebuild_20261009"
+      ],
+      "w3_id": "W3-049",
+      "w3_source_set": [
+        "W1-search"
+      ],
+      "title_note": null,
+      "screening": {
+        "stage": "title_abstract",
+        "date": "2026-10-09",
+        "r1": {
+          "decision": "exclude",
+          "criterion": "4",
+          "reason": "Conceptual GIS discussion of surveillance strategy; no extractable primary epidemiological data."
+        },
+        "r2": {
+          "decision": "unsure",
+          "criterion": "5",
+          "reason": "GIS use for HPAI spread in Nigeria; abstract reports no results, so extractable spatial data unclear."
+        },
+        "adjudication": "unsure by one or both",
+        "conventions": "w3_screen_20261009/adjudication_conventions.md (W3-A1..A5)"
+      },
+      "final_status": "full_text_excluded",
+      "full_text_status": "excluded",
+      "full_text_screening": {
+        "date": "2026-10-09",
+        "basis": "abstract (full text unobtainable via legal open routes)",
+        "reason": "no primary data",
+        "evidence": "Abstract is a conceptual GIS strategy piece; no primary data or results reported."
+      },
+      "retrieval": {
+        "outcome": "abstract_only",
+        "files": [],
+        "log": "w3_retrieval_20261009/retrieval_log.json"
+      }
+    },
+    {
+      "canonical_id": "CAN-2155",
+      "title": "Continuous Circulation of Equine Influenza Virus (H3n8) Florida Clade 1 Among Population of Donkeys and Horses Sold and Slaughtered in Ebonyi State, Southeastern Nigeria, 2022",
+      "year": 2025,
+      "doi": "10.2139/ssrn.5114393",
+      "venue": "SSRN Electronic Journal",
+      "source_lineage": [
+        "w2_citations_20261009"
+      ],
+      "w3_id": "W3-050",
+      "w3_source_set": [
+        "W2-citations"
+      ],
+      "title_note": null,
+      "screening": {
+        "stage": "title_abstract",
+        "date": "2026-10-09",
+        "r1": {
+          "decision": "exclude",
+          "criterion": "2",
+          "reason": "Equine influenza H3N8 in donkeys and horses, Ebonyi State; non-avian hosts."
+        },
+        "r2": {
+          "decision": "exclude",
+          "criterion": "2",
+          "reason": "Equine influenza H3N8 circulation in donkeys and horses; non-avian host, probable duplicate of W3-045."
+        },
+        "adjudication": "both exclude (2/2)",
+        "conventions": "w3_screen_20261009/adjudication_conventions.md (W3-A1..A5)"
+      },
+      "final_status": "title_metadata_excluded",
+      "full_text_status": "title_metadata_excluded"
+    },
+    {
+      "canonical_id": "CAN-2156",
+      "title": "Genomic and Molecular Diversity of Influenza Viruses Circulating in Abuja, Nigeria: A Scoping Review",
+      "year": 2026,
+      "doi": "https://doi.org/10.51244/ijrsi.2026.13020065",
+      "venue": "International journal of research and scientific innovation",
+      "source_lineage": [
+        "w1_rebuild_20261009"
+      ],
+      "w3_id": "W3-051",
+      "w3_source_set": [
+        "W1-search"
+      ],
+      "title_note": null,
+      "screening": {
+        "stage": "title_abstract",
+        "date": "2026-10-09",
+        "r1": {
+          "decision": "exclude",
+          "criterion": "2",
+          "reason": "Scoping review of human seasonal influenza in Abuja; no avian AIV and no primary data."
+        },
+        "r2": {
+          "decision": "exclude",
+          "criterion": "2",
+          "reason": "Scoping review of human seasonal influenza A and B in Abuja; non-avian, human-only viruses."
+        },
+        "adjudication": "both exclude (2/2)",
+        "conventions": "w3_screen_20261009/adjudication_conventions.md (W3-A1..A5)"
+      },
+      "final_status": "title_metadata_excluded",
+      "full_text_status": "title_metadata_excluded"
+    },
+    {
+      "canonical_id": "CAN-2157",
+      "title": "Molecular characterization and phylogeography of equine influenza virus H3N8 detected in donkeys in Nigeria 2022–2023",
+      "year": 2026,
+      "doi": "10.1186/s12917-025-05279-6",
+      "venue": "BMC Veterinary Research",
+      "source_lineage": [
+        "w2_citations_20261009"
+      ],
+      "w3_id": "W3-052",
+      "w3_source_set": [
+        "W2-citations"
+      ],
+      "title_note": null,
+      "screening": {
+        "stage": "title_abstract",
+        "date": "2026-10-09",
+        "r1": {
+          "decision": "exclude",
+          "criterion": "2",
+          "reason": "Equine influenza H3N8 detected in Nigerian donkeys; non-avian host."
+        },
+        "r2": {
+          "decision": "exclude",
+          "criterion": "2",
+          "reason": "Whole-genome analysis of equine influenza H3N8 in donkeys; non-avian host."
+        },
+        "adjudication": "both exclude (2/2)",
+        "conventions": "w3_screen_20261009/adjudication_conventions.md (W3-A1..A5)"
+      },
+      "final_status": "title_metadata_excluded",
+      "full_text_status": "title_metadata_excluded"
     }
   ],
   "counts": {
     "date_flagged": 6,
-    "canonical_identities": 2105,
+    "canonical_identities": 2157,
     "pilot": 40,
     "prior_vote_entries": 2202,
     "not_started": 0,
@@ -126376,7 +128293,13 @@
     "scholar_rerun_retained": 26,
     "scholar_rerun_excluded": 190,
     "duplicate_records_removed_scholar_rerun": 12,
-    "unique_identities": 2093
+    "unique_identities": 2093,
+    "title_metadata_excluded": 1803,
+    "full_text_candidates": 342,
+    "provisional_full_text_eligible": 127,
+    "full_text_excluded": 117,
+    "report_not_retrieved": 98,
+    "duplicate_record_removed": 12
   },
   "metadata": {
     "eligibility_anchor": "Nigeria-specific HPAI/LPAI with epidemiological, molecular/phylogenetic, or spatial/temporal data; 2006-2026",
@@ -126389,9 +128312,9 @@
     "pilot_size": 40,
     "created": "2026-09-20",
     "pilot_selection": "Deterministic title-keyword strata, canonical_id order.",
-    "status": "2093 unique identities (12 duplicate records removed); full-text gate closed after human verification: 325 candidates = 126 provisional retain + 111 excluded + 88 not retrieved; report counts, pending report-to-study linkage",
+    "status": "2157 records; W1/W2 update search integrated on 2026-10-09: +52 records (35 title-excluded, 10 not retrieved, 3 excluded, 4 retained abstract-only); 325+17 = 342 full-text candidates = 127 retained + 117 excluded + 98 not retrieved; duplicates removed 12",
     "prior_votes": "Retained as lineage-level evidence; precollapse aggregate votes remain explicitly discarded and are not inherited silently.",
-    "last_update": "2026-09-29",
+    "last_update": "2026-10-09",
     "b19_note": "The earlier B19 CAN-0241-CAN-0280 pass was a duplicate-range audit/retrieval pilot and is non-additive to the 1,877 identity denominator.",
     "b20_note": "True uncovered gap CAN-0341-CAN-0380 screened by R1/R2; final 4 retained and 36 excluded after one two-record decision swap.",
     "screening_method": "Fresh independent R1/R2 title/metadata reconstruction in 100-record blocks; conservative union adjudication, with prior pilot/B20 evidence-supported decisions preserved.",
@@ -126810,6 +128733,43 @@
         "STU-032 (CAN-0356 excluded 2026-10-02; IDs not renumbered)",
         "STU-070 (CAN-1558 excluded 2026-10-02; IDs not renumbered)"
       ]
+    },
+    "status_history": [
+      {
+        "status": "2093 unique identities (12 duplicate records removed); full-text gate closed after human verification: 325 candidates = 126 provisional retain + 111 excluded + 88 not retrieved; report counts, pending report-to-study linkage",
+        "last_update": "2026-09-29",
+        "superseded_on": "2026-10-09",
+        "note": "Pre-linkage summary (126 provisional retain + 111 excluded); superseded when the linkage was merged. The per-record final_status fields were already 123/114/88 at this date."
+      },
+      {
+        "status": "2093 unique identities (12 duplicate records removed); full-text gate closed and report-to-study linkage complete: 325 full-text candidates = 123 provisional retain + 114 excluded + 88 not retrieved (123 reports = 110 studies); counts regenerated from the per-record final_status fields on 2026-10-09",
+        "last_update": "2026-10-09",
+        "superseded_on": "2026-10-09",
+        "note": "Before the W1/W2 update-search integration (52 records, CAN-2106+)."
+      }
+    ],
+    "w1w2_update_20261009": {
+      "date": "2026-10-09",
+      "records_added": 52,
+      "source": "W1 search rebuild + W2 citation chasing (file 59 improvement plan)",
+      "screening": "blind R1/R2 (agreement 48/52 = 92.3%, kappa 0.852); adjudicated with conventions W3-A1..A5",
+      "outcomes": {
+        "title_metadata_excluded": 35,
+        "report_not_retrieved": 10,
+        "full_text_excluded": 3,
+        "provisional_full_text_eligible_(abstract_only)": 4
+      },
+      "files": {
+        "packet": "w3_screen_20261009/packet.json",
+        "votes": "w3_screen_20261009/votes/",
+        "adjudicated": "w3_screen_20261009/adjudicated.json",
+        "retrieval": "w3_retrieval_20261009/retrieval_log.json"
+      },
+      "new_id_range": [
+        "CAN-2106",
+        "CAN-2157"
+      ],
+      "notes": "Legal open routes only; 10 not retrievable; 4 retained at abstract level pending linkage; W2 re-chase of 43 quota-blocked seeds scheduled after the OpenAlex daily reset."
     }
   }
 }

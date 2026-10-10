@@ -1,0 +1,150 @@
+{
+  "_about": "Figure 3 timeline ranges. Every value drawn in figure3() is read from this file; no range literal is typed into a drawing call. Values are curated by hand and each entry names the evidence it rests on ('source', and 'rows' where study rows underpin it). Ratings are the adjudicated certainty ratings from synthesis/SWIM_NARRATIVE.md. build_figures.py validates this file (it stops if the file is missing or malformed) and prints every range with its source into validation_table.txt.",
+  "decimal_year_convention": "A calendar year Y is drawn as the interval [Y.00, (Y+1).00); a bar closed at Y.99 therefore covers through December of year Y. A month M of year Y maps to Y + (M-1)/12 (month-start convention), so November 2014 is 2014.83.",
+  "waves": [
+    {
+      "label": "Epizootic wave 1",
+      "start": 2006.0,
+      "end": 2008.99,
+      "rating": "Low (existence)",
+      "source": "SWIM_NARRATIVE.md claim (b1) 'Two major epizootics, 2006-08 and 2015-17'",
+      "rows": []
+    },
+    {
+      "label": "Epizootic wave 2",
+      "start": 2015.0,
+      "end": 2017.99,
+      "rating": "Low (existence)",
+      "source": "SWIM_NARRATIVE.md claim (b1) 'Two major epizootics, 2006-08 and 2015-17'",
+      "rows": []
+    }
+  ],
+  "wave_timing_rating": "Very low",
+  "lull": {
+    "label": "Lull in reported HPAI",
+    "start": 2009.0,
+    "end": 2014.83,
+    "rating": "Very low",
+    "source": "SWIM_NARRATIVE.md claim (b2) 'the 2009 to Nov 2014 lull in reported HPAI'",
+    "rows": []
+  },
+  "clades": [
+    {
+      "name": "2.2",
+      "start": 2006.0,
+      "end": 2008.99,
+      "rating": "h, Low",
+      "source": "SWIM_NARRATIVE.md claim (h) 'Clade 2.2 and its sublineages, 2006-08'; t1.json clade 2.2 earliest 2006-03",
+      "rows": [
+        "STU-108#2"
+      ]
+    },
+    {
+      "name": "2.3.2.1c",
+      "start": 2015.0,
+      "end": 2016.99,
+      "continuation_to": 2026.0,
+      "continuation_label": "no later evidence retrieved",
+      "rating": "i, Low",
+      "source": "SWIM_NARRATIVE.md claim (i) 'Clade 2.3.2.1c from 2015' (Low); latest evidenced point STU-023#1 (2016-01 to 2016-06)",
+      "rows": [
+        "STU-023#1",
+        "STU-066#0",
+        "STU-067#0"
+      ]
+    },
+    {
+      "name": "2.3.4.4b",
+      "start": 2021.0,
+      "end": 2026.0,
+      "rating": "j1, Low",
+      "source": "SWIM_NARRATIVE.md claim (j1) 'Clade 2.3.4.4b present in 2021-26' (Low)",
+      "rows": [
+        "STU-072",
+        "STU-038",
+        "STU-039"
+      ]
+    }
+  ],
+  "onset": {
+    "start": 2019.0,
+    "end": 2021.0,
+    "rating": "j2, Very low",
+    "source": "SWIM_NARRATIVE.md claim (j2) 'Onset of 2.3.4.4 in 2016 or 2019' (Very low); t1.json clade 2.3.4.4b earliest 2019-06",
+    "rows": [
+      "STU-071#1"
+    ]
+  },
+  "reassortment": {
+    "rating": "k1, Low",
+    "source": "SWIM_NARRATIVE.md claim (k1) 'segment incongruence in several studies across eras (2006-07 and 2015-16)' (Low)",
+    "rows": [
+      "STU-040",
+      "STU-062",
+      "STU-063",
+      "STU-064",
+      "STU-023"
+    ],
+    "spans": [
+      {
+        "start": 2006.0,
+        "end": 2007.99
+      },
+      {
+        "start": 2015.0,
+        "end": 2016.99
+      }
+    ]
+  },
+  "turnover": {
+    "start": 2006.0,
+    "end": 2026.0,
+    "rating": "l1, Low",
+    "source": "SWIM_NARRATIVE.md claim (l1) 'Clade-level turnover: 2.2, then 2.3.2.1c, then 2.3.4.4b' (Low)",
+    "rows": []
+  },
+  "first_detections": [
+    {
+      "subtype": "H5N1",
+      "claim": "a",
+      "rating": "Low",
+      "month_reported": true,
+      "value_source": "t1.json subtype.H5N1.earliest.start_ym [2006, 1]",
+      "rows": [
+        "STU-034#0",
+        "STU-111#0"
+      ]
+    },
+    {
+      "subtype": "H5N8",
+      "claim": "c",
+      "rating": "Very low",
+      "month_reported": true,
+      "value_source": "t1.json subtype.H5N8.earliest.start_ym [2016, 11]",
+      "rows": [
+        "STU-033#2"
+      ]
+    },
+    {
+      "subtype": "H5N6",
+      "claim": "c",
+      "rating": "Very low",
+      "month_reported": true,
+      "value_source": "t1.json subtype.H5N6.earliest.start_ym [2019, 6]",
+      "rows": [
+        "STU-071#1"
+      ]
+    },
+    {
+      "subtype": "H9N2",
+      "claim": "c",
+      "rating": "Very low",
+      "month_reported": false,
+      "note": "month not reported",
+      "value_source": "t1.json subtype.H9N2.earliest.start_ym [2019, null] - only the year is evidenced, so x is plotted at the start of 2019",
+      "rows": [
+        "STU-071#0"
+      ]
+    }
+  ]
+}

@@ -19,3 +19,6 @@ tmp/pdfs/.venv/
 .vscode/
 .idea/
 
+**/.codewhale/*
+!**/.codewhale/constitution.json
+.deepseek/
