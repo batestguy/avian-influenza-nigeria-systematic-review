@@ -31,16 +31,16 @@ Both figures are built by script (`tmp/w5_fix/build_figures.py`) from the extrac
 From the deliverable [`Workflow Completion Record (10 Oct 2026)`](output/docx/AvianInfluenzaSysRev_Workflow_Completion_Record_20261010.pdf). All phases are complete.
 
 ```mermaid
-flowchart LR
-  P0[0 Protocol<br/>frozen 16 Sep] --> P1[1 Search<br/>6 sources + Scholar]
-  P1 --> P2[2 Register and screening<br/>2,157 records]
-  P2 --> P3[3 Retrieval<br/>legal open routes]
-  P3 --> P4[4 Extraction<br/>113 studies, dual blind]
-  P4 --> P5[5 Risk of bias<br/>JBI + molecular check]
-  P5 --> P6[6 Synthesis<br/>SWiM S1–S5]
-  P6 --> P7[7 Figures<br/>map + timeline]
-  P7 --> P8[8 October update search<br/>17,037 retrieved]
-  P8 --> P9[9 Manuscript build<br/>and checks]
+flowchart TB
+  subgraph A[" "]
+    direction LR
+    P0[0 Protocol<br/>frozen 16 Sep] --> P1[1 Search<br/>6 sources + Scholar] --> P2[2 Screening<br/>2,157 records] --> P3[3 Retrieval<br/>legal open routes] --> P4[4 Extraction<br/>113 studies]
+  end
+  subgraph B[" "]
+    direction LR
+    P5[5 Risk of bias<br/>JBI + molecular] --> P6[6 Synthesis<br/>SWiM S1–S5] --> P7[7 Figures<br/>map + timeline] --> P8[8 Update search<br/>17,037 retrieved] --> P9[9 Manuscript<br/>build and checks]
+  end
+  A --> B
 ```
 
 | Phase | Evidence |
