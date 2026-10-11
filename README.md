@@ -10,9 +10,62 @@ The review is **complete** and the October improvement cycle is committed (close
 
 - Register (`Workbench/56_SCREENING_RECONCILIATION.json`): **2,157 records** = 1,803 title-excluded + 342 full-text candidates (127 retain / 117 exclude / 98 not retrieved) + 12 duplicates (verified 10 Oct 2026). Flow: 1,877 database arm + 228 Scholar update-search + 52 October update-search records.
 - Deliverables also in `output/`: the workflow completion record (PDF and Word, clean and AI-highlighted) and `tmp/ai_review_20261010/` (the AI-mention review copy of the manuscript).
-- Working tree (extraction, RoB, synthesis, manuscript build): `D:\AvianInfluenzaSysRev_retrieval_20260927\`.
+- Working tree (extraction, RoB, synthesis, manuscript build): `D:\AvianInfluenzaSysRev\AvianInfluenzaSysRev_retrieval_20260927\`.
 - Signposts: `Workbench/15_RUN_LOG.md`, `Workbench/56_SCREENING_RECONCILIATION.json`, `Workbench/57_NEXT_SESSION_HANDOFF_20260922.md`, `Workbench/59_IMPROVEMENT_PLAN_20261008.md`, `Workbench/60_APPRAISAL_20261009.md`.
 - Everything below dated 20 September 2026 is **historical** and superseded by this block.
+
+## Figures
+
+Both figures are built by script (`tmp/w5_fix/build_figures.py`) from the extraction tables, with provenance-validated ranges. Full-resolution PNG and PDF versions are embedded in the manuscript.
+
+**Figure 2. Laboratory-confirmed avian influenza evidence by state and epoch, 2006–2026.** Panel counts are states (plus the FCT) with laboratory-confirmed evidence in that epoch. Light blue marks official reports only; hatching marks antibody or antigen markers without confirmed infection.
+
+![Six maps of Nigeria by state, one per epoch (2006–2010, 2011–2014, 2015–2020, 2021–2026, multi-epoch, date not reported), shading states with laboratory-confirmed avian influenza evidence](docs/figures/fig2_states_epochs.png)
+
+**Figure 3. Epizootic waves, subtype introductions and clade turnover, 2006–2026.** Clade-level turnover runs 2.2 → 2.3.2.1c → 2.3.4.4b. Each element carries its synthesis code and GRADE-style certainty (Low or Very low).
+
+![Timeline from 2006 to 2026 showing two epizootic waves, a 2009–2014 lull, H5N1, H5N8, H9N2 and H5N6 introductions, and bars for clades 2.2, 2.3.2.1c and 2.3.4.4b](docs/figures/fig3_timeline.png)
+
+## Workflow
+
+From the deliverable [`Workflow Completion Record (10 Oct 2026)`](output/docx/AvianInfluenzaSysRev_Workflow_Completion_Record_20261010.pdf). All phases are complete.
+
+```mermaid
+flowchart LR
+  P0[0 Protocol<br/>frozen 16 Sep] --> P1[1 Search<br/>6 sources + Scholar]
+  P1 --> P2[2 Register and screening<br/>2,157 records]
+  P2 --> P3[3 Retrieval<br/>legal open routes]
+  P3 --> P4[4 Extraction<br/>113 studies, dual blind]
+  P4 --> P5[5 Risk of bias<br/>JBI + molecular check]
+  P5 --> P6[6 Synthesis<br/>SWiM S1–S5]
+  P6 --> P7[7 Figures<br/>map + timeline]
+  P7 --> P8[8 October update search<br/>17,037 retrieved]
+  P8 --> P9[9 Manuscript build<br/>and checks]
+```
+
+| Phase | Evidence |
+|---|---|
+| 0. Protocol and eligibility | Frozen 16 September 2026 and re-frozen as amendments were taken; amendments dated and graded; registration position recorded honestly, not backdated. |
+| 1. Search | Six original sources (PubMed, OpenAlex/Crossref, Scopus, ScienceDirect, Web of Science, AJOL), 16–20 September 2026; Google Scholar update search 28 September; strategies rebuilt with the caps removed and citation chasing closed 10 October 2026. |
+| 2. Register and screening | 2,157 records final; two independent AI reviewers working blind, with a third AI agent as arbiter; agreement reported per stage. |
+| 3. Retrieval | Legal open routes only; 98 reports not retrieved, disclosed with the direction of effect. |
+| 4. Extraction | 113 studies; dual blind extraction with adjudication against the source texts. |
+| 5. Risk of bias and certainty | JBI checklists plus a seven-item molecular transparency check; 14 high-risk studies; 13 studies with molecular caps; item agreement 79.3%. |
+| 6. Synthesis | SWiM groupings S1–S5; four sensitivity analyses; all assertions pass at coverage 113. |
+| 7. Figures | State × epoch map and clade/wave timeline, both built by script with provenance-validated ranges. |
+| 8. October update search | 17,037 records retrieved by the rebuilt strategies; citation chasing closed at 88/123 seeds with 0 errors; 52-record packet screened blind; 4 studies retained abstract-only. |
+| 9. Manuscript build and checks | 145 references (4 flagged, disclosed); `verify.py` PASS; docx validation PASSED; 96-page render including appendices, with Figures 2–3 embedded. |
+
+Agreement figures describe agreement between AI agents, not between humans.
+
+<details>
+<summary>Pages 1–2 of the completion record</summary>
+
+![Workflow completion record, page 1: status at a glance (register 2,157; 127 reports / 113 studies; manuscript PASS) and phases 0–6](docs/figures/workflow_record_p1.png)
+
+![Workflow completion record, page 2: phases 7–9 and remaining items](docs/figures/workflow_record_p2.png)
+
+</details>
 
 ## Authority and scope
 
